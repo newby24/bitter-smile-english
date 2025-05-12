@@ -1,0 +1,681 @@
+﻿// 既読フラグ
+#read_flag,205
+
+// セーブタイトル
+#flag,save_title,勇樹　第８話,0,0
+
+// 勇樹好感度＋１。
+#flag,per,2,+,1
+
+// 勇樹ルート決定。
+#flag,per,5,=,2
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_ROKA01A );
+
+//	BFP( BGM_KEIKAI );
+#sp,env,S_Gaya01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第８話　備えあれば
+$k
+#note,erase
+
+#show
+
+&empty
+昼休み。
+$k
+
+&empty
+昼飯も食い終わったし、どうするかな。
+$k
+
+&empty
+そういえば、課題図書があったんだっけ？
+図書室に行けば借りられるか。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_TOSYOSHITSU01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_TOSYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+お、あれは、宮津橋じゃないか。
+$k
+
+&empty
+図書室の机の上に大量の参考書を積んで、
+宮津橋が勉強をしていた。
+$k
+
+優
+「よお、宮津橋」
+$k
+
+&empty
+宮津橋は顔をあげると、迷惑そうな表情で
+俺の方を見た。
+$k
+
+//	SetStandEx( CENTER, ISAKI_A201KB );
+//	FadeStand( CENTER, 50, FADE_ALPHA, 100 );
+//	MoveStand( CENTER, 0, 0, 100 );
+
+#sp,bgm,BGM_ISAKI
+
+// ISAKI_A201KB
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010151
+勇樹
+「うるさい、邪魔だ」
+$k
+
+優
+「なんだよ、そんな邪険にする事ないだろ」
+$k
+
+&empty
+まあ、でも、勉強の邪魔になるのも悪いか。
+$k
+
+&empty
+そう思って、本を探しに行こうとした俺を
+宮津橋が引き留めた。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010152
+勇樹
+「……待て。ちょっとここに座っていろ」
+$k
+
+優
+「どういう風の吹き回し……って、ああ」
+$k
+
+&empty
+周りを見渡すと、その理由がすぐに分かった。
+$k
+
+&empty
+ちらちらと宮津橋に視線を向けてくる
+男子が、何人か目に入る。
+$k
+
+&empty
+命知らずな……と思うが、
+おそらく宮津橋の事を知らないんだろう。
+$k
+
+優
+「虫除けな。わかった、わかった」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+とりあえず、宮津橋の向かいに椅子を引いて座る。
+$k
+
+&empty
+宮津橋は俺にちらっとだけ視線を送ると、
+後はノートに目を落として黙々と勉強を始めた。
+$k
+
+&empty
+微妙に退屈だ。
+$k
+
+&empty
+しかたなしに、宮津橋が使っていない参考書に
+手を伸ばす。
+$k
+
+&empty
+と、その中に過去の入試問題集を見つけた。
+目指す大学の問題を１０年分くらい載せたものだ。
+$k
+
+優
+「Ａ大……お前、こんな偏差値の高いとこ
+　受けるのか。すごいな」
+$k
+
+//	SetStandEx( CENTER, ISAKI_A202MU );
+//	FadeStand( CENTER, 50, FADE_ALPHA, 100 );
+//	MoveStand( CENTER, 0, 0, 100 );
+// ISAKI_A202MU
+
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010153
+勇樹
+「黙っていろと言ったはずだが」
+$k
+
+優
+「でも、虫除けにしたいなら、
+　多少は話くらいした方が自然じゃないか？」
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010154
+勇樹
+「…ここは図書室だ。
+　他人の迷惑を考えろ」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+お、おう…
+$k
+
+優
+「お前に言われるとはな…」
+$k
+
+//	SetIconQues( CENTER );
+//	SS( CENTER, ISAKI_A202KT );
+&empty
+宮津橋は小首をかしげて、俺の方を見た。
+$k
+
+//	DS( CENTER );
+
+&empty
+でも、すぐに手元のノートに視線を戻すと、
+再びノートに鉛筆を走らせる。
+$k
+
+&empty
+……しかし、退屈だ。
+$k
+
+&empty
+俺も勉強でもしようかな。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010155
+勇樹
+「…………」
+$k
+
+//	SetStandEx( CENTER, ISAKI_A202NO );
+//	FadeStand( CENTER, 50, FADE_ALPHA, 100 );
+//	MoveStand( CENTER, 0, 0, 100 );
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010156
+勇樹
+「お前は…どこだ？」
+$k
+
+&empty
+へっ？
+$k
+
+優
+「いや、俺はここにいるけど。
+　矢崎は目の前にいますよ？」
+$k
+
+// ISAKI_A202IK
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010157
+勇樹
+「そうじゃない。
+　お前はどこを受けるのかと聞いてるんだ」
+$k
+
+&empty
+あ、あー……受験の事か。
+$k
+
+優
+「Ｃ大かなあ。ほら、近いし。
+　元々こっちに戻ってきたのも、
+　そこを受けるためだしな」
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010158
+勇樹
+「そうか」
+$k
+
+&empty
+会話しないと不自然と言ったのが効いたのか、
+珍しく宮津橋から俺に質問をしてくれた。
+$k
+
+&empty
+……何で、こんな小さな事で喜んでしまうんだろう。
+単純だなあ、俺。
+$k
+
+優
+「まあ、たいしたとこじゃないけど、
+　俺の成績ならそんなもんだろ。
+　近いと通学も楽でいいしな」
+$k
+
+// ISAKI_A202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010159
+勇樹
+「…………ふむ」
+$k
+
+優
+「そういや、Ａ大だとちょっと遠いんだよな。
+　俺がいなくなったら不便じゃないか？」
+$k
+
+&empty
+主に虫除けとか、虫除けとか、虫除けとかの意味で。
+$k
+
+// ISAKI_A202KT
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010160
+勇樹
+「そう……だろうか？」
+$k
+
+優
+「あー、まあ、その時は
+　俺以外の奴に頼むからいいのか」
+$k
+
+&empty
+宮津橋は別に俺じゃなくてもいいだろうしな。
+$k
+
+&empty
+ちょっと…いや、結構悔しいけど……。
+$k
+
+// ISAKI_A202OD
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010161
+勇樹
+「あ、ああ……
+$nw,3060
+
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+　そうだな、うん」
+$k
+
+
+&empty
+ん？　何か返事が曖昧だな？
+$k
+
+&empty
+俺じゃないとダメとか……そんなわけはないよな。
+宮津橋に限って。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010162
+勇樹
+「そうか……お前以外の奴か……」
+#msmall
+$k
+
+優
+「何か言ったか？」
+$k
+
+&empty
+参考書を読んでいて、一瞬、聞こえなかった。
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010163
+勇樹
+「いや、なんでもない」
+$k
+
+//#sp,se,T_Paper01
+
+#sp,se,S_Chime01
+
+#ir
+#ie,c1
+#ig
+
+// 	WaitSE();
+
+// 	SFP2( 0, "S_Chime01" );
+
+&empty
+ぱたんと宮津橋がノートを閉じるのと同時に、
+昼休みの終了を告げるチャイムが鳴った。
+$k
+
+優
+「よし、教室に戻るか。
+　あ、本戻すの手伝おうか？」
+$k
+
+#ss,se
+#sp,se,S_Chair01
+
+// 	WaitSE();
+// 	SS( CENTER, ISAKI_0202NO );
+
+// ISAKI_0202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010164
+勇樹
+「……ああ、頼む」
+$k
+
+// 	MoveStand( CENTER, 50, 0, 0 );
+// 	MoveStand( CENTER, 200, 400, 0 );
+// 	ShakeStand( CENTER, 0, SHAKE_DOWN, 4, 20 );
+// 	FadeStand( CENTER, 50, FADE_ALPHA, 0 );
+
+// 	ShakeStand( CENTER, 1, SHAKE_DOWN, 4, 20 );
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+宮津橋のことだから断るかと思ったが、
+意外にもあっさりと申し出を受け入れた。
+$k
+
+&empty
+まあ、まださっき見てた奴らが居るからかな。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_ROKA01A );
+// 	SS( CENTER, ISAKI_A201NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+// ISAKI_A201NO
+
+#sp,vo,04010165
+勇樹
+「あと数ヶ月で卒業だな……」
+$k
+
+&empty
+肩を並べて歩きながら、宮津橋が呟く。
+$k
+
+優
+「そうだな」
+$k
+
+&empty
+数ヶ月したら、宮津橋との、この奇妙な関係も終わる。
+$k
+
+&empty
+どこかでそれを寂しいと思う俺がいた。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ただいま～」
+$k
+
+// 	SS( CENTER, MII_0702NO );
+
+// MII_0702NO
+#ir
+#ip,c1,(fi),MII_A702.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04030034
+みい
+「お帰りなさいませ、ご主人様」
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+優
+「あ、ゴメン。店間違えたわ」
+$k
+
+// MII_0703EG
+#ir
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04030035
+みい
+「そうですか。
+　では、いってらっしゃいませご主人様。
+$nw,4400
+
+#ir
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+　と、その前にこれをお持ちになってください」
+$k
+
+&empty
+明らかに俺を待ち構えていたらしい
+みいちゃんは、俺の手を取ると
+何かをつかませてくる。
+$k
+
+優
+「…財布とメモ？」
+$k
+
+// MII_0703TR3
+#ir
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03TR3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04030036
+みい
+「次にご来店の際には、そこに書かれたものを
+　手土産としてご持参いただけると、
+　もれなくスペシャルなサービスが…」
+$k
+
+優
+「なんかいかがわしい店になってないか？」
+$k
+
+// MII_0703KD
+#ir
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04030037
+みい
+「そういうサービスをお求めですか？
+　それでしたら追加料金をいただかないと
+　いけませんねぇ」
+$k
+
+優
+「求めてねぇ！
+　ってか、買出しなら普通に言ってくれよ」
+$k
+
+// MII_0703NI
+#ir
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03NI.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04030038
+みい
+「それでは面白さの欠片も…。
+$nw,3240
+
+#ir
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+　まあ、いいです。とりあえずお願いしますね」
+$k
+
+優
+「いや、俺、行くとは一言も。
+　今帰って来たところで…」
+$k
+
+//	SS( RIGHT, SAKURAKO_0703AK );
+// SAKURAKO_0602NR
+#ir
+#ip,c3,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02NR.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000039
+桜子
+「いいから行ってきなさいよ。
+　夕飯いらないの？」
+$k
+
+優
+「行ってきま～す」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_TENNAI01A );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ig
+
+#next,04isaki08_01

@@ -1,0 +1,837 @@
+﻿// 既読フラグ
+#read_flag,295
+
+#show
+
+&empty
+…完全に見失ってしまった。
+$k
+
+&empty
+どこかで曲がったんだろうか。
+$k
+
+&empty
+あの速さだったしな…
+桜子の奴、陸上部なみじゃねえか。
+$k
+
+優
+「何処に居るんだよ、桜子」
+$k
+
+&empty
+とにかく、思い当たるところを
+片っ端から探すしかねぇ。
+$k
+
+#hide
+
+#sp,se,S_Dash03o
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_RYUUSEN );
+
+// 	WaitSE( -1 );
+// 	SV( BG_HS_MAE01A );
+
+// 	RFI( RULE_RYUUSEN );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「おっちゃん、桜子いないかー？」
+$k
+
+// 	SS( CENTER, DAIGO_0301KM, MOVE_STOP, NORMAL );
+
+// DAIGO_0301KM
+#ir
+#ip,c1,(fi),DAIGO_A301KM.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090030
+沖奈大吾
+「桜子ちゃんかい？
+$nw,2500
+
+　来てないねえ」
+$k
+
+// DAIGO_0301TM
+#ir
+#ip,c1,(fi),DAIGO_A301TM.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090031
+沖奈大吾
+「それより今日はどうなってるんだ。
+　めぐみどころか勇樹ちゃんまで居なくなってるし」
+$k
+
+優
+「ごめんおっちゃん、それ多分俺のせいだ」
+$k
+
+// DAIGO_0301KD
+#ir
+#ip,c1,(fi),DAIGO_A301KD.png,(x),c,(s),75%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03090032
+沖奈大吾
+「ええ？
+$nw,600
+
+　それはどういう…」
+
+$k
+
+優
+「とにかく、今、急いでるから、また後でっ！」
+$k
+
+// DAIGO_0301KD
+#sp,vo,03090033
+沖奈大吾
+「あ、ああ…？」
+#meffect,flow,5
+$k
+
+#hide
+
+#sp,se,S_Dash03o
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_RYUUSEN );
+// 	WaitSE( -1 );
+
+// 	SV( BG_MT_TODOROKIMICHI01A );
+
+// 	RFI( RULE_RYUUSEN );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「はぁ、はぁ……」
+#meffect,flow,5
+$k
+
+&empty
+やっぱり何処にもいねぇ。
+$k
+
+&empty
+足、速すぎだって。
+$k
+
+優
+「くっそぉ～」
+$k
+
+#hide
+
+// 	SV( BG_SJ_GAIKAN01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01B.jpg,(s),100%
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	SS( CENTER, MII_0401KY2, MOVE_LEFT, NORMAL );
+
+#show
+
+// MII_0401KY2
+
+#sp,vo,03030103
+みい
+「あ、お兄様」
+$k
+
+優
+「みいちゃんっ！」
+#mlarge
+$k
+
+// MII_0401KY
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),550,(y),50
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03030104
+みい
+「まあお兄様、冬なのに凄い汗ですね。
+$nw,4000
+
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+　お店でラムネでも飲みますか？」
+
+$k
+
+優
+「今、炭酸はちょっと。
+　それより、桜子見かけなかった？」
+$k
+
+// MII_0401KY2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030105
+みい
+「…見ましたよ」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「マジでぇっ！？」
+#mlarge
+$k
+
+優
+「どど、どっ、どっち行った？」
+$k
+
+// MII_0402NO
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030106
+みい
+「はい、あちらの方にですね」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+あっちに？
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+優
+「…あっ」
+#meffect,flow,5
+$k
+
+&empty
+桜子が行きそうな所……
+$nw,1000
+
+あったかも。
+$k
+
+// MII_0402SP
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030107
+みい
+「どうかしましたか？」
+$k
+
+// 	SS( CENTER, MII_0402SP );
+
+優
+「あ、ありがとうみいちゃん、助かったよ。
+　俺、ちょっと行く所あるから」
+$k
+
+// MII_0402NO
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030108
+みい
+「姉上のところですね」
+$k
+
+優
+「…まあね」
+$k
+
+&empty
+その手には携帯。
+色々と…バレバレのようですね。
+$k
+
+優
+「行ってくる」
+$k
+
+// MII_0403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030109
+みい
+「はい。頑張って下さいね」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+もしそこに居るのなら、
+……それは更なる自信になるかもしれない。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TEIBO01A );
+
+// 	SS_( RIGHT, MEGUMI_0401EG4 );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG4.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02MU.png,(x),l,(s),60%
+#ig
+
+// 	SS( LEFT, ISAKI_0402MU );
+
+#show
+
+// MEGUMI_0401EG4
+#sp,vo,03070188
+めぐみ
+「桜子、喜んでたみたいだねぇ～」
+$k
+
+// ISAKI_0401MU
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010064
+勇樹
+「………」
+$k
+
+// MEGUMI_0401KS2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KS2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070189
+めぐみ
+「な～に～？　勇樹ちゃん不満そ～ぅ」
+$k
+
+// ISAKI_0401IK
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010065
+勇樹
+「なんの事だ？
+　続きを見届けられないのが心配なだけだ」
+$k
+
+// MEGUMI_0401KM3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070190
+めぐみ
+「そう？　ごめんねー？」
+$k
+
+// 	SS( CENTER, MEGUMI_0401BS3 );
+
+// MEGUMI_0401BS3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070191
+めぐみ
+「しっかし、うまくいくかな～、あの二人」
+$k
+
+// 	CS_( CENTER, RIGHT );
+// 	SS( LEFT, CHISEKA_0401KN, MOVE_LEFT, NORMAL );
+
+// CHISEKA_0401KN
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),l,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,03040119
+知世翔
+「はあ、先輩……」
+#meffect,flow,5
+$k
+
+// MEGUMI_0401KD
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KD.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070192
+めぐみ
+「なんだ、有河ちゃんも不服？」
+$k
+
+// CHISEKA_0401TR3
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03040120
+知世翔
+「私は納得いかない感じというか」
+$k
+
+// MEGUMI_0401BS4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070193
+めぐみ
+「でもさぁ、いいことだよね～？」
+$k
+
+// CHISEKA_0401IK2
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03040121
+知世翔
+「……そうですけどねっ！
+$nw,2900
+
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK4.png,(x),l,(s),60%
+#ig
+
+　ふーんだ！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_SABISHII
+
+// 	SV( BG_MT_JINJYAMAE02A );
+
+#sp,se,S_Dash03o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE02A.jpg,(s),100%
+#ig
+
+// 	WaitSE( -1 );
+
+#wait,1000
+
+#ss,se,(dr),1000
+
+#show
+
+&empty
+どのくらい走っただろう。
+息は切れるし、膝はガクガクだ。
+$k
+
+優
+「ぜぇ……ぜぇ……」
+#meffect,flow,5
+$k
+
+&empty
+桜子の行きそうな場所で思い付くのは、
+もうここ以外なかった。
+$k
+
+&empty
+この……苦い思い出の場所以外は。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Wind03
+
+// 	SV( BG_MT_JINJYAKEIDAI02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI02A.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,03000550
+桜子
+「………」
+$k
+
+&empty
+静まり返った神社の境内。
+$k
+
+&empty
+あの赤く流れる様な癖っ毛、
+……間違いない。
+$k
+
+&empty
+そこに桜子が居てくれた。
+$k
+
+優
+「桜子、お前足速すぎだよ…」
+$k
+
+// 	SS( CENTER, SAKURAKO_0401TR2, MOVE_LEFT, SLOW );
+
+#sp,bgm,BGM_YASURAGI
+
+// SAKURAKO_0401NK3
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000551
+桜子
+「優…」
+$k
+
+&empty
+桜子が俺の方を振り返って見てくれる。
+$k
+
+優
+「…とりあえずっ、３０秒だけ休憩させて…」
+$k
+
+// SAKURAKO_0401NK
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000552
+桜子
+「なんであんな…」
+$k
+
+優
+「ちょ、ちょっと待て。休憩って言ったろ」
+$k
+
+// SAKURAKO_0401NK2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000553
+桜子
+「……みんなの前でなんて！
+$nw,2230
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+　ばっかじゃないの！？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「…っ！」
+$k
+
+&empty
+人の居ない静かな夕暮れ時と、
+夕日に染められた、桜子の姿があの日と重なり、
+$k
+
+&empty
+ちくちくと嫌な思いが頭を重くする…。
+$k
+
+優
+「……すまん」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0401NK3
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000554
+桜子
+「そういうことじゃないの！」
+$k
+
+// SAKURAKO_0401NK3
+#sp,vo,03000555
+桜子
+「何でもっと早く言ってくれな………
+$nw,3220
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),60%
+#ig
+
+　あ、ごめん」
+$k
+
+&empty
+しかし、涙をこぼしてる割には、
+その顔は、全然悲しそうじゃない。
+$k
+
+優
+「えっと…」
+#meffect,flow,5
+$k
+
+優
+「大嫌い、というのは、みんなの前じゃなきゃ
+　いい返事が聞けたと思っていいのか？」
+$k
+
+&empty
+それとも…。
+$k
+
+優
+「……俺、本当に桜子のこと好きなんだよ」
+$k
+
+// SAKURAKO_0401TR
+#sp,vo,03000556
+桜子
+「………いいわよ」
+$k
+
+優
+「…だから……」
+$k
+
+優
+「……え？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0401NK3
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000557
+桜子
+「いいわよっていってんのっ！
+$nw,2750
+
+　あんたと付き合ってあげる」
+$k
+
+優
+「え？　っと、
+　………いやいや？　まさかまた俺を担ぐ気で…」
+$k
+
+&empty
+そんなはずないだろ…信じろ。
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000558
+桜子
+「なによ？
+　本当に付き合ってあげるって言ってんのに。
+$nw,4740
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),60%
+#ig
+
+　不満なの？」
+$k
+
+優
+「いや、そんな事は…………
+$nw,1000
+
+　信じていいのか？」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000559
+桜子
+「なによあたしの事好きなのに信用はしないの？」
+$k
+
+優
+「………いや、そんな事は…」
+$k
+
+#sp,se,Ma_Foot01
+
+// SAKURAKO_0401TR3
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000560
+桜子
+「あ……」
+$k
+
+// 	SS( CENTER, SAKURAKO_A401TR3, MOVE_STOP, SLOW );
+
+&empty
+そんな事を云う俺の元に桜子が近づいてくる…。
+$k
+
+// SAKURAKO_A401TR
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000561
+桜子
+「もうっ、ばかねっ！」
+$k
+
+#ss,bgm
+
+#ir
+#ie,c1
+#ig
+
+&empty
+顔がどんどん近づいてきたかと思っていたら、
+俺の顔を両手で掴み、それは強引に…。
+$k
+
+#hide
+
+#sp,bgm,BGM_KANDO
+
+// 	SV( VISUAL_SAKURAKO_09A );
+
+#flag,cg,40,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_SAKURAKO_09A.jpg,(s),100%,(x),r_s,(y),d_s
+#ig
+
+#wait,500
+
+#ir,(dr),5000,(ef),move,(cv),linear
+#ip,bg,(y),u_s
+#ig
+
+#wait,1000
+
+#ir,(dr),2000
+#ip,bg,(s),75%,(x),c,(y),def
+#ig
+
+#wait,500
+
+#next,03sakurako13_04

@@ -1,0 +1,792 @@
+﻿// 既読フラグ
+#read_flag,424
+
+// セーブタイトル
+#flag,save_title,要　第２３話,0,0
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// エピソードタイトルの表示
+#note,要　第２３話　目撃証言
+$k
+#note,erase
+
+#show
+
+優
+「ちょ、こら待てなんだよ！？」
+$k
+
+#sp,vo,06000127
+桜子
+「いいから来る！」
+#mlarge
+$k
+
+#hide
+
+// 	SV( BG_TD_SAKURAKO01A );
+
+// 	SS( RIGHT, MEGUMI_0401OD2 );
+
+#sp,se,S_Door03o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_SAKURAKO01A.jpg,(s),100%
+#ig
+
+#show
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Dotadotan01
+
+優
+「うわ！？」
+#mlarge
+$k
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01OD2.png,(x),r,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),720,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+// MEGUMI_0401OD2
+#sp,vo,06070072
+めぐみ
+「きゃっ！？」
+$k
+
+優
+「め、めぐみ…？」
+#meffect,flow,5
+$k
+
+// 	SS_(LEFT, SAKURAKO_0402IK8, MOVE_LEFT, NORMAL);
+
+// MEGUMI_0401OD2
+#sp,vo,06070073
+めぐみ
+「優ちゃん？　なんで？」
+$k
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l,(al),100%
+#ig
+
+// SAKURAKO_0402IK8
+#sp,vo,06000128
+桜子
+「どこでもいいから座る！」
+#mlarge
+$k
+
+優
+「…桜子はなに怒ってんだよ」
+$k
+
+// SAKURAKO_0402IK5
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK5.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000129
+桜子
+「怒ってない。いいから黙って座る」
+$k
+
+#sp,se,S_Nuno01
+
+優
+「なんなんだ…」
+#meffect,flow,5
+$k
+
+&empty
+血相を変えためぐみに引っ張られ、
+家に帰ってきたのが少し前。
+$k
+
+&empty
+その後、めぐみと話をしたらしい桜子が、
+なぜか俺の部屋まで押し掛けてきて、
+有無を言わさず連れてこられた。
+$k
+
+// MEGUMI_0401OD3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01OD3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070074
+めぐみ
+「桜子…もしかして優ちゃんなの？」
+#meffect,flow,2
+$k
+
+優
+「俺？　俺がどうしたって、めぐみ？」
+$k
+
+#sp,bgm,BGM_SYOSO
+
+// 	SS_( RIGHT, MEGUMI_0401MJ );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01MJ.png,(x),r,(s),60%
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK.png,(x),l,(s),60%
+#ig
+
+// SAKURAKO_0402IK
+
+// SAKURAKO_0402IK8
+#sp,vo,06000130
+桜子
+「いいからあんたは今からするあたしの質問に、
+$nw,3170
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),l,(s),60%
+#ig
+
+　真面目に、
+$nw,670
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),60%
+#ig
+
+#madd,命をかけて答えなさい」
+
+$k
+
+優
+「命がけ！？」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000131
+桜子
+「あんたの答え次第で、あたしもどう動くか決めるわ」
+$k
+
+&empty
+…なんだかよくわからんが、穏やかな雰囲気じゃないな。
+$k
+
+&empty
+桜子の真剣なトーンに、自然俺の気も引き締まる。
+$k
+
+優
+「どういう話だ？」
+$k
+
+#sp,se,S_Knock03
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000132
+桜子
+「あんたさ…」
+$k
+
+//#ir
+//#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),l,(s),60%
+//#ig
+
+//$nw,620
+
+// SAKURAKO_0403FK2
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03FK2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000133
+桜子
+「………」
+#meffect,flow,5
+$k
+
+&empty
+見計らったようなタイミングに、
+桜子がめんどくさそうに小さく舌打ちする。
+$k
+
+// SAKURAKO_0403IK
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000134
+桜子
+「はい、誰？」
+$k
+
+#sp,vo,06030137
+みい
+「私です」
+$k
+
+// SAKURAKO_0403KM
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000135
+桜子
+「みい？
+$nw,1340
+
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK.png,(x),l,(s),60%
+#ig
+
+
+　悪いんだけど後にしてくれる？
+　あたし今取り込んでて…」
+$k
+
+#sp,vo,06030138
+みい
+「いえ、知世翔さんがみえました。
+　もしお忙しくても、要お姉様のことで、
+　どうしてもお耳に入れたいことがあるとか」
+$k
+
+優
+「要さ…
+$nw,1000
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK2.png,(x),c,(s),100%
+#ie,c1
+#ig,(se),S_Basa02
+
+#madd,もがっ！？」
+$k
+
+// 	SS_(CENTER, SAKURAKO_A403IK2);
+// 立ち絵移動。パラメータは適宜。
+
+// 	ZoomStand(CENTER, FASTEST, 120, 120);
+
+// SAKURAKO_A403IK2
+#sp,vo,06000136
+桜子
+「わかった、来てもらって」
+$k
+
+#sp,vo,06030139
+みい
+「ではご案内いたします」
+$k
+
+// 	SS_(CENTER, SAKURAKO_A403NO3);
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig,(se),S_Basa02
+
+// 	ZoomStand(CENTER, FAST|SPEED_DOWN, 100, 100);
+// 揺れ。パラメータは適宜。
+
+&empty
+みいちゃんの気配が階下に消え、
+ようやく俺の口を封じていた桜子の手が外れる。
+$k
+
+優
+「桜子、おまえなあ…！
+$nw,1000
+
+　いや、それより要さんの話って…」
+$k
+
+&empty
+いや、そういえば俺たちのことは、
+まだ極力伏せとくつもりだったんだ。
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000137
+桜子
+「優、あんたちょっと押入れに隠れときなさい。
+　いるとややこしくなりそうだから」
+$k
+
+優
+「はあ！？」
+$k
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000138
+桜子
+「いいから早く。
+$nw,1650
+
+　めぐ、押入れ開けて」
+$k
+
+// MEGUMI_A401NO
+#ir,(ef),off
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01NO.png,(x),r3,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r2,(al),100%
+#ig
+
+#sp,vo,06070075
+めぐみ
+「あいあいさ～」
+$k
+
+#sp,se,S_Door09o
+
+優
+「ちょっ…マジかよ？」
+$k
+
+// MEGUMI_A401OD2
+
+#sp,vo,06070076
+めぐみ
+「歯…
+$nw,630
+
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01OD2.png,(x),r2,(s),80%
+#ig
+
+#madd,じゃなかった、
+$nw,1620
+
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS3.png,(x),r2,(s),80%
+#ig
+
+　音立てちゃだめだからね」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000139
+桜子
+「嫌がることないじゃない。
+　小さい頃はよく入ってたでしょ」
+$k
+
+優
+「だから嫌なんだよ！」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r3,(al),0%
+#ig
+
+&empty
+お仕置きごっこと称し、よくここに閉じ込められた。
+$k
+
+&empty
+つっかえ棒までされて、
+子供の力じゃどんなに頑張っても開けれなくて…。
+$k
+
+&empty
+暗いよ狭いよ怖いよ～は、微妙にリアルなトラウマだ。
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(s),100%,(x),c
+#ig
+
+// SAKURAKO_A402IK7
+#sp,vo,06000140
+桜子
+「はい、
+$nw,680
+
+#sp,se,W_Kishimi01
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+#madd,入った
+$nw,830
+
+#sp,se,W_Kishimi01
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+#madd,入った」
+
+$k
+
+// 	ZoomStand(CENTER, NORMAL|SPEED_DOWN, 120, 120);
+
+// ぴょん。パラメータは適宜。
+// 	Shake(NORMAL, SHAKE_DOWN, 8, 20);
+
+// 	ZoomStand(CENTER, NORMAL|SPEED_DOWN, 150, 150);
+// ぴょん。パラメータは適宜。
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8, 20);
+
+優
+「なんなんだよ、ほんと…」
+$k
+
+#sp,se,S_Knock03
+
+#wait,500
+
+#sp,vo,06030140
+みい
+「お姉様、知世翔さんをお連れしました」
+$k
+
+// SAKURAKO_A403KM
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06000141
+桜子
+「ちょっと待って………
+$nw,1410
+
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),100%
+#ig
+
+　ほらさっさとしなさいって」
+$k
+
+#sp,se,S_Nuno01
+
+優
+「わかったって」
+$k
+
+// 	SS(CENTERTOP, SAKURAKO_A403IK3, MOVE_STOP, NORMAL);
+
+#ir
+#ie,c3
+#ig
+
+&empty
+何年ぶりだよ、この原始的な恐怖の感覚。
+$k
+
+&empty
+それでも素直に従うのは、
+さっき出てきた要さんの話が気になるからだ。
+$k
+
+&empty
+大人しくしてれば、それも聞けるだろう。
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A403IK3
+#sp,vo,06000142
+桜子
+「声あげたり騒いだりするんじゃないわよ」
+$k
+
+優
+「誘拐でもされたのか俺は…」
+$k
+
+&empty
+状況的にあながち間違っちゃいない気もするけど。
+$k
+
+// SAKURAKO_A403IK3
+#sp,vo,06000143
+桜子
+「めぐ、つっかえ棒」
+$k
+
+// 	SS(LEFT, MEGUMI_0401AZ2, MOVE_LEFT);
+
+// MEGUMI_0401AZ2
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01AZ2.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ip,c3,(x),l
+#ig
+
+#sp,vo,06070077
+めぐみ
+「ここに」
+$k
+
+優
+「信用ねえなあ！？」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06000144
+桜子
+「一応よ一応」
+$k
+
+&empty
+理由もわからないのに気をつかって、
+声のボリュームを下げてやってるってのに…ったく。
+$k
+
+#sp,se,S_Knock03
+
+#sp,vo,06030141
+みい
+「お姉様？」
+$k
+
+// SAKURAKO_A403KM
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06000145
+桜子
+「ごめんお待たせ………
+$nw,1690
+
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),l,(s),80%
+#ig
+
+　めぐ？」
+$k
+
+// MEGUMI_0401BS2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070078
+めぐみ
+「準備完了」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(ef),off
+#ip,ov,(fi),sysc_black.jpg,(x),o_l
+#ip,c4,(fi),image\sysc\sysc_black.jpg,(x),o_r
+#ig
+
+#sp,se,S_Door09c
+
+#ir,(dr),1000,(ef),move
+#ip,ov,(x),l4
+#ip,c4,(x),r4
+#ig
+
+#ir,(ef),off
+#ie,c1,c3
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_SIDE , SLOW );
+
+#sp,se,S_Door01o
+
+#show
+
+&empty
+押入れが閉められ、視界が封じられたのと同時に、
+桜子の部屋のドアが開いた音がした。
+$k
+
+#hide
+
+// 	// 和田；黒進行は流石に困るので、場面転換という意味で見せる。
+
+#sp,bgm,BGM_FUAN
+
+// 	ZoomVisual( 0, 200, 200, 500, 400 );
+// 	SetObject( 0, "gradation.png",   0, 0, OBJATTR_TOP );
+// 	SetObject( 1, "gradation.png", 500, 0, OBJATTR_TOP, FILTER_MIRROR );
+// 	TileObject( 0, 0, 1 );
+// 	TileObject( 1, 0, 1 );
+// 	SV( BG_TD_SAKURAKO01A );
+
+// 	SS_( RIGHT, SAKURAKO_0403NO );
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c4,(x),r6
+#ip,ov,(x),l6
+#ig
+
+// 	SS( LEFT, CHISEKA_0401BS );
+
+#show
+
+// SAKURAKO_0403NO
+#sp,vo,06000146
+桜子
+「久しぶり、知世翔。
+　こないだは合格のお祝いありがとね」
+$k
+
+// CHISEKA_0401BS
+#sp,vo,06040025
+知世翔
+「いえ…せっかくの日曜日に
+　わざわざ押し掛けてしまって、すみません」
+$k
+
+// CHISEKA_0401MJ
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01MJ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06040026
+知世翔
+「けど大切なお話だったので、どうしても、
+　直接会って聞いてもらいたくて…」
+$k
+
+&empty
+なるほど、声は確かに有河だ。
+$k
+
+&empty
+となると部屋の中は今、
+桜子、めぐみ、有河の３人か…？
+$k
+
+// 	SS_(LEFT, MII_0401KY2, MOVE_STOP, NORMAL);
+
+#ir,(ef),off
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l,(al),100%
+#ip,c3,(x),r
+#ip,c1,(x),r2,(al),0%
+#ig
+
+// CHISEKA_0401SN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01SN.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06040027
+知世翔
+「ねえ、みい…大事な話をしたいから、
+　できれば席を外してくれると助かるんだけど」
+$k
+
+// MII_0401TR2
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01TR2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030142
+みい
+「ふふ…気持ちいい」
+$k
+
+// CHISEKA_0401AK2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06040028
+知世翔
+「はい？」
+$k
+
+// MII_0401NO
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030143
+みい
+「私は今、冷たい言葉を快感に変えて
+　勝手に遊んでますから、どうかお気になさらず」
+$k
+
+&empty
+もうひとりいたらしい。
+しかし、こちらはどうでもいい情報だった。
+$k
+
+// 	SS( RIGHT, MEGUMI_0401EG4 );
+
+// MEGUMI_0401EG4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG4.png,(x),r,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,06070079
+めぐみ
+「みいちゃん、私と遊ぼうか？」
+$k
+
+
+#next,06kaname23_01

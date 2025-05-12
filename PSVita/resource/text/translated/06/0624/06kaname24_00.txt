@@ -1,0 +1,667 @@
+﻿// 既読フラグ
+#read_flag,428
+
+// セーブタイトル
+#flag,save_title,要　第２４話,0,0
+
+// 	SV( BG_MT_KANAMEMANSION03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAMEMANSION03A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第２４話　責任無責任
+$k
+#note,erase
+
+// 	SV( BG_MT_KANAME03A );
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_SCREEN, 10, 500 );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_MT_KANAME03A_b.jpg,(s),100%
+#ig
+
+// 	Blur( 0, 30 );
+// 	// 和田：暫くBGM無し。心臓の音をループで使います。
+
+#show
+
+// KANAME_0501KZ
+
+#sp,vo,06021604
+要
+「うぅ…体だるい……
+　頭重い………」
+$k
+
+// KANAME_0501KZ2
+
+#sp,vo,06021605
+要
+「……うぇ、吐きそう…最悪」
+$k
+
+// KANAME_0501IK4
+
+#sp,vo,06021606
+要
+「…っ、
+$nw,900
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig
+
+#madd,げほっ
+$nw,880
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#madd,ごほっ」
+
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+// 	WaitShake();
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_SCREEN, 10, 500 );
+
+// KANAME_0501KZ
+#sp,vo,06021607
+要
+「はぁ…
+$nw,1470
+
+　は、咳をしてもひとり…」
+$k
+
+// KANAME_0501KZ2
+
+#sp,vo,06021608
+要
+「息…あつ…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021609
+要
+「汗も…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ3
+
+#sp,vo,06021610
+要
+「これ…本格的に、やばくなってきたかも…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ
+
+#sp,vo,06021611
+要
+「うぅぅ～…寒ぅ…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ
+#sp,vo,06021612
+要
+「喉…はりついてきた…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ
+#sp,vo,06021613
+要
+「水…まだ残ってたっけ…」
+#meffect,flow,2
+$k
+
+#sp,se,S_Nuno06
+
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_SCREEN, 10, 400 );
+// KANAME_0501KZ2
+
+#ir,(dr),2000,(ef),move,(lt),reverse,(lc),no_limit
+#ip,bg,(y+),20
+#ig
+
+#sp,vo,06021614
+要
+「ぁ…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ
+
+#sp,vo,06021615
+要
+「携帯…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ
+#sp,vo,06021616
+要
+「電源切ったままだ…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ
+#sp,vo,06021617
+要
+「………」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ3
+
+#sp,vo,06021618
+要
+「～っ」
+$k
+
+// KANAME_0501KZ2
+
+#sp,vo,06021619
+要
+「みっともなくて…呼べるかぁ…」
+#meffect,flow,5
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021620
+要
+「もう電話…くれないのかな…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021621
+要
+「メールでもいい…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021622
+要
+「今度はさ…ちゃんと素直に言うから…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021623
+要
+「だから早く気づいてきてよぉ…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021624
+要
+「優くん…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021625
+要
+「なんて…はぁはぁ…
+$nw,3850
+
+　自業自得なのにね…」
+$k
+
+// 	SEPlay("W_Interhon04", 20, 60);
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+#sp,se,W_Interhon04
+
+// KANAME_0501KU4
+
+#sp,vo,06021626
+要
+「くしゅっ！」
+#mlarge
+$k
+
+// 	WaitShake();
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_SCREEN, 10, 400 );
+
+// KANAME_0501KZ
+
+#sp,vo,06021627
+要
+「っ…、今の…っ」
+$k
+
+#sp,se,W_Interhon04
+
+#wait,500
+
+#sp,env,W_Heart01#
+
+// KANAME_0501KZ3
+
+#sp,vo,06021628
+要
+「や、やっぱりっ…」
+$k
+
+// KANAME_0501KZ2
+
+#sp,vo,06021629
+要
+「は、はい今………
+$nw,1660
+
+#ils
+
+#sp,se,W_Fall01
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+　っ！？」
+$k
+
+
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_SCREEN, 12, 300 );
+// 	Zoom(FASTEST, 200, 200, 400, 300+300);
+// 	SEFade( 0, SLOW, 40 );
+// 	FI_( SLOW );
+
+// KANAME_0501KZ2
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAME03A_b.jpg,(s),100%
+#ig
+
+#sp,vo,06021630
+要
+「ったたたた…頭がぼーっとして…」
+#meffect,flow,2
+$k
+
+#hide
+
+#sp,se,W_Interhon04
+
+#wait,1500
+
+#sp,se,W_Interhon04
+
+#show
+
+// KANAME_0501KZ2
+#sp,vo,06021631
+要
+「あ…早くしなきゃ…」
+#meffect,flow,5
+$k
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),W_Fall01
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+// KANAME_0501KZ
+
+#sp,vo,06021632
+要
+「ぁ…」
+$k
+
+// 	WaitShake();
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_SCREEN, 15, 200 );
+// 	Zoom( 0, 200, 200, 400, 300+300);
+// 	SEFade( 0, SLOW, 60 );
+
+#ir,(dr),2000,(ef),move,(lt),reverse,(lc),no_limit
+#ip,bg,(y+),20
+#ig
+
+// KANAME_0501KZ2
+
+#sp,vo,06021633
+要
+「あれ…うまく立てない」
+#meffect,flow,2
+$k
+
+#sp,se,S_Nuno05
+
+//	Zoom(SLOW|SPEED_DOWN, 220, 220, 400, 300+300);
+// KANAME_0501KZ
+
+#sp,vo,06021634
+要
+「は、這ってでも…」
+#meffect,flow,2
+$k
+
+#sp,se,S_Nuno05
+
+//	Zoom(SLOW|SPEED_DOWN, 230, 230, 400, 300+280);
+// KANAME_0501KZ
+#sp,vo,06021635
+要
+「はぁ…はぁ…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ
+#sp,vo,06021636
+要
+「あれ…？」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+
+#sp,vo,06021637
+要
+「そんな…」
+#meffect,flow,2
+$k
+
+// 	SEFade( 0, SLOW, 80 );
+
+// KANAME_0501KZ2
+#sp,vo,06021638
+要
+「インターホン…鳴らなくなってる…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021639
+要
+「待って…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021640
+要
+「待って、待ってよ…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021641
+要
+「いるよ…ちゃんといるから…」
+#meffect,flow,2
+$k
+
+// 	SEFade( 0, SLOW, 100 );
+
+
+// KANAME_0501KZ2
+#sp,vo,06021642
+要
+「優くぅん…」
+#meffect,flow,2
+$k
+
+// KANAME_0501KZ2
+#sp,vo,06021643
+要
+「ぐすっ…」
+#meffect,flow,2
+$k
+
+#hide
+
+#ir,(ef),off
+#ip,ov,(fi),sysc_white.jpg,(al),0%
+#ig
+
+#ir,(dr),3000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#wait,1000
+
+#ils
+
+// 	Flash(SLOWER, 100, 1);
+// 	Zoom(FASTEST, 100, 100);
+
+// 	Blur(0, 0);
+
+// 揺れ。パラメータは適宜。
+
+// 	Flash(FASTEST, 0)
+// 	SV( VISUAL_WHITE );
+
+// 	DelStandAll();
+
+#sp,se,W_Keylock01
+
+#show
+
+#sp,vo,06021644
+要
+「ぇ…？」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+//	SetSubTitleEx( 2 );
+#sp,se,S_Door01o
+
+// 	SV( BG_MT_KANAME03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAME03A.jpg,(s),100%
+#ie,ov
+#ig
+
+// 	// 和田：立ち絵いらないかなー？ やっぱいる。
+
+#show
+
+#sp,vo,06021645
+要
+「ぁ…」
+#meffect,flow,2
+$k
+
+優
+「か、要さん！？」
+$k
+
+// 	//布施谷：玄関の背景がなくなったため、文章を変更。
+
+&empty
+インターホンで反応がなかったため、
+万一を考えて婆さんに借りた合い鍵で中に入ると、
+要さんが床の上に倒れていた。
+$k
+
+#sp,vo,06021646
+要
+「はぁ、はぁ…」
+#meffect,flow,2
+$k
+
+優
+「だ、大丈夫で…
+$nw,1000
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+　って、部屋の中、暑っ！？」
+$k
+
+// KANAME_A501KZ2
+
+#sp,vo,06021647
+要
+「ゆ、優、くん…？」
+#meffect,flow,2
+$k
+
+優
+「………。
+$nw,1000
+
+　ちょっとじっとしててくださいね」
+
+$k
+
+// KANAME_A501KZ2
+#sp,vo,06021648
+要
+「え…
+$nw,1050
+
+#sp,se,S_Nuno08
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,bg,(y+),10
+#ig
+
+　ぁ…」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8, 40);
+
+&empty
+俺は要さんを抱きかかえた。
+$k
+
+// 	DelStandAll();
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+#sp,bgm,BGM_SHIZUKA
+
+// 	SV( BG_MT_KANAME03A );
+
+// 	SS( CENTER, KANAME_A501MJ3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAME03A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01MJ3.png,(x),c,(s),80%
+#ig
+
+#show
+
+優
+「いくら寒気がしたからって、
+　こんなに部屋熱くしたら、かえって良くありませんて」
+
+$k
+
+// KANAME_A501MJ3
+#sp,vo,06021649
+要
+「………」
+#meffect,flow,2
+$k
+
+優
+「少し換気しましょう」
+$k
+
+// KANAME_A501MJ3
+#sp,vo,06021650
+要
+「………」
+#meffect,flow,2
+$k
+
+優
+「ほら、布団に入ってください。
+　身体に障りますよ」
+$k
+
+// KANAME_A501MJ2
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01MJ2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021651
+要
+「どうして…ここにいるの」
+#meffect,flow,2
+$k
+
+&empty
+その声音は…。
+$k
+
+&empty
+俺が来たことによる喜びや戸惑い…。
+$k
+
+&empty
+そして何より怒りを感じさせるものだった。
+$k
+
+// KANAME_A501MJ3
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01MJ3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021652
+要
+「わたしは…来てって言ってない。
+　来てなんて、頼まなかったよ」
+$k
+
+優
+「俺がここにいる理由は、要さんのためじゃなく、
+　俺が要さんの側にいたかったからです」
+$k
+
+// KANAME_A501MJ2
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01MJ2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021653
+要
+「だとしても遅い。
+　あの電話からどれだけ経ってると思ってるの」
+$k
+
+優
+「すみません。
+　…いろいろと準備があったんですよ」
+$k
+
+// KANAME_A501KT
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021654
+要
+「準備？」
+$k
+
+
+#next,06kaname24_01

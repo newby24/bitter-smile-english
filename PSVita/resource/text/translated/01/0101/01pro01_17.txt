@@ -1,0 +1,846 @@
+﻿// 既読フラグ
+#read_flag,27
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_TANOSHII
+
+#sp,env,S_Gaya01#
+
+// #sp,env,S_Gaya05#
+
+// 	SV( BG_GK_SYOKUDO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_SYOKUDO01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「うわあ………混んでるなー」
+$k
+
+// 	SS(CENTER, MEGUMI_0101BS, MOVE_STOP, NORMAL);
+
+// MEGUMI_0101BS
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070036
+めぐみ
+「でもテーブルの方は全然余裕あるから、
+　私が席とっとくから、早く行って
+　並んだ方がいいよぉ～？」
+$k
+
+優
+「パン……は混みすぎで買えそうにないな、
+　じゃあランチの方に」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelStandAll();
+//	SM( CHAR_ETC,			-1,					"",				"………。" );
+
+//#sp,env,S_Gaya01#
+//#sp,env,S_Gaya05#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_SYOKUDO01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+意外と早くランチ券売機の前に来る事が出来た。
+$k
+
+&empty
+さて、なににするか。
+まずはサイフから金を出し……。
+$k
+
+&empty
+………金を。
+$k
+
+&empty
+あれ、無い。……サイフ…無い？
+$k
+
+&empty
+やば、落とした？
+おいおい、何時から無い？
+$k
+
+#sp,vo,01000258
+？？？
+#mstyle,(co),桜子
+「こんな所でぐずぐずしてないでよ、もう」
+$k
+
+&empty
+横から誰かの手が出てきて札を券売機に差し込む。
+$k
+
+優
+「あ、悪い……」
+$k
+
+// 	SS(CENTER, SAKURAKO_0102NO, MOVE_LEFT, NORMAL);
+
+// SAKURAKO_0102NO
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+#sp,vo,01000259
+桜子
+「ほら、何食べるの？　早く押しなさいよ。
+　後つかえてんだから」
+$k
+
+優
+「桜子！？
+　ああっと、お前も…」
+$k
+
+// SAKURAKO_0102NO2
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000260
+桜子
+「話は後、早く決めなさい」
+$k
+
+// 	SS(LEFTLEFT, KOBAYASHI_0101BS, MOVE_LEFT, NORMAL);
+// 	SS_(CENTER, SAKURAKO_0102IK7);
+
+#ir,(ef),off
+#ip,c2,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01BS.png,(x),l3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l2,(al),100%
+#ig
+
+// KOBAYASHI_0101BS
+#sp,vo,01080004
+小林
+「おう、おまえら…サイ、
+//$nw,1490
+$nw,1000
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch04
+
+#ir,(dr),500
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ip,c2,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01AY.png,(x),l2,(s),60%
+#ie,ov
+#ig
+
+#sp,se,S_Basa02
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(y+),100,(al),0%
+#ig
+
+　ぐぶぉ！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+
+// 	ShowFace();
+&empty
+早っ、さすがサブキャラ！
+台詞一つすら言わせてもらえないとは……。
+$k
+
+// SAKURAKO_0102NR
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000261
+桜子
+「今みたいに変なの出て来るから」
+$k
+
+優
+「おー、おう」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelStandAll();
+
+//#sp,env,S_Gaya01#
+//#sp,env,S_Gaya05#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_SYOKUDO01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+桜子と俺はランチのトレーを受け取り、
+めぐみの陣取るテーブルへ向かう。
+$k
+
+&empty
+俺は勢いで大盛り中華ランチなんぞ頼んでしまった。
+知らない学食でいきなり中華は冒険かもしれん。
+不味くなければ良いが…。
+$k
+
+// MEGUMI_A101EG2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01070037
+めぐみ
+「桜子～、優ちゃ～ん、こっちだよ～。
+　ほらほら、ここに～」
+$k
+
+// SAKURAKO_A102NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01000262
+桜子
+「おーっす、めぐー」
+$k
+
+// MEGUMI_A101BS2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01070038
+めぐみ
+「お～すぅ。
+$nw,1620
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM8.png,(x),l,(s),80%
+#ig
+
+　あ、優ちゃんなんでそっち座るのよ」
+$k
+
+優
+「窓際の６人がけテーブルでわざわざ並んで座る
+　必要は無いだろー？　俺も窓際が良いし」
+$k
+
+// MEGUMI_A101TY2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01TY2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01070039
+めぐみ
+「じゃあ、私がそっち行こ～」
+$k
+
+// SAKURAKO_A102NO5
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01000263
+桜子
+「じゃあ、あたしがその窓際貰うわ」
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+というわけで窓際に俺。反対の窓際に桜子。
+俺の隣にめぐみで落ち着いた。
+$k
+
+&empty
+大盛り中華ランチのメニューは以下の通り。
+大盛りご飯、わかめスープ。餡かけチキンとエビチリ、
+ギョーザに八宝菜モドキとなぜか沢庵が。
+$k
+
+&empty
+意外と豪華だよな？　いや、豪華すぎだろ。
+それぞれの量はランチだからそんなでもないけど
+全体的には満足できる物量だ。
+$k
+
+// 	SS(CENTER, SAKURAKO_A102NO2);
+
+// SAKURAKO_A102NO2
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000264
+桜子
+「あとこれ、あんたの忘れ物よ」
+$k
+
+優
+「あっ、俺の財布。
+　お前が抜き取ってたのか！」
+$k
+
+// SAKURAKO_A102NR
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000265
+桜子
+「人聞き悪いわねー。
+　あんたが家の台所に置きっぱなしにしてたのを
+　持ってきてあげたのに、そう…もう要らないんだ」
+$k
+
+優
+「ごめんなさい。疑って悪かったです！
+　だから返して！」
+$k
+
+// SAKURAKO_A102IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000266
+桜子
+「あんた、あたしの牛乳飲んだでしょ」
+$k
+
+優
+「はい？」
+$k
+
+// SAKURAKO_A102IK7
+#sp,vo,01000267
+桜子
+「低脂肪じゃないほうの牛乳！」
+$k
+
+優
+「ああ！　もしかして二つあった内の
+　美味しい方……か？」
+$k
+
+// SAKURAKO_A102IK7
+#sp,vo,01000268
+桜子
+「やっぱりあんたか」
+$k
+
+優
+「初めに飲んだのが思ったより美味くなかったので
+　もう一つあったから試しにと飲んだら、
+　ついつい飲み干して……」
+$k
+
+// MEGUMI_A101KT4
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KT4.png,(x),r,(s),80%
+#ip,c3,(x),l
+#ig
+
+#sp,vo,01070040
+めぐみ
+「そういえば名札ついてるよねぇ、
+　桜子ん家の牛乳ってさ～？」
+$k
+
+優
+「すみませんでした桜子さんっ、買って返しますから」
+$k
+
+// MEGUMI_A101AK
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01AK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01070041
+めぐみ
+「もうさぁ、なんとか産牛肉とかハンバーガーとかに
+　切り替えたら～？」
+$k
+
+// SAKURAKO_A102AS2
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02AS2.png,(x),l,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),120,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,01000269
+桜子
+「なっ、なに言ってんのめぐは！
+$nw,2740
+
+#ir
+#ie,c4
+#ig
+
+　あたしはただ単においしい牛乳が好きなだけよっ？」
+$k
+
+優
+「ああ、それで無調整の……
+$nw,1000
+
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),80%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\ikari.png,(x),*320,(y),*50
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op3,(s),120%
+#ig
+
+　ひっ、すいません。
+　ああ～ほら冷めない内に食べようよ！　ね？」
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+優
+「そ…それじゃあ、いただきま…」
+$k
+
+#sp,vo,01040014
+？？？
+#mstyle,(co),知世翔
+「せーんぱ――い！
+　桜子せんぱ――――い！」
+$k
+
+&empty
+どっかで聞いた声だな。
+$k
+
+&empty
+すでに食い始めていた桜子は左手にご飯、
+箸を口にくわえつつ、右手を挙げ声に応えながら
+『んーんー』言っている。
+$k
+
+// 	SS(RIGHT, CHISEKA_0101BS, MOVE_RIGHT, NORMAL);
+
+// CHISEKA_0101BS
+#ir,(ef),off
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01BS.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#sp,vo,01040015
+知世翔
+「ここで先輩と一緒にお昼して………
+$nw,3570
+
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01AK2.png,(x),r,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),720,(y),50
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+　あ」
+$k
+
+優
+「よ、よう後輩。こないだは悪かったな」
+$k
+
+// CHISEKA_0101SN
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01SN.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01040016
+知世翔
+「……いえ、こんにちは。
+　矢崎さんも居たんですねー、お邪魔でしたか？」
+$k
+
+優
+「いやいや、仲良く一緒に食べようぜ？」
+$k
+
+&empty
+この反応の違い、まだ怒ってるのか、
+はたまた、ぽっと出の異分子には興味がないのか。
+サブキャラ扱いか。
+$k
+
+&empty
+…あの小林のようになるのだけは回避したいもんだ。
+$k
+
+// 	SS(LEFT, MII_0101AK, MOVE_STOP, NORMAL);
+
+// MII_0101AK
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01AK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01030059
+みい
+「両手に華ですか、お兄様。
+　結構な事ですねえ」
+$k
+
+&empty
+みいちゃんも居たのか……。
+$k
+
+&empty
+あー、もしかしてこれは、
+いわゆるひとつのフラグですよね？
+$k
+
+優
+「いや、そんな良いもんじゃ…。
+　どっちかって言うと今、詰みの状況？」
+$k
+
+// MII_0101KY
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01030060
+みい
+「背中が煤けているんですか？
+#mfuri,　　　　　　　　すす
+
+　でもお兄様は王将向きではないと思いますので…」
+$k
+
+&empty
+背中は味方に刺される為にある、
+とでも言いたいのかね。
+$k
+
+優
+「いや、そう言われると反応に困るけど。
+　じゃあ玉ならいいですか？」
+#mfuri,　　　　　　　　ギョク
+$k
+
+&empty
+別に刺されたくて言ってるんじゃないぞ？
+$k
+
+// MII_0101NI2
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01NI2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01030061
+みい
+「せいぜい頑張って成金ですかね？」
+$k
+
+優
+「いいじゃんよ成金！　成金上等っ」
+$k
+
+// MII_0101AK
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01AK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01030062
+みい
+「成れれば、ですが」
+$k
+
+優
+「うぐ。少しずつでも歩を進めればいつかは……」
+$k
+
+&empty
+成ってからが勝負どころかもしれないけど。
+$k
+
+//	SetIconAse( RIGHT );
+// CHISEKA_0101KB2
+#ir
+#ip,c4,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01KB2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01040017
+知世翔
+「変な会話。
+　みいの変なノリの話に乗ってくる人って
+　初めて見たかも……」
+$k
+
+&empty
+変……まあ、俺も会話してて訳分かんないけどね。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelStandAll();
+
+//#sp,env,S_Gaya01#
+//#sp,env,S_Gaya05#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_SYOKUDO01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「はー、食った食った…」
+$k
+
+&empty
+まさか沢庵が一番美味かったとは……。
+$k
+
+// 	SS(CENTER, MEGUMI_A101KT5);
+// MEGUMI_A101KT5
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KT5.png,(x),r,(s),80%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),720,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,01070042
+めぐみ
+「そういや桜子もみいちゃんも
+　めずらしく今日は学食だったけどなんで～？」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+// SAKURAKO_A101AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A101.png,(psi),SAKURAKO_An01AK2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000270
+桜子
+「みいに聞いてね」
+$k
+
+&empty
+桜子は食後のパック牛乳を飲んでいる。
+その隣の後輩も同じようにパック牛乳を
+ちゅうちゅうしている。
+$k
+
+&empty
+……効果あるのかなー、牛乳。
+$k
+
+// 	CS_(CENTER, RIGHT);
+// 	SS(LEFT, MII_A101NI2);
+
+// MII_A101NI2
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01NI2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01030063
+みい
+「今日は私がお弁当当番だったのですが夏休み明けで
+　油断していたため少し起きるのが遅かったのです」
+$k
+
+// MEGUMI_A101NO
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01070043
+めぐみ
+「ああ、なるほど。それでかぁ。
+$nw,3410
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KN2.png,(x),r,(s),80%
+#ig
+
+　あるあるぅ～休み明けはよくやるよねぇ」
+$k
+
+// CHISEKA_A101MJ
+
+#sp,vo,01040018
+知世翔
+「そういう理由で……」
+$k
+
+// MII_A101AK
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01AK.png,(x),l,(s),80%
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KT6.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01030064
+みい
+「いえ、まだ続きがありましてですね……」
+$k
+
+// 	SS(RIGHT, MEGUMI_A101KT6, MOVE_STOP, NORMAL);
+
+// MII_A101AK
+#sp,vo,01030065
+みい
+「その時点ではまだなんとかお弁当を用意する時間は
+　あったのですが、一緒に手伝ってくれるはずの
+　姉上と口論になりましてね」
+$k
+
+// MEGUMI_A101KT2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KT2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01070044
+めぐみ
+「へ～あんた達が口論なんてめずらしいわねぇ？」
+$k
+
+// MII_A101NI2
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01NI2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01030066
+みい
+「まあ、主に食い下がったのは私なのです。
+　理由としましては、
+　姉上が牛乳を買いに行くかお弁当作りを手伝うかで…」
+$k
+
+// MEGUMI_A101AK2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01AK2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01070045
+めぐみ
+「な～に？
+　シチューでもお弁当に入れるつもりだったの？」
+$k
+
+// MII_A101NI2
+
+#sp,vo,01030067
+みい
+「そうではなく、姉上は朝一杯の牛乳が絶対の神話と
+　成っておりますから」
+$k
+
+// MII_A101NI2
+#sp,vo,01030067a
+みい
+「朝、姉上が冷蔵庫を開けると、
+　姉上キープの無調整牛乳が消えており……」
+$k
+
+優
+「…………マジか」
+#meffect,flow,5
+$k
+
+&empty
+桜子がこっち睨んでる。
+$k
+
+// MEGUMI_A101KM3
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01070046
+めぐみ
+「神話なんだ。
+$nw,2010
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01AK3.png,(x),r,(s),80%
+#ig
+
+　しっかし、とことんこだわるのね、桜子」
+$k
+
+#next,01pro01_18

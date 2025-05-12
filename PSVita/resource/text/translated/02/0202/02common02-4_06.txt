@@ -1,0 +1,714 @@
+﻿// 既読フラグ
+#read_flag,80
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KOMON02B.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+あ、居た居た。
+$k
+
+優
+「おい、大丈夫か桜子。怪我はないか？」
+$k
+
+// 	SS_( CENTER, SAKURAKO_0203FK, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0203FK
+#sp,vo,02000458
+桜子
+「………」
+$k
+
+優
+「あれ、宮津橋は？
+　追いかけて行っ…」
+$k
+
+// SAKURAKO_0203NO
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000459
+桜子
+「勇樹は帰った」
+$k
+
+優
+「？　………で、結局泥棒は？」
+$k
+
+// SAKURAKO_0201NO
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000460
+桜子
+「服は取り返したわよ？
+$nw,2100
+
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+　知世翔の事お願い、送ってってあげて」
+$k
+
+優
+「お…おい、お前が送らないと有河グズるだろう」
+$k
+
+// SAKURAKO_0202AK
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000461
+桜子
+「あんたのせいなんでしょ？　なんとかしなさい」
+$k
+
+// SAKURAKO_0203NO
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000462
+桜子
+「……あとね、
+　あたしちょっと用事が出来たから、先帰るわ」
+$k
+
+優
+「はー？」
+$k
+
+// SAKURAKO_0202NO
+#ir,(sync),NO
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,se,S_Chain03
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,02000463
+桜子
+「はいこれ、置きチャリの鍵渡しとく。Ｆの角だから」
+$k
+
+// 	DelAction( CENTER );
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000464
+桜子
+「それと知世翔に『今日は行けなくてごめん』
+　って言っといて？
+$nw,4100
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+　じゃあ、あとよろしく」
+
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),l0,(al),0
+#ig
+
+優
+「よろしくって、
+$nw,1000
+
+　おーい！　おまえ上履きのまま……ああーあ」
+$k
+
+&empty
+行っちまったよ。
+$k
+
+&empty
+なんなんだ。制服泥棒はもういいのか？
+ポリさんとか呼ばなくていいの？
+$k
+
+&empty
+あ、そういえば、一瞬見えた顔とあの作業着、
+……どっかで見たことあるような？
+$k
+
+優
+「はあ……ま、とりあえずは有河かあ」
+$k
+
+&empty
+しっかし素直に送られてくれるかなー？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#hide
+
+// 	SV( BG_GK_CHURIN02A );
+// 	SS( CENTER, CHISEKA_0201KM3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_CHURIN02A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KM3.png,(x),c,(s),60%
+#ig
+
+#show
+
+&empty
+桜子の置き自転車なる物をあてにしていた俺達は、
+駐輪場で立ち往生していた。
+$k
+
+優
+「空気………無いな」
+$k
+
+&empty
+前後輪ともパンク同然。
+いつから置きっぱなしなんだよ。
+$k
+
+// CHISEKA_0201IK2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040243
+知世翔
+「嫌ですから」
+$k
+
+優
+「まだ何も言ってないけど」
+$k
+
+// CHISEKA_0201AS
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040244
+知世翔
+「わ、私一人で帰れますからね！」
+$k
+
+優
+「あーもー！　……また最初からかよ？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TSUGAKURO02A );
+
+#sp,bgm,BGM_CHISEKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO02A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),100%
+#ig
+
+#show
+
+// CHISEKA_A201IK
+
+#sp,vo,02040245
+知世翔
+「もうちょっと早く歩けないんですか！」
+$k
+
+// 	//にゃんさま依頼によりト書き追加です：100521西村
+
+&empty
+俺の背中から有河が文句をつける。
+$k
+
+優
+「贅沢言うなよ。俺、持久力は無いんだぞ？」
+$k
+
+// CHISEKA_A201KB
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02040246
+知世翔
+「自慢にならないです。
+$nw,2600
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KM.png,(x),c,(s),100%
+#ig
+
+　あーもう！　またお尻触った！」
+$k
+
+優
+「触ってねえよ！　ちょっと当たっただけだろ？」
+$k
+
+// 	SV( BG_SKY02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY02A.jpg,(s),100%
+#ig
+
+&empty
+…奇跡が起きた。
+$k
+
+&empty
+有河とおんぶするのしないの、じゃあタクシーか、
+近距離でもったいない！などと言い合いをつづけ、
+まだ不毛な時間が続くのか、とも思っていたのだが…。
+$k
+
+&empty
+突然有河の携帯が鳴り、その後から態度が急変。
+$k
+
+&empty
+聞いてみると、
+いいからとにかく急ぐ、と言いだした。
+$k
+
+// 	SV( BG_MT_TEIBO02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO02A.jpg,(s),100%
+#ig
+
+優
+「こっちでいいのか？」
+$k
+
+// CHISEKA_A201NO2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02040247
+知世翔
+「違います、もうひとつ奥の道ですから」
+$k
+
+// CHISEKA_A201NO2
+#sp,vo,02040248
+知世翔
+「で、この道をまっす……
+$nw,3600
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),100%
+#ig
+
+　あ、もうここでいいです」
+$k
+
+優
+「どの家だ？」
+$k
+
+// CHISEKA_A201TR
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02040249
+知世翔
+「降ろしてください」
+$k
+
+優
+「いやいいよ、せっかくここまで運んで来たんだし、
+　家の前までは…」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),100%
+#ig,(se),T_kisimu
+
+優
+「いでで！　なんだよっ？」
+$k
+
+&empty
+今度は後ろから梅干し。
+こいつどんどん使う技が増えていくな。
+$k
+
+// CHISEKA_A201IK
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02040250
+知世翔
+「もうっ、降ろしてって言ってるのにっ！
+$nw,3400
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AK.png,(x),c,(s),100%
+#ig
+
+　……わかりましたよ。
+$nw,3600
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),100%
+#ig
+
+　いいです、後悔しないでくださいよね」
+$k
+
+優
+「は？」
+$k
+
+&empty
+何で後悔？
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+………………
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+
+&empty
+ああ！
+そういやこいつの家ってたしか…あの疑惑が。
+$k
+
+&empty
+いや、まさか、本当に？
+$k
+
+// CHISEKA_A201AK
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AK.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02040251
+知世翔
+「まっすぐ行って、角の左に見える工場です」
+$k
+
+優
+「………え、工場っ？」
+$k
+
+
+// CHISEKA_A201NR
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02040252
+知世翔
+「なにか不満なんですか？」
+$k
+
+優
+「いや別に」
+$k
+
+&empty
+事務所のカモフラージュか？
+いかにもな、敷居の高い豪邸とかじゃないの？
+それとも単に俺の勘違い？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_ARIKAWAGAIKAN02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ARIKAWAGAIKAN02A.jpg,(s),100%
+#ig
+
+#show
+
+// CHISEKA_A201TR3
+
+#sp,vo,02040253
+知世翔
+「ここです、もういいですから降ろしてください」
+#msmall
+$k
+
+優
+「なんでひそひそ声なんだよ、自分家なんだろ？」
+$k
+
+// CHISEKA_A201KM
+
+#sp,vo,02040254
+知世翔
+「静かにして！　いいから、早く降ろして！」
+#msmall
+$k
+
+&empty
+俺に家を見せるのが嫌で嘘ついてるとか…
+$k
+
+&empty
+どう見ても怪しい所の欠片もない、普通の町工場だし。
+$k
+
+優
+「本当はここが家なんて嘘なんだろ……
+$nw,1000
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig,(se),S_Hipparu01
+
+　いででっ！」
+
+$k
+
+// CHISEKA_A201OD2
+
+#sp,vo,02040255
+知世翔
+「し――っ！」
+#msmall
+$k
+
+優
+「もげるもげる！　耳たぶ千切れるって！」
+$k
+
+// CHISEKA_A201IK2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02040256
+知世翔
+「あーもーっ！
+$nw,1600
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),100%
+#ig
+
+　ほらよく見なさい、そこ。
+　有河工業って書いてあるでしょーがっ！？」
+$k
+
+// 	Zoom(      0, 100, 100, 0, 300 );
+// 	Zoom( NORMAL, 200, 200, 0, 300 );
+
+#ir
+#ie,c1
+#ig
+
+優
+「………あ、本当だ、すまん」
+$k
+
+// 	Zoom( NORMAL, 100, 100, 0, 300 );
+
+&empty
+疑り深い自分の非を認め、有河を降ろす。
+$k
+
+// 	Zoom();
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+// CHISEKA_A201IK
+#sp,vo,02040257
+知世翔
+「わかったらとっとと逃げて！」
+$k
+
+優
+「ええ？」
+$k
+
+// CHISEKA_A201AS
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040258
+知世翔
+「いいから早く！
+$nw,1100
+
+#ir
+#ip,c2,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+　じゃなくて避けてっ！！」
+
+$k
+
+優
+「は？」
+$k
+
+// 	SS_( RIGHT, CHINPIRA2_0301IK2, MOVE_RIGHT );
+
+#ir,(ef),off
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01IK2.png,(x),r,(s),80%,(al),0%
+#ig
+
+// 	//SS_( LEFT, CHINPIRA1_0301IK3, MOVE_LEFT );
+// 立ち絵移動。パラメータは適宜。
+#ir,(ef),move,(dr),500
+#ip,c1,(x),c,(al),100
+#ip,c2,(x),l,(al),0%
+#ig
+
+// CHINPIRA2_0301IK2
+#sp,vo,02990153
+溝内
+「やっぱりおんどれやったんかい！」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),2,(sync),NO
+#ig,(se),S_Punch02
+
+#wait,500
+
+// 	SS_( CENTER, CHINPIRA2_A301IK2 );
+
+// 	//SS_( LEFT, CHINPIRA1_A301IK3 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	Fade( SLOWER, 25 );
+// CHISEKA_A201KM
+
+#sp,vo,02040259
+知世翔
+「アホ―――っ！！」
+#mlarge
+$k
+
+&empty
+あ、やっぱ居るんじゃん…。
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_c
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	Fade( 0, 25 );
+// 	SetCopyScreenObject( 0, 0, 0, 800, 600, 0, 0 );
+// 	NoiseX( FAST, 10, 10, 1 );
+// 	NoiseX( FAST, 100, 100, 1 );
+// 	ZoomObject( 0, 10,  20, 20, 1, 1 );
+// 	ZoomObject( 0, 20, 100,  1, 1, 1 );
+// 	NoiseX( 0, 0 );
+// 	Fade();
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SV( BG_MT_ARIKAWAJIMUSYO02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ARIKAWAJIMUSYO02A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「…っ！」
+$k
+
+#sp,vo,02990154
+//事務員のお姉さん
+女性事務員
+「あ、ごめーん、痛かった？
+　でも君も災難だったわねえー」
+$k
+
+&empty
+俺はなぜか、いきなり殴られたのだ。
+$k
+
+優
+「いえ、まあ自業自得というか」
+$k
+
+
+#next,02common02-4_07

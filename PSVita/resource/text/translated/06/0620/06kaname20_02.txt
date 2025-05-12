@@ -1,0 +1,980 @@
+﻿// 既読フラグ
+#read_flag,414
+
+&empty
+怪しげな…。
+$k
+
+優
+「対処法は気合いと根性で」
+$k
+
+// KOZUE_A401KF
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100114
+こずえ
+「見捨てないでよぉ～」
+$k
+
+#ir
+#ie,c2
+#ig
+
+&empty
+今日ちょっと付き合ってみてわかったけど、
+先生はどちらかというと相手任せのタイプらしい。
+$k
+
+&empty
+攻めの要さん、受け身の先生という印象だ。
+$k
+
+&empty
+行き先は結局俺が決めてたし、
+先生はそれに素直に応じてくれた。
+$k
+
+&empty
+背中から要さんの視線をちくちく感じる気がして、
+調子に乗りすぎるってことはなかったと思う。
+$k
+
+&empty
+で、背後に気をつけながら
+歩き回った後の休憩が、ここだった。
+$k
+
+// 	SS( CENTER, KOZUE_A401KM );
+
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),80%
+#ig
+
+優
+「先生のお母さんはもう確認してくれましたかね」
+$k
+
+// KOZUE_A401KD
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100115
+こずえ
+「そうだった…そっちの保護者の
+　印象が強すぎて、影が薄くなってたわ」
+$k
+
+// KOZUE_A401NO
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100116
+こずえ
+「メールで確認してみよっと」
+$k
+
+#ir
+#ie,c2
+#ig
+
+//	SP_( "W_bag01" );
+//	SP( "S_Tel05" );
+
+&empty
+先生がバッグから携帯を取り出す。
+$k
+
+&empty
+先生がメールを打っている姿というのも新鮮だ。
+$k
+
+優
+「そういえば、いつからのお付き合いなんですか」
+$k
+
+// 	SS( CENTER, KOZUE_A401NO );
+
+// KOZUE_A401KD
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100117
+こずえ
+「要と？　聞いてないんだ？」
+$k
+
+優
+「ええ」
+$k
+
+// KOZUE_A401EG2
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100118
+こずえ
+「鶴ヶ丘よ、要も私もあそこの卒園生なの」
+$k
+
+// KOZUE_A401BS
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100119
+こずえ
+「部活が一緒でね～」
+$k
+
+優
+「剣道」
+$k
+
+// KOZUE_A401KD
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100120
+こずえ
+「あ、それは知ってるんだ。
+$nw,2950
+
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01MJ.png,(x),c,(s),80%
+#ig
+
+　そう…そこで私と要は切っても切れない仲でね」
+$k
+
+優
+「レギュラーの座を狙うライバルだったとか？」
+$k
+
+// KOZUE_A401AY
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01AY.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100121
+こずえ
+「ううん、部員とマネージャー」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+#sp,bgm,BGM_KANAME
+
+// 	SS( LEFT, KANAME_A401NO );
+// 	SS( RIGHT, MEGUMI_A401BS3 );
+
+//	KANAME20_CHOUSAICON();
+// 	CFI();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_CAFE01A.jpg,(s),100%
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),l,(s),80%
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS3.png,(x),r,(s),80%
+#ig
+
+#show
+
+// KANAME_A401NO
+
+#sp,vo,06021359
+要
+「鶴ヶ丘に赴任が決まって、口止めされてたから」
+$k
+
+// MEGUMI_A401TR4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01TR4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070038
+めぐみ
+「要さんとこずえ先生が、学生時代からのね～」
+$k
+
+// KANAME_A401NO2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021360
+要
+「昔はうちに遊びに来たこともあったんだけどね、
+　さすがに桜子ちゃんも覚えてないみたい」
+$k
+
+// MEGUMI_A401MJ2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01MJ2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070039
+めぐみ
+「それで要さんが、元凶かつ
+　ふたりの知り合いとして見届けてるんだ？」
+$k
+
+// KANAME_A401NO4
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021361
+要
+「そゆことー。
+$nw,1980
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),l,(s),80%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\ikari.png,(x),*320,(y),*50
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op3,(s),120%
+#ig
+
+　…うぅ、楽しそうに何話してんのかしら、あの二人…」
+#msmall
+$k
+
+// MEGUMI_A401MJ2
+#sp,vo,06070040
+めぐみ
+「ふ～ん…一部つながりがよく見えないけど」
+$k
+
+#ir,(ef),off
+#ie,op3
+#ig
+
+// KANAME_A401KT
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021362
+要
+「え？」
+$k
+
+// MEGUMI_A401BS
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070041
+めぐみ
+「優ちゃんはけっこうな巻き込まれ体質だし、
+　こういうこともあるのかな」
+$k
+
+// KANAME_A401KM2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021363
+要
+「あ、えっとぉ…」
+#meffect,flow,2
+$k
+
+// MEGUMI_A401KT5
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070042
+めぐみ
+「…？
+　どうかしました？」
+$k
+
+// KANAME_A401NO3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021364
+要
+「めぐみちゃんって、
+　桜子ちゃんから何か聞いたりしてない？」
+$k
+
+// MEGUMI_A401KT6
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT6.png,(x),r,(s),80%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),720,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,06070043
+めぐみ
+「なにかって？」
+$k
+
+// KANAME_A401NO3
+#sp,vo,06021365
+要
+「その…わたしたちのこととか」
+#meffect,flow,5
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+// MEGUMI_A401OD2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01OD2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070044
+めぐみ
+「わたしたちって…。
+$nw,2880
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM8.png,(x),r,(s),80%
+#ig
+
+　要さん、また桜子を怒らせたんですか？」
+$k
+
+// KANAME_A401MJ3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01MJ3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021366
+要
+「そっか…気付いてても、桜子ちゃんは、
+#msmall
+　こういう話を自分から人にしたりしないか」
+#msmall
+$k
+
+// KANAME_A401NO2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021367
+要
+「じゃあ、めぐみちゃん、
+#msmall
+　わたしたちのことは知らないのね」
+#msmall
+$k
+
+// MEGUMI_A401KT5
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070045
+めぐみ
+「知らないってなにを？」
+$k
+
+// KANAME_A401OD2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021368
+要
+「あ、ううん…
+$nw,940
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01TR4.png,(x),l,(s),80%
+#ig
+
+　なんでもないの、ごめんねっ」
+$k
+
+// MEGUMI_A401KM7
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM7.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070046
+めぐみ
+「え～気になるぅ～」
+$k
+
+// KANAME_A401TR2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01TR2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021369
+要
+「まぁまぁ」
+$k
+
+// MEGUMI_A401OD
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01OD.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070047
+めぐみ
+「あ！」
+$k
+
+//	RotateObject( 1, FAST, 110 );
+// KANAME_A401OD
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021370
+要
+「な、なに…？」
+$k
+
+// MEGUMI_A401SN
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01SN.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070048
+めぐみ
+「ほら、あっちのふたり、
+　なんか近づきすぎじゃないかな」
+$k
+
+// KANAME_A401NO5
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO5.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021371
+要
+「え…
+$nw,530
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),l,(s),80%
+#ig
+
+　あっ！」
+$k
+
+//	RotateObject( 1, FAST, 135 );
+//	RotateObject( 1, FAST, 110 );
+
+// KANAME_A403GM2
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03GM2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021372
+要
+「って…そ、そんなことないと思うけどなー」
+#meffect,flow,5
+$k
+
+// MEGUMI_A401IK
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070049
+めぐみ
+「パターンとしては、
+　こういうところから恋が芽生えたり？」
+$k
+
+// KANAME_A403KM2
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03KM2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021373
+要
+「ま、まさかぁー」
+$k
+
+// MEGUMI_A401OD3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01OD3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070050
+めぐみ
+「あ、今度は内緒話してる」
+$k
+
+//	RotateObject( 1, FAST, 135 );
+// KANAME_A401OD3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021374
+要
+「えぇっ？」
+$k
+
+// MEGUMI_A401SN
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01SN.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070051
+めぐみ
+「ほら、優ちゃんが先生の顔を隠すみたいに。
+$nw,3760
+
+　あれじゃまるでキ………
+$nw,970
+
+#sp,se,S_Basa01
+
+#ir,(dr),500,(ef),move
+#ip,c3,(y+),-150
+#ig
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM7.png,(x),r,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),520,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+　ちょ要さん、なに急に立ち上がってるんです！？」
+
+$k
+
+// 	MoveStand(LEFT, FAST, 0, -200);
+
+//$nw,5640
+
+// 	MoveStand(LEFT, SLOW, 0, 0);
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+// KANAME_A401KB2
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KB2.png,(s),80%,(x),l,(y+),0
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(y+),150
+#ig
+
+#sp,vo,06021375
+要
+「あ、ああぁ…ごめん」
+#meffect,flow,5
+$k
+
+// MEGUMI_A401KM
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070052
+めぐみ
+「びっくりした～」
+$k
+
+// MEGUMI_A401BS3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070053
+めぐみ
+「けど、さすがは要さん。
+　私に負けず劣らずこういう話が大好きですね～」
+$k
+
+// KANAME_A401RK2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01RK2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021376
+要
+「いや、そういうわけじゃないんだけど…」
+$k
+
+// MEGUMI_A401KT5
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070054
+めぐみ
+「でもほんと…なにしてるんだろあの２人」
+$k
+
+// KANAME_A401RK
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021377
+要
+「た、たいしたことじゃないって、きっと」
+$k
+
+// 	SS_(RIGHT, MEGUMI_A401KM8);
+
+#ir,(dr),0
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM8.png,(x),r,(s),80%
+#ie,c1
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),c
+#ig
+
+// 	CS( RIGHT, CENTERRIGHT );
+
+#sp,se,S_Basa02
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+// MEGUMI_A401KM8
+#sp,vo,06070055
+めぐみ
+「…要さん」
+$k
+
+// KANAME_A401OD3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021378
+要
+「な、なに、いきなり手なんかつかんで…」
+#meffect,flow,5
+$k
+
+// MEGUMI_A401KM8
+#sp,vo,06070056
+めぐみ
+「そんなにコーヒーに砂糖入れて…大丈夫？」
+$k
+
+// KANAME_A401OD2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021379
+要
+「あ…」
+#meffect,flow,5
+$k
+
+// KANAME_A401TR2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01TR2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021380
+要
+「えと、うん、わたし甘党だから～」
+$k
+
+// MEGUMI_A401KT6
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT6.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06070057
+めぐみ
+「そうだっけ？」
+$k
+
+// KANAME_A401TR2
+#sp,vo,06021381
+要
+「そ、そうなのよ。あ、あははは～っ」
+#meffect,flow,5
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+#sp,bgm,BGM_NICHIJYO
+
+// 	SS( CENTER, KOZUE_A401KF2 );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_CAFE01A.jpg,(s),100%
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF2.png,(x),c,(s),80%
+#ig
+
+#show
+
+優
+「…ティッシュ見つかりました？」
+$k
+
+// KOZUE_A401KF2
+
+#sp,vo,06100122
+こずえ
+「ふ…ふん、はひはほ」
+#meffect,flow,2
+$k
+
+優
+「いきなり垂れてきたときはびっくりしましたよ」
+$k
+
+// KOZUE_A401KF
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100123
+こずえ
+「わ、わふえへひょ…」
+#meffect,flow,2
+$k
+
+優
+「なに言ってるんだかさっぱりです」
+$k
+
+&empty
+場所を考慮した音量で、先生が鼻をかんだ。
+$k
+
+// KOZUE_A401KF2
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100124
+こずえ
+「…うぅぅ、
+$nw,3740
+
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM2.png,(x),c,(s),80%
+#ig
+
+　目もかゆくなってきたし。
+　本格的に薬が切れてきたかも」
+$k
+
+優
+「あんまりだらしないと、
+　あっちの２人に笑われますよ～」
+$k
+
+// KOZUE_A401NK
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01NK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100125
+こずえ
+「なぜか沖奈さんが要の手を握ってるけど」
+#meffect,flow,5
+$k
+
+// 	// 和田：ファミレスなので無しで。
+
+// 立ち絵移動消える。パラメータは適宜。
+// 	Zoom(FAST|SPEED_DOWN, 150, 150, 400, 50);
+
+//	SS_( CENTER, KOZUE_0401IK );
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Basa01
+
+優
+「なんと！？」
+#mlarge
+$k
+
+// KOZUE_A401OD
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100126
+こずえ
+「ちょ、ちょっと、急に立ち上がらないでよ？」
+$k
+
+優
+「あ…すみません」
+$k
+
+//	DS( -1 );
+// 	Zoom(SLOW|SPEED_DOWN, 100, 100, 400, 300);
+
+// 	SS_( CENTER, KOZUE_A401EG2 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ie,c2
+#ig
+
+&empty
+すごすごと椅子に座る。
+$k
+
+&empty
+めぐみ相手に、思わず勢いづいてしまった。
+$k
+
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01EG2.png,(x),c,(s),80%
+#ig
+
+// KOZUE_A401EG2
+#sp,vo,06100127
+こずえ
+「ふふっ」
+$k
+
+優
+「…なんです？」
+$k
+
+// KOZUE_A401BS
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100128
+こずえ
+「今の見て思ったの。なんだかんだで、
+　ちゃんとそういう関係なんだな～って」
+$k
+
+優
+「そう言ってるじゃないですか」
+$k
+
+&empty
+…なんとなくバツが悪い。
+$k
+
+// KOZUE_A401KS2
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100129
+こずえ
+「でもまさか要がこんな年下の子と付き合うとはな～」
+$k
+
+優
+「要さん、年上趣味なんですか？」
+$k
+
+// KOZUE_A401BS
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100130
+こずえ
+「私はそう思ってた」
+$k
+
+優
+「そうなんですか？」
+$k
+
+&empty
+まったく知らない一面だ。
+$k
+
+#ss,bgm
+
+// KOZUE_A401MJ
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01MJ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100131
+こずえ
+「要、小さい頃にご両親を事故で亡くしたでしょ」
+$k
+
+優
+「はい…」
+$k
+
+#sp,bgm,BGM_SHIZUKA
+
+&empty
+確か、要さんが小学校の中学年くらいのことだ。
+俺はまだ小学生にもなっていない頃。
+$k
+
+優
+「落ち込んでたんですか？」
+$k
+
+
+#next,06kaname20_03

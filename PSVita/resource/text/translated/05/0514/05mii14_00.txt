@@ -1,0 +1,940 @@
+﻿// 既読フラグ
+#read_flag,165
+
+// セーブタイトル
+#flag,save_title,みい　第１４話,0,0
+
+// 	SV( BG_SJ_CHUBO01A );
+
+#sp,bgm,BGM_MII
+
+// 	SS( CENTER, MII_A403NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第１４話　比較対象
+$k
+#note,erase
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+優
+「はい、お待ちどう」
+$k
+
+優
+「みいちゃんのために、
+　ソース１０％増しの特別サービス」
+$k
+
+// MII_A403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030830
+みい
+「ありがとうございます。
+$nw,2020
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+　１０％とはまた微妙なサービスですね」
+$k
+
+優
+「俺が一番美味いと思うバランスだ。
+　まあ、食べてみてよ」
+$k
+
+// MII_A401TR
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030831
+みい
+「………」
+$k
+
+&empty
+じっとたこ焼きを見つめるみいちゃん。
+ふりかけた削り節が、ゆらゆらと揺れている。
+$k
+
+優
+「ん、どうした？
+　削り節が踊ってるのが面白い？」
+$k
+
+// 	ShakeStand( CENTER, SLOW, SHAKE_LEFT, 10, 30 );
+
+#ir,(dr),500,(ef),move,(lt),over,(lc),3
+#ip,c1,(x+),10
+#ig
+
+&empty
+俺の問いかけに、ふるふると頭を振る。
+$k
+
+優
+「じゃあ何？」
+$k
+
+// MII_A403TR4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030832
+みい
+「せっかくなのですから、こういう場合は
+　食べさせ合ったりしてみてはどうかと思うのですが」
+$k
+
+// MII_A403TR2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030833
+みい
+「……恋人同士としては」
+$k
+
+優
+「お……お、おう、そうだな」
+$k
+
+&empty
+しかし、たこ焼きでそれにチャレンジするのは
+なかなかリスキーだぞ、みいちゃん。
+$k
+
+&empty
+とは言え、恋人同士を強調されては、
+引き下がれないな。
+$k
+
+// MII_A401TR
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030834
+みい
+「というわけで…」
+$k
+
+// 	SS( CENTER, MII_A401KY );
+
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY.png,(x),c,(s),80%
+#ig
+
+&empty
+みいちゃんが大きく口を開けて待ち受ける。
+$k
+
+優
+「ちょ、ちょっと待ってね」
+$k
+
+&empty
+たこ焼きを割り箸で挟み、息を吹きかけて冷ます。
+$k
+
+優
+「ふー…ふぅーっ」
+$k
+
+// MII_A401TR2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030835
+みい
+「…どきどき」
+#msmall
+$k
+
+&empty
+ここはしっかり冷まさないと…、
+事故ったら大変だからな。
+$k
+
+優
+「これで大丈夫。
+　ほい、口開けて」
+$k
+
+&empty
+って、もう開けてるか。
+$k
+
+// 	ZoomStand( CENTER, 60, 130, 130 );
+
+// MII_A401KY
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(s),100%
+#ig
+
+#sp,vo,05030836
+みい
+「あー…、
+$nw,1540
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+　はむっ
+$nw,1000
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(s),80%
+#ig
+
+#madd,………はふ、はふ」
+
+$k
+
+// 	ZoomStand( CENTER, 60, 100, 100 );
+
+優
+「どうだ、１０％増しは美味いだろう？」
+$k
+
+// MII_A401NO
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030837
+みい
+「んく……まあまあですね」
+$k
+
+優
+「いつもと評価が変わらないのかよー」
+$k
+
+// MII_A401AM2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030838
+みい
+「…まあまあ、美味しいです」
+$k
+
+&empty
+上目遣いで俺を見て、微笑む。
+$k
+
+&empty
+うん、可愛いぞ。
+$k
+
+優
+「いつもより評価が上か。
+　そうかそうか、美味いか～～」
+$k
+
+&empty
+嬉しかったので、みいちゃんの髪を撫でる。
+$k
+
+// MII_A403TR2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR2.png,(x),c,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),280,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05030839
+みい
+「わわ…」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+//	SetIconHeart( CENTER );
+// MII_A403EG2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030840
+みい
+「えへへぇ……♪」
+$k
+
+&empty
+あまりに可愛いから、ずっと撫でていよう。
+$k
+
+// MII_A403EG2
+#sp,vo,05030841
+みい
+「えへへ……」
+$k
+
+&empty
+なでなでなで。
+$k
+
+//	SetIconAse( CENTER );
+// MII_A403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030842
+みい
+「あうぅ……？」
+$k
+
+&empty
+少し首を傾げるみいちゃん。
+$k
+
+&empty
+それでも撫でる。
+$k
+
+// MII_A403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030843
+みい
+「…あ、あの、もう結構ですけど？」
+$k
+
+// MII_A403KM2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030844
+みい
+「あまりなでなでされると、禿げてしまいます」
+$k
+
+優
+「そうか…？」
+$k
+
+&empty
+ちょっと残念。
+$k
+
+&empty
+みいちゃんと付き合い出したものの、
+この辺のさじ加減は、まだいまいち分からない。
+$k
+
+// MII_A402TR2
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030845
+みい
+「では今度は、私の番ですね」
+$k
+
+優
+「あ……」
+$k
+
+&empty
+さっきよりは少し冷めたであろう
+たこ焼きを抓み、俺の口元に持ってくる。
+$k
+
+// 	ZoomStand( CENTER, 60|SPEED_DOWN, 130, 130 );
+
+// MII_A402TR
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02TR.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(s),100%
+#ig
+
+#sp,vo,05030846
+みい
+「あーん、です」
+$k
+
+優
+「あーん」
+$k
+
+// 	ZoomStand( CENTER, 60|SPEED_UP, 100, 100 );
+
+// MII_A402OD2
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02OD2.png,(x),c,(s),100%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(s),80%
+#ig
+
+#sp,vo,05030847
+みい
+「たこ焼きより口がおっきいです」
+$k
+
+優
+「もぐもぐ……みいちゃんの口が小さいんだ」
+$k
+
+// MII_A403TR4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030848
+みい
+「そのうち私もぺろりと食べられて
+　しまうのでしょうか？」
+$k
+
+&empty
+…なんか赤ずきんみたいだな。
+$k
+
+// MII_A403TR2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030849
+みい
+「……食べられてしまうのですね？」
+$k
+
+&empty
+……えっと。
+食べるって、そっちの意味か？
+$k
+
+優
+「はは、まあ、どうかな～」
+$k
+
+// MII_A403TR2
+#sp,vo,05030850
+みい
+「………」
+$k
+
+//&empty
+//本音は今すぐにでもみいちゃんと
+//そういう事がしたくてたまらないけど。
+//$k
+
+//&empty
+//こんなに可愛い彼女と２人きりでいて、
+//ムラムラしない方がおかしい。
+//$k
+
+// 変更。
+&empty
+健全な一般男性ならば、
+こんなに可愛い彼女と２人きりでいて、
+ムラムラしない方がおかしい。
+$k
+
+//&empty
+//その大きなおっぱいにしゃぶりついたり、
+//えっちなイタズラをいっぱいしたい。
+//$k
+
+&empty
+でも、大事にしたい、大事にしなきゃいけない
+という意識もあるし…。
+$k
+
+&empty
+どう大事に扱えばいいのか分からないというか、
+距離を測りかねている部分もあるけど。
+$k
+
+&empty
+なにしろ、ついこの間まで、
+妹分という目で見てたからな…。
+$k
+
+&empty
+…正直、今の発言や、こうやって食べさせ合うのも、
+イタズラの一種か、また何か俺を騙そうと
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　だま
+してるんじゃないかとも思ってしまう。
+$k
+
+&empty
+まあ、こんな関係が嫌なわけじゃないんだけど。
+$k
+
+&empty
+……付き合っている事自体が
+イタズラだなんて、そんな事はないよな？
+$k
+
+優
+「んじゃ、バイトに戻るか。
+　みいちゃんはここにいる？」
+$k
+
+// MII_A403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030851
+みい
+「はい。焼くの手伝いましょうか？」
+$k
+
+優
+「いや、火傷したら大変だから
+　その辺で遊んでくれてていいよ」
+$k
+
+// MII_A402SP
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030852
+みい
+「火傷なんてしませんよ」
+$k
+
+優
+「いやいや、危ないからダメだ。
+　みいちゃんが怪我をするのは嫌だから」
+$k
+
+// MII_A403KD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030853
+みい
+「えええ？
+$nw,1490
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG4.png,(x),c,(s),80%
+#ig
+
+　……そんなに過保護にしなくても」
+$k
+
+// MII_A403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030854
+みい
+「むしろ野生児を恋人にしてるぐらいで
+　構わないんですけど」
+$k
+
+優
+「こんな可愛い子を野生児に思うとか、
+　俺には無理だから……」
+$k
+
+// MII_A403TR2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030855
+みい
+「そ、そうですか…」
+$k
+
+#hide
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+#wait,500
+
+#ir,(ef),off
+#ip,c1,(fi),CHISEKAPAPA_A301BS.png,(x),l0,(s),75%,(al),0%
+#ig
+
+// 	WaitSE();
+
+#sp,se,S_Door04c
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	WaitSE();
+
+#show
+
+#sp,vo,05990075
+社長
+「こんにちは、ひとつ貰えるかなー？
+　あ、一つって言っても一個だけじゃないよ？」
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS( CENTER, CHISEKAPAPA_0301BS );
+
+優
+「はい、いらっしゃいませー。
+　あ、なんだ社長さんか」
+$k
+
+// CHISEKAPAPA_0301EG
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301EG.png,(x),c,(s),75%
+#ig
+
+#sp,vo,05990076
+社長
+「やあ優君。おっ、みいちゃんも居るんだ。
+　おじさん今日はついてるなぁ！」
+$k
+
+// 	SS_( LEFT, MII_0401NO, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+// 	CS( CENTER, RIGHT );
+
+// MII_0401NO
+#sp,vo,05030856
+みい
+「こんにちは」
+$k
+
+// CHISEKAPAPA_0301BS2
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301BS2.png,(x),r,(s),75%
+#ig
+
+#sp,vo,05990077
+社長
+「うんうん今日も可愛いねぇ、お姫様みたいだよ」
+$k
+
+優
+「ですよね、俺もそう思います。
+　みいちゃんほど可愛い子はいません」
+$k
+
+// MII_0403KM2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030857
+みい
+「えええっ…お、お兄様！？
+　社長と同調するなんて……」
+$k
+
+// CHISEKAPAPA_0301KT
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KT.png,(x),r,(s),75%
+#ig
+
+#sp,vo,05990078
+社長
+「あれ？　今日はみいちゃん、
+　社長って呼んでくれるんだねー？」
+$k
+
+// MII_0403KD2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KD2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030858
+みい
+「はっ、しまった！
+$nw,1800
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AD.png,(x),l,(s),60%
+#ig
+
+　（つい動揺して…）」
+
+$k
+
+// 	FadeVisual( 20, 50 );
+// 	FadeStand( RIGHT, 20, FADE_FADE, 50 );
+
+// 	FadeVisual( 20, 100 );
+// 	FadeStand( RIGHT, 20, FADE_FADE, 100 );
+
+// CHISEKAPAPA_0301NO
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NO.png,(x),r,(s),75%
+#ig
+
+#sp,vo,05990079
+社長
+「でもみいちゃんになら、私もお兄様なんて
+　呼ばれてみたいねぇ」
+$k
+
+// MII_0401NI
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NI.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030859
+みい
+「お兄様は１人だけですよ。
+　清掃業お手伝いさん」
+$k
+
+優
+「いきなりリストラされたみたいだな…。
+　良かったですね、次の職があって」
+$k
+
+// CHISEKAPAPA_0301KM2
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KM2.png,(x),r,(s),75%
+#ig
+
+#sp,vo,05990080
+社長
+「全然良くないよー！
+　なんで自分の会社リストラされないといけないのっ」
+$k
+
+// MII_0402MJ
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030860
+みい
+「事業主という立場に胡坐をかいていると、
+　労働組合の突き上げが…」
+$k
+
+優
+「はい、言ってる間に出来ましたよー」
+$k
+
+// 	SS_( RIGHT, CHISEKAPAPA_0301BS );
+
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01AS.png,(x),l,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\bikkuri.png,(x),420,(y),70
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+// MII_0401AS
+
+#sp,vo,05030861
+みい
+「ああっ、お兄様！？」
+$k
+
+//	SetIconAwatease( LEFT );
+
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301BS.png,(x),r,(s),75%
+#ig
+
+&empty
+みいちゃんが手伝う暇を与えず、
+俺が全てたこ焼きを準備する。
+$k
+
+// MII_0401AS
+#sp,vo,05030862
+みい
+「うあ、私の仕事が何一つ無かったです」
+$k
+
+&empty
+オロオロとするみいちゃんが可愛らしくて、
+つい笑顔になってしまう。
+$k
+
+優
+「みいちゃんは居てくれるだけでいいんだよ」
+$k
+
+// CHISEKAPAPA_0301NO
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NO.png,(x),r,(s),75%
+#ig
+
+#sp,vo,05990081
+社長
+「おやおや、目に入れても痛くない可愛がり様だねぇ」
+$k
+
+優
+「そりゃあもう、俺にとって大事な子ですからね」
+$k
+
+// MII_0401AM
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01AM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030863
+みい
+「お、お兄様…っ」
+$k
+
+// CHISEKAPAPA_0301BS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301BS.png,(x),r,(s),75%
+#ig
+
+#sp,vo,05990082
+社長
+「まるで本当の妹みたいだねー」
+$k
+
+//	SetIconChinmoku( LEFT );
+// MII_0401NI
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NI.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030864
+みい
+「妹……」
+$k
+
+優
+「そうですかね？」
+$k
+
+// CHISEKAPAPA_0301EG
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301EG.png,(x),r,(s),75%
+#ig
+
+#sp,vo,05990083
+社長
+「そうだよ、
+$nw,1710
+
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KM2.png,(x),r,(s),75%
+#ig
+
+#madd,いや、娘かな？」
+$k
+
+//	SetIconIkari( LEFT );
+
+// MII_0401SN3
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01SN3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030865
+みい
+「っ！？」
+$k
+
+優
+「ははは……はい社長、たこ焼きどうぞ」
+$k
+
+// CHISEKAPAPA_0301EG
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301EG.png,(x),r,(s),75%
+#ig
+
+#sp,vo,05990084
+社長
+「ああ、ありがとう優君」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),0%
+#ig
+
+&empty
+受け取った社長は、そのまま外に出て行こうとする。
+$k
+
+優
+「あれ、食っていかないんですか」
+$k
+
+#sp,se,S_Door04o
+
+// CHISEKAPAPA_0301BS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301BS.png,(x),r2,(s),75%
+#ig
+
+#sp,vo,05990085
+社長
+「今日はちょっとぶらりと寄っただけだから。
+　また来るよ。じゃあね、みいちゃん」
+$k
+
+
+#next,05mii14_01

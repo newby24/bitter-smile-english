@@ -1,0 +1,488 @@
+﻿// 既読フラグ
+#read_flag,399
+
+// セーブタイトル
+#flag,save_title,要　第１８話,0,0
+
+// 	SV( BG_MT_ARIKAWAKOJYO01A );
+
+#sp,env,W_Factory01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ARIKAWAKOJYO01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第１８話　祝合格
+$k
+#note,erase
+
+#show
+
+#sp,vo,06990029
+工員
+「リフト来たぞー！
+$nw,1660
+
+　新入り、パレット持ってこい！」
+$k
+
+優
+「パ、パレット…？」
+#meffect,flow,5
+$k
+
+#sp,vo,06990030
+工員
+「でっかい、すのこみてえのだよ！
+$nw,2580
+
+　あの柱んとこに並べてある。
+$nw,1940
+
+　さっさと取ってこい！」
+$k
+
+優
+「は、はい！」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#sp,se,S_Dash03o
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SFO( 0, SLOW );
+// 	SEFade( 0, NORMAL, 10 );
+// 	ZoomVisual( NORMAL, 200, 200, 623, 230 );
+// 	Fade( NORMAL, 0 );
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(fi),BG_MT_ARIKAWAGAIKAN01A.jpg,(s),100%
+#ig,(se),S_Car09
+
+#wait,1000
+
+// 	// 和田：なさそうだしクラクションで。
+
+#sp,se,W_Horn01
+
+// 	SV( BG_MT_ARIKAWAGAIKAN01A );
+// 	ZoomVisual( 0, 200, 200, 400, 300 );
+// 	Fade( FAST, 100 );
+// 	ZoomVisual( FAST, 100, 100, 400, 300 );
+
+#show
+
+#sp,vo,06990031
+工員
+「馬鹿野郎！　いきなり出てくんじゃねえ！
+　轢き殺されてえのか！」
+$k
+
+優
+「す、すみませんっ」
+#mlarge
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,env,W_Factory01
+
+// 	SV( BG_MT_ARIKAWAGAIKAN02A );
+
+// 	ZoomVisual( 0, 100, 100, 400, 300 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ARIKAWAGAIKAN02A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「お先に失礼しまーす」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NONBIRI
+
+//	SFP(0, "S_River03#", SLOWER, 100);
+// 	SV( BG_MT_TEIBO02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO02A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「…疲れた」
+#meffect,flow,5
+$k
+
+&empty
+８時間、立ちっぱなしの走りっぱなしが、
+こんなに辛いものとは思わなかった。
+$k
+
+&empty
+たった１日で、安全靴はともかくゴム手袋は真っ黒。
+$k
+
+&empty
+仕事も、雑用程度なのに何もできないし…。
+$k
+
+&empty
+情けないことに、トイレにこもって、
+１０分くらいやり過ごそうかと
+何度も思ってしまった。
+$k
+
+優
+「こんなのが今週いっぱい…来週も…」
+#meffect,flow,5
+$k
+
+&empty
+耐えられるかな、俺…。
+#meffect,flow,5
+$k
+
+&empty
+社員の人たちは、３日頑張りゃ
+慣れるって言っていた。
+$k
+
+&empty
+せっかく宮津橋に紹介してもらったんだし、
+割はいいんだけどな。
+$k
+
+&empty
+とりあえず今日は体力、気力ともにからっぽ。
+$k
+
+&empty
+帰ったら泥のように眠ろう…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN03A.jpg,(s),100%
+#ig
+
+#sp,se,W_Dog02
+
+#wait,2000
+
+// 	SV( BG_TD_IMA03G );
+
+// 	SS_( LEFT, YUKIHA_A401BS );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03G.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),l,(s),80%
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, MII_A402NO );
+
+#show
+
+// YUKIHA_A401BS
+#sp,vo,06050052
+雪華
+「桜子ちゃん」
+$k
+
+// MII_A403NO
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06030088
+みい
+「優お兄様」
+$k
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),l,(s),80%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06030089
+みい＆雪華
+「大学合格おめでとうございます！」
+#mlarge
+$k
+
+#hide
+
+#sp,se,T_Cracker
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ie,c1,c3
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),image\etc\cracker_l.png,(x),c
+#ip,c3,(fi),image\etc\cracker_r.png,(x),c
+#ip,c2,(fi),image\etc\cracker_paper.png,(x),c,(y),-100
+#ig
+
+#ir,(dr),3000,(ef),move,(lt),once,(lc),0
+#ip,ov,(al),0%
+#ip,c1,(al),0%
+#ip,c3,(al),0%
+#ia,c1,al,(dl),1000
+#ia,c3,al,(dl),1000
+#ip,c2,(al),0%,(y),0,(x+),30
+#ia,c2,al,(dl),1000
+#ia,c2,x,(dr),1000,(lt),over,(lc),no_limit
+#ia,c2,y,(dr),6000
+#ig
+
+#wait,1000
+
+#ils
+
+#sp,bgm,BGM_TANOSHII
+
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),l,(s),80%
+#ip,c1,(fi),KINO_A401KM.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, KINO_A401KM );
+
+#show
+
+// KANAME_A402EG2
+#sp,vo,06021027
+要
+「おめでとー」
+$k
+
+// KINO_A401NI
+
+#ir
+#ip,c1,(fi),KINO_A401NI.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06060039
+紀乃
+「…そんな、ぽんぽん鳴らさんでええやろ」
+$k
+
+// 	SS_( LEFT, YUKIHA_A401BS );
+// 	SS( RIGHT, MII_A403EG );
+
+// MII_A403EG
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),80%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),l,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,06030090
+みい
+「司会進行と主役は私、轟木みい、
+　轟木みいが務めさせていただきます」
+$k
+
+// YUKIHA_A401KM2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM2.png,(x),l,(s),80%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),120,(y),260,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,06050054
+雪華
+「主役は違うような…」
+#meffect,flow,5
+$k
+
+// MII_A403NO
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06030091
+みい
+「それでは、乾杯の前に
+　主賓から挨拶をいただきましょう。
+$nw,4410
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),r,(s),80%
+#ig
+
+　１０秒くらい」
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06000101
+桜子
+「いいけど…主賓の片方が寝てるわよ」
+$k
+
+優
+「ぐー」
+$k
+
+// 	SS_(RIGHT, MII_A403IK);
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK.png,(x),c,(s),100%
+#ie,c3
+#ig,(se),S_Basa02
+
+// 	ZoomStand( RIGHT, NORMAL, 150, 150 );
+// 	CS( RIGHT, CENTER );
+
+// MII_A403IK
+#sp,vo,06030092
+みい
+「優矢崎～っ」
+#mlarge
+$k
+
+//	SS(LEFT, YUKIHA_A401OD3);
+// YUKIHA_A401OD3
+
+#sp,vo,06050055
+雪華
+「わっ、テーブルから乗り出してっ」
+$k
+
+// SAKURAKO_A402NR
+
+#sp,vo,06000102
+桜子
+「っていうか、なぜフルネーム。
+　しかも逆さま」
+$k
+
+// KANAME_A401OD3
+
+#sp,vo,06021028
+要
+「ちょ、ちょっとみいちゃん、
+　それじゃあ首絞まっちゃうからね」
+$k
+
+// MII_A403IK6
+
+#sp,env,S_Nuno04
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK6.png,(x),c,(s),100%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,bg,(y+),20
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,06030093
+みい
+「誰に許されて主役が寝てるんですか～」
+$k
+
+// 	Shake(0, SHAKE_DOWN|SHAKE_SCREEN, 6, 30);
+
+優
+「う…あぁ…」
+#meffect,flow,5
+$k
+
+&empty
+な、なんだ、苦し…
+#meffect,flow,5
+$k
+
+&empty
+まるで襟首を掴まれて、がっくんがっくん
+頭を揺らされているかのような…
+$k
+
+#ils
+
+#ss,env,(dr),1000
+
+// まぶたを閉じている状態から開ける。
+#ir,(ef),off
+#ip,c2,(fi),image\sysc\sysc_mabuta_1.png,(x),c,(y),o_u
+#ip,c3,(fi),image\sysc\sysc_mabuta_2.png,(x),c,(y),o_d
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,c2,(y),u_s
+#ip,c3,(y),d_s
+#ig
+
+&empty
+っていうか、また意識が遠のいてきた…。
+#meffect,flow,5
+$k
+
+// 	RFO( RULE_EYE, SLOWER );
+// 特殊な画面変更。暫定的に。
+
+// 	DelStandAll();
+
+// KANAME_0401OD5
+
+#sp,vo,06021029
+要
+「きゃー、優くんが白目にぃー」
+$k
+
+
+#next,06kaname18_01

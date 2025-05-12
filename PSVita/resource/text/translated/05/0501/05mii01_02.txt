@@ -1,0 +1,720 @@
+﻿// 既読フラグ
+#read_flag,122
+
+// 	Zoom( 10|SPEED_DOWN, 100, 100, 400, 300, 0 );
+// 	Blur( 0, 0 );
+// 	RadialLine( 0 );
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//-----オブジェクトここまで
+// 	SV( BG_SJ_TENNAI03A );
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「なんで、めぐみまで居るんだよ。
+　お前もグルか」
+$k
+
+// 	SS( RIGHT, MEGUMI_0101EG4 );
+
+//	SetIconHirameki( RIGHT );
+
+// MEGUMI_0101EG4
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070010
+めぐみ
+「だーってぇ、面白そうだったんだもーん」
+$k
+
+// 	SS( LEFT, YUKIHA_0301AK3 );
+
+// YUKIHA_0301AK3
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01AK3.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,05050000
+雪華
+「お兄ちゃん、すっかり忘れてたんだね。
+　自分の誕生日」
+$k
+
+&empty
+そうだった。
+引越してきてからのバタバタで、そんなもの
+忘れてしまっていた。
+$k
+
+&empty
+みいちゃんの行動があまりに怪しくて、
+そっちの方向に考えがいかなかったというのもあるが。
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+優
+「それにしても、よくもまぁこれだけ…」
+$k
+
+&empty
+よくよく見ると、テーブルや椅子の足の陰、
+カウンターの板の裏、電灯の傘の上、植木の中や、
+はては壁に飾った地名入りのおみやげ提灯の陰…。
+$k
+
+&empty
+見えないように、そこかしこに
+パーティ用のクラッカーが仕込まれていた。
+$k
+
+&empty
+しかも、その全てが×印の上に立った俺にきっちり
+降り注ぐように、方向と角度を計算して。
+$k
+
+&empty
+なんという暇人。
+$k
+
+// 	SS( CENTER, KANAME_0901NO2 );
+
+// KANAME_0901NO2
+#ir
+#ip,c2,(fi),KANAME_A901.png,(psi),KANAME_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020000
+要
+「まあ、そう言わないの。
+　みいちゃんが優君にサプライズだからって
+　一人で頑張って仕込んだんだからね」
+$k
+
+優
+「え？　一人でこれを？」
+$k
+
+// 	SS( CENTER, SAKURAKO_0301AK2 );
+
+// SAKURAKO_0301AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,05000001
+桜子
+「頼まれたとしても、私はやらなかったわよ。
+　こんな面倒なの」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+怪しいなんて思っちゃって悪かったかな。
+$k
+
+&empty
+みいちゃんは狙ってやってるんだろうけど…。
+$k
+
+// KINO_0401BS3
+#ir
+#ip,c2,(fi),KINO_A401BS3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05060000
+紀乃
+「ほな、料理持っていくで、
+　そっち片しやー」
+$k
+
+// 	SS( CENTER, MII_0303EG, MOVE_RIGHT );
+
+// MII_0303EG
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030016
+みい
+「はいはい、どいてください。
+　行きますよー」
+$k
+
+// ISAKI_0301MU
+#ir
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01MU.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,05010004
+勇樹
+「…もう私は部屋に戻っていいか？」
+$k
+
+// MII_0303EG3
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030017
+みい
+「まあまあ、今日は遅ればせながらの歓迎会も
+　兼ねてるんですから。
+　主賓が居なくなっては困ります」
+$k
+
+// KINO_0401BS
+#ir
+#ip,c2,(fi),KINO_A401BS.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05060001
+紀乃
+「そうやで。
+　はよ、座りいな」
+$k
+
+// ISAKI_0301AZ
+#ir
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01AZ.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,05010005
+勇樹
+「……ちっ」
+$k
+
+// MII_0303NO
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030018
+みい
+「むしろ、たまたま
+　お兄様の誕生日が重なっただけで」
+$k
+
+優
+「ついでなの！？　俺の誕生日っ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	//↓仮
+// 	//三木：じかんあればつづらでもつくるか
+// 	SV( BG_SJ_KYUKEISHITSU01A );
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SS( CENTER, MII_0302NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KYUKEISHITSU01A.jpg,(s),100%
+#ip,c1,(fi),MII_A302.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0302NO
+#sp,vo,05030019
+みい
+「ここに大きいつづらと、中ぐらいのつづらと、
+　小さいつづらがあります」
+$k
+
+優
+「ただの箱じゃん。
+　ってか、これ何？」
+$k
+
+// MII_0303NO
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030020
+みい
+「主賓３人へのプレゼントですよ。
+　まずはたまたま誕生日でもあるお兄様から
+　お選びください」
+$k
+
+優
+「どうしてもついで扱いにしたいらしいな」
+$k
+
+// MII_0303EG
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030021
+みい
+「お兄様の選んだ残りが、雪華さんと勇樹さんへの
+　プレゼントになりますので、慎重にお選びください」
+$k
+
+// 	SS( RIGHTRIGHT, YUKIHA_0301EG );
+
+// YUKIHA_0301EG
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01EG.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05050001
+雪華
+「だって。うまく選んでね、お兄ちゃん」
+$k
+
+優
+「むう…なんだ、この妙なプレッシャーは…」
+$k
+
+// 	SS( LEFTLEFT, ISAKI_0301KB );
+
+// ISAKI_0301KB
+#ir
+#ip,c2,(fi),ISAKI_A301.png,(psi),ISAKI_An01KB.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,05010006
+勇樹
+「…何だろうと、私は要らんぞ」
+$k
+
+// MII_0303EG4
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030022
+みい
+「ちなみに一つは罰ゲームになっておりますので」
+$k
+
+優
+「なにそのバラエティ仕様！？」
+$k
+
+// 	SS( CENTER, MII_A303EG2, MOVE_STOP, NORMAL );
+
+// MII_A303EG2
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030023
+みい
+「さあさあ、どうぞ、お兄様」
+$k
+
+優
+「むむむむ………」
+$k
+
+&empty
+雪華ちゃんに罰ゲームなどやらせるわけにいかんし、
+宮津橋にそれを回したとしても…。
+$k
+
+&empty
+こ、これは俺にとってどれが正解なんだ？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI03A );
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS( CENTER, MII_0303EG3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0303EG3
+#sp,vo,05030024
+みい
+「やはりお兄様は一番小さいのを選びましたねぇ」
+$k
+
+&empty
+本当にそこまでお見通しだったのか、
+適当に言ってるだけなのかは、よくわからんが。
+$k
+
+優
+「いいんだよ、これで」
+$k
+
+&empty
+結局、罰ゲームはパーティの後片付けだった。
+$k
+
+&empty
+なにが一番大変かというと、
+店中に仕掛けられたクラッカーの回収。
+$k
+
+&empty
+みいちゃんが手伝ってくれてるので、
+助かったけど。
+$k
+
+優
+「…まあ、仕掛けたのもみいちゃんなんだけどな」
+$k
+
+// MII_0303KT
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030025
+みい
+「何か言われましたか？」
+$k
+
+優
+「いや、別に」
+$k
+
+// MII_0303KT
+#sp,vo,05030026
+みい
+「？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+ちょっと首を傾げると、
+再び片付け作業に戻るみいちゃん。
+$k
+
+&empty
+何故だか、なんとなく楽しそうに見える。
+$k
+
+優
+「ま、いっか」
+$k
+
+&empty
+なんだかんだ言って、みいちゃんが主催してくれた
+このパーティは俺も楽しかったし。
+$k
+
+&empty
+罰ゲームといっても、こうしてるのも
+そんなに損した気はしない。
+$k
+
+#sp,se,S_Gatan01
+
+// MII_0303KM
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030027
+みい
+「よっこらしょ…う、んと……」
+$k
+
+優
+「あー、そんな上のは俺がやるから」
+$k
+
+// MII_0303KD
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030028
+みい
+「あ、ありがとうございます」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+みいちゃんが椅子の上に乗って、電灯に取り付けた
+クラッカーを取ろうと手を伸ばしていた。
+$k
+
+&empty
+椅子から降りたみいちゃんに代わって、
+靴を脱いで椅子の上にあがる。
+$k
+
+// MII_0303NO
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030029
+みい
+「さすが男の人ですねぇ。
+　こういう時助かります」
+$k
+
+優
+「どうやってつけたんだよ。こんなとこ」
+$k
+
+// MII_0303EG
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030030
+みい
+「さあ？
+　なにしろお兄様を喜ばせたい一心で、
+　無我夢中になっていましたもので」
+$k
+
+優
+「驚かせたい、の間違いじゃないの？」
+$k
+
+// MII_0303NS
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030031
+みい
+「おっと、気付きませんでした。
+　てっきり同じ意味かと」
+$k
+
+&empty
+全く悪びれず言い放つみいちゃん。
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「全く…」
+$k
+
+&empty
+さすがだよ。
+$k
+
+#sp,vo,05030032
+みい
+「………お兄様」
+$k
+
+優
+「なんだい？」
+$k
+
+&empty
+椅子の下から呼びかけてくるみいちゃんに
+上を向いたまま応える。
+$k
+
+#sp,vo,05030033
+みい
+「えーと、ですね」
+$k
+
+優
+「うん。…よし、取れたよ」
+$k
+
+&empty
+取り外したクラッカーの残骸を、足元に居る
+みいちゃんに手渡す。
+$k
+
+#sp,vo,05030034
+みい
+「そう言えば、まだ言ってませんでしたけど」
+$k
+
+優
+「うん？」
+$k
+
+&empty
+椅子から降りて、みいちゃんと目線を合わせる。
+$k
+
+// 	SS( CENTER, MII_A303NO, MOVE_STOP, NORMAL );
+
+// MII_A303NO
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030035
+みい
+「お帰りなさいませ、お兄様」
+$k
+
+&empty
+あ…。
+$k
+
+// MII_A303TR2
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030036
+みい
+「…まあ、今更なんですけどね」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+そう言ってみいちゃんは
+手に持ったクラッカーをゴミ袋に捨てに行く。
+$k
+
+&empty
+振り向く前の一瞬、照れたような表情を
+浮かべてたような気がするけど、
+どうだったんだろう。
+$k
+
+&empty
+でもまあ…。
+$k
+
+優
+「ただいま、みいちゃん。
+　これからもよろしく」
+$k
+
+// 	SS( CENTER, MII_0303EG );
+
+// MII_0303EG
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030037
+みい
+「はい、こちらこそよろしくお願いします」
+$k
+
+#hide
+
+//	FO( SLOW );
+//	DS( -1 );
+//	BFO( SLOW );
+//	WT( 100 );
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリアしていれば、ジャンプ可能。
+#next,90jump02:(if),sys,0,==,1
+
+#next,02common01-3_00
+

@@ -1,0 +1,535 @@
+﻿// 既読フラグ
+#read_flag,214
+
+#show
+
+&empty
+居間に戻ると、すでに蕎麦が湯気を立てていた。
+$k
+
+// 	SS_( LEFT, MII_A403NO );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),l,(s),80%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),r,(s),80%
+#ig
+
+// 	SS_( RIGHT, YUKIHA_A401BS2 );
+
+// YUKIHA_A401BS2
+#sp,vo,04050016
+雪華
+「あっ、勇樹さんだ！　めぐお姉ちゃんも！」
+$k
+
+//	SS_( CENTERRIGHT, MEGUMI_0401EG7, MOVE_RIGHT );
+//	SS( RIGHTRIGHT, ISAKI_0402MU, MOVE_RIGHT );
+// MEGUMI_0401EG7
+
+#sp,vo,04070081
+めぐみ
+「やっほー、雪華ちゃん。
+　お呼ばれにきちゃいました」
+$k
+
+// MII_A402NO
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,04030055
+みい
+「どうぞ、どうぞ、お座りくださいな」
+$k
+
+// SAKURAKO_0403NO
+
+#sp,vo,04000091
+桜子
+「あ、勇樹はそこね」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+桜子が指差したのは、俺の隣だった。
+$k
+
+// 	SS_( CENTER, ISAKI_A401MU );
+
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+&empty
+宮津橋が、居心地悪そうにしながらも
+そこに大人しく腰を下ろした。
+$k
+
+// ISAKI_A401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010277
+勇樹
+「……私も修行が足りんな」
+$k
+
+優
+「へ？」
+$k
+
+// ISAKI_A401NO
+#sp,vo,04010278
+勇樹
+「出前に行ってこいって、言われて、
+　まさかここだと思わなかった」
+$k
+
+優
+「まあ、人を担ぐのが好きな奴らだからな」
+$k
+
+// ISAKI_A401IK
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010279
+勇樹
+「余計なおせっかいだ」
+$k
+
+//	DS( LEFTEDGE );
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+ぷいっとそっぽを向いてしまう宮津橋。
+$k
+
+// KANAME_A402EG
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,04020003
+要
+「はーい、要さんの特製お蕎麦おまちぃ！」
+$k
+
+&empty
+その前にごとん、と年越し蕎麦が置かれた。
+$k
+
+//	SS( LEFTLEFT, KINO_0401AK );
+// KINO_0401AK
+#ir
+#ip,c3,(fi),KINO_A401AK.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,04060004
+紀乃
+「あんたはネギ切っただけやろが」
+$k
+
+// KANAME_A402RK
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02RK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04020004
+要
+「これはこれはお婆さま、手厳しいっ」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),l2,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,04000092
+桜子
+「いいから食べましょ」
+$k
+
+#ir
+#ie,c2,c3
+#ig
+
+&empty
+みんな揃って、手を合わせる。
+
+#mfuri,　　　　　　そろ
+
+$k
+
+#sp,vo,04990072
+全員
+「いただきまーすっ」
+$k
+
+// ISAKI_A402MU
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010280
+勇樹
+「いただきます…」
+$k
+
+// 	SS( CENTER, MII_A403KD );
+
+// MII_A403KD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04030056
+みい
+「あ、お兄様はお蕎麦にたこ焼きを
+　入れるんでしたね」
+$k
+
+優
+「もうそれはいいんだよっ」
+$k
+
+// 	SS_( CENTER, MII_A403NI );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NI.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+#sp,se,S_Water06,(lp),1
+
+優
+「あぁぁぁぁぁぁっ！」
+$k
+
+// 	ZoomStand( CENTER, 20, 100, 100 );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),80%,(x),c
+#ig
+
+// MII_A403EG4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04030057
+みい
+「あら、すみません。うっかり手が滑って」
+$k
+
+優
+「強引な滑り方だな、おい」
+$k
+
+&empty
+しかもこんなに何個も…。
+$k
+
+// SAKURAKO_0401AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000093
+桜子
+「まーまー、死にはしないわよ」
+$k
+
+#ss,bgm
+
+#ir
+#ie,c1
+#ig
+
+優
+「あ～あ～、もう……」
+$k
+
+&empty
+諦めて蕎麦つゆにどっぷり浸かったたこ焼きを
+食べてみる事にした。
+$k
+
+#sp,se,T_Spark01
+
+#ir,(dr),200
+#ip,ov,(fi),image\etc\spark.png,(y),0
+#ig
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+優
+「ん！」
+$k
+
+// 	ClipObject( 0, 20|SPEED_DOWN, 800, 0, 800, 600, 1 );
+// 	WaitClipObject( 0 );
+
+&empty
+こ、これは……！
+$k
+
+#sp,se,S_Pirorin
+
+優
+「めちゃくちゃ美味い！」
+#mlarge
+$k
+
+&empty
+ぷりぷりの生地が、つゆを吸う事によって、
+とろっととろけてなんとも……！
+$k
+
+// 	SS_( CENTER, ISAKI_A402KT );
+
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+// ISAKI_A402KT
+#sp,vo,04010281
+勇樹
+「美味いのか？」
+$k
+
+優
+「ほら、お前も食ってみろって」
+$k
+
+// 	Zoom(      0, 100, 100, 450, 75 );
+// 	Zoom( NORMAL, 150, 150, 450, 75 );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+&empty
+箸で口元に持っていくと、
+宮津橋は大きく口を開けて、
+俺の箸からたこ焼きを食べた。
+$k
+
+// 	Zoom( NORMAL, 100, 100, 450, 75 );
+
+// ISAKI_A402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),100%
+#ig
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(s),80%,(x),c
+#ig
+
+#sp,vo,04010282
+勇樹
+「…………
+$nw,2740
+
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS.png,(x),c,(s),80%
+#ig
+
+#madd,たしかに美味いな」
+
+$k
+
+優
+「だろー？」
+$k
+
+&empty
+俺の真似をしてか、宮津橋もたこ焼きを
+自分のどんぶりに入れていく。
+$k
+
+&empty
+ん？　って、なんか空気が……。
+$k
+
+//	ZoomStand( LEFTEDGE, 50, 110, 110 );
+// 	SS( RIGHT, SAKURAKO_0402AK );
+
+// SAKURAKO_0402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,04000094
+桜子
+「あんたたちね、そういうのは
+　２人っきりの時にしなさいよね」
+$k
+
+&empty
+しまった！
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// 	SS( LEFT, MII_0403TR3 );
+
+// MII_0403TR3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030058
+みい
+「うんうん、お兄様もなかなかやりますねぇ」
+$k
+
+// 	SS( RIGHT, YUKIHA_0401AK2 );
+
+// YUKIHA_0401AK2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04050017
+雪華
+「はー、あついあつい」
+$k
+
+// 	SS( LEFT, KANAME_0401OD3 );
+
+// KANAME_0401OD3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04020005
+要
+「えぇっ！　いつのまにそんな事に？」
+$k
+
+// 	SS( RIGHT, MEGUMI_0401KM2 );
+
+// MEGUMI_0401KM2
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070082
+めぐみ
+「あーっ、優ちゃん私にもー！」
+$k
+
+// 	SS( CENTER, ISAKI_A402NO );
+
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+優
+「ちょっ、宮津橋！
+　なんとか言ってくれよ！」
+$k
+
+// ISAKI_A402KT
+
+#sp,vo,04010283
+勇樹
+「お前が食えと言ったから食っただけだ。
+　なにか問題でもあるのか？」
+$k
+
+優
+「いや、えっと……」
+$k
+
+#ss,bgm
+
+&empty
+問題はないんだけど、なんというかこう…、
+恥じらいってもんがさ？
+$k
+
+//#sp,se,T_joyanokane
+
+#ir
+#ie,c1
+#ig
+
+&empty
+//と、そこで１２時を告げる時計の音が響いた。
+と、そこでテレビの時報が午前０時を告げた。
+$k
+
+// YUKIHA_0401BS2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,04050018
+雪華
+「あっ、あけましておめでとう！」
+$k
+
+優
+「ああ、おめでとう」
+$k
+
+#hide
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01EG.png,(x),l2,(s),60%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ip,c2,(fi),KANAME_A403.png,(psi),KANAME_An03NO.png,(x),r2,(s),60%
+#ig
+
+#sp,se,Happy_New_Year
+
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG3.png,(x),r2,(s),60%
+#ip,c1,(fi),KINO_A401BS.png,(x),c,(s),60%
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02MU.png,(x),l2,(s),60%
+#ig
+
+#wait,2000
+
+// 	SNLP( 0, "Happy New Year" );
+
+// 	SS( LEFT, SAKURAKO_0401EG );
+// 	SS( CENTER, MII_0403EG );
+// 	SS( RIGHT, KANAME_0403NO );
+
+
+// 	SS( LEFT, ISAKI_0402MU );
+// 	SS( CENTER, MEGUMI_0401EG3 );
+// 	SS( RIGHT, KINO_0401BS );
+
+// 	SEStop( 0 );
+
+// SAKURAKO_0101NO
+
+#next,04isaki10_03

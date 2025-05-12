@@ -1,0 +1,626 @@
+﻿// 既読フラグ
+#read_flag,128
+
+#show
+
+// MII_0203AD3
+
+#sp,vo,05030104
+みい
+「ふう…なんとか峠は越えた感じですね」
+$k
+
+#hide
+
+#sp,se,S_Door04o
+
+// 	WaitSE();
+
+#wait,1000
+
+#sp,se,S_Door04c
+
+// 	WaitSE();
+
+#show
+
+優
+「…みいちゃん？」
+$k
+
+// 	SV( VISUAL_MII_07A );
+
+#flag,cg,57,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_07A.jpg,(s),75%
+#ig
+
+// MII_0203KD
+
+#sp,vo,05030105
+みい
+「え？」
+$k
+
+&empty
+軽食屋をすると言っていた教室は、
+隅に調理台が置かれていて、
+基本的に持ち帰りを中心にしているのだろう。
+$k
+
+&empty
+窓際の方にだけ机と椅子が配置されていて、
+教室内は広くスペースが取られている。
+$k
+
+&empty
+その広い床の真ん中に座り込んだみいちゃんの周りには、
+看板や内装用らしいパネルが広げられていた。
+$k
+
+優
+「なにしてんの…ひとりで」
+$k
+
+// MII_0203EG
+
+#sp,vo,05030106
+みい
+「あら、お兄様のクラスも
+　追い込みの真っ最中ですか？」
+$k
+
+&empty
+話をそらした。
+$k
+
+優
+「いや、こっちはもう終わってるよ」
+$k
+
+// MII_0203KT
+
+#sp,vo,05030107
+みい
+「ではどうしてこんなところに？」
+$k
+
+優
+「みいちゃんが帰ってこないからだろ。
+　電話にも出ないし」
+$k
+
+// MII_0203KM2
+
+#sp,vo,05030108
+みい
+「あー、まあ気付いてましたけど」
+$k
+
+優
+「気付いてたなら出てよ！？」
+$k
+
+// MII_0203FK
+
+#sp,vo,05030109
+みい
+「…出たら、理由を言わなきゃ
+　いけないじゃないですか」
+$k
+
+優
+「作業終わったって有河は言ってたけど」
+$k
+
+// MII_0203KM
+
+#sp,vo,05030110
+みい
+「ですから…」
+$k
+
+優
+「なに？」
+$k
+
+// MII_0203KM4
+
+#sp,vo,05030111
+みい
+「ご自分の目でよく見てください」
+$k
+
+// 	SV( BG_GK_KYOSHITSU03C );
+// 	ShowFace();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU03C.jpg,(s),100%
+#ig
+
+優
+「んー？」
+$k
+
+&empty
+みいちゃんは周囲のパネルを指し示す。
+$k
+
+優
+「……あ」
+$k
+
+// MII_0203EG4
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030112
+みい
+「倒して潰してしまったんです。
+$nw,3010
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AK.png,(x),c,(s),60%
+#ig
+
+　そこまで言わせて…嗜虐的ですねお兄様は」
+$k
+
+&empty
+確かに、何枚かのパネルの周囲に付けられた
+紙製の花やリボンがぺちゃんこに潰れている。
+$k
+
+優
+「あー、ごめん」
+$k
+
+&empty
+さっき話をそらしたのは
+後ろめたくて言いづらかったからか。
+$k
+
+優
+「みんなに手伝ってもらえばいいのに」
+$k
+
+// MII_0203AD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030113
+みい
+「私のミスですから」
+$k
+
+優
+「はぁー、しかし盛大に…」
+$k
+
+// MII_0203KM3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030114
+みい
+「運悪く、重ねて立てかけていたものを
+　引っ掛けてしまいましたからね。
+　しょうがないです」
+$k
+
+// MII_0203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030115
+みい
+「…ひょっとして私を心配して、
+　わざわざウチから戻ってこられたのですか」
+$k
+
+優
+「ひょっとしなくても、そういうことだろ」
+$k
+
+// MII_0203SN2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03SN2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030116
+みい
+「どれだけ私のことが好きなんですか」
+$k
+
+優
+「そーゆー生意気な口は
+　人を心配させないようにしてから言いなさい」
+$k
+
+優
+「まだちょっとかかりそうだな…手伝おうか？」
+$k
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030117
+みい
+「そうですか、じゃあ」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+紙を渡される。
+$k
+
+#ss,bgm
+
+優
+「あれ？　これってもう形出来てるヤツ…
+$nw,1000
+
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 14, 5 );
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+　うわっベタベタっ！？」
+$k
+
+#sp,bgm,BGM_MII
+
+// MII_0203EG3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030118
+みい
+「あらあらお兄様、なんてことされるんですか」
+$k
+
+優
+「濡れ衣だ！？」
+$k
+
+&empty
+なぜか糊がべったりついていたせいで、
+手にくっついてぐしゃぐしゃになってしまう。
+$k
+
+優
+「こんなことしても帰るのが遅くなるだけなのに」
+$k
+
+// MII_0203KD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030119
+みい
+「肉を切らせて骨を断とうと？」
+$k
+
+優
+「それは違うだろっ」
+$k
+
+// MII_0203FK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030120
+みい
+「一瞬のきらめきのために、
+　自分の身を刻むことも厭わないのです」
+$k
+
+優
+「そんなに身を張らんでも…」
+$k
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030121
+みい
+「まあすぐに終わりますから。
+　では、こちらをお願いします」
+$k
+
+優
+「了解…って！？」
+$k
+
+#sp,se,S_Paper06
+
+// MII_0201OD2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01OD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030122
+みい
+「あ…」
+$k
+
+&empty
+渡された紙にはガムテープが張り付いていて、
+引っ張っただけで、側のパネルについていた飾りが
+まとめて破けてしまった。
+$k
+
+優
+「なんで、こういうことするのっ！？」
+$k
+
+// 	SetStandEx( CENTER, MII_A203IK4 );
+// 	FadeStand( CENTER, 50, FADE_ALPHA, 100 );
+
+// MII_A203IK4
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030123
+みい
+「今すぐ帰ってくださいっ！
+　お兄様がいたら邪魔になります。
+　というか邪魔したくなるじゃないですかっ」
+$k
+
+優
+「それは俺のせいじゃねーっ！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+#sp,se,T_Gosogoso
+#wait,2000
+
+// 	WaitSE();
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU03C.jpg,(s),100%
+#ig
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#show
+
+優
+「ようやく終わりそうだな」
+$k
+
+// 	SS( CENTER, MII_0203SN );
+
+// MII_0203SN
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030124
+みい
+「お手数かけます」
+$k
+
+&empty
+みいちゃんも自粛してくれたらしく、
+なんとか作業の方も先が見えた感じになってきた。
+$k
+
+優
+「そういえば居残りの申請ってやってる？」
+$k
+
+// MII_0203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030125
+みい
+「そんなの必要なんですか？」
+$k
+
+優
+「見つかったら絞られるぞ。
+　…まあ残ってるとこ多いから紛れそうだけど」
+$k
+
+// 	//三木：ボリューーーーーームダウーーーーーーん！！！！！
+
+#sp,vo,05100000
+先生
+「こらー、このクラス申請出してないでしょーっ！」
+$k
+
+優
+「やべっ、ほんとに来た」
+$k
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030126
+みい
+「大丈夫です、堂々としていればかえって」
+$k
+
+優
+「他のクラスがバレてるんだって！」
+$k
+
+#hide
+
+#ss,bgm
+
+#sp,se,Switch04
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#show
+
+#sp,vo,05030127
+みい
+「きゃっ」
+$k
+
+&empty
+みいちゃんを押さえ込んで、
+教室の電気を消し、隅の方に隠れる。
+$k
+
+#sp,vo,05030128
+みい
+「ちょ、ちょっと…！」
+$k
+
+優
+「静かに！　見つかる！」
+$k
+
+#sp,vo,05030129
+みい
+「………」
+$k
+
+#hide
+
+#sp,se,S_Door04o
+
+// 	WaitSE();
+// 	SV( BG_GK_KYOSHITSU03D );
+// 	SetObject( 10, "kaname23_husumaback.png", 0, 0, OBJATTR_TOP );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU03D.jpg,(s),100%
+#ip,c1,(fi),KOZUEn_A202.png,(psi),KOZUEn_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,bgm,BGM_FUAN
+
+#show
+
+// KOZUE_0202AS
+
+#sp,vo,05100001
+山之辺こずえ
+「変ねえ…さっきまで明かりついてなかったかしら」
+$k
+
+// 	SS( CENTER, KOZUE_0202AS, MOVE_RIGHT, SLOW );
+
+// KOZUE_0202MJ2
+#ir
+#ip,c1,(fi),KOZUEn_A202.png,(psi),KOZUEn_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100002
+山之辺こずえ
+「戸締まり忘れてるし…」
+$k
+
+#sp,se,S_FallStick01
+
+//	SM( CHAR_ETC,			-1,					"",				"カシャン。" );
+// 	SS( CENTER, KOZUE_0202KD );
+
+//	SetIconExcl( CENTER );
+#sp,vo,05030130
+みい
+「…っ」
+$k
+
+#ir
+#ip,c1,(fi),KOZUEn_A202.png,(psi),KOZUEn_An01KD.png,(x),c,(s),60%
+#ig
+
+&empty
+やべっ……。
+$k
+
+&empty
+みいちゃんの足が台に当たり、ハサミが落ちた。
+$k
+
+&empty
+小さい音だったから、バレなきゃいいけど…。
+$k
+
+// KOZUE_0202AS
+#ir
+#ip,c1,(fi),KOZUEn_A202.png,(psi),KOZUEn_An01AS.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),0,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05100003
+山之辺こずえ
+「えっと…だ、誰かいるの～？」
+$k
+
+// 	SetAnimeObject( 0, "FeelIcon.spm", 3, 400, 100, OBJATTR_TOP );
+// 	MoveObject( 0, SLOW|SPEED_DOWN, 300, 100 );
+// 	MoveObject( 0, SLOW|SPEED_DOWN, 500, 100, 1 )
+// 	MoveObject( 0, SLOW|SPEED_DOWN, 400, 100, 1 );
+// 	CS( CENTER, CENTERLEFT, SLOW|SPEED_DOWN );
+// 	CS( CENTERLEFT, CENTERRIGHT, SLOW|SPEED_DOWN );
+// 	CS( CENTERRIGHT, CENTER, SLOW|SPEED_DOWN );
+// 	MoveObject( 0, 20|SPEED_DOWN, 400, 70 );
+// 	MoveObject( 0, 20|SPEED_UP, 400, 100, 1 );
+// 	MoveObject( 0, 5|SPEED_DOWN, 400, 104, 1 );
+// 	MoveObject( 0, 5|SPEED_UP, 400, 100, 1 );
+// 	ShakeStand( CENTER, SLOW, SHAKE_LEFT, 6, 4 );
+// 	MoveStand( CENTER, 20 | SPEED_DOWN,	0, -30 );
+// 	MoveStand( CENTER, 20 | SPEED_UP,	0, 0,   1 );
+// 	MoveStand( CENTER,  5 | SPEED_DOWN,	0, 4,   1 );
+// 	MoveStand( CENTER,  5 | SPEED_UP,	0, 0,   1 );
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「……しい」
+#msmall
+$k
+
+
+#next,05mii03A_02

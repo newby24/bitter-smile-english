@@ -1,0 +1,828 @@
+﻿// 既読フラグ
+#read_flag,284
+
+優
+「……はぁぁ～～～」
+$k
+
+&empty
+なんで引き受けちまったんだろ。
+$k
+
+&empty
+けどまあ…やっぱり。
+$k
+
+&empty
+桜子の頼みは、断れないよなぁー。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_NEWSYOTEN01A );
+// 	SS( CENTER, SAKURAKO_0402KM3 );
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_NEWSYOTEN01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402KM3
+#sp,vo,03000382
+桜子
+「すっごく混んでるわねー」
+$k
+
+優
+「年末はどこもこんなもんだろ」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000383
+桜子
+「優が前に住んでたとこも、こんな感じだった？」
+$k
+
+優
+「確かそうだったと思う」
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000384
+桜子
+「ふーん。一緒なんだ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+// KOBAYASHI_0401EG
+
+#sp,vo,03080016
+小林
+「うおーい、お二人さん！」
+$k
+
+// MEGUMI_0401NO
+
+#sp,vo,03070124
+めぐみ
+「あ、桜子じゃ～ん、やっほ～」
+$k
+
+// 	SS_( LEFT, KOBAYASHI_0401EG, MOVE_RIGHT, NORMAL );
+// 	SS( RIGHT, MEGUMI_0401NO, MOVE_RIGHT, NORMAL );
+
+#ir,(ef),off
+#ip,c3,(fi),KOBAYASHI_A401.png,(psi),KOBAYASHI_An01EG.png,(x),l0,(s),60%,(al),0%
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01NO.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c2,(x),r,(al),100%
+#ig
+
+優
+「……めぐみに小林？」
+$k
+
+// SAKURAKO_0401NO
+
+#sp,vo,03000385
+桜子
+「あ、めぐ」
+$k
+
+// KOBAYASHI_0401AS
+#ir
+#ip,c3,(fi),KOBAYASHI_A401.png,(psi),KOBAYASHI_An01AS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03080017
+小林
+「あっれれー！？
+$nw,1140
+
+#ir
+#ip,c3,(fi),KOBAYASHI_A401.png,(psi),KOBAYASHI_An01EG.png,(x),l,(s),60%
+#ig
+
+　今日は偶然が重なるなぁ！」
+$k
+
+// MEGUMI_0401BS
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070125
+めぐみ
+「ほんとだ。一緒に買い物なんて珍しいねー」
+$k
+
+優
+「それは、お前達だろう」
+$k
+
+// SAKURAKO_0402AK
+
+#sp,vo,03000386
+桜子
+「そうそう、あんたらに言われたくないわよね？」
+$k
+
+優
+「二人とも元気してたかー？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2,c3
+#ig
+
+&empty
+めぐみ、もしかして小林と…？
+ないない。それはない。
+$k
+
+&empty
+まあ、最近は密かに心の中で応援はしているが。
+$k
+
+// 	SS( CENTER, KOBAYASHI_0401BS4 );
+
+// KOBAYASHI_0401BS4
+#ir
+#ip,c3,(fi),KOBAYASHI_A401.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03080018
+小林
+「こっちはさっき偶然めぐみと会ったばっかりだ。
+　矢崎達にまで会うとは、さすが年末は違うなー。
+$nw,8500
+
+#ir
+#ip,c3,(fi),KOBAYASHI_A401.png,(psi),KOBAYASHI_An01BS.png,(x),c,(s),60%
+#ig
+
+　轟木もそう思うだろ？」
+$k
+
+// SAKURAKO_0402NR
+
+#sp,vo,03000387
+桜子
+「は？　意味が分からないし」
+$k
+
+// KOBAYASHI_0401EG
+#ir
+#ip,c3,(fi),KOBAYASHI_A401.png,(psi),KOBAYASHI_An01EG.png,(x),c,(s),60%
+#ig
+
+#ir,(ef),off
+#ip,op3,(fi),image\icon\kyakya.png,(x),500,(y),30
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),no_limit
+#ip,op3,(x+),10,(y+),10
+#ig
+
+#sp,vo,03080019
+小林
+「しっかし年末もデートとは、
+　相変わらず仲の良い夫婦ですなー」
+$k
+
+#ils
+
+#ir,(ef),off
+#ie,op3
+#ig
+
+// 	SS( CENTER, SAKURAKO_0402NO4 );
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),l,(s),60%
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS.png,(x),r,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,03000388
+桜子
+「あたしは買い物に来たんだけど、めぐは？」
+$k
+
+// KOBAYASHI_0401AS
+
+#sp,vo,03080020
+小林
+「あれれー、軽く無視ですかー？」
+$k
+
+// 	SS_( LEFT, SAKURAKO_0402NO4, MOVE_STOP, NORMAL );
+
+// 	SS( RIGHT, MEGUMI_0401BS, MOVE_STOP, NORMAL );
+
+// MEGUMI_0401BS
+#sp,vo,03070126
+めぐみ
+「年越し蕎麦を買いに来たの。
+　うち、毎年買う店が決まってるのよ。
+$nw,5000
+
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01TY2.png,(x),r,(s),60%
+#ig
+
+　すっごく美味しくて、おすすめよ～」
+$k
+
+// SAKURAKO_0402NO5
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000389
+桜子
+「じゃあ今回はうちもそれにしようかなぁ」
+$k
+
+// KOBAYASHI_0401BS4
+
+#sp,vo,03080021
+小林
+「来年も細く長く健康で暮らしていけますようにと
+　矢崎と誓い合いながら食べるのか。
+
+$nw,7480
+
+　そういう夫婦水入らずの年越しもいいよな？」
+$k
+
+// MEGUMI_0401BS
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070127
+めぐみ
+「これから買いに行くところなんだけど、
+　一緒に行く？」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000390
+桜子
+「行く行くっ」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ip,c3,(fi),KOBAYASHI_A401.png,(psi),KOBAYASHI_An01AS2.png,(x),c,(s),60%
+#ie,c1,c2
+#ig
+
+// 	SS_( CENTER, KOBAYASHI_0401AS2 );
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+// KOBAYASHI_0401AS2
+#sp,vo,03080022
+小林
+「やっぱり俺は無視！？」
+$k
+
+優
+「殴られないだけマシと思えばいいよ」
+$k
+
+// KOBAYASHI_0401AY
+#ir
+#ip,c3,(fi),KOBAYASHI_A401.png,(psi),KOBAYASHI_An01AY.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),310,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,03080023
+小林
+「いやんいやん、無視も嫌だーい！」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+&empty
+こいつは１年の締めの日までも変わらない奴だなー。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_ENKEI03A );
+
+// 	SNLP( 0, "S_Kane01" );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ENKEI03A.jpg,(s),100%
+#ig
+
+#wait,500
+
+#sp,se,S_Kane01
+
+#wait,2000
+
+#ss,se,(dr),1000
+
+// 	Wait( 500 );
+
+// 	SV( BG_TD_IMA03E );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ig
+
+#sp,bgm,BGM_YASURAGI
+
+#show
+
+&empty
+夜はみんな、なんとなく居間に集まり、
+テレビで歌番組を眺めていた。
+$k
+
+&empty
+格闘技が見たいという俺の意見は、
+婆さんにより、あっけなく却下されてしまった。
+$k
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),r,(s),80%
+#ip,c3,(fi),KINO_A401AK.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, KINO_A401AK );
+// KINO_A401AK
+
+#sp,vo,03060016
+紀乃
+「今年もまた白組の勝利かい」
+$k
+
+// MII_A403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030086
+みい
+「紅組なかなか勝ちませんねぇ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+// 	SS( CENTER, SAKURAKO_A402NO5 );
+
+// SAKURAKO_A402NO5
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ie,c1,c3
+#ig
+
+#sp,vo,03000391
+桜子
+「みんなー、年越し蕎麦できたわよー」
+$k
+
+// 	CS_( CENTER, LEFT );
+// 	SS_( RIGHT, KANAME_A403EG, MOVE_RIGHT );
+
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03EG.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ip,c2,(x),l
+#ig
+
+// KANAME_A403EG
+#sp,vo,03020105
+要
+「おおっ、待ってました～～。
+$nw,2600
+
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kyakya.png,(x),840,(y),50
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),no_limit
+#ip,op1,(x+),10,(y+),10
+#ig
+
+　桜子ちゃんの蕎麦は日本一！」
+$k
+
+#ils
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000392
+桜子
+「お姉、随分飲んだわねぇ」
+$k
+
+// KANAME_A403GN
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020106
+要
+「あーん、年末年始くらいは大目に見てよー」
+$k
+
+// 	SS( CENTER, KINO_A401KS );
+// KINO_A401KS
+#ir
+#ip,c3,(fi),KINO_A401KS.png,(x),c,(s),80%
+#ie,c1,c2
+#ig
+
+#sp,vo,03060017
+紀乃
+「いつも多めに飲んではるがな」
+$k
+
+優
+「婆さんそれ笑うとこか？」
+$k
+
+// YUKIHA_0401NM
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NM.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,03050027
+雪華
+「ふぁぁ……」
+#meffect,flow,5
+$k
+
+優
+「あ、雪華ちゃん、眠いなら寝ていいよ。
+　ほら、お兄ちゃんの膝の上で」
+$k
+
+// 	SS( CENTER, YUKIHA_A401KM, MOVE_STOP, NORMAL );
+
+// YUKIHA_A401KM
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03050028
+雪華
+「寝ないよっ。
+$nw,1400
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NM.png,(x),c,(s),80%
+#ig
+
+　１２時前に眠くなるほど子供じゃないもん…」
+$k
+
+&empty
+言ってるそばから、目がとろんとしている。
+$k
+
+優
+「なんならお兄ちゃんが部屋まで
+　抱っこしてやろうか？」
+$k
+
+// YUKIHA_A401IK
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03050029
+雪華
+「寝ないってばぁっ」
+$k
+
+// KANAME_A401PU2
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01PU2.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+#sp,vo,03020107
+要
+「やーい、怒られたぁー」
+$k
+
+// 	SS( CENTER, MII_A403AK );
+
+// MII_A403AK
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030087
+みい
+「お兄様もそろそろ攻めの手を弛めないと、
+　本気で雪華さんに嫌われてしまいますよ？」
+$k
+
+優
+「知らないのか？
+　雪華ちゃんは照れ屋さんなんだよ」
+$k
+
+// 	CS_( CENTER, RIGHT );
+// 	SS( LEFT, YUKIHA_A401IK2, MOVE_LEFT, NORMAL );
+
+// YUKIHA_A401IK2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03050030
+雪華
+「違うから」
+$k
+
+&empty
+やめて。本気で嫌がってる顔をしないで。
+お兄ちゃん傷つくから。
+$k
+
+// KANAME_0403NS
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03NS.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020108
+要
+「やーい、嫌われたー！」
+$k
+
+優
+「い、いつもの事だからね？」
+$k
+
+// SAKURAKO_0402KM3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03000393
+桜子
+「悲しくないの、それ…」
+$k
+
+&empty
+悲しくないもん。
+$k
+
+&empty
+…が、孤独と寂しさには慣れません。
+$k
+
+// 	SS( CENTER, MII_A401KD2 );
+
+// MII_A401KD2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KD2.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,03030088
+みい
+「あ。カウントダウン、始まりますよ？」
+$k
+
+#ss,bgm
+
+&empty
+みいちゃんの言葉で、テレビに目が行く。
+既に袴と着物を着たテレビタレントが、
+大きな声で、カウントダウンをしていた。
+$k
+
+// MII_A403MJ
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03MJ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030089
+みい
+「８、７、６、５、４、３…」
+$k
+
+// KANAME_0402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020109
+要
+「にいー、いーっち！」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000394
+桜子
+「せーのっ」
+$k
+
+#ir
+#ie,c1
+#ig
+
+#sp,vo,03990027
+全員
+「明けましておめでとうございまーす」
+#mlarge
+$k
+
+#sp,bgm,BGM_TANOSHII
+
+// 	SS( CENTER, KANAME_A403EG, MOVE_RIGHT, NORMAL );
+
+// KANAME_A403EG
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03EG.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,03020110
+要
+「明けたぁぁ―――！
+$nw,1810
+
+　みんな、今年もよろしくねー！
+　かんぱーい！　イエーイ！」
+$k
+
+// 	CS_( CENTER, LEFT );
+// 	SS( RIGHT, MII_A403EG2, MOVE_RIGHT, NORMAL );
+
+// MII_A403EG2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG2.png,(x),r2,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,03030090
+みい
+「本年もどうぞよろしくお願いします」
+$k
+
+優
+「あ、よろしく」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+// 	CS_( RIGHT, LEFT, SLOW );
+
+// 	SS( RIGHT, YUKIHA_A401EG2, MOVE_RIGHT, NORMAL );
+
+// YUKIHA_A401EG2
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,03050031
+雪華
+「…お、お願いしますっ」
+$k
+
+// 	CS_( RIGHT, LEFT, SLOW );
+
+// 	SS( RIGHT, SAKURAKO_A402EG, MOVE_RIGHT, NORMAL );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A402EG
+#sp,vo,03000395
+桜子
+「はーい、こちらこそー、よろしくねー」
+$k
+
+// 	CS_( RIGHT, LEFT, SLOW );
+// 	SS( RIGHT, KINO_A401EG3, MOVE_RIGHT, NORMAL );
+
+// KINO_A401EG3
+#ir
+#ip,c3,(fi),KINO_A401EG3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,03060018
+紀乃
+「乾杯」
+$k
+
+// 	SS( CENTER, MII_A403NO );
+
+// MII_A403NO
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ie,c2,c3
+#ig
+
+#sp,vo,03030091
+みい
+「お兄様は今年の抱負などありますか？」
+$k
+
+優
+「たまってた映画を観る事かな」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402IK4 );
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,03000396
+桜子
+「どうしてそこで受験の二文字を避けるのよ」
+$k
+
+
+#next,03sakurako09_02

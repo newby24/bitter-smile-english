@@ -1,0 +1,412 @@
+#read_flag,117
+
+// 桜子ルートの場合。
+
+優
+「桜子……その、ありがとな？」
+#meffect,flow,5
+$k
+
+// 	SS( CENTER, SAKURAKO_A401TR );
+
+// SAKURAKO_A401TR
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000738
+桜子
+「なっ、なによ、いきなり！？」
+$k
+
+優
+「ずずっ、はー、
+$nw,1000
+
+　……お前が助けてくれたんだろ？」
+$k
+
+// SAKURAKO_A401AK
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000739
+桜子
+「………別にお礼なんか…
+$nw,2100
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02TR.png,(x),c,(s),80%
+#ig
+
+　（優が助かって……それだけで嬉しかったし…）」
+$k
+
+// SAKURAKO_A402KM
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000740
+桜子
+「起きたら勇樹にも言ってあげなさいよ？
+　この子が居なかったら…」
+$k
+
+優
+「俺達揃って、凍え死んでたかもな？」
+
+#mfuri,　　　　　　そろ
+
+$k
+
+// 	SV( VISUAL_ISAKI_04A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_04A.jpg,(s),75%
+#ig
+
+&empty
+桜子に届け物をする為、偶然桜子を見かけ、
+たまたま桜子の後を追いかけていたらしい宮津橋。
+$k
+
+&empty
+鉄板に火をいれるための先の長いライターを、
+ポケットに偶然、入れたままだったらしい宮津橋。
+$k
+
+&empty
+そのおかげで俺達は凍えずに済んだ。
+$k
+
+&empty
+その宮津橋はというと、夜通しの火の番で疲れたのか、
+今は桜子の隣でぐっすり眠っている。
+$k
+
+// 	SV( BG_DENSYA01A );
+
+// 	SS( CENTER, SAKURAKO_A402AK );
+
+#ir
+#ip,bg,(fi),BG_DENSYA01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A402AK
+#sp,vo,02000741
+桜子
+「そうよ、その通りよ？
+　あんたと心中なんてごめんなんだからね？」
+$k
+
+優
+「いや、ほんと悪い、悪かった。
+　この埋め合わせはなんでもするし」
+$k
+
+// SAKURAKO_A401TR
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000742
+桜子
+「ばーかばーか！　死ぬなら一人で死ねっ！」
+$k
+
+優
+「お前って、相変わらずなんてひどい奴…
+　こんなに謝ってんのにさー」
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000743
+桜子
+「そんな事より…」
+$k
+
+// SAKURAKO_A401KN
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000749
+桜子
+「今頃みんな心配してるだろうねー？
+　みんな寝てないかも知れない」
+$k
+
+優
+「一晩くらいでそんな心配するか？」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000750
+桜子
+「ばっかじゃないのあんた？　居なくなったのが、
+　男と女じゃ心配の差が違うってーのっ」
+$k
+
+優
+「いや、でももう、
+　そんな子供じゃないし……」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ああっ！！」
+$k
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000751
+桜子
+「なによ？　うるさいわねぇ」
+$k
+
+優
+「そうだよ、俺が溺れて心臓止まったとかで、
+　お前、俺とその………
+$nw,1000
+
+　人工呼吸を」
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000752
+桜子
+「……？」
+$k
+
+優
+「……いや、なんでもない」
+$k
+
+// SAKURAKO_A401NS
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000753
+桜子
+「……………ははーん？
+　あんた馬鹿ねえー？　マウストゥーマウスとか？
+　唇と唇で？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「うっ…」
+$k
+
+&empty
+そんなダイレクトに…。
+$k
+
+// SAKURAKO_A401BE
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01BE.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000754
+桜子
+「するわけないじゃない。ばぁーか！」
+$k
+
+優
+「ええっ？
+　じゃあどうやって！？」
+$k
+
+&empty
+これ本当は夢？　俺本当は死んでる？
+$k
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000755
+桜子
+「気道確保したら、後は心臓動かすほうが大事でしょ。
+　ちんたらそんな事してる余裕無かったわよ！」
+$k
+
+優
+「ああ…そうなんだ？
+　そうか、そうかあ…」
+$k
+
+// SAKURAKO_A401NS
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000756
+桜子
+「なに？　したほうが良かった？」
+$k
+
+優
+「ええと……いや、そんな事は…」
+$k
+
+&empty
+まあされたところで分かるわけないだろうしなあ…。
+$k
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000757
+桜子
+「ばかっ、しねっ！」
+$k
+
+優
+「うおっ！」
+$k
+
+// SAKURAKO_A402KM3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000758
+桜子
+「本当に心臓止まってて、
+　こっちが死ぬかと思ったんだから」
+$k
+
+優
+「いや、本当すいませんでした。
+　今こうしていられるのも桜子様のおかげですっ！」
+$k
+
+// SAKURAKO_A401BE
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01BE.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000759
+桜子
+「ばーか、ばーか、ゆうのうんこたれー」
+$k
+
+優
+「またお前は、鼻は垂れてもうんこはだなあ…」
+$k
+
+// ISAKI_0501EG
+
+#sp,vo,02010280
+勇樹
+「ぷっ！」
+$k
+
+// SAKURAKO_A402AS2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000760
+桜子
+「っ！？」
+$k
+
+// 	SV( VISUAL_ISAKI_04C );
+
+#ir
+#ip,bg,(fi),VISUAL_ISAKI_04C.jpg,(s),75%
+#ig
+
+#sp,vo,02010281
+勇樹
+「ぷはははははっ！」
+$k
+
+優
+「おう！？」
+$k
+
+#sp,vo,02010282
+勇樹
+「ははは、あっはっはっは！
+　そんだけ元気なら大丈夫だな！」
+$k
+
+優
+「起きてたっ？」
+$k
+
+// 	SV( VISUAL_ISAKI_04B );
+
+#flag,cg,14,=,1
+
+#ir
+#ip,bg,(fi),VISUAL_ISAKI_04B.jpg,(s),75%
+#ig
+
+#sp,vo,02010283
+勇樹
+「まったく、心配して損をしたな？」
+$k
+
+// SAKURAKO_A402AS
+
+#sp,vo,02000761
+桜子
+「なっ、なによー！？
+$nw,2900
+
+　勇樹あんた、いつから狸寝入りしてたのよっ！」
+$k
+
+#sp,vo,02010284
+勇樹
+「はは…、
+$nw,1700
+
+#madd,さあ？　覚えてないぞ？」
+$k
+
+// SAKURAKO_A402AK
+
+#sp,vo,02000762
+桜子
+「はあぁ～、もう。
+$nw,3300
+
+　……いいけどねっ！」
+$k
+
+#hide
+
+#next,02common03-3A_05_c

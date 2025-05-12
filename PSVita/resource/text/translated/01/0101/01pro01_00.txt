@@ -1,0 +1,593 @@
+﻿// 既読フラグ
+#read_flag,10
+
+// セーブタイトル
+#flag,save_title,プロローグ,0,0
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_KEIKAI
+
+#sp,se,S_Train01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,プロローグ
+$k
+#note,erase
+
+#sp,env,S_Town01#
+
+// #sp,env,S_Gaya01#
+
+#show
+
+#sp,vo,01050000
+？？？
+#mstyle,(co),雪華
+「お兄ちゃん、早く、こっちこっち」
+$k
+
+#hide
+
+#sp,se,S_Kaisatsu01
+
+// 	SV( BG_MT_EKI01A );
+// 	SS(CENTER, YUKIHA_0301IK3);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_EKI01A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// YUKIHA_0301IK3
+#sp,vo,01050001
+雪華
+「もう、お兄ちゃんが出掛けにぐずぐずしてるから、
+　こんな時間になっちゃったんだよ？」
+$k
+
+優
+「待ってくれよー雪華ちゃん。
+　電車に乗り遅れたのは、向こうの友達との別れを
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 ダ　チ
+　惜しんでいたからで、仕方なかったんだよ」
+$k
+
+// YUKIHA_0301IK2
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01050002
+雪華
+「そういうのは前日までに済ましておいてねって、
+　言ってあったでしょ？」
+$k
+
+優
+「相変わらず雪華ちゃんは淡白だなあ…」
+$k
+
+// YUKIHA_0301IK
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01050003
+雪華
+「そんなことより桜子ちゃん絶対怒って……
+$nw,4380
+
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01KM5.png,(x),c,(s),60%
+#ig
+
+　わ…」
+$k
+
+//	SetIconAse( CENTER );
+// 	SS(CENTER, YUKIHA_0301KM5, MOVE_STOP, NORMAL);
+
+優
+「雪華ちゃんのそういう所お兄ちゃんはとっても心配……
+$nw,1000
+
+　どうしたの雪華ちゃん？」
+$k
+
+// YUKIHA_0301KM4
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01KM4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01050004
+雪華
+「ほらあれ………
+#meffect,flow,5
+$nw,2890
+
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK3.png,(x),c,(s),60%
+#ig
+
+　お兄ちゃんが行って来てね。
+　あたしちょっと離れて待ってるから」
+$k
+
+優
+「え？
+$nw,1000
+
+　……って、ああ…あれはもしかして桜子か？
+　少し会わない間に随分と変わった………」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN);
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+//#ir,(ef),off
+//#ip,op1,(fi),image\icon\ikari.png,(x),*520,(y),*100
+//#ig
+
+//#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+//#ip,op1,(s),120%
+//#ig
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK2.png,(x),c,(s),60%
+#ig,(se),S_Poko01
+
+優
+「いてっ！」
+$k
+
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK.png,(x),c,(s),60%
+#ig
+
+// YUKIHA_0301IK
+#sp,vo,01050005
+雪華
+「そんなわけないでしょ。
+$nw,2700
+
+#ir
+//#ie,op1
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01KB3.png,(x),c,(s),60%
+#ig
+
+　はい、よろしくお願いしまーす！」
+$k
+
+優
+「うう」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+まだまだ残暑厳しい８月の最終日の事。
+$k
+
+&empty
+改札から出た我々を待ちうけていたのは、はたして
+鳥か、人か、はたまた山から降りてきた獣人か…
+$k
+
+&empty
+いや、まだまだ文明的に幼い人類が歩み寄るには、
+少々ハードルの高い………俺には高いんだよ。
+$k
+
+// 	WaitScroll();
+
+&empty
+…つまりは未知との遭遇。
+別の表現をすると、いわゆる勇者様？
+$k
+
+&empty
+駅前、改札から少しだけ離れた位置。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_01A_l.jpg,(x),r_s,(y),u_s,(s),100%
+#ig
+
+#sp,bgm,BGM_MII
+
+#wait,1000
+
+// 	Scroll(150|SPEED_DOWN, 200, 0);
+
+#ir,(ef),move,(dr),5000,(cv),linear
+#ip,bg,(x),c,(y),c
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_01A.jpg,(x),c,(y),c,(s),75%
+#ig
+
+#show
+
+&empty
+ホームステイや海外からの勤め人を
+空港ロビーで待つかの様に、手には俺の名前の書かれた
+スケッチブックを………天にかざして。
+$k
+
+// 	SetVisualObject(0, VISUAL_MII_01A, 0, -150, OBJATTR_NOSCROLL);
+// 	ZoomObject(0, 0, 150, 150);
+// 	MoveObject(0, SLOW, -100, -150);
+// 	WaitObject( 0 );
+// 	SV( VISUAL_MII_01A );
+
+// 	MoveObject(0, NORMAL, -50, -150);
+// 	WaitObject( 0 );
+
+&empty
+ぐるぐると歩き回っている、ちょっと背の低い女の子。
+$k
+
+優
+「ラウンドガール………のノリなんだろうなぁ。
+　そういうの、いらないんだけどな～」
+$k
+
+&empty
+アレじゃ待ってんのか牽制されてるのか分からんし。
+$k
+
+&empty
+……しかも何度か目が合ったのにどこ吹く風で。
+$k
+
+&empty
+こっちをちらちらと気にしてる割には俺の居る方には
+来る気配も無い。
+$k
+
+&empty
+できればもう少し控えめに待ってて欲しかったなぁ。
+$k
+
+#hide
+
+#ss,bgm,(dr),0
+#ss,env,(dr),0
+
+// 	SLP(2, "S_Tel12#");
+
+#sp,env,S_Tel12#
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,bg,(fi),BG_MT_EKI01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「うおっ！」
+#mlarge
+$k
+
+// 	SV( BG_MT_EKI01A );
+
+&empty
+びっくりした、携帯だ。
+$k
+
+#ss,env,(dr),0
+#sp,se,S_Tel05
+
+優
+「お、おう、俺だ」
+$k
+
+#sp,vo,01000000
+？？？
+#mstyle,(co),桜子
+「おっそーいっ！　一体何時間待たせる気なのよ。
+　日が暮れちゃったでしょ！！」
+$k
+
+優
+「いや、まだ昼過ぎ…」
+#meffect,flow,5
+$k
+
+#sp,vo,01000001
+？？？
+#mstyle,(co),桜子
+「うるさい！　くっだらない言い訳なんて、
+　男らしくないんだから」
+$k
+
+優
+「言い訳じゃなくて……
+$nw,1000
+
+　ってお前だってまだ来てねえじゃねえかよ。
+　迎えに行ってあげるから、って言ったのお前だよな」
+$k
+
+#sp,vo,01000002
+？？？
+#mstyle,(co),桜子
+「来てるわよ、ほら後ろに」
+$k
+
+// 	Scroll(SLOW|SPEED_DOWN, -100, 0);
+
+優
+「えっ、どこに………？」
+$k
+
+// 	WaitScroll();
+// 	Scroll(SLOW|SPEED_UP, 0, 0);
+// 	WaitScroll();
+
+
+優
+「あっ！？」
+#mlarge
+$k
+
+&empty
+駅前……道の端のほうで俺の妹、
+『雪華ちゃん』と携帯片手に並んで立ってる。
+$k
+
+&empty
+こっち来んな向こう行けとジェスチャーも交えながら。
+$k
+
+#sp,vo,01000003
+？？？
+#mstyle,(co),桜子
+「ほらほら、早く行ってあげなさいよ。
+　あの娘、もう１０分はああして歩き回ってんのよ？
+$nw,6590
+　ふぁ……」
+$k
+
+優
+「いやだよ！
+　ほら、みんな遠巻きに変な人見る目で見てんだぞ？
+　お前こそなんで止めてやらないんだ、姉妹だろ」
+$k
+
+#sp,vo,01000004
+？？？
+#mstyle,(co),桜子
+「妹の優を想う気持ちは姉としても
+　止める事は出来ないのよ」
+$k
+
+#sp,vo,01000005
+？？？
+#mstyle,(co),桜子
+「あれがもし雪華ちゃんだったら、
+　あんたどうする？」
+$k
+
+優
+「うちの雪華ちゃんはあんな事は絶対しない！
+$nw,1000
+　ていうかお前が行け！」
+$k
+
+#sp,vo,01000006
+？？？
+#mstyle,(co),桜子
+「そうそうあの子ねー？」
+$k
+
+#sp,vo,01000007
+？？？
+#mstyle,(co),桜子
+「優を見つけて５分たったら、今度は大声あげて
+　自分の所に誘導しようと思います～」
+$k
+
+#sp,vo,01000008
+？？？
+#mstyle,(co),桜子
+「…とか言ってたんだけど、
+　そろそろいい時間じゃないかしらね？」
+$k
+
+// 	Scroll(SLOW|SPEED_DOWN, 200, 0);
+
+#flag,cg,51,=,1
+
+#ir
+#ip,bg,(fi),VISUAL_MII_01B.jpg,(s),75%
+#ig
+
+&empty
+ふと、件の彼女の方を見ると、
+#mfuri,　　　　　　くだん
+立ち止って大きく息を吸い込んでいる様が目に入った。
+$k
+
+// 	WaitScroll();
+// 	SV( VISUAL_MII_01B );
+
+&empty
+……マジで？
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// 	SV( BG_MT_EKI01A );
+
+// 	Scroll(FASTEST, 200, 0);
+// 	Shake(0, SHAKE_DOWN|SHAKE_SCREEN, 4, 10);
+
+#ir
+#ip,bg,(fi),BG_MT_EKI01A.jpg,(s),100%,(x),r_s
+#ig
+
+#sp,env,S_Dash10#
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,bg,(y+),10
+#ig
+
+優
+「うわああああ～！
+　みいちゃん久しぶりー！　待たせちゃったかなーっ！？」
+$k
+
+&empty
+俺は全力で　彼女　の元へと走った……。
+
+#mfuri,　　　　　　　　　　　ラウンドガール
+
+$k
+
+#hide
+
+// ループ停止。
+#ils
+
+#ss,env
+#ss,bgm
+
+// 	FO_( SLOWER );
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#show
+
+&empty
+………
+$k
+
+&empty
+…
+$k
+
+#hide
+
+// 	SV( BG_MT_NEWSYOTEN01A );
+
+#sp,env,S_Town01#
+
+//#sp,env,S_Gaya01#
+
+// 	SS(CENTER, MII_0301NO);
+
+#sp,bgm,BGM_MII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_NEWSYOTEN01A.jpg,(s),100%
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+// MII_0301NO
+#sp,vo,01030000
+みい
+「お疲れ様です、お兄様」
+$k
+
+優
+「そこはお久しぶりです、とか言って欲しいんだけどね。
+　本当に疲れてる感じがして嫌だよ」
+$k
+
+// MII_0301KY2
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030001
+みい
+「そうですか、では今度からは
+　『おはようございます』に統一しましょう」
+$k
+
+優
+「それは清々しいね…」
+$k
+
+// MII_0301AK
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030002
+みい
+「そんな瑣末な事は置いておきまして。
+#mfuri,　　　　　　　　　さまつ
+$nw,2960
+
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01BS.png,(x),c,(s),60%
+#ig
+
+　で、どうでした？
+　私のお兄様を想う熱い気持ちは伝わりましたか？」
+
+$k
+
+優
+「いったい俺をどう想えば、ああいう行動に出られるんだ」
+$k
+
+#hide
+
+#ir,(dr),1000,(un),NO
+#ip,c2,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),c,(s),100%
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),c,(al),50%
+#ig
+
+#show
+
+&empty
+この、よく分からない想いで俺を出迎えてくれた女の子。
+$k
+
+// 	SV( BG_MT_NEWSYOTEN01A );
+// 	FadeVisual(FASTEST, 50);
+// 	DelStandAll();
+// 	SS(CENTER, MII_A301NO);
+
+&empty
+名前は轟木みい。
+#mfuri,　　　　　　とどろき
+
+轟木三姉妹の末っ子である。
+$k
+
+#next,01pro01_01

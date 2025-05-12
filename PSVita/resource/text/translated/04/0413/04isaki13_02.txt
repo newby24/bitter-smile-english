@@ -1,0 +1,321 @@
+﻿// 既読フラグ
+#read_flag,227
+
+#show
+
+&empty
+次の日、宮津橋は家まで迎えには来なかった。
+$k
+
+&empty
+…昨日のことを謝ろうと思ったんだけど。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「あ…」
+$k
+
+&empty
+よかった。
+$k
+
+&empty
+教室に行くと、宮津橋はちゃんと席に
+ついていた。
+$k
+
+//	CS( CENTERLEFT, CENTER , SLOW);
+//	SS( CENTER, ISAKI_A201MU );
+
+&empty
+俺はなるべくさりげなく、
+宮津橋の隣に近づいていき、声をかけた。
+$k
+
+優
+「よ、宮津橋。
+　昨日は、その……ごめん」
+$k
+
+// 	BGMStop();
+
+//	SS( CENTER, ISAKI_0202IK );
+
+#ss,bgm,(dr),0
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),T_Swing
+
+// 	SK2();
+
+// ISAKI_0202IK
+#ir,(dr),500
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02IK.png,(x),c,(s),60%
+#ie,ov
+#ig
+
+#sp,vo,04010474
+勇樹
+「私に……近づくな」
+$k
+
+#ir
+#ie,c1
+#ig
+
+#sp,bgm,BGM_SYOSO
+
+&empty
+俺たちの間を切り裂くように、
+宮津橋の木刀が突き出されていた。
+$k
+
+&empty
+周りのクラスメイト達が、
+こちらを見て息を呑んだのがわかる。
+$k
+
+#sp,se,S_Gatan01
+
+優
+「宮津橋…？」
+$k
+
+&empty
+立ち上がった宮津橋は机に手をついたまま、
+俯いている。
+$k
+
+&empty
+長い髪に隠れて表情が見えない。
+$k
+
+#sp,vo,04010475
+勇樹
+「もう…放っておいてくれ」
+$k
+
+// 	SFP2( 0, "S_Dash08o" );
+
+#sp,se,S_Dash08o
+
+&empty
+それだけ言うと、宮津橋は教室から走って
+出ていってしまった。
+$k
+
+#sp,vo,04990076
+クラスメイト
+「ちょ、ちょっと矢崎君、
+　…宮津橋さんどうしたの？」
+$k
+
+&empty
+なんなんだ？
+$k
+
+&empty
+これじゃ、付き合う前に逆戻り、
+…いや、それよりもっと酷い。
+$k
+
+&empty
+冷たくあしらわれることはあっても、
+ここまで強硬に拒絶されたことは今までなかった。
+$k
+
+&empty
+いったい、何が…。
+俺は何か間違っちまったのか？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( VISUAL_ISAKI_13A );
+
+#sp,bgm,BGM_FUAN
+
+#flag,cg,21,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_13A.jpg,(s),75%
+#ig
+
+#wait,200
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Fence01
+
+#show
+
+// ISAKI_0201KN
+
+#sp,vo,04010476
+勇樹
+「私は……
+$nw,3280
+
+　私はいったい、
+　どうしてしまったんだろう」
+$k
+
+// ISAKI_0201IK
+
+#sp,vo,04010477
+勇樹
+「あんな、あんな甘っちょろい言葉で
+　泣くなんて……
+$nw,6370
+
+　ありえない」
+$k
+
+// ISAKI_0201AZ
+
+#sp,vo,04010478
+勇樹
+「私はそんなに弱くない。弱くないんだ」
+$k
+
+// ISAKI_0201KN
+
+#sp,vo,04010479
+勇樹
+「…無視するつもりだったのに……
+$nw,3680
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Fence02
+
+　なんで……」
+$k
+
+// ISAKI_0201MU
+
+#sp,vo,04010480
+勇樹
+「このままじゃ……ダメだ。
+$nw,4280
+
+　あいつに甘えて、すがって……
+$nw,4210
+
+　それじゃ、私がダメになってしまう」
+
+$k
+
+// ISAKI_0201IK3
+
+#sp,vo,04010481
+勇樹
+「あいつが……
+$nw,2310
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Fence02
+
+　あいつが、
+　あんな事を言うから悪いんだ」
+
+$k
+
+//$nw,2510
+
+// ISAKI_0201KN
+
+#sp,vo,04010482
+勇樹
+「ずっと一緒にいられるわけじゃないのに……」
+$k
+
+// ISAKI_0201MU
+
+#ss,bgm,(dr),1000
+
+#sp,vo,04010483
+勇樹
+「だったら、
+$nw,2280
+
+#ir,(dr),3000
+#ip,bg,(fi),white.jpg
+#ig
+
+　もういっそ……」
+$k
+
+// 	DelStandAll();
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_isaki.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,04isaki14_00

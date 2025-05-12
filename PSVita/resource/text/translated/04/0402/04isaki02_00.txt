@@ -1,0 +1,748 @@
+﻿// 既読フラグ
+#read_flag,189
+
+// セーブタイトル
+#flag,save_title,勇樹　第２話,0,0
+
+// 勇樹好感度＋１。
+#flag,per,2,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//#sp,env,S_Bird02#
+
+// 	SV( BG_SJ_YU01F );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01F.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第２話　彼女が髪を束ねたら
+$k
+#note,erase
+
+#show
+
+優
+「ふあぁぁ～あ……よく寝た」
+$k
+
+&empty
+久しぶりにゆっくり寝た気がする。
+$k
+
+&empty
+ここのところ、日曜でも早起きして、
+店を手伝わされていたからな。
+$k
+
+&empty
+貴重な睡眠時間だ。
+$k
+
+優
+「土曜日が休みでよかったよ」
+$k
+
+#sp,se,S_Hone01
+
+// 	WaitSE();
+
+&empty
+ぐっと伸びをすると、背中がばきばきと鳴った。
+$k
+
+優
+「うおっ……」
+$k
+
+&empty
+さすがにちょっと寝過ぎたかもしれない。
+$k
+
+優
+「とりあえず、朝メシ、朝メシ……」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_SJ_2FROKA01A );
+
+// 	SS( CENTER, ISAKI_0901NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A901.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// ISAKI_0901NO
+#sp,vo,04010014
+勇樹
+「……む」
+$k
+
+優
+「っと、宮津橋……」
+$k
+
+&empty
+階段を下りようとしたところで、
+向こうの部屋から出てきた宮津橋と出くわした。
+$k
+
+優
+「お前も今、起きたのか？
+　なんだったら、朝メシ一緒に食うか？」
+$k
+
+// ISAKI_0901MU
+#ir
+#ip,c1,(fi),ISAKI_A901.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010015
+勇樹
+「……別にいらない」
+$k
+
+&empty
+つれないなぁ……ってあれ？
+$k
+
+&empty
+なんだか今日は、宮津橋の雰囲気が
+どこか違うような気がする。
+$k
+
+優
+「あああああああっっ！」
+$k
+
+// ISAKI_0901IK
+#ir
+#ip,c1,(fi),ISAKI_A901.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010016
+勇樹
+「……うるさい。
+　いきなり大声を出すな」
+$k
+
+優
+「髪！！」
+$k
+
+// ISAKI_0901NO
+#ir
+#ip,c1,(fi),ISAKI_A901.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010017
+勇樹
+「髪？　……ああ」
+$k
+
+&empty
+うざったそうに頭に手をやる宮津橋。
+$k
+
+&empty
+その、普段なら風になびいている綺麗な黒髪が
+きちんと束ねられていた。
+$k
+
+&empty
+なんだか……新鮮だ。
+$k
+
+優
+「めずらしいな。
+　髪、そんなふうに結ってるの」
+$k
+
+// ISAKI_0901KB
+#ir
+#ip,c1,(fi),ISAKI_A901.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010018
+勇樹
+「だったら、どうした。
+　お前に何か関係があるのか」
+$k
+
+優
+「い、いや、ないけどさ……」
+$k
+
+&empty
+宮津橋が、まるでガラス玉のような
+冷たい目で俺を見る。
+$k
+
+&empty
+なにもそんな風に突き放す事は
+ないんじゃないだろうか。
+$k
+
+// ISAKI_0901MU
+#ir
+#ip,c1,(fi),ISAKI_A901.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010019
+勇樹
+「…………ふん」
+$k
+
+// 	SFP2( 0, "S_Walk04o" );
+
+#sp,se,S_Walk04o
+
+// 	MoveStand( CENTER, 40, 70, 30 );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(y+),50,(al),0%
+#ig
+
+&empty
+俺が呆然としている間に、宮津橋は階段を
+降りていってしまった。
+$k
+
+&empty
+廊下には、俺だけがぽつんと取り残される。
+$k
+
+優
+「とりあえず、飯にすっか……」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_KITCHEN01A );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_KITCHEN01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「はよーっす」
+$k
+
+// 	SS( CENTER, SAKURAKO_0303IK3 );
+
+// SAKURAKO_0303IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000000
+桜子
+「おはようじゃないわよ。
+　今、何時だと思ってんの？」
+$k
+
+優
+「何時って……まだ、そこまで言われるような
+　時間じゃないだろ」
+$k
+
+&empty
+時計を見ると、いつも学園に行く時間よりは
+確かに遅い。
+$k
+
+&empty
+だけど、休みの日に起きるなら、
+これくらいでも別におかしくはないと思う。
+$k
+
+// SAKURAKO_0302IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ikari.png,(x),*520,(y),*50
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op1,(s),120%
+#ig
+
+#sp,vo,04000001
+桜子
+「あたしが遅いって言ったら、遅いの！」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+優
+「そこまで言うなら、起こしに来てくれたって
+　いいだろ？
+　なんか俺に用でもあったのか？」
+$k
+
+// SAKURAKO_0301AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000002
+桜子
+「用はないけどさ。
+$nw,2400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),60%
+#ig
+
+　なに？　あんた、あたしに起こして欲しかった訳？」
+$k
+
+優
+「いや、それはない」
+$k
+
+&empty
+桜子に起こしてもらうだなんて、そんな。
+$k
+
+&empty
+朝っぱらから、腹にムーンサルトプレスを
+喰らうような趣味はない。
+$k
+
+// 	SS_( CENTER, SAKURAKO_0301NO );
+// 立ち絵移動。パラメータは適宜。
+
+// MII_0303KD
+#ir,(ef),off
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03KD.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+#sp,vo,04030000
+みい
+「おや、では私が起こして差し上げましょうか？」
+$k
+
+// 	SS( CENTER, MII_0303EG, MOVE_RIGHT, NORMAL );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),60%
+#ig
+
+優
+「あ、みいちゃん、おはよう」
+$k
+
+// MII_0303NO
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030001
+みい
+「おはようございます、お兄様。
+$nw,3000
+
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03TR3.png,(x),r,(s),60%
+#ig
+
+　で、明日から、起こしにいけばよろしいので？」
+$k
+
+優
+「いや、いい！　遠慮する！」
+$k
+
+// MII_0303TR
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03TR.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030002
+みい
+「愛を込めて起こして差し上げますのにぃ」
+$k
+
+&empty
+どんな愛だかわかったもんじゃないからな！
+$k
+
+// 	SS_( CENTER, MII_0303KT );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「あ、そうだ。さっき宮津橋と会ったんだけど……」
+$k
+
+// SAKURAKO_0302NO
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04000003
+桜子
+「ふーん。そりゃ、同じ家なんだから、
+　別におかしくはないでしょ？」
+$k
+
+優
+「いや、そうじゃなくて。
+　なんか、髪くくって、格好も
+　いつもとちょっと違っててさ……」
+$k
+
+優
+「なんかあったのかな」
+$k
+
+// MII_0303NO
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),r,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\hirameki.png,(x),650,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,04030003
+みい
+「ずばり、デートですね」
+$k
+
+// 	SK2();
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「ぶっっ！！」
+#mlarge
+$k
+
+&empty
+まさか。
+$k
+
+&empty
+あの、ちょっとナンパされただけで、
+相手をボッコボコにしてしまうような宮津橋が？
+$k
+
+優
+「冗談だろ？」
+$k
+
+// MII_0303KB
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03KB.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030004
+みい
+「わかりませんよ？
+　それとも、お兄様に乙女心がわかるんですか？」
+$k
+
+優
+「むう…」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+&empty
+そりゃ、どちらかと言えば
+わからない方だと思うけど……。
+$k
+
+&empty
+…というか、正直ほとんどわからない。
+$k
+
+&empty
+本当に宮津橋がデート？
+$k
+
+// 	SS_( CENTERRIGHT, MII_0303EG3 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( CENTERLEFT, SAKURAKO_0301AK2 );
+
+// SAKURAKO_0301AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04000004
+桜子
+「はいはい、優をからかうのも
+　いい加減にしなさいよね」
+$k
+
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03EG3.png,(x),r,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),10
+#ig
+
+// 	SS_( CENTERRIGHT, MII_0303EG3 );
+// 	ShakeStand( CENTERRIGHT, FAST, SHAKE_DOWN, 20, FAST * 2 );
+
+&empty
+桜子がお盆でこつん、とみいちゃんの頭を
+軽く叩いた。
+$k
+
+// 	SS_( CENTERRIGHT, MII_0303NS );
+
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03NS.png,(x),r,(s),60%
+#ig
+
+&empty
+みいちゃんが、悪戯っぽく舌を出して
+くすくすと笑う。
+$k
+
+&empty
+なんだ、やっぱり冗談だったのか。
+$k
+
+&empty
+なぜだかほっとする。
+$k
+
+// 	SS( CENTER, SAKURAKO_0301NO, MOVE_STOP, NORMAL );
+
+// SAKURAKO_0301NO
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),60%
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000005
+桜子
+「あのコねー、確かバイトしてるはずよ」
+$k
+
+優
+「バイト？　なんの？」
+$k
+
+// SAKURAKO_0302NO
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04000006
+桜子
+「さあ、そこまでは知らないけど」
+$k
+
+&empty
+宮津橋がバイトねえ……。
+なんとなくだけど、接客とかには
+向いていなさそうな気がする。
+$k
+
+// SAKURAKO_0301TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04000007
+桜子
+「それよりさ、あんた、これ食べ終わったら
+　千寿の方手伝ってよね」
+$k
+
+優
+「へっ？
+　なんでだよ！　今日、土曜だろ？」
+$k
+
+// SAKURAKO_0301AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04000008
+桜子
+「働かざる者食うべからずってね。
+$nw,3300
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK2.png,(x),l,(s),60%
+#ig
+
+　それともなに？　なんか用でもあるの？」
+$k
+
+優
+「いや、ないけど……」
+$k
+
+&empty
+暇人と言われてるようで、なんだか悔しい。
+$k
+
+// 	SS_( CENTER, MII_0303KB );
+
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03KB.png,(x),r,(s),60%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),500,(y),230,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+// MII_0303KB
+#sp,vo,04030005
+みい
+「お兄様……」
+$k
+
+優
+「なんだよ、そんな目で俺を見るなよ！」
+$k
+
+&empty
+そんな哀れむような目で！
+$k
+
+// MII_0303KM3
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03KM3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030006
+みい
+「いえ、休日だというのに、デートする相手もいず、
+　だらだらしているだけのお兄様の未来が見えまして」
+$k
+
+優
+「ちなみに……どんな未来？」
+$k
+
+// MII_0303NK
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03NK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030007
+みい
+「そんな残酷な事……私の口からはとても」
+$k
+
+優
+「なるほど…残酷な未来なのね…」
+$k
+
+&empty
+どうして、みいちゃんはこんなにも俺の心を
+削ぎ落とそうとするのだろう。
+$k
+
+// SAKURAKO_0302IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04000009
+桜子
+「もう、早く食べちゃってよ。
+　それとも食べないの？　いらないの？」
+$k
+
+優
+「いるいるっ！
+　いります、食べますっ、いただきますっ！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+しかし……宮津橋のバイトか。
+いったい何をやっているのか、気になるな。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_MISEMAE01A );
+
+#sp,bgm,BGM_ISAKI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_MISEMAE01A.jpg,(s),100%
+#ig
+
+#next,04isaki02_01

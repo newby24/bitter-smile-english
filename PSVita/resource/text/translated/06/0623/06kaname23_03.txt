@@ -1,0 +1,204 @@
+﻿// 既読フラグ
+#read_flag,427
+
+優
+「切られた…
+$nw,1000
+
+　けど、なんか隠してるかも」
+
+$k
+
+// MEGUMI_0401KN3
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KN3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06070091
+めぐみ
+「やっぱり…」
+$k
+
+// SAKURAKO_0402NO2
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,06000174
+桜子
+「じゃあ、後は頑張って」
+$k
+
+// 	SS_(CENTERLEFTBOTTOM, MEGUMI_0401MJ, MOVE_STOP, NORMAL);
+
+// CHISEKA_0401OD3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040043
+知世翔
+「え…どうにかして助けてあげるんじゃ」
+$k
+
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),r2,(s),60%
+#ig
+
+// ISAKI_0401NO
+#sp,vo,06010029
+勇樹
+「そこまでしてやる筋合いはないからな」
+$k
+
+優
+「だよな…」
+#meffect,flow,5
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040044
+知世翔
+「あ、あんたもあきらめてどうすんのよ」
+$k
+
+優
+「あきらめてるわけじゃない。
+　これは俺の問題だから」
+$k
+
+// YUKIHA_0401MJ2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06050087
+雪華
+「本気、なんだ…」
+#meffect,flow,5
+$k
+
+// MII_0402MJ2
+#ir
+#ip,c2,(fi),MII_A402.png,(psi),MII_An02MJ2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,06030157
+みい
+「それで、どうするんです」
+$k
+
+優
+「たくさん持っていくもんがあるんだよな」
+$k
+
+&empty
+俺はたぶん幸せ者なんだ。
+$k
+
+優
+「みんなに一つだけ、お願いがあるんだけど…」
+$k
+
+#ss,bgm
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+#sp,se,S_Nuno08
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(y),d_s
+#ig
+
+// 	Shake(SLOW, SHAKE_UP|SHAKE_SCREEN, 8, 50);
+
+&empty
+ここまで関わってくれてる皆に、頭を下げる。
+$k
+
+// 	SS_(RIGHTRIGHTTOP, MII_0402OD, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_(LEFT, CHISEKA_0401OD3, MOVE_STOP, NORMAL);
+// 	SS_(CENTERLEFTBOTTOM, MEGUMI_0401OD, MOVE_STOP, NORMAL);
+
+// 	SS_(CENTER, YUKIHA_0401OD, MOVE_STOP, NORMAL);
+
+// 	SS_(RIGHT, SAKURAKO_0403KT, MOVE_STOP, NORMAL);
+
+// 	SS_(LEFTLEFTTOP, ISAKI_0402KT, MOVE_STOP, NORMAL);
+
+//#ir,(dr),500,(ef),stretch_tb
+//#ip,bg,(fi),black.jpg
+//#ig,(se),S_Basa01
+
+//#sp,se,
+
+
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Basa01
+
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+// 	RFO_(RULE_RYUUSEN2, NORMAL);
+
+優
+「金貸してくれ！」
+#mlarge
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_kaname.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,06kaname24_00

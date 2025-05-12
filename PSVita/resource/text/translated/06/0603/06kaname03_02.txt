@@ -1,0 +1,395 @@
+﻿// 既読フラグ
+#read_flag,353
+
+// 	Zoom(FAST, 100, 100);
+// 	SS( CENTER, KANAME_0801OD3 );
+
+#ir
+#ip,c1,(fi),KANAME_A801.png,(psi),KANAME_An01OD3.png,(x),c,(s),60%
+#ig
+
+優
+「今です、早く逃げて！」
+$k
+
+// KANAME_0801IK4
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A801.png,(psi),KANAME_An01IK4.png,(x),c,(s),60%
+#ig
+
+#sp,se,S_Dash05o
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+#sp,vo,06020130
+要
+「…っ！」
+$k
+
+&empty
+俺の指示に気づいた要さんが走り出し、
+めぐみとみいちゃんも、それに続く。
+$k
+
+#sp,vo,06100013
+山之辺
+「ちょっと、矢崎くん！
+　こういうの本気で怒るわよ！？」
+$k
+
+&empty
+…問題はここからだ。
+$k
+
+優
+「逃げろっ、逃げてくれ…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「小林ぃー！」
+#mlarge
+$k
+
+#sp,vo,06100014
+山之辺
+「えっ、小林くん…！？」
+#meffect,flow,5
+$k
+
+優
+「ああっ、しまったぁ…！？」
+$k
+
+&empty
+わざとらしく、うろたえてみせる。
+$k
+
+// KOZUE_0201MJ2
+#ir,(ef),off
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01MJ2.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#sp,se,S_Nuno01
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+&empty
+そこで力を抜き、先生が学生服から顔を出した。
+$k
+
+// 	SS( CENTER, KOZUE_0201MJ2, MOVE_DOWN, SLOW );
+
+#sp,vo,06100015
+山之辺
+「や、矢崎くん…どういうこと…？」
+#meffect,flow,5
+$k
+
+優
+「お願いです、先生…
+　どうか気づかないふりをしてやってください。
+　あいつなりに悩みに悩み抜いた末の決断なんです…」
+$k
+
+// KOZUE_0201MJ2
+#sp,vo,06100016
+山之辺
+「小林くんって…
+　うちの、小林、策夜くん…？」
+$k
+
+優
+「はい、あのクソ憎ったらしい小林です」
+$k
+
+// KOZUE_0201OD
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100017
+山之辺
+「うそ…
+　あの、さっきの体操服の子が…？
+$nw,5560
+
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01KM2.png,(x),c,(s),60%
+#ig
+
+　でも言われてみれば、髪型が少し似てたかも…」
+$k
+
+優
+「気のせいです」
+$k
+
+// KOZUE_0201KM2
+#sp,vo,06100018
+山之辺
+「そうだったんだ…そんな悩みが…」
+#meffect,flow,5
+$k
+
+// KOZUE_0201BS
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100019
+山之辺
+「…ありがとう矢崎くん。
+　あなたが止めてくれなければ、
+　私はきっと彼を傷つけていたわね」
+$k
+
+// KOZUE_0201BS
+#sp,vo,06100020
+山之辺
+「私、このことは言及しない！　彼が私の力を必要とする
+　までは知らないふりをするわ！」
+$k
+
+// KOZUE_0201BS2
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100021
+山之辺
+「その代わり…矢崎くん、
+　小林くんの力になってあげてね」
+$k
+
+優
+「はい…」
+$k
+
+&empty
+こうして、良心と引き替えに、危機を回避した…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+………
+$k
+
+&empty
+……
+$k
+
+&empty
+…
+$k
+
+#hide
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SV( BG_GK_KYOSHITSU01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01B.jpg,(s),100%
+#ig
+
+#show
+
+優
+「小林ー」
+$k
+
+// 	SS( CENTER, KOBAYASHI_0201BS );
+
+// KOBAYASHI_0201BS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06080000
+小林
+「お、矢崎」
+$k
+
+優
+「昼飯おごってやる。
+　一緒に学食行こうぜ」
+$k
+
+// KOBAYASHI_0201BS
+#sp,vo,06080001
+小林
+「え、今日もかよ？
+　マジで？　お前って実は俺フェチ？」
+$k
+
+優
+「はっはっは、気持ち悪いこと言うなよ」
+$k
+
+// KOBAYASHI_0201BS4
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06080002
+小林
+「学園祭終わってからさ、風がオレに吹いてんの。
+$nw,4140
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS.png,(x),c,(s),60%
+#ig
+
+　信じないと思うけど、
+　めぐみやみいちゃんなんか妙に俺に優しくてさ～」
+$k
+
+優
+「いやいや信じるぞ～」
+$k
+
+&empty
+…共犯だからな。
+$k
+
+&empty
+ちなみに要さんには、ものすごく感謝された。
+あれだけで回避できてよかったと思う。
+$k
+
+&empty
+ただ、その他のアフターケアは必要なので…。
+$k
+
+// KOBAYASHI_0201EG
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06080003
+小林
+「極めつけは山之辺先生だな。
+　最近ものすっげービビッとくんの。
+$nw,6710
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%
+#ig
+
+　あの複雑な感情の視線は恋だな、恋する目だな！」
+$k
+
+優
+「幸せな奴め～。
+$nw,1000
+
+　で、改めて相談なんだけどな」
+$k
+
+// KOBAYASHI_0201BS4
+#sp,vo,06080004
+小林
+「悪いがオレは男にはなびかないぜ？」
+$k
+
+優
+「そうじゃなくってだな」
+$k
+
+&empty
+めぐみはすでに例外のようだが、
+そこにはツッコむまい。
+$k
+
+#ss,bgm
+
+優
+「お前、これから趣味女装にしてくんない？」
+$k
+
+// KOBAYASHI_0201IK2
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06080005
+小林
+「おまえオレの何が目当てだ！？」
+#mlarge
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// イベント選択４回目へ。
+#next,90phase04

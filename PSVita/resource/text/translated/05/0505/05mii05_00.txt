@@ -1,0 +1,638 @@
+﻿// 既読フラグ
+#read_flag,134
+
+// セーブタイトル
+#flag,save_title,みい　第５話,0,0
+
+// みい好感度＋１。
+#flag,per,3,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAKEIDAI03A );
+
+#sp,env,T_maturi#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第５話　みいちゃん流おねだり
+$k
+#note,erase
+
+#show
+
+優
+「お」
+$k
+
+&empty
+溺れそうな人ごみ。
+気がつくとまた皆とはぐれてしまっていたのだが…。
+$k
+
+&empty
+彷徨ったあげく、
+ようやく身内の後ろ姿を見つけた。
+$k
+
+優
+「みいちゃ………
+$nw,1000
+
+#madd,う！？」
+
+$k
+
+#ss,env
+
+#sp,bgm,BGM_MII
+
+// 	SS( CENTER, MII_0403KD );
+// MII_0403KD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030227
+みい
+「あらお兄様」
+$k
+
+&empty
+みいちゃんが振り返る。
+でも、その姿はなんというか…。
+$k
+
+// 変更。カットあり。
+優
+「お面に金魚、水ヨーヨー、焼きとうもろこし、
+　わたがし、りんご飴……
+　思いっきりエンジョイしてるなあ！」
+$k
+
+// MII_0402MJ
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030231
+みい
+「ええ、全身全霊です」
+$k
+
+優
+「そこまで…」
+$k
+
+// MII_0401KY2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030232
+みい
+「ともあれ、今日の分のお小遣いが、
+　なくなってしまいました」
+$k
+
+優
+「そりゃそうだろ」
+$k
+
+&empty
+今のみいちゃんは、屋台の大人買い状態だし。
+$k
+
+// MII_0401AM
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030233
+みい
+「お金がなくなってしまいました」
+$k
+
+優
+「それは聞いた」
+$k
+
+#ss,bgm
+
+// MII_0401AM2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030234
+みい
+「のーまにー」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+// 	SetObject( 0, "onedarimii.png", 0, 0, OBJATTR_TOP );
+// 	SetAnimeObject( 1, "batuzirusi.spm", 6, 400 + 150, 300 - 100, OBJATTR_TOP );
+// 	SetAnimeObject( 2, "batuzirusi.spm", 6, 400 - 220, 300 + 80, OBJATTR_TOP );
+// 	SetAnimeObject( 3, "batuzirusi.spm", 7, 400 - 200, 300 - 200, OBJATTR_TOP );
+// 	SetAnimeObject( 4, "batuzirusi.spm", 7, 400 + 300, 300 + 150, OBJATTR_TOP );
+
+
+優
+「さ、さあ、桜子たちを探そうかっ」
+$k
+
+#hide
+
+#sp,se,T_kirakira
+
+#ir,(dr),1000
+#ip,bg,(fi),image\etc\bacouple_background.jpg,(s),100%,(y),0
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01BS.png,(x),c,(s),100%,(y),-30
+#ig
+
+// 	Flash( 50, 30 );
+// 	BlinkObject( 1, 100, 70, 100 );
+// 	BlinkObject( 2, 100, 70, 100 );
+// 	BlinkObject( 3, 100, 70, 100 );
+// 	BlinkObject( 4, 100, 70, 100 );
+// 	RotateSpeedObject( 1, 100, 280 );
+// 	RotateSpeedObject( 2, 100, 200 );
+// 	RotateSpeedObject( 3, 100, 100 );
+// 	RotateSpeedObject( 4, 100, 150 );
+// 	ZoomCycleObject( 1, 300, 80, 80, 110, 110 );
+// 	ZoomCycleObject( 2, 300, 80, 80, 110, 110 );
+// 	ZoomCycleObject( 3, 400, 100, 100, 110, 110 );
+// 	ZoomCycleObject( 4, 400, 100, 100, 110, 110 );
+
+
+#show
+
+// MII_0401AM2
+#sp,vo,05030235
+みい
+「まにぃー、まにぃー」
+$k
+
+優
+「そ、そんな可愛く言われても俺は騙されないぞっ」
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　だま
+
+$k
+
+// MII_0401AM2
+#sp,vo,05030236
+みい
+「にー、にー…」
+$k
+
+// 	Blur( 0, 8 );
+// 	Shake( 0, SHAKE_RANDOM|SHAKE_SCREEN, 10, 300 );
+
+優
+「捨てられた子猫の様に…かわいく…鳴かれたって…
+$nw,1000
+
+　く………俺の、俺の良心が…」
+$k
+
+&empty
+内容は即物的なのに、大切な何かが壊れそうだ。
+$k
+
+// 	Flash( 0, 0 );
+
+#sp,se,Nuno01
+
+// 	Blur( 0, 0 );
+// 	SK2();
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A.jpg,(s),100%
+#ig
+
+優
+「いやいや、いかんいかん！」
+$k
+
+#sp,bgm,BGM_MII
+
+// MII_0401GM
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01GM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030237
+みい
+「…捨てねこ作戦は失敗の様ですね」
+$k
+
+優
+「はぁっ…はぁ……耐えた」
+#meffect,flow,2
+$k
+
+//	Shake( SLOW|SPEED_DOWN, SHAKE_UP|SHAKE_SCREEN, 10, 70, 1 );
+//	Shake( SLOW|SPEED_DOWN, SHAKE_UP|SHAKE_SCREEN, 10, 70 );
+
+&empty
+あ、危なかった。
+もう少しで財布の提供どころか、
+ぎゅっと抱きしめてしまうところだった。
+$k
+
+// 	SS( CENTER, MII_0403NO );
+
+//	SetIconExcl( CENTER );
+// MII_0403NO
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030238
+みい
+「では意味はありませんがお兄様、
+　ジャンプしてみてくださいませんか」
+$k
+
+優
+「小銭の音なんてしないって！」
+$k
+
+//	SetIconHirameki( CENTER );
+// MII_0403EG4
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030239
+みい
+「まあ、紙幣とは頼もしい」
+$k
+
+優
+「それ、直接的すぎる…」
+$k
+
+&empty
+骨の髄まですすられそう。
+$k
+
+// MII_0403SN
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030240
+みい
+「まあ、冗談ですけどね」
+$k
+
+&empty
+本当かなあ…。
+$k
+
+優
+「と、とにかくまず桜子たちと合流しよう。
+　話はそれからにして」
+$k
+
+// MII_0403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030241
+みい
+「なぜ姉上を探すのです？」
+$k
+
+優
+「そりゃ…せっかくだから、
+　バラバラよりはみんなで楽しく回りたいじゃん」
+$k
+
+// MII_0403KT
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030242
+みい
+「さっき見かけましたが、
+　雪華さんはお友達と楽しそうにされてましたよ」
+$k
+
+// 	BGMStop();
+
+#ss,bgm,(dr),0
+
+// 	SV( BG_MT_JINJYAKEIDAI03A, FILTER_NEGATIVE|FILTER_LINKSTAND );
+// 	SK2();
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A_h.jpg,(s),100%
+#ig,(se),K_Shock01
+
+優
+「それは俺も見た…」
+$k
+
+//	SP( "S_Wind02" );
+// 	SV( BG_MT_JINJYAKEIDAI03A, FILTER_LINKSTAND );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A.jpg,(s),100%
+#ig
+
+&empty
+女の子の一群はとても楽しそうで、
+今日は涙を飲んで雪華ちゃんを託すことにした。
+$k
+
+// MII_0403AK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030243
+みい
+「案外皆さんそんなものかもしれませんよ」
+$k
+
+#sp,env,T_maturi#
+
+優
+「邪魔するなってこと？」
+$k
+
+// MII_0403AD3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030244
+みい
+「わかりませんけどね。ただ…」
+$k
+
+優
+「ただ？」
+$k
+
+// MII_0403TR4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030245
+みい
+「…私と二人というのも、
+　案外楽しいかもしれませんよ？」
+$k
+
+// 	//三木：後でフェード時間いじる
+
+
+// 	SS( CENTER, MII_A403TR4, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR4.png,(x),c,(s),80%
+#ig
+
+&empty
+いたずらっぽくこちらを見上げつつ
+みいちゃんが、そっと身を寄せてくる。
+$k
+
+優
+「………」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(x),c,(s),60%
+#ig,(se),S_Za01
+
+// 	SS( CENTER, MII_0403IK2 );
+
+// MII_0403IK2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030246
+みい
+「…なぜ離れますか？」
+$k
+
+優
+「警戒してるからに決まってんじゃん！」
+$k
+
+// MII_0403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030247
+みい
+「浴衣でないと密着しがいがありませんか。
+　寒い季節に酷なことを要求されますね、
+　なんて鬼畜なお兄様っ」
+$k
+
+優
+「まず耳掃除をしてこい！」
+$k
+
+// MII_0403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030248
+みい
+「おかしいですね、私毎晩お風呂で欠かさず
+　耳もおへそも丁寧に磨いていますが。
+　綿棒でのケアも欠かせませんね」
+$k
+
+優
+「コミュニケーションが成り立ってないぞ…」
+$k
+
+// MII_0403SN
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030249
+みい
+「そんなに私と二人が嫌ですか」
+$k
+
+優
+「出来れば今日は遠慮しておきたいな…」
+$k
+
+&empty
+間違いなくたかられるし。
+$k
+
+#ss,env,(dr),1000
+#sp,bgm,BGM_KANASHIMI
+
+// MII_0403KM3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030250
+みい
+「そう…ですか」
+$k
+
+優
+「え？」
+$k
+
+// MII_0403MJ
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030251
+みい
+「やっぱり…忘れられてしまわれたのですね」
+$k
+
+優
+「え？　なにが？」
+$k
+
+// MII_0402IK
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030252
+みい
+「いいえ、いいです言えません。
+　都合よく今日が私の誕生日だなんて…！」
+$k
+
+優
+「自分で都合よくって言っちゃった！」
+$k
+
+&empty
+けど、そうだったか…
+いや待て、そんなはずがない。
+$k
+
+&empty
+考えるまでもないではないか。
+みいちゃんがまた適当な事言っているだけなんだ。
+$k
+
+// MII_0403TR
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030253
+みい
+「覚えて…ませんよね？」
+$k
+
+優
+「全然、まったく、これっぽっちもね」
+$k
+
+// MII_0403KM3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030254
+みい
+「そうですよね…
+　別にお兄様には関係ない事ですものね…」
+$k
+
+優
+「………」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+なに、この雰囲気。
+$k
+
+&empty
+本当に？
+$k
+
+&empty
+いや、そんなはずはない。絶対ない。
+$k
+
+&empty
+普段のみいちゃんの性格を見れば９割９分…
+いや、完全に嘘。
+$k
+
+&empty
+担がれてるだけ。わかってるさ。
+$k
+
+&empty
+でも、もし仮に…
+本当にそれが真実だったら、みいちゃんは？
+$k
+
+&empty
+携帯で桜子や要さんに聞くか？
+$k
+
+&empty
+でも、それをしたら、真偽はどうあれ、
+その時点でみいちゃんを信じてないことにならないか。
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「つか、ンなわけねえし！」
+$k
+
+
+#next,05mii05_01

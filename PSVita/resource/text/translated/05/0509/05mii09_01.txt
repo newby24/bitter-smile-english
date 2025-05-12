@@ -1,0 +1,972 @@
+﻿// 既読フラグ
+#read_flag,144
+
+#show
+
+優
+「あ、ちょ、見てんのに消さないでよ、テレビ」
+$k
+
+// MII_0403IK5
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK5.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030482
+みい
+「どうして私がこんなの見なきゃいけないんですか」
+$k
+
+優
+「え～っ、逆ギレ！？」
+$k
+
+// MII_0403IK2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030483
+みい
+「してません勘違いしないでください」
+$k
+
+優
+「みいちゃんが自分で見てたんじゃんか」
+$k
+
+// MII_0403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030484
+みい
+「単なる気の迷いです」
+$k
+
+優
+「この番組が好きな俺の立場は？」
+$k
+
+// CHISEKA_0401AK
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040039
+知世翔
+「まあ、逆ギレかどうか知りませんけど、
+　矢崎先輩も酷いこと口走ってましたから
+　自業自得って感じですね」
+$k
+
+優
+「むう…」
+$k
+
+&empty
+確かについ調子に乗りすぎたか。
+$k
+
+// CHISEKA_0401KN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),r,(s),60%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\tameiki.png,(x),520,(y),230,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op3,(x+),-30,(y+),30,(al),100%
+#ia,op3,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,05040040
+知世翔
+「…でも、みいが見たがったのはそうなのよね」
+#msmall
+$k
+
+// MII_0403IK2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030485
+みい
+「…何か？」
+$k
+
+// CHISEKA_0401KS
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040041
+知世翔
+「ううん、何でも」
+$k
+
+&empty
+なんか…有河の様子もちょっと変だけど？
+$k
+
+#ss,bgm
+
+&empty
+まあ、いいか。
+休憩に来たんだしな、余計な事に頭使うのはやめだ。
+$k
+
+#sp,bgm,BGM_MII
+
+優
+「有河、みかん取って」
+$k
+
+// CHISEKA_0401IK2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040042
+知世翔
+「え…それくらい自分で取ってくださいよ。
+　体起こせば取れるでしょ」
+$k
+
+優
+「いや、だってそっちのが近いじゃん。
+　な？　ここは今、俺がみかんを欲してるのに免じて」
+$k
+
+// CHISEKA_0401KB2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040043
+知世翔
+「意味がわかりませんけど、
+　欲しいなら相応の頼み方というのがあるんじゃあ？」
+$k
+
+優
+「ちょっと動いてくれるだけでいいのに」
+$k
+
+// CHISEKA_0401KB2
+#sp,vo,05040044
+知世翔
+「今が年末、年が明けたらセンター」
+$k
+
+優
+「あん？」
+$k
+
+// CHISEKA_0401AK
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040045
+知世翔
+「そちらはのんきでいいですよね～。
+　桜子先輩は今も受験勉強をされているのに」
+$k
+
+優
+「それは結果で見返してやるから大丈夫」
+$k
+
+&empty
+大口は、いくら叩いても罪に問われないので素敵だ。
+$k
+
+優
+「おまえこそ、冬休みだからって、
+　人ンちのこたつでテレビ見てるだけじゃねーか」
+$k
+
+// CHISEKA_0401KB
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040046
+知世翔
+「それはついでですー。
+　今日は桜子先輩に差し入れにきたんですから」
+$k
+
+優
+「差し入れ？」
+$k
+
+// MII_0403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030486
+みい
+「知世翔さんは、姉上の陣中見舞いに
+　洋なしのタルトを持ってきてくださったんですよ」
+$k
+
+優
+「へえ…どうやって用意したんだ？」
+$k
+
+// CHISEKA_0401TR5
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040047
+知世翔
+「作りました」
+$k
+
+優
+「そうか…
+　今年は有河ンちの木に、
+　立派な洋なしのタルトがたくさん実ったか」
+$k
+
+//	SetIconIkari( RIGHT );
+// CHISEKA_0401IK4
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040048
+知世翔
+「…あんた、信じる信じない以前に、
+　私のこと馬鹿にしてんでしょ？」
+$k
+
+// MII_0403AK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030487
+みい
+「失礼ですよ、お兄様」
+$k
+
+優
+「いやー、料理する有河なんて想像できなくてさ」
+$k
+
+// MII_0403KD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030488
+みい
+「なるほど。代わりに、木に登って
+　タルトをもぐ知世翔さんは想像できたんですね」
+$k
+
+// CHISEKA_0401AS
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040049
+知世翔
+「どんどんビジョンが鮮明になってくじゃない！」
+$k
+
+優
+「それは俺のせいじゃないだろ！？」
+$k
+
+&empty
+おサルの格好をした有河が
+木の上でタルトをもいでは食べ、もいでは食べ…。
+$k
+
+&empty
+くさったヤツを木の下にいる俺に向かって投げつける、
+変な絵が頭に浮かぶので、思考を停止する。
+$k
+
+優
+「しかし、有河にお菓子作りの才能があったとはねぇ」
+$k
+
+// CHISEKA_0401AK
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040050
+知世翔
+「そんな才能があるなんて言わないけど…。
+　ま、まあ、上手くは作れないけど、
+　壊滅的ってほど酷くもないと思うくらいで…」
+$k
+
+優
+「あー、そうなんだ」
+$k
+
+// CHISEKA_0401AS
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040051
+知世翔
+「いいじゃない、気持ちがこもってるならっ」
+$k
+
+// MII_0402IK2
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02IK2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030489
+みい
+「そうですよ、お兄様。
+　知世翔さんが姉上を想う気持ちは本物です」
+$k
+
+優
+「別にダメだなんて言ってないから。
+　でも作れんなら無理にタルトにせんでも………あ」
+$k
+
+&empty
+そうか…桜子の好物。
+$k
+
+// MII_0403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030490
+みい
+「姉上は洋菓子がお好きですから」
+$k
+
+// CHISEKA_0401KB
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040052
+知世翔
+「とは言え、生クリーム分は
+　めぐみ先輩のとこで補充できるし」
+$k
+
+優
+「…一応考えてんだな」
+$k
+
+// CHISEKA_0401NO2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040053
+知世翔
+「考えてるってのは、ちょっと違うかな」
+$k
+
+優
+「と言うと？」
+$k
+
+// CHISEKA_0401EG
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG.png,(x),r,(s),60%
+#ig
+
+#ir,(ef),off
+#ip,op3,(fi),image\icon\kyakya.png,(x),700,(y),40
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),no_limit
+#ip,op3,(x+),10,(y+),10
+#ig
+
+#sp,vo,05040054
+知世翔
+「だって、どうせなら
+　喜んでもらいたいじゃないですか」
+$k
+
+#ir,(ef),off
+#ie,op3
+#ig
+
+// CHISEKA_0401EG3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040055
+知世翔
+「先輩に頑張ってほしいから、
+　わからない、出来ないじゃなくて、
+　先輩が喜んでくれることをやってるだけです」
+$k
+
+// CHISEKA_0401TR6
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR6.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040056
+知世翔
+「あ、でも嫌々じゃないですよ。
+　先輩の好きなものは私も好きになってますし」
+$k
+
+優
+「………」
+$k
+
+&empty
+なんつ～か…
+$k
+
+&empty
+素直ないい奴だな、こいつは。
+$k
+
+// MII_0403KD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),l,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),320,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030491
+みい
+「…はっ！？」
+$k
+
+優
+「ん、どした？」
+$k
+
+// CHISEKA_0401AS
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040057
+知世翔
+「いや、ってか、なに恥ずかしいこと言わせて…」
+$k
+
+//	SetIconExcl( LEFT );
+// 	BGMStop();
+
+#ss,bgm
+
+// MII_0402MJ
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030492
+みい
+「わかります！」
+$k
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\bikkuri.png,(x),720,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+// CHISEKA_0401AS
+#sp,vo,05040058
+知世翔
+「えぇっ！？」
+$k
+
+優
+「食いつくような勢いで同意したな…」
+$k
+
+//	SetIconExcl( LEFT );
+// MII_0402IK
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030493
+みい
+「わかる…わかります、わかりますとも知世翔さん！
+　喜んでもらいたいんですよね」
+$k
+
+//	SetIconAse( RIGHT );
+#sp,bgm,BGM_MII
+
+// CHISEKA_0401OD3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040059
+知世翔
+「う、うん、そうだけど…」
+$k
+
+優
+「つか、なんでみいちゃんにわかるんだ」
+$k
+
+//	SetIconChinmoku( LEFT );
+// MII_0401KB
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030494
+みい
+「どーせお兄様には理解できないでしょうけどね」
+$k
+
+優
+「なにその含みのありそうな言い方」
+$k
+
+// CHISEKA_0401KM3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040060
+知世翔
+「私にも何が何だかわからないんだけど…」
+$k
+
+優
+「…やっぱみいちゃんが一番意味不明じゃない？」
+$k
+
+// MII_0401GM
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01GM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030495
+みい
+「そんなこと言ってお兄様、
+　実は姉上が羨ましいのではありませんか」
+$k
+
+優
+「え？　突然何を言い出すんだよ」
+$k
+
+// MII_0401KB
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030496
+みい
+「差し入れをくれるくらい
+　慕ってくれる後輩なんていないでしょう？」
+$k
+
+優
+「…べ、別にそんな…全然？
+　俺、そういう馴れ合い好きじゃないし」
+$k
+
+#ss,bgm
+
+// CHISEKA_0401IK2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040061
+知世翔
+「みい、冷蔵庫の矢崎先輩の分のタルトは適当に…」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),S_Za01
+
+優
+「いただきます！！！」
+#mlarge
+$k
+
+// 	Zoom( 10, 130, 130, 400, 300 );
+// 	RadialLine( 10, 50, 400, 300, 200, 500, 15, 100, 50, 255, 255, 255 );
+
+
+// 	RadialLine( 0 );
+// 	SV( BG_TD_IMA01C );
+
+// 	SS_( LEFT, MII_A401KB );
+
+#sp,bgm,BGM_MII
+
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KB.png,(x),l,(s),80%
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB2.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, CHISEKA_A401KB2 );
+
+// CHISEKA_A401KB2
+#sp,vo,05040062
+知世翔
+「馴れ合いは好きじゃないんでしょ」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c2,(fi),image\sysc\sysc_shuuchuu.png,(x),c
+#ig,(se),S_Fanfare01
+
+// 	RadialLine( 0, 50, 400, 300, 200, 500, 15, 100, 50, 255, 255, 255 );
+
+優
+「この世は人と人のつながりで
+　成り立ってるというのが持論です！」
+$k
+
+// 	RadialLine( 0 );
+
+// MII_A403AK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AK.png,(x),l,(s),80%
+#ie,c2
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),100,(y),250,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,05030497
+みい
+「みごとに翻しましたね。
+　…素直になるのは美徳かとは思いますが」
+$k
+
+&empty
+呆れられようと俺は構わない。
+$k
+
+// CHISEKA_A401KB
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05040063
+知世翔
+「一応言っときますけど、あなたのためじゃなく、
+　皆さんの分を作ってきたついでですからね、ついで」
+$k
+
+優
+「なんでもいいよ。
+　つか、それさっそく食っていいか？」
+$k
+
+// CHISEKA_A401EG3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05040064
+知世翔
+「どうぞ、おみかんです」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Pikon02
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+// 	WaitSE();
+
+優
+「てやぁ―――！」
+#mlarge
+$k
+
+// 	Shake( SLOW, SHAKE_RANDOM|SHAKE_SCREEN, 10, 5 );
+
+// CHISEKA_A401AS
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AS.png,(x),r,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\bikkuri.png,(x),740,(y),40
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,05040065
+知世翔
+「投げないでよ！？」
+$k
+
+優
+「今はみかんよりもタルトだタルト！」
+$k
+
+&empty
+みかん農家さん、ごめんなさい。
+だがしかしっ！
+$k
+
+// MII_A403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05030498
+みい
+「ものすごくテンション上がってますね…」
+$k
+
+優
+「俺もまさか自分がこんな風になるとは思わなかった」
+$k
+
+// 	SS_( RIGHT, CHISEKA_0401AK );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK.png,(x),r,(s),60%
+#ip,c1,(x),l,(s),60%
+#ig
+
+// 	SS( LEFT, MII_0403KM );
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\tameiki.png,(x),500,(y),230,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op3,(x+),-30,(y+),30,(al),100%
+#ia,op3,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+// CHISEKA_0401AK
+#sp,vo,05040066
+知世翔
+「……はぁ」
+$k
+
+// MII_0403KM3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030499
+みい
+「知世翔さん」
+$k
+
+// CHISEKA_0401OD3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),r,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\hirameki.png,(x),700,(y),50
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,05040067
+知世翔
+「え？　あ…な、なに？」
+$k
+
+// MII_0403AD3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030500
+みい
+「見ての通り、
+　お兄様もはしたないくらい欲されていることですし、
+　タルト、出してさしあげてもよろしいでしょうか？」
+$k
+
+// CHISEKA_0401KM3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040068
+知世翔
+「…まあこれだけ喜んでくれたら悪い気はしないしね。
+　ただ、過度の期待はしないでよ」
+$k
+
+優
+「しないしない。
+　もう気持ちだけで十分だって」
+$k
+
+// MII_0403SN
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030501
+みい
+「その気持ちはおこぼれですけど」
+$k
+
+// CHISEKA_0401KB2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040069
+知世翔
+「えてして気持ちだけで十分なんて
+　裏切られる前フリみたいなもんだしね」
+$k
+
+優
+「…食べさせてくれる気があるのかないのか」
+$k
+
+// CHISEKA_0401TR3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040070
+知世翔
+「あ、ごめんなさい。
+　なんか喜び過ぎだったから若干引いちゃって」
+$k
+
+// MII_0403AD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030502
+みい
+「よっぽどこういうのに
+　縁がなかったんでしょうね…
+$nw,3940
+
+#ir,(dr),500
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),T_ti-n01
+
+#ir,(dr),1000
+#ie,ov
+#ig
+
+　合掌」
+$k
+
+// 	Flash( 50, 100 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「そういう風に見るなよ！」
+$k
+
+// 	Flash( 30, 0 );
+
+// 	SK2( SLOW, 7, 10 );
+
+&empty
+俺はただ、感謝の気持ちを
+力いっぱい表現しただけなのに。
+$k
+
+// MII_0402NO
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030503
+みい
+「それでは、少々お待ちくださいね」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+優
+「ありがとうございます」
+$k
+
+&empty
+みいちゃんが台所へと向かってくれた。
+$k
+
+#ss,bgm
+
+// 	CS( RIGHT, CENTER );
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c
+#ig
+
+// CHISEKA_0401NR
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040071
+知世翔
+「……………」
+$k
+
+#next,05mii09_02

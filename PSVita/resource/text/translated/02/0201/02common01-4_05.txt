@@ -1,0 +1,1022 @@
+﻿// 既読フラグ
+#read_flag,57
+
+優
+「ううわぁ…聞きたくねえ」
+$k
+
+// SAKURAKO_A303FK
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03FK.png,(x),r0,(s),80%
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NK.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000267
+桜子
+「お姉さあ、そういう事いちいち言わないでくれる？」
+$k
+
+// KANAME_0301IK
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01IK.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02020044
+要
+「あたし一人だけこんなキモいの見たくないもん」
+$k
+
+// SAKURAKO_A303KT
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KT.png,(x),r0,(s),80%
+#ig
+
+#sp,vo,02000268
+桜子
+「あとみいもさ、いいかげん離れなよ」
+$k
+
+// 	ShakeStand( RIGHT, NORMAL, SHAKE_LEFT, 20, NORMAL * 2 );
+
+
+// MII_A303IK2
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03IK2.png,(x),r2,(s),80%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(x+),-10
+#ig
+
+#sp,vo,02030158
+みい
+「………」
+$k
+
+&empty
+みいちゃんが桜子の背中に張り付いて離れない。
+宮津橋が桜子に肩を貸しつつ帰ってきたのを見てから
+ずっとこのままだ。
+$k
+
+&empty
+そしてそこへ都合よく帰ってきた要さんが、
+桜子の足の怪我の応急処置をしている所。
+$k
+
+// KANAME_0302SI
+#ir
+#ip,c3,(fi),KANAME_A302.png,(psi),KANAME_An02SI.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02020045
+要
+「もうやめてね？　こんな事になるの。
+　心臓に悪いからね」
+$k
+
+&empty
+割れ物の散乱した部屋を律儀にも靴を脱いで
+上がっていた桜子は、足を破片で切って
+血だらけになっていた。
+$k
+
+// SAKURAKO_A303KM
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),r0,(s),80%
+#ig
+
+#sp,vo,02000269
+桜子
+「ごめん、でも大した事じゃないじゃない」
+$k
+
+// KANAME_0301IK
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01IK.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02020046
+要
+「もー大した事よ！
+　何かあってからじゃ駄目なんだよ？」
+$k
+
+// MII_A303NK3
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NK3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030159
+みい
+「…まったくです…もうやめてくださいね」
+$k
+
+// SAKURAKO_A303AK
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03AK.png,(x),r0,(s),80%
+#ig
+
+#sp,vo,02000270
+桜子
+「ごめんって。
+$nw,1600
+
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),r0,(s),80%
+#ig
+
+　もうしないよ？」
+
+$k
+
+// MII_A303IK5
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03IK5.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030160
+みい
+「お兄様も、勇樹さんもですよ？」
+$k
+
+優
+「はい、すみませんでした…」
+$k
+
+// ISAKI_0301NO
+#ir
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02010080
+勇樹
+「………」
+$k
+
+&empty
+俺はというと、腰を抜かしたまま転がっていたので
+桜子を運んだ宮津橋が戻ってきて、今度は俺をおぶって
+轟木家へ運んで貰った。
+$k
+
+&empty
+その間二人とも終始無言で。
+俺は腰抜かすのなんか初めてで、
+もう雲隠れしてしまいたい気分だったし。
+$k
+
+&empty
+宮津橋は……まあ、いつもの事だけど。
+$k
+
+// MII_A303KM5
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03KM5.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030161
+みい
+「あんなのはなる様にしかならないんですから、
+　無理に入って行こうと…しないでください」
+$k
+
+// KANAME_0301IK2
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01IK2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02020047
+要
+「そうよ、今日は怪我程度で済んだけど、
+　一つ間違ってたら死んでたかもしれないんだからー」
+$k
+
+&empty
+刺されたと思ったのは勘違いで、
+クッションの中に仕込まれた雑誌に包丁が
+突き刺さっただけだった。
+$k
+
+&empty
+いや、そこで止まってて本当に良かったと思っている。
+$k
+
+&empty
+案外桜子はそれに気付いてたから
+安心して逆上したんじゃないだろうか。
+$k
+
+&empty
+普通刺されたら真っ先に救急車だと思うし。
+$k
+
+// KANAME_0301IK
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01IK.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02020048
+要
+「夫婦喧嘩は本当、怖いんだから。
+$nw,3500
+
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01MJ2.png,(x),l2,(s),80%
+#ig
+
+　優君なら分かるよね？」
+$k
+
+優
+「はい…」
+$k
+
+&empty
+もう昔の話だが俺んちの親が喧嘩になった時に、
+止めに入った雪華ちゃんが少し腕を切った。
+$k
+
+&empty
+うちの実の親父がやった訳だが。
+かなり酔っ払っていた…。
+$k
+
+&empty
+その時はいち早く駆けつけた近所の世話焼き婆さんが、
+親父をバットでぼこぼこにしてなんとか収まったが、
+結局その後、夫婦は離婚。
+$k
+
+&empty
+で、こうして母子家庭をやっている、という訳だ。
+今は轟木家の世話になっているが。
+$k
+
+// SAKURAKO_A303AK
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03AK.png,(x),r0,(s),80%
+#ig
+
+#sp,vo,02000271
+桜子
+「だから来んなって言ったのに」
+#msmall
+$k
+
+優
+「人の事言えねえだろ…」
+#msmall
+$k
+
+// YUKIHA_0301NO
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NO.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02050017
+雪華
+「あの子もう寝ちゃったよー。
+$nw,2300
+
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01KD.png,(x),l2,(s),80%
+#ig
+
+　…ってあれ、お婆ちゃんは？」
+$k
+
+// SAKURAKO_A303FK
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03FK.png,(x),r0,(s),80%
+#ig
+
+#sp,vo,02000272
+桜子
+「あー、今日はお婆ちゃん、夜通し夫婦に説教でしょ。
+　気にしなくていいよ」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SS( RIGHT, SAKURAKO_A303NO3 );
+
+// 	SS( LEFT, KANAME_0301MJ2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03B.jpg,(s),100%
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),80%
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01MJ2.png,(x),l2,(s),60%
+#ig
+
+#show
+
+// KANAME_0301MJ2
+#sp,vo,02020049
+要
+「タクシー呼んどいたから、
+　ちゃんと先生の所行くのよ？」
+$k
+
+// SAKURAKO_A303AK
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000273
+桜子
+「どうせあのガマ医者なんでしょ？
+$nw,2600
+
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03FK2.png,(x),r,(s),80%
+#ig
+
+　あの先生大袈裟だから嫌なんだけどー」
+$k
+
+// KANAME_0301IK
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01IK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02020050
+要
+「いいから、ちゃんと診て貰うのよ！
+$nw,3500
+
+#ir
+#ip,c3,(fi),KANAME_A302.png,(psi),KANAME_An02EG2.png,(x),l2,(s),60%
+#ig
+
+　じゃあみいちゃん、約束どーり私の晩御飯を…」
+$k
+
+優
+「あ、俺のも」
+$k
+
+// MII_A303NO
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),r,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,02030162
+みい
+「…そうですね、今用意しますから。
+$nw,3400
+
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO2.png,(x),r,(s),60%
+#ig
+
+　姉上が医者から戻り次第」
+$k
+
+// KANAME_0301OD5
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01OD5.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02020051
+要
+「ええっ？」
+$k
+
+// MII_A303MJ
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03MJ.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030163
+みい
+「いえ、お姉様はまだ
+　姉上の付き添いとかありますし…」
+$k
+
+// KANAME_0301KU3
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01KU3.png,(x),l2,(s),60%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c3,(y+),100,(al),0
+#ig
+
+#sp,vo,02020052
+要
+「うう…」
+$k
+
+#ir
+#ip,c1,(fi),ISAKI_A302.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ig
+
+// ISAKI_0302NO
+#sp,vo,02010081
+勇樹
+「では私はもう戻るから」
+$k
+
+// SAKURAKO_A303NO
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000274
+桜子
+「あ、ところでさぁ？」
+$k
+
+// MII_A303NO
+
+#sp,vo,02030164
+みい
+「姉上の分もきちんと残しておきますから」
+$k
+
+// SAKURAKO_A303AK
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000275
+桜子
+「そうじゃなくて、
+$nw,2200
+
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),80%
+#ig
+
+　…宮津橋勇樹ちゃんね…」
+$k
+
+// ISAKI_0301NO
+#ir
+#ip,c1,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010082
+勇樹
+「………」
+$k
+
+// SAKURAKO_A303KT
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000276
+桜子
+「あんたさっきさぁ、
+　あたしの事チーちゃんて呼んだよね？」
+$k
+
+優
+「あ、そういえば…」
+$k
+
+// SAKURAKO_A303KM
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000277
+桜子
+「もしかして旧姓、中井サキちゃん、だよね？
+$nw,5800
+
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO2.png,(x),r,(s),80%
+#ig
+
+　サキちゃん以外はあたしの事
+　『チーちゃん』なんて呼ぶ人、一人も居ないもの」
+$k
+
+#sp,vo,02020053
+要
+「あ…」
+$k
+
+優
+「ああ、たしかにそんな呼び方してたっけ、あいつ。
+$nw,1000
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+　ええっ、じゃあホントに宮津橋が？」
+
+$k
+
+&empty
+あの頃は聞いても教えてくれなかったが、
+サキちゃんだけ、桜子の事をいつも
+チーちゃんチーちゃんと呼んでいた。
+$k
+
+// ISAKI_0301KB
+#ir
+#ip,c1,(fi),ISAKI_A301.png,(psi),ISAKI_An01KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010083
+勇樹
+「人違いだ」
+$k
+
+優
+「言い切った！」
+$k
+
+// SAKURAKO_A303KM
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000278
+桜子
+「人違いな訳ないでしょ。なんで隠すのよ。
+$nw,4800
+
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),80%
+#ig
+
+　そりゃこっちは気付かなかったけど、
+　名前も苗字も変わってるし、背も…」
+$k
+
+&empty
+桜子と俺とで、サキちゃんが引っ越すまでは
+三人でよく遊んでいたけど…。
+$k
+
+&empty
+そうなんだ、気付ける方が無理だろう。
+サキちゃんは背も低くて大人しそうな感じだけど、
+けっこう垢抜けた性格で、明るい可愛い印象で…。
+$k
+
+&empty
+たかが数年でこんなにも色々変わるなんて
+思いもしなかった。
+$k
+
+優
+「……俺はどんだけ鈍いんだ」
+$k
+
+&empty
+以前の学園からずっと気付かないとかね、もう。
+$k
+
+// ISAKI_A301NO
+#ir
+#ip,c1,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l2,(al),0%
+#ig
+
+#sp,vo,02010084
+勇樹
+「じゃあな…」
+$k
+
+// SAKURAKO_A303KT
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000279
+桜子
+「待ってよ、ちょっとっ。
+$nw,2300
+
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,c2,(y+),20
+#ig
+
+　優ーおんぶよおんぶ！　追いかけないと！
+//$nw,5800
+$nw,3000
+
+#ils
+
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),80%
+#ig
+
+　ほら早く！」
+
+$k
+
+// 	Shake( 0, SHAKE_DOWN|SHAKE_SCREEN, 5, 20 );
+// 	SetActionPyonpyon1( RIGHT );
+
+// 	DelAction( RIGHT );
+// 	Shake( 20, SHAKE_RANDOM, 20, 40 );
+// 	SetActionPyon( RIGHT );
+
+// 	DelAction( RIGHT );
+
+優
+「おいおい、無理すんなよ」
+$k
+
+&empty
+足を庇いつつじたばた俺を揺する。
+$k
+
+// KANAME_0301MJ2
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01MJ2.png,(x),l,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,02020054
+要
+「待って勇樹ちゃん。
+$nw,1700
+
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01NO2.png,(x),l,(s),60%
+#ig
+
+　もういいんじゃない？」
+$k
+
+#sp,vo,02010085
+勇樹
+「………」
+$k
+
+&empty
+要さんの声に足を止める宮津橋。
+$k
+
+// KANAME_0301NO
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02020055
+要
+「お家の事情は知らないけど、昔友達だった事まで
+　なかった事にする必要はないでしょ？」
+$k
+
+#sp,vo,02010086
+勇樹
+「………」
+$k
+
+// SAKURAKO_A303IK3
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000280
+桜子
+「そうだよせっかく…」
+$k
+
+#ir
+#ip,c1,(fi),ISAKI_A302.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ie,c3
+#ig
+
+// ISAKI_0301NO
+#sp,vo,02010087
+勇樹
+「……中井、勇樹」
+$k
+
+優
+「え？」
+$k
+
+// SAKURAKO_A303KT
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000281
+桜子
+「なに？」
+$k
+
+// ISAKI_0302NO
+
+#sp,vo,02010088
+勇樹
+「旧姓だ、名前は前から勇樹のままだぞ。
+　じゃあな」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l2,(al),0%
+#ig
+
+// SAKURAKO_A303NO
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000282
+桜子
+「っ！？」
+$k
+
+優
+「あ、宮津橋」
+$k
+
+&empty
+今度こそ宮津橋は去って行く。
+$k
+
+&empty
+桜子を止めてくれたり、運んでくれたり。
+なんだかんだでここまで
+付き合ってくれるんだよな、あいつは。
+$k
+
+&empty
+だから余計ほっとけないと思っていたのに、
+俺と来たら。
+$k
+
+// 	MoveStand( RIGHT, NORMAL, -50, 150 );
+// 	SS_( RIGHT, SAKURAKO_A303NK2 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NK2.png,(x),r,(s),80%
+#ig
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c2,(y+),100,(x),r0,(al),0
+#ig
+
+// SAKURAKO_A303NK2
+#sp,vo,02000283
+桜子
+「～～～～～～～っ！」
+$k
+
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01OD3.png,(x),l2,(s),60%,(al),0%
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03KD.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r,(al),100%
+#ig
+
+// 	SS_( RIGHT, MII_0303KD, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// KANAME_0301OD3
+#sp,vo,02020056
+要
+「ど、どうしたの桜子ちゃん！」
+$k
+
+&empty
+急に顔を押さえて、床に伏せる桜子。
+$k
+
+優
+「なんだ、足、痛むのか？」
+$k
+
+#sp,vo,02000284
+桜子
+「ちがうぅ～～～～…」
+$k
+
+// KANAME_0301KM2
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01KM2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02020057
+要
+「大丈夫？　もうすぐタクシー来るから…」
+$k
+
+// MII_0303AD3
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03AD3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030165
+みい
+「分かりました。
+　痛いの意味が違うんでしょうね。
+$nw,4800
+
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03KM3.png,(x),r,(s),60%
+#ig
+
+　…たぶんアレですね、姉上？」
+$k
+
+優
+「なに？　どういうこと？」
+$k
+
+#sp,vo,02000285
+桜子
+「いうなあぁー」
+$k
+
+// KANAME_0301KT
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02020058
+要
+「え？　え？」
+$k
+
+// MII_0303NO2
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030166
+みい
+「姉上は勇樹さんの事を昔から、
+　『なかい・いさき』ではなく『なかい・さき』だと
+　ずっと思い込んでいた事に…」
+$k
+
+// KANAME_0301NO5
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01NO5.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02020059
+要
+「ああ」
+$k
+
+// MII_0303NO2
+#sp,vo,02030167
+みい
+「今更ながら気付いて、恥ずかしいのだと
+　思われます。
+$nw,5200
+
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG.png,(x),r,(s),60%
+#ig
+
+　…薄情なお兄様の方はどうなんでしょうねえ？」
+$k
+
+// 	Shake( FAST, SHAKE_RANDOM, 4 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「う゛っ…」
+$k
+
+&empty
+俺は思わずみんなから目を逸らしていた。
+$k
+
+#sp,vo,02000286
+桜子
+「～～～～～っ」
+$k
+
+// 	SV( BG_SKY03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+&empty
+そしてまた、色々な事がうやむやなうちに
+一日が終わる。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#hide
+
+//	WT( 150 );
+// 	SV( BG_HS_MAE02C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE02C.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+二日後。
+また事件が起こっていた。
+$k
+
+// KANAME_0903GN3
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03GN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020060
+要
+「なぜこんな事に…」
+$k
+
+// 	SV( BG_HS_TENNAI02A );
+
+#sp,bgm,BGM_COMICAL1
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI02A.jpg,(s),100%
+#ig
+
+&empty
+桜子が足に怪我をして左足をギプスで固めて
+戻ってきた翌日の事。
+$k
+
+&empty
+朝から何やら騒がしくて起きてみると、
+桜子とサキ…いや、宮津橋が揉めていた。
+$k
+
+&empty
+というか桜子が一方的に食いついていただけだが。
+$k
+
+&empty
+聞いてみると、
+どうやら宮津橋はバイトを申し込んでいた
+めぐみの店に住み込みで働く為に引越しの最中。
+$k
+
+&empty
+そこにやってきた桜子が、まだ思い出話の一つも
+して無いのにいきなり居なくなるとはどういう事か！
+なんていうやり取りをしていて。
+$k
+
+// 	SS_( CENTER, MII_0302MJ2, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),MII_A302.png,(psi),MII_An02MJ2.png,(x),c,(s),60%
+#ig
+
+// MII_0302MJ2
+#sp,vo,02030168
+みい
+「ではもう一度確認しますね」
+$k
+
+
+#next,02common01-4_06

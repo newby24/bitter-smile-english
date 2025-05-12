@@ -1,0 +1,530 @@
+﻿// 既読フラグ
+#read_flag,238
+
+#show
+
+優
+「なんなんだよ、いったいっ。
+　俺、勇樹の事を待ってないとだめなんだけど」
+$k
+
+// CHISEKA_0201IK
+
+#sp,vo,04040007
+知世翔
+「その宮津橋さんが大変なんです！」
+$k
+
+優
+「なんだって！？」
+$k
+
+// CHISEKA_0201KN
+
+#sp,vo,04040008
+知世翔
+「先輩と…桜子先輩と宮津橋さんが河原で喧嘩してて！
+　２人とも全然手加減なしで……！！」
+$k
+
+優
+「なにいいいいっっ！？」
+$k
+
+#hide
+
+#ils
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	RadialLine( 0, 20, 400, 300, 200, 500, 10, 100, 50,255, 255, 255 );
+// 	BlurZoom( 50|SPEED_UP, 10, 10 );
+// 	WaitZoom();
+// 	RadialLine( 50, 0, 400, 300, 200, 500, 10, 100, 50,255, 255, 255 );
+// 	BlurZoom( 0, 0, 0 );
+// 	Shake( 1, SHAKE_UP|SHAKE_SCREEN, 6, 20 );
+
+#sp,bgm,BGM_SYOSO
+
+// 	SV( BG_MT_KAWARA02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KAWARA02A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK3.png,(x),l,(s),60%
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),r,(s),60%
+#ig
+
+#show
+
+// ISAKI_0201IK3
+
+#sp,vo,04010684
+勇樹
+「お前に何がわかるっ！！」
+#mlarge
+$k
+
+//	Zoom( 10|SPEED_UP, 140, 140, 0, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+// SAKURAKO_0203IK2
+
+#sp,vo,04000183
+桜子
+「わかるわけないでしょっ！」
+#mlarge
+$k
+
+//	Zoom( 10|SPEED_UP, 140, 140, 800, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+#hide
+
+// 	SV( BG_MT_KAWARA02A );
+// 	ZoomCrossFade( NORMAL, 130, 130, 400, 300, 130, 130,400, 300 );
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch05
+
+#ir,(dr),500
+#ie,c1,c3,ov
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),T_battle01
+
+#wait,300
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#wait,300
+
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+
+
+#show
+
+&empty
+俺がそこについた時には、
+すでに惨憺たる有様だった。
+#mfuri,　　　　　　さんたん
+
+$k
+
+&empty
+桜子も、勇樹も傷だらけで、それでもお互いに
+拳を引こうとはしない。
+$k
+
+優
+「二人ともやめてくれっ！！
+　何があったんだよ！」
+$k
+
+// SAKURAKO_0203IK2
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000184
+桜子
+「あんたは黙ってて！」
+$k
+
+// 	SK2( NORMAL, 7 );
+// 	SS( CENTER, SAKURAKO_0203IK3 );
+
+// 	SS( LEFTOUT, ISAKI_0201IK3 );
+// 	CS( CENTER, RIGHTOUT, FAST );
+// 	CS( LEFTOUT, CENTER, FAST );
+
+// ISAKI_0201IK3
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK3.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),c,(al),100%
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#sp,vo,04010685
+勇樹
+「元はと言えば、
+$nw,1090
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,c3,(fi),ISAKI_A202.png,(psi),ISAKI_An02IK.png,(x),c,(s),60%
+#ig
+
+#madd,お前が悪いんだ！！」
+
+$k
+
+// 	SS( CENTER, ISAKI_0202IK, FAST );
+// 	SK2( NORMAL, 7 );
+
+// SAKURAKO_0203IK2
+#sp,vo,04000185
+桜子
+「まだそんな事を！！」
+$k
+
+// 	SS( RIGHTOUT, SAKURAKO_0203IK2 );
+// 	CS_( CENTER, LEFTOUT, FAST );
+// 	CS( RIGHTOUT, RIGHT, NORMAL );
+// 	SK2( NORMAL, 7 );
+
+// 	SS( LEFT, ISAKI_0201IK3, MOVE_LEFT, NORMAL );
+
+#hide
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch05
+
+#ir,(dr),500
+#ie,c3,ov
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),T_battle01
+
+#wait,300
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#wait,300
+
+// 	SV( BG_MT_KAWARA02A );
+// 	ZoomCrossFade( NORMAL, 130, 130, 400, 300, 130, 130,400, 300 );
+
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+
+#show
+
+&empty
+止めないと。
+$k
+
+&empty
+そう思うものの、あまりの剣幕に押されて、
+足がすくんで動かない。
+$k
+
+&empty
+というか、割って入ったら、今度こそ
+本当に死ぬかもしれない。
+$k
+
+// SAKURAKO_0203IK2
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#sp,vo,04000186
+桜子
+「認めればいいじゃない、自分が弱いって！！」
+$k
+
+//	Zoom( 10|SPEED_UP, 140, 140, 800, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+// ISAKI_0201IK3
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK3.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l,(al),100%
+#ig
+
+#sp,vo,04010686
+勇樹
+「だまれ！　私は弱くないっ！！」
+$k
+
+//	Zoom( 10|SPEED_UP, 140, 140, 0, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+// 	SV( BG_MT_KAWARA02A );
+
+// 	ZoomCrossFade( NORMAL, 130, 130, 400, 300, 130, 130,400, 300 );
+
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+だめだ。これ以上、２人を傷つけあわせたくない。
+$k
+
+&empty
+怖いなんて言ってる場合じゃない！
+$k
+
+&empty
+桜子が肘を深く後ろに引いて、打撃の構えを取る。
+$k
+
+&empty
+勇樹が腕を大きく振りかぶって、
+殴りかかろうとする。
+$k
+
+#ir,(dr),500,(ef),move
+#ip,bg,(s),140%,(x+),-20%,(y+),-20%
+#ig
+
+&empty
+俺は、その間に飛び込んだ！
+$k
+
+// 	BlurZoom( 50, 10, 10 );
+
+// 	SV( BG_MT_KAWARA02A, FILTER_NEGATIVE );
+
+#ss,bgm,(dr),0
+
+//	ShowFace();
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(fi),BG_MT_KAWARA02A_h.jpg,(s),100%
+#ig,(se),S_Punch04
+
+// 	BGMStop();
+// 	SK2( SLOWER, 10, 3 );
+// 	Blur( 0, 40 );
+// 	Fade( 20, 60 );
+
+優
+「ぐっ、はっ…………」
+$k
+
+&empty
+息を一瞬で全部吐き出させられる程の重い一撃が
+みぞおちに突き刺さった。
+$k
+
+&empty
+痛みで、意識が遠のきそうになる中、
+必死で勇樹の手を取る。
+$k
+
+// 	SetStandEx( CENTER, ISAKI_A202KM );
+// 	FadeStand( CENTER, 50, FADE_ALPHA, 100 );
+
+// ISAKI_A202KM
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KM.png,(x),c,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(al),50%
+#ig
+
+#sp,vo,04010687
+勇樹
+「あ…………」
+$k
+
+#hide
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ie,c1
+#ig,(se),S_Punch04
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	SK2( 0, 20, 3 );
+
+#show
+
+&empty
+さらに背中から、バラバラになりそうな衝撃が
+全身に走った。
+$k
+
+// 	Fade( 100, 0 );
+// 	SK2( 1, 20, 3 );
+
+#sp,se,S_Dotadotan01
+
+&empty
+勇樹と、後ろからぶつかってきた桜子ごと
+もんどりうって転げる。
+$k
+
+&empty
+そこで、俺の意識は途切れた。
+$k
+
+#hide
+
+#wait,2000
+
+// 	SV( BG_SJ_YU03E );
+
+//	SLP( 0, "S_Mushi01#" );
+#sp,bgm,BGM_SHIZUKA
+
+// 	Fade( 100, 100 );
+// 	Blur( 0, 0 );
+
+// 	RFI( RULE_EYE, SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_SJ_YU03E.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+目が覚めるとよく見知った天井だった。
+自分の部屋だ。
+$k
+
+優
+「あれ、俺……」
+$k
+
+// SAKURAKO_0402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000187
+桜子
+「気がついた？」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ie,c1
+#ig,(se),S_Basa01
+
+// 	SK2( SLOW, 6, 6 );
+
+優
+「桜子…おまっ！」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Hone01
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+&empty
+体を起こそうとすると、全身に激痛が走った。
+思わず、布団の上でくの字になってしまう。
+$k
+
+// 	Shake( 0, SHAKE_LEFT|SHAKE_WINDOW, 2, 8 );
+
+優
+「～～～～～～～～～っ！」
+$k
+
+// 	Shake( 1, SHAKE_LEFT|SHAKE_WINDOW, 2, 8 );
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000188
+桜子
+「無理するんじゃないわよ、馬鹿」
+$k
+
+優
+「って、俺、どうなったんだ……？」
+$k
+
+&empty
+見れば、桜子も包帯だらけだ。
+ところどころ、擦り傷も見える。
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000189
+桜子
+「あたしと勇樹に挟まれて気絶。
+　まったく情けないわね」
+$k
+
+優
+「なんだよ、元はと言えばお前らが……」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+俺が文句を言おうと口を開くと、桜子が
+ぐっと唇を噛みしめて俯いた。
+$k
+
+&empty
+不機嫌そうに眉間に皺を寄せ、その拳は
+畳の上で固く握りしめられて震えている。
+$k
+
+
+#next,04isaki15_04

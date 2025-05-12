@@ -1,0 +1,710 @@
+﻿// 既読フラグ
+#read_flag,86
+
+// セーブタイトル
+#flag,save_title,Ａｃｔ３－１,0,0
+
+// ロゴムービー。ただしスキップは止めない。
+#movie,logo.mp4
+
+#wait,1000
+
+// 	SV( BG_TD_GAIKAN01B );
+
+#sp,env,S_Bird01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN01B.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GENKANMAE01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKANMAE01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GENKANMAE01B );
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKANMAE01B.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GENKAN01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN01B.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+朝、顔を洗う水も冷たく寒くなってきた１２月。
+$k
+
+// 	Shake( NORMAL, SHAKE_LEFT, 5 );
+
+
+優
+「うー寒びー、今日は冷えるなー」
+$k
+
+&empty
+いつものように朝の仕度を済ませ、朝食を食いに
+轟木家に顔を出すと…。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01E );
+// 	SS( RIGHT, KINO_0401NO2 );
+// 	SS( LEFT, KANAME_0903NO );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01E.jpg,(s),100%
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NO.png,(x),l,(s),60%
+#ip,c3,(fi),KINO_A401BS2.png,(x),r,(s),60%
+#ig
+
+#show
+
+// KANAME_0903NO
+#sp,vo,02020124
+要
+「あ、優君おはよー！」
+$k
+
+// KINO_0401BS2
+
+#sp,vo,02060082
+紀乃
+「おはようさん」
+$k
+
+&empty
+婆さんが新聞に目をやりながらいつも通りに
+俺と挨拶を………じゃなくて。
+$k
+
+優
+「あ、おはようございます。
+　…あれ？　要さん、今日はなんで？」
+$k
+
+// 	SS_( CENTER, KANAME_A903NO, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+&empty
+要さんが居たから。
+$k
+
+&empty
+休みの日なんかは轟木家に泊まっていく事も
+度々あるみたいだけど、
+……昨日も今日もまだ平日だし。
+$k
+
+// KANAME_A903NS
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020125
+要
+「いやー、出勤途中になんかいい匂いがしたから？」
+$k
+
+優
+「朝飯をたかりに来たんですね？」
+$k
+
+&empty
+そんな事だろうと思ってたけど。
+コタツがあるのもポイント高いんじゃないかと思う。
+$k
+
+// KANAME_A903KM
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020126
+要
+「う……
+$nw,1000
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03GM.png,(x),c,(s),80%
+#ig
+
+　ほら、今月は何かと物いりだしねー？」
+$k
+
+優
+「ああそっかー、もう年末だもんなあ」
+$k
+
+&empty
+色々あるもんな、年末は。
+社会人は考えてるよりもっと大変なのかも知れないし。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+// 	SS_( CENTERRIGHT, SAKURAKO_0203AK, MOVE_RIGHT, NORMAL );
+
+#ir,(ef),off
+#ip,c2,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03AK.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r,(al),100%
+#ig
+
+// SAKURAKO_0203AK
+#sp,vo,02000516
+桜子
+「だからって、朝食代ケチるのに家に来るとか
+　やめてよねー」
+$k
+
+&empty
+台所から桜子が出てくる。
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+// 	SS( CENTER, SAKURAKO_A201TR4, MOVE_RIGHT, NORMAL );
+
+// 	MoveStand( CENTER, 20, 0, 10, 1 );
+// 	MoveStand( CENTER, 10, 0, 10, 1 );
+// 	MoveStand( CENTER, 20, 0,  0, 1 );
+
+// SAKURAKO_A201TR4
+#ir
+#ip,c2,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,se,S_Dish05
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+#sp,vo,02000517
+桜子
+「はい、ご飯あんたの分よ。さっさと食べてね」
+$k
+
+// 	MoveStand( CENTER );
+優
+「おう、さんきゅ」
+$k
+
+// 	BF( SLOW, 50 );
+
+
+&empty
+ご飯とかいいながら、今朝はパンとベーコンエッグだ。
+$k
+
+#ss,bgm
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c2,(x),r0,(al),0
+#ig
+
+&empty
+皿を出すとまた桜子は台所に引っ込んでいく。
+$k
+
+#sp,bgm,BGM_MII
+
+// 	SS_( CENTER, MII_A203EG, MOVE_RIGHT, NORMAL );
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// MII_A203EG
+#sp,vo,02030214
+みい
+「お兄様、温かい牛乳はいかがですか？」
+$k
+
+// 	MoveStand( CENTER, 20, 0, 10, 1 );
+// 	MoveStand( CENTER, 10, 0, 10, 1 );
+// 	MoveStand( CENTER, 20, 0,  0, 1 );
+
+#sp,se,Ma_Cop01
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+&empty
+コトンと湯気の立つマグカップを俺の前に置くみいちゃん。
+$k
+
+// 	MoveStand( CENTER );
+
+優
+「えーっと…それみいちゃんの分なんじゃ？」
+#meffect,flow,5
+$k
+
+&empty
+みいちゃん愛用の
+ウサギのプリントされたマグカップ。
+$k
+
+// MII_A202NO
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030215
+みい
+「私の分はまた作りますから。
+　どうせレンジで温めるだけですし」
+$k
+
+優
+「でも…」
+#meffect,flow,5
+$k
+
+&empty
+最近みいちゃんが優しい…。
+$k
+
+&empty
+いやもちろん、へんなネタさえ仕込まなければ、
+優しい良い子だとは思ってるけどね？
+$k
+
+// SAKURAKO_0203NO
+
+#sp,vo,02000518
+桜子
+「どうしたの、貰っとけば？」
+$k
+
+// MII_A203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030216
+みい
+「そうですよお兄様、毒見役とか、
+　そういうものではないですから安心してください。
+$nw,6000
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03TR3.png,(x),c,(s),80%
+#ig
+
+　今朝は冷えますし、水も冷たかったでしょう？」
+$k
+
+&empty
+これ、この気遣いだもの…。
+$k
+
+優
+「…ああ、それじゃあ貰っとくよ、ありがとう」
+$k
+
+#sp,se,S_Dash01o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+&empty
+１２月、この時期に変に人に優しい。
+色々と覚えのある光景だが………まさかね？
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"とたたたた" );
+//	SM( CHAR_ETC,			-1,					"",				"ぱたん" );
+//	SWP( "S_Door03o", 50, 75 );
+//	SM( CHAR_ETC,			-1,					"",				"とたたたた" );
+
+// 	SS_( CENTER, MII_A203EG, MOVE_RIGHT );
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#sp,se,S_Dash01i
+
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),c,(al),100
+#ig
+
+&empty
+台所に行って、また戻ってくるみいちゃん。
+$k
+
+// MII_A203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030217
+みい
+「はい、お兄様。大さじ一杯でいいですか？」
+$k
+
+優
+「あ、うん、ありがとう。気が利くねえ？」
+$k
+
+// MII_A202NO
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030218
+みい
+「いえ、お気になさらずどうぞー」
+$k
+
+// 	SS_( CENTER, MII_A203NO );
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+&empty
+そう言ってインスタントコーヒーをカップに入れ、
+丁寧に混ぜてくれるみいちゃん。
+$k
+
+// 	DelAction( CENTER );
+
+&empty
+俺がコーヒー党なのも知っているのだ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01E.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,02000519
+桜子
+「ほら、優。さっさと食器持ってきて。
+　まだ時間あるからって、だらだらしてないでよね」
+$k
+
+優
+「分かってるって、別にゆっくりしてるわけじゃ…」
+$k
+
+// 	SS_( CENTER, MII_A203EG, MOVE_RIGHT );
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+// MII_A203EG
+#sp,vo,02030219
+みい
+「まあまあ、お兄様は座って居てください。姉上も。
+$nw,4600
+
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),c,(s),80%
+#ig
+
+　後片付けは私が致しますので、二人とも時間まで
+　どうぞおくつろぎくださいな」
+$k
+
+優
+「え、そう？　悪いなあー」
+$k
+
+#sp,vo,02000520
+桜子
+「あ、うん、……みいがそう言うんなら」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r0,(al),0
+#ig
+
+// SAKURAKO_0203KT
+#ir,(ef),off
+#ip,c2,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KT.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r,(al),100%
+#ig
+
+&empty
+みいちゃんにほらほら、と押されて桜子が居間に
+追いやられてくる。
+$k
+
+優
+「？」
+$k
+
+&empty
+めずらしいな？
+$k
+
+&empty
+桜子はいつもなら、
+『ダメよみい、そんな男をあまやかしちゃ！』
+なんて言うのに…。
+$k
+
+// KANAME_A901MJ3
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01MJ3.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,02020127
+要
+（………うん？）
+$k
+
+// 	SS_( CENTER, KANAME_A901MJ3, MOVE_STOP, NORMAL );
+
+優
+「あれ、どうしたんですか、要さん？」
+$k
+
+// KANAME_A901NO2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020128
+要
+「えー？　……なんでもないよ？」
+$k
+
+&empty
+さっきから要さんは、
+黙って桜子達のやり取りを見ていた。
+$k
+
+&empty
+少し険しい目つきで。
+$k
+
+&empty
+これもめずらしい……か？
+朝だし、まだ眠いのかな？
+$k
+
+// KANAME_A901NO4
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020129
+要
+「あ、ほら優君、口元にケチャップ付いてるよ？」
+$k
+
+&empty
+言いつつ要さんはティッシュで俺の頬を拭ってくれる。
+桜子達とは違う大人の匂いがたまらない、…のだが。
+$k
+
+優
+「す、すいませんっ、要さん」
+$k
+
+// 	SS_( CENTER, KANAME_A901MJ );
+
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01MJ.png,(x),c,(s),80%
+#ig
+
+&empty
+しかしなぜか、その視線は別の所に向いている様だ。
+$k
+
+&empty
+やっぱりみいちゃんの事……気になるのかな？
+$k
+
+// KINO_A401KD2
+
+#sp,vo,02060083
+紀乃
+「………要、
+　今日は出勤遅なっても大丈夫なんかい？」
+$k
+
+// KANAME_A901KT2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01KT2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020130
+要
+「へ？　そんな訳………
+$nw,1800
+
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01OD4.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+　やばっ！　もう時間じゃない！？
+　わわ、大変っ、急がなきゃ！」
+
+$k
+
+// 	SetActionPyon( CENTER );
+// 	DelAction( CENTER );
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),500
+#ip,c1,(x),l0,(al),0
+#ig
+
+&empty
+慌てて出て行く要さん。
+こういうところはいつも通りだなあ。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SetSubTitle( 1 );		//章タイトル表示
+
+// Act3 開始アイキャッチ。
+
+#ir,(ef),off
+#ip,c1,(fi),image\stitle\stitle_act3_0.png,(x),0,(y),0,(al),0%
+#ip,c3,(fi),image\stitle\stitle_act3_1.png,(x),0,(y),0,(al),0%
+#ip,c2,(fi),image\stitle\stitle_act3_4.png,(x),40,(y),0,(al),0%
+#ip,ov,(fi),image\stitle\stitle_act3_comp.png,(x),0,(y),0,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,c3,(al),100%
+#ig
+
+#sp,se,Title_Jingle01
+
+#ir,(ef),move,(dr),3000
+#ip,c1,(al),100%
+#ip,c2,(x),0,(al),100%
+#ig
+
+#wait,500
+
+#ir,(dr),1000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// Act3 開始アイキャッチここまで。
+
+// エピソードタイトルの表示
+
+// 	SV( BG_MT_TSUGAKURO01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO01A.jpg,(s),100%
+#ig
+
+#note,Ａｃｔ３－１　それでも貫く
+$k
+#note,erase
+
+#show
+
+&empty
+厚意に甘える…。
+$k
+
+&empty
+というか、みいちゃんに後片付けを押し付けたまま、
+俺と桜子は先に学園に向かう事にした。
+$k
+
+&empty
+ちなみに今日の雪華ちゃんは日直がどうとかで
+早くに家を出たらしい。
+$k
+
+
+#next,02common03-1_01

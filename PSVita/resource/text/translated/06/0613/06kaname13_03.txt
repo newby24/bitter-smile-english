@@ -1,0 +1,142 @@
+﻿// 既読フラグ
+#read_flag,383
+
+// KANAME_A201IK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020658
+要
+「顔、土だらけ。
+　じゃりじゃりするのなんて嫌」
+$k
+
+優
+「川！　川がありますから！」
+$k
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,S_Dash06o
+
+// 	Zoom(SLOW|SPEED_DOWN, 130, 130);
+// 	Scroll(SLOW|SPEED_DOWN, -50, 0);
+
+&empty
+急いで川辺へ走る。
+$k
+
+&empty
+手を伸ばし、川で顔を洗って…
+$k
+
+// 	SS( CENTERRIGHT, KANAME_0201IK2, MOVE_RIGHT );
+// KANAME_0201IK2
+
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK2.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#sp,vo,06020659
+要
+「天誅―――！」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig,(se),S_Punch02
+
+#wait,500
+
+// 	Zoom(SLOW|SPEED_DOWN, 150, 150);
+// 	Scroll(SLOW|SPEED_DOWN, -100, 100);
+
+//	LI();
+
+#sp,se,S_Water13
+
+#sp,bgm,BGM_COMICAL2
+
+#ir,(sync),NO
+#ip,bg,(fi),white.jpg
+#ig
+
+優
+「がぼっ、がぼぼぼっ！？」
+#meffect,flow,5
+$k
+
+//#sp,se,S_Water14
+
+// 	RuleFlashOut(NORMAL, RULE_LIGHTLEFTUP|RULE_NEGATIVE|RULE_FLIP);
+// 	DelStandAll();
+// 	SV( VISUAL_WHITE );
+// 	FO_( SLOWER );
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+いつの間にか上ってきた初日の出に照らされる中…。
+$k
+
+&empty
+新年早々、男を殺しそうなカップルがいた。
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_kaname.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,06kaname14_00

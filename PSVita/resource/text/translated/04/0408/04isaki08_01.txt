@@ -1,0 +1,762 @@
+﻿// 既読フラグ
+#read_flag,206
+
+// 	SS( CENTER, MEGUMI_0901KS );
+
+#show
+
+優
+「ったく、轟木家のやつらは人使いが荒いよなぁ」
+$k
+
+// MEGUMI_0901KS
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070064
+めぐみ
+「大変だねぇ、優ちゃんも」
+$k
+
+&empty
+千寿を追い出された俺は、
+とりあえずハッピーシ～サ～で愚痴っていた。
+$k
+
+&empty
+冷えた体にホットココアが美味い。
+$k
+
+優
+「居候の身だからしょうがないけどなー」
+$k
+
+// MEGUMI_0901BS4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070065
+めぐみ
+「まあまあ、二人ともあんなだけど、
+　優ちゃんに感謝はしてると思うよ？
+　たぶん」
+$k
+
+優
+「どうかねぇ？
+　はぁ、じゃ、ちょっくら行ってくるわ。
+　ごちそーさん」
+$k
+
+// MEGUMI_0901OD
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070066
+めぐみ
+「あ、そうだ。
+　ちょっと待って、優ちゃん」
+$k
+
+優
+「あん？」
+$k
+
+//	MoveStand( CENTER, 50, 20, 0 );
+// MEGUMI_0901EG3
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070067
+めぐみ
+「勇樹ちゃーん、ちょっと来てーっ！」
+$k
+
+&empty
+宮津橋？
+それと俺が待つのと何の関係が？
+$k
+
+// 	CS_( CENTER, RIGHT );
+// 	SS( LEFT, ISAKI_0501MU, MOVE_LEFT, NORMAL );
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+&empty
+しばらくすると、宮津橋が
+不機嫌そうな顔で奥から出てきた。
+$k
+
+// ISAKI_0501NO
+#sp,vo,04010166
+勇樹
+「なんの用だ」
+$k
+
+// MEGUMI_0901BS4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070068
+めぐみ
+「あのね、クリスマスの買い物を頼みたくて」
+$k
+
+// ISAKI_0501NO
+#sp,vo,04010167
+勇樹
+「クリスマスの買い物？
+　何かまだ必要なものがあったか？」
+$k
+
+優
+「なんだ、店の飾りとかか？」
+$k
+
+// 	SS_( LEFT, ISAKI_A501NO, MOVE_STOP, NORMAL );
+// 	SS_( RIGHT, MEGUMI_A901IK2, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01IK2.png,(x),r,(s),80%
+#ip,c3,(x),l,(s),80%
+#ig
+
+// MEGUMI_A901IK2
+#sp,vo,04070069
+めぐみ
+「そう。お父さんったら、クリスマスなのに
+#msmall
+　シーサーばっかりでしょ？」
+#msmall
+$k
+
+&empty
+めぐみが奥の様子を伺いながら
+声を潜める。
+$k
+
+// MEGUMI_A901EG4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,04070070
+めぐみ
+「だから、今年こそ
+#msmall
+　クリスマスらしい飾りつけをしようと思って」
+#msmall
+$k
+
+// MEGUMI_A901AZ
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01AZ.png,(x),r,(s),80%
+#ig
+
+#sp,vo,04070071
+めぐみ
+「前日の閉店後にこっそり取っ替えちゃおうと
+#msmall
+　思ってるのよね」
+#msmall
+$k
+
+// MEGUMI_A901TR4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01TR4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,04070072
+めぐみ
+「クリスマスの本番はやっぱりイブの夜でしょ。
+#msmall
+　イブの夜を乗り切れば私たちの勝ちよ！」
+#msmall
+$k
+
+&empty
+おお、めぐみが燃えている。
+$k
+
+&empty
+というか、私たちってどこまで入ってるんだ？
+$k
+
+// ISAKI_A501NO
+#sp,vo,04010168
+勇樹
+「ふむ。それで…私が
+#msmall
+　飾りを買ってくればいいのか？」
+#msmall
+$k
+
+// MEGUMI_A901BS3
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,04070073
+めぐみ
+「うん、こっちの方は適当に誤魔化しとくから」
+#msmall
+$k
+
+// ISAKI_A502MU
+#ir
+#ip,c3,(fi),ISAKI_A502.png,(psi),ISAKI_An02MU.png,(x),l,(s),80%
+#ig
+
+#sp,vo,04010169
+勇樹
+「わかった」
+#msmall
+$k
+
+// MEGUMI_A901EG2
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,04070074
+めぐみ
+「ちょうど良かったわー。
+　じゃあ優ちゃんも買出し行くところだから
+　一緒に行ってきてね？」
+$k
+
+// ISAKI_A502KT
+#ir
+#ip,c3,(fi),ISAKI_A502.png,(psi),ISAKI_An02KT.png,(x),l,(s),80%
+#ig
+
+#sp,vo,04010170
+勇樹
+「何？」
+$k
+
+優
+「おぉ」
+$k
+
+&empty
+そこで俺が登場するのか。
+$k
+
+// ISAKI_A502IK
+#ir
+#ip,c3,(fi),ISAKI_A502.png,(psi),ISAKI_An02IK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,04010171
+勇樹
+「なぜだ？　別にこいつは関係ないだろう？」
+$k
+
+&empty
+思いっきり不審者を見るような目を
+俺に向けてくる宮津橋。
+$k
+
+&empty
+確かに関係ないが、そんな反応をしなくても。
+傷つくなー。
+$k
+
+// MEGUMI_A901BS2
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,04070075
+めぐみ
+「まあまあ、飾りを選ぶにしても、
+　一人より二人で見た方がいいでしょ？」
+$k
+
+// ISAKI_A502KM
+#ir
+#ip,c3,(fi),ISAKI_A502.png,(psi),ISAKI_An02KM.png,(x),l,(s),80%
+#ig
+
+#sp,vo,04010172
+勇樹
+「う…」
+$k
+
+&empty
+実際、どんな飾りがいいかとか考えるのは
+宮津橋は苦手そうだ。
+$k
+
+&empty
+けど、一度引き受けた以上、
+今更行かないとは言えないだろう。
+$k
+
+&empty
+そういうところは律儀なやつだからな。
+$k
+
+優
+「俺も商店街の方に行くとこだったからさ、
+　どうせだし、一緒に行こうぜ」
+$k
+
+// ISAKI_A502NO
+#ir
+#ip,c3,(fi),ISAKI_A502.png,(psi),ISAKI_An02NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,04010173
+勇樹
+「……仕方ないな。
+　では、ちょっと待ってろ」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),0%
+#ig
+
+&empty
+宮津橋はそう言うと、
+一旦、店の奥に消えていく。
+$k
+
+// MEGUMI_A901EG3
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,04070076
+めぐみ
+「じゃ、仲良く行ってきてねー。
+$nw,3000
+
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NO.png,(x),r,(s),80%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+　あ、すいません、今、行きまーす」
+
+$k
+
+&empty
+めぐみが俺に目配せしてから、
+客のテーブルにぱたぱたと駆けていった。
+$k
+
+&empty
+それにしても。
+お使いとはいえ、宮津橋と２人で出かけるなんて
+なんだかデートっぽくないか？
+$k
+
+&empty
+ちょっとわくわくしてきた。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_NEWSYOTEN01B );
+
+#sp,bgm,W_Jingle01#
+
+#sp,env,S_Town01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_NEWSYOTEN01B.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+クリスマスソングが流れる商店街を
+宮津橋と並んで歩く。
+$k
+
+&empty
+とりあえず、商店街の端から
+必要なものを買い揃えていく。
+
+#mfuri,　　　　　　　　　　　　　　　　そろ
+
+$k
+
+&empty
+こっちの買い物はメモに書かれたものを
+買うだけだから大して考えることもないが、
+宮津橋の方は、やっぱりかなり悩んでる。
+$k
+
+&empty
+定番の小さなツリーとか、
+サンタや雪だるま型のキャンドルなんかを
+見て回り、良さそうなのを選んでいく。
+$k
+
+&empty
+うんうん、まさにデートだなぁ。
+クリスマス前に、こうして二人で商店街を歩くなんて。
+$k
+
+&empty
+結局、決めるのはほとんど俺の方だけど。
+$k
+
+&empty
+そうこうしているうちに、
+宮津橋の分の荷物はかなりの量になっていた。
+$k
+
+優
+「ま、こんなもんかなぁ？」
+$k
+
+&empty
+かさばって持ちきれなくなった
+宮津橋の荷物は半分俺が持っている。
+$k
+
+// 	SS( CENTER, ISAKI_0402MU );
+
+// ISAKI_0402MU
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010174
+勇樹
+「そうだな。どうせ当日まで隠して
+　おかないといけないんだろうから、
+　これ以上増えても困るだろう」
+$k
+
+&empty
+と、なると、
+あとは帰るだけ。
+$k
+
+&empty
+これでデートも終わりかぁ。
+そう思うと名残惜しくなってくる。
+$k
+
+&empty
+もうしばらくこの時間が続かないものだろうか…。
+$k
+
+優
+「……あ…そうだ」
+$k
+
+// ISAKI_0402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010175
+勇樹
+「どうした？」
+$k
+
+優
+「あと少しだけ、俺の買い物に
+　付き合って欲しいんだけど……いいか？」
+$k
+
+&empty
+歩きながら、恐る恐る尋ねてみた。
+$k
+
+// ISAKI_0402NO
+#sp,vo,04010176
+勇樹
+「別にかまわない。それに、
+　荷物を持ってもらっている借りがあるからな」
+$k
+
+&empty
+宮津橋は表情ひとつ変えずに。
+だけどちゃんと俺と並んで、ゆっくりと歩いている。
+$k
+
+// ISAKI_0402NO
+#sp,vo,04010177
+勇樹
+「それで、何を買うんだ？」
+$k
+
+優
+「あー、ちょっとクリスマスプレゼントをな。
+　ほら、ファンシーショップみたいなとこって
+　男１人じゃ入りづらいじゃん？」
+$k
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010178
+勇樹
+「女モノか…。アドバイスは出来ないぞ」
+$k
+
+優
+「わかってるよ」
+$k
+
+#ir
+#ip,c1,(x),c,(s),80%
+#ig
+
+&empty
+ほんの少し、宮津橋との距離を詰めてみる。
+$k
+
+&empty
+そして、目的の店へと歩き出した。
+$k
+
+#hide
+
+#ss,bgm
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SV( BG_MT_FANCYSHOP01A );
+
+#sp,bgm,BGM_ISAKI
+
+//	SS( CENTER, ISAKI_A401MU );
+// 	Fade( 0, 40 );
+
+#show
+
+// ISAKI_A401MU
+
+#sp,vo,04010179
+勇樹
+「……？　なんに使うんだ、これは」
+$k
+
+&empty
+宮津橋は、時々不思議そうに首を傾げながら、
+店内を見てまわっている。
+$k
+
+&empty
+この機会に宮津橋へのプレゼントを
+ゲットしようと思いたって、ここへ来たわけだけど、
+さて、どうしたものかな…。
+$k
+
+&empty
+でも、宮津橋は他の誰かへのプレゼントだと
+思っているみたいだ。
+$k
+
+&empty
+これは逆に好都合なわけで…。
+$k
+
+優
+「あのさ、例えばだけど、
+　お前、こういうのどう思う？」
+$k
+
+&empty
+とりあえず手近にあったひよこのティーカップを
+持ち上げて聞いてみる。
+$k
+
+// ISAKI_A401NO
+
+#sp,vo,04010180
+勇樹
+「どう、とは？」
+$k
+
+優
+「いや、単純にどうなのかなぁってさ」
+$k
+
+// ISAKI_A401KB
+
+#sp,vo,04010181
+勇樹
+「興味ないな」
+$k
+
+&empty
+これはダメ、と。
+$k
+
+&empty
+本人に直接探りを入れられるのはありがたい。
+$k
+
+優
+「じゃあ、これは？」
+$k
+
+&empty
+桜模様の文房具や、ペンダント、イヤリングなんかを
+適当に差して聞いてみる。
+$k
+
+// ISAKI_A402NO
+
+#sp,vo,04010182
+勇樹
+「どうでもいいな」
+$k
+
+// ISAKI_A402KT
+
+#sp,vo,04010183
+勇樹
+「変な形だ」
+$k
+
+// ISAKI_A401NO
+
+#sp,vo,04010184
+勇樹
+「こんなものを欲しがるヤツがいるのか？」
+$k
+
+&empty
+うーん……やっぱり宮津橋はこういう可愛い系とか
+キラキラ系は好きじゃないんだろうか。
+$k
+
+&empty
+と、ふと宮津橋が雪をモチーフにしたコーナーで
+立ち止まった。
+$k
+
+&empty
+俺もそこを覗き込む。
+$k
+
+優
+「雪、好きなのか」
+$k
+
+// ISAKI_A401MU
+
+#sp,vo,04010185
+勇樹
+「まあ…嫌いじゃない」
+$k
+
+&empty
+雪か、
+そんなに派手じゃないし、
+宮津橋には合うかもしれない。
+$k
+
+// ISAKI_A402KM
+
+#sp,vo,04010186
+勇樹
+「こういうところは、居心地が悪いな。
+　悪いが外で待っている」
+$k
+
+優
+「あ、ああ」
+$k
+
+&empty
+俺が横顔をじっと見ていたのが
+まずかったのか。
+$k
+
+//	DS( CENTER, MOVE_RIGHT );
+
+&empty
+宮津橋はちょっと困ったような顔をして、
+店の外に出て行った。
+$k
+
+#ir
+#ip,c1,(fi),image\etc\isaki00_kamidome.png,(x),c
+#ig
+
+&empty
+さっきの宮津橋の視線の先を追ってみると、
+青っぽいビーズで
+雪の結晶を象った髪留めが目に止まった。
+$k
+
+&empty
+見てたのは、これみたいだな。
+$k
+
+&empty
+…そういえば、宮津橋って
+バイトの時は髪を留めたりしているな。
+$k
+
+&empty
+うん、これはアリかもしれない。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,1000
+
+// 	Fade( NORMAL, 0 );
+// 	Fade();
+
+// 	SV( BG_MT_NEWSYOTEN02B );
+
+#sp,bgm,W_Jingle01#
+
+#sp,env,S_Town01#
+
+// 	Fade( 0, 100 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_NEWSYOTEN02B.jpg,(s),100%
+#ig
+
+#next,04isaki08_02

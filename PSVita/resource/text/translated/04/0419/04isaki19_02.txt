@@ -1,0 +1,749 @@
+﻿// 既読フラグ
+#read_flag,249
+
+#show
+
+&empty
+そして、迎えた試験当日。
+さすがに、昨日はしっかり睡眠をとった。
+$k
+
+&empty
+試験中に寝るわけには行かないからな。
+最後の仕上げと栄養ドリンクを一気飲みした。
+$k
+
+#hide
+
+// 	SV( BG_TD_GAIKAN01A );
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SS_( CENTER, SAKURAKO_0402NO4 );
+
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),r2,(s),60%
+#ip,c2,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),l2,(s),60%
+#ig
+
+// 	SS_( RIGHT, YUKIHA_0401BS );
+// 立ち絵移動。パラメータは適宜。
+// 	SS( LEFT, MII_0402NO );
+
+#show
+
+優
+「じゃあ、いってくる」
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000283
+桜子
+「いってらっしゃい」
+$k
+
+// MII_0403EG
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04030078
+みい
+「がんばってくださいませ」
+$k
+
+// YUKIHA_0401MJ2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01MJ2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04050032
+雪華
+「気をつけてね」
+$k
+
+// KINO_0401MJ2
+#ir,(sync),NO
+#ip,c1,(fi),KINO_A401MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,se,hiuti2
+
+#wait,500
+
+#sp,se,hiuti2
+
+#wait,500
+
+#sp,vo,04060010
+紀乃
+「おきばりやっしゃ」
+$k
+
+優
+「婆さん、火打ち石って、また古風な」
+$k
+
+// KINO_0401EG2
+#ir
+#ip,c1,(fi),KINO_A401EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04060011
+紀乃
+「景気づけや。
+　気ぃつけて行っといで」
+$k
+
+優
+「おう！」
+$k
+
+&empty
+みんなの優しさに見送られて、
+俺は試験会場へと向かった。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+やるだけの事はやった。
+あとは結果を待つだけだ。
+$k
+
+// 	SV( BG_SKY02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY02A.jpg,(s),100%
+#ig
+
+&empty
+一日ずつ時が過ぎてゆくたび、
+俺は気が気じゃなかった。
+$k
+
+// 	SV( BG_SKY03C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03C.jpg,(s),100%
+#ig
+
+&empty
+だけど、それももう終わる。
+$k
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+&empty
+今日が合格発表だ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_ISAKIMAE01A );
+
+// 	SFP2( 0, "T_Dash01o" );
+// 	RFI( RULE_RYUUSEN, FAST );
+// 特殊な画面変更。暫定的に。
+
+#sp,se,T_Dash01o
+
+#ir,(dr),500
+#ip,bg,(fi),BG_HS_ISAKIMAE01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「勇樹っ、勇樹っ、聞いてくれっ！」
+$k
+
+&empty
+俺は声を弾ませながら、
+勇樹の部屋の前に駆けつけた。
+$k
+
+//	SP( "S_Knock06" );
+
+&empty
+返事が返ってくるまで、
+何度でも扉を叩き続けてやる。
+$k
+
+#sp,se,S_Door03o
+
+// 	WaitSE();
+
+// 	SV( BG_HS_ISAKIMAE01B );
+
+#ir,(dr),500
+#ip,bg,(fi),BG_HS_ISAKIMAE01B.jpg,(s),100%
+#ig
+
+&empty
+そう意気込んで拳を振り上げた俺だったが
+勢いよく空振りして、つんのめった。
+$k
+
+// 	SS( CENTER, ISAKI_A401IK );
+
+// ISAKI_A401IK
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010760
+勇樹
+「うるさい。ドアが傷む」
+$k
+
+#sp,bgm,BGM_ISAKI
+
+優
+「わ、悪い」
+$k
+
+&empty
+こんなにすぐ出てきてくれるとは思わなかった。
+$k
+
+&empty
+勇樹だ。
+久しぶりの……勇樹の顔だ。
+$k
+
+&empty
+少し、やせたような気がする。
+だけど、思ったより元気そうで良かった。
+$k
+
+&empty
+と、勇樹の顔を見れたのはうれしいけど、
+今日はそのために来たんじゃないんだ。
+$k
+
+優
+「聞いてくれ！　受かったんだ！！」
+$k
+
+// ISAKI_A402BS
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010761
+勇樹
+「そうか。良かったな」
+$k
+
+優
+「ああ、ついにやったよ」
+$k
+
+// ISAKI_A402KS
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010762
+勇樹
+「まあ、お前は大丈夫だと思っていたがな。
+　……毎日、あんなに頑張っていたんだから」
+$k
+
+優
+「ああ、自分でもこんなに……、
+　…ん？…あんなにって……？」
+$k
+
+// ISAKI_A402TR2
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010763
+勇樹
+「あ…さ、桜子のヤツがな…っ。
+$nw,3210
+
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02TR.png,(x),c,(s),80%
+#ig
+
+　別に見ていたわけじゃないぞっ！」
+$k
+
+優
+「そ、そうだよな。
+　あー、いや…見てたなんて言ってないけど…」
+$k
+
+#ss,bgm
+
+// ISAKI_A401KN
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010764
+勇樹
+「……」
+$k
+
+優
+「…………」
+$k
+
+// ISAKI_A401KN
+#sp,vo,04010765
+勇樹
+「…………」
+$k
+
+&empty
+俯いて黙りこんでしまった。
+…また変なところに触れてしまったか？
+$k
+
+// ISAKI_A401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010766
+勇樹
+「……違う」
+$k
+
+優
+「え…？」
+$k
+
+#sp,bgm,BGM_KANDO
+
+// ISAKI_A401KB2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010767
+勇樹
+「違うんだ……」
+$k
+
+// ISAKI_A401IK2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010768
+勇樹
+「本当は……ずっと、見てた…」
+$k
+
+優
+「勇樹……」
+$k
+
+// ISAKI_A401KN
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010769
+勇樹
+「お前が頑張ってるのをずっと見てた。
+　何度も、何度も見に行った」
+$k
+
+&empty
+勇樹が顔をあげ、俺を真っ直ぐ見つめる。
+$k
+
+// ISAKI_A402TR
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010770
+勇樹
+「見たかったんだ…お前が頑張ってる姿が。
+　出来るならもっと近くで見たかった。
+　でも、それは違うと思った」
+$k
+
+// ISAKI_A402TR
+#sp,vo,04010771
+勇樹
+「終わるまでは…会わないって……」
+$k
+
+優
+「……お前…」
+$k
+
+&empty
+勇樹の声が、微かに震えている。
+$k
+
+// ISAKI_A402BS2
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010772
+勇樹
+「…おめでとう、お前はよくやったよ」
+$k
+
+優
+「……ありがとう、勇樹。
+　俺が進学したらお別れになっちゃうけど…」
+$k
+
+// ISAKI_A402TR
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010773
+勇樹
+「っ…そう、だな。
+　強いな、優は……。
+　私も強くならないと…………」
+$k
+
+優
+「そうだ、強くなってもらわなきゃ俺が困る」
+$k
+
+// ISAKI_A401KN
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010774
+勇樹
+「ああ……もうこれからは、
+　お前に頼る事はできないからな……」
+$k
+
+優
+「…勘違いしてるだろ？」
+$k
+
+// ISAKI_A402KM
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010775
+勇樹
+「な、んだと…？」
+$k
+
+&empty
+ちょっと意地悪だったか。
+$k
+
+優
+「これ、見てくれよ」
+$k
+
+&empty
+俺は持っていた合格通知を勇樹に手渡す。
+$k
+
+// ISAKI_A402KT
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010776
+勇樹
+「…………？」
+$k
+
+// ISAKI_A402OD
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010777
+勇樹
+「…っ！？」
+$k
+
+&empty
+それを広げて見ていた勇樹の顔色が変わる。
+$k
+
+// ISAKI_A402OD2
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02OD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010778
+勇樹
+「優、お前、これ…………！」
+$k
+
+優
+「そうだ……。
+　お前が受けるはずだった大学だよ」
+$k
+
+&empty
+…はっきり言って無謀もいいところだった。
+$k
+
+&empty
+俺の日頃の成績じゃ、受かる可能性は
+とてつもなく低い難関。
+$k
+
+&empty
+それを連日の徹夜でカバーして、
+無理矢理に合格してみせたのだ。
+$k
+
+&empty
+もちろんみんなの協力のおかげなのも
+間違いない。
+$k
+
+&empty
+…そして何より、勇樹の存在があったから。
+これを勇樹に言ってやるという目的があったから。
+$k
+
+優
+「勇樹、大学に行かないとか言うなよ！
+　夢を諦めるなよ！！」
+$k
+
+// ISAKI_A402TR
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010779
+勇樹
+「優……」
+$k
+
+優
+「１年くらい浪人したっていいだろ！？
+　来年、もう一度受けろよ。
+　先に行って、待っててやるからさ」
+$k
+
+優
+「手伝える事があったら、何でも手伝う。
+　今度こそ、お前の力になりたいんだ！」
+$k
+
+&empty
+あっけにとられたような勇樹の顔を
+真っ直ぐに見つめる。
+$k
+
+優
+「独りでいることが自立なんかじゃない。
+　自立するためには、大勢の人と関わって、
+　交わっていかなきゃならないんだ」
+$k
+
+優
+「一緒にいることで独りより何倍も強くなれる。
+　何倍も大きなことが出来るんだ」
+$k
+
+優
+「いいか、お前がいるから俺は弱くなるんじゃない。
+　お前がいるから、俺は強くなれるんだ！
+　だから、お前もそうなってくれ！」
+$k
+
+#ss,bgm
+
+&empty
+それだけ一気に言い切ると、
+勇樹の言葉をじっと待つ。
+$k
+
+// ISAKI_A402OD
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010780
+勇樹
+「…………」
+$k
+
+優
+「………………」
+$k
+
+// ISAKI_A401KN
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010781
+勇樹
+「くっ……」
+$k
+
+&empty
+勇樹の肩がぴくりと震えた。
+$k
+
+&empty
+な、何を言うつもりなんだろう。
+$k
+
+// ISAKI_A401EG2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010782
+勇樹
+「くくっ…」
+$k
+
+&empty
+くく…？
+$k
+
+#sp,bgm,BGM_YASURAGI
+
+// ISAKI_A401EG4
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01EG4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010783
+勇樹
+「くっ……は、ははははははっ、ふふっ、
+　あははははははっ……」
+$k
+
+&empty
+勇樹の口から聞こえて来たのは、
+笑い声だった。
+$k
+
+優
+「な、なんだよ、何がおかしいんだよ」
+$k
+
+&empty
+怪訝な顔をする俺の前で、
+勇樹は腹を抱えて笑っていた。
+$k
+
+// ISAKI_A401EG2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010784
+勇樹
+「いや、お前はひどい勘違いをしているな、と」
+$k
+
+&empty
+笑いすぎて零れた涙を拭って、
+俺の顔を見上げた。
+$k
+
+優
+「………………へ？」
+$k
+
+// ISAKI_A401NS
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010785
+勇樹
+「受験をやめると言ったのは、あくまで今年の事だ。
+　私だって来年受けるつもりだったさ」
+$k
+
+&empty
+…え？
+$k
+
+&empty
+ええぇぇ～～～～～～～～っ！？
+$k
+
+優
+「じゃあ、もしかして…」
+$k
+
+&empty
+俺の早とちりだったって事か？
+$k
+
+// ISAKI_A401EG2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010786
+勇樹
+「くくっ…そうか、すまなかったな。
+　し、心配をかけたな」
+$k
+
+// ISAKI_A401EG4
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01EG4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010787
+勇樹
+「そ、そうか…だからあんなにも……」
+$k
+
+
+#next,04isaki19_03

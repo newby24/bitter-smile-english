@@ -1,0 +1,414 @@
+﻿// 既読フラグ
+#read_flag,131
+
+#show
+
+// MII_A203AD
+
+#sp,vo,05030161
+みい
+「せっかくの学園祭に読書はどうかと」
+$k
+
+優
+「うん、そりゃそうだねー」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+// 立ち絵消える。パラメータは適宜。
+
+#show
+
+優
+「ちと寒いけど屋上とかは…」
+$k
+
+#hide
+
+// 	SV( BG_GK_OKUJYO01A );
+// 	SS( CENTER, MII_A203KB2 );
+// 	CFI();
+
+// MII_A203KB2
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_OKUJYO01A.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KB2.png,(x),c,(s),80%
+#ig
+
+#show
+
+#sp,vo,05030162
+みい
+「立ち入り禁止のはずですけど」
+$k
+
+優
+「みいちゃんもね！」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+#show
+
+優
+「こうなったら…！」
+$k
+
+#hide
+
+#ss,bgm
+
+//	SetObject( 0, "kogarasi.png", 0, 0, OBJATTR_TOP );
+//	ClipObject( 0, 0, 800, 0, 800, 0 );
+// 	SV( BG_GK_POOL01C );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_POOL01C.jpg,(s),100%
+#ig
+
+#sp,se,S_Wind02
+
+#wait,500
+
+//	ClipObject( 0, 50|SPEED_UP, 0, 0, 800, 600 );
+//	WT( 100 );
+//	ClipObject( 0, 50|SPEED_UP, 0, 600, 0, 600, 1 );
+// 	WaitSE();
+// 	Shake( FAST, SHAKE_RANDOM|SHAKE_SCREEN, 30, 6 );
+
+#show
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「最後だけ放置かい！！？」
+#mlarge
+$k
+
+&empty
+みいちゃんはいないけど、寝れそうな場所ではなかった。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_TANOSHII
+
+#sp,env,S_Gaya01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01C.jpg,(s),100%
+#ig
+
+#show
+
+優
+「あ～もう眠すぎて頭痛いし」
+$k
+
+&empty
+みいちゃんは撒いた…というのもおかしな表現だけど、
+#mfuri,　　　　　　　　　　　　 ま
+
+ともあれさすがに限界だ。
+
+$k
+
+優
+「どこでもいいから寝れる場所…
+　学園祭中に考えることじゃねえな」
+$k
+
+優
+「そうだ、１階の階段の裏は倉庫になってんじゃ…」
+$k
+
+#hide
+
+#ss,bgm
+#ss,env,(dr),0
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#show
+
+優
+「あ…」
+$k
+
+// 	SV( VISUAL_MII_08A );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_08A.jpg,(s),100%,(x),c,(y),c
+#ig
+
+// MII_0101NO
+
+#sp,vo,05030163
+みい
+「すぅ～」
+$k
+
+優
+「寝てんじゃん」
+$k
+
+&empty
+なんというか…。
+どうやら先を越されたらしい。
+$k
+
+// MII_0101NO
+#sp,vo,05030164
+みい
+「くぅ～」
+$k
+
+優
+「ったく…女の子がこんなとこで寝るなよ」
+$k
+
+// 	SV( VISUAL_MII_08B );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_08B.jpg,(s),75%
+#ig
+
+&empty
+制服を脱いでかけてやる。
+$k
+
+// 	SV( VISUAL_MII_08C );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_08C.jpg,(s),75%
+#ig
+
+優
+「やっぱ、みいちゃんも……え！？」
+$k
+
+// 	SV( VISUAL_MII_08B );
+
+#flag,cg,58,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_08B.jpg,(s),75%
+#ig
+
+優
+「あれ？」
+$k
+
+&empty
+いま、みいちゃんの目が開いてたような…。
+$k
+
+優
+「…おーい？」
+$k
+
+// MII_0101NO
+
+#sp,vo,05030165
+みい
+「くぅ～」
+$k
+
+優
+「なんか変な恐怖心でも
+　植えつけられてんじゃないだろうな…」
+$k
+
+// MII_0101NO
+#sp,vo,05030166
+みい
+「すぅ～……」
+$k
+
+優
+「いいや、俺も寝よ」
+$k
+
+&empty
+ちょっと狭いな、ここ。
+$k
+
+&empty
+みいちゃんを起こさないように、
+そっとみいちゃんの隣に座り込む。
+$k
+
+&empty
+腰を落ち着けた途端、急激にまぶたが重くなっていく。
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	ShowFace();
+
+// 	BF( NORMAL, 50 );
+
+&empty
+………
+$k
+
+優
+「ぐ～」
+$k
+
+// MII_0203NM
+
+#sp,vo,05030167
+みい
+「………」
+$k
+
+// MII_0203EG
+
+#sp,vo,05030168
+みい
+「ふふ…」
+$k
+
+#sp,se,K_Hair01
+
+// MII_0203EG2
+
+#sp,vo,05030169
+みい
+「…ぴとっ」
+#msmall
+$k
+
+&empty
+………
+$k
+
+#hide
+
+#ss,bgm
+
+#wait,2000
+
+// 	SV( BG_SKY03A );
+
+#sp,env,T_yoru01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+#show
+
+// MII_0203MU
+
+#sp,vo,05030170
+みい
+「というわけで夜になってしまったわけですが」
+$k
+
+// 	Shake( FAST, SHAKE_RANDOM|SHAKE_SCREEN, 30, 6 );
+
+優
+「どっちか起きようよ！？」
+$k
+
+//	SM( CHAR_MII,			MII_0203EG,			"みい",			"@v05030171「学園最後の学園祭…@n素敵な思い出ができましたか？」" );
+// MII_0203EG
+
+#sp,vo,05030171
+みい
+「最後の学園祭…
+　素敵な思い出ができましたか？」
+$k
+
+優
+「聞かないで……」
+$k
+
+&empty
+思い出自慢は
+両者リングアウト引き分け…。
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),30%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,env,(dr),1000
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// イベント選択４回目へ。
+#next,90phase04
+

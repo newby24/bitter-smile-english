@@ -1,0 +1,705 @@
+﻿// 既読フラグ
+#read_flag,240
+
+// セーブタイトル
+#flag,save_title,勇樹　第１６話,0,0
+
+// 	SV( BG_HS_ISAKI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_ISAKI01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第１６話　突然の別れ
+$k
+#note,erase
+
+#show
+
+// ISAKI_0401AZ
+
+#sp,vo,04010688
+勇樹
+「……っ」
+$k
+
+// ISAKI_0401KN
+
+#sp,vo,04010689
+勇樹
+「……諦めるしか、ないか…」
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,04010690
+勇樹
+「…………………」
+$k
+
+#sp,se,S_Paper06
+
+#wait,500
+
+// 	WaitSE();
+
+// ISAKI_0401AZ
+
+#sp,vo,04010691
+勇樹
+「ち…うまくいかないものだな………」
+$k
+
+#hide
+
+#sp,se,T_Cut
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,3000
+
+// 	WaitSE();
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#sp,bgm,BGM_FUAN
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「まだ来てないのか…」
+$k
+
+&empty
+翌日の朝、教室に入ったときには
+勇樹はまだ来ていなかった。
+$k
+
+&empty
+勇樹は早起きだから、
+大抵、俺より先に学園に来てるんだが。
+$k
+
+&empty
+まあ、そのうち来るだろうと思っているうちに
+授業がはじまり…。
+$k
+
+&empty
+そしてそのまま１時間目が終わっても、
+勇樹は教室に姿を見せない。
+$k
+
+&empty
+さすがにちょっと心配になってきた。
+$k
+
+&empty
+また登校拒否みたいなことになったら…。
+$k
+
+優
+「…そうだ、めぐみ」
+$k
+
+&empty
+そういや今日はまだめぐみと一言も話してない。
+めぐみなら、何か知ってるかもしれない。
+$k
+
+優
+「なあ、めぐみー？」
+$k
+
+// 	SS( CENTER, MEGUMI_0201KM8 );
+
+// MEGUMI_0201KM8
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070099
+めぐみ
+「あ、…ゆ、優ちゃん」
+$k
+
+&empty
+めぐみの席まで行くと、なぜかめぐみが
+痛々しいものを見る目で俺を見た。
+$k
+
+&empty
+え？　なにかあったのか？
+$k
+
+// MEGUMI_0201OD3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070100
+めぐみ
+「えっと……何か用？
+　まあ、私も優ちゃんに用があったから
+　いいんだけど……その」
+$k
+
+&empty
+煮え切らない態度だなあ。
+いったい、どうしたんだ？
+$k
+
+優
+「用っていうか、勇樹の事なんだけど」
+$k
+
+// MEGUMI_0201KM7
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070101
+めぐみ
+「あー……うん、勇樹ちゃんね」
+$k
+
+優
+「あいつ、今日来てないけど、
+　お前、朝、なんか聞いてないか？」
+$k
+
+&empty
+俺の問いに、めぐみはすまなさそうな顔になった。
+$k
+
+// MEGUMI_0201KN3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070102
+めぐみ
+「ごめんなさい、実は私にも勇樹ちゃんの状況が
+　よく分からないの」
+$k
+
+優
+「えっ？　どういう事だよ？」
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070103
+めぐみ
+「勇樹ちゃん、部屋から出てきてくれないのよ。
+　すまないが構わないでくれって…」
+$k
+
+// MEGUMI_0201SP
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070104
+めぐみ
+「その、優ちゃんこそ、何か知らない？」
+$k
+
+優
+「いや……」
+$k
+
+&empty
+桜子と殴り合いの大喧嘩をした、とは
+ちょっと言いにくい。
+$k
+
+&empty
+めぐみだからまあ、大丈夫とは思うけど、
+あまり変に広まったら、進学とかにも
+差し支えるかもしれないし。
+$k
+
+優
+「…そんなに様子がおかしかったのか？」
+$k
+
+// MEGUMI_0201SP2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070105
+めぐみ
+「…体調が悪いから、
+　バイトも学園も休むとは言ってたけど…」
+$k
+
+&empty
+そうか、それだけだったら
+そんなに心配はないかな？
+$k
+
+&empty
+無断で休んでるわけじゃなかったらしい。
+$k
+
+優
+「んじゃ放課後に見舞いにでも行ってみるか。
+　帰り、寄らせてもらうな」
+$k
+
+// MEGUMI_0201NK2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01NK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070106
+めぐみ
+「あ、あのっ、優ちゃんっ！」
+$k
+
+優
+「なんだよ、大きな声出して？」
+$k
+
+// MEGUMI_0201SP2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070107
+めぐみ
+「い、行かない方がいいんじゃないかなぁって…」
+$k
+
+優
+「はぁ？　なんでだよ」
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070108
+めぐみ
+「その…病院に行くって言ってたから、
+　入れ違いになっちゃうかもしれないしぃ」
+$k
+
+優
+「なんだよそれくらい。
+　もし出かけてたら、帰ってくるまで
+　待たせてもらってもいいだろ？」
+$k
+
+// MEGUMI_0201KN3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070109
+めぐみ
+「そ、それはいいんだけど…」
+$k
+
+&empty
+どうしたんだ？
+なんだか、いつものめぐみらしくない。
+$k
+
+&empty
+本当に大丈夫なのか？
+$k
+
+&empty
+自分で病院にいけるくらいだから、
+そんなに心配は要らないのかもしれないけど…。
+$k
+
+// MEGUMI_0201SP
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070110
+めぐみ
+「あの、優ちゃん…実はね……」
+$k
+
+&empty
+めぐみが、なにか言いにくそうに口ごもった。
+心配するような顔で、俺を見上げる。
+$k
+
+優
+「な、なんだよ」
+$k
+
+// MEGUMI_0201MJ2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070111
+めぐみ
+「勇樹ちゃんから、優ちゃん宛てに手紙を
+　預かってるんだけど……」
+$k
+
+優
+「それを先に言えよ！！」
+$k
+
+&empty
+なんだよ、そんなんあるなら、
+最初から渡してくれれば話が早いのに。
+$k
+
+// MEGUMI_0201MJ2
+#sp,vo,04070112
+めぐみ
+「渡していいの？」
+$k
+
+優
+「いいに決まってるだろ」
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070113
+めぐみ
+「そうだよね。渡さない訳にもいかないよね」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+渋々、といった様子でめぐみが鞄から
+一枚の紙を取り出した。
+$k
+
+優
+「なんだ、これ？」
+$k
+
+#sp,se,S_Paper08
+
+&empty
+ちょっと雑な感じで折りたたまれた紙を開いてみると…、
+
+$k
+
+#ss,bgm
+
+&empty
+そこには、まるで犯行声明のように、
+チラシか何かから文字を四角く切り抜いたものが
+貼られていた。
+$k
+
+優
+「……なんだよ、これ……」
+$k
+
+&empty
+一枚一枚の紙切れは、並べられて、
+意味のある短い言葉になっていた。
+$k
+
+#hide
+
+// 	SetObject( 0, "ISAKI_WAKARE.png", 100, 50, OBJATTR_NOEFFECT );
+// 	Fade( 50, 50 );
+// 	Fade( 50, 100 );
+
+#ir,(dr),1000
+#ip,c1,(fi),image\etc\isaki_wakare.png,(x),c
+#ig
+
+$k
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#show
+
+&empty
+『別　れ　よ　う』
+$k
+
+#ir,(dr),2000
+#ip,bg,(fi),white.jpg
+#ig
+
+&empty
+無機質な印字でそう綴られた文字を見て、
+俺の頭は真っ白になった。
+$k
+
+#hide
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( VISUAL_WHITE );
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#sp,bgm,BGM_KANASHIMI
+
+// 	SS( CENTER, MEGUMI_0201KN3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KN3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MEGUMI_0201KN3
+#sp,vo,04070114
+めぐみ
+「…ごめん、優ちゃん…私ラブレターとかと思って、
+　こっそり見ちゃって……それで…」
+$k
+
+優
+「……勇樹がこれを俺にって？」
+$k
+
+&empty
+めぐみがすまなさそうに小さく頷く。
+$k
+
+&empty
+別れようって。
+これが勇樹から俺に向けられたメッセージ？
+$k
+
+&empty
+いったい、どういう事なんだよ。
+訳が分からない。
+$k
+
+&empty
+しかも、こんな紙切れで…。
+顔も見たくないという事なのか？
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070115
+めぐみ
+「私も、聞いてみたんだけど、勇樹ちゃん、
+　部屋からも出てこなくて……」
+$k
+
+優
+「……気にするなよ、めぐみは悪くない」
+$k
+
+// MEGUMI_0201KN3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070116
+めぐみ
+「ごめんね……」
+$k
+
+優
+「本当にいいから」
+$k
+
+&empty
+でも、本当にどうしたって言うんだ？
+$k
+
+&empty
+この間まで、あんなに幸せだったのに。
+繋ぎ止めてくれと言ったのは、
+勇樹の方じゃないか。
+$k
+
+&empty
+もう俺から逃げないって言ったのは、
+嘘だったのか？
+$k
+
+// MEGUMI_0201MJ2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070117
+めぐみ
+「優ちゃん」
+$k
+
+&empty
+めぐみが、俺の手をとってそっと開かせた。
+$k
+
+&empty
+爪が食い込んだ痕に、血が滲んでいる。
+知らず知らずのうちに、
+拳を握りしめてしまっていたようだ。
+$k
+
+優
+「とにかく…一度、会ってみる」
+$k
+
+// MEGUMI_0201TR3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01TR3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070118
+めぐみ
+「うん。優ちゃん、がんばってね」
+$k
+
+&empty
+めぐみの優しさが素直に嬉しかった。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TSUGAKURO01A );
+
+#sp,bgm,BGM_SYOSO
+
+// 	Shake( 0, SHAKE_UP|SHAKE_SCREEN, 6, 25 );
+// 	RadialLine( 30, 10, 400, 300, 200, 500, 10, 100, 100,255, 255, 255 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO01A.jpg,(s),100%
+#ig
+
+#sp,env,S_Dash10#
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,bg,(y+),10
+#ig
+
+#show
+
+&empty
+学園が終わるなり、
+俺はハッピーシ～サ～に向かって走った。
+$k
+
+&empty
+勇樹、とにかく顔を見せてくれ。
+こんなんじゃ納得できない。
+$k
+
+#hide
+
+#ils
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+// 	Shake( 1, SHAKE_UP|SHAKE_SCREEN, 6, 25 );
+// 	RadialLine( 10, 0, 400, 300, 200, 500, 10, 100, 100,255, 255, 255 );
+
+// 	SV( BG_HS_MAE02A );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE02A.jpg,(s),100%
+#ig
+
+#ss,env,(dr),0
+#sp,se,S_Za01
+
+#show
+
+&empty
+店の手前に来たところで、
+ちょうど店に入っていく勇樹の後ろ姿が見えた。
+$k
+
+優
+「おい！　勇樹！」
+$k
+
+//	MoveStand( LEFTLEFT, 120|SPEED_DOWN, 150, 100 );
+//	FadeStand( LEFTLEFT, 60, FADE_ALPHA, 0 );
+
+&empty
+だが、俺の叫びにも、勇樹は振り向こうともせず、
+店内に消えていく。
+$k
+
+優
+「待てよっ！」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO( FAST );
+// 特殊な画面変更。暫定的に。
+
+
+// 	SV( BG_HS_TENNAI01A );
+
+// 	CFI( FAST );
+// 特殊な画面変更。暫定的に。
+
+// DAIGO_0301BS
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),DAIGO_A301BS.png,(x),c,(s),75%
+#ig
+
+#next,04isaki16_01

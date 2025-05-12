@@ -1,0 +1,480 @@
+﻿// 既読フラグ
+#read_flag,231
+
+// ISAKI_A202KS
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010541
+勇樹
+「そうなんだ」
+$k
+
+#ss,bgm
+
+#ir
+#ie,c1
+#ig
+
+// 	SS( CENTER, ISAKI_A202KS );
+
+&empty
+宮津橋の目が寂しそうな色に変わった。
+$k
+
+// ISAKI_A202BS
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010542
+勇樹
+「だから……やっぱり私はお前と距離を
+　置くべきなんだと思う」
+$k
+
+#sp,bgm,BGM_SABISHII
+
+優
+「そんな！！　それはないだろう！？」
+$k
+
+&empty
+こんなに……こんなに一緒にいたいのに。
+$k
+
+// ISAKI_A202BS
+#sp,vo,04010543
+勇樹
+「そんな顔をするな」
+$k
+
+&empty
+よっぽど情けない顔をしていたんだろう。
+宮津橋がなだめるように冷たい指で
+俺の頬を撫でる。
+$k
+
+// ISAKI_A202KM
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010544
+勇樹
+「私は……お前にそんな顔をされると
+　どうしたらいいのかわからなくなる」
+$k
+
+優
+「だったら、そんなこと言うなよっ」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02OD.png,(x),c,(s),80%
+#ig,(se),T_tukamu
+
+// 	SK2( NORMAL, 4, 6 );
+
+// 	SS( CENTER, ISAKI_A202OD );
+
+&empty
+宮津橋の手をぎゅっと強く掴む。
+どこにも行かないでくれと願いながら。
+$k
+
+&empty
+宮津橋は困ったような顔をしながらも、
+振り解かずに、じっと俺に手を掴まれていた。
+$k
+
+優
+「…お前は、俺のことが好きじゃないのか？」
+$k
+
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KM.png,(x),c,(s),80%
+#ig
+
+// ISAKI_A202KM
+#sp,vo,04010545
+勇樹
+「矢崎……本当に私はわからないんだ」
+$k
+
+&empty
+宮津橋が困惑しきった表情で目を伏せる。
+$k
+
+// ISAKI_A201KN
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010546
+勇樹
+「どうしたらいいのか、わからない」
+$k
+
+優
+「何がわからないんだ？」
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010547
+勇樹
+「私は…、
+　このまま……こうして…」
+$k
+
+// ISAKI_A201KB
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010548
+勇樹
+「……私に消えられたくないのなら、
+　お前が私を繋ぎ止めればいい」
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010549
+勇樹
+「私は…寄りかからない…。
+　お前が、私を捕まえて離さないようにすればいい」
+$k
+
+優
+「…おい…？」
+$k
+
+&empty
+宮津橋は消え入りそうな声で、
+独り言のように呟き続ける。
+$k
+
+&empty
+そして……。
+$k
+
+#sp,se,K_Hair01
+
+#ir
+#ie,c1
+#ig
+
+&empty
+ふらふらと宮津橋が立ち上がって、壁にもたれる。
+俺に向けられた視線が、やけに色っぽくて、
+背筋がぞくりとした。
+$k
+
+&empty
+掴まれた手を引っ張られて、
+俺も壁際に吸い寄せられる。
+$k
+
+#hide
+
+// 	// 制服のボタンを外すまでＣＧを使用しないなら次の行のコメントを解除
+
+#sp,se,K_Hair01
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_H01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+そのまま、宮津橋に抱き寄せられた。
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_H01B.jpg,(s),100%
+#ig
+
+#sp,vo,04010550
+勇樹
+「好きに……してくれ」
+$k
+
+優
+「み、宮津橋っ？」
+$k
+
+&empty
+いったい、何を言っているんだ、宮津橋は。
+$k
+
+// ISAKI_A201NO
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_H01A.jpg,(s),100%
+#ig
+
+#sp,vo,04010551
+勇樹
+「私をどこへも行かせたくないんだろう？
+　だったら……はっきりと繋ぎ止めてしまえばいい」
+$k
+
+優
+「お、おい、冗談はよせよ」
+$k
+
+&empty
+あまりの出来事に、口の中がからからに干上がる。
+$k
+
+// ISAKI_A201IK
+
+#sp,vo,04010552
+勇樹
+「私が、冗談でこんな事をするように
+　見えるのか」
+$k
+
+優
+「いや、見えないけどさ……」
+$k
+
+&empty
+それにしても、言ってる事が滅茶苦茶だ。
+自棄になっているようにも見える。
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_H01B.jpg,(s),100%
+#ig
+
+// ISAKI_A201IK
+#sp,vo,04010553
+勇樹
+「私を、こんなふうにしたのはお前なんだ。
+　なのに、お前は私から逃げるのか」
+$k
+
+優
+「宮津橋……」
+$k
+
+&empty
+俺は、宮津橋にどうしてあげたらいいんだろう。
+このまま、流されてしまっていいのか？
+$k
+
+// ISAKI_A201NO
+
+#sp,vo,04010554
+勇樹
+「勇樹でいい」
+$k
+
+優
+「え？」
+$k
+
+// ISAKI_A201KN
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_H01A.jpg,(s),100%
+#ig
+
+#sp,vo,04010555
+勇樹
+「何もかも、曖昧だから不安になる。
+　わからなくなるんだ」
+$k
+
+&empty
+もしかして、宮津橋も俺と同じように
+このはっきりしない状況を
+不安に思っていたんだろうか。
+$k
+
+// ISAKI_A201MU
+
+#sp,vo,04010556
+勇樹
+「私たちの関係も、私のお前への気持ちも……
+　だから、はっきりさせよう、優」
+$k
+
+&empty
+宮津橋……いや、勇樹が俺の名前を呼びながら、
+まっすぐに見つめてくる。
+$k
+
+// ISAKI_A201NO
+
+#sp,vo,04010557
+勇樹
+「甘えろと言ったのはお前だろう？
+　お前のせいで全部崩れ落ちそうなんだ。
+　だから……」
+$k
+
+// 以下、台詞のみで進行。地の文はカット。
+
+優
+「だからって……お前、もっと自分を大事にしろよ」
+$k
+
+// ISAKI_0101NO
+
+#sp,vo,04010558
+勇樹
+「さんざん考えた上で出した結論だ。
+　それとも……私じゃ嫌なのか？
+　その気にならないのか？」
+$k
+
+優
+「嫌じゃない。そんなわけないだろう」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010559
+勇樹
+「だったら……早く抱いてくれ！
+　そうでないと、自分がバラバラになりそうだ！」
+$k
+
+優
+「勇樹……お前……」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010560
+勇樹
+「本気だ。本気じゃなきゃ、こんな事はしない」
+$k
+
+&empty
+ここで踏み止まるべきなのかもしれない。
+$k
+
+&empty
+だけど……俺にはこんな勇樹の事を
+突き放すなんて出来ない。
+$k
+
+優
+「いいんだな？」
+$k
+
+&empty
+確認するように、耳元で囁いた。
+勇樹がこっくりと深く頷く。
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010561
+勇樹
+「抱いてくれ……」
+$k
+
+#flag,cg,24,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_H01B.jpg,(s),100%
+#ig
+
+&empty
+勇樹のその小さな呟きを引き金にして、
+俺は彼女の唇を自分のそれで塞いだ。
+$k
+
+#hide
+
+#ss,bgm,(dr),2000
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+#show
+
+// ISAKI_0101NO
+#sp,vo,04010650
+勇樹
+「これで…責任を果たしたはずだ…」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010651
+勇樹
+「優が私を離さないから……私も逃げないだけ」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010652
+勇樹
+「甘えたわけじゃない。
+　優の望みを叶えてやったんだ……」
+$k
+
+#hide
+
+#wait,1000
+
+// 	ShowFace();
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_isaki.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,04isaki15_00

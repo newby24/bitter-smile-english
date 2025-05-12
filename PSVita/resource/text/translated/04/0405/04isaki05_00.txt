@@ -1,0 +1,711 @@
+﻿// 既読フラグ
+#read_flag,197
+
+// セーブタイトル
+#flag,save_title,勇樹　第５話,0,0
+
+// 勇樹好感度＋１。
+#flag,per,2,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYASYUHEN01A );
+
+// #sp,env,T_maturi#
+
+#sp,env,S_Gaya03#,(vl),3
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYASYUHEN01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第５話　秋祭りの夜空
+$k
+#note,erase
+
+//	SetIconChinmoku( CENTER );
+
+#show
+
+&empty
+なんだかんだで見慣れた面子が集まって、
+引き続き俺達は祭りを楽しむ事にした。
+$k
+
+&empty
+…のはいいんだが……。
+$k
+
+&empty
+なんだか、さっきから微妙に桜子が
+不機嫌な気がするのは気のせいだろうか？
+$k
+
+優
+「なあ、桜子」
+$k
+
+// 	SS( CENTER, SAKURAKO_0403FK );
+
+// SAKURAKO_0403NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000010
+桜子
+「何？」
+$k
+
+優
+「さっきの事なんだけど……その誤解するなよ」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000011
+桜子
+「何がよ」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+// 	SS( CENTER, SAKURAKO_A402NR, MOVE_STOP, NORMAL );
+
+&empty
+みいちゃんに手を引っ張られている宮津橋を
+気にしながら、俺は桜子に近づいた。
+$k
+
+優
+「たまたま宮津橋と２人きりになっちゃっただけで、
+　その…変な下心とかがあったわけじゃ……」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000012
+桜子
+「…なんでいちいちそんな報告すんのよ？」
+$k
+
+&empty
+なんで？
+…俺はなんでこんなこと言ってるんだろう。
+$k
+
+&empty
+…弁解？
+………なんの？
+$k
+
+// SAKURAKO_A403NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000013
+桜子
+「あたしはいいから、
+　サキちゃ……
+$nw,3000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03FK2.png,(x),c,(s),80%
+#ig
+
+　勇樹に構ってあげたら？」
+$k
+
+優
+「いや、お前、やっぱわかってないだろ。
+　構うも何も宮津橋は別に…」
+$k
+
+// SAKURAKO_A403IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000014
+桜子
+「わかってないのはあんたの方じゃないの？」
+$k
+
+// SAKURAKO_A403FK2
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03FK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000015
+桜子
+「偽の恋人とか言ってたけど……あんたといる時の
+　勇樹は、結構楽しそうに見えるわよ」
+$k
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+そのまま、桜子はみいちゃんたちの方へと
+走っていってしまった。
+$k
+
+優
+「宮津橋が？」
+$k
+
+&empty
+俺といて、楽しそう？
+$k
+
+&empty
+そんな馬鹿な。
+$k
+
+&empty
+でも、物陰に無理矢理連れていかれた時、
+宮津橋の顔は確かに
+いつもと違っているような気がした。
+$k
+
+&empty
+…まあ、それが楽しそうと言うわけでは、
+全然なかったような気もするのだが。
+$k
+
+#sp,bgm,BGM_TANOSHII
+
+// SAKURAKO_0403NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000016
+桜子
+「さーっ、次なにしよっかー！」
+$k
+
+&empty
+桜子が腕をぐるぐる振り回す。
+$k
+
+&empty
+……まあ、いっか。
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+しかし、子供の頃から、何度も来てるけど、
+この秋祭りは変わらないな。
+$k
+
+&empty
+変わるものと言えば、
+せいぜいくじ引きの景品くらいだ。
+$k
+
+// MEGUMI_0401BS3
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070041
+めぐみ
+「優ちゃん、そんなところでぼーっとしてると、
+　さっきみたいにはぐれちゃうよ～」
+$k
+
+#ss,env,(dr),1000
+
+優
+「あ、ああ、待ってくれよ」
+$k
+
+// 	SS( CENTER, MII_0401KY2, MOVE_LEFT );
+
+// MII_0401KY2
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,04030008
+みい
+「それともお兄様……今度は私と静かなところへ
+　行きませんか？」
+$k
+
+// MII_0403EG
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04030009
+みい
+「お兄様にスリルとサスペンスを差し上げますよ？」
+$k
+
+優
+「そこはもっと違うものが欲しいなあ！」
+$k
+
+// 	CS_( CENTER, CENTERRIGHT, FAST );
+// 	SS( CENTERLEFT, YUKIHA_0901KB, MOVE_LEFT );
+
+// YUKIHA_0901KB
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01KB.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04050000
+雪華
+「お兄ちゃん最低ー」
+$k
+
+優
+「雪華ちゃん！？」
+$k
+
+// MII_0403NO
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04030010
+みい
+「雪華さんは兄上の隠された下心を読み取る
+　エスパー機能に目覚めたのですよ」
+$k
+
+優
+「頼むから、俺の可愛い妹に変な機能を
+　つけないでくれ……」
+$k
+
+// ISAKI_0C01KS
+#ir
+#ip,c1,(fi),ISAKI_AC01.png,(psi),ISAKI_An01KS.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,04010074
+勇樹
+「…………ふっ」
+$k
+
+// MEGUMI_0401IK4
+#ir
+#ip,c1,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04070042
+めぐみ
+「あーっ、今、勇樹ちゃん、笑ったっ！」
+$k
+
+// ISAKI_0C01NO
+#sp,vo,04010075
+勇樹
+「なんのことだ」
+$k
+
+// SAKURAKO_0401NS
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04000017
+桜子
+「なに？　勇樹も優いじりに目覚めたわけ？」
+$k
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r2,(s),60%
+#ig
+
+// MII_0403NO
+#sp,vo,04030011
+みい
+「お兄様は弄られるために生まれてきた、
+#mfuri,　　　　　　　　　　いじ
+　ザ・弄られキングですからね」
+#mfuri,　　　　　　いじ
+$k
+
+&empty
+嬉しくない！
+$k
+
+&empty
+でも、あの宮津橋が笑った？
+$k
+
+// ISAKI_0C01IK2
+#ir
+#ip,c1,(fi),ISAKI_AC01.png,(psi),ISAKI_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010076
+勇樹
+「違う。
+　私はただ、情けない変態色魔もいたものだと
+　失笑しただけだ」
+$k
+
+優
+「そこまで言う！？」
+$k
+
+// 	SS( CENTERLEFT, SAKURAKO_0401AK2 );
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04000018
+桜子
+「みいに『違うもの』を期待してたんだから
+　しょうがないわね」
+$k
+
+優
+「スリルとサスペンス以外であって、
+　下心じゃねー！」
+$k
+
+// MII_0403EG
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04030012
+みい
+「ふふ、私はいつでもオールオッケーの構えを
+　とっておりますよ？」
+$k
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),100%
+#ie,c1,c2
+#ig
+
+// 	SS( CENTER, MII_A403TR3, MOVE_RIGHT, NORMAL );
+
+#sp,se,S_Pon02
+
+&empty
+むにゅんっとみいちゃんの豊かな脹らみが
+二の腕の内側で寄せられて……。
+$k
+
+優
+「ご、ごくり」
+$k
+
+// ISAKI_0C01IK
+#ir
+#ip,c1,(fi),ISAKI_AC01.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ip,c3,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01KB.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04010077
+勇樹
+「やはりな」
+$k
+
+&empty
+しまった！　謀られた！？
+$k
+
+// YUKIHA_0901KB3
+#ir
+#ip,c3,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01KB3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04050001
+雪華
+「お兄ちゃんのえっちー」
+$k
+
+&empty
+ああ…みんなの視線が冷たくなっていく。
+$k
+
+// 	SS_( CENTERRIGHT, MII_0403NO );
+
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r,(s),60%
+#ie,c3
+#ig
+
+// 	SS( CENTERLEFT, ISAKI_0C01IK );
+
+// MII_0403NO
+#sp,vo,04030013
+みい
+「勇樹さん、私と一緒に
+　お兄様をつっついて遊ぶ、ドＳの会を
+　結成しませんか？」
+$k
+
+// ISAKI_0C01NO
+#ir
+#ip,c1,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010078
+勇樹
+「あいつがつきあってくれるならな」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),l,(s),60%
+#ig
+
+#sp,se,S_Touch01,(lp),1
+
+#sp,vo,04000019
+桜子
+「はいはい、もういいでしょ。
+　いつまでも優なんか弄ってないで、
+#mfuri,　　　　　　　　　　　　　　　　　　　　いじ
+
+　せっかくのお祭りなんだから遊ばなきゃ！」
+
+$k
+
+// MII_0401KY2
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030014
+みい
+「そうですね」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2
+#ig
+
+&empty
+散々弄られた上に放り出された……。
+
+#mfuri,　　　　いじ
+
+$k
+
+#sp,se,S_Catch02
+
+&empty
+しょぼんと肩を落としながら歩く俺の肩を
+めぐみが軽く叩いた。
+$k
+
+&empty
+そうだ。
+お前ならわかってくれるよな、俺の気持ちを！
+$k
+
+// 	SS( CENTER, MEGUMI_A401TR5, MOVE_RIGHT );
+
+// MEGUMI_A401TR5
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01TR5.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+#sp,vo,04070043
+めぐみ
+「もうっ、ほんと、男の子ってダメダメねー」
+$k
+
+&empty
+この裏切り者っー！！
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_MT_JINJYAKEIDAI03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+しばらく、あちこちの出店を冷やかしたり、
+わたあめを食べたりしながら歩いていると
+雪華ちゃんが足を止めた。
+$k
+
+// 	SS( CENTER, YUKIHA_0901BS2 );
+
+// YUKIHA_0901BS2
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050002
+雪華
+「あ、金魚すくいがあるよ、お兄ちゃん」
+$k
+
+優
+「雪華ちゃん、やりたいの？」
+$k
+
+// YUKIHA_0901BS3
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01BS3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050003
+雪華
+「うん」
+$k
+
+優
+「じゃあ、やりに行こうか。
+　桜子、いいか？」
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04000020
+桜子
+「別にいいんじゃない？」
+$k
+
+// 	SS( RIGHT, MII_0403EG );
+
+// MII_0403EG
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04030015
+みい
+「では私も。久々に腕が鳴ります」
+$k
+
+// 	SS( LEFT, MEGUMI_0401EG );
+
+// MEGUMI_0401EG
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04070044
+めぐみ
+「私もやりたぁ～い」
+$k
+
+#ir
+#ip,c1,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ie,c2,c3
+#ig
+
+&empty
+俺は宮津橋の横顔をちらりと見てみたが、
+別に異存はないように見えた。
+$k
+
+&empty
+と、いうか、いつも通りの無表情すぎて
+わからない。
+$k
+
+&empty
+まあ、嫌なら嫌だって言うだろう。
+$k
+
+// YUKIHA_0901EG2
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050004
+雪華
+「じゃあ、早く行こう」
+$k
+
+&empty
+みんなでぞろぞろと
+金魚すくいへと向かっていった。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+
+#wait,1000
+
+#sp,bgm,BGM_COMICAL2
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+// YUKIHA_0901KM3
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01KM3.png,(x),c,(s),60%
+#ig
+
+
+#next,04isaki05_01

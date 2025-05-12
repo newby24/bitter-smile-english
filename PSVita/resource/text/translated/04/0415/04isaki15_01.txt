@@ -1,0 +1,596 @@
+﻿// 既読フラグ
+#read_flag,236
+
+// 	SV( BG_GK_KYOSHITSU02A );
+// 	SS( CENTER, ISAKI_A201KN );
+
+//	Scroll( 0, -100 );
+//	Zoom( 0, 140, 140, 400, 300 );
+//	ZoomStand( CENTERLEFT, 0, 70, 70 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU02A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),c,(s),80%
+#ig
+
+#show
+
+// ISAKI_A201KN
+#sp,vo,04010662
+勇樹
+「……ふぅ」
+$k
+
+#hide
+
+#sp,se,T_konkon
+
+#wait,1000
+
+// 	WaitSE();
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+#sp,vo,04010663
+勇樹
+「ぁ…」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+// 	SV( BG_GK_KYOSHITSU02A );
+
+#sp,bgm,BGM_SABISHII
+
+//	SetObject( 0, "sakurako.png", 0, 0 );
+//	ZoomStand( CENTERLEFT, 0, 100, 100 );
+
+//	WT( 100 );
+// 	SS( RIGHTRIGHT, SAKURAKO_0203NO3, MOVE_RIGHT, SLOW );
+
+// ISAKI_0201MU
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),r2,(al),100%
+#ig
+
+#sp,vo,04010664
+勇樹
+「…轟木………」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_KAWARA02A );
+
+// 	SS_( RIGHT, SAKURAKO_0203FK );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KAWARA02A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK.png,(x),r2,(s),60%
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),l2,(s),60%
+#ig
+
+//	SS_( LEFT, ISAKI_0201MU );
+//	SS( RIGHT, SAKURAKO_0203FK );
+// 	SetObject( 0, "ISAKI15_KENKA.png", 0, 0, OBJATTR_TOP );
+
+#show
+
+// ISAKI_0201MU
+
+#sp,vo,04010665
+勇樹
+「こんなところまで連れてきて何の用だ？
+　私は優を待っていたんだぞ、早くしてくれ」
+$k
+
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),l2,(s),60%
+#ig
+
+// ISAKI_0201KN
+
+#sp,vo,04010666
+勇樹
+「戻ってきて私が居なくなっていたら、
+　あいつが可哀相だろう」
+$k
+
+// SAKURAKO_0203FK2
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000166
+桜子
+「…随分と優想いなのね？」
+$k
+
+// ISAKI_0201IK
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04010667
+勇樹
+「……何が言いたい」
+$k
+
+// SAKURAKO_0203AK
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03AK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000167
+桜子
+「…優が可哀相だから…」
+$k
+
+// 	SS_( RIGHT, SAKURAKO_0203IK, MOVE_RIGHT, NORMAL );
+
+#ir,(sync),NO
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK.png,(x),r2,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r
+#ig
+
+#sp,se,S_Land01
+
+// SAKURAKO_0203IK
+#sp,vo,04000168
+桜子
+「優が可哀相だからヤったっての！？」
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04010668
+勇樹
+「…………そういう話か」
+$k
+
+// SAKURAKO_0203IK
+#sp,vo,04000169
+桜子
+「っ…！
+　それが、あんたの責任の取り方だって言うのっ！？」
+$k
+
+// SAKURAKO_0203FK2
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000170
+桜子
+「別にあんたたちがヤった事に対して、
+　どうこう言うつもりなんかないわよ。
+　だけどね！！」
+$k
+
+// SAKURAKO_0203AK
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000171
+桜子
+「好きだとも言ってないくせに、
+　いったいあんたは何考えてるのよ！」
+$k
+
+// ISAKI_0201AZ
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04010669
+勇樹
+「…………お前が、責任を取れと言ったからだ」
+$k
+
+// SAKURAKO_0203IK2
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000172
+桜子
+「だから？
+　だから好きかどうかもわからないのに
+　簡単にヤったっての？」
+$k
+
+// 	SS_( LEFT, ISAKI_0201MU, MOVE_LEFT, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+// ISAKI_0201IK3
+#ir,(sync),NO
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK3.png,(x),l2,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l
+#ig
+
+#sp,se,S_Land01
+
+#sp,vo,04010670
+勇樹
+「簡単なんかじゃない！！」
+$k
+
+// SAKURAKO_0203IK
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000173
+桜子
+「じゃあ、何よ！　何でよ！」
+$k
+
+// ISAKI_0201KN
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010671
+勇樹
+「……優が、あいつが……望んだからだ」
+$k
+
+// SAKURAKO_0203IK2
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000174
+桜子
+「はぁぁぁぁ？　じゃあ、何？
+　勇樹は優が死ねって言ったら死ぬわけ？
+　そんな自分の意思のないヤツだったわけ？」
+$k
+
+// ISAKI_0201AZ
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010672
+勇樹
+「違う！　私はあいつから逃げたくないから……
+　だから、あいつの望みを叶えてやるんだ！」
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010673
+勇樹
+「あいつに頼るなんて軟弱な真似はできない。
+　けど…優の望みを叶えて、優を支えていくなら…」
+$k
+
+// ISAKI_0201IK3
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010674
+勇樹
+「それなら私は、強い私のままでいられるんだ！」
+$k
+
+// SAKURAKO_0203IK2
+#sp,vo,04000175
+桜子
+「それが勘違いだって言ってるのよ、
+　このわからずや！」
+$k
+
+//	ZoomStand( RIGHT, 10|SPEED_DOWN, 70, 70 );
+// 	MoveStand( RIGHT, 10|SPEED_DOWN, -300, 20 );
+
+//	FadeStand( RIGHT, 20|SPEED_DOWN, FADE_ALPHA, 0 );
+// 	WaitStand( RIGHT );
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c
+#ig
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),S_Punch05
+
+// 	SK2( NORMAL );
+// 	ShakeStand( LEFT, 50, SHAKE_LEFT, 5, 10 );
+// 	MoveStand( LEFT,30|SPEED_DOWN, -100, 0 );
+
+// ISAKI_0202IK
+#ir
+#ip,c3,(fi),ISAKI_A202.png,(psi),ISAKI_An02IK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04010675
+勇樹
+「やったな……お前に何がわかる！！」
+$k
+
+#hide
+
+// 	Flash( 80, 100, 0 );
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch05
+
+#ir,(dr),500
+#ie,c1,c3,ov
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),T_battle01
+
+#wait,300
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#wait,300
+
+//	SV( BG_MT_KAWARA02A );
+// 立ち絵移動消える。パラメータは適宜。
+
+// 	FlashIn( FAST );
+// 	Flash( 50, 0 );
+// 	SV( BG_MT_KAWARA02A );
+
+// 	ZoomCrossFade( NORMAL, 130, 130, 400, 300, 130, 130,400, 300 );
+
+
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4,  );
+// 	SS( RIGHT, SAKURAKO_0203IK2, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#show
+
+// SAKURAKO_0203IK2
+
+#sp,vo,04000176
+桜子
+「優のことが好きなんでしょ！
+　だったらそう言えばいいじゃない！」
+$k
+
+//	RadialLine( 1, 20, 800, 300, 400, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_UP, 140, 140, 800, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+// 	SS( LEFT, ISAKI_0201IK3, MOVE_RIGHT );
+
+// ISAKI_0201IK3
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK3.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l,(al),100%
+#ig
+
+#sp,vo,04010676
+勇樹
+「そんな軟弱な事が言えるか！
+　私は……優がいないと生きていけないような
+　弱い人間じゃない！」
+$k
+
+//	RadialLine( 0 );
+//	RadialLine( 1, 30, 0, 500, 550, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_DOWN, 130, 130, 0, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+// ISAKI_0201AZ
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010677
+勇樹
+「私は強くないといけないんだ！」
+$k
+
+//	SK2( NORMAL, 7 );
+// SAKURAKO_0203IK
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000177
+桜子
+「強い、弱いって…バカじゃないの！？
+　そんなんで本当に優が喜ぶとでも思ってんの！」
+$k
+
+//	RadialLine( 0 );
+//	RadialLine( 1, 20, 800, 300, 400, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_UP, 140, 140, 800, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+// ISAKI_0201IK3
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010678
+勇樹
+「現にあいつはあんなに喜んでたじゃないか！」
+$k
+
+//	RadialLine( 0 );
+//	WT( 20 );
+//	RadialLine( 1, 30, 0, 500, 600, 800, 20, 100, 100, 255, 255, 255 );
+// 	Zoom( 10|SPEED_DOWN, 130, 130, 0, 300 );
+
+// 	WaitZoom();
+
+// 	SK2( NORMAL, 7 );
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),S_Punch01
+
+// SAKURAKO_0203IK2
+
+#sp,vo,04000178
+桜子
+「それが勘違いだって言ってんのよ！」
+$k
+
+//	RadialLine( 0 );
+//	WT( 10 );
+//	RadialLine( 1, 20, 800, 300, 400, 800, 20, 100, 100, 255, 255, 255 );
+// 	Zoom( 10|SPEED_UP, 140, 140, 800, 300 );
+
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Punch04
+
+//	SW();
+// ISAKI_0201IK3
+#sp,vo,04010679
+勇樹
+「何が勘違いだって言うんだ！？」
+$k
+
+#hide
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),T_battle01
+
+#ir,(dr),500
+#ie,c1,c3,ov
+#ig
+
+#wait,100
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig
+
+#wait,300
+
+//	RadialLine( 0 );
+// 	Zoom( 10|SPEED_UP, 100, 100, 400, 300 );
+
+//	SV( BG_MT_KAWARA02A );
+// 	ZoomCrossFade( NORMAL, 130, 130, 400, 300, 130, 130,400, 300 );
+
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SV( BG_MT_KAWARA02A );
+// 	ZoomCrossFade( NORMAL, 130, 130, 400, 300, 130, 130,400, 300 );
+
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+// 	SK2( NORMAL, 6, 4, 1 );
+
+//	RadialLine( 0 );
+//	WT( 20 );
+//	RadialLine( 1, 30, 0, 500, 600, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_DOWN, 130, 130, 0, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+
+// 	SS( RIGHT, SAKURAKO_0203FK2, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#show
+
+// SAKURAKO_0203FK2
+
+#sp,vo,04000179
+桜子
+「結局逃げてるだけじゃない、それって。
+$nw,2730
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),r,(s),60%
+#ig
+
+　なんで優とちゃんと向き合えないの！」
+$k
+
+#next,04isaki15_02

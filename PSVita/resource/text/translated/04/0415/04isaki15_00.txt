@@ -1,0 +1,657 @@
+﻿// 既読フラグ
+#read_flag,235
+
+// セーブタイトル
+#flag,save_title,勇樹　第１５話,0,0
+
+// 	SV( BG_GK_ROKA01B );
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01B.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第１５話　彼女たちのやり方
+$k
+#note,erase
+
+#show
+
+//&empty
+//翌朝、勇樹は仕度があるからと言って、
+//一旦、ハッピーシ～サ～に戻った。
+//$k
+
+&empty
+翌朝。
+$k
+
+//&empty
+//昨日の今日で、なんとなく顔を合わせるのが
+//照れくさくて、結局、別々に登校した。
+//$k
+
+&empty
+昨日の今日で、なんとなく顔を合わせるのが
+照れくさくて、勇樹とは別々に登校した。
+$k
+
+//&empty
+//だけど、昨夜の事を思い出すと、
+//それだけでにやにやが止まらない。
+//$k
+
+&empty
+……とにかく、にやにやが止まらない。
+$k
+
+&empty
+やっと……やっと、勇樹を掴まえられた。
+$k
+
+&empty
+勇樹はいつだって遠くへ行ってしまいそうだし、
+付き合っている実感もほとんど無かった。
+$k
+
+&empty
+でも、これからはもう大丈夫なんだ。
+$k
+
+優
+「幸せだなぁ……」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Binta01
+
+// 	SK2( NORMAL );
+
+// SAKURAKO_0202AK
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000150
+桜子
+「なーにをだらしのない顔してるのよ。
+　しゃきっとしなさいよね、しゃきっと！」
+$k
+
+// 	SS( CENTER, SAKURAKO_0202AK, MOVE_RIGHT );
+
+優
+「痛ぇなぁ。だからっていきなり叩くなよ」
+$k
+
+// SAKURAKO_0202NR
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000151
+桜子
+「どうでもいいけど、そのにやけ顔、
+　だらしないっていうより、気持ち悪いから」
+$k
+
+優
+「うっ」
+$k
+
+&empty
+そこまで言う事ないんじゃないか。
+$k
+
+&empty
+一瞬、深く傷ついたが、それでもつい頬が
+緩んでしまうのを止められない。
+$k
+
+優
+「まあ、なんとでも言え。
+　今日から俺は変わったんだ」
+$k
+
+// SAKURAKO_0202IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000152
+桜子
+「はあ？」
+$k
+
+&empty
+桜子が怪訝そうな表情で
+俺の顔をまじまじと見る。
+$k
+
+優
+「今ならなんだって出来そうな気がするぞ！
+　しかもいい天気だし！
+　空だって飛べそうだぜ！」
+$k
+
+// SAKURAKO_0201KN
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000153
+桜子
+「……嫌になるほど曇り空だけど」
+$k
+
+&empty
+いいんだよ、俺の中では青空なんだから。
+$k
+
+// SAKURAKO_0202IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000154
+桜子
+「なに浮かれてるのか知らないけど、
+　あんた受験生なんだから、真面目に
+　勉強しなさいよね」
+$k
+
+優
+「あ、それなら問題ない。
+　今の俺なら余裕だね、軽い軽い！」
+$k
+
+&empty
+仲直りしたんだ。
+$k
+
+&empty
+これからは勇樹と一緒に受験勉強を
+すればいい。
+$k
+
+&empty
+そう思っただけで、心が晴れやかになって
+どんな難問でもすらすら解けてしまいそうな
+気がしてくる。
+$k
+
+// SAKURAKO_0202IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000155
+桜子
+「はぁぁぁ？」
+$k
+
+優
+「あ、そういえば勇樹のヤツ、遅いなー。
+　もうすぐ授業始まっちまうぞ？」
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000156
+桜子
+「勇樹？
+　…あんたたち仲直りしたの？」
+$k
+
+&empty
+桜子がますます不審そうな顔になる。
+$k
+
+&empty
+そういえば、こいつも勇樹となにか揉めてたよな。
+$k
+
+&empty
+たぶんだけど、俺達のことを
+心配してたんじゃないだろうか。
+$k
+
+&empty
+だったら安心させてやらないとな。
+$k
+
+優
+「ああっ、もうばっちりだ！
+　なにせ、勇樹、優と呼び合うスイートな仲だからな」
+$k
+
+// SAKURAKO_0203FK2
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000157
+桜子
+「ふ～ん…そう……。
+$nw,3170
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KB.png,(x),c,(s),60%
+#ig
+
+　好きとでも言われた？」
+$k
+
+優
+「いや、それはまだだけど……」
+$k
+
+&empty
+でも、あれは告白されたも同然だよな？
+いや、それ以上だと言っても過言ではない。
+$k
+
+// SAKURAKO_0202IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000158
+桜子
+「なにそれ？
+　じゃあ、ダメじゃない」
+$k
+
+優
+「なんだよお前、妬いてるのか？
+　チッチッ、だめだぞ、俺はもう勇樹一筋だからな」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),80%
+#ig,(se),S_Punch04
+
+// 	SK2( NORMAL, 5, 10 );
+// 	MoveStand( CENTER, 10|SPEED_DOWN, 0, 40 );
+// 	WaitMoveStand( CENTER );
+
+//	ZoomStand( CENTER, 10|SPEED_UP, 150, 150 );
+
+// 	MoveStand( CENTER, 20|SPEED_UP, 0, 0 );
+
+// SAKURAKO_A203IK3
+#sp,vo,04000159
+桜子
+「そういう事、言ってるんじゃないわよ、馬鹿」
+$k
+
+//	ZoomStand( CENTER, 30|SPEED_DOWN, 100, 100 );
+
+優
+「ててて、軽いジョークだろっ」
+$k
+
+&empty
+重いボディーブローで返す事はないじゃんか。
+$k
+
+&empty
+でもまあ、今の俺には
+大したダメージは与えられないがな！
+$k
+
+// 	SS( CENTER, SAKURAKO_0203FK, MOVE_STOP, NORMAL );
+
+// SAKURAKO_0203FK
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000160
+桜子
+「勇樹……ねぇ」
+$k
+
+優
+「俺が勇樹を名前で呼んじゃいけないのか？」
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000161
+桜子
+「いけなくはないわよ」
+$k
+
+&empty
+そう言うわりには桜子の表情は妙に不機嫌そうだ。
+なんだというんだ？
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+と、勇樹がようやく来たか。
+$k
+
+&empty
+な、なんて声をかけたらいいんだろう？
+普通でいいんだよな？
+$k
+
+優
+「お、おはよう！　勇樹！」
+$k
+
+//	DS( CENTER );
+//	SS( CENTER, ISAKI_0202KT );
+// ISAKI_0202NO
+#ir
+#ip,c3,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010653
+勇樹
+「……ああ、おはよう」
+$k
+
+優
+「あ、あのさ……今日も俺の部屋で一緒に
+　勉強しないか？」
+$k
+
+// ISAKI_0202MU
+#ir
+#ip,c3,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010654
+勇樹
+「……そうだな。優がそう言うなら」
+$k
+
+&empty
+勇樹もなんだか様子がおかしいような気がする。
+$k
+
+&empty
+でも、昨日いろいろあったから、きっと
+疲れているだけだろう、うん。
+$k
+
+// 	SS( RIGHT, SAKURAKO_0202NO3, MOVE_STOP, NORMAL );
+
+// SAKURAKO_0202NO3
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO3.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ip,c3,(x),l
+#ig
+
+#sp,vo,04000162
+桜子
+「おはよう、勇樹。
+　優と仲直りしたみたいね？」
+$k
+
+// ISAKI_0201KB
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010655
+勇樹
+「っ……」
+$k
+
+&empty
+ん？
+$k
+
+// ISAKI_0201KS
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01KS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010656
+勇樹
+「…ああ、もう大丈夫だから、
+　お前は心配するな」
+$k
+
+&empty
+なんだろう？
+勇樹、今、桜子から目を逸らさなかったか？
+$k
+
+// 	BGMStop();
+
+#ss,bgm,(dr),1000
+
+// SAKURAKO_0202IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000163
+桜子
+「……っ！！」
+$k
+
+// SAKURAKO_0203IK
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000164
+桜子
+「勇樹、あんたっ！！」
+$k
+
+優
+「おいおい、どうしたんだよ、桜子？」
+$k
+
+// SAKURAKO_0203NK2
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000165
+桜子
+「～～～～～～～～っっ！！」
+$k
+
+//	ZoomStand( RIGHT, 50, 50, 50 );
+//	FadeStand( RIGHT, 10, FADE_ALPHA, 0 );
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r2,(al),0%
+#ig
+
+&empty
+勇樹をすごい顔で睨んだかと思うと、
+桜子は俺の方を見ないまま、
+ありえないスピードで走り去ってしまった。
+$k
+
+&empty
+なんだったんだろう、いったい。
+$k
+
+// ISAKI_0201NO
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010657
+勇樹
+「……優」
+$k
+
+優
+「どうした？」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c
+#ig
+
+// ISAKI_0202NO
+#ir
+#ip,c3,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010658
+勇樹
+「お前は、私がいないとダメなんだよな」
+$k
+
+優
+「わかりきった事を聞くなよ」
+$k
+
+&empty
+勇樹にまた避けられた時に確信した。
+俺はもう勇樹なしの生活には耐えられない。
+$k
+
+// ISAKI_0202KS
+#ir
+#ip,c3,(fi),ISAKI_A202.png,(psi),ISAKI_An02KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010659
+勇樹
+「安心しろ。もうお前から逃げないから」
+$k
+
+優
+「ありがとう」
+$k
+
+// 	SS( CENTER, ISAKI_A202KS, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c3,(s),80%,(x),c
+#ig
+
+&empty
+そっと手をつないで、一緒に教室に入る。
+$k
+
+&empty
+勇樹の手は相変わらず氷のように冷たかった。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Chime01
+
+// 	WaitSE();
+
+// 	SV( BG_GK_KYOSHITSU02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU02A.jpg,(s),100%
+#ig
+
+#sp,bgm,BGM_NONBIRI
+
+#show
+
+&empty
+さて、これで今日の授業は終わり。
+帰って勇樹と二人きりになれる時間だ。
+$k
+
+// 	SS( CENTER, ISAKI_0202NO, MOVE_RIGHT );
+
+// ISAKI_0202NO
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,04010660
+勇樹
+「帰るか、優」
+$k
+
+優
+「ああ。
+　あ、悪い。ちょっとその前にトイレ」
+$k
+
+// ISAKI_0202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010661
+勇樹
+「わかった。待ってる」
+$k
+
+優
+「おう」
+$k
+
+// 	SV( BG_GK_ROKA02A );
+
+#sp,se,S_Dash02o
+
+#ir,(dr),500
+#ip,bg,(fi),BG_GK_ROKA02A.jpg,(s),100%
+#ig
+
+&empty
+勇樹に軽く手を振って、
+それに勇樹が手を振り返してくれるのを
+見ながら廊下に出る。
+$k
+
+&empty
+くぅ～、やっぱいいなぁ、こういうの。
+$k
+
+&empty
+付き合ってるって、こういうのだよなぁ。
+恋人同士って感じがひしひしする。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+#next,04isaki15_01

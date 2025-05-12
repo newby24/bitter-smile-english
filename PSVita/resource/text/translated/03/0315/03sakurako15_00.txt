@@ -1,0 +1,934 @@
+﻿// 既読フラグ
+#read_flag,302
+
+// セーブタイトル
+#flag,save_title,桜子　第１５話,0,0
+
+// 	SV( BG_SJ_TENNAI02A );
+// 	SS_( RIGHT, MII_A401KY2 
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI02A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第１５話　ウキウキウォッチング
+$k
+#note,erase
+
+// 	SS( LEFT, CHISEKA_A401KN );
+
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),r,(s),80%
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),l,(s),80%
+#ig
+
+#show
+
+// CHISEKA_A401KN
+#sp,vo,03040137
+知世翔
+「……はあーっ」
+#meffect,flow,5
+$k
+
+// MII_A401KY2
+#sp,vo,03030122
+みい
+「どうしたんですか、知世翔さん。
+　そんな深いため息なんて吐いて」
+$k
+
+// CHISEKA_A401KN
+#sp,vo,03040138
+知世翔
+「…んーっ」
+$k
+
+// CHISEKA_A401TR3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040139
+知世翔
+「あんなんで良かったのかなー、って」
+$k
+
+// MII_A401KY2
+#sp,vo,03030123
+みい
+「なにがです？」
+$k
+
+// CHISEKA_A401SN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01SN.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040140
+知世翔
+「桜子先輩」
+$k
+
+// MII_A403NO
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030124
+みい
+「ああ、あの隠れバカップル
+$nw,1200
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),l,(s),80%
+#ig
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NK4.png,(x),r,(s),80%
+#ig,(se),S_Binta02
+
+　…あいた！」
+
+$k
+
+// 	SS_( LEFT, CHISEKA_A401IK );
+// 	CS( LEFT, CENTER );
+// 	SetActionBuru( RIGHT )
+// 	CS_( CENTER, LEFT );
+// 	SS( RIGHT, MII_A403NK4 );
+
+// MII_A403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030125
+みい
+「……今のでこピン、痛かったですよ？」
+$k
+
+// CHISEKA_A401KN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040141
+知世翔
+「はああぁ、あんなふにゃふにゃした先輩
+　見たくなかったなー私」
+$k
+
+// MII_A401KY2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030126
+みい
+「ああ…」
+#meffect,flow,5
+$k
+
+// MII_A401NO
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030127
+みい
+「まあ、世の中そんなものですよ」
+$k
+
+// MII_A401NO
+#sp,vo,03030128
+みい
+「私たちもいつかは、
+　ああなってしまう事があるかも、ですね」
+$k
+
+// CHISEKA_A401KM3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040142
+知世翔
+「うわあ、あまり考えたくないなあ…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SetSubTitle();		//章タイトル表示
+// 	SV( BG_SJ_YU03A );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+１月も後半となり、受験も間近に迫ってきていた。
+$k
+
+&empty
+桜子は少し前に一次を受けに行き、今は結果待ち。
+$k
+
+// SAKURAKO_0402NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000700
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+部屋で桜子と勉強していても、
+甘い雰囲気は大分減っていた。
+$k
+
+&empty
+これが受験生のあるべき姿。
+$k
+
+&empty
+ちゃんと勉強しないと。
+$k
+
+&empty
+だけど……頭では分かっていても、
+$k
+
+&empty
+気になる。
+$k
+
+&empty
+手や唇があんなに柔らかいのだから、
+太股や腰はもっと柔らかいんだろうなあ…。
+$k
+
+// 	SS( CENTER, SAKURAKO_A402KM2 );
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000701
+桜子
+「…視線、気になるんだけど」
+$k
+
+優
+「あ……悪い」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000702
+桜子
+「どこ見てるのよ。
+　ちゃんと集中しなきゃダメじゃない」
+$k
+
+優
+「お、おう」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000703
+桜子
+「はあ…」
+#meffect,flow,5
+$k
+
+&empty
+軽く俺を睨み、英和辞書をぱらぱら捲る桜子。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　めく
+
+$k
+
+// SAKURAKO_A402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000704
+桜子
+「この熟語は…ええと……」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+悪いとは分かっていても、気になるんだよ。
+$k
+
+&empty
+視線が桜子の太股に落ちていく。
+$k
+
+&empty
+……ちら。
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「！？」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_0402NO
+#sp,vo,03000705
+桜子
+「これでいいのかしら……」
+$k
+
+&empty
+ぐぐ………見えてますよ？
+#meffect,flow,5
+$k
+
+&empty
+無自覚？　無自覚ですか、桜子さん？
+そのようなチラリズムで、
+俺を誘っているわけではないですよね？
+$k
+
+&empty
+違いますよね？
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000706
+桜子
+「うーん……」
+#meffect,flow,5
+$k
+
+&empty
+しかもパンツが見えた状態で
+太股を擦り合わせるように動かすとか…
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000707
+桜子
+「あ、やっぱりこれで合ってたんだ」
+$k
+
+&empty
+だめだ………忘れろ。
+$k
+
+&empty
+雑念を消し去れ、俺！
+#mlarge
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03A );
+// 	SS( CENTER, SAKURAKO_A401NO );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+// SAKURAKO_A401NO
+#sp,vo,03000708
+桜子
+「んー？」
+$k
+
+優
+「……ん？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000709
+桜子
+「どうしたのよ優」
+$k
+
+優
+「…なにが？」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000710
+桜子
+「さっきから全然進んでないわよ？」
+$k
+
+優
+「いや、それは…」
+$k
+
+// SAKURAKO_A402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000711
+桜子
+「なに？　分からないとこでもあるの？」
+$k
+
+優
+「あ、ああ……
+$nw,1000
+
+　まあな、ここがちょっと…」
+$k
+
+// SAKURAKO_A401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000712
+桜子
+「うん？　どれどれ…」
+$k
+
+#sp,se,S_Nuno06
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),r0,(al),0%
+#ig
+
+// 	WaitSE( -1 );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「っ！」
+$k
+
+&empty
+俺と肩がぶつかるのも構わず、
+桜子は俺の横にぴったりとくっ付き、
+ノートと参考書を交互に見比べている。
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000713
+桜子
+「あー、ここはね、本当は人称代名詞を使うか…」
+$k
+
+&empty
+俺のすぐ目の前に桜子の頭のつむじが見える。
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+視界の邪魔になるのか、髪の毛を後ろに
+流す仕草をすると、白い首筋や髪の毛に隠れていた
+耳なんかも近くに見て捉える事ができる。
+$k
+
+&empty
+おまけに……いい匂いまでしやがる。
+$k
+
+// SAKURAKO_A402NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000714
+桜子
+「ここはｂｅ動詞だから『～だ』で、
+　次の……
+$nw,5490
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),100%
+#ig
+
+　優、ちゃんと聞いてる？」
+$k
+
+優
+「えっ？　…ああ聞いてるよ。うん」
+$k
+
+&empty
+こんなすぐに肩を抱ける距離に居るのに。
+$k
+
+&empty
+桜子は気にならないのかな…。
+一人、次の精神的ステップに行っちまったのか？
+$k
+
+// SAKURAKO_0402NR
+#sp,vo,03000715
+桜子
+「ほんとにー？」
+$k
+
+優
+「ああ、でも…ちょっと、
+　集中力落ちてきたかなーって…」
+$k
+
+&empty
+いや、俺が気にしすぎなだけか。
+$k
+
+// SAKURAKO_0402KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000716
+桜子
+「……んー、そうね」
+$k
+
+&empty
+言いつつ、桜子は俺の目の前で
+前に上にと、両手を付き出し伸びをする。
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000717
+桜子
+「ちょっと疲れたし、一旦休憩入れようかー？
+$nw,3990
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),100%
+#ig
+
+　う……うーんっ」
+$k
+
+&empty
+服の上からでも、それなりの大きさとはいえ、
+ちゃんと分かる胸の膨らみが、
+伸びに合わせて、よりその形を主張する。
+$k
+
+&empty
+……意外とあるんじゃないか？
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000718
+桜子
+「じゃあさ、あたしコーヒーでも入れてこようか？」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+&empty
+伸びをしたまま仰向けで倒れていた桜子は、
+立ち上がろうとごろんと回り…
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000719
+桜子
+「んしょっと…」
+#meffect,flow,5
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+俺に背を向ける格好で、四つん這いになる。
+$k
+
+&empty
+そのくびれ、曲線はスカートの裾から覗く、
+白い太腿へと繋がっており、とても……とても…。
+$k
+
+&empty
+……俺を誘っていた。
+$k
+
+#ss,bgm
+優
+「な、なあ、……桜子ぉ」
+$k
+
+/ 	SS_( CENTER, SAKURAKO_A401NO, MOVE_RIGHT, SLOW );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A401NO
+#sp,vo,03000720
+桜子
+「え？
+$nw,1200
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+　……っ！？」
+$k
+
+// SAKURAKO_A401NK4
+#sp,vo,03000721
+桜子
+「ち、ちょっと、なんでこっち来るのよ？
+$nw,4180
+
+　優、目がヤバイんだけど……
+$nw,2970
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+　だ、だめだって」
+$k
+
+優
+「そろそろ鉄壁の理性も限界近い…かな、と」
+$k
+
+#sp,se,S_Catch01
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+&empty
+桜子の手をそっと俺の手で包む。
+$k
+
+&empty
+もうこのドキドキ無しには、
+生きていけないのかも知れない…。
+$k
+
+// SAKURAKO_A402AS
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000722
+桜子
+「だっだめだって！　もう！
+$nw,3000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+　あたし達、受験生なのよ！？」
+$k
+
+優
+「でもちょっとだけ……いいだろ？」
+$k
+
+// SAKURAKO_A401KN
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000723
+桜子
+「………………」
+#meffect,flow,5
+$k
+
+優
+「……ちょっとだけだからさ…」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000724
+桜子
+「……うっ」
+#meffect,flow,5
+$k
+
+優
+「…なあ？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A401TR
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000725
+桜子
+「……もうっ」
+$k
+
+// SAKURAKO_A401TR
+#sp,vo,03000726
+桜子
+「じゃあ、ホントに、キスだけね？」
+$k
+
+優
+「う……うんうん！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+桜子に近づくと、
+息づかいまで聞こえてきそうだった。
+$k
+
+&empty
+恥ずかしそうに、ちょっと反らされた体…。
+その仕草がたまらない。
+$k
+
+&empty
+更に近づくと、びっくりしたように俺を見た。
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),100%
+#ig
+
+// SAKURAKO_0401TR
+#sp,vo,03000727
+桜子
+「やだ……
+$nw,900
+
+　ち、近いわよ…」
+$k
+
+&empty
+なんて可愛いんだ。
+$k
+
+優
+「そりゃあ…」
+#meffect,flow,5
+$k
+
+&empty
+真っ赤になった頬は、少女そのもので、
+視界がグラグラするほど魅力的で。
+$k
+
+優
+「これからキス、するんだから。
+　近づかないとさ…」
+$k
+
+&empty
+キスしたい、俺の桜子とキスしたい…。
+$k
+
+&empty
+頭の中は、ただそれしかなかった。
+$k
+
+// SAKURAKO_0403NK2
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NK2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000728
+桜子
+「キ、キスっ、
+$nw,2000
+
+　……～っ！」
+$k
+
+&empty
+許可をもらった俺はもちろん、
+桜子に、念願である久々のキスをする。
+$k
+
+#hide
+
+// 	SV( VISUAL_SAKURAKO_H01B );
+
+#sp,bgm,BGM_H2
+
+#flag,cg,48,=,1
+
+#ir,(dr),2000
+#ip,bg,(fi),VISUAL_SAKURAKO_H01B.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,03000729
+桜子
+「んんっ……」
+#meffect,flow,5
+$k
+
+// 追加。
+優
+「…………」
+$k
+
+&empty
+………………
+$k
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#hide
+
+#ss,bgm,(dr),1000
+
+#wait,2000
+
+#sp,se,T_kisimu
+
+#wait,1000
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,500
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),80%
+#ig
+
+
+#next,03sakurako15_08

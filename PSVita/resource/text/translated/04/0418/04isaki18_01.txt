@@ -1,0 +1,770 @@
+﻿// 既読フラグ
+#read_flag,246
+
+#show
+
+// SAKURAKO_0402IK7
+#sp,vo,04000227
+桜子
+「お帰り」
+$k
+
+優
+「うわぁぁぁぁっ！
+　桜子、お前何時だと思ってるんだよ！！」
+$k
+
+&empty
+明りが付いた部屋の中、
+桜子が顔を引きつらせていた。
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000228
+桜子
+「それはこっちのセリフよ」
+$k
+
+優
+「……もしかして、ずっと待ってた？」
+$k
+
+// SAKURAKO_0402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000229
+桜子
+「まあね」
+$k
+
+優
+「なんでだよ」
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000230
+桜子
+「どうしても、やらなきゃいけない事が
+　あったからよ！」
+$k
+
+&empty
+きっと、桜子が俺を睨みつけた。
+$k
+
+#hide
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),c,(s),80%
+#ig
+
+#wait,500
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),T_Binta01
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+//	ZoomStand( CENTER, 20|SPEED_UP, 140, 140 );
+// 	SS( CENTER, SAKURAKO_A402IK8 );
+
+// 	SK2( NORMAL );
+
+#show
+
+&empty
+次の瞬間、右頬に激しい痛みが走って、
+俺は後ろに数歩よろけた。
+$k
+
+&empty
+強烈な平手打ちだった。
+$k
+
+優
+「いきなり何するんだよ！！」
+$k
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000231
+桜子
+「これは勇樹からよ」
+$k
+
+優
+「は？」
+$k
+
+&empty
+なんでそこで勇樹が出てくるんだ？
+$k
+
+// SAKURAKO_A402IK8
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000232
+桜子
+「…ったく、何から何までめんどくさいのよ、
+　あんたたちはぁ」
+$k
+
+優
+「どういう事だよ」
+$k
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000233
+桜子
+「いいから黙って聞きなさい」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_CIRCLE, SLOWER );
+
+// 	SV( VISUAL_ISAKI_15A, FILTER_SEPIA|FILTER_LINKSTAND );
+
+#sp,bgm,BGM_SABISHII
+
+// 	RFI( RULE_CIRCLE, SLOWER );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),2000
+#ip,bg,(fi),VISUAL_ISAKI_15A_s.jpg,(s),75%
+#ig
+
+#wait,500
+
+#show
+
+// SAKURAKO_0101NO
+
+#sp,vo,04000234
+桜子
+「ふーん……腕の怪我が思ったよりアレで、
+　試験受けられそうにない、ね」
+$k
+
+#flag,cg,22,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_15A.jpg,(s),75%
+#ig
+
+// ISAKI_0101NO
+
+#sp,vo,04010721
+勇樹
+「運悪く、利き手をやってしまったからな。
+　ここで無理をして、後々支障が出るのはゴメンだ」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010722
+勇樹
+「それに関してはもういい。
+　きちんとリハビリをすれば問題はない。
+　…別にお前が気にする必要はないからな？」
+$k
+
+// SAKURAKO_0101NO
+
+#sp,vo,04000235
+桜子
+「そりゃどうも。
+　まあ、気にしないけどね、あたしは。
+　…で、あたしに用事ってのはそれだけ？」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010723
+勇樹
+「あの軟弱者に活を入れてやって欲しい」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000236
+桜子
+「はぁ！？　それくらい自分でやったら……」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000237
+桜子
+「って、ああ、その腕じゃ無理かぁ」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010724
+勇樹
+「そういう事だ。
+　私が受験をやめると言い出したせいだろうが、
+　なぜあの馬鹿までやめるんだ」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000238
+桜子
+「どっちかっていうと、別れようって
+　言われた事の方が原因だと思うけど」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010725
+勇樹
+「…………あの軟弱者が」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000239
+桜子
+「はぁ…あんたさー、優の事振ったんでしょ？
+　だったら、放っときゃいいじゃない」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010726
+勇樹
+「そんな無責任な事が出来るか」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000240
+桜子
+「ふーん……一応、まだ責任とるつもりは
+　あったわけね」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010727
+勇樹
+「どういう意味だ？」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000241
+桜子
+「どういうも何も、そういう意味よ」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000242
+桜子
+「ま、あんたからの頼み事なんて珍しいしね。
+　どういう風の吹き回し？」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010728
+勇樹
+「本当は頼りたくなんかない。
+　だけど……今のあいつを放っておくくらいなら
+　お前に頼んだ方がマシだ」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000243
+桜子
+「……なるほどね」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010729
+勇樹
+「こんな事、お前にしか頼めない。
+　…私と同じくらいの力であいつの頬を
+　張れるのはお前くらいだろうしな」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000244
+桜子
+「…………はぁ。
+　あのさ、結局、勇樹は優をどうしたいの？」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010730
+勇樹
+「私は、私のした事の責任を自分で取る。
+　あいつを私のせいでダメにしたくない」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000245
+桜子
+「それだけ？」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010731
+勇樹
+「……あいつにまで１人になって欲しくない」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,04000246
+桜子
+「なによ、
+$nw,1880
+
+　それって結局さ……」
+
+$k
+
+#hide
+
+#ir,(dr),2000
+#ip,bg,(fi),VISUAL_ISAKI_15A_s.jpg,(s),75%
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( VISUAL_ISAKI_15A, FILTER_SEPIA|FILTER_LINKSTAND );
+// 	RFO( RULE_CIRCLE, SLOWER );
+// 	SV( BG_SJ_YU03A,FILTER_LINKSTAND );
+// 	ShowFace();
+// 	SS( CENTER, SAKURAKO_0402NR );
+
+// 	RFI( RULE_CIRCLE, SLOWER);
+// 特殊な画面変更。暫定的に。
+//	CF();
+
+// SAKURAKO_0402NR
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,04000247
+桜子
+「後は本人にでも聞きなさいよ。
+　あたしの役目はここで終わりっ」
+$k
+
+// SAKURAKO_0403NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000248
+桜子
+「じゃね。最後に決めるのはあんただから」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+それだけ言うと桜子は部屋を出て行ってしまった。
+$k
+
+&empty
+いったい、なんだったんだ。
+$k
+
+優
+「宮津橋……いや、勇樹は……」
+$k
+
+&empty
+結局、俺の事をどう思っているんだ？
+$k
+
+&empty
+だけど、これだけは分かる。
+勇樹は俺の事を心配して、
+桜子にあんな伝言を頼んでくれた。
+$k
+
+&empty
+叩かれた頬がひりひりと痛む。
+$k
+
+優
+「……俺、１人じゃないんだよな」
+$k
+
+&empty
+勇樹や桜子に助けられて。
+めぐみや有河、みいちゃんにまで心配掛けて。
+雪華ちゃんだって口には出さないけど……。
+$k
+
+&empty
+出さないけど……。
+$k
+
+&empty
+多分、心配してくれていたとは思う。
+$k
+
+&empty
+そういうのに助けられて、俺は生きている。
+それを勇樹は弱いと言うのかもしれない。
+$k
+
+&empty
+だけど、違う。
+$k
+
+&empty
+それを、あいつにも教えてやらないと。
+今度こそ、本当に勇樹を支えてやりたい。
+$k
+
+&empty
+甘やかすんじゃない。
+寄り掛かるんでもない。
+もっと、別のちゃんとしたやり方で。
+$k
+
+優
+「……勉強、しないとな」
+$k
+
+&empty
+片付けるつもりで積んでいた参考書を、
+再び手に取った。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_MISEMAE03C );
+
+//	SFP( 0, "S_Mushi01#" );
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_MISEMAE03C.jpg,(s),100%
+#ig
+
+#show
+
+// ISAKI_0402IK
+
+#sp,vo,04010732
+勇樹
+「……どうだった？」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000249
+桜子
+「ま、灯りはついてるし、
+　勉強する気になったんじゃない」
+$k
+
+// ISAKI_0402KS
+
+#sp,vo,04010733
+勇樹
+「それなら良かった」
+$k
+
+// SAKURAKO_0403NO
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000250
+桜子
+「あ、でも、あの事は言ってないから」
+$k
+
+// ISAKI_0401IK
+
+#sp,vo,04010734
+勇樹
+「当たり前だ」
+$k
+
+// SAKURAKO_0403NO3
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000251
+桜子
+「…ちょっとは反省した？」
+$k
+
+// ISAKI_0402KT
+
+#sp,vo,04010735
+勇樹
+「なにをだ」
+$k
+
+// SAKURAKO_0403AK
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000252
+桜子
+「さっきまでの優。
+　昔のあんたと一緒よ。
+　１人で突っ走って……周りを見てない」
+$k
+
+// ISAKI_0401KN
+
+#sp,vo,04010736
+勇樹
+「…………」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000253
+桜子
+「そーゆーのってさ、周りからすると
+　きっついんだってよく分かったでしょ」
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,04010737
+勇樹
+「…………かもな」
+$k
+
+// SAKURAKO_0402KM2
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000254
+桜子
+「そんなに信じられない？」
+$k
+
+// ISAKI_0401KN
+
+#sp,vo,04010738
+勇樹
+「…………先に逃げたのは私だ」
+$k
+
+// SAKURAKO_0403NO
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000255
+桜子
+「分かってんじゃない」
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,04010739
+勇樹
+「優も自分も信じられなかった。
+　あいつ、私がいないとダメだなんて言うから、
+　私が弱くなればあいつも倒れると思った」
+$k
+
+// SAKURAKO_0403AK
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000256
+桜子
+「で、共倒れにならないために別れ話？
+　バッカじゃないの」
+$k
+
+// ISAKI_0401KS
+
+#sp,vo,04010740
+勇樹
+「…………そうかもな」
+$k
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000257
+桜子
+「あー、もう、ほんとバカ。
+　優は、そんなに弱くないわよ。
+　……あんたもね」
+$k
+
+// ISAKI_0402OD
+
+#sp,vo,04010741
+勇樹
+「そうか？」
+$k
+
+// SAKURAKO_0403BS
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000258
+桜子
+「あたしに頼ってでも優の事を
+　なんとかしようとしてくれたじゃない」
+$k
+
+// SAKURAKO_0402NO5
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000259
+桜子
+「どんな手使ったって、最終的に
+　やりたい事を出来る方が
+　強いって思わない？」
+$k
+
+// ISAKI_0402KS
+
+#sp,vo,04010742
+勇樹
+「……さあな」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000260
+桜子
+「で、どうすんの、これから？
+　ヨリ戻す？」
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,04000261
+勇樹
+「……それは…わからんな」
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000262
+桜子
+「はぁ……強情ねぇ、あんたも」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c3
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_isaki.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),30%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,04isaki19_00

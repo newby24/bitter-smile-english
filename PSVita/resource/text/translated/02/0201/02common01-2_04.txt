@@ -1,0 +1,863 @@
+﻿// 既読フラグ
+#read_flag,42
+
+優
+「ふご！」
+$k
+
+#sp,se,S_Hipparu01
+
+// 	Zoom( 50, 105, 105, 400, 600 );
+
+
+&empty
+太ももの裏を蹴られ、みいちゃんは俺の頭を掴み
+無言で土下座の指示を出す。
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+#sp,se,S_Don01
+
+#ir,(dr),500,(ef),move
+#ip,bg,(y),d_s
+#ig
+
+&empty
+指示に従う俺。
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	Zoom( 0, 400, 400, 680, 600 );
+
+#sp,vo,02030063
+みい
+「この通り、この通りですからどうか
+　機嫌を直してあげてくれませんか」
+$k
+
+&empty
+みいちゃんはくいくい、と俺を床に押し付け、
+俺も抵抗せずそれに従う。
+$k
+
+&empty
+いまいち状況について行けてないので、
+とにかくみいちゃんに合せて謝り倒す。
+$k
+
+#sp,vo,02040046
+知世翔
+「どうしたのみい。
+　あなたが謝る必要は無いじゃない」
+$k
+
+優
+「すんません！　すんません！」
+$k
+
+#sp,vo,02040047
+知世翔
+「ごめんねみい、私ちょっと
+　用事思い出しちゃったから帰らないといけないの。
+　ごちそうさまでした」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Door04o
+
+// 	//     田坂注：演出変更 -> ＢＧ：千寿店内
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01OD3.png,(x),l,(s),60%
+#ig
+
+#wait,500
+
+// 	SS( LEFT, CHISEKA_0301OD3, MOVE_RIGHT );
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(x+),50
+#ig,(se),S_Don01
+
+// 	MoveStand( LEFT, 10, 20, -5, 1 );
+// 	MoveStand( LEFT, 10, 40,  0, 1 );
+
+#show
+
+#sp,vo,02990002
+少年
+「うわわっ」
+$k
+
+// 	MoveStand( LEFT, 0, 40, 0 );
+// CHISEKA_0301OD3
+
+#sp,vo,02040048
+知世翔
+「きゃ！
+$nw,1000
+
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01TR3.png,(x),l,(s),60%
+#ig
+
+　…っと、ご、ごめんなさい」
+$k
+
+#sp,vo,02990003
+少年
+「いえっ、こちらこそすいませんでした」
+$k
+
+// CHISEKA_0301BS
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02040049
+知世翔
+「…じゃあねみい、また明日」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l2,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01AS3.png,(x),r,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c3,(x),c,(al),100%
+#ig
+
+// 	SS( CENTER, MII_0601AS3, MOVE_RIGHT );
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),360,(y),30,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+// MII_0601AS3
+
+#sp,vo,02030064
+みい
+「あ、知世翔さん、待ってくださいー」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+#sp,vo,02990004
+少年
+「あのー食べたいんですけど…もう営業してますか？」
+$k
+
+// MII_0601AS2
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01AS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030065
+みい
+「あ、ああ。
+$nw,2000
+
+#ir
+#ip,c3,(fi),MII_A602.png,(psi),MII_An02AS2.png,(x),c,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+　いらっしゃいませ。
+　はい、やってます営業中です。どうぞこちらへ…」
+$k
+
+// 	DelAction( CENTER );
+
+// 	SS( CENTER, MII_A601NI );
+
+// MII_A601NI
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01NI.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,02030066
+みい
+「お兄様！」
+#msmall
+$k
+
+優
+「は、はい！」
+#msmall
+$k
+
+// MII_A602IK
+#ir
+#ip,c3,(fi),MII_A602.png,(psi),MII_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030067
+みい
+「私は今から追いかけて
+#msmall
+　知世翔さんのフォローをしてきます。
+#msmall
+　お兄様はお客様の方をお願いいたします。
+#msmall
+$nw,6000
+
+#ir
+#ip,c3,(fi),MII_A602.png,(psi),MII_An02AS2.png,(x),c,(s),80%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,では」
+
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),0%
+#ig
+
+// 	DelAction( CENTER );
+
+優
+「お…おう、そっちはまかせた」
+#msmall
+$k
+
+&empty
+なんて事だ…。
+もしかして余計こじれた？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS( LEFT, CHISEKA_A301NO2 );
+// 	SS( RIGHT, MII_A601KD );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A601.png,(psi),MII_An01KD.png,(x),r,(s),80%
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01NO2.png,(x),l,(s),80%
+#ig
+
+#show
+
+// MII_A601KD
+#sp,vo,02030068
+みい
+「あの子…
+$nw,1200
+
+#ir
+#ip,c1,(fi),MII_A601.png,(psi),MII_An01KS.png,(x),r,(s),80%
+#ig
+
+　もとい、あのお客さん、よく食べますねえ」
+$k
+
+// CHISEKA_A301BS
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01BS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040050
+知世翔
+「…そうね、半額だし。
+　余程お腹が空いてるんじゃないかなー」
+$k
+
+// MII_A601NO
+#ir
+#ip,c1,(fi),MII_A601.png,(psi),MII_An01NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030069
+みい
+「育ち盛りの男の子っぽいですしね。
+$nw,3400
+
+#ir
+#ip,c1,(fi),MII_A601.png,(psi),MII_An01KY.png,(x),r,(s),80%
+#ig
+
+　中学生くらいでしょうか」
+$k
+
+優
+「はは…俺としてはいい練習台になってくれて
+　助かってるけどね」
+$k
+
+// CHISEKA_A301NR
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01NR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040051
+知世翔
+「…ふん」
+$k
+
+&empty
+あの後…どういう手を使ったのか、
+みいちゃんは、なんとか機嫌を直してくれたらしい
+有河と共に戻ってきた。
+$k
+
+&empty
+みいちゃんとはクラスメイトで親友らしいから
+それも可能か。
+$k
+
+&empty
+さすがに俺とはまだ会話らしい会話は
+してくれないものの、こうして食べ盛りの客の
+話題で盛り上がっている。
+$k
+
+&empty
+客一人店員一人ではなんとなく寂しかったので、
+戻ってきてくれて本当に嬉しかったりする。
+$k
+
+&empty
+なぜならば。
+$k
+
+// MII_A601KS
+#ir
+#ip,c1,(fi),MII_A601.png,(psi),MII_An01KS.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030070
+みい
+「しかしよく食べるのはいいんですがアレは
+　少し怪しすぎますね」
+$k
+
+// 	SS( LEFT, CHISEKA_A301MJ );
+
+優
+「鞄に帽子にスポーツ新聞、
+　そんなに怪しくは無いと思うんだけどね？」
+$k
+
+// MII_A602KB3
+#ir
+#ip,c1,(fi),MII_A602.png,(psi),MII_An02KB3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030071
+みい
+「おっさん以外であの組み合わせは、
+　私初めて見ますけど。
+$nw,5200
+
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03NO2.png,(x),r,(s),80%
+#ig
+
+　この辺の人ではないみたいですね」
+$k
+
+優
+「そんなもんか？」
+$k
+
+&empty
+スポーツ新聞を広げながらたこ焼きを食う
+中学生くらいの男の子。
+$k
+
+優
+「まあ、ちょっとおっさんくさいとは思うけど。
+　帽子からして浜の星ファンだな」
+$k
+
+&empty
+スポーツ新聞もファンにとっては大事な記録だから。
+新聞記事の切り抜きなんかしてても
+別に不思議な事ではない。
+$k
+
+&empty
+…問題は切り抜く場所と面積だが。
+あれはあからさまに覗き穴だよ。
+$k
+
+// CHISEKA_A301NO2
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01NO2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040052
+知世翔
+「そういえばあの子、
+　今日私がここに来る時も店の近くに居たけど…
+$nw,6600
+
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01OD3.png,(x),l,(s),80%
+#ig
+
+　そうそう、なんかきょろきょろしてたわね」
+$k
+
+優
+「食い逃げ目的とかか？」
+$k
+
+// MII_A603KD
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KD.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030072
+みい
+「いえ、それは無いかと」
+$k
+
+// CHISEKA_A301NO2
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01NO2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040053
+知世翔
+「…どうして？」
+$k
+
+// MII_A603MJ
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03MJ.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030073
+みい
+「二皿目の品を持って行った時なんですが、
+　丁度彼が財布の中の確認をしていまして。
+　その時ちらりと見ましたら、
+$nw,10400
+
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03SN.png,(x),r,(s),80%
+#ig
+
+#madd,大枚が二、三枚は」
+
+$k
+
+// CHISEKA_A301TR3
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01TR3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040054
+知世翔
+「それ家出じゃないの？」
+$k
+
+優
+「中学生くらいだろ？
+　案外ナイター目当てで遠征してきて、
+　それまでの時間つぶしかもしれないぞ？」
+$k
+
+// CHISEKA_A301NO2
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01NO2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040055
+知世翔
+「ナイター？
+$nw,2200
+
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01OD3.png,(x),l,(s),80%
+#ig
+
+#madd,…ああ、野球ね」
+
+$k
+
+// MII_A603KD
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KD.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030074
+みい
+「あ、またこっち見てますね」
+$k
+
+// CHISEKA_A301AK2
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01AK2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040056
+知世翔
+「そんなにこっちが気になるのかしら？」
+$k
+
+優
+「あー、もしかしてあれじゃねえのか？」
+$k
+
+// MII_A603KT
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KT.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030075
+みい
+「あれとは」
+$k
+
+優
+「ほら、好きな子がここに居て気になるんだけど
+　それを伝える事が出来なくて。
+　そんで、遠くから見るだけでも！　…なんてなー？」
+$k
+
+// MII_A603KB
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KB.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030076
+みい
+「お兄様、それはちょっとポエムすぎますね。
+　私あれはそういう感じとはかけ離れた
+　電波行為っぽく感じるのですけどね…」
+$k
+
+&empty
+おいおい、キミがそういう事言うのかい？
+$k
+
+// CHISEKA_A301EG2
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01EG2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040057
+知世翔
+「まーそう見れなくもない、かなー？
+　きっと、想いが先行しすぎちゃって、
+　冷静に周りが見れなくなってるのかも…」
+$k
+
+// MII_A603NO
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030077
+みい
+「ではそのターゲットはきっと知世翔さんですね」
+$k
+
+// CHISEKA_A301AS
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01AS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040058
+知世翔
+「どうしてっ！？」
+$k
+
+// MII_A603KD
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KD.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02030078
+みい
+「ほら、派手ですから、見た目が。
+$nw,3300
+
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03EG.png,(x),r,(s),80%
+#ig
+
+　一目惚れかもですね」
+$k
+
+優
+「あーなるほど」
+$k
+
+// CHISEKA_A301AS
+#sp,vo,02040059
+知世翔
+「そっ、それだったらみいの方が
+　可能性高いんじゃないの？
+$nw,4500
+
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01KN.png,(x),l,(s),80%
+#ig
+
+　どう見たってそっちの方が……あるし」
+$k
+
+// CHISEKA_A301TR3
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01TR3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040060
+知世翔
+「ほら、あの年頃の子だったら、
+　普通はまずそっちに目がいくんでしょう？」
+$k
+
+優
+「うーんまあ…でも中学生くらいだろ？」
+$k
+
+優
+「どちらかっつーと、あの子にお似合いなのは、
+　有河の方が見た目のバランス的にも
+　ピッタリの様な……」
+$k
+
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01IK.png,(x),l,(s),80%
+#ig
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch02
+
+#ir,(dr),500
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01NR.png,(x),l0,(s),60%
+#ip,c1,(fi),MII_A602.png,(psi),MII_An02AS.png,(x),r,(s),60%
+#ie,ov
+#ig
+
+// 	SS_( RIGHT, MII_A602AS );
+// 立ち絵移動。パラメータは適宜。
+
+
+// 	FL_( FAST, 100 );
+// 	Shake();
+
+優
+「げぷぉっ！」
+$k
+
+// 	FL( FAST );
+
+&empty
+顔面にパンチだと！？
+$k
+
+// MII_0602KB3
+#ir
+#ip,c1,(fi),MII_A602.png,(psi),MII_An02KB3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030079
+みい
+「……はぁ」
+$k
+
+// CHISEKA_0301IK
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01IK.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02040061
+知世翔
+「何あなた、私に喧嘩売ってるんですか？
+　全然反省して無いでしょ！」
+$k
+
+優
+「い、ってぇっ！？」
+$k
+
+// CHISEKA_0301IK2
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01IK2.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02040062
+知世翔
+「今度こそ本当に帰らせて貰いますから。
+　私あなたとは絶対に仲良く出来ないみたいです！」
+$k
+
+優
+「ええっ、……なんで！？
+　俺なにも変な事とか言ってないよな？」
+$k
+
+// CHISEKA_0301IK
+#ir
+#ip,c3,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01IK.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02040063
+知世翔
+「知りません！」
+$k
+
+#hide
+
+#sp,se,T_Door01o
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),0%
+#ig
+
+#wait,500
+
+#sp,se,T_Door01c
+
+#ir,(dr),1000
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#show
+
+#sp,vo,02040064
+知世翔
+「あーもう無理ー！」
+$k
+
+// MII_A602KB
+#ir
+#ip,c1,(fi),MII_A602.png,(psi),MII_An02KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030080
+みい
+「………」
+$k
+
+優
+「…えっと」
+$k
+
+// MII_A602KB3
+#ir
+#ip,c1,(fi),MII_A602.png,(psi),MII_An02KB3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030081
+みい
+「お兄様はアホ過ぎますね。
+　アレでは罪の上塗りですよ。
+　これでは私の信用まで落ちてしまいます…」
+$k
+
+優
+「えー、なんでよ？
+　俺、割と言葉選んで会話してたと思うんだけどさ？」
+$k
+
+// MII_A602NM2
+#ir
+#ip,c1,(fi),MII_A602.png,(psi),MII_An02NM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030082
+みい
+「…説明し辛いのでフォローも出来ないです。
+$nw,3800
+
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KB.png,(x),c,(s),80%
+#ig
+
+　きっとお兄様は寂しい老後を送るのでしょうねえ」
+
+$k
+
+//	MoveStand( RIGHT );
+優
+「そこまでの大罪なの！？」
+$k
+
+#sp,vo,02990005
+少年
+「あ、あのー。追加注文、いいですかぁ？」
+$k
+
+// MII_A603KD
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030083
+みい
+「あ、
+$nw,1000
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+　はーい！」
+
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SS( CENTER, MII_0301NI2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NI2.png,(x),c,(s),60%
+#ig
+
+#next,02common01-2_05

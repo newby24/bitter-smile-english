@@ -1,0 +1,599 @@
+﻿// 既読フラグ
+#read_flag,20
+
+優
+「さっ桜子？」
+$k
+
+優
+「どこへよ？」
+$k
+
+
+// 	FO_( SLOWER );
+
+//&empty
+//…………。
+//$k
+
+&empty
+まさか地獄へか？
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,env,S_River03#
+
+//#sp,env,S_Mushi01#
+
+// 	SV( BG_MT_KAWARA03A );
+
+// 	SS(CENTER, SAKURAKO_0302NO5);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KAWARA03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NO5.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0302NO5
+#sp,vo,01000150
+桜子
+「よし、この辺なら明るいし民家も少ないし、
+　問題ないわねっ」
+$k
+
+優
+「まさか、こんな時間からキャッチボールとか、
+　おまえ、何考えてんだよ？」
+$k
+
+&empty
+俺の部屋を強襲した桜子は
+俺にボールとグローブを持たせ、強引に外へ連れ出した。
+$k
+
+&empty
+ただいまの時刻、午前０時。
+$k
+
+// SAKURAKO_0302NO2
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000151
+桜子
+「いいじゃない、眠れないんだもの、
+　あんたもまだ起きてたでしょ、何してたのよ？」
+$k
+
+優
+「俺は暑くて眠れなかっただけだよ」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000152
+桜子
+「はあ？　今日こんなに涼しいのに？」
+$k
+
+優
+「それは……暑いもんは暑いんだよ。
+$nw,1000
+
+　あ、思い出した。あの部屋、エアコンあるけどリモコン
+　ないぞ。おまえどこに隠したんだよ！」
+$k
+
+// SAKURAKO_0302KM
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000153
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「桜子？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0302AD
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02AD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000154
+桜子
+「え？　ああ、明日持っていくから今日は我慢しなさい。
+$nw,4420
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),60%
+#ig
+
+　っていうかこんな涼しい夜に冷房なんか使うな。
+　もったいない！」
+$k
+
+優
+「…う……じゃあ、お前こそなんで眠れないんだよ」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000155
+桜子
+「……いいでしょ、そんなことっ！！」
+$k
+
+#sp,se,S_Air01
+
+#wait,500
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+//	SM( CHAR_ETC,			-1,					"",				"ばしいっ！＜ＳＥ＞" );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Bashi03
+
+優
+「わ、急に投げんな！」
+#mlarge
+$k
+
+&empty
+こんな時間こんな所で取り損なったらボールを
+見失う可能性が非常に高い。
+$k
+
+優
+「よくねえだろ、人がせっかく
+　寝る努力をしてたというのに」
+$k
+
+#sp,se,S_Swing02
+
+#wait,500
+
+#sp,se,S_Catch01
+
+#wait,500
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱす＜ＳＥ＞" );
+// SAKURAKO_0302IK5
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000156
+桜子
+「そりゃ悪うございました、
+$nw,2590
+
+#sp,se,S_Air01
+
+　ねっ！」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Bashi03
+
+//	SM( CHAR_ETC,			-1,					"",				"ひゅばすっ！＜ＳＥ＞" );
+&empty
+速えよ。
+$k
+
+優
+「あれか？　久しぶりに会った幼なじみを見て
+　ときめいちゃったとか？
+$nw,1000
+
+#sp,se,S_Swing02
+
+　おりゃっ！」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Catch01
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱすっ＜ＳＥ＞" );
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000157
+桜子
+「なんで、あたしがあんたなんかに
+　ときめかないといけないの、
+$nw,2760
+
+#sp,se,S_Air01
+
+　よっ！」
+
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Bashi03
+
+//	SM( CHAR_ETC,			-1,					"",				"びしっ！＜ＳＥ＞" );
+優
+「つれないな～。
+　いててっ、お前はじめから飛ばしすぎだよ。
+$nw,2000
+
+#sp,se,S_Swing02
+
+　もっとゆっくり投げろよなー」
+
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Catch01
+
+&empty
+こいつの投げる球、やたら重いんだよ。
+恨みでもこめてんのかぁ？
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000158
+桜子
+「あたしさ、ここ最近ちょっとイライラしてんの、
+$nw,5000
+
+#sp,se,S_Swing02
+
+　それだけよ」
+$k
+
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Bashi03
+
+&empty
+イライラかよ……。
+$nw,1000
+
+#sp,se,S_Swing02
+
+ちょっとくらいは希望残してくれてもいいのに……。
+
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Catch01
+
+// SAKURAKO_0302NR
+#sp,vo,01000159
+桜子
+「なんていうの？　胸やけみたいな感じ。
+　夜になると、
+$nw,5460
+
+#sp,se,S_Air01
+
+　ねっ」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Bashi03
+
+// 揺れ。パラメータは適宜。
+
+優
+「お前、……喰いすぎじゃねーの、
+$nw,1000
+
+#sp,se,S_Swing02
+
+　かっ？」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Catch01
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000160
+桜子
+「違うわよ、イライラの方が先だもん。
+　しばらく前からだし、
+　あんたとは全然関係ないわ、
+$nw,7910
+
+#sp,se,S_Air01
+
+#madd,よぉっ」
+
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Bashi03
+
+優
+「イライラの原因とかは心当たり無いのか？
+　婆さんと喧嘩でもしたか？」
+$k
+
+#sp,se,S_Swing02
+
+&empty
+まさか好きな奴でも出来たとか………。
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Catch01
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000161
+桜子
+「それくらいでイライラしたりしないわよ。
+　あんたこそどうなのよ？」
+$k
+
+優
+「え？　だから俺は…」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000162
+桜子
+「うそ。どうせ、やーらしい事でも考えて
+　眠れなかったんじゃ、
+$nw,5280
+
+#sp,se,S_Air01
+
+　ない、のぉ～っ！」
+$k
+
+//$nw,510
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+優
+「違えよ！
+$nw,1000
+
+#sp,se,S_Swing01
+
+　って、うわっ逃がした」
+
+$k
+
+&empty
+急な低めの軌道で取れなかった。
+つーか今、あいつフォーク投げやがったか？
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000163
+桜子
+「あーあ」
+$k
+
+#ss,env,(dr),1000
+
+#sp,se,S_Dash05o
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+急いで転がっていく球を追いかける。
+$k
+
+// 	DelStandAll();
+
+#hide
+
+#sp,env,S_River03#
+
+// #sp,env,S_Mushi01#
+
+#flag,cg,27,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_SAKURAKO_02A.jpg,(s),75%,(y),d_s
+#ig
+
+#show
+
+&empty
+ボールを拾い戻ってくると、桜子は飽きてしまったのか
+土手の草の上に腰を下ろしていた。
+$k
+
+// 	SV( VISUAL_SAKURAKO_02A );
+
+優
+「どうした、もう終わりか？」
+$k
+
+#sp,vo,01000164
+桜子
+「よく考えたらさぁ……。
+　寝る前に運動すると余計眠れなくなるよね～」
+$k
+
+優
+「おいおい、もっと始めに気付いてくれよ！」
+$k
+
+&empty
+俺も少しだけ離れた隣に腰掛けた。
+$k
+
+#sp,vo,01000165
+桜子
+「………………」
+#meffect,flow,5
+$k
+
+優
+「……………」
+#meffect,flow,5
+$k
+
+&empty
+桜子はずっと上を向いている。
+$k
+
+#sp,vo,01000166
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+たまにはこうして、黙って横に居るだけってのも
+いいもんじゃないか。なあ？
+$k
+
+&empty
+黙ってれば案外可愛いし、害もないし。
+$k
+
+#sp,vo,01000167
+桜子
+「ねえ」
+$k
+
+優
+「ん？」
+$k
+
+#sp,vo,01000168
+桜子
+「なんか……星がひとつも見えないんだけど？」
+$k
+
+優
+「え…そりゃあ、……空、曇ってるしなあ。
+　そんなこと俺に言われてもね」
+$k
+
+#sp,vo,01000169
+桜子
+「あーなんか余計イライラしてきた、雲の野郎め」
+$k
+
+優
+「しょうがねえだろ、雲に文句付けてもな？」
+$k
+
+#sp,vo,01000170
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+#hide
+
+// 	SV( BG_MT_KAWARA03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KAWARA03A.jpg,(s),100%
+#ig
+
+
+
+// SAKURAKO_0303NO3
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03NO3.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#show
+
+#sp,se,S_Za01
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+#sp,vo,01000171
+桜子
+「よし…」
+$k
+
+#next,01pro01_11

@@ -1,0 +1,836 @@
+﻿// 既読フラグ
+#read_flag,425
+
+// MII_0401BS
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030144
+みい
+「フラフープはありますか。
+$nw,2380
+
+#ir
+#ip,c2,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),l,(s),60%
+#ig
+
+　私を今熱くさせるのはあれを置いて他にありません」
+$k
+
+//	SetIconAse( RIGHT );
+// MEGUMI_0401KM3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070080
+めぐみ
+「いや～それはないけど…」
+#meffect,flow,5
+$k
+
+// MII_0401KY2
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030145
+みい
+「では、ごめんなさい」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06000147
+桜子
+「みい、お願い」
+$k
+
+// MII_0401AM
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01AM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030146
+みい
+「ふふ…気持ちいい」
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06000148
+桜子
+「うっわーひときわムカつく」
+$k
+
+#ir
+#ie,c1,c2
+#ig
+
+&empty
+さすがは、みいちゃん。
+話がまったく進まなかった。
+$k
+
+&empty
+いいから要さんの話をしてくれ、要さんの話。
+$k
+
+#sp,se,S_Knock03
+
+&empty
+と、再びドアを叩く音が聞こえてきた。
+$k
+
+// 	SS_( CENTER, SAKURAKO_0402IK3 );
+// 立ち絵移動。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),c,(al),100
+#ig
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0402IK3
+#sp,vo,06000149
+桜子
+「はい？」
+$k
+
+#sp,vo,06050075
+雪華
+「桜子ちゃん、雪華だけど…」
+$k
+
+&empty
+今度は雪華ちゃんか。
+千客万来だな。
+$k
+
+// SAKURAKO_0403NO
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000150
+桜子
+「雪華ちゃん？　どうしたの？」
+$k
+
+#sp,vo,06050076
+雪華
+「桜子ちゃんにお客さんが…
+$nw,3020
+
+　勇樹さんなんだけど」
+$k
+
+&empty
+宮津橋が！？
+$k
+
+// SAKURAKO_0403KT
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000151
+桜子
+「勇樹が？」
+$k
+
+// MEGUMI_0401KM7
+
+#sp,vo,06070081
+めぐみ
+「勇樹ちゃん？」
+$k
+
+&empty
+ふすまの向こうで、にわかに色めき立つ気配がする。
+$k
+
+&empty
+確かにそれくらいあり得ない来客ではあった。
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000152
+桜子
+「このタイミングで…」
+$k
+
+// SAKURAKO_0403KM
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000153
+桜子
+「…わかった、外に出た方がいい？」
+$k
+
+// 	SS_( LEFT, ISAKI_0401IK, MOVE_LEFT, NORMAL);
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door01o
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+// ISAKI_0401IK
+#sp,vo,06010018
+勇樹
+「その必要はない」
+$k
+
+&empty
+と、突然ドアが開け放たれる音と、
+新たな人物の声がする。
+$k
+
+&empty
+確認するまでもなく宮津橋の声だ。
+$k
+
+// SAKURAKO_0403AK
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06000154
+桜子
+「あんたねぇ…」
+#meffect,flow,5
+$k
+
+// ISAKI_0401KB
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06010019
+勇樹
+「勝手に上がらせてもらった」
+$k
+
+&empty
+相変わらず強引な奴…。
+$k
+
+// SAKURAKO_0403KM
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06000155
+桜子
+「はー…まあいいわ。
+$nw,2500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ig
+
+　で、あんたの用件は…」
+$k
+
+// ISAKI_0401KB
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06010020
+勇樹
+「要のことだ」
+$k
+
+&empty
+え？
+$k
+
+// 	SS( RIGHT, CHISEKA_0401OD3 );
+
+// CHISEKA_0401OD3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06040029
+知世翔
+「もしかして、私と同じ…？」
+$k
+
+// ISAKI_0402KT
+#ir
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06010021
+勇樹
+「有河…それにめぐみもいたのか」
+$k
+
+// ISAKI_0402NO
+#ir
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06010022
+勇樹
+「そう言えば、あの場におまえ達の気配もあった。
+$nw,5010
+
+　なんだ、同じものを見たなら、
+　わざわざ足を運ぶ必要はなかったか」
+$k
+
+// MEGUMI_0401OD2
+
+#sp,vo,06070082
+めぐみ
+「同じものって…」
+#meffect,flow,5
+$k
+
+// CHISEKA_0401OD3
+#sp,vo,06040030
+知世翔
+「じゃあやっぱり…？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402IK8
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06000156
+桜子
+「どんだけの人間に見られてんのよ、あのバカ姉…」
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+なんだ？
+要さんの何を見た…？
+$k
+
+&empty
+わかっている一部とは裏腹に、全然理解できない。
+$k
+
+&empty
+だが、それは俺だけではなかったらしく…。
+$k
+
+//	SM( CHAR_MII,			MII_0401KD,			"みい",			"@v06030147「？」" );
+// 	SS_( CENTER, ISAKI_0401KB, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB.png,(x),l,(s),60%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),r,(s),60%
+#ig
+
+// YUKIHA_0401NO
+
+#sp,vo,06050077
+雪華
+「あの、勇樹さん…なにを見たんですか？」
+$k
+
+#ss,bgm
+
+// ISAKI_0401IK
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06010023
+勇樹
+「要が産婦人科から出てくるところをだ」
+$k
+
+#ir,(dr),1000
+#ip,ov,(fi),sysc_black.jpg
+#ie,c1,c3,c4
+#ig
+
+&empty
+完全に、空気が固まった。
+$k
+
+&empty
+おそらく、桜子は口止めしようとしたのだろう。
+そんな気配はあった。
+$k
+
+&empty
+だが宮津橋は空気が読めないのではなく、
+空気を読む気がない。
+$k
+
+&empty
+そのため、ナチュラルすぎて、
+桜子の反応が一瞬遅れたのだと思う。
+$k
+
+// 	DelStandAll();
+
+&empty
+いや、そんなことはどうでもいい！
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Break07
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+#wait,300
+
+// 	SV( VISUAL_WHITE );
+
+// CHISEKA_0401KM
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM.png,(x),c,(s),100%
+#ig,(se),S_Dotadotan01
+
+#sp,vo,06040031
+知世翔
+「きゃ―――！？」
+#mlarge
+$k
+
+// 	SV( BG_TD_SAKURAKO01A );
+
+// MII_0401KY
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06030148
+みい
+「おお、知世翔さんが、
+　吹っ飛んできたふすまの下敷きにっ」
+$k
+
+// MEGUMI_0401IK4
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06070083
+めぐみ
+「みいちゃん、なんて説明的なセリフ！」
+$k
+
+// YUKIHA_0401OD
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01OD.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,06050078
+雪華
+「な、なんでふすまが…？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000157
+桜子
+「あちゃ…やっぱ出てきちゃったか…」
+#meffect,flow,5
+$k
+
+#sp,bgm,BGM_SYOSO
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+優
+「今の話、詳しく聞かせてくれ」
+$k
+
+// 	SS( CENTER, ISAKI_0402KT );
+
+// ISAKI_0402KT
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06010024
+勇樹
+「矢崎…なぜ押入れの中に？」
+$k
+
+&empty
+それは俺も説明できない。
+$k
+
+&empty
+けど子供の頃とは違う。
+気がついたら、俺はふすまを蹴り開けていた。
+$k
+
+// CHISEKA_0401IK
+
+#sp,vo,06040032
+知世翔
+「よくわかんないけど矢崎の仕業なのね！
+$nw,4220
+
+　と、とにかくちょっと、早くこれどけなさい！」
+$k
+
+// 	Shake(SLOWER, SHAKE_DOWN|SHAKE_WINDOW, 4, 30);
+
+優
+「教えてくれ、さっきのはどういうことなんだ？」
+$k
+
+// 	Shake(NORMAL, SHAKE_RANDOM|SHAKE_WINDOW, 8);
+// CHISEKA_0401KM2
+
+#sp,vo,06040033
+知世翔
+「人の話を聞けぇー！」
+#mlarge
+$k
+
+// 	SS( RIGHTRIGHT, MII_0403IK, MOVE_RIGHT );
+
+// MII_0403IK
+#ir,(ef),off
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03IK.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ig
+
+#sp,vo,06030149
+みい
+「どういうことか聞きたいのはこちらの方ですが。
+$nw,3630
+
+　なぜお兄様がそんなに慌てておられるのですか？」
+$k
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01OD.png,(x),l2,(s),60%
+#ig
+
+// YUKIHA_0401OD
+#sp,vo,06050079
+雪華
+「お兄ちゃん？」
+$k
+
+// 	SS_(CENTER, SAKURAKO_0402IK8, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),l,(s),60%
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK3.png,(x),r,(s),60%
+#ie,c2
+#ig
+
+// MEGUMI_0401IK3
+
+#sp,vo,06070084
+めぐみ
+「ちょっと…どうするの、桜子？」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000158
+桜子
+「どうもこうも…本当のこと言うしかないでしょ」
+$k
+
+優
+「そうだ、本当のことを教えてくれ」
+$k
+
+&empty
+それ以外のことは、今はもう考えられない。
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),0%
+#ip,c1,(x),c
+#ig
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000159
+桜子
+「優」
+$k
+
+&empty
+ぴたっと桜子がこちらを見据える。
+$k
+
+&empty
+そして、
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000160
+桜子
+「みんな聞いて、カッコつけてるけど…」
+$k
+
+#ss,bgm
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000161
+桜子
+「たぶん、こいつが元凶」
+$k
+
+優
+「…え？」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402AK, MOVE_STOP, NORMAL );
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000162
+桜子
+「…だからかくまってあげようと思ったのに」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_FUAN
+
+#flag,mode,novel,0,0
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+証言１
+#malign,c
+#meffect,fade,500
+
+$k
+
+// 	SV( BG_TD_1FROKA01A, FILTER_SEPIA|FILTER_LINKSTAND );
+// 	SS( LEFT, KANAME_0402MU );
+// 	SS( RIGHT, SAKURAKO_0401NO );
+
+// 	RFI( RULE_CIRCLE, SLOW );
+
+// SAKURAKO_A402KB
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_1FROKA01A_s.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOs_A402.png,(psi),SAKURAKOs_An02NO.png,(x),r,(s),60%
+#ip,c3,(fi),KANAMEs_A402.png,(psi),KANAMEs_An02MU.png,(x),l,(s),60%
+#ig
+
+#flag,mode,adv,0,0
+
+
+#show
+
+#sp,vo,06000163
+桜子
+「お姉、昼前にうちに来てたけど、
+　吐きそうなくらい青い顔しててさ」
+$k
+
+// SAKURAKO_A402NR
+
+#sp,vo,06000164
+桜子
+「いつもの二日酔いかと思ったんだけど、まさかね」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+#flag,mode,novel,0,0
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+証言２
+#malign,c
+#meffect,fade,500
+
+$k
+
+// 	RFO( RULE_CIRCLE, SLOW );
+// 	SV( BG_TD_IMA01B, FILTER_SEPIA|FILTER_LINKSTAND );
+
+// 	SS_( LEFT, KANAME_0401MJ2 );
+
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01B_s.jpg,(s),100%
+#ip,c1,(fi),KANAMEs_A401.png,(psi),KANAMEs_An01MJ2.png,(x),l,(s),60%
+#ip,c3,(fi),MIIs_A401.png,(psi),MIIs_An01KY2.png,(x),r,(s),60%
+#ig
+
+#flag,mode,adv,0,0
+
+
+#show
+
+// MII_A402MJ
+
+#sp,vo,06030150
+みい
+「今朝は食欲がなく食べてないと仰っていたので、
+　せめて何か口にされてはと進言しましたら、
+　おじやなぞ所望されまして」
+$k
+
+// MII_A402MJ
+
+#sp,vo,06030151
+みい
+「そうそう、何故か梅干しなんか欲しがりましたね」
+$k
+
+// SAKURAKO_0402NO
+
+#sp,vo,06000165
+桜子
+「梅干しって…お姉苦手じゃなかったっけ？」
+$k
+
+// MII_A402MJ
+
+#sp,vo,06030152
+みい
+「クエン酸を欲していたのではないかと」
+$k
+
+// MEGUMI_0401MJ2
+
+#sp,vo,06070085
+めぐみ
+「クエン酸が正しいのかはともかく、
+　レモンみたいなってこと？」
+$k
+
+// CHISEKA_0401MJ
+
+#sp,vo,06040034
+知世翔
+「俗に言う“すっぱいもの”ね」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// 	RFO_( RULE_CIRCLE, SLOW );
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+要さんは俺の嗜好に合わせて、
+梅干しが好きになってきたと言っていた。
+$k
+
+&empty
+でも、それにも原因があったってことか…？
+$k
+
+// 	DelStandAll();
+
+&empty
+そして次の証言……。
+$k
+
+#hide
+
+#flag,mode,novel,0,0
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+証言３
+#malign,c
+#meffect,fade,500
+
+$k
+
+#flag,mode,adv,0,0
+
+#next,06kaname23_02

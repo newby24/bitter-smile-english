@@ -1,0 +1,861 @@
+﻿// 既読フラグ
+#read_flag,341
+
+// セーブタイトル
+#flag,save_title,桜子　第２０話,0,0
+
+#ir,(dr),2000
+#ip,bg,(fi),image\stitle\stitle_sakurako20_1.jpg,(x),c,(y),c
+#ig
+
+#wait,500
+
+#ir,(dr),2000
+#ip,bg,(fi),image\stitle\stitle_sakurako20_2.jpg,(x),c,(y),c
+#ig
+
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KOMON01E );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KOMON01E.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第２０話　もう離れない
+$k
+#note,erase
+
+#show
+
+&empty
+桜の蕾がほんのりと色づき始めた、
+とある３月の、のどかな春の日。
+$k
+
+&empty
+俺たちの卒業式が、滞りなく行われた。
+$k
+
+// 	SV( BG_GK_CHURIN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_CHURIN01A.jpg,(s),100%
+#ig
+
+&empty
+一年も通ってはいないけれど、
+既に親しみを持っていた学園だった。
+$k
+
+&empty
+校舎裏の駐輪場には、
+自転車を使わないのに、なぜかよく寄っていた。
+$k
+
+&empty
+自販機の清涼飲料水は、いつも売り切れ気味だった。
+$k
+
+&empty
+ベンチは何故かいつも綺麗だった。
+$k
+
+&empty
+用務員さんが毎日掃除して
+くれていたのかもしれない。
+$k
+
+// 	SV( BG_GK_SYOKUDO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_SYOKUDO01A.jpg,(s),100%
+#ig
+
+&empty
+食堂はいつも混んでいて、
+人気のＡ定食は早く来ないと買えなかった。
+$k
+
+&empty
+水曜日と金曜日に来るおばちゃんは、
+カレーのルーを大盛りにしてくれる人だった。
+$k
+
+&empty
+宮津橋が喧嘩をしていたり、
+よくみいちゃんや有河と遭遇したり、
+みんなで飯を食ったり、ここは思い出の多い場所だ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KYOSHITSU01A );
+// 	SS( CENTER, KOZUE_0201NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KOZUE_0201NO
+#sp,vo,03100005
+山之辺こずえ
+「皆さん、卒業おめでとうございます。
+$nw,3500
+
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01EG2.png,(x),c,(s),60%
+#ig
+
+　全員無事に送り出す事が出来て、
+　先生、嬉しいです」
+$k
+
+// KOZUE_0201NO
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03100006
+山之辺こずえ
+「春になって、また新しい出会いがあって、
+　大変な事が沢山あると思います」
+$k
+
+// KOZUE_0201EG
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03100007
+山之辺こずえ
+「ですが、この学園で培ってきたものは、
+　必ずこの先、あなた達の力になるはずです」
+$k
+
+// KOZUE_0201EG2
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03100008
+山之辺こずえ
+「先生は、いつでもここから応援しています。
+$nw,5010
+
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01NK3.png,(x),c,(s),60%
+#ig
+
+　皆さん、頑張って…下さいねっ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+先生の言葉に、鼻をすする音が聞こえる。
+$k
+
+&empty
+なんだよ、俺まで泣けてくるじゃないか。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SS_( RIGHT, MEGUMI_0201NO );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01B.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01NO.png,(x),r,(s),60%
+#ip,c3,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01KM.png,(x),l,(s),60%
+#ig
+
+// 	SS( LEFT, KOBAYASHI_0201KM );
+
+#show
+
+// KOBAYASHI_0201KM
+#sp,vo,03080024
+小林
+「卒業式も終わっちまったなー」
+$k
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),720,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+// MEGUMI_0201NO
+#sp,vo,03070263
+めぐみ
+「ねえねえ！
+　桜子と勇樹ちゃんも呼んで、写真撮ろうよ～！」
+$k
+
+優
+「おう、それはいい」
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+そういや、宮津橋は……っと。
+$k
+
+&empty
+考えてみれば宮津橋と一緒に卒業出来るとは
+思ってなかった。偶然ってすごいよな。
+$k
+
+// MEGUMI_0201KM3
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM3.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#sp,vo,03070264
+めぐみ
+「はぁ、はぁ、
+$nw,1740
+
+　桜子連れてきたわよ～」
+
+$k
+
+// 	SS( CENTER, MEGUMI_0201KM3, MOVE_RIGHT, SLOW );
+
+&empty
+はやっ。
+$k
+
+// 	CS_( CENTER, LEFT );
+
+// 	SS( RIGHT, SAKURAKO_0201NO, MOVE_RIGHT, NORMAL );
+// SAKURAKO_0201NO
+#ir,(ef),off
+#ip,c2,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01NO.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+#sp,vo,03001650
+桜子
+「みんなで写真撮るって聞いたけど？」
+$k
+
+優
+「そうなんだが……
+　宮津橋が教室に居ないな」
+$k
+
+// MEGUMI_0201KM5
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM5.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03070265
+めぐみ
+「ええー？
+　もう、どこ行っちゃったのー？」
+$k
+
+// KOBAYASHI_0201BS
+
+#sp,vo,03080025
+小林
+「最後まで孤独を愛する女の子だな～。
+$nw,3490
+
+　まあ、そこもいいんだけどな！」
+$k
+
+// SAKURAKO_0202NO5
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001651
+桜子
+「探しに行こっか。
+$nw,1500
+
+　サキちゃんとも一緒に撮りたいもの」
+$k
+
+優
+「ああ、そうだな！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_ROKA01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+なんとなく、居る場所は分かっていた。
+$k
+
+&empty
+たぶん、宮津橋はあそこにいる。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_GK_OKUJYO01A );
+
+// 	SS( CENTER, ISAKI_0201MU );
+
+#sp,se,S_Door10o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_OKUJYO01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+// 	WaitSE( -1 );
+
+#show
+
+優
+「宮津橋っ」
+$k
+
+#sp,bgm,BGM_NONBIRI
+
+// ISAKI_0201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010151
+勇樹
+「……お前達か」
+$k
+
+// SAKURAKO_0201TR4
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01TR4.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l
+#ip,c3,(x),r,(al),100%
+#ig
+
+#sp,vo,03001652
+桜子
+「サキちゃん、一緒に写真撮ろうっ」
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010152
+勇樹
+「…そういうのに、興味はないが」
+$k
+
+優
+「じゃあ、俺たちの頼みなんだが、
+　一緒に撮ってくれないか？
+　どうしても、宮津橋と撮りたいんだ」
+$k
+
+// ISAKI_0202KT
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010153
+勇樹
+「…どうしてだ」
+$k
+
+優
+「俺の学園生活を語るのに、
+　宮津橋は不可欠だからな」
+$k
+
+&empty
+宮津橋は俺達の恩人でもあるしな？
+$k
+
+// SAKURAKO_0203KT
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001653
+桜子
+「わ……
+$nw,990
+
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),60%
+#ig
+
+　今の言葉、ちょっと妬けるぅっ」
+
+$k
+
+// MEGUMI_0201EG
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG7.png,(x),r,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,03070266
+めぐみ
+「あははっ」
+$k
+
+優
+「な、いいだろ？」
+$k
+
+// ISAKI_0201AZ
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010154
+勇樹
+「ち……
+$nw,1000
+
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+　仕方ないな」
+
+$k
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01NO.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+// 	SS( CENTER, KOBAYASHI_0201AS, MOVE_RIGHT, NORMAL );
+
+優
+「じゃあ小林、写真撮ってくれ」
+$k
+
+// KOBAYASHI_0201AS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AS.png,(x),c,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03080026
+小林
+「ええっ、俺かよぉ！？」
+$k
+
+優
+「他に頼める奴いないだろ？
+　…俺にはお前だけなんだよ、な？」
+$k
+
+// KOBAYASHI_0201BS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03080027
+小林
+「そ、そうか……？
+$nw,1760
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%
+#ig
+
+　矢崎がそう言うなら、まあよい、撮ってやろう！」
+
+$k
+
+// SAKURAKO_0202NR
+
+#sp,vo,03001654
+桜子
+「ブレないで撮ってよね？」
+$k
+
+// KOBAYASHI_0201AS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03080028
+小林
+「撮ってもらうくせに文句言うなよー」
+$k
+
+// MEGUMI_0201IK4
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK4.png,(x),r,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,03070267
+めぐみ
+「あっ、勇樹ちゃん、
+　ちゃっかり優ちゃんの隣、陣取ってる！？」
+$k
+
+// ISAKI_0201KB
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010155
+勇樹
+「なにか問題があるのか？」
+$k
+
+// MEGUMI_0201KM2
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070268
+めぐみ
+「い……いいけどね」
+$k
+
+// SAKURAKO_0202NO5
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),60%
+#ie,c1,c2
+#ig
+
+#sp,vo,03001655
+桜子
+「ほら、早く撮ろうっ？」
+$k
+
+// KOBAYASHI_0201EG
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01EG.png,(x),c,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,03080029
+小林
+「よーぅし、んじゃ撮るぜぇー」
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#wait,500
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Camera01
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+#wait,500
+
+// 	RuleFlashIn( FAST, RULE_CIRCLE );
+
+
+// 	WaitSE( -1 );
+
+// SAKURAKO_0202EG
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,03001656
+桜子
+「ねえ、あたしの携帯のも、おねがーい♪」
+$k
+
+// KOBAYASHI_0201BS
+
+#sp,vo,03080030
+小林
+「はいはい、っとー」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KOMON01E );
+
+// 	SS_( RIGHT, MII_0202NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KOMON01E.jpg,(s),100%
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),r,(s),60%
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR3.png,(x),l,(s),60%
+#ig
+
+// 	SS( LEFT, CHISEKA_0201TR3 );
+
+#show
+
+// CHISEKA_0201TR3
+#sp,vo,03040204
+知世翔
+「先輩達、遅いなー。何やってるんだろう。
+$nw,4500
+
+　卒業生、ほとんど外に出てきてるのに…」
+$k
+
+// MII_0202NO
+#sp,vo,03030206
+みい
+「あ、来ましたよ、知世翔さん」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+// SAKURAKO_0202NO3
+
+#sp,vo,03001657
+桜子
+「おーい！」
+$k
+
+#sp,bgm,BGM_SAKURAKO
+
+// 	SS( CENTER, CHISEKA_0201EG3 );
+
+// CHISEKA_0201EG3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040205
+知世翔
+「さっ、桜子せんぱ～～～いっ！」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+// 立ち絵消える。パラメータは適宜。
+
+#sp,se,S_Don01
+
+// 	WaitSE( -1 );
+
+&empty
+校舎から出てくるなり、有河が桜子に抱きついた。
+$k
+
+// 	SS_( CENTERRIGHT, CHISEKA_0201IK, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),r0,(s),60%
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01KS2.png,(x),l0,(s),60%
+#ig
+
+// 	SS( CENTERLEFT, SAKURAKO_0201KS2, MOVE_STOP, NORMAL );
+// SAKURAKO_0201KS2
+
+#sp,vo,03001658
+桜子
+「待たせちゃったかなぁ？」
+$k
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c3,(y+),-10
+#ig
+
+// CHISEKA_0201IK
+#sp,vo,03040206
+知世翔
+「遅いですよーっ、ずっと待ってたんですからっ」
+$k
+
+// SAKURAKO_0201KS
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01KS.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,03001659
+桜子
+「はは、ごめんごめーん」
+$k
+
+// CHISEKA_0201IK
+#sp,vo,03040207
+知世翔
+「もう学園で先輩に会えないの、嫌ですっ。
+$nw,3500
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NK.png,(x),r0,(s),60%
+#ig
+
+　しかも、私の事を思い出せないままなんて…」
+$k
+
+// CHISEKA_0201NK
+#sp,vo,03040208
+知世翔
+「私、いっぱい桜子先輩にお世話になったんですっ。
+$nw,4960
+
+　いっぱい色んな事……うう……教えて貰いましたし。
+$nw,5290
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NK2.png,(x),r0,(s),60%
+#ig
+
+　……ひっく、う、うぅっ…」
+
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,03001660
+桜子
+「そっか…」
+#meffect,flow,5
+$k
+
+// CHISEKA_0201IK
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03040209
+知世翔
+「ぜったい私の事、思い出して下さいね！」
+$k
+
+// CHISEKA_0201NK
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NK.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03040210
+知世翔
+「嘘でもいいですから！」
+$k
+
+// SAKURAKO_0202KM2
+#sp,vo,03001661
+桜子
+「………うん…わかった」
+#meffect,flow,5
+$k
+
+// CHISEKA_0201TR3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR3.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03040211
+知世翔
+「それとっ、今の桜子先輩とは、
+　思い出作りできなかったですけど、
+　卒業してからも、会ってくれますか？」
+$k
+
+
+#next,03sakurako20_01

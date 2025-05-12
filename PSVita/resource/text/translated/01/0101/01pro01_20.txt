@@ -1,0 +1,81 @@
+﻿// 既読フラグ
+#read_flag,30
+
+// 	SS(CENTER, SAKURAKO_A103BS, MOVE_STOP, NORMAL);
+
+#show
+
+優
+「ただいま………
+$nw,1000
+
+　ってなんだ、桜子居たのか」
+$k
+
+// SAKURAKO_A103BS
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000305
+桜子
+「ふう……、
+$nw,1120
+
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+　居たら悪いー？
+　あんたこそ遅かったわね、今までなにやってたのよ」
+$k
+
+優
+「なんだよ、お前こそ先帰ったくせに、
+　なんでまだ制服のままなんだ」
+$k
+
+// SAKURAKO_A102IK7
+#sp,vo,01000306
+桜子
+「ふん、そういう気分の日なのよ。
+　あるでしょ？」
+$k
+
+優
+「それでか？
+　しかもこんな暑い日に熱いお茶すすってんのか？」
+$k
+
+#hide
+
+// 	SS(CENTER, SAKURAKO_A102IK3);
+
+#ir,(sync),NO
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,se,sound\voice\01\010003\01000307
+
+//#ss,se,(dr),5000
+
+#ir,(dr),5000
+#ip,bg,(fi),white.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+// スキップ停止。
+#flag,skip,NO,0,0
+
+// ムービー。
+#movie,Opening.mp4
+
+#wait,1000
+
+#next,02common01-1_00
+

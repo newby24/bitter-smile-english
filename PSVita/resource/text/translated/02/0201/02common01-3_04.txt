@@ -1,0 +1,672 @@
+﻿// 既読フラグ
+#read_flag,50
+
+// 	Blur();
+
+// SAKURAKO_A302AK
+
+#sp,vo,02000196
+桜子
+「ああもう！　お味噌汁こぼれてるってば」
+$k
+
+&empty
+急に立ち上がった要さんは
+茶碗と箸を手に持ったまま、なにやら語り始めた。
+$k
+
+優
+「ど、どうしたんですか要さん？」
+$k
+
+#sp,se,S_Nuno08
+
+&empty
+桜子もテーブルを隅に寄せ始める、
+一体これから何が起こるというのか？
+$k
+
+// KANAME_0302YP3
+#ir
+#ip,c2,(fi),KANAME_A302.png,(psi),KANAME_An02YP3.png,(x),c,(s),60%
+#ig
+
+// きらりアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op2,(fi),image\icon\kirari.png,(x),*480,(y),*175,(s),50%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,op2,(s),100%,(al),100%
+#ig,(se),K_Kyupin01
+
+#sp,vo,02020027
+要
+「この私が一番輝いていた頃！
+$nw,2500
+
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01US3.png,(x),c,(s),60%
+#ig
+
+　ああ必殺桃色侍、
+$nw,1300
+
+// 	MoveStand( CENTER, 20 | SPEED_UP, -30, -50, 1 );
+// 	MoveStand( CENTER, 10,            -20, -50, 1 );
+
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01IK2.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c2,(x),r
+#ig,(se),S_Swing02
+
+#madd,お命頂～～戴するぅ！」
+
+$k
+
+//$nw,5300
+
+// 	Blur( 0, 1 );
+// 	MoveStand( CENTER,  0,            -20, -50 );
+// 	MoveStand( CENTER, 20 | SPEED_UP, 160, -45, 1 )
+// 	MoveStand( CENTER, 10,            150, -50, 1 )
+// 	Blur();
+
+優
+「はい？
+　学園祭の映画の話…ですよね」
+$k
+
+// SAKURAKO_A301AK
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000197
+桜子
+「お姉は学園祭の映画の話をしだすと興奮するのよ。
+$nw,4200
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),60%
+#ig
+
+　もう人の話とか耳に入って無いから。
+$nw,2400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM4.png,(x),l,(s),60%
+#ig
+
+　なんでも主役張ったらしいわよ？」
+$k
+
+// KINO_0401AK
+
+#sp,vo,02060042
+紀乃
+「桜子、要の食器は明日でええやろ。
+　こっちもう片付けてまおか」
+$k
+
+// SAKURAKO_A302NR
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000198
+桜子
+「…優、あとはよろしくね。
+　あたしは他の洗い物片付けてくるから」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+優
+「え？」
+$k
+
+// 	CS_( CENTER, LEFT, FAST );
+// 	MoveStand( LEFT, FAST, 0, -50 );
+// 	ShakeStand( LEFT, 0, SHAKE_LEFT, 3, FASTER );
+
+
+// KANAME_0301KU3
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01KU3.png,(x),r,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c2,(x),l
+#ig
+
+#sp,vo,02020028
+要
+「ああーお止しになってお代官さま！
+$nw,2500
+
+// 	ShakeStand( LEFT, 0, SHAKE_LEFT, 0 );
+// 	CS_( LEFT, RIGHT, FAST );
+
+#ir,(dr),500,(ef),move,(sync),NO
+#ip,c2,(x),r
+#ig
+
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01IK.png,(x),r,(s),60%
+#ig
+
+　きゅぴーん！　待てい、皆の衆ー。
+$nw,2500
+
+#ir
+#ip,c2,(fi),KANAME_A302.png,(psi),KANAME_An02NO.png,(x),r,(s),60%
+#ig
+
+#madd,そこで私登場！」
+
+$k
+
+// 	SetActionPyon( RIGHT );
+// 	DelAction( RIGHT );
+// 	Blur( 0, 1 );
+
+// KANAME_0301US3
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01US3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02020029
+要
+「斬り捨て御免、桃色侍
+$nw,2200
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Taiko01
+
+// 	Zoom(    0, 100, 100, 600, 100 );
+// 	Zoom( FAST, 150, 150, 600, 100 );
+
+#madd,・見
+$nw,500
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),S_Taiko01
+
+#madd,・参！
+$nw,500
+
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01IK.png,(x),r,(s),60%
+#ig
+
+　逃げ惑う町娘達を
+$nw,1000
+
+#ir,(dr),500,(ef),move
+#ip,c2,(x),l
+#ig,(se),S_Air04
+
+　斬っては捨てぇ
+$nw,1000
+
+#ir,(dr),500,(ef),move
+#ip,c2,(x),r
+#ig,(se),S_Air04
+
+#madd,斬っては捨てぇ」
+
+$k
+
+// 	Zoom( FAST, 100, 100, 600, 100 );
+// 	Zoom();
+// 	Blur();
+
+// 	MoveStand( RIGHT,  20 | SPEED_UP, -420, -50, 1 );
+// 	MoveStand( RIGHT,  10,            -400, -50, 1 );
+// 	MoveStand( RIGHT,   0,            -400, -50 );
+
+// 	MoveStand( RIGHT,  20 | SPEED_UP,   20, -50, 1 );
+// 	MoveStand( RIGHT,  10,               0, -50, 1 );
+// 	MoveStand( RIGHT, 0, 0, -50 );
+
+
+優
+「ええっ、一体どうしちゃったの桃色侍さん！？」
+$k
+
+#hide
+
+#sp,env,sound\voice\02\020200\02020030,(lp),NO
+
+
+
+// 	SV( BG_TD_GENKAN03B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN03B.jpg,(s),100%
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A302.png,(psi),ISAKI_An02NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+// ISAKI_0302NO
+#sp,vo,02010064
+勇樹
+「………」
+$k
+
+// /*	SV( BG_TD_KITCHEN03A );
+
+#sp,vo,02060043
+紀乃
+「ん、誰か…
+$nw,2300
+
+　おや、今日は早かったんやね」
+$k
+
+// /*	SV( BG_TD_GENKAN03B );
+
+// 	SS( CENTER, ISAKI_0301NO );
+
+#ir
+#ip,c1,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+// ISAKI_0301NO
+#sp,vo,02010065
+勇樹
+「…どうも」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#ss,env,(dr),1000
+
+// 	DelAction( CENTER );
+
+//	SV( BG_TD_1FROKA03B );
+// 	SV( BG_TD_IMA03B );
+
+// 	SS( RIGHT, KANAME_0301IK );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03B.jpg,(s),100%
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01IK.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ig
+
+// 	SS( LEFT, ISAKI_0302NO, MOVE_LEFT );
+
+// 	SEStop( 0 );
+
+// KANAME_0301IK2
+#ir
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01IK2.png,(x),r,(s),60%
+#ig
+
+#show
+
+#sp,vo,02020031
+要
+「そこで追っ手が一太刀をっ！」
+$k
+
+優
+「あ」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱしっ！" );
+// 	MoveStand( RIGHT, 20 | SPEED_UP, -200, 0, 0, 1 );
+
+#ir,(dr),500,(ef),move,(sync),NO
+#ip,c1,(x),c
+#ig
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig,(se),S_Bashi03
+
+// 	MoveStand( RIGHT, 10, -200, 10, 1 );
+// 	MoveStand( RIGHT, 10, -200,  0, 1 );
+
+// 	SS_( LEFT, ISAKI_0301MU );
+// 立ち絵移動。パラメータは適宜。
+
+// 	MoveStand( LEFT,  10,    0, 10, 1 );
+// 	MoveStand( LEFT,  10,    0,  0, 1 );
+
+// KANAME_0301OD3
+#ir
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020032
+要
+「むむ、何奴？」
+$k
+
+// ISAKI_0301NO
+#ir
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010066
+勇樹
+「風呂は空いているか？」
+$k
+
+&empty
+宮津橋が要さんの手を掴んでいた。
+$k
+
+// KANAME_0301TR3
+#ir
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01TR3.png,(x),c,(s),60%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ase.png,(x),520,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op1,(y+),100,(al),0%
+#ia,op1,al,(dl),500
+#ig
+
+#sp,vo,02020033
+要
+「あ、勇樹ちゃん…こんばんは。
+$nw,3900
+
+#ir
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01KM.png,(x),c,(s),60%
+#ig
+
+　えーっと、みんなとは仲良くしてる？」
+$k
+
+// ISAKI_0301NO
+#sp,vo,02010067
+勇樹
+「ほどほどに」
+$k
+
+// SAKURAKO_0302NO
+#ir
+#ip,c2,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000199
+桜子
+「お風呂なら今、みいと雪華ちゃんが入ってるけど？」
+$k
+
+// ISAKI_0302KT
+#ir
+#ip,c3,(fi),ISAKI_A302.png,(psi),ISAKI_An02KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010068
+勇樹
+「…そうか」
+$k
+
+#ir
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+&empty
+そう言うと宮津橋は風呂場の方へ歩いて行った。
+$k
+
+優
+「あんまりそういうのは気にしないんだな？」
+$k
+
+// SAKURAKO_0301AK
+#ir
+#ip,c2,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000200
+桜子
+「二人が出るまでここでくつろいでたらいいのに。
+　せっかちね」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03A );
+// 	SS( CENTERRIGHT, KANAME_0301MJ3 );
+// 	SS( CENTERLEFT, SAKURAKO_0301NO );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),l0,(s),60%
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01MJ3.png,(x),r0,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0301NO
+#sp,vo,02000201
+桜子
+「ねえ、お姉さあ、あの娘さあ…」
+$k
+
+// KANAME_0301NO5
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01NO5.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02020034
+要
+「うん？」
+$k
+
+// SAKURAKO_0302NO
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000202
+桜子
+「昔よく遊びに来てたサキちゃんて居たじゃない？
+$nw,3900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM2.png,(x),l0,(s),60%
+#ig
+
+　あの娘と似てると思わない？」
+$k
+
+// KANAME_0302NA
+#ir
+#ip,c3,(fi),KANAME_A302.png,(psi),KANAME_An02NA.png,(x),r0,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),380,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,02020035
+要
+「う、うーん、そうねぇ？
+　に、似てるような似てないようなー？
+　もうあんまり覚えてない、からなあー…」
+$k
+
+// SAKURAKO_0301NO
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),l0,(s),60%
+#ie,c4
+#ig
+
+#sp,vo,02000203
+桜子
+「そっか、
+$nw,2500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR2.png,(x),l0,(s),60%
+#ig
+
+　どうしたのお姉、顔色悪いよ？」
+
+$k
+
+// 	SetActionBuru( CENTERRIGHT );
+
+// KANAME_0301OD3
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01OD3.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02020036
+要
+「な、なんでもないよ？
+$nw,1500
+
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01TR2.png,(x),r0,(s),60%
+#ig
+
+　大丈夫だから」
+
+$k
+
+// 	DelAction( CENTERRIGHT );
+
+// 	SS( CENTER, KANAME_A301KM2 );
+
+// KINO_0401NI
+#ir
+#ip,c1,(fi),KINO_A401NI.png,(x),l,(s),80%
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01KM2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02060044
+紀乃
+「ときに要、
+$nw,2300
+
+#ss,bgm,(dr),1000,(cl),NO
+
+　…あんた不倫してるって本当かい？」
+$k
+
+// 	BGMStop();
+
+// 	ShakeStand( CENTER, 20, SHAKE_UP, 12, 1, 1 );
+// 	ShakeStand( CENTER, 20, SHAKE_UP,  0, 1, 1 );
+// 	ShakeStand( CENTER, 20, SHAKE_UP, 12, 1, 1 );
+
+#sp,bgm,BGM_COMICAL1
+
+// KANAME_A301KU3
+
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01KU3.png,(x),r,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),3
+#ip,c3,(y+),50
+#ig
+
+#sp,vo,02020037
+要
+「っげほごほっ！
+$nw,1100
+
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01OD3.png,(x),r,(s),80%
+#ig
+
+　ななな、どこからそんなデマがっ？」
+$k
+
+// 	ShakeStand( CENTER, 0, SHAKE_UP, 0 );
+
+// KINO_0401NO
+#ir
+#ip,c1,(fi),KINO_A401NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060045
+紀乃
+「みいが言うとったで？　ついこないだ、
+　あんたがけったいな男と駅で飲んでるらしいて。
+$nw,7500
+
+#ir
+#ip,c1,(fi),KINO_A401SP.png,(x),l,(s),80%
+#ig
+
+　上司と別れ話で揉めてるんか？」
+$k
+
+// KANAME_A301OD2
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01OD2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020038
+要
+「ちょ、私はこれでもまだ生娘なんだから！
+　なんで男の話が…
+$nw,5100
+
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01NO3.png,(x),r,(s),80%
+#ig
+
+#madd,あっ」
+
+$k
+
+#next,02common01-3_05

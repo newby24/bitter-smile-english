@@ -1,0 +1,923 @@
+﻿// 既読フラグ
+#read_flag,82
+
+&empty
+なんか俺、深みに嵌ってるって事はないよな？
+
+#mfuri,　　　　　　　　　　　　　　　　はま
+
+$k
+
+// 	MoveStand( LEFT, 20, 0, 5, 1 );
+// 	MoveStand( LEFT, 20, 0, 5, 1 );
+// 	MoveStand( LEFT, 20, 0, 0, 1 );
+
+// CHISEKAn_A401KB
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB.png,(x),l,(s),80%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\tameiki.png,(x),120,(y),260,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op3,(x+),-30,(y+),30,(al),100%
+#ia,op3,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,02040275
+知世翔
+「なんだ、そういう事。パパまたサボってたのね…」
+$k
+
+// CHISEKAPAPA_A301AS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301AS.png,(x),r,(s),100%
+#ig
+
+#sp,vo,02990170
+社長
+「違うよ知世翔…。そう、日曜とかにね、
+　千寿に新人が入ったって事でちょっとね？」
+$k
+
+// CHISEKA_A401KB2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040276
+知世翔
+「ふーん、日曜なのに私に事務処理させといて、
+　自分は飲んでたんだ…」
+$k
+
+// CHISEKAPAPA_A301OD2
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301OD2.png,(x),r,(s),100%
+#ig
+
+#sp,vo,02990171
+社長
+「あー、ほらほら！
+　今日は順ちゃんも来てくれたし、お小言は
+　またってことで！」
+$k
+
+#sp,vo,02990172
+順子
+「お久しぶり、知世翔ちゃん」
+$k
+
+// 	SS_( RIGHT, CHISEKAPAPA_A301NO );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NO.png,(x),r,(s),100%
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),l,(s),80%
+#ig
+
+// CHISEKAn_A401OD3
+
+#sp,vo,02040277
+知世翔
+「あっ……
+$nw,1800
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01MJ.png,(x),l,(s),80%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+#madd,ども」
+
+$k
+
+// 	DelAction( LEFT );
+
+#sp,vo,02990173
+順子
+「足の方は本当に大丈夫なの？」
+$k
+
+// CHISEKA_A401BS
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040278
+知世翔
+「……はい、えと…大した事ないそうです。
+$nw,3900
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG.png,(x),l,(s),80%
+#ig
+
+　だ、大丈夫…」
+$k
+
+優
+「………」
+$k
+
+#sp,vo,02990174
+順子
+「あ、そちらの…優君も、知世翔ちゃんの事、
+　これからもよろしくお願いしますね」
+$k
+
+// 	SetActionPyon( LEFT );
+
+// CHISEKA_A401AS
+#ir,(dr),0
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AS.png,(x),l,(s),80%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),-20
+#ig
+
+#sp,vo,02040279
+知世翔
+「ちょっ、順子さん！？」
+$k
+
+// 	DelAction( LEFT );
+
+&empty
+俺にふかぶかと頭を下げる順子さんという女性。
+$k
+
+優
+「あ…いや、こちらこそっ」
+$k
+
+&empty
+この人は？
+有河ってハーフだったよな？
+$k
+
+&empty
+この一家、なんか色々ありそうだなあ…。
+$k
+
+// 	SS_( LEFT, CHISEKA_A401BS );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),l,(s),80%
+#ip,c1,(fi),CHISEKAPAPA_A301EG2.png,(x),r,(s),100%
+#ig
+
+// CHISEKAPAPA_A301EG2
+
+#sp,vo,02990175
+社長
+「さあさあ、
+　挨拶はそれくらいにしてさあ、みんな奥に行こうよ！
+　大きなケーキも買ってきたしねえ？」
+$k
+
+#sp,vo,02990176
+順子
+「ねえ、今日は本当に鍋で良かったのかしら？」
+$k
+
+// CHISEKA_A401OD3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02040280
+知世翔
+「あ、そんな気を遣わなくても大丈夫です、から。
+$nw,4600
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),l,(s),80%
+#ig
+
+　………その、この歳で誕生日盛大にやられても
+　恥ず…困るし……その」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「ええーっ誕生日っ！？」
+#mlarge
+$k
+
+// 	SS_( RIGHT, CHISEKAPAPA_A301BS );
+
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301BS.png,(x),r,(s),100%
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AS.png,(x),l,(s),80%
+#ig
+
+// CHISEKAn_A401AS
+
+#sp,vo,02040281
+知世翔
+「な、なんですかっ！？」
+$k
+
+優
+「い、いや別に！
+$nw,1000
+
+　そうか……おめでとう」
+$k
+
+&empty
+それで桜子の奴、今日はごめん、って？
+$k
+
+&empty
+で、俺はおそらく代わりに…。
+$k
+
+// CHISEKAPAPA_A301KS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KS.png,(x),r,(s),100%
+#ig
+
+#sp,vo,02990177
+社長
+「なんだい、言ってなかったのか知世翔。
+　ほらほらー優君も遠慮しないでいいからね？」
+$k
+
+&empty
+緩衝材か……
+$nw,1000
+
+いや、変な詮索はするもんじゃないよな。
+$k
+
+&empty
+とりあえず今日の食事当番の婆さんにメールしとくか。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_ARIKAWAGAIKAN03A );
+
+// 	SS( CENTER, CHISEKA_0401BS );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ARIKAWAGAIKAN03A.jpg,(s),100%
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01BS.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「おい、無理すんなよ、ここでいいって。
+　足、悪化するぞ？」
+$k
+
+// CHISEKA_0401KN
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040282
+知世翔
+「いや、でも寒川さん達とか、まだ居たらアレだし…」
+$k
+
+優
+「ええ、そんなにかっ！？」
+$k
+
+&empty
+悪い虫扱いなんだろうなー、俺の事。
+$k
+
+// CHISEKA_0401MJ
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040283
+知世翔
+「この時間ならさすがに帰ったと思うけど…」
+$k
+
+優
+「おいおい、脅かすなよ」
+$k
+
+// CHISEKA_0401EG2
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040284
+知世翔
+「まあ、大丈夫かなー。
+$nw,3400
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01TR.png,(x),c,(s),60%
+#ig
+
+　……今日は」
+$k
+
+優
+「最後の一言が怖いんだけど」
+$k
+
+// CHISEKA_0401TR3
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01TR3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040285
+知世翔
+「違いますって！
+$nw,2400
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01TR2.png,(x),c,(s),60%
+#ig
+
+　あの………今日はありがとうございました」
+$k
+
+優
+「………。いや、別に俺は…、
+　ただ晩飯喰っただけだし、な？」
+$k
+
+// CHISEKA_0401AS
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040286
+知世翔
+「いっ………
+$nw,2200
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01TR4.png,(x),c,(s),60%
+#ig
+
+　一応言っておきますけどっ！」
+$k
+
+優
+「な、なんだ！？」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040287
+知世翔
+「今日の事っ！
+　変な風に勘違いしないでくださいねっ！？」
+$k
+
+優
+「いや、わかってるって……睨むなよ」
+$k
+
+// CHISEKA_0401SN
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040288
+知世翔
+「……む」
+$k
+
+優
+「…まあこれからは、
+　もう少し仲良くやっていこうぜ？　…な、後輩」
+$k
+
+// CHISEKA_0401TR2
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040289
+知世翔
+「こっ、これと桜子先輩の件は別なんですからね！」
+$k
+
+優
+「そ、そうかい…」
+$k
+
+// CHISEKA_0401NR
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040290
+知世翔
+「そうですっ」
+$k
+
+優
+「はは…」
+$k
+
+優
+「あ…そうだ、お前にひとつ謝らないといけないな」
+$k
+
+// CHISEKA_0401NO2
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040291
+知世翔
+「はい？
+　足の事なら別にもうそんな…」
+$k
+
+優
+「いや、そうじゃなくてな…」
+$k
+
+// CHISEKA_0401MJ
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040292
+知世翔
+「なんですか？」
+$k
+
+優
+「俺、お前の家がヤ…
+$nw,1000
+
+　そっちの家系なんだと思って
+　ちょっと誤解してたからな、ごめんな？」
+$k
+
+// CHISEKA_0401BS
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040293
+知世翔
+「なんだ、そんな事…
+$nw,2600
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01EG2.png,(x),c,(s),60%
+#ig
+
+　なれっこですけどね。
+　あんなの居たら大抵そう思うし…」
+$k
+
+優
+「はは、そうだよなあ」
+$k
+
+// CHISEKA_0401TR2
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040294
+知世翔
+「それに………矢崎先輩は逃げ帰らなかったから。
+$nw,5500
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01EG3.png,(x),c,(s),60%
+#ig
+
+　まあ、イーブンって事で」
+$k
+
+// CHISEKA_0401TR5
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01TR5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040295
+知世翔
+「うちの事務所までたどり着けた男子は、
+　あなたが初めてですしね？」
+$k
+
+優
+「そうなの？　いや、辿り着いたっつーか、
+　避けられなかっただけっていうか…」
+$k
+
+&empty
+拳よりも安全靴の蹴りのが効いたなー。
+$k
+
+優
+「あー、そうだ！」
+$k
+
+// CHISEKA_0401AS
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040296
+知世翔
+「な、なにっ！？」
+$k
+
+優
+「お前の家が普通の家というのはいいとして、
+　一つ分からないことがあるんだが、
+　………聞いても良いか？」
+$k
+
+// CHISEKA_0401KN
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040297
+知世翔
+「………なんですか？
+　順子さんの事だったら…」
+$k
+
+優
+「あーそうじゃなくって！
+　秋祭りの時にさー？」
+$k
+
+// CHISEKA_0401OD3
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040298
+知世翔
+「…秋祭り？」
+$k
+
+優
+「別に言いたくなかったらいいけど、秋祭りの日にさ。
+　なんでお前、宮津橋の事探してたんだ？」
+$k
+
+// CHISEKA_0401KM3
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040299
+知世翔
+「………は？
+$nw,2600
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01IK.png,(x),c,(s),60%
+#ig
+
+　なんで宮津橋先輩を私が捜すの？　祭りでっ？」
+$k
+
+優
+「いや、なんか桜子がらみかな、とか？
+　よく分からんが…」
+$k
+
+優
+「あの日お前、寒川さん達連れて走り回ってただろ？
+　それに有河は昔、宮津橋の事警戒してたし？
+　お礼参りとか…」
+$k
+
+// CHISEKA_0401AS
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040300
+知世翔
+「なんで私がそんな物騒な事しないと
+　いけないんですか！」
+$k
+
+優
+「だ、だよなー？
+$nw,1000
+
+　でも宮津橋はなんか…」
+$k
+
+// CHISEKA_0401IK2
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040301
+知世翔
+「あの日は、パパを探してただけよっ？
+$nw,3400
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01SN.png,(x),c,(s),60%
+#ig
+
+　自分から誘った癖に、酔っぱらってフラフラと…」
+$k
+
+優
+「あれー？」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040302
+知世翔
+「っていうかあなた、どこから見てたの！？」
+$k
+
+優
+「あーごめん、違うならいいんだ。
+　悪い、俺の偶然の勘違いだったらしい。すまん！」
+$k
+
+&empty
+…となると、あの時の宮津橋は何から逃げてたんだ？
+$k
+
+// 	Shake( FAST, SHAKE_UP | SHAKE_WINDOW, 10, FAST );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+&empty
+はっ！　もしや俺といちゃいちゃを？
+$k
+
+&empty
+……いや、そういう感じでも無かったな。
+$k
+
+// CHISEKA_0401AK
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040303
+知世翔
+「……はあ。なんか訳わかんないですね。
+$nw,5700
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01IK.png,(x),c,(s),60%
+#ig
+
+　この変質者、のぞき魔っ、早く帰れ！」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「ええっ！？」
+$k
+
+// CHISEKA_0401KB2
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01KB2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040304
+知世翔
+「じゃあそういうことなんで、
+　あとは夜道に気をつけて帰ってくださいねっ。
+$nw,5100
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01KB.png,(x),c,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+　はい、今日はお疲れ様でしたーっ！！」
+
+$k
+
+// 	DelAction( CENTER );
+
+優
+「お…おう。
+　じゃあな、お疲れさん、またな？」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r0,(al),0
+#ig
+
+&empty
+俺にお疲れを言うと有河はぎこちなく松葉杖を扱い、
+事務所に戻っていく。
+$k
+
+&empty
+しかしなんて業務的なさよならの挨拶だろうか…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#sp,env,S_Tel12#
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(fi),BG_MT_TEIBO03A.jpg,(s),100%
+#ig
+
+優
+「わあ！？　って俺の携帯かよ！」
+$k
+
+// 	SV( BG_MT_TEIBO03A );
+
+&empty
+有河の事務所から出て数分も経たない感じで、
+俺の携帯に着信が入った。
+$k
+
+&empty
+有河工業のあの二人の件があったので
+ちょっとびびった。
+$k
+
+// 	SEStop( 0 );
+
+#ss,env,(dr),0
+#sp,se,S_Tel05
+
+優
+「はいよ、なんなんだよお前…」
+$k
+
+#sp,vo,02000465
+桜子
+「どうだったー？」
+$k
+
+優
+「ああ、まあな。飯とケーキは美味かった。
+　こういう事は前もって言っとけよなー？」
+$k
+
+#sp,vo,02000466
+桜子
+「そう…とりあえず、ありがとうね？
+　知世翔怒ってた？」
+$k
+
+優
+「いいや？
+　桜子を怒るわけないだろ、あいつが」
+$k
+
+#sp,vo,02000467
+桜子
+「そっか」
+$k
+
+優
+「で、お前はなにしてたんだよ。
+　俺が従業員に殴られてた頃にさ？」
+$k
+
+#sp,vo,02000468
+桜子
+「そんなことよりさー？」
+$k
+
+優
+「なんだよ、そんなこととは」
+$k
+
+#sp,vo,02000469
+桜子
+「優さあ、どんな手を使ってもいいから、
+　なんとかして勇樹を呼び出してくれない？」
+$k
+
+優
+「外へか？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「お前もしかして今外からか！？
+　つか、なんで宮津橋なんだ、闇討ちか？
+　また喧嘩するんじゃないだろうな？」
+$k
+
+#sp,vo,02000470
+桜子
+「ったく、ぐちぐちうるさい男ねー。
+　勇樹の事気になるって言ってたくせに。
+　何とかしてやりたいとか言ってたくせに」
+$k
+
+優
+「……なんだ？
+　お前いったい何企んでんだよ？」
+$k
+
+#sp,vo,02000471
+桜子
+「もう、うだうだ言ってると雪華ちゃんに
+　あんたのある事、無い事、色々吹き込むわよ？」
+$k
+
+優
+「ちょっとー！？
+　桜子、お前卑怯だぞっ！」
+$k
+
+#sp,vo,02000472
+桜子
+「いいから。
+　あたしの事は言わないで、
+　今から言う場所におびき出して頂戴」
+$k
+
+優
+「お前人使い荒いよ！」
+$k
+
+#sp,vo,02000473
+桜子
+「何よ、ご褒美でも欲しいの？　贅沢ねー」
+$k
+
+#hide
+
+
+#next,02common02-4_09

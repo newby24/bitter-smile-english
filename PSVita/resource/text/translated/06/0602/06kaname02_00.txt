@@ -1,0 +1,748 @@
+﻿// 既読フラグ
+#read_flag,349
+
+// セーブタイトル
+#flag,save_title,要　第２話,0,0
+
+// 要好感度＋１。
+#flag,per,4,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_TD_IMA01A );
+//	SS( CENTER, KINO_A401NO2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第２話　通勤ダッシュ
+$k
+#note,erase
+
+// KINO_A401NO2
+#ir
+#ip,c1,(fi),KINO_A401NO2.png,(x),c,(s),80%
+#ig
+
+#show
+
+#sp,vo,06060000
+紀乃
+「ほな、そろったところで」
+$k
+
+// MII_0101NO
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01NO.png,(x),l3,(s),80%
+#ig
+
+#sp,vo,06030000
+みい
+「いただきます」
+$k
+
+// SAKURAKO_A101AK2
+#ir
+#ip,c2,(fi),SAKURAKO_A101.png,(psi),SAKURAKO_An01AK2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06000001
+桜子
+「いただきます…
+$nw,2250
+
+　ふわぁ」
+$k
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+//	DS( CENTER );
+
+#sp,env,S_Dish01#
+
+&empty
+全員そろって、いただきます。
+$k
+
+&empty
+朝の食卓は、つやつやのご飯がまぶしい。
+$k
+
+#sp,se,W_InterHon01
+
+優
+「じゃあ俺も…って」
+$k
+
+&empty
+なんつ～タイミングだ。
+$k
+
+優
+「誰だ？　こんな朝早くから」
+$k
+
+// 	SS_( LEFT, YUKIHA_A101NO );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01NO.png,(x),l,(s),80%
+#ip,c1,(fi),KINO_A401AK.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, KINO_A401AK );
+
+// YUKIHA_A101NO
+#sp,vo,06050001
+雪華
+「なにか急ぎの用事かなぁ？」
+$k
+
+// KINO_A401AK
+
+#sp,vo,06060001
+紀乃
+「この時間か…」
+$k
+
+
+// 	SS_( LEFT, SAKURAKO_A103FK2 );
+
+#ir
+#ip,c2,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03FK2.png,(x),l,(s),80%
+#ip,c3,(fi),MII_A102.png,(psi),MII_An02MJ.png,(x),r,(s),80%
+#ie,c1
+#ig
+
+// 	SS( RIGHT, MII_A102MJ );
+
+// SAKURAKO_A103FK2
+#sp,vo,06000002
+桜子
+「…んぐんぐ」
+$k
+
+// MII_A102MJ
+
+#sp,vo,06030001
+みい
+「…はむはむ」
+$k
+
+優
+「いや、誰か動こうよ」
+$k
+
+// KINO_A401AK2
+#ir
+#ip,c1,(fi),KINO_A401AK2.png,(x),l,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,06060002
+紀乃
+「あんたもな」
+$k
+
+// MII_A103MU
+#ir
+#ip,c3,(fi),MII_A103.png,(psi),MII_An03MU.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06030002
+みい
+「そうですね。
+$nw,1760
+
+#ir
+#ip,c3,(fi),MII_A103.png,(psi),MII_An03NO.png,(x),r,(s),80%
+#ig
+
+　お兄様、先陣をどうぞ」
+$k
+
+優
+「なぜ俺！？」
+$k
+
+// SAKURAKO_A103KT
+#ir
+#ip,c2,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),l,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,06000003
+桜子
+「………。
+$nw,1770
+
+#ir
+#ip,c2,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO.png,(x),l,(s),80%
+#ig
+
+　言い出しっぺが最後まで責任を持てば？」
+$k
+
+優
+「なんでそんな押し付け合いなんだよ…」
+$k
+
+//#sp,se,W_InterHon01,(lp),1
+
+#sp,se,W_InterHon01
+
+// SAKURAKO_A103NO
+#sp,vo,06000004
+桜子
+「呼んでるわよー」
+$k
+
+優
+「この客も朝っぱらから感じ悪いし」
+$k
+
+// KINO_A401NO2
+#ir
+#ip,c1,(fi),KINO_A401NO2.png,(x),l,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,06060003
+紀乃
+「ほれ、飴ちゃんやるさかいお遣い頼むわ」
+$k
+
+優
+「買収するにも安すぎないか」
+$k
+
+// MII_A103NO2
+#ir
+#ip,c3,(fi),MII_A103.png,(psi),MII_An03NO2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06030003
+みい
+「こないだした王様ゲームの命令がまだでしたね」
+$k
+
+優
+「ナチュラルに嘘記憶！？
+　だが俺は屈しない、相手が王なら俺は革命家…！」
+$k
+
+#ir
+#ip,c1,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01NO.png,(x),c,(s),80%
+#ie,c2,c3
+#ig
+
+// 	SS(CENTER, YUKIHA_A101NO);
+
+// YUKIHA_A101NO
+#sp,vo,06050002
+雪華
+「いいから早く行きなよ」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Basa01
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+優
+「はいはい今すぐに！」
+#mlarge
+$k
+
+#hide
+
+#ss,bgm
+#ss,env
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	BFO ( SLOW );
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+// 	DelStandAll();
+
+//	// *-- TITLE TEMPLATE START --* //
+//
+//	SetSubTitleEx();
+//
+//	// *-- TITLE TEMPLATE END --* //
+// 	SV( BG_TD_GENKAN01A );
+
+// 	SS( CENTER, KANAME_0903IT3 );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN01A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03IT3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KANAME_0903IT3
+
+
+#sp,vo,06020053
+要
+「あぃたたたたぁ…」
+#meffect,flow,5
+$k
+
+優
+「…なんとなくわかってましたけどね」
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+&empty
+轟木家の異常に淡白な反応を見れば、
+相手が誰かは想像に難くなかった。
+$k
+
+&empty
+おそらく通勤途中に寄ったのだろう。
+$k
+
+&empty
+で、詳細はわからないけど、敬遠された理由はきっと…。
+$k
+
+// KANAME_0903GN
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03GN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020054
+要
+「優くん、ぽんぽん痛いのー」
+#meffect,flow,2
+$k
+
+&empty
+お腹を押さえながら発言する要さん。
+$k
+
+優
+「捨て鉢にも程があります」
+$k
+
+&empty
+気分次第でまるで別人のようだ。
+$k
+
+優
+「どうしたんです？」
+$k
+
+// KANAME_0903NS
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020055
+要
+「えへー」
+$k
+
+優
+「笑っても誤魔化されませんよ」
+$k
+
+&empty
+激しく面倒な予感しかしない。
+$nw,1000
+
+…かわいいですけど。
+$k
+
+// KANAME_0902NO
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020056
+要
+「実はねー、二日酔いで自転車漕ぐのつらいから、
+　乗せてってほしいなーなんて？」
+$k
+
+優
+「わかりました。
+　タクシー呼びますね」
+$k
+
+// KANAME_0903NS
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020057
+要
+「わかったー、領収書ちゃんともらうね」
+$k
+
+優
+「俺に出されても支給しませんよ！？」
+$k
+
+// KANAME_0903GN3
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03GN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020058
+要
+「今月ぴんちなのよぉー」
+$k
+
+優
+「知りません。
+　つか俺、味噌汁が冷めちゃうんで」
+$k
+
+// KANAME_0903KT
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020059
+要
+「あー、待っ…
+$nw,1440
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03IT3.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),100,(al),0%
+#ig
+
+　ぃたたたたあぁ…っ」
+$k
+
+優
+「か、要さん！？」
+#mlarge
+$k
+
+// 	SS_( CENTER, KANAME_0902NA, MOVE_DOWN, SLOWER );
+
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02NA.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+// KANAME_0902NA
+#sp,vo,06020060
+要
+「はあぁぁ…自分の声が頭に響くぅー…」
+#meffect,flow,2
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+なんか不憫だ…。
+$k
+
+&empty
+要さんにこんな顔されると、
+助けてあげたくはなるけど…。
+$k
+
+&empty
+とは言え、甘い顔して、
+はいはいとわがままを聞けるわけがない。
+$k
+
+&empty
+そもそも自業自得だし。
+$k
+
+優
+「俺、学校ありますから」
+$k
+
+&empty
+ここは絶対。
+断固、毅然とした態度で断ろう。
+$k
+
+優
+「だから…」
+$k
+
+// KANAME_0902RK
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02RK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020061
+要
+「わかってるって。
+　じょーだんに決まってるでしょー」
+$k
+
+優
+「え？」
+$k
+
+// KANAME_0902SI
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02SI.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020062
+要
+「薬箱に二日酔いの薬が入ってるはずだから、
+　悪いけど、それ持ってきてくれないかなー」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_0902KT
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020063
+要
+「ん？」
+$k
+
+// KANAME_0902SI
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02SI.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020064
+要
+「おーい優くん、聞いてるー？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+// 	SV( BG_TD_IMA01A );
+
+#sp,env,S_Dish01#
+
+// 	SS_( LEFT, SAKURAKO_A103NO3);
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO3.png,(x),l,(s),80%
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01GM.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, MII_A101GM );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#sp,se,S_Door04c
+
+#show
+
+// MII_A101GM
+
+#sp,vo,06030004
+みい
+「戻ってきませんね」
+$k
+
+// KINO_A401AK2
+
+#sp,vo,06060004
+紀乃
+「なんや、薬渡しただけとちゃうんか？」
+$k
+
+// YUKIHA_0101NO
+
+#sp,vo,06050003
+雪華
+「みんな、来たのが要お姉ちゃんって
+　わかってたんだね…」
+$k
+
+// SAKURAKO_A102AK
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06000005
+桜子
+「…何やってんだか」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+#sp,bgm,BGM_KANAME
+
+// 	SV( VISUAL_KANAME_05A );
+
+#sp,env,W_Bicycle01#
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_KANAME_05A.jpg,(s),75%
+#ig
+
+#show
+
+// KANAME_A903EG
+
+#sp,vo,06020065
+要
+「はぁー気持ちいいねー」
+$k
+
+優
+「そうですね」
+$k
+
+// KANAME_A903EG
+#sp,vo,06020066
+要
+「とんぼとか飛んでないかなー」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_A903BS
+
+#sp,vo,06020067
+要
+「でもほんとによかったのかな。
+　送ってもらっちゃって」
+$k
+
+優
+「それは反省してるところです…」
+$k
+
+&empty
+身構えていたところをあっさり退かれて、
+それで気づいた。
+$k
+
+&empty
+俺、厳しい対応を…とか考えつつ、
+要さんに頼られてる事に、
+内心、悪い気がしてなかったらしい。
+$k
+
+&empty
+それで、運動不足だからとか言い訳しながら、
+自分から送ると申し出て、この状況。
+$k
+
+&empty
+我ながら単純っつ～か純情っつ～か…。
+
+#mfuri,　　　　　　　　　バカ　　　　　　　　　　アホ
+
+$k
+
+// KANAME_A903NO
+
+#sp,vo,06020068
+要
+「そういえば再来週だっけ、学園祭」
+$k
+
+優
+「そろそろ準備でばたばたしてきましたね」
+$k
+
+// KANAME_A903BS
+
+#sp,vo,06020069
+要
+「いいなぁー、楽しそうで」
+$k
+
+優
+「遊びにきてくださいよ、母校でしょ。
+　一般公開は日曜ですよ？」
+$k
+
+// 	SV( VISUAL_KANAME_05B );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_05B.jpg,(s),75%
+#ig
+
+// KANAME_A903SN
+
+#sp,vo,06020070
+要
+「お祭りは準備が楽しいの。
+　部外者で行ってもちょっとねー」
+$k
+
+
+#next,06kaname02_01

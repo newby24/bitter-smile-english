@@ -1,0 +1,586 @@
+﻿// 既読フラグ
+#read_flag,241
+
+#show
+
+#sp,vo,04090008
+沖奈大吾
+「お、優君いらっしゃい。
+　あれ？　今入ってきたの勇樹ちゃんだった？」
+$k
+
+優
+「おっちゃん、あがらせてもらうよっ！」
+$k
+
+// DAIGO_0301OD
+#ir
+#ip,c1,(fi),DAIGO_A301OD.png,(x),c,(s),75%
+#ig
+
+#sp,vo,04090009
+沖奈大吾
+「構わないけど…って、ちょっと優君どうしたの？」
+$k
+
+#hide
+
+// 	SV( BG_HS_ISAKIMAE01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_ISAKIMAE01A.jpg,(s),100%
+#ig
+
+#sp,se,S_Knock06
+
+#show
+
+優
+「おいっ、勇樹！　いるんだろ！
+　開けてくれよ！　おい！」
+$k
+
+#sp,se,S_Knock06
+
+優
+「なんだよ、あの手紙！
+　あんなの、納得できるわけないだろ！
+　理由を聞かせてくれよ！」
+$k
+
+#sp,se,S_Knock06
+
+優
+「出てきてくれよ！　勇樹！！」
+$k
+
+&empty
+だが、何度扉を叩いても、勇樹の返事はない。
+$k
+
+&empty
+叩きすぎた手が痛い。
+それでも、俺は祈るような思いで扉を叩いた。
+$k
+
+優
+「別れるなんて、嘘だろう！
+　俺はお前がいないとダメなんだよ……！」
+$k
+
+// ISAKI_0101NO
+
+#sp,vo,04010692
+勇樹
+「うるさい」
+$k
+
+&empty
+勇樹の声だ！
+$k
+
+#sp,se,S_Knob01
+
+// 	WaitSE();
+
+&empty
+扉を開けようとしたが、内側から鍵がかかっていた。
+だけど、勇樹が扉に背中を預けたような
+気配が伝わってくる。
+$k
+
+優
+「ここ、開けてくれよ」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010693
+勇樹
+「嫌だ」
+$k
+
+優
+「別れるなんて嘘だろ？」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010694
+勇樹
+「本当だ」
+$k
+
+&empty
+胸の中に、黒い絶望が広がっていく。
+嘘だ。
+そんなのは嘘だ。
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010695
+勇樹
+「…お前は私といるとダメになる。
+　私もお前といると堕落する」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010696
+勇樹
+「だから……一緒にはいられない。
+　別れた方がいいんだ」
+$k
+
+優
+「そんな事はない！」
+$k
+
+#ss,bgm
+
+// ISAKI_0101NO
+#sp,vo,04010697
+勇樹
+「もう決めたんだ！！」
+$k
+
+&empty
+勇樹の声は冷たくて、取りつく島もない。
+$k
+
+&empty
+このまま、本当に勇樹は俺から
+離れていってしまうのか？
+$k
+
+&empty
+そんな事は……嫌だ！
+$k
+
+優
+「嫌だ。別れないからな」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010698
+勇樹
+「…………はぁ」
+$k
+
+&empty
+勇樹が扉の向こうでため息をつくのが聞こえた。
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010699
+勇樹
+「帰れ」
+$k
+
+優
+「……嫌だ」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010700
+勇樹
+「だったら……好きにしろ」
+$k
+
+&empty
+勇樹が立ち上がって、扉から遠のいていく。
+$k
+
+&empty
+見えないはずなのに、背中を向けられた。
+そんな気がした。
+$k
+
+#sp,bgm,BGM_KANASHIMI
+
+優
+「なあ、逃げないって言ったじゃないか」
+$k
+
+&empty
+返事はない。
+$k
+
+優
+「お前を繋ぎ止められたんじゃなかったのか？」
+$k
+
+&empty
+部屋の中は静かで、ただ俺の声だけが廊下に響く。
+$k
+
+&empty
+勇樹は……もう俺と話す気さえないみたいだった。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO( SLOW );
+// 特殊な画面変更。暫定的に。
+
+// 	CFI( SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_ISAKIMAE01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+しばらく、じっとそこにいて、色々話しかけてみたが
+勇樹からの返答は返ってこなかった。
+$k
+
+&empty
+胸が、えぐられたように痛む。
+$k
+
+&empty
+俺は諦めて、ゆっくりと立ち上がった。
+$k
+
+優
+「……今日はいったん帰るよ。
+　だけど、俺はお前の事を諦めたわけじゃない」
+$k
+
+&empty
+歩き出して、勇樹が扉を開けてくれるのを期待して
+何度も振り向く。
+$k
+
+&empty
+けれど、その扉は堅く閉じられたままだった。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	ShowFace();
+// 	SV( BG_GK_ROKA01A );
+
+#sp,bgm,BGM_SABISHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+昨日は一睡も出来なかった。
+$k
+
+&empty
+勇樹の事を思うと、受験勉強も手に着かずに、
+ひたすらあの犯行予告みたいな別れの手紙を
+見つめ続けていた。
+$k
+
+&empty
+そんな事をしたって、事態が変わらないのは
+分かっているのだけど。
+$k
+
+優
+「勇樹のヤツ、今日も学園を休む気かなぁ……」
+$k
+
+#ss,bgm
+
+// MEGUMI_0201NK2
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01NK2.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#sp,se,S_Basa01
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,04070119
+めぐみ
+「優ちゃんっ、大変、大変っっ！！」
+$k
+
+//#sp,env,S_Dash10#
+
+// 	SetStandEx( RIGHTRIGHT, MEGUMI_0201NK2 );
+// 	ZoomStand( RIGHTRIGHT, 0, 10, 10 );
+// 	MoveStand( RIGHTRIGHT, 0, -100, 50 );
+// 	FadeStand( RIGHTRIGHT, 20, FADE_ALPHA, 100 );
+
+// ぴょん。パラメータは適宜。
+
+// 	WaitStand( RIGHTRIGHT );
+// 	FadeStand( RIGHTRIGHT, 30, FADE_ALPHA, 0 );
+// 	WaitFadeStand( RIGHTRIGHT );
+
+// 	SF( 0, 20, 50 );
+// 	FadeStand( RIGHTRIGHT, 30, FADE_ALPHA, 100 );
+// 	ZoomStand( RIGHTRIGHT, 0, 40, 40 );
+
+// ぴょん。パラメータは適宜。
+
+// 	WaitStand( RIGHTRIGHT );
+// 	FadeStand( RIGHTRIGHT, 30, FADE_ALPHA, 0 );
+// 	WaitFadeStand( RIGHTRIGHT );
+// 	SF( 0, 20, 80 );
+// 	FadeStand( RIGHTRIGHT, 30, FADE_ALPHA, 100 );
+// 	ZoomStand( RIGHTRIGHT, 0, 120, 120 );
+// 	WaitStand( RIGHTRIGHT );
+// 	SEStop( 0 );
+
+// ぴょん。パラメータは適宜。
+// 	ZoomStand( RIGHTRIGHT, 40|SPEED_DOWN, 180, 180 );
+// 	MoveStand( RIGHTRIGHT, 40|SPEED_DOWN, -180, 50 );
+// 	WaitStand( RIGHTRIGHT );*/
+
+// 	//あくまでもかわいく！
+
+// 	SS( RIGHT, MEGUMI_0201NK2, MOVE_RIGHT, NORMAL );
+
+// 	SS( CENTER, MEGUMI_A201NK2, MOVE_DOWN, NORMAL );
+
+// 	SK2( SLOW, 10, 20 );
+
+優
+「うおっっ！！」
+$k
+
+&empty
+俺に向かって突っ込んできためぐみを
+慌てて受け止めた。
+$k
+
+&empty
+かなりの衝撃が体に走る。
+$k
+
+&empty
+……こうして思うと、こいつ、実は
+けっこうがっしりしてるんじゃないか？
+$k
+
+// 	SS( CENTER, MEGUMI_0201SN );
+
+// MEGUMI_0201SN
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070120
+めぐみ
+「今、失礼な事考えてたでしょう？」
+$k
+
+優
+「そっ、そんな事はないぞ？」
+$k
+
+&empty
+めぐみはエスパーか。
+$k
+
+&empty
+いや、でも俺の周りの女子はみんな
+エスパーばっかりだからなあ。
+$k
+
+// MEGUMI_0201KM3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070121
+めぐみ
+「っと違う！　それどころじゃないのよっ。
+　勇樹ちゃんが！」
+$k
+
+優
+「勇樹がどうしたって！？」
+$k
+
+// 	SS( CENTER, MEGUMI_0201KM7 );
+
+// MEGUMI_0201KM7
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070122
+めぐみ
+「受験、やめるらしいの。
+　先生に電話でそう言ったって」
+$k
+
+#sp,bgm,BGM_FUAN
+
+優
+「なんだって！？」
+$k
+
+&empty
+勇樹が受験をやめる？
+$k
+
+&empty
+あんなに自分の夢に向かって、
+まっすぐに頑張っていたのに？
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070123
+めぐみ
+「先生も詳しい事は分からないみたいで、
+　一緒に暮らしてるからって、私に事情を
+　聞いてきたんだけど……」
+$k
+
+&empty
+めぐみの顔がどんどん曇っていく。
+$k
+
+// MEGUMI_0201KN3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070124
+めぐみ
+「勇樹ちゃん、やっぱり何も話してくれなくて……。
+　優ちゃん、何か聞いてない？
+　昨日、勇樹ちゃんと話したんでしょ？」
+$k
+
+優
+「いや、俺も何も……」
+$k
+
+&empty
+閉ざされた扉が、脳裏に浮かぶ。
+$k
+
+&empty
+それは、まるで勇樹の心みたいだった。
+$k
+
+優
+「ただ、別れるの一点ばりで……
+　受験の事なんか、何も言ってくれなかった」
+$k
+
+&empty
+所詮、勇樹にとって俺はそれだけの
+存在だったって事だろうか？
+$k
+
+//&empty
+//だったら、あの夜はいったい何だったんだ？
+//$k
+
+&empty
+だったら、あの日のことはいったい何だったんだ？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY03C );
+
+//	SFP( 0 ,"S_Mushi01#" );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03C.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+俺は、その日も学園が終わり次第、
+ハッピーシ～サ～へと走った。
+$k
+
+&empty
+だけど、この日
+勇樹は一言も声を聞かせてくれることはなかった。
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_isaki.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),30%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,04isaki17_00

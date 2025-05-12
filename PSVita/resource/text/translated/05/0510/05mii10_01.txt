@@ -1,0 +1,884 @@
+﻿// 既読フラグ
+#read_flag,147
+
+#show
+
+&empty
+最前列に近くなると、
+自然と売り子（バイトの巫女さん）の前に列ができて、
+ちょっとマシになってきた。
+$k
+
+優
+「もう大丈夫かな」
+$k
+
+//	DS( CENTER );
+// 	SS( CENTER, MII_0903TR4, MOVE_STOP, NORMAL );
+
+//	SetIconChinmoku( CENTER );
+// MII_0903TR4
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030542
+みい
+「あ…」
+$k
+
+優
+「ごめん、もう少しやりようがあったよな」
+$k
+
+// MII_0903TR4
+#sp,vo,05030543
+みい
+「………」
+$k
+
+優
+「みいちゃん？」
+$k
+
+&empty
+人ごみにあてられたか？
+少しぼ～っとしてるように見えるけど。
+$k
+
+// MII_0903EG4
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030544
+みい
+「あ、い、いえ…」
+$k
+
+優
+「本当に大丈夫？」
+$k
+
+// MII_0903TR4
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030545
+みい
+「ええ、その…
+　お兄様こそ、随分大変そうで…」
+$k
+
+優
+「な～に、このくらいは全然平気」
+$k
+
+&empty
+蹴られまくった足は青あざだらけになってそうだけど。
+$k
+
+// MII_0903TR2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030546
+みい
+「あ、あの…」
+$k
+
+優
+「痛いとことかは？」
+$k
+
+// MII_0903AD4
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03AD4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030547
+みい
+「あ…平気です…」
+$k
+
+優
+「そうか、よかった～。
+　みいちゃんに根に持たれたら、
+　何年も先までねちねち責められそうだもんな～」
+$k
+
+// MII_0903TR4
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030548
+みい
+「何年も先…」
+$k
+
+優
+「あ、いや、ごめん！
+　今のはちょ～っと口が滑っただけでね！？」
+$k
+
+// MII_0903EG2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030549
+みい
+「…そんなに一緒にいる気ですか？」
+$k
+
+優
+「うわ、さみしいこと言わないでよっ」
+$k
+
+// MII_0903TR2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030550
+みい
+「………」
+$k
+
+// MII_0903KB
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030551
+みい
+「そういう意味じゃなくてですね…」
+#msmall
+$k
+
+優
+「おっと、そろそろ順番だ。
+　さっと買って、さっと帰ろうな」
+$k
+
+優
+「お守りお守りっと。
+　すみませーん、ご利益のたっぷりかかったやつは…」
+$k
+
+// MII_0903SN2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03SN2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030552
+みい
+「………」
+$k
+
+// MII_0902OD2
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02OD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030553
+みい
+「す、すみません…これください」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	BFO();
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+// 	SV( BG_MT_TODOROKIMICHI01A );
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS( CENTER, MII_A901BS );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01BS.png,(x),c,(s),80%
+#ig
+
+#show
+
+優
+「みいちゃんは何お願いしたの？」
+$k
+
+// MII_A901NO
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01NO.png,(x),c,(s),80%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),600,(y),50
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030554
+みい
+「あら、興味がありますか」
+$k
+
+優
+「みいちゃんが言うだけで、
+　なんか含みがありそうなのは何故だろう」
+$k
+
+// MII_A901BS
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030555
+みい
+「主導権を握られるのは好きではありませんので」
+$k
+
+優
+「意味がわからないけど…
+　あ、ちなみに俺の願いは雪華ちゃんの…」
+$k
+
+// MII_A901KY2
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KY2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030556
+みい
+「それより勉強の調子はいかがですか」
+$k
+
+優
+「それよりって…」
+$k
+
+// MII_A901NI2
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01NI2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030557
+みい
+「センターまで２週間ほどですが」
+$k
+
+優
+「頑張って詰めこむよ。
+　学園ももう自由登校で行かなくていいし」
+$k
+
+優
+「で、それが終わったら、噂に名高い
+　キャンパスライフが待ってるわけですよ！」
+$k
+
+// MII_A901KB
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030558
+みい
+「待ってるかどうかは、これからのお兄様次第ですが」
+$k
+
+優
+「だ、大丈夫。…ちゃんとお願いしたし」
+$k
+
+&empty
+雪華ちゃんのついでみたいにしちゃったけど。
+$k
+
+優
+「とにかく、あと少しだからな。
+　待ってろ俺のキャンパスライフ！」
+$k
+
+// MII_A903NI
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NI.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030559
+みい
+「………嬉しそうですねー」
+$k
+
+優
+「なんか温度差あるなあ。
+　まあ、みいちゃんにはまだ早いもんな」
+$k
+
+// MII_A903IK2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03IK2.png,(x),c,(s),80%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ikari.png,(x),*480,(y),*70
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op1,(s),120%
+#ig
+
+#sp,vo,05030560
+みい
+「…むっ」
+#msmall
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+優
+「がらっと世界観変わりそうだろ。
+　楽しみなんだよね」
+$k
+
+&empty
+サークルとかコンパとかコンパな。
+$k
+
+// MII_A903MU
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030561
+みい
+「そうやって今がセピア色になってくわけですねー」
+$k
+
+&empty
+ものすごく興味なさそうだ。
+$k
+
+優
+「ほら、順番だから。
+　みいちゃんだって２年後だよ２年後」
+$k
+
+// MII_A903SN2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03SN2.png,(x),c,(s),80%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),240,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,05030562
+みい
+「…２年後じゃ、きっと間に合わないじゃないですか」
+#msmall
+$k
+
+優
+「ん？」
+$k
+
+// MII_A903FK
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030563
+みい
+「お兄様はお尻が軽そうだと言ったんです」
+$k
+
+優
+「そんなに安く見ないで！」
+$k
+
+&empty
+きっとそういうこともあるだろうけどさ。
+…あるといいなあ。
+$k
+
+// MII_A903NO2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030564
+みい
+「そう考えると、受験が終わって
+　春までしかないわけですね」
+$k
+
+優
+「何が？」
+$k
+
+// MII_A903FK
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030565
+みい
+「………破格の空き物件と契約するまでの猶予」
+$k
+
+優
+「そういえば俺、受かったら、
+　次に住む部屋も探さにゃならんのだよな」
+$k
+
+// MII_A903KM4
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KM4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030566
+みい
+「さらに短く…」
+$k
+
+優
+「そうだな、春までとか言ってたら遅いんだよな。
+　千寿にいるのもあと少しかぁ」
+$k
+
+// MII_A903TR
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030567
+みい
+「………」
+$k
+
+優
+「あれ？　破格の空き物件って、みいちゃん
+　どっかいいとこ知ってるの？」
+$k
+
+// MII_A903EG
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kyakya.png,(x),500,(y),30
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),no_limit
+#ip,op1,(x+),10,(y+),10
+#ig
+
+#sp,vo,05030568
+みい
+「お兄様、浪人なさいません？」
+$k
+
+// 	SK2();
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+優
+「さわやかに縁起でもないわ！」
+$k
+
+&empty
+どうしてそういう話になった！？
+$k
+
+// MII_A902SP
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030569
+みい
+「さすがに冗談ですよ」
+$k
+
+優
+「みいちゃんの言うことだからなあ…」
+$k
+
+// MII_A903TR
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030570
+みい
+「本当ですよ。だって…」
+$k
+
+//	BFO();
+優
+「ん？」
+$k
+
+//	BFP( BGM_YASURAGI );
+//	BFO();
+// MII_A903SN2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03SN2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030571
+みい
+「………」
+$k
+
+// MII_A902TR2
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030572
+みい
+「あの…」
+$k
+
+優
+「どうかした？」
+$k
+
+// MII_A902SP
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030573
+みい
+「勘違い………しませんか？」
+$k
+
+優
+「相変わらずみいちゃんの話は足りない情報が多いな」
+$k
+
+// MII_A903TR4
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030574
+みい
+「お守りとか…渡しても」
+$k
+
+優
+「え？」
+$k
+
+// MII_A903SN2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03SN2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030575
+みい
+「………」
+$k
+
+優
+「みいちゃんが俺に…ってこと？」
+$k
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),3,(dl),500
+#ip,c1,(y+),10
+#ig
+
+// MII_A903SN2
+#sp,vo,05030576
+みい
+「…（こくこく）」
+$k
+
+// 	MoveStand( CENTER, 15, 0, 10 );
+// 	MoveStand( CENTER, 15, 0, -1, 1 );
+// 	MoveStand( CENTER, 15, 0, 0, 1 );
+// 	MoveStand( CENTER, 15, 0, 10, 1 );
+// 	MoveStand( CENTER, 15, 0, -1, 1 );
+// 	MoveStand( CENTER, 15, 0, 0, 1 );
+
+優
+「あ…」
+$k
+
+// MII_A903TR2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030577
+みい
+「ただの合格祈願ですけど…
+　やっぱり理由もないのに変でしょうか？」
+$k
+
+優
+「いやいやいや、全然変じゃないってっ。
+　うん、嬉しいよ」
+$k
+
+//	SetIconHirameki( CENTER );
+// MII_A902TR
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030578
+みい
+「じゃあ…」
+$k
+
+優
+「だって俺達、兄妹みたいなもんじゃない」
+$k
+
+//	SetIconExcl( CENTER );
+#ss,bgm
+
+//	BFP( BGM_COMICAL1 );
+// MII_A902OD2
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02OD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030579
+みい
+「………え？」
+$k
+
+//	BFP( BGM_COMICAL1 );
+
+優
+「ほら、俺もさっき雪華ちゃんにお守り買ったんだ。
+　家族にお守りをあげるって全然普通だろ？」
+$k
+
+// MII_A902AS
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030580
+みい
+「あ…家族……」
+$k
+
+優
+「そうかそうか。
+　みいちゃんも兄を慕い敬う年頃になったか」
+$k
+
+// MII_A902RK
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02RK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030581
+みい
+「………」
+$k
+
+優
+「いや～、嬉しいなぁ。
+　ありがとう」
+$k
+
+//	SetIconIkari( CENTER );
+
+// MII_A903IK2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030582
+みい
+「………」
+$k
+
+優
+「あれ？　みいちゃん、どうしたのかな？
+　お守りは？」
+$k
+
+// MII_A903FK
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030583
+みい
+「なに立ったまま夢見てんですか頭わいてるんですか」
+$k
+
+優
+「あれ～っ！？」
+$k
+
+&empty
+何がどうしたらそうなるの！？
+$k
+
+&empty
+照れ隠しにちょっとテンション高めに喜んだだけなのに、
+
+この仕打ち！？
+$k
+
+// MII_A903IK5
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03IK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030584
+みい
+「またお兄様に弄ばれてしまいました。
+　遺憾です。ムカつきます。屈辱です」
+$k
+
+優
+「それは俺の台詞だろ！？
+　振り回すだけ振り回してっ、俺バカみたいじゃんっ」
+$k
+
+// MII_A902IK
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030585
+みい
+「正真正銘のバカですよ。
+　だからお兄様は感情音痴と言われるのです！」
+$k
+
+優
+「そんな事、言われたことねえ！？」
+$k
+
+// MII_A902MJ2
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02MJ2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030586
+みい
+「………」
+$k
+
+&empty
+てか、陰で言われてるのだろうか？
+$k
+
+//	BFO();
+優
+「………」
+$k
+
+// MII_A903KM4
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KM4.png,(x),c,(s),80%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),240,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+//	BFP( BGM_SHIZUKA );
+
+#sp,vo,05030587
+みい
+「…不毛な諍いは空しいからやめましょうか」
+
+#mfuri,　　　　　　　　　　いさか
+
+$k
+
+優
+「自分だけ冷静に…言わないで…」
+$k
+
+// MII_A903KB
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030588
+みい
+「別に…わかっていたことですし」
+$k
+
+優
+「何が？」
+$k
+
+// MII_A901NI2
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01NI2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030589
+みい
+「いえ、あちらは仲がよろしくて結構ですねと」
+$k
+
+優
+「あちら？」
+$k
+
+#sp,bgm,BGM_NICHIJYO
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+見れば、数十メートルほど前に、
+小さな子供を連れた家族が歩いていた。
+$k
+
+
+#next,05mii10_02

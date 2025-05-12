@@ -1,0 +1,555 @@
+﻿// 既読フラグ
+#read_flag,91
+
+// セーブタイトル
+#flag,save_title,Ａｃｔ３－２,0,0
+
+// 	SV( BG_SJ_GAIKAN03D );
+// 	Scroll(0, -600, 0);
+// 	Fade( 0,0 );
+
+#sp,env,S_Rain02#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN03D.jpg,(x),l_s,(s),100%
+#ig
+
+#ir,(dr),3000,(ef),move,(cv),linear
+#ip,bg,(x),c
+#ig
+
+// エピソードタイトルの表示
+#note,Ａｃｔ３－２　ただいま、銭湯中！
+$k
+#note,erase
+
+// 	Fade( SLOW, 100 );
+// 	Scroll( 300, 0, 0);
+// 	WaitScroll();
+
+#show
+
+// 	Shake( SLOW, SHAKE_RANDOM | SHAKE_WINDOW );
+
+優
+「ぐわああ―――っ」
+#mlarge
+$k
+
+// 	SV( BG_SJ_YU03F );
+// 	SF( 0, NORMAL, 25 );
+
+#so,env,(vl),3
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03F.jpg,(s),100%
+#ig
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Dosa01
+
+// 	Shake( NORMAL, SHAKE_UP, 50, NORMAL * 2 );
+
+優
+「駄目だ、疲れた…」
+$k
+
+&empty
+数字や文章も全然頭に入ってこなくなった。
+すでに集中力も底を突いている。
+$k
+
+&empty
+はあ、受験ってなんなんだろう…？
+$k
+
+&empty
+いや、いかんいかん、ここはポジティブにいかねば！
+$k
+
+優
+「……あれ？」
+$k
+
+// 	SV( BG_SJ_YU03G );
+// 	SF( 0, NORMAL );
+
+#sp,se,S_Door04o
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03G.jpg,(s),100%
+#ig
+
+#so,env,(vl),def
+
+優
+「うわ、すっげー雨。
+　いつから降ってたんだ？」
+$k
+
+&empty
+ふむ。さすが俺！
+雨音にも気付かない位集中出来ていた訳だな。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ぐううぅ～～。" );
+#hide
+
+#sp,se,S_Onaka02
+
+#wait,1000
+
+#show
+
+優
+「………腹減ったな」
+#meffect,flow,5
+$k
+
+&empty
+そういえば今日はまだ晩飯呼びに来ないな？
+忘れられてるのか？
+$k
+
+&empty
+よし、様子見に行くかな。
+$k
+
+// 	SV( BG_SJ_YU03F );
+
+// 	SF( 0, NORMAL, 25 );
+
+#sp,se,S_Door04c
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03F.jpg,(s),100%
+#ig
+
+#so,env,(vl),3
+
+&empty
+窓を閉め上着を羽織る。
+そして携帯も一応もって…。
+$k
+
+&empty
+あれ？　携帯の着信………履歴が……
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+&empty
+うわ！？
+桜子とみいちゃんから…メールもそれぞれ十数件ずつ。
+$k
+
+&empty
+なんとなく予想が付いているので、見るのが怖い。
+素晴らしきは我が集中力。
+$k
+
+&empty
+……というより、
+マナーモードのままだったのが一番の敗因だが。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+// 	SV( BG_TD_IMA03F );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ig
+
+#show
+
+優
+（そろーっと…）
+$k
+
+// 	SS_( CENTER, KINO_0401AK, MOVE_STOP, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),KINO_A401AK.png,(x),c,(s),60%
+#ig
+
+// KINO_0401AK
+#sp,vo,02060099
+紀乃
+「あんたは何をしとるんや」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「おおう！
+$nw,1000
+
+　……婆さんかよ、脅かすな」
+
+$k
+
+// KINO_0401KT
+#ir
+#ip,c1,(fi),KINO_A401KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060100
+紀乃
+「おのれこそ、なにをこそこそと…」
+$k
+
+優
+「そんな事より晩飯はまだか？」
+$k
+
+// KINO_0401KM
+#ir
+#ip,c1,(fi),KINO_A401KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060101
+紀乃
+「三人ほど帰っとらんから、まだやな。
+$nw,3400
+
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),60%
+#ig
+
+　準備はもうすぐでけるけど」
+$k
+
+優
+「あ、やっぱり？」
+$k
+
+&empty
+つーかあいつらも、婆さん居たんなら俺じゃなく、
+婆さんに連絡すりゃいいのに。
+$k
+
+#sp,vo,02050044
+雪華
+「お婆ちゃーん、野菜全部切り終わったよぉー？」
+$k
+
+&empty
+ええ？
+$k
+
+// KINO_0401EG
+#ir
+#ip,c1,(fi),KINO_A401EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060102
+紀乃
+「ほいほい、ほんならもう居間に運んでまおか。
+　お婆ちゃんも手伝うさかいなー」
+$k
+
+&empty
+雪華ちゃんは今、台所に。
+$k
+
+#sp,vo,02050045
+雪華
+「はーい！」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+さっき婆さんは三人とか言ってたから、
+という事は、今日は要さんも一緒か？
+$k
+
+#hide
+
+#ss,bgm
+
+#wait,1000
+
+// 	SS_( CENTER, KINO_0401KD2 );
+// 立ち絵移動。パラメータは適宜。
+
+#sp,se,S_Door04o
+
+#wait,1000
+
+#show
+
+#sp,vo,02000537
+桜子
+「あーっ、もう雨やんだわよっ！？
+　ムカつくわねーっ」
+$k
+
+#sp,vo,02040314
+知世翔
+「うわ……タイミング悪いですねえ
+　…すでにパンツも靴もぐちょぐちょですし」
+$k
+
+#sp,vo,02000538
+桜子
+「ごめんね知世翔、買い物に付き合わせたばっかりに…。
+　せっかく泊まりに来てくれたのに」
+$k
+
+#sp,vo,02040315
+知世翔
+「とんでもないです、先輩達は悪くありませんし、
+　不測の事態が重なっただけで。それもこれも…」
+$k
+
+#sp,vo,02030250
+みい
+「くしゅっ！
+　……はやくお風呂に入りたいです」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW );
+
+#sp,bgm,BGM_SYOSO
+
+&empty
+うわー、みんな機嫌損ねてないといいなあ。
+$k
+
+// KINO_0401EG2
+#ir
+#ip,c1,(fi),KINO_A401EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060103
+紀乃
+「………玉子とニラが帰ってきよったで？
+$nw,3700
+
+#ir
+#ip,c1,(fi),KINO_A401AK.png,(x),c,(s),60%
+#ig
+
+　あんた、風呂場のタオル持って行ったりいや」
+$k
+
+優
+「言われずとも…」
+$k
+
+#sp,se,S_Dash01o
+
+#ir,(sync),NO
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	RFO( RULE_RYUUSEN, FAST );
+// 特殊な画面変更。暫定的に。
+
+#sp,vo,02000539
+桜子
+「お婆ちゃーん！　ねえ、居るーっ？
+　ちょっとタオル持って来てよー…」
+$k
+
+#sp,vo,02060104
+紀乃
+「おかえりー大変やったな、
+　三人とも、そこでもう少し待っときや、
+　すぐにタオルが来るさかいな？」
+$k
+
+// 	SV( BG_TD_1FROKA03B );
+
+#sp,se,S_Dash01i
+
+// 	RFI( RULE_RYUUSEN | RULE_MIRROR, FAST );
+// 特殊な画面変更。暫定的に。
+
+#ir
+#ip,bg,(fi),BG_TD_1FROKA03B.jpg,(s),100%
+#ig
+
+&empty
+俺はダッシュしていた。
+$k
+
+優
+「あれ？　風呂場電気点けっぱなし…」
+$k
+
+// 	SNLP( 0, "S_Tel15" );
+#sp,se,S_Tel15
+
+&empty
+雨降ってたから、今日は早めに風呂沸かしてたんだ。
+$k
+
+// 	SNLP( 0, "S_Tel16" );
+
+#sp,se,S_Tel16
+
+&empty
+まあいいや、今はそれどころではない。
+$k
+
+#sp,se,S_Dash01o
+
+// 	RFO( RULE_RYUUSEN, FAST );
+// 特殊な画面変更。暫定的に。
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+俺はタオルを数枚ひっ掴むと、
+今度はダッシュで玄関へ向かう。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN03B.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB.png,(x),l2,(s),60%
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03FK.png,(x),c,(s),60%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),r2,(s),60%
+#ig
+
+#wait,500
+
+// 	SV( BG_TD_GENKAN03B );
+// 	SS( LEFTLEFT, CHISEKA_0401KB );
+// 	SS( CENTER, SAKURAKO_0403FK );
+// 	SS( RIGHTRIGHT, MII_0403FK );
+
+// 	RFI( RULE_RYUUSEN, FAST );
+// 特殊な画面変更。暫定的に。
+
+#sp,se,S_Tel18
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),10
+#ig
+
+#wait,1500
+
+#sp,se,S_Tel15
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+#wait,1000
+
+#sp,se,S_Tel16
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),10
+#ig
+
+// 	SNLP( 0, "S_Tel16" );
+// 	DelAction( LEFTLEFT );
+// 	DelAction( CENTER );
+// 	DelAction( RIGHTRIGHT );
+
+#show
+
+優
+「お待たせしました、お嬢様方…」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),50,(al),0%
+#ip,c2,(y+),50,(al),0%
+#ip,c3,(y+),50,(al),0%
+#ig
+
+&empty
+ふわりと素早く順番に彼女達の頭にタオルを
+優しく被せていく。
+$k
+
+// 	MoveStand( RIGHTRIGHT, NORMAL, 0, 20 );
+// 	MoveStand( CENTER, NORMAL, 0, 20 );
+// 	MoveStand( LEFTLEFT, NORMAL, 0, 20 );
+
+// 	SNLP( 0, "S_Tel18" );
+#sp,se,S_Tel18
+
+&empty
+しかし。
+俺のジーンズの後ろポケット。
+$k
+
+// 	SNLP( 0, "S_Tel15" );
+#sp,se,S_Tel15
+
+&empty
+その中のハイテク機器には、
+今もリアルタイムで、苦情メールが
+どんどん送り込まれているのが分かる。
+$k
+
+#sp,se,S_Tel16
+
+&empty
+その中にはまだ見た事のないメールアドレスも
+含まれているはず。
+$k
+
+&empty
+桜子、みいちゃんに、有河も含め、
+三人とも携帯操作に夢中だから。無表情で。
+$k
+
+// 	SNLP( 0, "S_Tel16" );
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SEStop( 0 );
+
+// 	SV( BG_TD_1FROKA03B );
+// 	SS( CENTERLEFT, CHISEKA_0401BS );
+// 	SS( CENTERRIGHT, SAKURAKO_0402EG );
+
+#sp,bgm,BGM_COMICAL2
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_1FROKA03B.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),r,(s),60%
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),l,(s),60%
+#ig
+
+#next,02common03-2_01

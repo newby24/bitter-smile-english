@@ -1,0 +1,570 @@
+﻿// 既読フラグ
+#read_flag,229
+
+// ISAKI_0201IK
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010505
+勇樹
+「……私にどうしろと言うんだ」
+$k
+
+// SAKURAKO_0203AK
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000138
+桜子
+「そんなの自分で考えなさいよ」
+$k
+
+// ISAKI_0202IK
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010506
+勇樹
+「それがわからないから、突き放そうと
+　思ったんじゃないか！！」
+$k
+
+// SAKURAKO_0203IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000139
+桜子
+「なんで、そんな独りになろうとするのよ！
+　もっとあいつを頼ってやりなさいよ！」
+$k
+
+// SAKURAKO_0203IK
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000140
+桜子
+「優は……あんたの支えになれないのが、
+　一番、悲しいんだからっ……」
+$k
+
+// ISAKI_0202KM
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010507
+勇樹
+「あいつに、頼る……？
+$nw,4400
+
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+　そんな真似ができるか！！」
+
+$k
+
+// 	SK2( NORMAL, 10, 5 );
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_LEFTRIGHT, SLOW );
+
+// 	SV( BG_GK_ROKA01A );
+
+#sp,bgm,BGM_SABISHII
+
+// 	RFI( RULE_LEFTRIGHT | RULE_MIRROR, SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+宮津橋は先に帰ってしまったんだろうか。
+$k
+
+&empty
+ハッピーシ～サ～に行けば、
+会えるとは思うけれど。
+話をしてくれるかどうかがわからない。
+$k
+
+#sp,vo,04000141
+桜子
+「ふざけないでよ！！」
+$k
+
+&empty
+外から、桜子の声が聞こえて、
+俺は慌てて窓から顔を出した。
+$k
+
+// 	SV( BG_GK_CHURIN01A );
+// 	SS_( LEFT, ISAKI_0201AZ );
+
+#ss,bgm
+
+#ir
+#ip,bg,(fi),BG_GK_CHURIN01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),r,(s),60%
+#ig
+
+// 	SS( RIGHT, SAKURAKO_0203FK2 );
+
+&empty
+桜子と…あれは宮津橋？
+$k
+
+&empty
+あいつらまさか喧嘩して…！？
+$k
+
+#sp,bgm,BGM_SYOSO
+
+&empty
+今はまだどっちも手を出していないけれど、
+一触即発の空気を感じる。
+$k
+
+優
+「あいつら……何やってるんだよ！！」
+$k
+
+&empty
+殴り合いになる前に止めないと。
+$k
+
+#sp,env,S_Dash10#
+
+#ir
+#ip,bg,(fi),BG_GK_KAIDAN01A.jpg,(s),100%
+#ig
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_GK_KAIDAN01A );
+// 	Shake( 0, SHAKE_UP|SHAKE_SCREEN, 5, 15 );
+//	RadialLine( 0, 20, 400, 300, 200, 500, 10, 100, 255, 255, 255 );
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+&empty
+階段をダッシュで駆け下りて、桜子たちのいる
+駐輪場へと急ぐ。
+$k
+
+// 	SV( BG_GK_ROKA01A );
+
+#ir
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+&empty
+間に合えばいいんだが……！！
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	RadialLine( 0 );
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+// 	Shake( 1, SHAKE_UP|SHAKE_SCREEN, 5, 15 );
+// 	SV( BG_GK_CHURIN01A );
+// 	SS_( LEFT, ISAKI_0201AZ );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_CHURIN01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),r,(s),60%
+#ig
+
+// 	SS( RIGHT, SAKURAKO_0203FK2 );
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ss,env,(dr),0
+
+#sp,se,S_Ton04
+
+#show
+
+優
+「はぁっはぁっはぁっ……
+　桜子、宮津橋、何やってるんだよ！」
+$k
+
+// SAKURAKO_0203KT
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000142
+桜子
+「優……なんでここに？」
+$k
+
+優
+「窓からお前らが見えたから……
+　走ってきたんだよ」
+$k
+
+&empty
+宮津橋は不機嫌そうに桜子を睨みつけていたが、
+まだ殴りかかってはいないみたいだった。
+$k
+
+// 	SS( RIGHT, SAKURAKO_0203FK2 );
+
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),r,(s),60%
+#ig
+
+&empty
+それは桜子も同じで、険しい顔で
+拳を握り固めたまま、宮津橋を見つめている。
+$k
+
+優
+「いったい何があったんだ？」
+$k
+
+// SAKURAKO_0203IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000143
+桜子
+「……なんでもないわよ」
+$k
+
+&empty
+とてもそうは見えないんだが。
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010508
+勇樹
+「…………帰る」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l2,(al),0%
+#ig
+
+&empty
+やがて、宮津橋の方が根負けしたかのように、
+目を伏せて歩き出した。
+$k
+
+優
+「お、おい！」
+$k
+
+#sp,se,S_Catch01
+
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+// 	SS( CENTER, SAKURAKO_A203NO3 );
+
+&empty
+手を伸ばして引き留めようとするが、
+桜子にその手を掴まれてしまった。
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A203IK3
+#sp,vo,04000144
+桜子
+「放っておきなさいよ！」
+$k
+
+優
+「でも……」
+$k
+
+&empty
+その間に、宮津橋はさっさとその場から
+歩き去ってしまう。
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),c,(s),60%
+#ig
+
+// 	SS( CENTER, SAKURAKO_0203FK2 );
+
+&empty
+後には不機嫌な桜子と俺だけが残された。
+$k
+
+優
+「何があったのか、
+　教えてくれてもいいんじゃないか？」
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0203IK3
+#sp,vo,04000145
+桜子
+「……なんでもないって言ってるでしょ！」
+$k
+
+優
+「…………」
+$k
+
+// SAKURAKO_0203IK
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000146
+桜子
+「本当にもうっ！」
+$k
+
+//	SP( "S_Punch01" );
+//	MoveStand( CENTER, 20|SPEED_UP, -30, 0 );
+//	MoveStand( CENTER, 20|SPEED_DOWN, 0, 0, 1 );
+
+#sp,se,S_Punch01
+
+&empty
+桜子が吐き捨てるようにそう言って、
+壁を殴る。
+$k
+
+&empty
+結局、どれだけ問いただしても、桜子は
+宮津橋と何を話していたのか答えてくれなかった。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_CHURIN01A, FILTER_SEPIA|FILTER_LINKSTAND );
+// 	SS( CENTER, SAKURAKO_0203IK3 );
+
+#sp,bgm,BGM_SABISHII
+
+// 	Fade( 0, 60 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_CHURIN01A_s.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOs_A203.png,(psi),SAKURAKOs_An03IK3.png,(x),c,(s),60%
+#ig
+
+#flag,mode,novel,0,0
+
+
+#sp,vo,04000147
+
+&empty
+&empty
+&empty
+&empty
+
+「なんで、そんな独りになろうとするのよ！
+#mstyle,(co),桜子
+#malign,c
+#meffect,fade,500
+
+$nw,2930
+
+もっとあいつを頼ってやりなさいよ！」
+#mstyle,(co),桜子
+#malign,c
+#meffect,fade,500
+
+$k
+
+
+#flag,mode,adv,0,0
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#show
+
+// ISAKI_0202KM
+
+
+#sp,vo,04010509
+勇樹
+「ダメだ……。
+　…あいつに頼るなんて…できるわけない…」
+$k
+
+// ISAKI_0201KN
+
+#sp,vo,04010510
+勇樹
+「……私は強くならなきゃ……そうでないと…」
+$k
+
+// ISAKI_0201KN
+#sp,vo,04010511
+勇樹
+「矢崎…なんであんな顔をする」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_CHURIN01A_s.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOs_A203.png,(psi),SAKURAKOs_An03IK.png,(x),c,(s),60%
+#ig
+
+// 	RFO( RULE_CIRCLE, NORMAL );
+// 	SV( BG_GK_CHURIN01A, FILTER_SEPIA|FILTER_LINKSTAND );
+// 	SS( CENTER, SAKURAKO_0203IK );
+// 	Fade( 0, 60 );
+// 	RFI( RULE_CIRCLE, NORMAL );
+// 特殊な画面変更。暫定的に。
+
+#flag,mode,novel,0,0
+
+
+#sp,vo,04000148
+
+&empty
+&empty
+&empty
+&empty
+
+「優は……あんたの支えになれないのが、
+#mstyle,(co),桜子
+#malign,c
+#meffect,fade,500
+
+$nw,4000
+
+一番、悲しいんだからっ……」
+#mstyle,(co),桜子
+#malign,c
+#meffect,fade,500
+
+$k
+
+// 	Fade( 0, 100 )
+
+// 	SV( BG_SKY01A, FILTER_LINKSTAND );
+//	SS( LEFTLEFT, ISAKI_0201KN );
+// 	RFI( RULE_CIRCLE, NORMAL );
+
+#flag,mode,adv,0,0
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#show
+
+// ISAKI_0201KN
+
+#sp,vo,04010512
+勇樹
+「…っ！？」
+$k
+
+// ISAKI_0202KM
+
+#sp,vo,04010513
+勇樹
+「…私のせいで、あいつが悲しんでいるというのか？
+　……私は、そんなつもりじゃ…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_CHURIN01A_s.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOs_A203.png,(psi),SAKURAKOs_An03IK3.png,(x),c,(s),60%
+#ig
+
+// 	SV( BG_GK_CHURIN01A, FILTER_SEPIA|FILTER_LINKSTAND );
+// 	SS( CENTER, SAKURAKO_0203IK3 );
+// 	Fade( 0, 60 );
+// 	RFI( RULE_CIRCLE, NORMAL );
+
+#flag,mode,novel,0,0
+
+
+#sp,vo,04000149
+
+&empty
+&empty
+&empty
+&empty
+
+「あたしは……あんたのした事に
+#mstyle,(co),桜子
+#malign,c
+#meffect,fade,500
+
+$nw,3250
+
+自分で責任をとれって言ってるのっ」
+#mstyle,(co),桜子
+#malign,c
+#meffect,fade,500
+
+$k
+
+
+#flag,mode,adv,0,0
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#next,04isaki14_02

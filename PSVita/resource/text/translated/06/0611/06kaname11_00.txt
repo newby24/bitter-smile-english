@@ -1,0 +1,746 @@
+﻿// 既読フラグ
+#read_flag,373
+
+// セーブタイトル
+#flag,save_title,要　第１１話,0,0
+
+// 	SV( BG_SJ_YU03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第１１話　ディープ酒
+$k
+#note,erase
+
+#show
+
+優
+「『親ののたまふことをひたぶるに』
+$nw,1000
+
+　ひたぶるは…一途に？
+　うっわ～、ミスってんじゃん」
+$k
+
+優
+「よし、答え合わせ終わりっと。
+　時間は…」
+$k
+
+&empty
+１８時過ぎ、か。
+$k
+
+優
+「ちょっと頭、冷やしてこよ」
+$k
+
+&empty
+いつもなら一息入れて床に転がるとこだけど…。
+$k
+
+&empty
+今日はまだ、課題が残っていた。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GAIKAN03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN03A.jpg,(s),100%
+#ig
+
+#sp,se,W_Dog02
+
+#wait,2000
+
+#sp,bgm,BGM_NONBIRI
+
+#sp,se,S_Door04o
+
+// 	SV( BG_TD_IMA03B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03B.jpg,(s),100%
+#ig
+
+// 	SS( CENTER, KANAME_0103EG, MOVE_LEFT );
+
+// KANAME_0103EG
+#ir,(ef),off
+#ip,c2,(fi),KANAME_A103.png,(psi),KANAME_An03EG.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,06020438
+要
+「たっだいまぁー」
+$k
+
+// 	SEStop();
+// 	SS_( LEFT, MII_0402KB2 );
+
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02KB2.png,(x),l2,(s),60%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),r2,(s),60%
+#ig
+
+// 	SS( RIGHT, YUKIHA_0401NO );
+
+// MII_0402KB2
+#sp,vo,06030056
+みい
+「その旅行かばん…。
+　お姉様、本気で寄生されるおつもりですね」
+$k
+
+// YUKIHA_0401KS
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KS.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06050027
+雪華
+「帰省のイントネーションが違ったような…」
+$k
+
+// MII_0402MJ
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,06030057
+みい
+「せめて着替えてから来てはいかがです？」
+$k
+
+// KANAME_0103IT2
+#ir
+#ip,c2,(fi),KANAME_A103.png,(psi),KANAME_An03IT2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020439
+要
+「着替えるならお風呂入りたいし、
+　お風呂入ったら、病み上がりなのに湯冷めするもの。
+　スーツもクリーニングに出したいしー」
+$k
+
+// YUKIHA_0401AY2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AY2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06050028
+雪華
+「一応、色々考えてるんだ…」
+$k
+
+// KANAME_0103EG
+#ir
+#ip,c2,(fi),KANAME_A103.png,(psi),KANAME_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020440
+要
+「もー、お腹ぺっこぺこ。
+　早くご飯食べたぁーい」
+$k
+
+// YUKIHA_0401NO
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06050029
+雪華
+「そうだ、要お姉ちゃん、
+　来る途中で、お兄ちゃん見かけなかったかな？」
+$k
+
+// KANAME_0101KT2
+#ir
+#ip,c2,(fi),KANAME_A101.png,(psi),KANAME_An01KT2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020441
+要
+「優くんいないの？」
+$k
+
+// MII_0402SP2
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02SP2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,06030058
+みい
+「お部屋で勉強をされていたはずなのですが、
+　いつの間にか、もぬけの殻になってまして」
+$k
+
+// YUKIHA_0401MJ2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01MJ2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06050030
+雪華
+「携帯も机の上に置きっぱなしなんだ」
+$k
+
+// MII_0403SN
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,06030059
+みい
+「おそらく原因は受験のストレス。
+　どんな軽犯罪に走るかと思うと心配で心配で」
+$k
+
+// YUKIHA_0401AK2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06050031
+雪華
+「確かに軽犯罪以上は
+　度胸がなくてできそうにないけど…」
+$k
+
+// KANAME_0102MU
+#ir
+#ip,c2,(fi),KANAME_A102.png,(psi),KANAME_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020442
+要
+「………」
+#meffect,flow,5
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,env,S_Wind01#
+
+// 	SV( BG_MT_KOEN03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KOEN03A.jpg,(s),100%
+#ig
+
+//#sp,se,S_Wind02
+
+#show
+
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+優
+「ひっくしっ」
+#mlarge
+$k
+
+優
+「う～、さぶ…」
+#meffect,flow,5
+$k
+
+&empty
+１２月３０日。
+時間は…携帯を忘れたからよくわからん。
+$k
+
+&empty
+ホットだった缶コーヒーもとっくに空。
+すでに冷たくなった缶を握り締めたまま、
+ただ、ベンチに座り続けていた。
+$k
+
+&empty
+そろそろ帰らないと、雪華ちゃん他を心配させるかも。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　ほか
+
+…いや、心配してくれるかどうかは別として。
+
+$k
+
+&empty
+この数日、俺は自分に２つの課題を課していた。
+$k
+
+&empty
+１つは、受験勉強。
+これは、受験生の本分だから当然。
+$k
+
+&empty
+もう１つは、こないだの要さんとのこと。
+$k
+
+&empty
+もやもやしたままの自分の気持ちに整理をつける。
+…簡単につけば世話無いんだろうけど。
+$k
+
+&empty
+風でスカートがめくれて、ぱんつが見えた…。
+そのバージョンアップ程度のラッキーとドキドキを、
+履き違えただけの恥ずかしい奴なのか…。
+$k
+
+&empty
+それとも……？
+#meffect,flow,5
+$k
+
+&empty
+もちろん性的欲求がないわけじゃない。
+だから、余計にわからなくなる。
+$k
+
+&empty
+桜子に言われて、何かが見えたと思ったんだけど…。
+$k
+
+優
+「大体なぁ…」
+$k
+
+&empty
+要さんの方がどう思ってるのか態度も真意も謎、
+むしろ忘れてるんじゃないかというような状態で…。
+$k
+
+&empty
+俺ひとり勝手に盛り上がっても
+しょうがない気もしてくる。
+$k
+
+&empty
+とは言え、今日がその課題の提出日。
+$k
+
+&empty
+要さんが、仕事納めで帰省してくる。
+$k
+
+&empty
+要さんに会ってはじめに交わす言葉。
+その第一声が答えになると思う。
+$k
+
+&empty
+だから、とにかく自然体で嘘をつかないように。
+$k
+
+&empty
+覚悟は…決めた。
+$k
+
+優
+「よし、帰るか」
+$k
+
+#sp,vo,06020443
+？？？
+#mstyle,(co),要
+「こんなとこにいた」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+
+優
+「うわぁ！？」
+#mlarge
+$k
+
+// 	SS(CENTER, KANAME_0103BS, MOVE_RIGHT, NORMAL);
+
+#ss,env
+#sp,bgm,BGM_YASURAGI
+
+#ir,(ef),off
+#ip,c1,(fi),KANAMEn_A103.png,(psi),KANAMEn_An03BS.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+
+&empty
+聞き違えるはずのないその声に、
+反射的に後ずさる。
+$k
+
+// KANAME_0103KM
+#ir
+#ip,c1,(fi),KANAMEn_A103.png,(psi),KANAMEn_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020444
+要
+「ご、ごめん…
+　そんなに驚くと思わなくて」
+$k
+
+優
+「か、要さん…」
+#meffect,flow,5
+$k
+
+&empty
+いかん、声が裏返った。
+自然体はどこ行った。
+$k
+
+&empty
+つか、答えの第一声って今の？
+待て待て違う、さっきのは返事だからノーカウントだろ。
+$k
+
+&empty
+…とにかく落ち着け、俺。
+$k
+
+// KANAME_0101MJ
+#ir
+#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020445
+要
+「みんな揃わないと、ご飯食べれないって。
+#mfuri,　　　　　　　　そろ
+
+$nw,3450
+
+#ir
+#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01TR.png,(x),c,(s),60%
+#ig
+
+　だから探しにきちゃった」
+
+$k
+
+優
+「そ、そうでしたか」
+$k
+
+&empty
+要さんとまともに話すの、
+あれ以来、久しぶりだ。
+$k
+
+// KANAME_0101MJ2
+#ir
+#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020446
+要
+「急にいなくなったら、みんな心配するでしょ？
+$nw,3870
+
+#ir
+#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01NO2.png,(x),c,(s),60%
+#ig
+
+　連絡くらいつくようにしとかなきゃ」
+$k
+
+優
+「…すみません」
+#meffect,flow,5
+$k
+
+&empty
+こないだもそうだったけど、
+要さんは、本当にいつも通りだ。
+$k
+
+&empty
+まるで何事もなかったように。
+$k
+
+&empty
+そうやって、許してくれているのかもしれない。
+$k
+
+&empty
+このまま、要さんに合わせて、
+何もなかったような顔をしていれば
+今までどおりの関係でいられる。
+$k
+
+&empty
+でも俺は……。
+#meffect,flow,5
+$k
+
+// KANAME_0102BS
+#ir
+#ip,c1,(fi),KANAMEn_A102.png,(psi),KANAMEn_An02BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020447
+要
+「まいっか。
+$nw,1430
+
+#ir
+#ip,c1,(fi),KANAMEn_A102.png,(psi),KANAMEn_An02EG2.png,(x),c,(s),60%
+#ig
+
+　じゃ、帰ろ？」
+$k
+
+優
+「要さん…少し時間もらえませんか？」
+$k
+
+// KANAME_0102KT
+#ir
+#ip,c1,(fi),KANAMEn_A102.png,(psi),KANAMEn_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020450
+要
+「え？」
+$k
+
+&empty
+瞬間、要さんが動揺したのがわかる。
+$k
+
+// KANAME_0102KT
+#sp,vo,06020451
+要
+「時間って…今から？」
+#meffect,flow,2
+$k
+
+優
+「話したいこととか、あるんで」
+$k
+
+&empty
+今さら違う話もないけど、
+雰囲気でわかってもらえるだろう。
+$k
+
+#ss,bgm
+
+// KANAME_0102MU
+#ir
+#ip,c1,(fi),KANAMEn_A102.png,(psi),KANAMEn_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020452
+要
+「………」
+#meffect,flow,5
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_0102MU
+#sp,vo,06020453
+要
+「……なかったことに…」
+#msmall
+$k
+
+&empty
+要さんは、風にかき消されそうな
+か細い声を漏らし…。
+$k
+
+// KANAME_0101MJ
+#ir
+#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020454
+要
+「…うん、わかった」
+$k
+
+&empty
+逡巡とも、覚悟とも取れる微妙な間の後に、
+頷いてくれた。
+$k
+
+// KANAME_0101MJ2
+#ir
+#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020455
+要
+「でも今からはだめ。
+　みんな心配してるし」
+$k
+
+優
+「それじゃあ…？」
+$k
+
+// KANAME_0101MJ2
+#sp,vo,06020456
+要
+「晩ご飯の後。
+　それでいい？」
+$k
+
+優
+「…わかりました」
+$k
+
+// KANAME_0101TR4
+#i
+#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020457
+要
+「よーしっ」
+$k
+
+// 	SS(CENTER, KANAMEn_A101TR4, MOVE_STOP, NORMAL);
+
+#sp,bgm,BGM_NONBIRI
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Punch03
+
+優
+「～っ！？」
+#mlarge
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+話は終わりとばかりに、勢いよく背中を叩かれた。
+$k
+
+// KANAMEn_A102NO
+#ir
+#ip,c1,(fi),KANAMEn_A102.png,(psi),KANAMEn_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020458
+要
+「ふふっ、のろのろしてると先帰っちゃうよ」
+$k
+
+&empty
+どういうつもりか、要さんが笑った。
+$k
+
+&empty
+それだけで不思議と、
+重い気分がどこかに飛んでいくみたいだった。
+$k
+
+&empty
+要さんが何を考えているのか…、
+それはまだわからないけど。
+$k
+
+//	SFO(-1, SLOWER);
+// 	DelStandAll();
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( VISUAL_KANAME_06C );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_KANAME_06C.jpg,(s),75%
+#ig
+
+#show
+
+#sp,vo,06020459
+要
+「わたし、身体は売っても心は売らないわよ」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「ぶううぅぅぅっ！？」
+#mlarge
+$k
+
+// 	//和田：仮
+// 	RuleFlashOut(NORMAL, RULE_SMOKE/*|RULE_NEGATIVE*/);
+// 	SV( BG_MT_YATAI03A );
+
+#sp,bgm,BGM_KANAME
+
+#ir
+#ip,bg,(fi),BG_MT_YATAI03A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+// 	SS( CENTER, KANAME_A101OD3 );
+
+// KANAME_A101OD3
+
+#sp,vo,06020460
+要
+「ちょ、ちょっとだいじょうぶ！？」
+$k
+
+
+#next,06kaname11_01

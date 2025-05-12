@@ -1,0 +1,26 @@
+// 選択肢。
+#read_flag,501
+
+// セーブタイトル
+#flag,save_title,イベント選択　０１,0,0
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),image\select\select_background.jpg
+#ig
+
+// 選択肢ボタン画像の読み込み。
+#ir,(ef),load
+#ip,c1,(fi),image\select\select_phase01_sakurako.png,(al),0
+#ip,c2,(fi),image\select\select_phase01_isaki.png,(al),0
+#ip,c3,(fi),image\select\select_phase01_mii.png,(al),0
+#ip,c4,(fi),image\select\select_phase01_kaname.png,(al),0
+#ig
+
+#selp,(ef),fade,(dr),500
+#seli,　千寿・優の部屋,03sakurako01_00,(lay),c1,(ali),l,(sta),1
+#seli,　鶴ヶ丘学園・教室,04isaki01_00,(lay),c2,(ali),l,(sta),1
+#seli,　千寿店内,05mii01_00,(lay),c3,(ali),l,(sta),1
+#seli,　国道沿い,06kaname01_00,(lay),c4,(ali),l,(sta),1
+$k

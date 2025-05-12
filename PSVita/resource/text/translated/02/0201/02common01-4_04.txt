@@ -1,0 +1,588 @@
+﻿// 既読フラグ
+#read_flag,56
+
+#show
+
+#sp,vo,02140003
+琴美パパ
+「ぎゃーぎゃーうるせーんだよ
+　意味わかんねえ事をつらつらとよー」
+$k
+
+#sp,vo,02130003
+琴美ママ
+「もういい、あんたなんか殺してやるから！」
+$k
+
+// SAKURAKO_0302AS
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AS.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02000252
+桜子
+「ちょっとあんた達落ちついてよ」
+$k
+
+#sp,vo,02140004
+琴美パパ
+「なんだよ、殺るってか！？
+　やれよ、来いよ相手してやるよ！　ああっ？」
+$k
+
+// SAKURAKO_0302IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02000253
+桜子
+「おっさんも煽るなよ！
+
+#mfuri,　　　　　　　　　　　　あお
+$nw,2300
+
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),r0,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+　ああ、ちょっと刃物とかやめてくれる？
+　そんなことして琴美ちゃんとかどうすんのよ？」
+
+$k
+
+// 	MoveStand( CENTERRIGHT, SLOWEST, -100, 0 );
+
+#sp,vo,02130004
+琴美ママ
+「どいてよ！
+　こんな奴、いっぺん死にでもしないと
+　なにも分かんないのよっ！」
+$k
+
+#sp,vo,02140005
+琴美パパ
+「お前が死ねよ、ボケっ！！」
+$k
+
+// 	CS_( CENTERRIGHT, CENTER, 0 );
+// 	MoveStand( CENTER );
+
+#sp,se,T_Door04o
+
+優
+「おいちょっと！　待て待て！」
+$k
+
+// SAKURAKO_0303IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000254
+桜子
+「優っ！？
+　あんた来るなって言ったでしょ！」
+$k
+
+&empty
+桜子を挟んで夫婦の母親の方が手に包丁を持っている。
+$k
+
+&empty
+母親を何とか止めようとしているのか、
+桜子は持ち出してきたクッションを構えている。
+$k
+
+優
+「あんたら夫婦、もういいからさっさと別れちまえよ！
+　それで解決だろ？
+　それでもう包丁とかいらねえだろ」
+$k
+
+// SAKURAKO_0302IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000255
+桜子
+「何言ってんの、優は黙ってて。
+$nw,3700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0
+#ig
+
+　ね、奥さん？　そんな物はそこに置いて、
+　ちゃんと話そう？」
+
+$k
+
+// 	MoveStand( CENTER, SLOWER, -50, 0 );
+
+#sp,vo,02130005
+琴美ママ
+「いいから邪魔しないで！
+　私はもう馬鹿亭主なんか必要無いの！」
+$k
+
+// 	MoveStand( CENTER, 0, -50, 0 );
+
+#sp,se,S_Air04
+
+// 	MoveStand( CENTER, 10, -20, -10, 1 );
+// 	MoveStand( CENTER, 10,   0,   0, 1 );
+
+// SAKURAKO_0303NK2
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NK2.png,(x),l0,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c
+#ig
+
+#sp,vo,02000256
+桜子
+「きゃ」
+$k
+
+// 	MoveStand( CENTER );
+
+優
+「桜子っ！？」
+$k
+
+&empty
+夫婦の間に居た桜子の正面を刃物がかすめる。
+$k
+
+#sp,vo,02130006
+琴美ママ
+「こんなやつ死ねばいいの！」
+$k
+
+優
+「待てやめろ！」
+$k
+
+// SAKURAKO_0303IK2
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000257
+桜子
+「来んな馬鹿っ！」
+$k
+
+#ss,bgm,(dr),0
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(fi),VISUAL_ETC_02A.jpg,(s),80%
+#ig,(se),S_Don01
+
+// 	Blur( 0, 1 );
+//	RadialLine( 0, 50, 400, 300, 50, 600, 10, 100, 10 );
+// 	Zoom(    0, 100, 100, 200, 200 );
+// 	Zoom( FAST, 140, 140, 200, 200, 1 );
+
+//	SM( CHAR_ETC,			-1,					"",				"ずぶ。" );
+// 	BGMStop();
+
+// 	SV( VISUAL_ETC_02A );
+// 	Blur();
+// 	Zoom( 0, 175, 175, 250, 150 );
+
+//	RadialLine();
+// 	BlurZoom( 0, 4, 24 );
+
+// 	BlurZoom( SLOW );
+
+// 	Scroll( 10 | SPEED_UP,   -30, 0 );
+// 	Scroll( 10 | SPEED_DOWN, -20, 0 );
+
+優
+「あっ」
+$k
+
+&empty
+桜子を退けようと割って入ろうとしたが、
+先に母親の方とぶつかった。
+腹に嫌な感触があり、その後はすっと入って…。
+$k
+
+#sp,vo,02000258
+桜子
+「っ！」
+$k
+
+#sp,vo,02130007
+琴美ママ
+「は…あぁ…あ」
+$k
+
+&empty
+怖くて下はまだ見れない。
+$k
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,bg,(fi),BG_MT_BOROAPART03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),100%
+#ig,(se),S_Don01
+
+// SAKURAKO_0301NK4
+
+#sp,vo,02000259
+桜子
+「…っ、どけよっ！」
+$k
+
+// 	ShowFace();
+// 	SV( BG_MT_BOROAPART03A );
+// 	Zoom( 0, 150, 150, 400, 100 );
+// 	SS( CENTER, SAKURAKO_A301NK4 );
+// 	MoveStand( CENTER, 0, 20, 0 );
+// 	Shake( FAST, SHAKE_LEFT, 50, FAST );
+
+#sp,vo,02130008
+琴美ママ
+「きゃあっ」
+$k
+
+// 	Blur( 0, 2 );
+// 	Shake( 0, SHAKE_RANDOM|SHAKE_SCREEN, 4, 100 );
+// 	Pinboke( NORMAL, PINBOKE_NORMAL );
+
+#ir
+#ie,c1
+#ig
+
+優
+「やべ…」
+$k
+
+&empty
+俺、…たぶん、腹を刺された。
+$k
+
+#sp,vo,02140006
+琴美パパ
+「なんだよ、もう終わりか？
+　偉そうに吼えてたくせ…
+$nw,5400
+
+#sp,se,S_Punch05
+
+#madd,うがっ、
+$nw,1000
+
+#sp,se,S_Punch04
+
+#madd,かはっ！？」
+
+$k
+
+&empty
+腹なら…大丈夫だよな？
+なんか色々思い出しては浮かんできた気もするけど。
+$k
+
+#sp,se,S_Dotadotan01
+
+#ir,(dr),500
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	Scroll( FAST, 0, 100 );
+// 	Shake( 0, SHAKE_RANDOM, 0 );
+// 	MoveStand( CENTER, FAST, 20, -250 );
+// 	SetVisualObject( 0, BG_MT_BOROAPART03A, 0, 0 );
+// 	ZoomObject( 0, FAST, 200, 200, 400, 1200 );
+
+&empty
+急に力が抜けて床に膝を付く。
+$k
+
+// 	Blur();
+
+#sp,vo,02010076
+？？？
+#mstyle,(co),勇樹
+「…黙っていろ……」
+$k
+
+// SAKURAKO_A301NO
+#ir
+#ip,bg,(fi),BG_MT_BOROAPART03A.jpg,(s),100%,(y),d_s
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02000260
+桜子
+「優っ、
+$nw,1000
+
+#madd,優大丈夫！？」
+
+$k
+
+// 	MoveStand( CENTER, FAST | SPEED_DOWN, 20, 100 );
+// 	MoveStand( CENTER, 0, 20, 100 );
+
+優
+「あ、ああ、なんと、か」
+$k
+
+&empty
+俺の腹にはクッションが宛がわれていて、
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　あて
+
+その上から深々と包丁が刺さっている。
+
+$k
+
+&empty
+………感覚が無いのは…いや普通の感覚があるのは
+気の所為か…。
+$k
+
+&empty
+でも、なぜか足元には血が点々と流れている。
+$k
+
+// SAKURAKO_A303IK2
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02000261
+桜子
+「ってんめぇ～～～っ
+$nw,2600
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig,(se),S_Swing02
+
+　よくも優を！」
+
+$k
+
+// MoveStand( CENTER, 0, 0, -100 );
+
+優
+「やめろ、桜子！　…あっ」
+$k
+
+&empty
+桜子を止めようとしたがすんでの所で捉えられず、
+俺の指は空を掻く。
+情けない事に体はショックでまだ動いてくれない。
+$k
+
+優
+「おい、さく…」
+$k
+
+// 	SS_( LEFT, ISAKI_0301MU );
+// 立ち絵移動。パラメータは適宜。
+
+// 	MoveStand( LEFT, 0, 50, -100 );
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱし。" );
+// 	ShakeStand( LEFT, FAST, SHAKE_RIGHT, 20, FAST * 2 );
+// 	ShakeStand( CENTER, FAST, SHAKE_RIGHT, 20, FAST * 2 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),T_Clap
+
+&empty
+俺の代わりに誰かが桜子の手を掴んでくれた。
+$k
+
+// ISAKI_0301NO
+
+#sp,vo,02010077
+？？？
+#mstyle,(co),勇樹
+「もういいだろチーちゃん」
+$k
+
+// SAKURAKO_0303IK
+
+#sp,vo,02000262
+桜子
+「なんだよっ！？」
+$k
+
+// ISAKI_0301NR
+
+#sp,vo,02010078
+？？？
+#mstyle,(co),勇樹
+「やめとけ、
+　相手はもうシラフに戻ってるんじゃないか？
+　子供も見てるぞ？」
+$k
+
+// SAKURAKO_0303NK2
+
+#sp,vo,02000263
+桜子
+「止めんなっ。
+$nw,1500
+
+　こいつら、二度とやらかさない様に…」
+
+$k
+
+// 	ShowFace();
+//	SM( CHAR_ETC,			-1,					"",				"@s0006ざばしゃーっ！！" );
+#hide
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),T_Water01
+
+#ir,(dr),500
+#ip,bg,(y),def,(s),100%
+#ip,c3,(fi),ISAKI_A302.png,(psi),ISAKI_An02KT.png,(x),l2,(s),60%
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),60%
+#ie,ov
+#ig
+
+// 	FlashRGB( 0, 224, 224, 255 );
+// 	SS_( LEFT, ISAKI_0302KT );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( CENTER, SAKURAKO_0302AD );
+// 立ち絵移動。パラメータは適宜。
+
+// 	MoveStand( LEFT, 0, 25, 0 );
+// 	MoveStand( CENTER, 0, 75, 0 );
+// 	FlashRGB( NORMAL | SPEED_DOWN );
+// 	Shake( SLOW );
+// 	Pinboke( 0, PINBOKE_NORMAL, 0 );
+
+#show
+
+優
+「ぶ…冷てぇ」
+$k
+
+// KINO_0401IK3
+#ir,(ef),off
+#ip,c2,(fi),KINO_A401IK3.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c2,(x),r2,(al),100%
+#ig
+
+#sp,vo,02060054
+紀乃
+「あんたらええがげんにしなはれ！」
+$k
+
+// KINO_0401AK
+#ir
+#ip,c2,(fi),KINO_A401AK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02060055
+紀乃
+「…仲裁しに来てて
+　自分が暴れてたら意味あれへんやろ」
+$k
+
+// SAKURAKO_0302AD
+#sp,vo,02000264
+桜子
+「………」
+$k
+
+// ISAKI_0301NO
+#ir
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02010079
+勇樹
+「………」
+$k
+
+優
+「………」
+$k
+
+// 	SS_( CENTER, SAKURAKO_0301NK4, MOVE_STOP, 0 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),2000,(ef),move
+#ip,c1,(y+),100,(al),0%
+#ig
+
+// 	MoveStand( CENTER, NORMAL, 75, 50 );
+// 	FadeStand( CENTER, NORMAL, FADE_ALPHA, 0 );
+
+// SAKURAKO_0301NK4
+#sp,vo,02000265
+桜子
+「……なんか痛い」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03B.jpg,(s),100%
+#ig
+
+#show
+
+// 	Shake( FAST, SHAKE_UP | SHAKE_WINDOW, 10, FAST );
+// SAKURAKO_A303NK
+
+#sp,vo,02000266
+桜子
+「……っ」
+$k
+
+// 	SV( BG_TD_IMA03B );
+// 	SS( CENTER, SAKURAKO_A303NK );
+// 	SS( RIGHT, MII_A303NK );
+
+// KANAME_0301KM2
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01KM2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02020043
+要
+「うわ、ざっくりいっちゃってるなぁ。
+　結構深くない、これ？」
+$k
+
+
+#next,02common01-4_05

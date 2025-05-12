@@ -1,0 +1,337 @@
+﻿// 既読フラグ
+#read_flag,224
+
+// 	ShowFace();
+
+// 	SV( BG_GK_ROKA01A );
+
+// 	SS( CENTER, SAKURAKO_A203NO3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#show
+
+&empty
+選択科目の違う宮津橋と別れて、廊下を歩いていると
+桜子に呼び止められた。
+$k
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+そのまま、ずるずると駐輪場に引きずられていく。
+$k
+
+// 	CFO( SLOW );
+// 特殊な画面変更。暫定的に。
+// 	SV( BG_GK_CHURIN01A );
+
+// 	SS( CENTER, SAKURAKO_0203NO );
+
+#sp,bgm,BGM_SAKURAKO
+
+// 	CFI( SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir
+#ip,bg,(fi),BG_GK_CHURIN01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+優
+「なんだよ、こんなところで。
+　喧嘩なら買わんぞ？」
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000114
+桜子
+「そんなんじゃないわよ。
+　…まあ、たいした事じゃないんだけど」
+$k
+
+&empty
+なんだ？
+珍しく煮え切らない態度だな。
+$k
+
+// SAKURAKO_0203AK
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000115
+桜子
+「…いったいどうなってるわけ？」
+$k
+
+優
+「は、何がだ？」
+$k
+
+// SAKURAKO_0203IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000116
+桜子
+「勇樹とあんたの事よ！！」
+$k
+
+優
+「って、言われても……」
+$k
+
+&empty
+どうなっているのかは、俺の方が聞きたい。
+$k
+
+&empty
+てか、いきなり何の話だ。
+$k
+
+// SAKURAKO_0203NO
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000117
+桜子
+「ほら、よくめぐに教科書を借りに
+　行ったりするわけじゃない？」
+$k
+
+優
+「いや、そこはお前、ちゃんと自分で持ってこいよ」
+$k
+
+// SAKURAKO_0202IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000118
+桜子
+「うっるさいわね！　今、それはいいのよ！！」
+$k
+
+&empty
+忘れる方がどうかと思うけどな。
+しかもしょっちゅうみたいだし。
+$k
+
+// SAKURAKO_0202AK
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000119
+桜子
+「そしたら、まあ、あんたたちが教室で
+　いちゃついてるのが見えるんだけどさー」
+$k
+
+// SAKURAKO_0202IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000120
+桜子
+「…あれ、なんなの？」
+$k
+
+優
+「なんなのって言われても」
+$k
+
+&empty
+だから、俺が聞きたい。
+$k
+
+// SAKURAKO_0203KM
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000121
+桜子
+「勇樹はいっつも無表情だし、
+　あんたは困った顔ばっかしてるし。
+　つきあってるんじゃなかったの？」
+$k
+
+&empty
+つきあってる……んだよなぁ。
+$k
+
+&empty
+俺はつきあってるつもりなんだけど、
+最近、よくわからなくなってきた。
+$k
+
+優
+「どうなんだろう」
+$k
+
+// SAKURAKO_0202IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000122
+桜子
+「なによ、それっ、煮え切らないわねー」
+$k
+
+優
+「って言われてもなあ。
+　イマイチ宮津橋の考えてることって
+　わからないし…」
+$k
+
+&empty
+でも、一応楽しそうにしてる時はあるんだぞ？
+俺の勘違いじゃなければ。
+$k
+
+&empty
+……考えたら、落ち込んできた。
+$k
+
+// SAKURAKO_0202AK
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000123
+桜子
+「っはぁぁぁぁぁぁ～………」
+$k
+
+&empty
+なんか盛大にため息をつかれてしまった。
+$k
+
+優
+「…たぶん、つきあってるんだと思う」
+$k
+
+&empty
+というか、そう思いたい。
+我ながら、今、情けない顔をしていると思う。
+$k
+
+// SAKURAKO_0202IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000124
+桜子
+「ふ～ん…」
+$k
+
+優
+「なんだよ」
+$k
+
+// SAKURAKO_0203IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000125
+桜子
+「……まあいいわ。
+　授業が始まるから、さっさと行きなさいよ」
+$k
+
+優
+「お前が引きずって来たんだろ……」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+さらに疲れながらも、俺は桜子と別れて、
+移動先の教室へと向かった。
+$k
+
+// 	SS( CENTER, SAKURAKO_A202AK );
+
+// SAKURAKO_A202AK
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000126
+桜子
+「ったく、ほんと、世話が焼けるんだから……」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_isaki.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,04isaki13_00

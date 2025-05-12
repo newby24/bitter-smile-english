@@ -1,0 +1,713 @@
+﻿// 既読フラグ
+#read_flag,29
+
+// 	FO_( SLOWER );
+
+#ss,bgm
+#ss,env
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+たぶん、俺自身が弱いからなんだろうな……。
+$k
+
+#hide
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+#sp,se,S_Chime01
+
+#sp,bgm,BGM_SABISHII
+
+// 	SV( BG_GK_ROKA01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+放課後なんとなく気が付いた時には、
+もうすでに桜子は先に帰っていて。
+$k
+
+#ss,env
+&empty
+そして俺はなぜか
+学園内を無意識にさまよっていた………。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"どん。" );
+#ss,bgm
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Basa02
+
+#sp,vo,01040029
+？？？
+#mstyle,(co),知世翔
+「きゃ」
+$k
+
+#sp,se,S_Book01
+
+//	SM( CHAR_ETC,			-1,					"",				"どさどさ。" );
+優
+「あ、わりい…ごめん」
+$k
+
+&empty
+誰かとぶつかった。
+$k
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS(CENTER, CHISEKA_0101AS);
+
+// CHISEKA_0101AS
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01040030
+知世翔
+「あっ」
+$k
+
+優
+「ん、ああ、後輩か……」
+$k
+
+// CHISEKA_0101IK
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01040031
+知世翔
+「私はあなたの後輩じゃありません。
+　有河知世翔です」
+$k
+
+優
+「ああ、知世翔すまん」
+$k
+
+// CHISEKA_0101NR
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01040032
+知世翔
+「………有河でお願いできますか」
+$k
+
+優
+「わりぃ、手伝うよ」
+$k
+
+// 	WaitStand( CENTER );
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(y+),100,(al),0
+#ig
+
+&empty
+散乱した荷物を俺も拾う。
+クラス委員だか部活だかの手伝いなのだろう。
+$k
+
+&empty
+大きなダンボール二つといくつかのプリントを運んでいて、
+俺とぶつかりその中身を盛大にぶちまけた。
+$k
+
+// CHISEKA_0101IK
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01040033
+知世翔
+「いいです、結構です前をよく見てなかった
+　私の責任ですから」
+$k
+
+優
+「そういうなよ、俺もぼーっとしてて気付かなかったし。
+　お前…こ……有河、こんなに荷物持ってたんじゃ
+　前も見えないだろ？」
+$k
+
+// CHISEKA_0101IK
+#sp,vo,01040034
+知世翔
+「～っ！！
+　それは私の背が低いからって事を言いたいんですかっ？」
+$k
+
+優
+「いや、そんなことは………俺も運ぶの手伝うよ」
+$k
+
+// CHISEKA_0101IK
+#sp,vo,01040035
+知世翔
+「結構です。
+$nw,1730
+
+　それと、幼なじみだかなんだか知りませんけど、
+　あまり桜子先輩に構わないで下さい」
+$k
+
+優
+「ちょ、なんだよそれ」
+$k
+
+// CHISEKA_0101IK
+#sp,vo,01040036
+知世翔
+「私、あなたみたいな軟弱な男子には、
+　桜子先輩に近づいて欲しくないんです」
+$k
+
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+荷物を直して立ち上がり歩き出す。
+$k
+
+// 	SS(CENTER, CHISEKA_0101NR, MOVE_DOWN, NORMAL);
+
+優
+「誤解だ、それに俺はもう桜子とどうこうしようなんて
+　思って無いから。幼なじみってだけだよ。
+　こ…有河が心配してるような事は考えてない」
+$k
+
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),l,(s),60%
+#ig
+
+// CHISEKA_0101IK
+#sp,vo,01040037
+知世翔
+「信用できないです。
+$nw,1900
+
+　あと私に付いてこないで下さい」
+$k
+
+優
+「本当だって。
+$nw,1000
+　だって……………俺、以前桜子に振られてるし」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+// CHISEKA_0101IK
+#sp,vo,01040038
+知世翔
+「嘘よ！」
+#mlarge
+$k
+
+// 	SS(CENTER, CHISEKA_0101IK);
+
+優
+「お、おい、
+　こっちは恥を忍んで事実を言ってるってのに」
+$k
+
+// CHISEKA_0101IK
+#sp,vo,01040039
+知世翔
+「うそ！　うそねっ！
+$nw,3000
+
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01KN.png,(x),c,(s),80%
+#ig
+
+　…まさか……先輩が？」
+$k
+
+優
+「ホントだって、俺から告白して振られたんだよ！」
+$k
+
+// CHISEKA_0101IK
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01040040
+知世翔
+「あなたみたいな人が自分から？
+　こんなだらしない奴が自分から？　ありえない」
+$k
+
+優
+「ううっ。
+　先輩に、いや、年上に対してなんて言い草……」
+$k
+
+&empty
+ああー、
+年下にだらしないとか言われるとさらにヘコむなあ。
+$k
+
+// CHISEKA_0101IK
+#sp,vo,01040041
+知世翔
+「桜子先輩、よく言ってましたよ。
+　あたしの幼なじみはだらしない、だらしない、って」
+$k
+
+優
+「うう、そんなにだらしないのか俺って……」
+$k
+
+// CHISEKA_0101NR
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01040042
+知世翔
+「そういう事ですから。
+$nw,2280
+
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01KB.png,(x),c,(s),60%
+#ig
+
+　では失礼します」
+$k
+
+// CHISEKA_0101SN
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01040043
+知世翔
+（先輩がこいつを振るなんてありえない……）
+$k
+
+優
+「あ、おい、だから俺も運ぶって」
+$k
+
+// CHISEKA_0101IK
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01040044
+知世翔
+「結構です。見た目より軽いですから」
+$k
+
+優
+「それはそれ、これはこれ！　先輩を立てると思ってさ！
+　ほら階段とか危ないだろ、こんな荷物一人じゃ」
+$k
+
+// CHISEKA_0101IK
+#sp,vo,01040045
+知世翔
+「だから。私はあなたの後輩じゃありませんってば！
+　目的地もこの階ですから、
+　だらしないあなたの助けはいりません」
+$k
+
+優
+「お、おーい有河ー、そんなこというなよ
+　俺とお前の仲じゃねえか」
+$k
+
+// CHISEKA_0101IK
+#sp,vo,01040046
+知世翔
+「そんな仲になった覚えはないです。
+$nw,3270
+
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+　あと、そんな悪い顔色のままで先輩に会わないで」
+$k
+
+優
+「え？」
+$k
+
+// CHISEKA_0101NR
+#sp,vo,01040047
+知世翔
+「桜子先輩の前で
+　あなたのへこんだ顔なんか見せないで下さい」
+$k
+
+優
+「ああ……」
+#meffect,flow,5
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+行っちまった………。
+#meffect,flow,5
+$k
+
+&empty
+あいつと話してたおかげなのか、
+なんか少し気がまぎれた気がする。
+$k
+
+&empty
+だから、どうなるって訳でもないけど、
+とにかく桜子の誤解くらいは解いておきたいから。
+$k
+
+&empty
+へこんでる場合じゃないよな。
+希望が無かったからって
+幼なじみに変に誤解されたままなんてのは嫌だしな。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+// 	SV( BG_SJ_GAIKAN02B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN02B.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI02A );
+
+//	SP("S_Door04o");
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI02A.jpg,(s),100%
+#ip,c1,(fi),KINO_A901EG.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KINO_0901EG
+
+#sp,vo,01060015
+紀乃
+「いらっしゃ……
+$nw,1920
+
+#ir
+#ip,c1,(fi),KINO_A901NO.png,(x),c,(s),60%
+#ig
+
+　なんや桜子か、
+　店の表から帰ってくるなっていっつも言うてるやろ」
+
+$k
+
+// SAKURAKO_0103IK3
+
+#sp,se,S_Basa02
+
+#sp,vo,01000289
+桜子
+「ばばあ、ちょっとこっち来い」
+$k
+
+// KINO_0901IK4
+#ir
+#ip,c1,(fi),KINO_A901IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01060016
+紀乃
+「ばばっ！？　引っ張りなや、
+　これこれ押しなはんな」
+$k
+
+// SAKURAKO_0103NO3
+
+#sp,vo,01000290
+桜子
+「いいから来い、ばばあ」
+$k
+
+#hide
+
+#sp,se,S_Husuma01o
+
+// 	SV( BG_SJ_TENNAI02B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI02B.jpg,(s),100%,(er),NO
+#ig
+
+// KINO_0901IK4
+
+#show
+
+#sp,vo,01060017
+紀乃
+「どないしたんや？　どこ行くねん桜子。
+　店が………客、居らんからええか…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_KYUKEISHITSU01A );
+// 	SS(CENTER, KINO_A901NO);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KYUKEISHITSU01A.jpg,(s),100%
+#ip,c1,(fi),KINO_A901NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+// KINO_A901NO
+#sp,vo,01060018
+紀乃
+「で、なんやねん？　こんなとこ連れてきて」
+$k
+
+// SAKURAKO_A103KM
+
+#sp,vo,01000291
+桜子
+「………」
+#meffect,flow,5
+$k
+
+#sp,se,S_Basa02
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ETC_01A.jpg,(s),75%
+#ig
+
+#sp,vo,01060019
+紀乃
+「っ！？　………桜子？」
+#meffect,flow,5
+$k
+
+// 	SV( VISUAL_ETC_01A );
+// 	DelStandAll();
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4, 20);
+
+#sp,vo,01000292
+桜子
+「……うるさい！」
+#meffect,flow,5
+$k
+
+#sp,bgm,BGM_SHIZUKA
+
+// 	SV( BG_SJ_KYUKEISHITSU01A );
+//	SS(CENTER, KINO_A901KM);
+
+#sp,vo,01060020
+紀乃
+「………」
+#meffect,flow,5
+$k
+
+#sp,vo,01000293
+桜子
+「………」
+#meffect,flow,5
+$k
+
+#sp,vo,01060021
+紀乃
+「………どないしてんな？」
+$k
+
+#sp,vo,01000294
+桜子
+「……………っ」
+#meffect,flow,5
+$k
+
+#sp,vo,01060022
+紀乃
+「……なんかうれしいことでもあったんか？」
+$k
+
+#sp,vo,01000295
+桜子
+「……やかましい、ばばあ…」
+$k
+
+#sp,vo,01060023
+紀乃
+「…そうか、なんか嫌な事でもあったんやな」
+$k
+
+#sp,vo,01000296
+桜子
+「………ない、………だまれ、くそばばあ」
+$k
+
+#sp,vo,01060024
+紀乃
+「ほな、誰かにいじめられたんか？」
+$k
+
+#sp,vo,01000297
+桜子
+「………そんなやつが居たらあたしがころす……
+　…いい加減だまれ、ばばあ」
+$k
+
+#sp,vo,01060025
+紀乃
+「悲しい事か？」
+$k
+
+#sp,vo,01000298
+桜子
+「ちがう………わかんない……」
+$k
+
+#sp,vo,01060026
+紀乃
+「………ほんならなんね？」
+$k
+
+#sp,vo,01000299
+桜子
+「……うっ…ぅあ………ひぅ………わか…んない…」
+#meffect,flow,2
+$k
+
+#sp,vo,01060027
+紀乃
+「…そんなら、あれか」
+$k
+
+#sp,vo,01000300
+桜子
+「…わ、かん……っ…わかんない…よっ………」
+$k
+
+#sp,vo,01060028
+紀乃
+「そうか………」
+$k
+
+#sp,vo,01000301
+桜子
+「………あああ…ぅぁ………ひゅ……なに…言って……
+#meffect,flow,2
+　…く…そばばあ………」
+#meffect,flow,2
+$k
+
+#sp,vo,01060029
+紀乃
+「しようのない子やなぁ………ほんまに…」
+$k
+
+#sp,vo,01000302
+桜子
+「うっ………うっく………ぁぁぁっ……うるさ…」
+$k
+
+#sp,vo,01060030
+紀乃
+「…もうすきにしなはれ……やれやれ」
+$k
+
+#sp,vo,01000303
+桜子
+「…………っぅ……………ふっ………ぁああっ………」
+#meffect,flow,2
+$k
+
+#sp,vo,01060031
+紀乃
+「………」
+#meffect,flow,5
+$k
+
+#sp,vo,01000304
+桜子
+「……ぅ…………」
+#meffect,flow,5
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelStandAll();
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+
+#sp,se,S_Husuma01o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KYUKEISHITSU01A.jpg,(s),100%
+#ig
+
+#next,01pro01_20

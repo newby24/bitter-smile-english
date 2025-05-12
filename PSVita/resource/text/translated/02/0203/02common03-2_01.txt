@@ -1,0 +1,644 @@
+﻿// 既読フラグ
+#read_flag,92
+
+#show
+
+// SAKURAKO_0402EG
+#sp,vo,02000540
+桜子
+「じゃあ先にお風呂入ろっか？」
+$k
+
+// CHISEKA_0401EG2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02040316
+知世翔
+「そうですね、これで風邪ひくのもなんですし」
+$k
+
+// MII_0403KM
+
+#sp,vo,02030251
+みい
+「くしゅっ！
+　……とりあえず部屋から着替えを
+　持って来なくては」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW );
+
+優
+「あ、代わりに俺が持ってこようか？」
+$k
+
+// SAKURAKO_0403NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000541
+桜子
+「雪華ちゃん一冊追加お願い」
+$k
+
+// 	SS_( CENTER, YUKIHA_A401EG2, MOVE_LEFT, NORMAL );
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG2.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+// YUKIHA_A401EG2
+#sp,vo,02050046
+雪華
+「了解ー！」
+$k
+
+優
+「ええーっ！？」
+$k
+
+&empty
+廊下に正座で、膝の上には百科事典がもう１０冊。
+いつぞやの、みいちゃんみたいだ。
+$k
+
+// YUKIHA_A401AK4
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02050047
+雪華
+「お兄ちゃん落としちゃ駄目だよ？」
+$k
+
+優
+「…はい」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"とす。" );
+
+// 	MoveStand( CENTER, 20, 0, 50, 1 );
+// 	MoveStand( CENTER, 50, 0, 50, 1 );
+// 	MoveStand( CENTER, 20, 0,  0, 1 );
+
+#sp,se,S_Book03
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+&empty
+今１１冊になりました。
+$k
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),l,(s),60%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+// 	SS_( CENTERRIGHT, SAKURAKO_0401NO );
+// 立ち絵移動。パラメータは適宜。
+
+// SAKURAKO_0401NO
+#sp,vo,02000542
+桜子
+「じゃあみい、あんた知世翔に着替え貸してあげなよ」
+$k
+
+// CHISEKA_0401TR
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02040317
+知世翔
+「あ、私出来ればみいの服はー…」
+$k
+
+// SAKURAKO_0403NO
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000543
+桜子
+「じゃああたしの…」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+#ir
+#ie,c1,c3
+#ig
+
+優
+「あっ」
+$k
+
+// KANAME_0A01PU4
+
+#sp,vo,02020151
+要
+「やーやー、キミ達も降られたのねー？
+　先にお風呂いただきましたよー？」
+$k
+
+#ss,bgm
+
+&empty
+バスタオル姿の要さんが居る。
+$k
+
+// 	SS_( CENTER, SAKURAKO_0402NO );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0402NO
+#sp,vo,02000544
+桜子
+「あ、お姉来てたん……
+$nw,2200
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),60%
+#ig
+
+#madd,ちょっ！
+$nw,1000
+
+#sp,bgm,BGM_COMICAL1
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+　なんて格好してんのよ！？」
+
+$k
+
+// 	SetActionPyon( CENTER );
+// 	DelAction( CENTER );
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+// KANAME_0A03NS
+
+#sp,vo,02020152
+要
+「まあまあ、わたし着替え持ってないしー。
+$nw,3400
+
+　桜子ちゃんの貸してね？」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000545
+桜子
+「いいけどお姉、着るんならジャージにしてよ？
+　伸びるんだから………
+$nw,4600
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#madd,じゃなくて！
+　優が居るってのっ、気にしてよねっ！？」
+$k
+
+&empty
+湯上りって事は、もしかしてそのバスタオルの下は…。
+#meffect,flow,5
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ごうん、ごうん。" );
+#sp,env,S_Factory01#
+
+// KANAME_0A01KT
+
+#sp,vo,02020153
+要
+「え、優君？
+$nw,1500
+
+#madd,　こんばんは！
+$nw,1400
+
+#madd,　…ってどうしたのそれ？
+$nw,2200
+
+　あっ桜子ちゃん、ちょっと牛乳貰うねー！」
+
+$k
+
+優
+「あ、どうもこんばんは」
+$k
+
+// 	SV( VISUAL_KANAME_01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_KANAME_01A.jpg,(s),100%,(y),0
+#ig
+
+// SAKURAKO_0402IK3
+
+#sp,vo,02000546
+桜子
+「わっ待って、どこがちょっとよ！
+　全部飲まないでよっ！？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ごうん、ごうん。" );
+// 	SF( 0, NORMAL, 50 );
+
+
+// CHISEKA_0401NO2
+
+#sp,vo,02040318
+知世翔
+「ん………
+$nw,2400
+
+　なんですかね、この音？」
+
+$k
+
+// MII_0401KY2
+
+#sp,vo,02030252
+みい
+「……？」
+$k
+
+&empty
+なんだこの音は？　どこから…。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ごうんごうんごうん。" );
+// 	SF( 0, NORMAL );
+
+// 	SV( VISUAL_KANAME_01B );
+
+#flag,cg,31,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_KANAME_01B.jpg,(s),100%
+#ig
+
+#sp,vo,02020154
+要
+「んく、んく、ふいーっ！」
+$k
+
+// SAKURAKO_0402AK
+
+#sp,vo,02000547
+桜子
+「もうお姉、早く着替えないと湯冷め…」
+$k
+
+#sp,vo,02020155
+要
+「大丈夫、大丈……
+$nw,2300
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig
+
+#madd,っくちゅん！」
+
+$k
+
+#ss,env,(dr),0
+#ss,bgm,(dr),0
+
+#ir,(dr),200
+#ip,bg,(fi),white.jpg
+#ig,(se),T_Bon01
+
+// 	Shake( FAST, 4 );
+// 	DM();
+
+//	SM( CHAR_ETC,			-1,					"",				"ぼんっ！！" );
+// 	BGMStop();
+
+// 揺れ。パラメータは適宜。
+#ir,(dr),500
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AD.png,(x),r,(s),60%
+#ip,c2,(fi),KINO_A401OD.png,(x),l,(s),60%
+#ig
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+// 	SV( BG_TD_IMA03F );
+// 	SS( LEFT, KINO_0401OD );
+// 	SS( RIGHT, SAKURAKO_0402AD );
+
+// KANAME_0A01OD5
+
+#sp,vo,02020156
+要
+「きゃっ！？」
+$k
+
+// SAKURAKO_0403KT
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000548
+桜子
+「えっ、なに、今の？」
+$k
+
+優
+「爆発音？」
+$k
+
+// KINO_0401KD2
+#ir
+#ip,c2,(fi),KINO_A401KD2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02060105
+紀乃
+「今のは……
+$nw,1800
+
+#ir
+#ip,c2,(fi),KINO_A401AK2.png,(x),l,(s),60%
+#ig
+
+#madd,風呂場やなー」
+
+$k
+
+// KANAME_0A01KM2
+
+#sp,bgm,BGM_COMICAL1
+
+#sp,vo,02020157
+要
+「えっ、ええっ？
+　わ、わたしじゃないよー！？」
+$k
+
+// 	SV( VISUAL_KANAME_01C );
+// 	Zoom( 0, 130, 130, 400, 600 );
+
+#sp,vo,02020158
+要
+「みんなの為にって思って、
+　追い焚きしといただけなのよ！？」
+$k
+
+// SAKURAKO_0402AS2
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000549
+桜子
+「って、ちょっとお姉！
+　タオル、タオルっ！　ほら隠してっ！！」
+$k
+
+// 	SV( BG_TD_1FROKA03B );
+
+#ir
+#ip,bg,(fi),BG_TD_1FROKA03B.jpg,(s),100%
+#ig
+
+優
+「え？　隠すって？」
+$k
+
+// 	SV( VISUAL_KANAME_01C );
+// 	Zoom( 0, 130, 130, 400, 600 );
+
+// 	SS_( CENTER, CHISEKA_A401OD, MOVE_STOP, FAST );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD.png,(x),c,(s),80%
+#ig
+
+// 	MoveStand( CENTER,    0, -42,  50 );
+// 	MoveStand( CENTER, FAST, -42, -10 );
+
+// CHISEKA_A401OD
+#sp,vo,02040319
+知世翔
+「ああっ！　見ちゃ駄目ですっ！！」
+$k
+
+#ss,bgm,(dr),0
+
+#ir,(dr),200
+#ip,bg,(fi),white.jpg
+#ig,(se),S_Punch02
+
+#ir,(dr),500
+#ip,bg,(fi),black.jpg
+#ig
+
+優
+「…ごぶゎっ！！！」
+$k
+
+#hide
+
+#wait,2000
+
+// 	Zoom();
+
+// 	SV( BG_MT_SENTO03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SENTO03A.jpg,(y),d_s,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_SENTOOTOKO03A );
+// 	SetObject( 0, "huromoya.png", 0, 0 );
+
+#sp,env,S_Bath03#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SENTOOTOKO03A.jpg,(s),100%
+#ig
+
+//#sp,se,S_Bath02
+//#sp,env,S_Bath01
+
+#show
+
+優
+「ああーっ、いい湯だなー」
+$k
+
+&empty
+たまにはいいもんだな、銭湯も。
+$k
+
+// KOBAYASHI_0A01BS
+
+#sp,vo,02080039
+小林
+「おー、奇遇だな！」
+$k
+
+優
+「……せっかくのいい湯が」
+$k
+
+// KOBAYASHI_0A01KN3
+
+#sp,vo,02080040
+小林
+「お前も傷を癒しに来てるのか？」
+$k
+
+優
+「何の傷だよ？
+　お前はどこにでも沸いてくるなよ」
+$k
+
+&empty
+しばらく大人しいと思っていたら、
+また玉砕してたのか…。
+$k
+
+// KOBAYASHI_0A01BS4
+
+#sp,vo,02080041
+小林
+「俺は心の傷を癒しに来ている！
+$nw,3500
+
+　で、お前は一人か？」
+$k
+
+優
+「見れば分かるだろ？」
+$k
+
+// KOBAYASHI_0A01NS2
+
+#sp,vo,02080042
+小林
+「そんな事を聞いてるんじゃないってー！
+　分かってんだろー、んー？　んーっ？」
+$k
+
+&empty
+こいつ、うぜええええーっ！
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW, 8, 10 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「あ、こら、腕を回してくんなよ、
+　気持ち悪いな！　男で裸同士とかいらねえんだよ！
+　見ての通り一人だ、受験の息抜きに一人で…」
+$k
+
+#sp,vo,02000550
+桜子
+「ねえーっ、優――っ？」
+#mlarge
+$k
+
+優
+「あああ～っなんてタイミングのいいこと！」
+$k
+
+// KOBAYASHI_0A01NS
+
+#sp,vo,02080043
+小林
+「居るじゃねえかー。
+　これだよ！　これ！　にくいねー！」
+$k
+
+#sp,vo,02000551
+桜子
+「あんたの方の洗面器に、
+　あたしのリンス入ってなかったーっ？」
+$k
+
+優
+「ないないない！
+　こっちには紛れ込んでないからーっ！！」
+$k
+
+#sp,vo,02000552
+桜子
+「ええ――っ、ほんとに――？」
+$k
+
+// KOBAYASHI_0A01EG
+
+#sp,vo,02080044
+小林
+「おうおうー、お前もう神田○かぁー？」
+$k
+
+優
+「お前が神○川に沈んでこいよっ！」
+$k
+
+#hide
+
+#sp,se,S_Water03
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+// 	SV( BG_MT_SENTOONNA03A );
+
+#sp,bgm,BGM_COMICAL2
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SENTOONNA03A.jpg,(s),100%
+#ig
+
+#next,02common03-2_02

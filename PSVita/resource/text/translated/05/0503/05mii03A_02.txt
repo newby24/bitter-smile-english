@@ -1,0 +1,402 @@
+﻿// 既読フラグ
+#read_flag,129
+
+// MII_0203MJ
+
+#sp,vo,05030131
+みい
+「………」
+$k
+
+&empty
+お互い動かないように、目で合図する。
+$k
+
+//	SetIconChinmoku( CENTER );
+// KOZUE_0202EG
+#ir
+#ip,c1,(fi),KOZUEn_A202.png,(psi),KOZUEn_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100004
+山之辺こずえ
+「………」
+$k
+
+// KOZUE_0202NK2
+#ir
+#ip,c1,(fi),KOZUEn_A202.png,(psi),KOZUEn_An01NK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100005
+山之辺こずえ
+「こっわいじゃないのよもぉ～」
+$k
+
+//	SetIconExcl( CENTER );
+
+// KOZUE_0202EG
+#ir
+#ip,c1,(fi),KOZUEn_A202.png,(psi),KOZUEn_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100006
+山之辺こずえ
+「よし、終わり、誰もいないってことで！」
+$k
+
+#hide
+
+#sp,se,S_Hyun01
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r,(al),0%
+#ig
+
+#sp,se,S_Door04c
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	MoveStand( CENTER, 10, 0, -10 );
+// 	MoveStand( CENTER, 10, 0, -1, 1 );
+// 	MoveStand( CENTER, 10, 0,  0, 1 );
+// 	WaitMoveStand( CENTER );
+
+// 	MoveStand( CENTER, 30|SPEED_UP, 600, 0, 1 );
+// 	WaitMoveStand( CENTER );
+
+// 	WaitSE();
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU03D.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ふう…行ったか」
+$k
+
+優
+「さすがにもう電気は点けない方がいいだろな」
+$k
+
+// MII_0203TR
+
+#sp,vo,05030132
+みい
+「あの…」
+$k
+
+優
+「懐中電灯でやるか。
+　ちょうど持ってきてるから…」
+$k
+
+// MII_0203TR4
+
+#sp,vo,05030133
+みい
+「あの、お兄様」
+$k
+
+優
+「ん？」
+$k
+
+// MII_0203KM
+
+#sp,vo,05030134
+みい
+「いい加減離してくれませんか。
+　私は抱き枕ではありませんので」
+$k
+
+優
+「っと、ご、ごめん」
+$k
+
+// 	SS( CENTER, MII_0203SN2 );
+
+// MII_0203FK2
+#ir
+#ip,c3,(fi),MIIn_A203.png,(psi),MIIn_An03FK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030135
+みい
+「どさくさに紛れてあんなところまで触って…」
+$k
+
+優
+「え？　いや、全然わかんなかったけど、
+　触っちゃった？」
+$k
+
+&empty
+それだと、すぐわかる気が…みいちゃんの場合。
+$k
+
+// MII_0203EG2
+#ir
+#ip,c3,(fi),MIIn_A203.png,(psi),MIIn_An03EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030136
+みい
+「それでは作業を再開しましょう」
+$k
+
+優
+「人の話を聞いて！？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// 	SV( BG_MT_TSUGAKURO03A );
+
+#sp,bgm,BGM_YASURAGI
+
+// 	SS( CENTER, MII_0201NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO03A.jpg,(s),100%
+#ip,c1,(fi),MIIn_A201.png,(psi),MIIn_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0201NO
+#sp,vo,05030137
+みい
+「すっかり遅くなってしまいましたね」
+$k
+
+優
+「最初にみいちゃんが変なことしなきゃ、
+　もうちょっと早く帰れたよ」
+$k
+
+// MII_0201BS
+#ir
+#ip,c1,(fi),MIIn_A201.png,(psi),MIIn_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030138
+みい
+「まあ、いいじゃないですか」
+$k
+
+&empty
+みいちゃんは上機嫌だ。
+$k
+
+&empty
+解放感かもしれない。
+$k
+
+優
+「でも、コンビニのおでんなんかでよかったの？」
+$k
+
+// MII_0201KY2
+#ir
+#ip,c1,(fi),MIIn_A201.png,(psi),MIIn_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030139
+みい
+「おまわりさんに見つかったら面倒ですからね」
+$k
+
+優
+「てか、制服で入れる店もないんだけどさ」
+$k
+
+優
+「あ～明日は寝不足だな」
+$k
+
+// MII_0201TR2
+#ir
+#ip,c1,(fi),MIIn_A201.png,(psi),MIIn_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030140
+みい
+「お兄様は最後の学園祭ですのに……ご愁傷様です」
+$k
+
+優
+「いや絶対に楽しむ！
+　でないと、みいちゃんも胸が痛いだろ？」
+$k
+
+// MII_0202OD2
+#ir,(dr),0
+#ip,c1,(fi),MIIn_A202.png,(psi),MIIn_An02OD2.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,05030141
+みい
+「えぇっ、腹いせに私の胸をどうしようと！？」
+$k
+
+//	SetIconHirameki( CENTER );
+// ぴょん。パラメータは適宜。
+
+優
+「なんもしねぇ！　そういう意味じゃないって！」
+$k
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MIIn_A203.png,(psi),MIIn_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030142
+みい
+「では、お兄様には代わりに、私の胸のように
+　つるつるなこの玉子を差し上げましょう」
+$k
+
+優
+「胸のようにって……」
+$k
+
+// MII_0203NO2
+#ir
+#ip,c1,(fi),MIIn_A203.png,(psi),MIIn_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030143
+みい
+「想像しましたね？」
+$k
+
+優
+「しねぇってば」
+$k
+
+&empty
+そんなたくましい想像力は持ち合わせていない。
+$k
+
+// MII_0203KD
+#ir
+#ip,c1,(fi),MIIn_A203.png,(psi),MIIn_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030144
+みい
+「そうですか…。
+$nw,1640
+
+#ir
+#ip,c1,(fi),MIIn_A203.png,(psi),MIIn_An03EG.png,(x),c,(s),60%
+#ig
+
+#madd,はい、あーん」
+
+$k
+
+優
+「あー…って、それは大惨事になるだろっ！？」
+$k
+
+// MII_0203SN
+#ir
+#ip,c1,(fi),MIIn_A203.png,(psi),MIIn_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030145
+みい
+「さすがに気付きましたか」
+$k
+
+&empty
+俺、そのうち殺されるかも！？
+助けておまわりさんっ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+//	FO();
+//	DS( -1 );
+//	WT( 150 );
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),30%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリアしていれば、ジャンプ可能。
+#next,90jump04:(if),sys,0,==,1
+
+#next,02common02-1_00

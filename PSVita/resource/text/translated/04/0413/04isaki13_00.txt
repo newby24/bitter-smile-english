@@ -1,0 +1,782 @@
+﻿// 既読フラグ
+#read_flag,225
+
+// セーブタイトル
+#flag,save_title,勇樹　第１３話,0,0
+
+// 	SV( BG_MT_TSUGAKURO01A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第１３話　近づく２人、離れる２人
+$k
+#note,erase
+
+#show
+
+&empty
+帰り道、いつものように俺は宮津橋と
+並んで歩いていた。
+$k
+
+&empty
+一方的に俺が何か質問して、
+宮津橋が一言でそれに答えを返す。
+$k
+
+&empty
+そんな会話とも呼べないような会話にも慣れてきた。
+答えを返してくれるだけ進歩だと思う。
+$k
+
+&empty
+それに…………。
+$k
+
+#sp,se,S_Catch02
+
+// 	SS( CENTER, ISAKI_A202NO );
+
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+&empty
+宮津橋から、俺と手を繋いでくる事はない。
+まあ……なぜか、服の裾は掴まれるけど。
+$k
+
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02BS.png,(x),c,(s),80%
+#ig
+
+&empty
+でも、俺からこうして手を繋ぐと、
+少しだけ…ほんの少しだけ顔がほころんで、
+握り返してくれる。
+$k
+
+// 	SS(CENTER, ISAKI_A202BS, MOVE_STOP, NORMAL);
+
+優
+「明日は、日曜日だな」
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010419
+勇樹
+「それがどうした？」
+$k
+
+優
+「俺、午前中は千寿でバイトなんだけどさ、
+　午後からは暇なんだ。
+　よかったら、一緒に勉強でもしないか？」
+$k
+
+&empty
+デートと言えないところが受験生の辛いところだ。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010420
+勇樹
+「明日は予定がある」
+$k
+
+優
+「そうか」
+$k
+
+&empty
+予定があるんじゃ仕方ないな。
+まあ、学園以外でそうそう会う約束を
+してくれるような相手ではないし。
+$k
+
+// ISAKI_A202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010421
+勇樹
+「…墓参りに行くんだ」
+$k
+
+&empty
+俺は宮津橋から話し出した事に驚きながら、
+聞き返した。
+$k
+
+優
+「墓参り？　誰の？」
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010422
+勇樹
+「母さんの。明日は命日なんだ。
+　私しか……墓を掃除するような人間は
+　いないからな」
+$k
+
+優
+「そうか…お墓、近いのか？」
+$k
+
+// ISAKI_A201KS
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010423
+勇樹
+「ああ。元々、ここは母さんの地元なんだ。
+$nw,4340
+
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+　鶴ヶ丘に入ったのも、母さんの母校だったからだ」
+$k
+
+&empty
+宮津橋がまた、遠い目をしている。
+見ている中に誰もいない、そんな寂しそうな目だ。
+$k
+
+&empty
+嫌だ。こんな目をさせたくない。
+$k
+
+// 	SS( CENTER, ISAKI_A201NO );
+
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+
+&empty
+俺は無理矢理、宮津橋の視界に自分を割り込ませた。
+$k
+
+優
+「それ、俺も一緒に行っちゃダメか？」
+$k
+
+// ISAKI_A202OD
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010424
+勇樹
+「お前が？　なぜ？」
+$k
+
+優
+「あー、いや…せっかくだから、お前のお袋さんに
+　ちゃんと挨拶とかしておきたいかなって」
+$k
+
+// ISAKI_A202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010425
+勇樹
+「…………ふむ」
+$k
+
+&empty
+宮津橋は目を伏せて、何か考えている。
+$k
+
+&empty
+やっぱりダメか？
+$k
+
+&empty
+まあ、１人で行きたい事情もあるかもしれない。
+$k
+
+優
+「ああ、いや、ダメだったらいいんだ？
+　家族水入らずってのも変な言い方だけど……
+　１人の方がいいなら」
+$k
+
+&empty
+…でも、さっきみたいな顔を見てしまうと、
+今の宮津橋を１人にはしたくないのが本音だけど。
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010426
+勇樹
+「別にダメだとは言ってない」
+$k
+
+優
+「えっ……じゃあ……」
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010427
+勇樹
+「どうせ、私も午前中はバイトがあるからな。
+　午後から行くつもりだった」
+$k
+
+&empty
+宮津橋が俺の顔をちらりと見上げる。
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010428
+勇樹
+「それに……お前なら、構わない」
+$k
+
+&empty
+お前なら、構わない。
+$k
+
+&empty
+宮津橋の言葉が頭の中でリフレインする。
+$k
+
+&empty
+これって、俺、宮津橋に信用されてると
+思ってもいいんだよな？
+$k
+
+&empty
+気のせいかもしれないけれど……
+もしかしたら自意識過剰なのかもしれないけれど、
+宮津橋との距離が縮まっている気がする。
+$k
+
+&empty
+そんな期待を抱かせてくれる言葉だった。
+$k
+
+優
+「じゃあ……昼飯食い終わったら、
+　迎えに行けばいいか？」
+$k
+
+// ISAKI_A202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010429
+勇樹
+「いや、私がそっちに行こう。
+　たこ焼きも食べたいしな」
+$k
+
+優
+「任せとけ！
+　腕によりをかけて、焼いてやるぜ！」
+$k
+
+// ISAKI_A202KS
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010430
+勇樹
+「期待はしないでおくよ」
+$k
+
+優
+「言ってろ。
+　最近はかなり上達したんだからな」
+$k
+
+// ISAKI_A202BS
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010431
+勇樹
+「そうか」
+$k
+
+&empty
+宮津橋と繋いだ手が、ほんのり温かい。
+俺の体温が宮津橋に移っていくのと同時に、
+俺の気持ちが伝わるようで嬉しかった。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	WaitSE();
+
+// 	SS( CENTER, ISAKI_0401NO, MOVE_LEFT );
+
+#show
+
+// ISAKI_0401NO
+
+#sp,vo,04010432
+勇樹
+「こんにちは」
+$k
+
+優
+「おー、いらっしゃい。
+　適当に座ってくれ、今、誰もいないから」
+$k
+
+// ISAKI_0402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010433
+勇樹
+「そうみたいだな」
+$k
+
+// 	SV( BG_SJ_COUNTERURA01A );
+
+#ir
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+&empty
+日曜の午前中。
+$k
+
+&empty
+半額セールも終わった今、俺がバイト中に
+客が来る事の方が少ない。
+$k
+
+&empty
+まあ、だからと言って、今日みたいに
+誰もいないというのも珍しいが。
+$k
+
+// ISAKI_0402KT
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010434
+勇樹
+「お前１人みたいだが、出ても大丈夫なのか？」
+$k
+
+優
+「あ、ああ、昼から要さんと婆さんが
+　代わってくれる事になってるから」
+$k
+
+優
+「それまで待つか？
+　婆さんが焼いた方が俺のより
+　確実に美味いけど」
+$k
+
+// ISAKI_0402MU
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010435
+勇樹
+「お前のでいい」
+$k
+
+優
+「そうか？」
+$k
+
+// ISAKI_0402BS
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010436
+勇樹
+「昨日、腕によりをかけて作ると言ったのは
+　お前だろう」
+$k
+
+優
+「そういや、そうだったな。
+　よし、待ってろ」
+$k
+
+#ir
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+&empty
+用意された生地を使って、
+たこ焼きを焼いていく。
+$k
+
+&empty
+ひっくり返すのは随分、上達したと思う。
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+&empty
+ふと、視線を感じて顔を上げると、
+宮津橋と目が合った。
+$k
+
+優
+「退屈なら、そこのマンガとか
+　読んでていいんだぞ？」
+$k
+
+// ISAKI_0402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010437
+勇樹
+「いや、見ている方が楽しい」
+$k
+
+優
+「そ、そうか」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+なんか照れるな……。
+$k
+
+&empty
+無言が続くけど、以前のような気まずさはない。
+少し、照れくさいけど。
+$k
+
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#sp,se,T_Door01o
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+// 	WaitSE();
+// 	SS( CENTER, KANAME_0402EG2, MOVE_RIGHT );
+
+// KANAME_0402EG2
+
+#sp,vo,04020009
+要
+「青少年っ！　元気に働いてるかねーっ！」
+$k
+
+&empty
+いい雰囲気が一瞬にして壊された。
+$k
+
+// KANAME_0403NS
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04020010
+要
+「あら、勇樹ちゃん、いらっしゃーい。
+　って、あらら？　もしかして、おねーさん、
+　お邪魔虫しちゃった？」
+$k
+
+// ISAKI_0402MU
+
+#sp,vo,04010438
+勇樹
+「別に」
+$k
+
+優
+「まあ、要さんなので」
+$k
+
+// KANAME_0403SN
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04020011
+要
+「なになに、その反応っ！
+　実の妹ばりにクールだよっ、クールすぎるよっ！」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03AY.png,(x),c,(s),60%
+#ig,(se),S_Poko01
+
+// 	WaitSE();
+
+// KANAME_0403AY
+
+#sp,vo,04020012
+要
+「あいたっ！」
+$k
+
+// 	SS( RIGHT, KINO_0401IK );
+
+// KINO_0401IK
+#ir,(ef),off
+#ip,c2,(fi),KINO_A401IK.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r,(al),100%
+#ip,c3,(x),l
+#ig
+
+#sp,vo,04060006
+紀乃
+「要、あんた入り口ふさいどらんと、
+　はよ入って働きぃ」
+$k
+
+// KANAME_0401KM2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04020013
+要
+「え、まずは腹ごしらえくらい……」
+$k
+
+// KINO_0401AK
+#ir
+#ip,c2,(fi),KINO_A401AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04060007
+紀乃
+「自分で焼いてから食べ」
+$k
+
+// KANAME_0403AY
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03AY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04020014
+要
+「そんなぁっ」
+$k
+
+// KINO_0401NS
+#ir
+#ip,c2,(fi),KINO_A401NS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04060008
+紀乃
+「イヤやったら、麻雀で負けた自分を
+　うらむんやな」
+$k
+
+// KANAME_0403GN3
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03GN3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04020015
+要
+「ううう…………」
+$k
+
+&empty
+なるほど、珍しく店番が要さんなのは
+そういうわけだったのか。
+$k
+
+&empty
+宮津橋と顔を見合わせて肩をすくめると、
+俺も座ってたこ焼きを食べ始めた。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_BOCHI01A );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_BOCHI01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+宮津橋の母親のお墓は、
+学園からそう遠くないところにあった。
+$k
+
+&empty
+途中の花屋でお供え用に花を買って、
+ゆっくりと歩いていく。
+$k
+
+&empty
+花束を抱えたまま、バケツに水を汲もうと
+四苦八苦してる宮津橋を見かねて、
+俺はバケツを手にとった。
+$k
+
+// 	SS( CENTER, ISAKI_0401NO );
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010439
+勇樹
+「１人でできる」
+$k
+
+優
+「でも、花束抱えたままだとやりにくいだろ。
+　いいから、使えるものは使っとけって」
+$k
+
+// ISAKI_0401NO
+#sp,vo,04010440
+勇樹
+「…………」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+宮津橋がそれ以上何か言う前に、
+バケツを持ってさっさと歩き出す。
+$k
+
+&empty
+あれ？　どっちだ？
+$k
+
+#sp,se,S_Catch01
+
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+
+// ISAKI_A401NO
+#sp,vo,04010441
+勇樹
+「こっちだ」
+$k
+
+// 	SS( CENTER, ISAKI_A401NO );
+
+&empty
+宮津橋が、俺の腕をくいっと引っ張った。
+$k
+
+// ISAKI_A401NO
+#sp,vo,04010442
+勇樹
+「場所がわからないなら、先に歩くな。
+　私の後ろをついて来ればいいんだ」
+$k
+
+
+#next,04isaki13_01

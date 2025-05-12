@@ -1,0 +1,764 @@
+﻿// 既読フラグ
+#read_flag,384
+
+// セーブタイトル
+#flag,save_title,要　第１４話,0,0
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SV( BG_SJ_YU03D );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03D.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第１４話　壁に障子に
+$k
+#note,erase
+
+#show
+
+優
+「よし終わった」
+$k
+
+&empty
+ようやくひと区切りついた。
+$k
+
+&empty
+やっぱ暗記系科目はちょくちょく復習しないとな。
+$k
+
+&empty
+この時期にこんなことで大丈夫かとも思うけど。
+$k
+
+&empty
+しかし、もうこんな時間か…。
+$k
+
+&empty
+昼もなく夜もなく集中してたから、
+開けっぱなしのカーテンから夜の闇が見える。
+$k
+
+// 	SS_( CENTER, KANAME_A401FK3, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01FK3.png,(x),c,(s),80%
+#ig
+
+優
+「要さん、終わりましたよ」
+$k
+
+// 	BGMFade(NORMAL, 0);
+
+#ss,bgm
+
+// KANAME_A401OD2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020660
+要
+「優くん大変！
+$nw,1430
+
+　このマンガ面白い！」
+$k
+
+// 	BGMFade(SLOW, 100);
+
+優
+「タイムアップ間際で主人公が破壊神に覚醒します」
+$k
+
+// KANAME_A403GN3
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020661
+要
+「なんで言っちゃうの！？　しかも超展開！」
+$k
+
+#sp,bgm,BGM_NONBIRI
+
+#ir
+#ie,c1
+#ig
+
+&empty
+要さんの正月休みは今日で終わり、
+明日から仕事始め。
+$k
+
+&empty
+正月はこたつでぎゅう詰めになって
+１２時間時代劇を生で追い、おせちを食って、
+雑煮を食って、初詣に出かけて…。
+$k
+
+&empty
+そんな楽しい初夢も
+醒めれば受験生という現実が待っているだけで。
+$k
+
+&empty
+変わったことといえば、要さんが
+よく部屋に遊びにきてくれるようになったくらいだ。
+$k
+
+&empty
+それだけで十分嬉しいんだけど。
+$k
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO3.png,(x),c,(s),80%
+#ig
+
+優
+「苦労かけますね」
+$k
+
+// KANAME_A402KT
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020662
+要
+「なにが？」
+$k
+
+優
+「いや、せっかくこういう感じになれたのに、
+　俺、受験生とかで」
+$k
+
+// KANAME_A402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020663
+要
+「最初からキミにそんな期待してないって」
+$k
+
+優
+「それはそれで忸怩たるものが…」
+
+#mfuri,　　　　　　　　　　　　　　じくじ
+
+$k
+
+// KANAME_A401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020664
+要
+「わたしがお姉さんなんだから、
+　優くんこそ甘えてきてもいいのよ」
+$k
+
+優
+「無理しなくてもいいですって」
+$k
+
+// KANAME_A401IK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020665
+要
+「な、なにがぁ？」
+$k
+
+優
+「要さんだって全然こっち方面疎いのに」
+$k
+
+// KANAME_A401KB
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020666
+要
+「…試してみる？」
+$k
+
+優
+「え？」
+$k
+
+// KANAME_A401TR4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020667
+要
+「いいんだよ、お姉ちゃんに甘えても」
+$k
+
+優
+「う…」
+#meffect,flow,5
+$k
+
+// 	BGMFade(SLOW, 30);
+// 	Fade(FAST, 50);
+
+&empty
+こ、これは男を試されている瞬間ではないだろうか…？
+$k
+
+&empty
+馬鹿にするなとつっぱねて、男の器量を見せるか。
+$k
+
+&empty
+はたまた何もかもかなぐり捨てて、
+母性というものに甘えるか。
+$k
+
+&empty
+今この瞬間、俺たち２人の未来の縮図。
+$k
+
+&empty
+主導権をどちらが握るか決まるといっても
+きっと過言ではない。
+$k
+
+&empty
+俺は…俺は…！
+#meffect,flow,5
+$k
+
+// 	BGMFade(SLOW, 100);
+// 	Fade(FAST, 100, 1);
+
+// 	Zoom(SLOW|SPEED_DOWN, 130, 130);
+// 	Shake(SLOW, SHAKE_DOWN, 16, 80);
+
+優
+「要さ～ん」
+#mlarge
+$k
+
+// 	WaitShake();
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,se,S_Don01
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+// 	SS(CENTER, KANAME_A402EG2);
+
+&empty
+悩むまでもなく甘えることにした。
+$k
+
+&empty
+その胸に飛び込むと要さんが抱きしめてくれる。
+$k
+
+// KANAME_A402EG2
+
+#sp,vo,06020668
+要
+「よしよし」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Poyon01
+
+&empty
+どさくさに紛れて胸に顔を押し付けてしまう。
+$k
+
+// 	Zoom(NORMAL|SPEED_DOWN, 150, 150);
+// 	Shake(NORMAL, SHAKE_DOWN, 16, 80);
+// 	Shake(NORMAL, SHAKE_LEFT, 2);
+
+// KANAME_A402SI
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02SI.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06020669
+要
+「う…」
+#meffect,flow,5
+$k
+
+&empty
+やわらかい…！
+$k
+
+&empty
+それにいい匂いだ。
+シャンプーじゃない…香水かな。
+$k
+
+&empty
+嫌味がない感じで、
+大人の魅力を引き立てている。
+$k
+
+// KANAME_A402NA
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NA.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06020670
+要
+「ふ…」
+#meffect,flow,5
+$k
+
+優
+「癒されるよ～」
+$k
+
+#ss,bgm
+
+// KANAME_A402NA
+#sp,vo,06020671
+要
+「ふ…ふ…」
+#meffect,flow,2
+$k
+
+優
+「ふ…？」
+$k
+
+// KANAME_A401IK2
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK2.png,(x),c,(s),60%
+#ig,(se),S_Basa01
+
+#sp,vo,06020672
+要
+「ふざけるなあ！」
+#mlarge
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+// 	Zoom(FAST, 100, 100);
+// 	SS(CENTER, KANAME_0401IK2);
+
+#sp,se,S_Dotadotan01
+
+&empty
+いきなり突き飛ばされ、尻もちをついてしまう。
+$k
+
+優
+「か、要さん…？」
+#meffect,flow,5
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+// KANAME_0401KU5
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KU5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020673
+要
+「甘えるな！！！」
+#mlarge
+$k
+
+優
+「え～っ！？」
+#mlarge
+$k
+
+&empty
+理不尽だ…。
+$k
+
+&empty
+甘えていいのよと言われて甘えたら、
+甘えるなと怒られた。
+$k
+
+// 	SS_(CENTER, KANAME_A401OD3, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+// KANAME_A401OD3
+#sp,vo,06020674
+要
+「いや違うの、甘えていいのよほんとっ」
+$k
+
+優
+「どっちなんですか」
+$k
+
+// KANAME_A401FK4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01FK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020675
+要
+「違うの、まだわたし達にはレベルが高すぎたのね。
+$nw,4910
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01US4.png,(x),c,(s),80%
+#ig
+
+　危険な試みだったわ…暴走してしまった」
+$k
+
+// KANAME_A401GB
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01GB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020676
+要
+「ふう…やれやれ」
+$k
+
+優
+「勝手に納得しないでください。
+　というか、今のは罰があって然るべきなのでは？」
+$k
+
+// KANAME_A401IK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020677
+要
+「２人の責任じゃない」
+$k
+
+優
+「いや、要さんの裏切りで
+　俺の心が深く傷ついたわけですし」
+$k
+
+// KANAME_A402IK
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020678
+要
+「…なにが望みよ」
+$k
+
+優
+「ものわかりのいい人は大好きです」
+$k
+
+// KANAME_A402IK
+#sp,vo,06020679
+要
+「で？　何をすればいいわけ」
+$k
+
+// 	Zoom(SLOWER|SPEED_DOWN, 120, 120);
+// 	SS_(CENTER, KANAME_A401OD3, MOVE_STOP, NORMAL);
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+優
+「ん～」
+#meffect,flow,5
+$k
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),c,(s),100%
+#ig
+
+&empty
+わかりやすく唇を突き出してみる。
+$k
+
+// 	Zoom(NORMAL|SPEED_DOWN, 100, 100);
+// 	SS_(CENTER, KANAME_A402IK2, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02IK2.png,(x),c,(s),80%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ikari.png,(x),*470,(y),*80
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op1,(s),120%
+#ig
+
+// KANAME_A402IK2
+#sp,vo,06020680
+要
+「レベルがあがってんじゃないのよっ」
+#mlarge
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+優
+「今更…もうキスはしてるじゃないですか」
+$k
+
+// KANAME_A402IK2
+#sp,vo,06020681
+要
+「あれはノーカウント！」
+#mlarge
+$k
+
+優
+「自分ルール適用！？」
+$k
+
+// KANAME_A402NA2
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NA2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020682
+要
+「あんなの…たまたまわたしがキミに
+　なりゆきで騙されたからよかったものの、
+#mfuri,　　　　　　　　　　　　だま
+$nw,6100
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK2.png,(x),c,(s),80%
+#ig
+
+　基本的にレイプと一緒なんだからねっ」
+
+$k
+
+優
+「こういう言葉があります。
+$nw,1000
+
+　それはそれ」
+$k
+
+// KANAME_A401IK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020683
+要
+「初デートは法廷に決定ね」
+$k
+
+優
+「くっ…」
+$k
+
+&empty
+確かにあれに関しては分が悪い…
+というか犯罪者だ、俺。
+$k
+
+優
+「…じゃああらためて、ごほうびって形ならどうです？」
+
+$k
+
+// KANAME_A401KT3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KT3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020686
+要
+「ごほうび？」
+$k
+
+優
+「そうそう、一生懸命頑張っている自分の彼氏に」
+$k
+
+// KANAME_A401FK3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01FK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020687
+要
+「見返り目当てで頑張るっていうのは情けなくない？」
+$k
+
+優
+「見返りもなしに頑張る奴ってのも信じられませんが」
+$k
+
+// KANAME_A401FK5
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01FK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020688
+要
+「そうかもしれないけど、
+　この場合の報酬はキミの輝かしい未来とかじゃ」
+$k
+
+優
+「そこは建前というか…調教？
+　この子はわたしが育てたのよという
+　雌豹のような気分で」
+$k
+
+// KANAME_A401FK5
+#sp,vo,06020689
+要
+「育ての親の喩えが雌豹の時点で何かおかしいけど、
+　一応聞いておくわ、なに？」
+$k
+
+// 	Zoom(SLOWER|SPEED_DOWN, 120, 120);
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+優
+「ん～」
+$k
+
+&empty
+再度わかりやすく唇を突き出してみる。
+$k
+
+// 	Zoom(NORMAL|SPEED_DOWN, 100, 100);
+
+// KANAME_A401RK2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020690
+要
+「結局それなのね」
+$k
+
+優
+「…冷静に捌かないでください。
+#mfuri,　　　　　　　　　　さば
+
+　俺が恥ずかしいじゃないですか」
+
+$k
+
+&empty
+恥ずかしいというか情けなくなる。
+$k
+
+// KANAME_A401US4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01US4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020691
+要
+「わかったわ」
+$k
+
+優
+「え、ホントに？」
+$k
+
+// KANAME_A401IK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020692
+要
+「こ…こんなのちょっとくっつけて、
+　はむはむってするだけじゃない」
+$k
+
+優
+「マジで！？
+　はむはむってしていいんですかっ」
+$k
+
+// KANAME_A401IK4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020693
+要
+「う…」
+$k
+
+// KANAME_A401IK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020694
+要
+「む、むしろわたしがしてあげるわっ」
+$k
+
+優
+「すげえ！」
+#mlarge
+$k
+
+&empty
+すごいというか、やけくそになっているように見えるけど、
+あえて気にしない。
+$k
+
+&empty
+なんせまだキス自体、付き合う前の
+レイプ呼ばわりされているあの１回しかないんだもんな。
+
+$k
+
+&empty
+嬉しい。嬉しくてもうなんでもいい。
+$k
+
+
+#next,06kaname14_01

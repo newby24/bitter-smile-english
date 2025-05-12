@@ -1,0 +1,834 @@
+﻿// 既読フラグ
+#read_flag,277
+
+// セーブタイトル
+#flag,save_title,桜子　第８話,0,0
+
+// 桜子好感度＋１。
+#flag,per,1,+,1
+
+// 桜子ルート決定。
+#flag,per,5,=,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_GK_ROKA01A );
+// 	SS( CENTER, SAKURAKO_0202AK );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第８話　桜吹雪
+$k
+#note,erase
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0202AK
+#sp,vo,03000311
+桜子
+「…という事は、
+#meffect,flow,5
+
+　うーん………」
+#meffect,flow,5
+$k
+
+&empty
+休み時間、廊下を歩いていると、
+前方から桜子がやって来た。
+$k
+
+// SAKURAKO_0203KM
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000312
+桜子
+「やっぱり………なのかなぁ…」
+#meffect,flow,5
+$k
+
+&empty
+なにブツブツ言ってるんだ。
+$k
+
+優
+「おう、桜子」
+$k
+
+// SAKURAKO_0202AD
+#ir,(dr),0
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),60%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,03000313
+桜子
+「っ！？
+$nw,1000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+　ゆ、優じゃない」
+$k
+
+&empty
+声をかけられ顔を上げた桜子は、
+俺の顔を見て、少し驚いた様な顔をした。
+$k
+
+&empty
+失礼な。
+$k
+
+// SAKURAKO_0202NR
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000314
+桜子
+「なに？」
+$k
+
+優
+「いや、特に用事があったわけじゃねぇけど、
+　……考え事か？　ちゃんと起きてるか？
+　前向いて歩かないと危ねえぞ？」
+$k
+
+// SAKURAKO_0202IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000315
+桜子
+「大丈夫よ、あんたじゃあるまいし、
+　ちゃんと起きてるし……
+$nw,4500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+　それだけ？」
+$k
+
+優
+「ああ、まあ…」
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000316
+桜子
+「…そう、じゃあね」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+あ、あれっ。
+$k
+
+優
+「おいおい、そんなにあっけなく通り過ぎるなよ」
+$k
+
+// 	SS( CENTER, SAKURAKO_A203IK3, MOVE_LEFT, SLOW );
+
+// SAKURAKO_A203IK3
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),l0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,03000317
+桜子
+「なによ！？」
+$k
+
+優
+「おう…、なんだよ桜子。急いでるのか？」
+#meffect,flow,5
+$k
+
+&empty
+最近の桜子はどうもなにかおかしい気がして、
+ちょっと気になってしまう。
+$k
+
+// SAKURAKO_A203IK3
+#sp,vo,03000318
+桜子
+「そうよっ！
+$nw,1040
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+　…ふんっ！」
+$k
+
+#ss,bgm
+
+&empty
+思いっきり顔を背けて、
+ぺたぺたと足音を立てながら
+横を通り過ぎていく。
+$k
+
+優
+「おーい、桜子さーん？」
+$k
+
+&empty
+しかし桜子が振り返る事はない。
+$k
+
+&empty
+その背中をしばらく見ていたら、
+今度は急に走り出して行ってしまった。
+$k
+
+&empty
+トイレか？
+$k
+
+// CHISEKA_0201IK
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040048
+知世翔
+「先輩に何をしたんですか！？」
+#mlarge
+$k
+
+優
+「わわっ！？　………有河っ？」
+#mlarge
+$k
+
+// 	SS_( CENTER, CHISEKA_A201IK, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+
+#sp,bgm,BGM_CHISEKA
+
+&empty
+いつの間に…。
+$k
+
+優
+「えと……桜子なら、向こうに走って行ったぞ？」
+$k
+
+// CHISEKA_A201IK
+#sp,vo,03040049
+知世翔
+「用があるのはあなたの方です」
+$k
+
+&empty
+…みたいだな。
+$k
+
+// CHISEKA_A201IK
+#sp,vo,03040050
+知世翔
+「何をしたんですか！？」
+#mlarge
+$k
+
+&empty
+あれー？　またこの流れ？
+ついこの間、似た様な言葉を聞いた気がするぞ。
+$k
+
+優
+「え…と…？」
+#meffect,flow,5
+$k
+
+// CHISEKA_A201IK4
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040051
+知世翔
+「あなたのせいで、
+　先輩がおかしくなっちゃったじゃないですか！」
+$k
+
+&empty
+いや、おかしいのはわかってるけど。
+$k
+
+// CHISEKA_A201IK4
+#sp,vo,03040052
+知世翔
+「原因があなたなのは分かってます。
+$nw,2400
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+　それ以外、あり得ません！」
+$k
+
+優
+「ちょっと待て。落ち着いて考えてみような？
+　俺が何もするわけ無いだろ？
+　この俺が、桜子に何が出来るっていうんだ？」
+$k
+
+// CHISEKA_A201IK4
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040053
+知世翔
+「私がそれを聞いてるんです！」
+#mlarge
+$k
+
+// CHISEKA_A201KM3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040054
+知世翔
+「こんなろくでなしと幼なじみなんて、
+　先輩可哀想……」
+$k
+
+優
+「ろくでなし……お前も容赦ないよな？」
+$k
+
+// CHISEKA_A201IK
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040055
+知世翔
+「当たり前です！
+$nw,1500
+
+　先輩の悩みひとつも分からないなんてっ、
+　あなた、それでも先輩の幼なじみなんですか？」
+$k
+
+優
+「う…いや、そんな事言われてもね？
+　…幼なじみだからって、なんでも知ってるわけじゃ…」
+$k
+
+// CHISEKA_A201IK2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040056
+知世翔
+「とにかく謝って下さい」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「なんでよ！？」
+#mlarge
+$k
+
+// CHISEKA_A201IK
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040057
+知世翔
+「どう考えても、あなたが何かをしなければ、
+　先輩があんな風になるはずないからです」
+$k
+
+&empty
+俺の行動が桜子に影響してるって？
+あいつに限ってそれはないだろー。
+$k
+
+// CHISEKA_A201IK
+#sp,vo,03040058
+知世翔
+「いいですね？
+　ちゃんと謝っておいて下さいよ」
+$k
+
+優
+「ええー…」
+#meffect,flow,5
+$k
+
+&empty
+しかし、ここで頷かないと、
+有河はますます怒るだけだ。経験で分かる。
+$k
+
+優
+「ああ、そうだな、…考えておくよ」
+$k
+
+// CHISEKA_A201KB2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040059
+知世翔
+「はぁ？」
+#meffect,flow,5
+$k
+
+// CHISEKA_A201IK4
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040060
+知世翔
+「なに生易しい事言ってるんですかっ！！」
+$k
+
+優
+「ええっ！？」
+$k
+
+&empty
+お前いつにも増して怖いよ。
+$k
+
+// CHISEKA_A201IK2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040061
+知世翔
+「可及的速やかにお願いします。
+$nw,2320
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+　いえ、今すぐにです！」
+$k
+
+優
+「いや、おまえ」
+#meffect,flow,5
+$k
+
+// CHISEKA_A201IK
+#sp,vo,03040062
+知世翔
+「そんなふうにダラダラともったいぶって、
+　先延ばしにしてるから先輩もおかしくなるんです！」
+$k
+
+優
+「お前のその自信は一体どこからくるんだ…」
+$k
+
+&empty
+有河から見てそんなにも………ということか。
+$k
+
+// CHISEKA_A201NR
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040063
+知世翔
+「早くいつもの先輩に戻して下さいね。
+$nw,3270
+
+　では失礼します、
+$nw,1000
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#madd,矢崎
+$nw,1000
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+#madd,　先
+$nw,500
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig
+
+#madd,・輩っ！」
+
+$k
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+優
+「そんなに気になるならお前が戻したらどうなんだ？」
+$k
+
+&empty
+有河は、くるりと回り、
+上がって来たらしい階段を下りようとして…。
+$k
+
+// 	SS( CENTER, CHISEKA_0201NR, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「うお」
+$k
+
+&empty
+振り返った。
+$k
+
+// CHISEKA_0201IK4
+#ir,(dr),0
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),60%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c3,(y+),-10
+#ig
+
+#sp,vo,03040064
+知世翔
+「できるならとっくにやってますよ！
+　この居候野郎っ！」
+$k
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+&empty
+今度こそ、くるっと回り、
+そのまま階段を下りていく有河。
+$k
+
+優
+「有河…」
+#meffect,flow,5
+$k
+
+&empty
+有河も桜子を心配しているんだとは思うけど、
+………でもなあ。
+$k
+
+#sp,vo,03040065
+知世翔
+「矢崎しねっ！」
+$k
+
+優
+「うっ…」
+#meffect,flow,5
+$k
+
+&empty
+俺だってなんとか出来るならしてるさ。
+$k
+
+&empty
+まだ……その芽があるんならさ。
+$k
+
+優
+「………」
+$k
+
+&empty
+そろそろ、次の授業を知らせるチャイムが鳴る頃だ。
+今から桜子を追いかけるわけにはいかないし…。
+$k
+
+優
+「いつもの先輩、ね…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_GAIKAN01A );
+
+#sp,se,S_Chime01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_GAIKAN01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KYOSHITSU01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01B.jpg,(s),100%
+#ig
+
+#sp,bgm,BGM_KEIKAI
+
+#show
+
+優
+「さて……と」
+#meffect,flow,5
+$k
+
+// MEGUMI_0201NO
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,03070111
+めぐみ
+「あ、優ちゃ～ん」
+$k
+
+// 	SS( CENTER, MEGUMI_0201NO, MOVE_LEFT, NORMAL );
+
+優
+「わりぃ、俺ちょっとＡ組に急ぐから後な？」
+$k
+
+// MEGUMI_0201KT4
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070112
+めぐみ
+「Ａ組って、桜子の…
+$nw,1990
+
+#sp,se,S_Dash02o
+
+#ir,(dr),500
+#ip,bg,(fi),black.jpg
+#ig
+
+　あ、ちょっと待ってよ～っ」
+
+$k
+
+#hide
+
+// 	RFO( RULE_RYUUSEN );
+// 	SV( BG_GK_ROKA01A );
+
+// 	RFI( RULE_RYUUSEN );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+廊下から桜子の教室を覗いてみる。
+$k
+
+&empty
+あ…まだ居るな。
+$k
+
+#hide
+
+// 	SV( BG_GK_KYOSHITSU01B );
+// 	SS( CENTER, SAKURAKO_0202NO2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01B.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「桜子、昼飯一緒に食おうぜ？」
+$k
+
+// SAKURAKO_0202AD
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03000319
+桜子
+「優っ！？
+$nw,780
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+　な、なんであんたがうちの教室にいるのっ」
+$k
+
+優
+「いや、だから、飯誘いに来たんだって。
+　なんかまずかったか？」
+$k
+
+// SAKURAKO_0202AD
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000320
+桜子
+「ええっ、優が！？」
+$k
+
+優
+「そんな驚く事かよ」
+$k
+
+&empty
+まあたしかに、
+俺から誘うのは、たぶんこれが初めてだけど。
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000321
+桜子
+「ああ、いや、
+$nw,2000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),60%
+#ig
+
+　……でもごめん、今日忙しいからっ」
+$k
+
+#sp,se,S_Dash02o
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「あっおい」
+$k
+
+// 	WaitSE( -1 );
+
+// MEGUMI_0201OD
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01OD.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ig
+
+#sp,vo,03070113
+めぐみ
+「あっ、桜子ー？」
+$k
+
+
+#next,03sakurako08_01

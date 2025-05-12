@@ -1,0 +1,612 @@
+﻿// 既読フラグ
+#read_flag,79
+
+優
+「なんだあ！？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+#sp,se,S_Dash04i
+
+#sp,vo,02990147
+？？？
+「ひいいーっ！」
+$k
+
+&empty
+おいおい、なんかこっちに来るぞ。
+$k
+
+&empty
+作業着を来た男が……被っているのは、
+…いや、顔を隠しているのは女子の制服か？
+$k
+
+&empty
+どう見ても制服泥棒。マニアだなー。
+$k
+
+#sp,vo,02000436
+桜子
+「優ーっ、そいつ捕まえてーっ！」
+$k
+
+#sp,vo,02990148
+？？？
+「わーわ――っ、どいてくださいーっ」
+$k
+
+// 	ZoomVisual(    0, 100, 100, 700, 200 );
+// 	ZoomVisual( FAST, 150, 150, 700, 200 );
+
+優
+「ええっ？」
+$k
+
+#sp,vo,02990149
+？？？
+「すっすみませんっ！」
+$k
+
+#hide
+
+// 	SS_( CENTERRIGHT, ISAKIPAPA_A301AY, MOVE_RIGHT );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKIPAPA_A301AY.png,(x),r,(s),100%,(al),0%
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"ばさっ！" );
+
+#ir,(ef),move,(dr),500,(sync),NO
+#ip,c3,(x),r0,(al),100
+#ig
+
+#wait,500
+
+// 	Blur( 0, 2 );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ie,c3
+#ig,(se),S_Basa01
+
+
+// 	ZoomVisual( FAST, 120, 120, 700, 200 );
+
+#show
+
+優
+「うおっ！？」
+$k
+
+// 	Blur();
+
+#sp,vo,02000437
+桜子
+「馬鹿っ！」
+$k
+
+&empty
+制服を振り回してきたので思わず避けてしまった！
+しかも、謝ってたものだから、つい。
+$k
+
+// 	SV( BG_GK_ROKA02A, FILTER_MIRROR );
+
+#ir
+#ip,bg,(fi),BG_GK_ROKA02A_mil.jpg,(s),100%
+#ig
+
+&empty
+とりあえず後を追いかけて走る。
+後ろから桜子と宮津橋も同じように追いかけて来る。
+$k
+
+優
+「悪い！　思わずな！？」
+$k
+
+#sp,vo,02000438
+桜子
+「いいわよ別に！
+　早くそいつ取っ捕まえて！」
+$k
+
+優
+「言われずとも！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"すたたたたたっ！" );
+// 	Zoom(    0, 100, 100, 150, 200 );
+// 	Zoom( FAST, 140, 140, 150, 200 );
+
+#sp,se,S_Dash04i
+
+&empty
+すぐ側まで、なんとか追いついた。
+このままスピードを落とさずあいつにタックルだ。
+$k
+
+// 	Zoom( FAST, 200, 200, 150, 200 );
+
+&empty
+……よし、今だっ！！
+$k
+
+// 	BlurScroll( FAST, 2, 270, 8 );
+
+#ir,(dr),500,(ef),move
+#ip,bg,(y),d_s
+#ig
+
+優
+「あらっ？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"しかしすべる足元。@nずるる@g－@g－っ！どかっ！！" );
+&empty
+しかしすべる足元。
+$k
+
+// 	BlurScroll();
+// 	Zoom( FAST, 400, 400, 150, 200 );
+// 	Scroll( FAST, 0, 300 );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2,(sync),NO
+#ig,(se),S_Dotadotan01
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+優
+「あだあっ！？」
+$k
+
+// 	Blur();
+
+&empty
+しかもそこは曲がり角。
+$k
+
+&empty
+忘れてた。
+有河待ってる間、リラックスしようと、
+上履き脱いでたんだよっ。
+$k
+
+#sp,vo,02000439
+桜子
+「ばっか、なに遊んでんのよ！」
+$k
+
+#sp,vo,02010167
+勇樹
+「邪魔だウジ虫！」
+$k
+
+#sp,se,S_Dash04o
+
+#ir
+#ip,bg,(fi),BG_GK_ROKA02A_mil.jpg,(s),100%
+#ig
+
+&empty
+死に体となった俺の上を二人が通り過ぎて行く。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"だだだだだっ！" );
+優
+「す、すまん。任せた……いてて」
+$k
+
+// 	SV( BG_GK_ROKA02A, FILTER_MIRROR );
+// 	Shake(FAST + NORMAL );
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KOMON02B );
+
+//	SS( CENTERLEFTTOP, ISAKIPAPA_0301AS );
+// 	RFI( RULE_RYUUSEN | FILTER_MIRROR, FAST );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KOMON02B.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),r,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+// 	SS_( CENTER, SAKURAKO_0203IK2, MOVE_RIGHT );
+
+// SAKURAKO_0203IK2
+#sp,vo,02000440
+桜子
+「待て、こんのやろーうっ！！」
+$k
+
+#sp,se,S_Swing02
+
+#ir,(dr),500,(ef),move,(sync),NO
+#ip,c1,(x),l,(al),0%
+#ig
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),T_tukamu
+
+// 	CS_( CENTER, LEFTOUT, 30 );
+
+//	SetActionBuru( CENTERLEFTTOP );
+// ISAKIPAPA_0301OD2
+
+#sp,vo,02990150
+？？？
+「ぐわっ！？」
+$k
+
+//	DelAction( CENTERLEFTTOP );
+// SAKURAKO_0203IK
+
+#sp,vo,02000441
+桜子
+「ほら捕まえたっ！」
+$k
+
+// ISAKIPAPA_0301AS2
+
+#sp,vo,02990151
+？？？
+「ああ、だめだっ」
+$k
+
+//	SetActionBuru( CENTER );
+#sp,se,S_Basa01
+
+// 	MoveStand( CENTERLEFTTOP, FAST, -150, 0 );
+//	DS( CENTERLEFTTOP );
+//	DelAction( CENTER );
+// SAKURAKO_0203IK3
+
+#sp,vo,02000442
+桜子
+「ああ、制服だけっ！？」
+$k
+
+//	SS_( RIGHTTOP, ISAKI_0202IK, MOVE_RIGHT );
+#sp,vo,02010168
+勇樹
+「どけっ！！」
+$k
+
+//	MoveStand( RIGHTTOP, FAST, -750, 0 );
+//	SetActionPyon( CENTER );
+// SAKURAKO_0202AD
+
+#sp,vo,02000443
+桜子
+「わっ！？」
+$k
+
+//	DelAction( CENTER );
+#sp,vo,02010169
+勇樹
+「おらあっ！」
+$k
+
+// 	SEPlay( "S_Air01", 100, -75 );
+
+#sp,se,S_Air01
+
+#sp,vo,02990152
+？？？
+「うわあーっ、とー！」
+$k
+
+// 	SEPlay( "S_BatFall02", 50, -75 );
+
+#sp,se,S_BatFall02
+
+#sp,vo,02010170
+勇樹
+「…くそっ、外した！」
+$k
+
+// SAKURAKO_0202AK
+
+#sp,vo,02000444
+桜子
+「あーあ…」
+$k
+
+#ss,bgm
+
+//	CS_( CENTERLEFT, RIGHT );
+//	SS_( LEFT, ISAKI_0201IK2, MOVE_LEFT, NORMAL );
+#sp,vo,02010171
+勇樹
+「ちっ、逃がしたか…」
+$k
+
+// SAKURAKO_0203AK
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000445
+桜子
+「ふうー、
+$nw,900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+　勇樹、この制服あんたのよねー？」
+$k
+
+//	SS_( CENTER, SAKURAKO_A203NO, MOVE_STOP, NORMAL );
+// 	ShowFace();
+
+//	SetActionPyon( CENTER );
+// SAKURAKO_0201NK4
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000446
+桜子
+「痛っ！？
+$nw,900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM.png,(x),c,(s),60%
+#ig
+
+　………ん、なにこれ。針と糸？
+　なんか縫い付けようとしてるわね…お守り、かな？」
+
+$k
+
+#sp,vo,02010172
+勇樹
+「……貸せ！」
+$k
+
+//	CS( LEFT, CENTERRIGHT, FAST );
+//	CS_( CENTERRIGHT, CENTERLEFT, FAST );
+//	SetActionBuru( CENTER );
+#sp,se,S_Basa01
+
+//	DelAction( CENTER );
+// SAKURAKO_A202IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000447
+桜子
+「あっ…ちょっと！」
+$k
+
+#sp,vo,02010173
+勇樹
+「………」
+$k
+
+// SAKURAKO_A203KT
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000448
+桜子
+「…なんなのそれ？」
+$k
+
+#sp,vo,02010174
+勇樹
+「………やはりあいつが」
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000449
+桜子
+「…？」
+$k
+
+//	SS_( LEFT, ISAKI_0202IK );
+#sp,se,S_Nuno03
+
+// SAKURAKO_0202AD
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000450
+桜子
+「あっ…」
+$k
+
+#sp,vo,02010175
+勇樹
+「くそっ、こんなもの」
+$k
+
+// SAKURAKO_0202AS
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000451
+桜子
+「ちょ、ちょっと、
+$nw,2100
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+　それ…いいの？」
+
+$k
+
+//	ShowFace();
+// 	SS_( RIGHT, SAKURAKO_0202AS, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(x),r
+#ip,c2,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+// 	SS( LEFT, ISAKI_0201AZ, MOVE_STOP, NORMAL );
+
+// ISAKI_0201AZ
+#sp,vo,02010176
+勇樹
+「泥棒が付けたお守りだ、知るか」
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000452
+桜子
+「いや、でも名前……
+$nw,3000
+
+　いさきって書いてあるから…」
+$k
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c2,(x),l2,(al),0%
+#ig
+
+//	SS_( CENTER, SAKURAKO_0203KT, MOVE_STOP, NORMAL );
+// 	CS_( RIGHT, CENTER );
+
+// SAKURAKO_0203KT
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+#sp,vo,02000453
+桜子
+「あっ、ちょっと何処行くのよ！？」
+$k
+
+// ISAKI_0201IK
+
+#sp,vo,02010177
+勇樹
+「……不愉快だ、帰る」
+$k
+
+// SAKURAKO_0203KM
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000454
+桜子
+「でもあんた上履きのままじゃない………
+$nw,2700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),60%
+#ig
+
+　あ」
+$k
+
+// 	SS_( CENTER, SAKURAKO_0202KM, MOVE_STOP, 0 );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM.png,(x),c,(s),60%
+#ig
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(y+),100,(al),0
+#ig
+
+// SAKURAKO_0202KM
+#sp,vo,02000455
+桜子
+「ん？　これ、なんか入ってるわね。
+$nw,6000
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+　………………写真？」
+
+$k
+
+// 	SS_( CENTER, SAKURAKO_0202KM2, MOVE_DOWN, SLOW );
+
+// SAKURAKO_0202NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000456
+桜子
+「………」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0202NO
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000457
+桜子
+「泥棒なんかがどうしてこれを……」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,02common02-4_06

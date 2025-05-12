@@ -1,0 +1,220 @@
+﻿// 既読フラグ
+#read_flag,345
+
+#show
+
+// SAKURAKO_A402EG
+
+#sp,vo,03001706
+桜子
+「あはっ、たっのもし～♪」
+$k
+
+優
+「茶化すなよぉ」
+$k
+
+// SAKURAKO_A402IK3
+
+#sp,vo,03001707
+桜子
+「やだぁ、あたしは本気よ？」
+$k
+
+優
+「でもさ……お前こそ良かったのか？」
+$k
+
+// SAKURAKO_A401TR3
+
+#sp,vo,03001708
+桜子
+「…なにが？」
+$k
+
+優
+「いいのか、地元の大学で」
+$k
+
+// SAKURAKO_A402NO
+
+#sp,vo,03001709
+桜子
+「えっ？」
+$k
+
+優
+「もしかしてお前、なんか将来の夢とか、
+　あったんじゃないのか？」
+$k
+
+// SAKURAKO_A402TR
+
+#sp,vo,03001710
+桜子
+「さあ？　今のあたしは知らないけどね？」
+$k
+
+// SAKURAKO_A402EG
+
+#sp,vo,03001711
+桜子
+「でもいいのよ、
+　思い出したらその時考えればいいんだし」
+$k
+
+優
+「そ、そうか？」
+$k
+
+// SAKURAKO_A402EG2
+
+#sp,vo,03001712
+桜子
+「いいの、たとえ私に他のどんな夢があろうと、
+　優と一緒に幸せになるって夢は
+　どんな事があっても絶対に変わらないもの！」
+$k
+
+&empty
+そこまで断言されると俺も照れるが…。
+$k
+
+優
+「そ、そうか……そうだな？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402AS
+
+
+#sp,vo,03001713
+桜子
+「あっ………
+$nw,1650
+
+　あたし、ちょっと焦っちゃったかなぁ…」
+
+$k
+
+優
+「いやいや、そんな事はないって！」
+$k
+
+// SAKURAKO_A402EG2
+
+#sp,vo,03001714
+桜子
+「ふふっ♪」
+$k
+
+// SAKURAKO_A402NO3
+
+#sp,vo,03001715
+桜子
+「もう、待ちきれないよ、優。
+$nw,2990
+
+　早く……合格してよねっ？」
+$k
+
+優
+「ああ、まかせとけ！」
+$k
+
+// SAKURAKO_A402EG2
+
+#sp,vo,03001716
+桜子
+「ふふっ」
+$k
+
+// SAKURAKO_A402EG2
+#sp,vo,03001717
+桜子
+「優っ……
+$nw,2490
+
+　愛してるからねっ！」
+$k
+
+#hide
+
+// 	SV( BG_MT_ENKEI01A );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_MT_ENKEI01A.jpg,(s),100%,(x),c,(y),d_s
+#ip,c1,(fi),image\sysc\sysc_white.jpg,(x),c,(y),c,(al),0%
+#ig
+
+#wait,500
+
+#ir,(dr),6000,(ef),move,(cv),linear
+#ip,bg,(y),c
+#ig
+
+// 	Scroll( 3000|SPEED_DOWN, 0, -380 );
+
+#flag,mode,novel,0,0
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+その爽やかな笑顔に、また胸がときめく。
+#malign,c
+#meffect,fade,1000
+
+$k
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+これからも、ずっと一緒に二人、
+#malign,c
+#meffect,fade,1000
+
+$nw,2000
+
+共に歩いていこう。
+#malign,c
+#meffect,fade,1000
+
+$k
+
+#flag,mode,adv,0,0
+
+// 	ShowFace();
+
+#ss,bgm,(dr),3000
+
+#ir,(dr),6000,(ef),move,(cv),linear
+#ip,bg,(y),u_s
+#ip,c1,(al),100%
+#ig
+
+#wait,2000
+
+#ir,(dr),2000
+#ip,bg,(fi),image\stitle\stitle_fin_sakurako.jpg,(y),0
+#ig
+
+$k
+
+// トロフィー。
+#trophy,4
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 終了処理へ。
+#next,00_end_flag
+

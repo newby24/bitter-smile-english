@@ -1,0 +1,892 @@
+﻿// 既読フラグ
+#read_flag,71
+
+// セーブタイトル
+#flag,save_title,Ａｃｔ２－３,0,0
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN03A.jpg,(s),100%
+#ig
+
+#sp,se,T_Dog02
+
+// エピソードタイトルの表示
+#note,Ａｃｔ２－３　下町ハムレット～禁断の果実
+$k
+#note,erase
+
+// 	SV( BG_TD_GAIKAN03A );
+// 	SNLP( 0, "T_Dog02" );
+
+#show
+
+#sp,vo,02030196
+みい
+「生地は？」
+$k
+
+#sp,vo,02050032
+雪華
+「もう１５分たったよね？
+　はい、ＯＫです」
+$k
+
+#hide
+
+#ss,se,(dr),1000
+
+// 	SEStop( 0 );
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_KITCHEN03A );
+// 	SS( CENTERLEFT, MII_0402NO );
+// 	SS( CENTERRIGHT, YUKIHA_0401BS );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_KITCHEN03A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),r,(s),60%
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),l,(s),60%
+#ig
+
+#show
+
+// MII_0402NO
+
+#sp,vo,02030197
+みい
+「では重しをはずして、さらに１０分焼くそうです」
+$k
+
+// YUKIHA_0401KT
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02050033
+雪華
+「１０分かぁ、
+$nw,1700
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),r,(s),60%
+#ig
+
+　じゃあその間にチョコレートクリーム作る？」
+$k
+
+// MII_0403NO2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030198
+みい
+「いえ、その前にチョコレート生地を
+　作らないといけませんね」
+$k
+
+// YUKIHA_0401KD
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KD.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02050034
+雪華
+「あっそっか、
+$nw,1300
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KS.png,(x),r,(s),60%
+#ig
+
+　忘れてたー」
+
+$k
+
+優
+「うんうん…」
+#meffect,flow,5
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+// SAKURAKO_A402IK4
+
+#sp,vo,02000384
+桜子
+「優、そこ邪魔よ？」
+$k
+
+// 	SS_( CENTER, SAKURAKO_A403NO );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「おお、すまん」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000385
+桜子
+「……なにニヤけてんの、
+$nw,2100
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+　気持ち悪いわよ？」
+$k
+
+優
+「ほっとけ、いいだろ。
+　可愛い妹が俺のためにケーキを作ってくれるって
+　言うんだから。ニヤけもするさー」
+$k
+
+
+// YUKIHA_0401AK4
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),r,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,02050035
+雪華
+「お兄ちゃんのはついでだからね、
+　勘違いしないでね？」
+$k
+
+優
+「う……ついででもいいんだ。
+#meffect,flow,5
+　雪華ちゃんはやさしいなあ…」
+#meffect,flow,5
+$k
+
+
+// MII_0401KY
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030199
+みい
+「付け加えますと今作っているのは
+　チョコレートのタルトですので」
+$k
+
+優
+「同じだろ、ケーキじゃん？」
+$k
+
+// 	SS_( CENTERLEFT, MII_0401AK );
+
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01AK.png,(x),l,(s),60%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK2.png,(x),r,(s),60%
+#ig
+
+// YUKIHA_0401AK2
+
+#sp,vo,02050036
+雪華
+「………はぁー…」
+$k
+
+優
+「チョ、チョコレートタルト楽しみだな～っ！」
+$k
+
+// SAKURAKO_A401AK
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),60%
+#ie,c1,c3
+#ig
+
+#sp,vo,02000386
+桜子
+「相変わらず優は馬鹿ねー」
+$k
+
+優
+「…お、お兄ちゃんは向こうで出来るの待ってるね？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+金曜日の夜。
+妹と妹的な女の子達が夕飯の終了とともに
+お菓子作りを始めていた。
+$k
+
+&empty
+女の子なら大抵一度は通る道、お菓子作り。
+$k
+
+&empty
+みいちゃんが『甘いものが食べたいですね』
+と言ったのに乗じて『じゃあ一緒に作ろうよー！』
+と持ちかけたのが雪華ちゃん。
+$k
+
+&empty
+轟木家にやって来てオーブンを見つけてからというもの、
+実は密かにチャンスをうかがっていたらしい。
+（前の家ではオーブントースターしかなかったから）
+$k
+
+&empty
+という訳で今、
+轟木家の台所は男子禁制のお菓子工場になっている。
+（お兄ちゃんは入っちゃ駄目って言われた…）
+$k
+
+&empty
+そんな台所とは対照的に、
+居間からはポン酢の匂いが漂ってくる。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03D );
+// 	SS( RIGHT, KANAME_A401GB4 );
+// 	SS( LEFT, KINO_A401NO2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03D.jpg,(s),100%
+#ip,c1,(fi),KINO_A401NO2.png,(x),l,(s),80%
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01GB4.png,(x),r,(s),80%
+#ig
+
+#show
+
+// KANAME_A401GB4
+
+#sp,vo,02020093
+要
+「んぐんぐ………
+$nw,2400
+
+#ir
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),r,(s),80%
+#ig
+
+　はふ。やっぱり鍋よねー」
+$k
+
+// KINO_A401BS2
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060067
+紀乃
+「ここんとこ、急に寒なったからな、
+　寒なったらとりあえず鍋やらななあ？」
+$k
+
+&empty
+みんなが夕食の鍋を食べ終わる直前、
+やはりというか、会社帰りの要さんがやって来た。
+$k
+
+#sp,se,Ma_Cop01
+
+// SAKURAKO_A401TR4
+
+#sp,vo,02000387
+桜子
+「はい、お茶」
+$k
+
+// KINO_A401EG3
+#ir
+#ip,c1,(fi),KINO_A401EG3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060068
+紀乃
+「ほい、ありがとさん」
+$k
+
+// KANAME_A401NO4
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020094
+要
+「んでさあ、カニ鍋はいつやるのー？」
+$k
+
+// KINO_A401BS
+#ir
+#ip,c1,(fi),KINO_A401BS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060069
+紀乃
+「さーて、いつやろなあ？
+$nw,4000
+
+#ir
+#ip,c1,(fi),KINO_A401KD.png,(x),l,(s),80%
+#ig
+
+　ずず…」
+$k
+
+// SAKURAKO_A402NO
+
+#sp,vo,02000388
+桜子
+「そりゃ、お姉の居ない時じゃないの？」
+$k
+
+// KINO_A401NS
+#ir
+#ip,c1,(fi),KINO_A401NS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060070
+紀乃
+「せやな」
+$k
+
+// KANAME_A401IK
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020095
+要
+「えー、なんでよー？
+　大事な家族を除け者にするのっ？」
+$k
+
+// SAKURAKO_A401NS
+
+#sp,vo,02000389
+桜子
+「マンション暮らしなんだから、
+　一人でたらふく食べれば？」
+$k
+
+// KANAME_A401FK5
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01FK5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020096
+要
+「いやいや、みんなで食べるからこそ鍋なのよ？
+$nw,3400
+
+#ir
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),r,(s),80%
+#ig
+
+// 	CS_( RIGHT, CENTER );
+
+　ねー、優くーん？」
+$k
+
+優
+「えーっと……俺もカニは好きなんで、
+　分け前が減るのはちょっと…」
+$k
+
+// 	ShakeStand( CENTER, FAST, SHAKE_RIGHT, 5 );
+
+// KANAME_A401OD5
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020097
+要
+「ああっ！　うらぎりものっ！？」
+$k
+
+&empty
+思わず、いつぞやの松茸が頭をよぎってしまった。
+$k
+
+// SAKURAKO_A401NO
+
+#sp,vo,02000390
+桜子
+「お姉より上なんだ。さすがは生きたパッケージね」
+$k
+
+// KINO_A401NO2
+#ir
+#ip,c1,(fi),KINO_A401NO2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060071
+紀乃
+「ところで…」
+$k
+
+// KANAME_A403GN3
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03GN3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020098
+要
+「いいわよいいわよ、こうなりゃやけ食いだわっ！」
+$k
+
+// KINO_A401KD2
+#ir
+#ip,c1,(fi),KINO_A401KD2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060072
+紀乃
+「なあ、要？」
+$k
+
+// KANAME_A401FK3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01FK3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020099
+要
+「ほむほむ、ん゛…
+$nw,1800
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO5.png,(x),r,(s),80%
+#ig
+
+　あによーお婆ちゃん」
+$k
+
+// 	BGMStop();
+
+#ss,bgm,(dr),1000
+
+// KINO_A401MJ2
+#ir
+#ip,c1,(fi),KINO_A401MJ2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060073
+紀乃
+「あんた、妊娠してるってホンマか？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がしゃん。" );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2,(sync),NO
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KU4.png,(x),r,(s),80%
+#ig,(se),W_Dish01
+
+#sp,bgm,BGM_COMICAL1
+
+// 	ShakeStand( CENTER, FAST, SHAKE_DOWN, 20, FAST, 1 );
+// 	ShakeStand( CENTER,   10, SHAKE_DOWN,  0,    0, 1 );
+// 	ShakeStand( CENTER, FAST, SHAKE_DOWN, 20, FAST, 1 );
+// 	ShakeStand( CENTER,   10, SHAKE_DOWN,  0,    0, 1 );
+// 	ShakeStand( CENTER, FAST, SHAKE_DOWN, 10, FAST, 1 );
+
+// KANAME_A401KU4
+
+#sp,vo,02020100
+要
+「けっほ、けほけほっ！
+　けへっ……ピョン酢が気管に゛っ！」
+$k
+
+優
+「あわわ、要さん大丈夫ですか！？」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,02000391
+桜子
+「あーあー布巾布巾…」
+$k
+
+// YUKIHA_0401KT
+
+#sp,vo,02050037
+雪華
+「どうしたのー？」
+$k
+
+// MII_0401KY2
+
+#sp,vo,02030200
+みい
+「……粗相ですか？」
+#mfuri,　　　　　　　そそう
+
+$k
+
+優
+「いや、なんでもないよ雪華ちゃん。
+　要さんが、むせただけだからっ！」
+$k
+
+// YUKIHA_0401KM4
+
+#sp,vo,02050038
+雪華
+「お姉ちゃん大丈夫ー？」
+$k
+
+// KANAME_A401KU2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KU2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020101
+要
+「ら゛いじょっ……
+$nw,1000
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KU5.png,(x),r,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),3
+#ip,c3,(y+),20
+#ig
+
+　けふけふっ」
+
+$k
+
+
+// 	ShakeStand( CENTER, FAST, SHAKE_DOWN, 20, FAST, 1 );
+// 	ShakeStand( CENTER,   10, SHAKE_DOWN,  0,    0, 1 );
+// 	ShakeStand( CENTER, FAST, SHAKE_DOWN, 15, FAST, 1 );
+
+// SAKURAKO_A403KT
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02000392
+桜子
+「大丈夫よー？　大したことないからー」
+$k
+
+// KANAME_A401KU4
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KU4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020102
+要
+「けほっ……はあ…はいいっ！？
+$nw,2400
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD5.png,(x),r,(s),80%
+#ig
+
+　どこからそんなデマがーっ？」
+$k
+
+// KINO_A401MJ
+#ir
+#ip,c1,(fi),KINO_A401MJ.png,(x),l,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,02060074
+紀乃
+「デマなんか？」
+$k
+
+// KANAME_A401IK2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01IK2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020103
+要
+「あったりま
+$nw,700
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01US4.png,(x),r,(s),80%
+#ig
+
+#madd,…………
+$nw,1800
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01IK2.png,(x),r,(s),80%
+#ig
+
+
+#madd,まえじゃないっ！」
+
+$k
+
+// KINO_A401BS
+#ir
+#ip,c1,(fi),KINO_A401BS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060075
+紀乃
+「ずいぶん間ーあったな？」
+$k
+
+&empty
+あー、この展開、なんか既視感が……。
+$k
+
+// KANAME_A401OD5
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020104
+要
+「おっ、お婆ちゃーんっ！？」
+$k
+
+優
+「婆さんさあ、そういうの時と場所を考えよーぜ？」
+$k
+
+&empty
+雪華ちゃんには聞かせたくないし。
+……要さんの反応は可愛いけど。
+$k
+
+// SAKURAKO_A401AK
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),l,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,02000393
+桜子
+「いや、お婆ちゃん、端っから信じてないから。
+　どうせ食べてるタイミング狙ってたのよ」
+$k
+
+// KINO_A401EG
+#ir
+#ip,c1,(fi),KINO_A401EG.png,(x),l,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,02060076
+紀乃
+「ひゃひゃひゃひゃ！」
+$k
+
+優
+「ひでえ婆さんだな…」
+$k
+
+// SAKURAKO_A403NO2
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO2.png,(x),l,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,02000394
+桜子
+「どうせ出所は、あの社長でしょ？」
+$k
+
+優
+「だろうなあ…」
+$k
+
+// KANAME_A401IK3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01IK3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020105
+要
+「うーっ、
+$nw,900
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01IK2.png,(x),r,(s),80%
+#ig
+
+　いいもん…もう帰るぅっ！
+$nw,1500
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01FK5.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+　ごちそうさまでしたっ！」
+
+$k
+
+// 	MoveStand( CENTER, 10, 0, 10, 0, 1 );
+
+優
+「えっ、もうですか？」
+$k
+
+// KINO_A401NS
+#ir
+#ip,c1,(fi),KINO_A401NS.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02060077
+紀乃
+「なんや、怒ったんかい？」
+$k
+
+// KANAME_0401IK
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020106
+要
+「違うわよぉっ！
+　明日は休日出社しないといけないのっ！」
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000395
+桜子
+「お姉、タルト食べていかないの？」
+$k
+
+// KANAME_0401KM
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020107
+要
+「う……
+$nw,1200
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD4.png,(x),c,(s),60%
+#ig
+
+　いいもんいいもんっ、
+　一人でカニ鍋食べてやるんだからーっ！」
+$k
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c3,(x),l0,(al),0%
+#ig
+
+// SAKURAKO_A401NS
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000396
+桜子
+「……お姉が中途退席なんてめずらしいわねえ？」
+$k
+
+// KINO_A401BS3
+#ir
+#ip,c1,(fi),KINO_A401BS3.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02060078
+紀乃
+「見栄やろ、拗ねたな……
+#mfuri,　　　　　　　　　　　　 す
+$nw,3600
+
+#ir
+#ip,c1,(fi),KINO_A401EG.png,(x),l2,(s),60%
+#ig
+
+　ひゃっひゃっ！」
+
+$k
+
+優
+「……婆さん、その笑い方怖いんだが」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#hide
+
+// 	//    田坂注：チャイムを鳴らしており、後で扉を開けて入ってくる描写がある為
+// 	//            『玄関前：夜』に変更
+
+// 	SV( BG_TD_GENKANMAE03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKANMAE03A.jpg,(s),100%
+#ig
+
+#sp,se,W_InterHon01
+
+
+#next,02common02-3_01

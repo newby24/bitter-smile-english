@@ -1,0 +1,702 @@
+﻿// 既読フラグ
+#read_flag,138
+
+// セーブタイトル
+#flag,save_title,みい　第７話,0,0
+
+// みい好感度＋１。
+#flag,per,3,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_COUNTERURA03B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA03C.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第７話　夜食べる
+$k
+#note,erase
+
+#sp,se,S_Door05o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA03B.jpg,(s),100%
+#ig
+
+#show
+
+優
+「…ない」
+$k
+
+&empty
+開いた冷蔵庫の中に、
+俺が求める食料の影は見当たらなかった。
+$k
+
+#sp,se,S_Door05c
+
+// 	SV( BG_SJ_COUNTERURA03C );
+
+#ir
+#ip,bg,(fi),BG_SJ_COUNTERURA03C.jpg,(s),100%
+#ig
+
+優
+「腹減ったんだけどなあ…」
+$k
+
+#sp,bgm,BGM_SHIZUKA
+
+&empty
+時刻は日が変わって少し。
+$k
+
+&empty
+こんな時間に空腹を意識してたからか、
+おさまりがつかなくなっていた。
+$k
+
+&empty
+しかし、頼みの綱の冷蔵庫は空っぽ。
+だからって千寿の食材に手が出せるわけない。
+$k
+
+優
+「しゃあない、がまんするしかないか」
+$k
+
+&empty
+………。
+$k
+
+#sp,se,S_Door05o
+
+// 	SV( BG_SJ_COUNTERURA03B );
+
+#ir
+#ip,bg,(fi),BG_SJ_COUNTERURA03B.jpg,(s),100%
+#ig
+
+優
+「あるわけないよな」
+$k
+
+&empty
+フェイントをかけたところで
+冷蔵庫の中身が変わるわけないけどな。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SetSubTitle();		//章タイトル表示
+//	SetSubTitleEx( 1 );
+// 	SV( BG_TD_KITCHEN03A );
+
+#sp,bgm,BGM_MII
+
+// 	SS( CENTER, MII_0503AD3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_KITCHEN03A.jpg,(s),100%
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),220,(al),0%
+#ig
+
+#show
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+// MII_0503AD3
+#sp,vo,05030356
+みい
+「で、結局我慢できなかったんですか」
+$k
+
+優
+「育ち盛りをなめてました」
+$k
+
+&empty
+切ないくらいぎゅ～ってなるんだもん、俺の胃袋。
+$k
+
+// MII_0503KM4
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03KM4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030357
+みい
+「こんな時間に何事かと思いましたら」
+$k
+
+優
+「夜分にすまないねえ」
+$k
+
+&empty
+コンビニに行く前に、
+部屋の明かりに気づいてメールを送ってみたら、
+みいちゃんが玄関を開けてくれた。
+$k
+
+&empty
+正直、全然期待してなかっただけに驚いたけど。
+$k
+
+// MII_0503EG
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030358
+みい
+「それで、何を作ってくださるんでしょう」
+$k
+
+優
+「あれ？　いま時空が捻じ曲がった？」
+$k
+
+&empty
+それとも俺の耳が悪くなったか？
+$k
+
+// MII_0503AD
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03AD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030359
+みい
+「私もお腹が減りました」
+$k
+
+優
+「それで？」
+$k
+
+// MII_0503NO
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030360
+みい
+「貢がれるばかりでなく、
+　たまには腕を振るわれても良いのではと」
+$k
+
+優
+「貢がれてたっけ俺？」
+$k
+
+&empty
+としても、相手は主に婆さんでみいちゃんじゃない。
+$k
+
+&empty
+…それはそれで悲しい認識だが。
+$k
+
+優
+「みいちゃんが何か作ってくれるかと
+　思ったんだけどなあ」
+$k
+
+// MII_0503FK
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030361
+みい
+「夜中にメール一本で呼び出される
+　都合のいいだけの女にされたくありませんから、私」
+$k
+
+優
+「なんでだろう…急に
+　自分が酷い女たらしに思えてきたよ…」
+$k
+
+// MII_0503AD3
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030362
+みい
+「そうでしょう？　私としても
+　お兄様をそんな人間にするわけにはいきませんから。
+　というわけで、調理の方はお兄様にお譲りします」
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　ゆず
+
+$k
+
+優
+「カップ麺とか恵んでくれるだけで
+　良かったんだけどね」
+$k
+
+// MII_0503KM
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030363
+みい
+「まあ、空腹を満たすだけならそれでもいいですけど、
+　それだとあまり健康的とは言えませんねえ」
+$k
+
+// MII_0502NO
+#ir
+#ip,c1,(fi),MII_A502.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030364
+みい
+「聞くところによると、以前は雪華さんのために
+　料理をされたこともあったとか？」
+$k
+
+優
+「まあね。っても大したもんは作れんけど」
+$k
+
+// MII_0503EG
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030365
+みい
+「何ができるか興味深いですね」
+$k
+
+&empty
+そんなに俺の作る料理が食いたいのか？
+$k
+
+優
+「まあ、いいや。
+　んじゃ、みいちゃんのためにいっちょ
+　腕を振るってみるか」
+$k
+
+// MII_0503NO2
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030366
+みい
+「お手伝いは必要ですか？」
+$k
+
+優
+「いや、みいちゃんは
+　そっちで待っててもらっていいよ」
+$k
+
+// MII_0503EG4
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030367
+みい
+「では、期待に胸を膨らませておきますね」
+$k
+
+#sp,se,S_Poyon01
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),3
+#ip,c1,(y+),10
+#ig
+
+#wait,500
+
+// 	ShakeStand( CENTER, NORMAL, SHAKE_LEFT, 6, 10 );
+
+優
+「…とりあえずそこでリアルに寄せて上げるのは
+　やめてもらえるかな」
+$k
+
+&empty
+料理に集中できないからさ。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03E );
+
+#sp,bgm,BGM_YASURAGI
+
+// 	SS( CENTER, MII_A503KD );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#show
+
+優
+「どうぞ」
+$k
+
+// MII_A503KD
+#sp,vo,05030368
+みい
+「おじや…ですね」
+$k
+
+優
+「夜中だから炒った焼いたは音がね。
+　これなら消化もいいし」
+$k
+
+// MII_A503IK2
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030369
+みい
+「なにか焦げ臭いような」
+$k
+
+優
+「あー、底の方ちょっと焦がしちゃったかな。
+　でも焦げ目の部分っておいしいと思わない？」
+$k
+
+// MII_A503KM
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030370
+みい
+「ほどよく焦げがあるのはいいですが、
+　焦げ臭いのはどうなんでしょう」
+$k
+
+優
+「土鍋じゃなかったからなぁ」
+$k
+
+// MII_A503NO2
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030371
+みい
+「具材は…卵と刻みネギだけですか」
+$k
+
+優
+「あんま時間かけてもなんだから、お手軽にね」
+$k
+
+// MII_A503SN
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03SN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030372
+みい
+「それって手抜きですよね？」
+$k
+
+優
+「あ、でも味付けはちょっとこだわってんだぞ。
+　ポイントはあとから垂らすこのラー油で」
+$k
+
+// MII_A503KB
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030373
+みい
+「私、辛いのはあまり……お兄様は悪食ですね…」
+$k
+
+優
+「大丈夫大丈夫、これそんな辛くないからさ。
+　むしろ結構多めに入れた方が…」
+$k
+
+#ss,bgm
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+#sp,vo,05000002
+？？？
+#mstyle,(co),桜子
+「なんだ…結局みいが入れてあげたんだ」
+$k
+
+// 	SS( CENTER, MII_A503KD2 );
+
+優
+「お？」
+$k
+
+// 	SS( CENTER, SAKURAKO_0501AK2 );
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01AK2.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#sp,bgm,BGM_SAKURAKO
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ig
+
+// 	CFI( FAST );
+// 特殊な画面変更。暫定的に。
+
+// MII_0501KY2
+
+#sp,vo,05030374
+みい
+「姉上？」
+$k
+
+//	SetIconTameiki( CENTER );
+// SAKURAKO_0501AK2
+
+#sp,vo,05000003
+桜子
+「こいつ甘やかしても、ろくなことないわよ、みい」
+$k
+
+優
+「うるせーな。みいちゃんはお前とは違うんだよ」
+$k
+
+//	SS( LEFTOUT, MII_0501OD );
+//	CS_( CENTER, RIGHTOUT );
+//	CS( LEFTOUT, CENTER );
+// MII_0501OD
+#ir
+#ip,c1,(fi),MII_A501.png,(psi),MII_An01OD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030375
+みい
+「あの…姉上…」
+$k
+
+//	SS( RIGHTOUT, SAKURAKO_0501NO );
+//	CS_( CENTER, LEFTOUT );
+//	CS( RIGHTOUT, CENTER );
+
+// SAKURAKO_0501NO
+#ir
+#ip,c3,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000004
+桜子
+「ん、どうかした？」
+$k
+
+//	SS( LEFTOUT, MII_0501OD2 );
+//	CS_( CENTER, RIGHTOUT );
+//	CS( LEFTOUT, CENTER );
+// MII_0501OD2
+#ir
+#ip,c1,(fi),MII_A501.png,(psi),MII_An01OD2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030376
+みい
+「いえ…姉上、こんな時間にウチにお兄様がいるのに、
+　驚かれないんですね」
+$k
+
+//	SS( RIGHTOUT, SAKURAKO_0501AK2 );
+//	CS_( CENTER, LEFTOUT );
+//	CS( RIGHTOUT, CENTER );
+// SAKURAKO_0501AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000005
+桜子
+「だって、お腹減ったってメール来たんでしょ？
+　あたしのとこにも来たし」
+$k
+
+//	SS( LEFTOUT, MII_0501KD2 );
+//	CS_( CENTER, RIGHTOUT );
+//	CS( LEFTOUT, CENTER );
+//	SetIconHirameki( CENTER );
+// MII_0501KD2
+#ir
+#ip,c1,(fi),MII_A501.png,(psi),MII_An01KD2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030377
+みい
+「え…」
+$k
+
+優
+「電気ついてたから。
+　なんだかんだでこいつもお節介だし、
+　作ってくれるんじゃないかなー、と…」
+$k
+
+// MII_0501NI
+#ir
+#ip,c1,(fi),MII_A501.png,(psi),MII_An01NI.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030378
+みい
+「………ああ」
+$k
+
+優
+「みごとにシカトされたけどな」
+$k
+
+//	SS( RIGHTOUT, SAKURAKO_0502NR );
+//	CS_( CENTER, LEFTOUT );
+//	CS( RIGHTOUT, CENTER );
+//	SetIconIkari( CENTER );
+// SAKURAKO_0502NR
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02NR.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000006
+桜子
+「当たり前でしょ。
+　こっちだって勉強忙しいんだから」
+$k
+
+優
+「どうせ、お前も腹減って降りてきたんだろ？」
+$k
+
+// SAKURAKO_0501AZ
+#ir
+#ip,c3,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01AZ.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000007
+桜子
+「今はね。さっきとは違うのよ」
+$k
+
+優
+「ち、この寒い中、あやうくコンビニまで
+　行くところだったんだぞ？」
+$k
+
+// SAKURAKO_0502IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02IK7.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000008
+桜子
+「行きゃいいじゃない、それくらい。
+　目も覚めてちょうどいいでしょ？」
+$k
+
+//	SS( LEFTOUT, MII_0501NI2 );
+//	CS_( CENTER, RIGHTOUT );
+//	CS( LEFTOUT, CENTER );
+//	SetIconHirameki( CENTER );
+// MII_0501NI2
+#ir
+#ip,c1,(fi),MII_A501.png,(psi),MII_An01NI2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030379
+みい
+「それで私のところにメールしてきたわけですか」
+$k
+
+//	SS( RIGHTOUT, SAKURAKO_0501AK2 );
+//	CS_( CENTER, LEFTOUT );
+//	CS( RIGHTOUT, CENTER );
+//	SetIconIkari( CENTER );
+// SAKURAKO_0501AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000009
+桜子
+「いい迷惑よね、みいも」
+$k
+
+//	SS( LEFTOUT, MII_0502SP );
+//	CS_( CENTER, RIGHTOUT );
+//	CS( LEFTOUT, CENTER );
+//	SetIconHirameki( CENTER );
+// MII_0502SP
+#ir
+#ip,c1,(fi),MII_A502.png,(psi),MII_An02SP.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030380
+みい
+「いえ、私は別に構いませんが」
+$k
+
+
+#next,05mii07_01

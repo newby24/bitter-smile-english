@@ -1,0 +1,764 @@
+﻿// 既読フラグ
+#read_flag,76
+
+#sp,bgm,BGM_CHISEKA
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01AK.png,(x),c,(s),80%
+#ig
+
+&empty
+そして走るのをやめ、
+額に手をあてて苦しんでいる。
+$k
+
+// 	SS_( CENTER, CHISEKA_A801AK );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「お、おい急に止まると体に悪いぞ？」
+$k
+
+// 	MoveStand( CENTER, 100, 0, 0, 1 );
+// 	MoveStand( CENTER,  20, 0, 5, 1 );
+// 	MoveStand( CENTER,  20, 0, 5, 1 );
+// 	MoveStand( CENTER,  20, 0, 0, 1 );
+
+
+// CHISEKA_A801AK
+#sp,vo,02040185
+知世翔
+「………はあ、
+$nw,3600
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KM3.png,(x),c,(s),80%
+#ig
+
+　…これは呆れてるんですっ！」
+
+$k
+
+// 	MoveStand( CENTER );
+
+優
+「ええっ？」
+$k
+
+&empty
+また俺がなにか？
+$k
+
+優
+「って、なんで呆れてんの？」
+$k
+
+// CHISEKA_A801TR2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040186
+知世翔
+「ちょっとでも見直した私が馬鹿みたい…」
+#msmall
+$k
+
+優
+「え、見直したって………いつ？」
+$k
+
+&empty
+ずっと怒ってんじゃん、有河は。
+$k
+
+// CHISEKA_A801IK
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040187
+知世翔
+「………」
+$k
+
+優
+「……えっと？」
+#meffect,flow,5
+$k
+
+&empty
+すっげー睨まれてますが…。
+$k
+
+// CHISEKA_A801IK2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),80%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ikari.png,(x),*520,(y),*80
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op1,(s),120%
+#ig
+
+#sp,vo,02040188
+知世翔
+「なにをこんな所でちんたらやってるんですか。
+　はじめの勢いはなんだったんですか！？」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+優
+「……あ、マラソンの事？」
+$k
+
+// 	SetActionPyon( CENTER );
+
+// CHISEKA_A801IK
+#ir,(dr),0
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-20
+#ig
+
+#sp,vo,02040189
+知世翔
+「それ以外になにがあるんですか。
+　速い三年の男子なら、もうそろそろトップは
+　ゴールする頃ですよ？」
+$k
+
+// 	DelAction( CENTER );
+
+優
+「……でもこれが俺のペースなんだが。
+$nw,1000
+
+　しかし、ちんたら…って」
+$k
+
+&empty
+こいつの不機嫌はよくわからんな、
+何をそんなに怒っている？
+$k
+
+// CHISEKA_A801AK
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040190
+知世翔
+「金魚のフンですら一生懸命やってるってのに」
+$k
+
+優
+「金魚のフン………
+#meffect,flow,5
+
+$nw,1000
+　あ、もしかして小林？　お前もひどいなー」
+
+$k
+
+&empty
+もしかして、スタートの俺達のやりとり聞いてたとか？
+いや、でもな……あの距離でそれはないだろうし。
+$k
+
+// CHISEKA_A801KB2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040191
+知世翔
+「だらだら走ってるのが格好良いとか
+　思ってるんですかね。
+$nw,4200
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+　一体なんの余裕ですかー？」
+$k
+
+優
+「いやいや、そんな事は微塵も思ってないけど。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　みじん
+$nw,1000
+
+　………有河、お前まじめだなあ」
+
+$k
+
+// 	SetActionPyon( CENTER );
+
+// CHISEKA_A801AS
+#ir,(dr),0
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01AS.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,02040192
+知世翔
+「なっ！
+$nw,900
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+　…そういう事じゃ……
+$nw,2000
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),80%
+#ig
+
+#madd,ぐぐうっ！」
+
+$k
+
+// 	DelAction( CENTER );
+// 	SetActionBuru( CENTER );
+// 	DelAction( CENTER );
+
+&empty
+やべ、なんかまた怒らせたかも？
+$k
+
+// CHISEKA_A801IK
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040193
+知世翔
+「やっぱりあなたとは仲良くできないみたいですっ。
+$nw,3400
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),80%
+#ig
+
+　大嫌いです………
+$nw,1800
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KM3.png,(x),c,(s),80%
+#ig
+
+　うんこたれ」
+#msmall
+
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ちょっ、有河！？」
+$k
+
+&empty
+まさか後輩にまで、うんこタレ言われるとは…。
+$k
+
+// CHISEKA_A801KB2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040194
+知世翔
+「少しはいいところ、みんなに見せようとか
+　思わないんですかねー？
+$nw,4900
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),80%
+#ig
+
+　………うんこたれ野郎」
+$k
+
+優
+「ぐぬうっ……わかったよ！
+　走ればいいんだろ、まじめにさー？」
+$k
+
+// CHISEKA_A801KB
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040195
+知世翔
+「いえ、もう結構です。
+　生き方なんて人それぞれですしねー？」
+$k
+
+優
+「おいおい、走るって言ってんのに」
+$k
+
+// CHISEKA_A801KB2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040196
+知世翔
+「もう私行きますから。
+$nw,2800
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KB.png,(x),c,(s),80%
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+　おくつろぎの所失礼しました。
+//$nw,6000
+$nw,2200
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01NR.png,(x),c,(s),80%
+#ig
+
+　………うんこ先輩」
+
+$k
+
+// 	DelAction( CENTER );
+
+#sp,env,S_Dash10#
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),l0,(al),0
+#ig
+
+優
+「ぐぐぐぐ…」
+$k
+
+&empty
+こいつさっきから、人をうんこうんこと…。
+$k
+
+//#sp,env,S_Dash10#
+
+// CHISEKA_A801IK
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040197
+知世翔
+「やだっ、あなた、ついて来ないでくれますかー？」
+$k
+
+優
+「うるせー。俺の走るコースもこっちなんだよ！」
+$k
+
+// CHISEKA_A801IK2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040198
+知世翔
+「別に無理して走って欲しくないんですけどっ！」
+$k
+
+優
+「ちっげーよ！　休憩終わっただけだよ！
+　有河に言われたから走る訳じゃねーしっ！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"だだっ。" );
+
+// 	SNLP( 2, "S_Dash03i" );
+
+// CHISEKA_A801AS
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040199
+知世翔
+「ちょっとー、同じスピードで走らないでくれますか？
+$nw,4600
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KM3.png,(x),c,(s),80%
+#ig
+
+　やだもう邪魔なんですけどっ！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"だだだだだ。" );
+// 	SNLP( 2, "S_Dash03i", 200 );
+
+優
+「うるせー、今から俺は
+　ゴールに向けてここから全力でだなあっ…」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+こ、こいつ意外とやるな！
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"だだだだだだだだだだ！" );
+// 	SNLP( 2, "S_Dash10#", 400 );
+
+// CHISEKA_A801OD3
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040200
+知世翔
+「あ、バカっ！　前見て走りなさ…」
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「先輩に向かってバカとはなん…」
+$k
+
+優
+「うわっ！」
+#mlarge
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ごっち@g－@g－@g－@g－んっ！！" );
+// 	Zoom(    0, 100, 100, 445, 100 );
+// 	Zoom( FAST, 750, 750, 445, 100 );
+
+// 	SEStop( 0 );
+// 	SEStop( 1 );
+// 	SEStop( 2 );
+// 	BGMStop();
+
+// 	FL( FAST, 100 );
+
+#ss,env,(dr),0
+#ss,bgm,(dr),0
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(fi),white.jpg
+#ig,(se),S_Gan02
+
+優
+「べがっ！？」
+#mlarge
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"どん。" );
+// 	SV( VISUAL_WHITE );
+
+// 	Fade( NORMAL, 0 );
+
+#sp,se,S_Dotadotan01
+
+#ir,(dr),500
+#ip,bg,(fi),black.jpg
+#ig
+
+// 揺れ。パラメータは適宜。
+
+#sp,vo,02040201
+知世翔
+「きゃあっ！？」
+$k
+
+// 	Fade();
+
+// 	SV( BG_MT_JINJYAMAE01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE01A.jpg,(s),100%
+#ig
+
+優
+「う゛―――～～っ……っ痛ててっ。
+#meffect,flow,5
+$nw,2000
+
+　くっそう、もろに打った…」
+
+$k
+
+// 追加。
+&empty
+後輩との競り合いに夢中になり、
+脇の電柱に思いっ切りぶつかってしまった。
+なんて古典的なんだろうか、俺は。
+$k
+
+//&empty
+//気づくのが遅くて避けきれなかった……電柱。
+//$nw,1000
+
+//なんて古典的なんだろうか、俺は。
+//$k
+
+// CHISEKA_A801IK4
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040202
+知世翔
+「いったーい………
+$nw,2700
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+　なにやってんのよっ！
+　このバカうんこ！」
+$k
+
+優
+「うう、す、すまん………ほら」
+#meffect,flow,5
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱん。" );
+// 	Shake( FASTER, SHAKE_LEFT, 50, FASTER * 2 );
+
+#sp,se,S_Pashi01
+
+// CHISEKA_A801IK2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040203
+知世翔
+「いいですっ、一人で立てますからっ！」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+差し出した手を払われた。
+まあしようがないか、今のはよそ見してた俺が悪いし。
+$k
+
+&empty
+………でもさあ、バカうんこはねえだろ。
+一度ならず、四度までも！
+$k
+
+// 	SS_( CENTER, CHISEKA_A801KB, MOVE_DOWN, SLOW );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KB.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c1,(y+),-100,(al),100
+#ig
+
+// CHISEKA_A801KB
+#sp,vo,02040204
+知世翔
+「……
+$nw,1300
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KM.png,(x),c,(s),60%
+#ig
+
+#madd,っ！？
+
+//$nw,4300
+$nw,3000
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+　………ふん！」
+
+$k
+
+// 	SetActionBuru( CENTER );
+// 	DelAction( CENTER );
+
+優
+「…おい？」
+$k
+
+&empty
+今、ちょっと…。
+$k
+
+// CHISEKA_A801IK
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040205
+知世翔
+「なにしてるんですか。早く走ったらどうですー？」
+$k
+
+優
+「お前、大丈夫か。
+　……どっか痛めたか？」
+$k
+
+// CHISEKA_A801IK2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040206
+知世翔
+「はあ！？
+　なんともありませんけどお？
+$nw,4600
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KB.png,(x),c,(s),60%
+#ig
+
+
+　この通りぴんぴんしてますから、ご心配なくー！」
+$k
+
+// 	ShakeStand( CENTER, 30, SHAKE_UP | SPEED_DOWN, 50, 30*2 );
+// 	ShakeStand( CENTER, NORMAL, SHAKE_RANDOM, 0, 0 );
+
+// 	SS_( CENTER, CHISEKA_A801IK4 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1,(sync),NO
+#ip,c1,(y+),-10
+#ig
+
+#wait,200
+
+#ils
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),60%
+#ig
+
+&empty
+言ってぴょんと跳ねつつ、有河がまた怖い顔をする。
+$k
+
+// 	SS_( CENTER, CHISEKA_A801IK );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「うおうっ、…そ、そうか。
+$nw,1000
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+　ってだから睨むなよ？」
+$k
+
+// CHISEKA_A801IK
+#sp,vo,02040207
+知世翔
+「ほら、早く行ってくださいよっ！」
+$k
+
+優
+「有河は行かないのか？」
+$k
+
+// CHISEKA_A801IK2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040208
+知世翔
+「あなたと一緒に走りたくないだけですから。
+$nw,3400
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01KB.png,(x),c,(s),80%
+#ig
+
+　またぶつかるの嫌ですしね！」
+$k
+
+優
+「…う。だよな」
+#meffect,flow,5
+$k
+
+// CHISEKA_A801IK
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040209
+知世翔
+「それよりゴールまで、
+　全力で走るとか言ってませんでしたっけ？
+$nw,4200
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01AK.png,(x),c,(s),80%
+#ig
+
+　ほら、もうみんな居なくなってますよ－？」
+$k
+
+優
+「ちっ、わかったよ。
+　行けばいいんだろ？　行くよ。はいはいごめんねー」
+$k
+
+&empty
+しっかし、嫌われたもんだなー俺も。
+$k
+
+#next,02common02-4_03

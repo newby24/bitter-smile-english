@@ -1,0 +1,875 @@
+﻿// 既読フラグ
+#read_flag,324
+
+優
+「最後の教科の、ラストの問題、正解は４だよな？」
+$k
+
+// SAKURAKO_0402KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001229
+桜子
+「えーっと……
+$nw,2000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+　２じゃなかった？」
+$k
+
+// MEGUMI_0401KD
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03070243
+めぐみ
+「うん、私も２って書いたよぉ？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「うっわぁーっ！！」
+#mlarge
+$k
+
+&empty
+やっべ、俺絶対にやべぇっ！
+$k
+
+// 	SS( CENTER, SAKURAKO_0402AK );
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001230
+桜子
+「もうやーねぇ、こんなところで大声出して」
+$k
+
+優
+「まずいまずい、俺だけっ、
+　もの凄く不安になってきたぞ！？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_SAKURAKO03A );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_SAKURAKO03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402NO4
+
+#sp,vo,03001231
+桜子
+「ひとまずこれで受験も終わり……っと」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001232
+桜子
+「我ながら良くやったかなー」
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001233
+桜子
+「ん、よっし。
+$nw,2330
+
+　そんじゃ勉強道具はもう片付けて…」
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,W_Hikidashi01o
+
+// 	SV( BG_TD_SAKURAKO03C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_SAKURAKO03C.jpg,(s),100%
+#ig
+
+#show
+
+// SAKURAKO_0402NO
+
+#sp,vo,03001234
+桜子
+「片付けっ………
+$nw,2000
+
+　あれ、なんだろ？」
+$k
+
+// 	WaitSE( -1 );
+// SAKURAKO_0402NO
+
+#sp,vo,03001235
+桜子
+「引き出しの奥になんか引っ掛かって、
+$nw,3500
+
+　……なにこれ？」
+$k
+
+// SAKURAKO_0402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0402NO2
+#sp,vo,03001236
+桜子
+「たいそうなラッピングね。
+$nw,2500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+　フンフン………
+$nw,2510
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+　あ、この匂い…チョコ？」
+$k
+
+// SAKURAKO_0402NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001237
+桜子
+「ああ～、
+　もしかして受験を頑張った自分へのご褒美、とか？」
+$k
+
+#sp,se,S_Vinyl01
+
+// 	WaitSE( -1 );
+// SAKURAKO_0402NO5
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001238
+桜子
+「よし、食べてあげよう。
+$nw,2780
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+　ありがとうあたし！」
+$k
+
+// SAKURAKO_0402NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001239
+桜子
+「はむ……んんっ、
+$nw,3000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+　おっ！　これ、なかなか美味しいわね？」
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001240
+桜子
+「はむ、んぐ……
+$nw,2500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),60%
+#ig
+
+　ん？　まだ奥になんか…」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001241
+桜子
+「あ、小さい頃の写真かぁ…、
+$nw,3000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+　ははは、懐かしいもん引っ張りだしてきてんのね、
+　もう一人のあたしは……あむ…」
+$k
+
+// SAKURAKO_0401TR4
+#sp,vo,03001242
+桜子
+「優もあたしも、ちっちゃいなー……
+$nw,2270
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+　ん、ふう…」
+$k
+
+#sp,se,S_Paper08
+
+// 	WaitSE( -1 );
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001243
+桜子
+「ん、ご馳走様でした。
+　結構美味しいチョコだったなあ、
+　もっと食べたかったな………
+$nw,7510
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),60%
+#ig
+
+#madd,高かったのかな？」
+
+$k
+
+#sp,se,S_Knock03
+
+#wait,500
+
+// 	WaitSE( -1 );
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001244
+桜子
+「はーい、なーに？」
+$k
+
+#ir,(ef),off
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door01o
+
+// 	WaitSE( -1 );
+// 	SS( CENTER, MII_0403NO2, MOVE_STOP, NORMAL );
+// MII_0403NO2
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+#sp,vo,03030172
+みい
+「……なにやら一人で
+　甘い匂いをさせてるところ済みませんが」
+$k
+
+// SAKURAKO_0402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001245
+桜子
+「ごめん…
+$nw,990
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+　もう無いわよ？」
+$k
+
+// MII_0403NO
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030173
+みい
+「いえいえ、お気になさらずに。
+$nw,2500
+
+　ゴミをまとめてここに入れといて下さいね。
+　後でまた回収しに来ますので」
+$k
+
+// SAKURAKO_0402NO
+#sp,vo,03001246
+桜子
+「あー、うん」
+$k
+
+// MII_0403EG
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030174
+みい
+「どうせなら私も一緒に姉上と食べたかった、
+$nw,3300
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),l,(s),60%
+#ig
+
+　などとは思ってませんので…」
+$k
+
+// SAKURAKO_0403NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001247
+桜子
+「……みいもなんか、ひねくれたわねえ」
+$k
+
+// MII_0401KS
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01KS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030175
+みい
+「そんな事ないですよ」
+$k
+
+// MII_0403EG
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030176
+みい
+「それでは」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),0%
+#ig
+
+// SAKURAKO_0403NO
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001248
+桜子
+「あ、うん」
+$k
+
+#sp,se,S_Door01c
+
+#wait,500
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+// 	WaitSE( -1 );
+
+// SAKURAKO_0403NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001249
+桜子
+「………ん？」
+#meffect,flow,5
+$k
+
+#sp,se,S_Paper04
+
+// 	WaitSE( -1 );
+
+// SAKURAKO_0403KT
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001250
+桜子
+「これ……は…」
+#meffect,flow,5
+$k
+
+#sp,se,S_Vinyl01
+
+// 	WaitSE( -1 );
+
+
+// SAKURAKO_0402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001251
+桜子
+「これ、あたしの手書き……
+$nw,3490
+
+#madd,かな？
+$nw,1500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+　破けてて読めないけど…」
+$k
+
+// SAKURAKO_0402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001252
+桜子
+「このカードって、なん………
+$nw,2760
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+#madd,あっ」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001253
+桜子
+「もしかして、あのチョコって…」
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001254
+桜子
+「………あ、食べちゃった…」
+$k
+
+#hide
+
+#ss,bgm
+
+// 	SV( BG_TD_GAIKAN03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN03A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+優
+「うー……むにゃむにゃ…」
+$k
+
+#sp,se,S_Dash11i
+
+&empty
+………………
+$k
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+// 	WaitSE( -1 );
+
+#sp,se,S_Door08o
+
+// 	WaitSE( -1 );
+
+
+// SAKURAKO_0402IK3
+
+#sp,vo,03001255
+桜子
+「優っ！」
+#mlarge
+$k
+
+優
+「もう暗記は……頭によくな…」
+$k
+
+// SAKURAKO_0402IK7
+
+#sp,vo,03001256
+桜子
+「ほらおきて、優っ！」
+#mlarge
+$k
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,bg,(fi),BG_SJ_YU03N.jpg,(s),100%
+#ig,(se),S_Basa01
+
+// 	SV( BG_SJ_YU03N );
+// 	ShowFace();
+// 	RFI( RULE_DOWNUP|RULE_FLIP, FAST );
+// 	WaitSE( -1 );
+
+優
+「…………うおおっ！　さぶっ！？」
+#mlarge
+$k
+
+&empty
+なんだこの異様な寒さはっ。
+$k
+
+// 	SS( CENTER, SAKURAKO_A402IK3 );
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001257
+桜子
+「もう、いつまで寝てんのよっ？」
+$k
+
+優
+「うおおっなにすんだお前っ！
+　寒いって、俺を殺す気か！？」
+$k
+
+&empty
+桜子に、ムリヤリ毛布を引っぺがされていた。
+$k
+
+// SAKURAKO_A402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03001258
+桜子
+「雪っ！」
+#mlarge
+$k
+
+優
+「…はぁ？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402NO3
+#ir,(dr),0
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,03001259
+桜子
+「外、雪が積もってるの！
+　まだ全然足跡ないから、出ようよ。
+$nw,5400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+　探検しに行くわよ！」
+$k
+
+優
+「え、ちょっ……」
+$k
+
+// SAKURAKO_A402EG
+#sp,vo,03001260
+桜子
+「ほらほら、早く用意してっ。
+　コートだけでもいいからっ」
+$k
+
+優
+「はあぁ？　なんで？」
+$k
+
+// SAKURAKO_A402NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001261
+桜子
+「外で待ってるから、すぐに用意して来なさいよー？」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+#sp,se,S_Door03c
+
+// 	WaitSE( -1 );
+
+//#sp,se,S_Walk13o
+
+// 	WaitSE( -1 );
+
+&empty
+マジかよ…。
+$k
+
+優
+「……あ、ああ」
+#meffect,flow,5
+$k
+
+&empty
+雪かぁ……なるほど、だからこんなに寒いのか。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_GAIKAN01D );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01D.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402NO3
+
+#sp,vo,03001262
+桜子
+「優、おっそーい！」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Binta02
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+// 	RuleFlashIn( NORMAL, RULE_CIRCLE );
+// 	WaitSE( -1 );
+
+優
+「うおぶっ！」
+#mlarge
+$k
+
+&empty
+砕けた雪の塊が、俺の顔から落ちた。
+$k
+
+優
+「くっ、てめぇ～…」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402EG, MOVE_STOP, NORMAL );
+
+#sp,bgm,BGM_SAKURAKO
+
+// SAKURAKO_0402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001263
+桜子
+「あはははっ」
+$k
+
+&empty
+雪が降ったくらいでこんなにはしゃぐのか、
+こいつは昔からこういうとこ、変わらねえなぁ…。
+$k
+
+// SAKURAKO_0402NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+// ぴょん。パラメータは適宜。
+
+#sp,vo,03001264
+桜子
+「ほれほれ、来なさいよー、
+　あんたのへっぽこ玉、全部避けてあげるわよ～？」
+$k
+
+優
+「アホかっ…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001265
+桜子
+「ちょっと優、ノリ悪ーい」
+$k
+
+優
+「お前がはしゃぎすぎなんだよ。
+　あと近所迷惑な？」
+$k
+
+// SAKURAKO_0402EG
+#ir,(dr),0
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,03001266
+桜子
+「だって雪よ、雪っ！」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+真っ白の道に、足跡を付けていく桜子。
+そんな姿をぼんやりと見耽ってしまう俺。
+$k
+
+
+#next,03sakurako18_07

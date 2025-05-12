@@ -1,0 +1,807 @@
+﻿// 既読フラグ
+#read_flag,416
+
+// セーブタイトル
+#flag,save_title,要　第２１話,0,0
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ARIKAWAJIMUSYO02A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第２１話　初めてのお給料
+$k
+#note,erase
+
+#show
+
+優
+「お疲れさまでした！
+　お先に失礼しまーす！」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SV( BG_MT_TEIBO02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO02A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+３月って、春のイメージが強いくせに、
+けっこう普通にまだ寒い。
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「ひっくしゅんっ！」
+#mlarge
+$k
+
+優
+「うぅ～…花粉症うつされたかなぁ？」
+#meffect,flow,5
+$k
+
+&empty
+って、まあ当然そんなことはあるわけない。
+$k
+
+&empty
+どうやら、ちょっと風邪っぽい。
+$k
+
+&empty
+先生との、あの嘘デートの後、
+もう完全に仕事一筋という感じで働いてきたからな。
+$k
+
+&empty
+疲労がたまってたか、
+あるいは仕事に慣れて油断したところにきたか…。
+$k
+
+優
+「けど…今日はカイロよりも温かなものがある！」
+$k
+
+&empty
+それは、封筒に入った紙切れ。
+$k
+
+&empty
+そこには、ここ数週間の過酷な労働の対価が、
+６桁の数字に還元されて記されている。
+$k
+
+&empty
+これでも目標からすれば、
+まだ手が届かないんだけど…それも再考中だし。
+$k
+
+&empty
+とりあえずの使途を考えると、
+自然、浮き足立つというものだった。
+$k
+
+#ss,bgm
+
+#sp,vo,06040000
+？？？
+#mstyle,(co),知世翔
+「本当にやってたんだ」
+$k
+
+優
+「ん？」
+$k
+
+#sp,bgm,BGM_CHISEKA
+
+// 	SS_( CENTER, CHISEKA_0201NO2, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),60%
+#ig
+
+// CHISEKA_0201NO2
+#sp,vo,06040001
+知世翔
+「てっきり冗談だとばかり思っていました」
+$k
+
+&empty
+声をかけてきたのは、お久しぶりねの有河だった。
+$k
+
+優
+「おー久しぶりだな。学校帰りか？」
+$k
+
+// CHISEKA_0201KB
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040002
+知世翔
+「そちらはお仕事帰りのご様子で」
+$k
+
+優
+「…お嬢様とでも呼んだ方がいいか？」
+$k
+
+// CHISEKA_0201KB2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040003
+知世翔
+「そういう冗談は嫌いです」
+$k
+
+優
+「悪い」
+$k
+
+// CHISEKA_0201EG
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040004
+知世翔
+「大丈夫です、矢崎さんはもっと嫌いですから」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「全然大丈夫じゃない！？」
+#mlarge
+$k
+
+&empty
+マイナスをマイナスで打ち消す所業だった。
+$k
+
+// CHISEKA_0201NR
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040005
+知世翔
+「しかし意外と元気なようですね…
+$nw,2850
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KM3.png,(x),c,(s),60%
+#ig
+
+　ちっ」
+$k
+
+優
+「待て、今の舌打ちは無理やりだろ、下手だったし」
+$k
+
+// CHISEKA_0201IK
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040006
+知世翔
+「ほっといてくださいっ」
+$k
+
+優
+「まるで日本語英語のような発音だった」
+$k
+
+// CHISEKA_0201NR
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040007
+知世翔
+「最初、宮津橋先輩にお話をお聞きした時は、
+　なんの冗談かと思いましたけど」
+$k
+
+&empty
+追撃はスルーされた。
+$k
+
+優
+「ちっ…」
+$k
+
+// CHISEKA_0201IK
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ikari.png,(x),*520,(y),*100
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op1,(s),120%
+#ig
+
+#sp,vo,06040008
+知世翔
+「嫌味！？
+　自分は舌打ちうまくできるって嫌味ですかっ」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ie,op1
+#ig
+
+優
+「それは穿った解釈だ！」
+#mlarge
+$k
+
+&empty
+難儀な奴だ…。
+$k
+
+優
+「いや、それよりもありがとな。
+　バイト採用の話、有河が通してくれたんだろ」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+// CHISEKA_0201NR
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040009
+知世翔
+「私は宮津橋先輩に質問されて、
+　人手が必要かどうか聞いただけです。
+$nw,6340
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+　あなたに特別何かしたことなんてありません」
+$k
+
+優
+「それでもサンキュ。
+　あ、なんかおごってやろうか」
+$k
+
+// CHISEKA_0201IK
+#sp,vo,06040010
+知世翔
+「ですから理由がありませんと言ってるでしょっ」
+$k
+
+優
+「いや、けど、俺の給料日狙って、
+　出てきたんじゃないの？」
+$k
+
+//	SetIconExcl( CENTER );
+// CHISEKA_0201OD3
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040011
+知世翔
+「………っ！？
+$nw,2090
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AS.png,(x),c,(s),60%
+#ig
+
+　偶然です、偶然っ！
+　私はそんないやしんぼじゃありません！」
+$k
+
+優
+「いやしんぼって…」
+$k
+
+&empty
+素敵な言語センスだな、こいつ。
+$k
+
+// CHISEKA_0201IK
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040012
+知世翔
+「違います、ぜ～ったい違いますからね！」
+$k
+
+&empty
+そして念を押されれば押されるほどに、
+『そうじゃないんじゃ』と思ってしまう心理が…。
+$k
+
+&empty
+いや、有河の場合、本当に違うんだろうけど。
+$k
+
+// CHISEKA_0201NR
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040013
+知世翔
+「信じました？」
+$k
+
+優
+「信じた信じた。
+　あ、一番星見っけ」
+$k
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KM.png,(x),c,(s),60%
+#ig
+
+// CHISEKA_0201KM
+
+#sp,vo,06040014
+知世翔
+「話を聞けぇー！！！」
+#mlarge
+$k
+
+優
+「冗談だから。冗談、な？」
+$k
+
+// CHISEKA_0201IK
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040015
+知世翔
+「うぅ…なにその余裕の対応…？
+　ムカつく…」
+$k
+
+優
+「地が出ちゃってるぞ、おい」
+$k
+
+// CHISEKA_0201NR
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040016
+知世翔
+「なんでバイトなんかはじめたのよ…。
+　そんなにお金が大好きなの？」
+$k
+
+優
+「なんという身も蓋もない解釈…」
+#mfuri,　　　　　　　　　　　　　み　　ふた
+
+$k
+
+// CHISEKA_0201NR
+#sp,vo,06040017
+知世翔
+「答えたくないなら無理にとは言わないけど」
+$k
+
+優
+「いや…」
+$k
+
+&empty
+まあ別にいいか。
+$k
+
+優
+「普通に目標があったんだよ」
+$k
+
+//	SetIconQues( CENTER );
+// CHISEKA_0201NO2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040018
+知世翔
+「目標？
+　なんで過去形？」
+$k
+
+優
+「男として…っつ～か？」
+#meffect,flow,5
+$k
+
+優
+「でも色々と鑑みるに、今はまだ考え方そのものが、
+　甘すぎるのかと思わないでもなくてな」
+$k
+
+// CHISEKA_0201KB2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB2.png,(x),c,(s),60%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),520,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,06040019
+知世翔
+「はあ？」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+優
+「自分の行動全部が迂闊に思えて、
+　正しいのかどうか迷っているというか…」
+$k
+
+// CHISEKA_0201KB2
+#sp,vo,06040020
+知世翔
+「…曖昧すぎて全然わからないんですけど」
+$k
+
+優
+「わかられても困る」
+$k
+
+&empty
+俺でさえ、こんなに悩んでいるのに…。
+$k
+
+優
+「なら俺からも質問いいか」
+$k
+
+// CHISEKA_0201AK2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040021
+知世翔
+「ならって…
+$nw,2430
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AK.png,(x),c,(s),60%
+#ig
+
+　いえいいです、なんですか？」
+$k
+
+優
+「その…初めての給料で、女の人にプレゼント。
+　一般的にどんなのが喜ばれるかな」
+$k
+
+// CHISEKA_0201OD3
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040022
+知世翔
+「え？」
+$k
+
+優
+「またちょっと相手を怒らせちゃったみたいで」
+$k
+
+// CHISEKA_0201AS
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040023
+知世翔
+「なっ…！？」
+$k
+
+// CHISEKA_0201TR4
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR4.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,06040024
+知世翔
+「こ、ここここ困りますっ！
+　そそそそんなものをいただくわけには！？」
+$k
+
+優
+「…いや、有河にじゃないから」
+$k
+
+&empty
+愉快な勘違いをさせてしまった。
+$k
+
+#hide
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAMEMANSION03A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_KANAME03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAME03A.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,06021388
+要
+「へー、お給料出たんだ。
+　月中かぁ…ふむふむ」
+$k
+
+優
+「人の給料日の把握はいいですから」
+$k
+
+#sp,vo,06021389
+要
+「おめでと。
+　なんか、おかしいかもしんないけど」
+$k
+
+優
+「いや嬉しいです。
+　ありがとうございます」
+$k
+
+#sp,bgm,BGM_KANAME
+
+// 	SS( CENTER, KANAME_A902BS );
+
+// KANAME_A902BS
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02BS.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,06021390
+要
+「じゃあ祝杯」
+$k
+
+優
+「あ、ありがとうございます」
+$k
+
+&empty
+要さんが台所から
+カップを２つ持って戻ってくる。
+$k
+
+&empty
+…良かった。
+$k
+
+&empty
+もっと要さん怒ってるかと思ってたんだけど、
+いつもとあまり変わり無いみたいだ。
+$k
+
+&empty
+渡されたカップの中身は、熱々のコーヒー。
+$k
+
+&empty
+要さんがカップを掲げるので、俺も合わせる。
+$k
+
+優
+「音頭は？」
+$k
+
+// KANAME_A902NO
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021391
+要
+「優くんがわたしに会う時間を削って手に入れた、
+　日本銀行券の有用な使途を願って」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「げふんげふん！？」
+#mlarge
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+&empty
+お、怒ってない…よな？
+#meffect,flow,5
+$k
+
+// KANAME_A902EG
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,se,S_Kanpai01
+
+#sp,vo,06021392
+要
+「乾杯」
+$k
+
+&empty
+カップでカップをノックしたような、
+陶器の地味な音があがった。
+$k
+
+// KANAME_A901GB
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01GB.png,(x),c,(s),80%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+
+#sp,vo,06021393
+要
+「んく…
+$nw,660
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,んく…
+$nw,1000
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,んく…」
+
+$k
+
+優
+「ん……
+$nw,1000
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+#madd,熱っ！？」
+$k
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+// 	SS_( CENTER, KANAME_A901OD3 );
+// 立ち絵移動。パラメータは適宜。
+
+// KANAME_A901OD2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01OD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021394
+要
+「ちょ、ちょっと大丈夫…？
+　火傷してない？」
+$k
+
+優
+「だ、大丈夫です…」
+#meffect,flow,5
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+あまりに要さんが軽快に喉を鳴らしていたので、
+温めなのかと油断してしまった。
+$k
+
+&empty
+いや、さっきの要さんの言葉を誤魔化そうと、
+慌ててた部分もあったんだろうけど。
+$k
+
+
+#next,06kaname21_01

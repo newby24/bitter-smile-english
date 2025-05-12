@@ -1,0 +1,746 @@
+﻿// 既読フラグ
+#read_flag,149
+
+// セーブタイトル
+#flag,save_title,みい　第１１話,0,0
+
+// 	SV( BG_SJ_YU03B );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03B.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第１１話　試験前夜
+$k
+#note,erase
+
+#sp,se,S_FallStick01
+
+// 	WaitSE();
+
+#show
+
+優
+「ふう…こんなとこか……」
+$k
+
+// 	SV( BG_SJ_KAIDAN03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KAIDAN03A.jpg,(s),100%
+#ig
+
+// MII_0101NO
+
+#sp,vo,05030603
+？？？
+#mstyle,(co),みい
+「…すぅ」
+#msmall
+$k
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+// 	SV( BG_SJ_2FROKA03A );
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#sp,se,T_kisimu
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	Zoom( 50, 110, 110, 600, 300 );
+// 	WaitSE();
+// #sp,se,T_kisimu
+// 	Zoom( 50, 130, 130, 600, 300 );
+// 	WaitSE();
+// MII_0101NO
+
+#sp,vo,05030604
+？？？
+#mstyle,(co),みい
+「………」
+$k
+
+// MII_0101NO
+#sp,vo,05030605
+？？？
+#mstyle,(co),みい
+「ノックして、出てきたとこに渡す…」
+#msmall
+$k
+
+// MII_0101NO
+#sp,vo,05030606
+？？？
+#mstyle,(co),みい
+「………ふぅ」
+$k
+
+// MII_0101NO
+#sp,vo,05030607
+？？？
+#mstyle,(co),みい
+「…い、いざ」
+$k
+
+// MII_0101NO
+#sp,vo,05030608
+？？？
+#mstyle,(co),みい
+「………」
+$k
+
+// 	Zoom( 10, 100, 100, 400, 300 );
+
+#ir
+#ip,bg,(fi),BG_SJ_2FROKA03A.jpg,(s),100%
+#ig
+
+// MII_0101NO
+#sp,vo,05030609
+？？？
+#mstyle,(co),みい
+「……ふるふる」
+#msmall
+$k
+
+// MII_0101NO
+#sp,vo,05030610
+？？？
+#mstyle,(co),みい
+「ノックして、出てきたとこに渡す。
+#msmall
+$nw,3250
+
+　ノックして、出てきたとこに渡す。
+#msmall
+$nw,3000
+
+　ノックして、出てきたとこに…」
+#msmall
+
+$k
+
+// 	Zoom( 150, 110, 110, 600, 300 );
+// 	Zoom( 150, 130, 130, 600, 300 );
+
+#ss,bgm
+
+#sp,se,S_Door03o
+
+// 	SV( BG_SJ_2FROKA03B );
+// 	ShowFace();
+
+優
+「雪華ちゃん？」
+$k
+
+// 	SS( CENTER, MII_0401AS3 );
+
+// MII_0401AS3
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AS3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030611
+みい
+「…っ！！！」
+$k
+
+優
+「ありゃ？」
+$k
+
+#sp,bgm,BGM_MII
+
+&empty
+部屋から顔を出すと、そこにいたのは予想外の姿。
+$k
+
+//	SetIconBikkuri( CENTER );
+// MII_0401AS3
+#sp,vo,05030612
+みい
+「な、なんでまだノックもしてないのに、
+　出てこられるのですか」
+$k
+
+優
+「部屋の外から足音やら人の気配がしたら、そりゃあ」
+$k
+
+// MII_0403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030613
+みい
+「しかし、こちらにも段取りというものがありまして」
+$k
+
+優
+「段取りって？」
+$k
+
+// MII_0403KD2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD2.png,(x),c,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030614
+みい
+「…っ」
+$k
+
+優
+「？」
+$k
+
+// MII_0403SN
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030615
+みい
+「だ………ダンドリッテとは？
+　お兄様が妄想されたお姫様の名前ですか？」
+$k
+
+優
+「…誰だそれは」
+$k
+
+// MII_0403SN
+#sp,vo,05030616
+みい
+「ダンドリッテ姫は、おそらく
+　一般にツンデレと呼ばれる種族で」
+$k
+
+// 	SK2( NORMAL );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ツンデレって種族なの！？
+$nw,1000
+
+　じゃなくて、そんな姫いないからっ」
+$k
+
+&empty
+少なくとも俺の妄想の世界にはいない。
+$k
+
+優
+「しかし、誰かと思ったらみいちゃんだったか。
+　雪華ちゃんでも来てくれたかと思ったよ」
+$k
+
+// MII_0403KT
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030617
+みい
+「そういえば、出てくるときも
+　雪華さんの名前を呼ばれていましたね」
+$k
+
+優
+「そうそう。
+　…本番を、いよいよ明日に控えた夜。
+　この大事なタイミングで俺に会いにきてさ」
+$k
+
+優
+「でもいざとなると、
+　恥ずかしくてノックもできなくて、
+　寒いのに部屋の前で右往左往しちゃったりして…」
+$k
+
+優
+「そんなかわいい妹の姿を夢見たりしてねえ」
+$k
+
+// MII_0403TR2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR2.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),300,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05030618
+みい
+「～っ」
+$k
+
+// 	ShakeStand( CENTER, SLOW, SHAKE_LEFT, 5, 20 );
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「なに？」
+$k
+
+// MII_0403TR2
+#sp,vo,05030619
+みい
+「か…」
+$k
+
+優
+「か？」
+$k
+
+// MII_0403SN2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030620
+みい
+「かわいい、ですか。そういうの」
+$k
+
+優
+「かわいいっしょ。
+　いじらしいというか健気というか」
+$k
+
+&empty
+ま、雪華ちゃんはなにをやってもかわいいけどな。
+$k
+
+// MII_0403TR2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030621
+みい
+「そですか…」
+$k
+
+優
+「うん。
+　で、それに気づいた俺が、
+　そっと手を引いて暖かい部屋に招き入れてあげて」
+$k
+
+// MII_0402TR2
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030622
+みい
+「手を…」
+$k
+
+優
+「心配するなお兄ちゃんを信じろとか言ってさー」
+$k
+
+// MII_0401TR
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01TR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030623
+みい
+「………」
+$k
+
+優
+「どしたの、みいちゃん？
+　俺の手になんかついてる？」
+$k
+
+&empty
+なにやら俺の手を見つめてるが？
+$k
+
+//	SetIconBikkuri( CENTER );
+// MII_0403FK2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030624
+みい
+「い、いえ、別に。
+　…相変わらずの見事なシスコンっぷりだと
+　思っただけで」
+$k
+
+優
+「今、褒め称えられた？」
+$k
+
+// MII_0403AK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030625
+みい
+「お幸せな思考回路をお持ちで。
+　本当に雪華さんのそんな姿が見られるとでも？」
+$k
+
+優
+「いいじゃん、夢くらい見たって！」
+$k
+
+&empty
+そんな大それた夢じゃないはずなのに、
+実現不可能に思えてくる…。
+$k
+
+// MII_0403FK2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030626
+みい
+「そのくらいでしたら、叶えて差し上げられますのに…」
+
+$k
+
+優
+「え、え、今なんて？」
+$k
+
+// MII_0403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030627
+みい
+「ここは寒いですね」
+$k
+
+優
+「ちょ、ちょっと今のところ詳しく…っ！」
+$k
+
+// 	SS( CENTER, MII_A403EG, MOVE_STOP, SLOW );
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+// MII_A403EG
+#sp,vo,05030628
+みい
+「寒くて手がかじかんでしまいますね」
+$k
+
+優
+「………」
+$k
+
+優
+「寒いなら自分の部屋に…」
+$k
+
+// MII_A402IK2
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030629
+みい
+「お邪魔します」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「え、あれ、ちょっと！？」
+$k
+
+&empty
+……雪華ちゃんの件は？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+//	WT( 50 );
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SetSubTitleEx( 1 );
+//	SetSubTitle();		//章タイトル表示
+// 	SV( BG_SJ_YU03A );
+
+#sp,bgm,BGM_NONBIRI
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「つか、みいちゃん…そもそも何しにきたの？」
+$k
+
+&empty
+明日からセンター試験というその前夜。
+$k
+
+&empty
+こんな時に、みいちゃんを部屋にあげても
+大丈夫だったのだろうか？
+$k
+
+// 	SS( CENTER, MII_A402KB );
+
+// MII_A402KB
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030630
+みい
+「なんですか？　爆弾でも見るような目で人を見て」
+$k
+
+優
+「俺がどんな目をしてるかわからないけど、
+　たぶん的確な表現なんだろうな、それ」
+$k
+
+// MII_A403BS
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030631
+みい
+「そうですね。私は危険な香りのする女…」
+$k
+
+優
+「用件だけ伺おうか」
+$k
+
+// 	SS( CENTER, MII_A403FK );
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+&empty
+手早く片付けてしまおう。
+$k
+
+&empty
+違う意味でドキドキするから。
+$k
+
+優
+「わざわざこっちまで来てんだから
+　俺に用事なんだろ？」
+$k
+
+// MII_A403SN3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030632
+みい
+「さあ、どうだったでしょう」
+$k
+
+優
+「さっき外で渡すとか聞こえたような…」
+$k
+
+// MII_A403KT
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030633
+みい
+「ああ、引導の話ですね」
+$k
+
+// 	SK2( NORMAL );
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「渡されてたまるか、ンなもん！？」
+#mlarge
+$k
+
+&empty
+メガトン級かもしれない。
+$k
+
+// MII_A403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030634
+みい
+「冗談はさておき、明日の準備は万全ですか、お兄様？」
+
+$k
+
+優
+「ああ。とりあえずやれることは全部やったけど」
+$k
+
+&empty
+つっても、暗記問題の最終チェックから、
+忘れ物の確認程度だけど。
+$k
+
+優
+「で、今日くらい早めに寝ようかってとこで、
+　みいちゃんの気配に気づいてさ」
+$k
+
+// MII_A403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030635
+みい
+「その節は、雪華さんじゃなくて
+　申し訳ございませんでした」
+$k
+
+優
+「え？　ああ、いやいや、みいちゃんでも
+　歓迎しないわけじゃないよ？」
+$k
+
+// MII_A403IK2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030636
+みい
+「みいちゃんでも…」
+$k
+
+優
+「いらっしゃいませ、みいちゃん！」
+#mlarge
+$k
+
+&empty
+なんか微妙に怒ってるっぽい？
+…あまり邪険に扱うとまずそうだ。
+$k
+
+// MII_A403KM3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030637
+みい
+「それにしても…雪華さんどころか
+　他の方々が激励に来られた様子もなく」
+$k
+
+優
+「い、いやほら、たかが受験だからね…
+　別にたいしたことじゃないし」
+$k
+
+// MII_A403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030638
+みい
+「などと健気に強がるお兄様。
+　しかし誰にも応援されないのは、
+　見ている私もあんまりだと思いまして」
+$k
+
+#ss,bgm
+
+優
+「え…？」
+$k
+
+&empty
+ってことは…もしかして？
+$k
+
+#sp,bgm,BGM_YASURAGI
+
+// MII_A403SN2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030639
+みい
+「はい」
+$k
+
+&empty
+視線で尋ねると、みいちゃんが応えてくれた。
+$k
+
+&empty
+あのみいちゃんが
+ほんのり頬を赤らめてさえいるような気がする。
+$k
+
+
+#next,05mii11_01

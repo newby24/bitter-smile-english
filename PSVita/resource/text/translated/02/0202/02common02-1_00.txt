@@ -1,0 +1,720 @@
+﻿// 既読フラグ
+#read_flag,60
+
+// セーブタイトル
+#flag,save_title,Ａｃｔ２－１,0,0
+
+// ロゴムービー。ただしスキップは止めない。
+#movie,logo.mp4
+
+#wait,1000
+
+// 	SV( BG_SKY01A );
+
+#sp,env,S_Gaya03#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#show
+
+// KOBAYASHI_0201BS
+
+#sp,vo,02080004
+小林
+「めぐみってやっぱいいよなあ？」
+$k
+
+優
+「………はあ？
+　いきなり何言ってんのお前？」
+$k
+
+// KOBAYASHI_0201BS3
+
+#sp,vo,02080005
+小林
+「やはり、もう一度当たって砕けてみるのも
+　いいかもしれない！」
+$k
+
+優
+「おいおい、諦めたんじゃなかったのか？
+　以前断られて、お前の方もさ、
+　あの事実知って引いてたクチじゃん」
+$k
+
+&empty
+それ以前に砕けるの確定なのかよ。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KAIDAN01A );
+
+// 	SS( CENTER, KOBAYASHI_0201BS4 );
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KAIDAN01A.jpg,(s),100%
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#show
+
+&empty
+学園祭当日。
+$k
+
+&empty
+小間使いの仕事を早々に終えた俺と小林は、人通りの
+少ない屋上前の階段で、珍しく雑談なぞしている。
+$k
+
+// KOBAYASHI_0201BS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02080006
+小林
+「でも可愛いだろー！？」
+$k
+
+優
+「外見か？」
+$k
+
+// KOBAYASHI_0201BS4
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02080007
+小林
+「違うぞ！　俺はめぐみの性格も好きだぞ？
+$nw,4200
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS.png,(x),c,(s),60%
+#ig
+
+　…なんつーの？
+　他の女子にはない気安さも魅力だな」
+$k
+
+&empty
+そういや、桜子もそんな感じだなー。
+$k
+
+&empty
+めぐみもそうだが、
+桜子も意外と男女構わず気安い所がある。
+$k
+
+&empty
+そこを勘違いした訳だが。
+$k
+
+優
+「そりゃあ認めるがね…
+　………夫婦生活とか大変そうだぞ？」
+$k
+
+// KOBAYASHI_0201EG
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02080008
+小林
+「問題ないって、愛があればなんとかなるさあ！」
+$k
+
+優
+「ま、俺はもう止めねーけど、
+　でもあいつ、恋多き乙女だから大変だぞ？」
+$k
+
+// KOBAYASHI_0201BS4
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02080009
+小林
+「それよりよー、
+　お前の方こそどーなってんだよ、ん？
+　上手くいってんのかよー？」
+$k
+
+優
+「なんのことだ」
+$k
+
+// KOBAYASHI_0201BS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02080010
+小林
+「しらばっくれるなよー。
+　轟木だよ、轟木さ
+$nw,4100
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ie,c1
+#ig,(se),S_Punch04
+
+#madd,ぐべぉっ！」
+
+$k
+
+// 	RotateStand( CENTER, FAST, -45 );
+// 	CS_( CENTER, LEFTOUT );
+// 	Shake( FAST, SHAKE_LEFT, 16 );
+// 	FL( 0, 100 );
+// 	FL( FAST );
+// 	ShowFace();
+
+優
+「なぜバレーボールがっ！？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"たったったった。" );
+// 	SS_( CENTER, MEGUMI_0201KN2, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KN2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),c,(al),100
+#ig
+
+// MEGUMI_0201KN2
+#sp,vo,02070076
+めぐみ
+「いやぁ～ん♪　ごっめぇ～ん♪
+　優ちゃん大丈夫ぅ～？」
+$k
+
+優
+「いや俺は無事だが…」
+$k
+
+&empty
+小林、色々不憫なやつ…。
+そんな予感はしていたが……つかの間の燈火！
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　ともしび
+
+$k
+
+// MEGUMI_0201TH
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01TH.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070077
+めぐみ
+「なんかね～、
+　奥の方から不穏な空気がしたから思わずぅ～？」
+$k
+
+&empty
+桜子並みの剛速球だったぞ？
+$k
+
+優
+「俺が無事だからまあいいや」
+$k
+
+// MEGUMI_0201OD
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070078
+めぐみ
+「あっそうそう、
+$nw,1200
+
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),60%
+#ig
+
+　優ちゃん今暇だよねぇ～？」
+
+$k
+
+優
+「まあ…今暇になったばかりというか」
+$k
+
+// MEGUMI_0201KM3
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070079
+めぐみ
+「じゃあちょっとクラスに戻ってくれるかなぁ？」
+$k
+
+優
+「え、なんで？　材料の補充も問題ないだろ」
+$k
+
+// MEGUMI_0201EG2
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070080
+めぐみ
+「いいからいいから～、早くぅ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// Act2 開始アイキャッチ。
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),image\stitle\stitle_act2_0.png,(x),0,(y),0,(al),0%
+#ip,c3,(fi),image\stitle\stitle_act2_1.png,(x),0,(y),0,(al),0%
+#ip,c2,(fi),image\stitle\stitle_act2_4.png,(x),-40,(y),0,(al),0%
+#ip,ov,(fi),image\stitle\stitle_act2_comp.png,(x),0,(y),0,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,c3,(al),100%
+#ig
+
+#sp,se,Title_Jingle01
+
+#ir,(ef),move,(dr),3000
+#ip,c1,(x),80,(al),100%
+#ip,c2,(x),0,(al),100%
+#ig
+
+#wait,500
+
+#ir,(dr),1000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+// 	SetSubTitle( 1 );		//章タイトル表示
+
+#sp,env,S_Gaya03#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01E.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,Ａｃｔ２－１　学園祭当日～両手いっぱいでジョニー
+$k
+#note,erase
+
+// 	SV( BG_GK_KYOSHITSU01E );
+//	BFP( BGM_TANOSHII );
+
+// 	SetObject( 0, "bacouple_background.png", -200, 0 );
+// 	SetObject( 1, "bacouple_boy_back.png",    200, 0 );
+// 	SetObject( 2, "bacouple_boy.png",         200, 0 );
+// 	SetObject( 3, "bacouple_girl_back.png",   200, 0 );
+// 	SetObject( 4, "bacouple_girl.png",        200, 0 );
+
+#ir,(dr),1000
+#ip,bg,(fi),image\etc\bacouple_background.jpg
+#ip,c1,(fi),MICHY_A201NO.png,(x),l3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l2,(al),100%
+#ig
+
+#show
+
+// 	SF( 0, NORMAL, 75 );
+
+// MICHY_0201NO
+
+#sp,vo,02990070
+充
+「さっちー……」
+$k
+
+// 	SF( 0, NORMAL, 50 );
+
+// SACHY_0201TR
+#ir,(ef),off
+#ip,c3,(fi),SACHY_A201TR.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ig
+
+#sp,vo,02990071
+幸枝
+「みっちー……」
+$k
+
+// 	SF( 0, NORMAL, 25 );
+// 	MoveObject( 3, FAST, 250, 0 );
+// 	MoveObject( 4, FAST, 250, 0 );
+// 	MoveObject( 1,    0, 150, 0 );
+// 	MoveObject( 2,    0, 150, 0 );
+// 	MoveObject( 1, FAST, 200, 0 );
+// 	MoveObject( 2, FAST, 200, 0 );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l
+#ig
+
+// MICHY_0201NO
+#sp,vo,02990072
+充
+「さっちー♪」
+$k
+
+// 	MoveObject( 1, FAST, 150, 0 );
+// 	MoveObject( 2, FAST, 150, 0 );
+// 	MoveObject( 3,    0, 250, 0 );
+// 	MoveObject( 4,    0, 250, 0 );
+// 	MoveObject( 3, FAST, 200, 0 );
+// 	MoveObject( 4, FAST, 200, 0 );
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r
+#ig
+
+// SACHY_0201TR
+#sp,vo,02990073
+幸枝
+「みっちー♪」
+$k
+
+// 	MoveObject( 1, 0,   0, 0 );
+// 	MoveObject( 2, 0,   0, 0 );
+// 	MoveObject( 3, 0, 400, 0 );
+// 	MoveObject( 4, 0, 400, 0 );
+#ss,env
+
+#sp,vo,02990074
+充＆幸枝
+「あのさ」
+「あのねっ」
+$k
+
+// 	MoveObject( 1, FAST, -50, 25 );
+// 	MoveObject( 2, FAST, -50, 25 );
+// 	MoveObject( 3, FAST, 450, 25 );
+// 	MoveObject( 4, FAST, 450, 25 );
+
+// 	SS_( CENTER, ISAKI_A602NO, MOVE_STOP, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,bg,(fi),BG_GK_KYOSHITSU01E.jpg,(s),100%
+#ip,c2,(fi),ISAKI_A602.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig,(se),S_Tissue01
+
+// ISAKI_A602NO
+#sp,vo,02010094
+勇樹
+「クレープＡセット２つ、おまたせしました。
+　ごゆっくり…」
+$k
+
+// 	DelAction( CENTER );
+
+// MICHY_0201KM2
+
+#sp,vo,02990075
+充
+「さっ…あ、どうも………
+$nw,3700
+
+#madd,（び、美人）」
+
+$k
+
+// 	Shake( FAST, SHAKE_UP | SHAKE_WINDOW, 10, FAST );
+
+// SACHY_0201OD3
+
+#sp,vo,02990076
+幸枝
+「っ！？」
+$k
+
+// ISAKI_A601NO
+#ir
+#ip,c2,(fi),ISAKI_A601.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02010095
+勇樹
+「どうかなさいましたか？」
+$k
+
+// MICHY_0201KS
+#sp,vo,02990077
+充
+「い、いえ～っなにも…」
+$k
+
+// SACHY_0201KM
+
+#sp,vo,02990078
+幸枝
+「み、みっちー？　ちょっとぉっ！？」
+$k
+
+// MEGUMI_0201KM3
+//#ir,(ef),off
+//#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM3.png,(x),r3,(s),60%,(al),0%
+//#ig
+
+#sp,vo,02070081
+めぐみ
+「勇樹ちゃん、ごっめ～ん、おまたせぇ～」
+$k
+
+// 	SS_( RIGHT, MEGUMI_0201KM3, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// 	CS( CENTER, CENTERLEFT, NORMAL );
+
+// ISAKI_A601IK
+#ir
+#ip,c2,(fi),ISAKI_A601.png,(psi),ISAKI_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02010096
+勇樹
+「沖奈めぐみ、客の相手までするとは聞いていないぞ」
+$k
+
+// MEGUMI_0201IK
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+#sp,vo,02070082
+めぐみ
+「文句言わないのぉ、これも修行よぉ～？」
+$k
+
+// ISAKI_A601AZ
+#ir
+#ip,c2,(fi),ISAKI_A601.png,(psi),ISAKI_An01AZ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02010097
+勇樹
+「ちっ…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SS( LEFT, ISAKI_0601MU );
+
+// 	SS( RIGHT, MEGUMI_0201BS );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01E.jpg,(s),100%
+#ip,c2,(fi),ISAKI_A601.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS.png,(x),r,(s),60%
+#ig
+
+#show
+
+// ISAKI_0601MU
+#sp,vo,02010098
+勇樹
+「…で、もういいのか？
+　どうして私がこんな格好で…」
+$k
+
+&empty
+クラスに戻ると宮津橋がウェイトレス姿で顔を出した。
+なるほど………いいかもしれないな。
+小林が居ないのが残念だ。
+$k
+
+// MEGUMI_0201EG3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070083
+めぐみ
+「いいよぉ、一時間以内には帰って来てね～？
+$nw,4700
+
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS2.png,(x),r,(s),60%
+#ig
+
+　じゃあそういうことだからよろしくね♪」
+$k
+
+優
+「そういうことってなんだ、こっち見んな！」
+$k
+
+// MEGUMI_0201EG2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070084
+めぐみ
+「勇樹ちゃんがあたしと交代で休憩時間なの。
+　だから優ちゃんがエスコートしてあげてね～」
+$k
+
+優
+「なんで俺がそんなこと…」
+$k
+
+// MEGUMI_0201EG3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070085
+めぐみ
+「さ、行った行った。
+$nw,2200
+
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01AZ.png,(x),r,(s),60%
+#ig
+
+　言い出しっぺの優ちゃんが面倒見るのが
+　筋ってもんだよねぇ？
+$nw,5000
+
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01TR.png,(x),r,(s),60%
+#ig
+
+
+#madd,　ていうか見張り役？」
+
+$k
+
+// ISAKI_0601AZ
+#ir
+#ip,c2,(fi),ISAKI_A601.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010099
+勇樹
+「ちっ、
+$nw,1600
+
+#ir
+#ip,c2,(fi),ISAKI_A601.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+　…そういう事だ。行くぞ矢崎」
+
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l0,(al),0%
+#ig
+
+優
+「ああっ、おい宮津橋待てよ」
+$k
+
+// MEGUMI_0201EG4
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070086
+めぐみ
+「じゃあねぇ～ん、お二人さん♪」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_ROKA01C );
+// 	SS( CENTER, ISAKI_0602NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01C.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A602.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"カシャ。" );
+// 	SEPlay( "S_Camera01", 50, -75, 100, 1 );
+
+#sp,se,S_Camera01
+
+#wait,1000
+
+#sp,se,S_Pirorin
+
+//	SM( CHAR_ETC,			-1,					"",				"ぴろりーん。" );
+// 	SEPlay( "S_Pirorin", 50, 75, 100, 1 );
+
+
+#next,02common02-1_01

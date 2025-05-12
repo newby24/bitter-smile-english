@@ -1,0 +1,623 @@
+﻿// 既読フラグ
+#read_flag,215
+
+#sp,bgm,BGM_TANOSHII
+
+// 	SS( LEFT, MII_0402MJ2 );
+
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ2.png,(x),l,(s),60%
+#ie,c2,c3
+#ig
+
+#show
+
+// MII_0402MJ2
+
+#sp,vo,04030060
+みい
+「さあ、要お姉さま、年が明けましたよ。
+　観念してお年玉を出しなさい」
+$k
+
+// 	SS( RIGHT, KANAME_0403AS );
+
+// KANAME_0403AS
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03AS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04020007
+要
+「え？　え？　この人数にお年玉あげたら、
+　お姉ちゃん、明日から干からびちゃう！」
+$k
+
+// MII_0403MJ
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03MJ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030061
+みい
+「では、私だけにこっそりと」
+$k
+
+// YUKIHA_0401IK3
+
+#sp,vo,04050019
+雪華
+「みいちゃん、ずるーい！」
+$k
+
+// KANAME_0403GM2
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03GM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04020008
+要
+「こ、こういう時は……三十六計逃げるに
+　如かずっ！
+$nw,4560
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+　でゅわっ！」
+
+$k
+
+#sp,se,S_Hyun01
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r2,(al),0%
+#ig
+
+// 	CS( RIGHT, RIGHTOUT );
+
+&empty
+一足先にこたつから飛び出た要さんが
+逃げ出す。
+$k
+
+// MII_0401NI2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NI2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030062
+みい
+「逃がしませんよ、お姉様」
+$k
+
+#sp,se,S_Hyun01
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+// 	CS( LEFT, RIGHTOUT );
+// 	WaitMoveStand( LEFT );
+
+// 	SS( CENTER, SAKURAKO_0402IK4, MOVE_LEFT );
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000096
+桜子
+「もうー、埃が立つでしょっ！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+そんな平和な光景の中…、
+$k
+
+// 	SS( CENTER, ISAKI_A402NO );
+
+// ISAKI_A402BS
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+&empty
+ちらっと宮津橋を見ると、
+視線を感じ顔をあげた宮津橋と目が合った。
+$k
+
+// ISAKI_A402BS
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010285
+勇樹
+「…おめでとう、今年もよろしくな」
+$k
+
+#ir,(ef),beat,(q),2
+#ig,(se),T_Heart01
+
+優
+「ああ、こちらこそよろしく」
+$k
+
+&empty
+俺の胸が、どきりと高鳴った。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TODOROKIMICHI03A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+蕎麦を食べ終わって、みんなでぞろぞろと
+初詣に向かう事になった。
+$k
+
+&empty
+もっとも、要さんは「寒いのいやー」と言って
+こたつと一体化している。
+$k
+
+&empty
+「縁結びでもお願いしないと、嫁ぎ遅れますよ」と
+　みいちゃんに脅されて、ぴくっとなってたけど。
+$k
+
+&empty
+そのみいちゃんは、先頭に立って、
+雪華ちゃんとなにやら話し込んでいるみたいだ。
+$k
+
+&empty
+……また俺をハメる計画とかじゃないといいんだが。
+$k
+
+// 	SS_( CENTERLEFT, SAKURAKO_0401KS );
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01KS.png,(x),l0,(s),60%
+#ip,c3,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01EG4.png,(x),r0,(s),60%
+#ig
+
+// 	SS( CENTERRIGHT, MEGUMI_0401BS3 );
+
+// SAKURAKO_0401KS
+#sp,vo,04000097
+桜子
+「で、こうやっぱりアップルパイとアイスクリームの
+　組み合わせが珠玉だと思うわけよ」
+$k
+
+// MEGUMI_0401EG4
+
+#sp,vo,04070084
+めぐみ
+「うんうん、美味しいよねー」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+桜子とめぐみも、近くにあるスイーツショップの話で
+盛り上がっている。
+$k
+
+&empty
+宮津橋だけが、ちょっと遅れて、１人無言で
+歩いていた。
+$k
+
+&empty
+俺も、少し歩みを遅めて、それに合わせる。
+$k
+
+優
+「どうだ、こんな年越しは？」
+$k
+
+//	SS( CENTER, ISAKIn_A401NO );
+// ISAKIn_A401NO
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010286
+勇樹
+「まあ、悪くはない」
+$k
+
+優
+「いいよな、皆で初詣とかさ。
+　新年を迎えたって感じで清々しいよな」
+$k
+
+// ISAKIn_A401NO
+#sp,vo,04010287
+勇樹
+「そんなものかな」
+$k
+
+&empty
+……。
+$k
+
+優
+「あ、寒くないか？」
+$k
+
+// ISAKIn_A401NO
+#sp,vo,04010288
+勇樹
+「別に」
+$k
+
+&empty
+…………。
+$k
+
+優
+「受験勉強とかどうだ？」
+$k
+
+// ISAKIn_A401NO
+#sp,vo,04010289
+勇樹
+「それなりだ」
+$k
+
+&empty
+……むう、会話が弾まないな。
+$k
+
+&empty
+なんだか、壁打ちしている気分になってきた。
+でも、答えてくれるだけ進歩なのか。
+$k
+
+優
+「あれ…？」
+$k
+
+// ISAKIn_A401MU
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010290
+勇樹
+「…………はぁ」
+#msmall
+$k
+
+// 	SS( CENTER, ISAKIn_A401MU, MOVE_STOP, NORMAL );
+
+&empty
+今、気づいたけど、宮津橋のやつ、
+手袋をしていないんだな。
+$k
+
+&empty
+うわ、冷たそう。
+$k
+
+&empty
+ポケットから手を出してみる。
+自慢じゃないが、俺の手はけっこう熱い。
+$k
+
+&empty
+おそるおそる宮津橋の手に触って、
+そっと握ってみた。
+$k
+
+// ISAKIn_A402OD
+#ir
+#ip,c2,(fi),ISAKIn_A402.png,(psi),ISAKIn_An02OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010291
+勇樹
+「…………！！」
+$k
+
+// 	SS_( CENTER, ISAKIn_A402KT );
+
+#ir
+#ip,c2,(fi),ISAKIn_A402.png,(psi),ISAKIn_An02KT.png,(x),c,(s),80%
+#ig
+
+&empty
+一瞬、宮津橋が驚いたような顔になったが、
+振り解かれなかった。
+$k
+
+&empty
+しかし、かなり手冷えてんじゃん。
+言えばいいのに。
+$k
+
+&empty
+ちょっと暖めてやろう。
+そう思って、繋いだ手に力を込めてみる。
+$k
+
+// ISAKIn_A402KT
+#sp,vo,04010292
+勇樹
+「……？」
+$k
+
+&empty
+宮津橋は不思議そうに繋いだ手を
+じっと見ている。
+$k
+
+&empty
+イヤだったかな？
+でもそれなら振り解くよな、宮津橋なら。
+$k
+
+&empty
+宮津橋の反応がよくわからない。
+$k
+
+// ISAKIn_A401NO
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010293
+勇樹
+「……」
+$k
+
+優
+「なあ、宮津橋……」
+$k
+
+#sp,se,T_Swing,(lp),1
+
+&empty
+俺が聞こうかと思ったところで、
+何を思ったか、宮津橋が繋いだ手を勢いよく
+ぶんぶんと前後に振りだす。
+$k
+
+優
+「お、おいっ、いきなり何を…！？」
+$k
+
+// ISAKIn_A401NO
+#sp,vo,04010294
+勇樹
+「…」
+$k
+
+// ISAKIn_A401MU
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010295
+勇樹
+「………これは違うのか」
+#msmall
+$k
+
+優
+「え？」
+$k
+
+&empty
+なにか呟くと、宮津橋は手を止める。
+$k
+
+&empty
+なんだ今の？
+$k
+
+// ISAKIn_A401NO
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010296
+勇樹
+「…………」
+$k
+
+&empty
+そして再び繋いだ手を見つめる宮津橋。
+何かを確かめてるみたいにも見える。
+$k
+
+&empty
+そして、次の瞬間、向こうから
+ぎゅっと俺の手を握り返してきた。
+$k
+
+// ISAKIn_A401NO
+#sp,vo,04010297
+勇樹
+「矢崎……」
+$k
+
+&empty
+宮津橋が何か言いかけて、口を閉じる。
+$k
+
+&empty
+そして、もう一度手を軽く振ると、
+繋いでいた手が解けてしまった。
+$k
+
+優
+「あ……」
+$k
+
+// ISAKIn_A401MU
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010298
+勇樹
+「なんでもない」
+$k
+
+&empty
+宮津橋が、少し不機嫌そうな顔で、
+前をじっと見ている。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2
+#ig
+
+&empty
+また手を繋ぎたい。
+そう思ったが、宮津橋はもう、
+手を繋いでくれそうな雰囲気じゃなかった。
+$k
+
+// 	SS( CENTER, SAKURAKO_0403NO );
+
+// SAKURAKO_0403NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000098
+桜子
+「思ったより寒いわね。
+　さっさとお参りすませちゃいましょ」
+$k
+
+&empty
+前を歩いていた桜子が振り向いて
+俺達に声をかける。
+$k
+
+優
+「そうだな」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+それから、神社までの道を
+俺は宮津橋の手に触れないまま黙って歩き続けた。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAKEIDAI03B );
+
+#sp,env,S_Gaya03#,(vl),3
+
+#sp,se,T_Jinnja
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03B.jpg,(s),100%
+#ig
+
+#wait,2000
+
+// 	WaitSE();
+// 	SetObject( 0, "eye.png", 0, 0, OBJATTR_TOP );
+
+#show
+
+&empty
+神社に着いて、宮津橋と並んでお参りをする。
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+二度、柏手を打って、頭を深く下げた。
+$k
+
+&empty
+何をお願いしようか。
+ここはやっぱり、受験の事だよな。
+それと……。
+$k
+
+#ss,se,(dr),1000
+
+// 	SV(  BG_MT_JINJYAKEIDAI03B );
+// 	ZoomVisual( 0, 300, 300 );
+// 	Pinboke( 0, PINBOKE_NORMAL, 10, 5, 5 );
+
+// 	SS( CENTER, ISAKI_A401KN );
+
+// まぶたを閉じている状態から開ける。
+#ir,(ef),off
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03B.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KN.png,(x),c,(s),80%
+#ip,c2,(fi),image\sysc\sysc_mabuta_1.png,(x),c,(y),u_s
+#ip,c3,(fi),image\sysc\sysc_mabuta_2.png,(x),c,(y),d_s
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,c2,(y+),-200
+#ip,c3,(y+),200
+#ia,c2,al,(dr),1000,(dl),1000
+#ia,c3,al,(dr),1000,(dl),1000
+#ig
+
+&empty
+ちらっと、薄目を開けて、横にいる宮津橋を見る。
+$k
+
+&empty
+神様に何を願っているのかはわからないけれど、
+ひどく真剣な顔をしていた。
+$k
+
+#next,04isaki10_04

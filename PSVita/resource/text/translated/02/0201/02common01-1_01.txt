@@ -1,0 +1,828 @@
+﻿// 既読フラグ
+#read_flag,32
+
+優
+「そ、そういうこと、それだけの関係だよ」
+$k
+
+// SAKURAKO_0103AK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03AK.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000001
+桜子
+「なんでそんな事あたしに説明するわけ？
+　こんな朝っぱらから！」
+$k
+
+優
+「別に…変な気を使われても困るしな、って思って」
+$k
+
+// SAKURAKO_0103NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO3.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000002
+桜子
+「ふーん？　いいけどさ、
+$nw,2900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),l0,(s),60%
+#ig
+
+　で、この先どうするの？」
+$k
+
+優
+「え、どうするって？」
+$k
+
+// SAKURAKO_0103NO
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000003
+桜子
+「このまま偽物続けるの？」
+$k
+
+優
+「えーと…そりゃあ、偽の恋人なんて嫌だけども…」
+$k
+
+// SAKURAKO_0103AK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03AK.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000004
+桜子
+「なにその煮え切らない反応」
+$k
+
+優
+「なんつーかさあ、気になるんだよ、あいつの事」
+$k
+
+// SAKURAKO_0102NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO2.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000005
+桜子
+「それはあの娘が好きって事？
+$nw,2600
+
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02EG.png,(x),l0,(s),60%
+#ig
+
+　嘘カップルじゃなくて、ちゃんとした
+　お付き合いがしたいですー！
+$nw,2900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO.png,(x),l0,(s),60%
+#ig
+
+#madd,　とかの？」
+
+$k
+
+優
+「いやいやいや！
+　そういうんじゃなくってだな」
+$k
+
+// SAKURAKO_0102IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK7.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000006
+桜子
+「なによあんたもう！　イラつくわね。
+　きっちりはっきり、さっさと言いなさいよ。
+　調理に集中できないじゃない」
+$k
+
+//	SP( "S_Cook03" );
+
+優
+「う…だからそれは…」
+$k
+
+優
+「俺、あいつの事よく知らないし、
+　だから別に好きとか嫌いとかじゃなくてだな」
+$k
+
+#sp,env,W_Cook01#
+
+// SAKURAKO_0103NO
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000007
+桜子
+「好きでも嫌いでもないのに
+　あんなキスとかするもんかなぁ？」
+$k
+
+優
+「っ…だからあれは俺が断ったから、
+　宮津橋が強硬手段に出ただけだろ」
+$k
+
+// SAKURAKO_0103AK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03AK.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000008
+桜子
+「まあ、そういう取り方も出来なく無いけど。
+　あんな凄いのさー？」
+$k
+
+優
+「もうその事は忘れろよっ」
+$k
+
+#ss,env,(dr),1000
+
+// SAKURAKO_0103KT
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000009
+桜子
+「それで？
+　好きでも嫌いでも無くてなに？」
+$k
+
+優
+「う………」
+$k
+
+// SAKURAKO_0103NO
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000010
+桜子
+「ん？」
+$k
+
+優
+「…初めて会った時な。あいつ…泣いてたんだよ」
+$k
+
+// SAKURAKO_0103KT
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000011
+桜子
+「それもさっき聞いたけど？」
+$k
+
+優
+「でもよー、なんか気になるだろ？
+　一度でもそういうの見ちゃうとさあ」
+$k
+
+// SAKURAKO_0103AK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03AK.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000012
+桜子
+「目にゴミが入っただけかもよ？
+$nw,2400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO.png,(x),l0,(s),60%
+#ig
+
+　あ、そこのお醤油取ってくれる？」
+$k
+
+優
+「それは………ほれ醤油」
+$k
+
+// SAKURAKO_0103KT
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000013
+桜子
+「ありがと。
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KM.png,(x),l0,(s),60%
+#ig
+
+#madd,あんたのそういう所、
+　あたしは嫌いじゃないけどさぁ。
+　でも、うだうだしてても何も変わらないじゃない？」
+$k
+
+優
+「………じゃあさ、お前どうしたらいいと思う？」
+$k
+
+// SAKURAKO_0102IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK3.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000014
+桜子
+「知るか！　あたしに聞くな。
+$nw,3200
+
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO2.png,(x),l0,(s),60%
+#ig
+
+　あと棚からお皿出して」
+$k
+
+優
+「なんだよ、幼なじみの仲だろー？
+　えーと、この皿でいいのか？」
+$k
+
+// SAKURAKO_0103IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK3.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000015
+桜子
+「そこまで面倒見切れるか！
+$nw,2600
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03AK.png,(x),l0,(s),60%
+#ig
+
+　自分で考えなさいよ。
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),l0,(s),60%
+#ig
+
+　あ、お皿は隣の大きいやつね」
+$k
+
+優
+「なんだよ桜子。
+　お前、冷たい奴だなー」
+$k
+
+// SAKURAKO_0103AK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03AK.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000016
+桜子
+「本人に聞きゃあいいでしょーが。
+$nw,2400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO2.png,(x),l0,(s),60%
+#ig
+
+　『何があったの？』ってー」
+$k
+
+優
+「聞いても答えやしねーよ、あいつは」
+$k
+
+// SAKURAKO_0103KT
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000017
+桜子
+「それにさ、偽の恋人が嫌なら
+　きっぱりと強い口調で断りゃいいでしょーよ。
+　きちんと話す空気作れば話も出来るんじゃないの？」
+$k
+
+優
+「うう、ちょっとそれも酷くないか？
+　仮にも困ってるかもしれない女の子に。
+　俺が悪人に見えんじゃねーか」
+$k
+
+// SAKURAKO_0103NS
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NS.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000018
+桜子
+「いいじゃない。悪人上等よ！
+$nw,3000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),l0,(s),60%
+#ig
+
+　心配する事があんなら影から見守ってあげればぁ？」
+$k
+
+優
+「言うのは簡単だけどもなぁ」
+$k
+
+// SAKURAKO_0103NO
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000019
+桜子
+「ん………？」
+$k
+
+// SAKURAKO_0103FK2
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03FK2.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000020
+桜子
+「あれってさ、……本当に偽物なのかな？」
+$k
+
+優
+「え、何が？」
+$k
+
+#sp,se,T_Alarm01
+
+// SAKURAKO_0103BS
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03BS.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000021
+桜子
+「ううん、なんでもないよ。
+$nw,2200
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),l0,(s),60%
+#ig
+
+　ご飯炊きあがったみたい。急がなきゃ」
+$k
+
+#hide
+
+// 	SS( RIGHT, MII_0503NM2, MOVE_RIGHT, SLOW );
+
+// MII_0503NM2
+#ir,(ef),off
+#ip,c3,(fi),MII_A503.png,(psi),MII_An03NM2.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ig
+
+#show
+
+#sp,vo,02030000
+みい
+「あ、おはようございます。
+　今日はお兄様もお早いので…
+$nw,6500
+
+#ir
+#ip,c3,(fi),MII_A503.png,(psi),MII_An03NM.png,(x),r,(s),60%
+#ig
+
+#madd,ふあぁ…
+$nw,2000
+
+#ir
+#ip,c3,(fi),MII_A503.png,(psi),MII_An03NM2.png,(x),r,(s),60%
+#ig
+
+#madd,すね」
+
+$k
+
+// 	MoveStand( RIGHT, 0, 0, 0 );
+
+優
+「あ、おはようみいちゃん」
+$k
+
+&empty
+みいちゃんが起きてきた。
+まだ寝間着のままだ。
+$k
+
+// SAKURAKO_0102EG
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02EG.png,(x),l0,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,02000022
+桜子
+「ん、おはようー。
+　もうすぐご飯の仕度できるから
+　お婆ちゃん呼んで来て」
+$k
+
+// 	DelAction( CENTERLEFT );
+
+// MII_0502NM
+#ir
+#ip,c3,(fi),MII_A502.png,(psi),MII_An02NM.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030001
+みい
+「ふわーい、了解しました。
+$nw,2600
+
+　でも先におしっこ…」
+
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+#sp,vo,02050000
+雪華
+「わわっトイレトイレ！」
+$k
+
+優
+「あ、雪華ちゃんおは…」
+$k
+
+// MII_0502AS2
+#ir
+#ip,c3,(fi),MII_A502.png,(psi),MII_An02AS2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030002
+みい
+（まずい！）
+$k
+
+// 	SEStop( 0 );
+
+#sp,se,S_Dash01o
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),0%
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"………。" );
+
+#sp,vo,02050001
+雪華
+「みいちゃん待って！
+$nw,1500
+
+#sp,se,S_Door03c
+
+　ああっ先越されちゃったぁー」
+
+$k
+
+優
+「………」
+$k
+
+&empty
+哀れ妹よ…。
+$k
+
+#sp,vo,02050002
+雪華
+「は、早くね？　なるべく早く出てね！
+　あううっ！」
+$k
+
+&empty
+どんなにお年頃でも朝のトイレ前は戦場だ。
+俺はそんな妹も可愛いと思う。
+$k
+
+&empty
+ちなみに俺と同じく千寿に住んでいる宮津橋は
+朝昼晩とも千寿の厨房を使い全部自分でこなして
+いるらしく轟木家の方には顔を出さないようだ。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KYOSHITSU01B );
+
+// 	SS( CENTER, ISAKI_A101NS2 );
+
+#sp,se,S_Chime01
+
+#sp,env,S_Gaya01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01B.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01NS2.png,(x),c,(s),80%
+#ig
+
+#show
+
+// ISAKI_A101NS2
+#sp,vo,02010026
+勇樹
+「矢崎君、今日は付き合ってくれるのかな？」
+$k
+
+優
+「なあ宮津橋、その事なんだがな。
+　そういうのは本当にもうやめにしないか？
+　というか俺は…」
+$k
+
+// ISAKI_A101IK
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02010027
+勇樹
+「………」
+$k
+
+&empty
+宮津橋の目つきが変わった…。
+まさかあの時みたいに木刀でも出してくるか？
+$k
+
+優
+「う、俺はもう暴力には屈しないぞ？
+　偽物の関係なんて意味ないし時間の無駄だしな」
+$k
+
+&empty
+自慢じゃないが昔から桜子に鍛えられてたせいで、
+不意打ちでなければ、
+『ボコボコにされない』自信だけはある。
+$k
+
+// ISAKI_A101NO
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02010028
+勇樹
+「…ほう」
+$k
+
+優
+「昨日のだけで十分虫除けにはなったんじゃないか？」
+$k
+
+&empty
+おかげで男子連中から熱い視線を感じてる。
+特に同じクラスの男子から。
+$k
+
+&empty
+それより宮津橋とは一度きっちり
+話をしてみるしかないだろうと思った。
+$k
+
+// ISAKI_A101NO
+#sp,vo,02010029
+勇樹
+「そうか」
+$k
+
+優
+「それよりお前さあ、悩みとかあるんじゃねえのか？」
+$k
+
+// ISAKI_A101MU
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02010030
+勇樹
+「……そうだな。…そうだといいが」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+#ir
+#ip,c1,(x),r0,(s),60%
+#ig
+
+&empty
+そう言うと宮津橋は向きを変え去ろうとする。
+$k
+
+優
+「あっおい宮津橋、話はまだ…」
+$k
+
+#ir,(ef),off
+#ip,c3,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01EG.png,(x),r4,(s),60%,(al),0%
+#ig
+
+// 	SS_( RIGHTRIGHT, KOBAYASHI_0101KK, MOVE_RIGHT );
+// 立ち絵移動。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),r3,(al),100
+#ig
+
+// KOBAYASHI_0101EG
+
+#sp,vo,02080000
+小林
+「やあ宮津橋さん！　なんなら俺が悩みを…」
+$k
+
+// 	SS_( RIGHTRIGHT, KOBAYASHI_0101AS, MOVE_STOP, 0 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SetActionBuru( RIGHTRIGHT );
+
+// ISAKI_0101AZ
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01AZ.png,(x),r0,(s),60%
+#ip,c3,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01AS.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,02010031
+勇樹
+「………」
+$k
+
+// 	DelAction( RIGHTRIGHT );
+// 	CS_( RIGHTRIGHT, RIGHTOUT, FAST );
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r4,(al),0%
+#ig
+
+// KOBAYASHI_0101KM2
+
+#sp,vo,02080001
+小林
+「…すんませんなんでもないです！」
+$k
+
+&empty
+小林はあっという間に睨み殺された。
+$k
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),0%
+#ig
+
+優
+「………」
+$k
+
+&empty
+宮津橋はそのまま行っちまった。
+相変わらずこっちの話を聞く気はないみたいだが、
+仮面カップルは解消したと見ていいんだろうか？
+$k
+
+&empty
+しかしあっさりしすぎだな。
+人が多いから引き下がったとか…。
+$k
+
+&empty
+でなければ偽の恋人としての愛想すら尽きたのか。
+$k
+
+// 	SS_( LEFT, MEGUMI_0101MJ3, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c2,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01MJ3.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l,(al),100%
+#ig
+
+// MEGUMI_0101MJ3
+#sp,vo,02070000
+めぐみ
+「ツンデレってやつね！
+$nw,2100
+
+#ir
+#ip,c2,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01AZ2.png,(x),l,(s),60%
+#ig
+
+　表面上はツンツン、
+$nw,1390
+
+#ir
+#ip,c2,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01TY2.png,(x),l,(s),60%
+#ig
+
+#madd,中身はデレデレとか」
+
+$k
+
+優
+「今までの流れをどう見ればそういう認識になるんだ」
+$k
+
+// MEGUMI_0101KD
+#ir
+#ip,c2,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02070001
+めぐみ
+「そういえば今日は桜子来ないなぁ～」
+$k
+
+優
+「聞けよこら」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_OKUJYO01A );
+
+#sp,se,S_Door10o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_OKUJYO01A.jpg,(s),100%
+#ig
+
+#sp,se,S_Wind02
+
+// SAKURAKO_0101TR4
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A101.png,(psi),SAKURAKO_An01TR4.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#next,02common01-1_02

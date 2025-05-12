@@ -1,0 +1,639 @@
+﻿// 既読フラグ
+#read_flag,81
+
+#sp,vo,02990155
+//事務員のお姉さん
+女性事務員
+「うん？」
+$k
+
+優
+「ああ、なんでもないです、大丈夫です」
+$k
+
+&empty
+有河の自宅は工場の二階事務所の奥にあって。
+$k
+
+優
+「はは…」
+$k
+
+// 	SS_( RIGHT, CHINPIRA2_0301AY, MOVE_RIGHT );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01AY.png,(x),r2,(s),60%,(al),0%
+#ip,c3,(fi),CHINPIRA1_A301NO.png,(x),l2,(s),75%,(al),0%
+#ig
+
+// 	SS_( LEFT, CHINPIRA1_0301NO, MOVE_LEFT );
+// 立ち絵移動。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r,(al),100
+#ip,c3,(x),l,(al),100%
+#ig
+
+// CHINPIRA2_0301AY
+#sp,vo,02990156
+溝内
+「せやけどなあ…」
+$k
+
+&empty
+柄の悪……強面の人達は、おそらくただの従業員で。
+$k
+
+// CHINPIRA1_0301MJ
+#ir
+#ip,c3,(fi),CHINPIRA1_A301MJ.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990157
+寒川
+「本当ーにお嬢の男じゃあねえんですかい？」
+$k
+
+優
+「え、ええ、ただの友だ…
+$nw,1000
+
+　学園の後輩ですよ？」
+$k
+
+// CHINPIRA1_0301NI
+#ir
+#ip,c3,(fi),CHINPIRA1_A301NI.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990158
+寒川
+「本気でこれっぽっちもなんとも
+　思ってないんだろうなあ？」
+$k
+
+優
+「そりゃもう、これっぽっちも、なんとも！」
+$k
+
+// CHINPIRA1_0301IK3
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,c3,(fi),CHINPIRA1_A301IK3.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990159
+寒川
+「なんじゃとわりゃあ！
+　あんな美人で可愛らしいお嬢つかまえて
+　これっぽっちもとはどういう事じゃあっ！」
+$k
+
+// CHINPIRA2_0301NI
+#ir
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01NI.png,(x),r,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,02990160
+溝内
+「せやぞっ、おのれぶっ殺されたいんかっ！」
+$k
+
+優
+「いやそれ、誘導尋問……って」
+$k
+
+&empty
+…あ。
+$k
+
+#sp,vo,02990161
+//事務員のお姉さん
+女性事務員
+「あのー、寒川さん、溝内さん？
+　もうその辺にしといた方が…」
+$k
+
+// CHINPIRA1_0301IK
+#ir
+#ip,c3,(fi),CHINPIRA1_A301IK.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990162
+寒川
+「塚田さん、止めんでくださいや」
+$k
+
+// 	SS_( CENTERBOTTOM, CHISEKA_0401KB, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// CHINPIRA2_0301IK
+#ir
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02990163
+溝内
+「そうやで、ここはきっちり…」
+$k
+
+#ir,(ef),off
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+優
+「…あっ」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"どごぉっ、ばきぃっ！" );
+#hide
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01AY.png,(x),r,(s),60%
+#ig,(se),S_Punch04
+
+#wait,500
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,c3,(fi),CHINPIRA1_A301KM.png,(x),l,(s),75%
+#ig,(se),S_Punch02
+
+// 	ShakeStand( RIGHT, 30, SHAKE_RIGHT, 10 );
+// 	SS_( RIGHT, CHINPIRA2_0301AY );
+// 	ShakeStand( LEFT, 30, SHAKE_RIGHT, 10 );
+
+#show
+
+// CHISEKA_0401KB
+#sp,vo,02040260
+知世翔
+「寒川さんも溝内さんも、
+　いいかげん仕事に戻りましょうねー？」
+$k
+
+// 	SS_( LEFT, CHINPIRA1_0301EG3 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),CHINPIRA1_A301EG3.png,(x),l,(s),75%
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01EG.png,(x),r,(s),60%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),c,(s),60%
+#ig
+
+// 	SS_( RIGHT, CHINPIRA2_0301EG );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( CENTERBOTTOM, CHISEKA_0401BS );
+// 立ち絵移動。パラメータは適宜。
+
+&empty
+有河知世翔という子は、この強面の人達の
+アイドル的存在であるらしい。
+ということはなんとなく分かった。
+$k
+
+&empty
+まだ腑に落ちない点もあるのだけども。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SS( CENTER, CHISEKA_A401TR );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ARIKAWAJIMUSYO02A.jpg,(s),100%
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR.png,(x),c,(s),80%
+#ig
+
+#show
+
+// CHISEKA_A401TR
+#sp,vo,02040261
+知世翔
+「だから送らなくていいって言ったのに…」
+$k
+
+優
+「お前も大変なんだな…」
+$k
+
+// CHISEKA_A401KB
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040262
+知世翔
+「べっつにー？　そんなことないですけどー」
+$k
+
+優
+「そうか、ならいいけど」
+$k
+
+// 	SV( VISUAL_CHISEKA_02A );
+
+// CHISEKA_A401TR2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,02040263
+知世翔
+「えっと……あのー、…矢崎先輩」
+#meffect,flow,5
+$k
+
+優
+「………え？　はい？」
+$k
+
+&empty
+今、矢崎先輩って言った？
+………なんか久々に聞いたような。
+$k
+
+// CHISEKA_A401TR4
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040264
+知世翔
+「きょ、今日はごめんなさいっ。
+$nw,2900
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01SN.png,(x),c,(s),80%
+#ig
+
+　なんかうちの従業員がひどいめに合わせちゃって、
+$nw,4400
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),80%
+#ig
+
+　………そのぉ」
+$k
+
+優
+「いやいや、もう気にすんなよ、
+　これくらい大したことないしな？」
+$k
+
+// CHISEKA_A401TR4
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040265
+知世翔
+「え――っと、あのー、だから…」
+#meffect,flow,5
+$k
+
+優
+「ん？」
+$k
+
+//	ShowFace();
+#sp,se,S_Chair02
+
+// /*	SS_( CENTER, CHISEKA_A401TR2 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	ShakeStand( CENTER, NORMAL, SHAKE_LEFT, 50, NORMAL * 2 );
+// 	SV( VISUAL_CHISEKA_02A );
+
+#flag,cg,2,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_CHISEKA_02A.jpg,(s),75%
+#ig
+
+// /*	SV( BG_MT_ARIKAWAJIMUSYO02A );
+
+&empty
+事務の椅子に座っていた有河は
+くるっと椅子を回転させ向こうを向く。
+$k
+
+#sp,vo,02040266
+知世翔
+「謝罪…って訳じゃないんだけどぉ。
+#meffect,flow,5
+　時間あったらでいいんだけど……そのぉ」
+#meffect,flow,5
+$k
+
+#sp,vo,02040267
+知世翔
+「ちょっと早いんだけど、
+　夕ご飯食べていかないかなー？って…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「えええっ！？」
+$k
+
+&empty
+なんだこの展開！　一体何がどうなってる？
+有河が俺を夕飯に誘うだと！？
+$k
+
+#sp,vo,02040268
+知世翔
+「今日は……両…親と、その…一緒にね」
+#meffect,flow,5
+$k
+
+#sp,se,S_Pon02,(lp),1
+
+優
+「え？」
+$k
+
+&empty
+事務のお姉さんが後ろから俺を指でつついて、
+ちょこっ、とドアの方を指差す。
+$k
+
+//	SetObject( 0, "Kyotsu02-4_Jimusyo_Chinpira.png", 0, 0 );
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「うを！？」
+$k
+
+//	Blur();
+// 	ShowFace();
+
+// CHINPIRA1_0301NI
+
+#sp,vo,02990164
+寒川
+「………」
+$k
+
+// CHINPIRA2_0301NI
+
+#sp,vo,02990165
+溝内
+「………」
+$k
+
+&empty
+まさに８９３な強面でドアのガラスにピッタリ張り付き
+刺す様な視線でこちらの様子を伺っている。
+$k
+
+#sp,vo,02990166
+//事務員のお姉さん
+女性事務員
+「今日は君、就業時間終わるまで帰れないかもねー？」
+#msmall
+$k
+
+&empty
+まるで籠の鳥！？　……怖えーって、あんた達！
+$k
+
+#sp,se,S_Chair02
+
+//	SS_( CENTER, CHISEKA_A401TR2, MOVE_STOP, NORMAL );
+//	ShakeStand( CENTER, NORMAL, SHAKE_RIGHT, 50, NORMAL * 2 );
+//	SV( VISUAL_CHISEKA_02A );
+//	CF();
+// 	SV( BG_MT_ARIKAWAJIMUSYO02A );
+
+//	ShowFace();
+// 	SS_( CENTER, CHISEKA_A401TR2, MOVE_STOP, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,bg,(fi),BG_MT_ARIKAWAJIMUSYO02A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),80%
+#ig
+
+//	ShakeStand( CENTER, NORMAL, SHAKE_RIGHT, 50, NORMAL * 2 );
+// CHISEKA_A401TR2
+#sp,vo,02040269
+知世翔
+「………えっと？
+$nw,5300
+
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AS.png,(x),c,(s),80%
+#ig
+
+　矢崎先輩ちゃんと聞いてましたかっ！？」
+$k
+
+&empty
+有河がこっちを向くのに合わせて、
+事務員さんもあの二人も視界から消える。
+$k
+
+優
+「あ、ああ！　ちゃんと聞いてたぞ？
+　えーと…そうだなあ……」
+$k
+
+// CHISEKA_A401TR2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040270
+知世翔
+（……うう）
+$k
+
+優
+「喰わせて貰えるんならありがたいなあーって。
+　今日は走ったから、やけに腹減ってるしな…」
+$k
+
+// CHISEKA_A401EG3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040271
+知世翔
+「ええっ！？」
+$k
+
+優
+「はい……ご、ごちになります！」
+$k
+
+// CHISEKA_A401TR6
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR6.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040272
+知世翔
+「あ…ありがとうございます……矢崎先輩」
+$k
+
+優
+「いや…ははは…」
+$k
+
+&empty
+なんて嬉しそうな顔してるんだよ有河…。
+$k
+
+&empty
+つーか、これは策略？
+それともなにかのフラグ立った！？
+$k
+
+&empty
+あと両親がどうとか言ってたよな？
+$k
+
+#sp,vo,02990167
+//事務員のお姉さん
+女性事務員
+「あっ帰ってきたよ知世翔ちゃん、お父さん達」
+$k
+
+// 	ShowFace();
+// 	SV( BG_MT_ARIKAWAJIMUSYO02A );
+
+// 	SS_( CENTER, CHISEKA_A401BS );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),c,(s),80%
+#ig
+
+// 	MoveStand( CENTER, 0, 0, -20 );
+// 	MoveStand( CENTER, FAST | SPEED_DOWN );
+
+//	SetActionEsyaku( CENTER );
+// CHISEKA_A401BS
+#sp,vo,02040273
+知世翔
+「あ、うん」
+$k
+
+//	DelAction( CENTER );
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_ARIKAWAJIMUSYO02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ARIKAWAJIMUSYO02A.jpg,(s),100%
+#ip,c1,(fi),CHISEKAPAPA_A301EG2.png,(x),r2,(s),75%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#show
+
+// 	SS_( RIGHT, CHISEKAPAPA_0301EG2, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// CHISEKAPAPA_0301EG2
+#sp,vo,02990168
+社長
+「おーい、知世翔ちゃん帰ったよーん！
+　お友達はもう…
+$nw,6500
+
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KT.png,(x),r,(s),75%
+#ig
+
+　って…おやっ？　君はたしか…」
+
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「えっ係長ーっ！？
+$nw,1000
+
+　じゃなかった、社長っ？」
+$k
+
+&empty
+本当に社長だったんだな、この人。
+いや、それ以前に有河の親父さんだったとはな。
+$k
+
+//	CS_( CENTER, RIGHT );
+//	DS_( CENTER, MOVE_RIGHT, NORMAL );
+//	WT( NORMAL - FAST );
+// 	SS_( LEFT, CHISEKA_A401NO2, MOVE_LEFT );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO2.png,(x),l2,(s),80%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),l,(al),100
+#ig
+
+// CHISEKA_A401NO2
+#sp,vo,02040274
+知世翔
+「あれ………なに、二人とも知り合いなの？」
+$k
+
+// 	SS_( RIGHT, CHISEKAPAPA_A301EG, MOVE_STOP, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301EG.png,(x),r,(s),100%
+#ig
+
+// CHISEKAPAPA_A301EG
+#sp,vo,02990169
+社長
+「優君じゃないか、………ああそうか、君なんだ。
+　いやー、そうかいそうかい！」
+$k
+
+優
+「えーっと…」
+#meffect,flow,5
+$k
+
+#next,02common02-4_08

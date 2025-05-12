@@ -1,0 +1,773 @@
+﻿// 既読フラグ
+#read_flag,385
+
+#ss,bgm
+
+// 	ZoomStand(CENTER, SLOW|SPEED_DOWN, 120, 120);
+
+// KANAME_A401MJ
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01MJ.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+#sp,vo,06020695
+要
+「じゃ」
+$k
+
+&empty
+要さんの顔が近づいてくる。
+$k
+
+// KANAME_A402AM
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02AM.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06020696
+要
+「…………目を閉じて」
+#meffect,flow,2
+$k
+
+// まぶたを閉じている状態から開ける。
+#ir,(ef),off
+#ip,c2,(fi),image\sysc\sysc_mabuta_1.png,(x),c,(y),o_u
+#ip,c3,(fi),image\sysc\sysc_mabuta_2.png,(x),c,(y),o_d
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,c2,(y),u_s
+#ip,c3,(y),d_s
+#ig
+
+優
+「はい」
+$k
+
+// 	RFO( RULE_EYE , SLOW );
+// 	DelStandAll();
+
+#sp,env,W_Heart01#
+
+&empty
+その言葉が妙に生々しく聞こえて、
+自然に従ってしまった。
+$k
+
+&empty
+要さんの顔が近づいてくる気配がする。
+$k
+
+&empty
+そっと指先が頬に触れ、俺はようやく自分の心臓が
+ばくばくいってるのに気づいた。
+$k
+
+&empty
+不意にキスをする要さんの顔が見たくなって、
+薄目を開けようと…
+$k
+
+#hide
+
+// 	SS(LEFT, MII_0402NO);
+// 揺れ。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),l,(s),60%
+#ig
+
+#ss,env
+#sp,se,S_Door03o
+
+#ir,(ef),move,(dr),2000
+#ip,c2,(y),o_u,(al),0
+#ip,c3,(y),o_d,(al),0
+#ia,c2,al,(dr),1000,(dl),1000
+#ia,c3,al,(dr),1000,(dl),1000
+#ig
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig,(se),S_Dotadotan01
+
+// 	RFI(RULE_EYE, NORMAL);
+
+#show
+
+// MII_0402NO
+
+#sp,vo,06030079
+みい
+「お兄様、お姉様、お茶をお持ちしましたよ」
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+// 	SS( RIGHT, KANAME_0403AS, MOVE_DOWN, NORMAL );
+
+// KANAME_0403AS
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03AS.png,(x),r,(s),60%,(al),0%
+#ie,c2
+#ig
+
+#ir,(ef),off
+#ip,c3,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(y+),-100,(al),100%
+#ig
+
+#sp,vo,06020697
+要
+「あらみいちゃん、ありがと～」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// MII_0402SP2
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02SP2.png,(x),l,(s),60%
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06030080
+みい
+「…お兄様はそんなところで
+　何をされているんですか？」
+$k
+
+// 	SS(RIGHT, KANAME_0401KM, MOVE_STOP, NORMAL);
+
+&empty
+部屋の隅で転がっている俺にみいちゃんが尋ねてくる。
+$k
+
+優
+「…ストレッチ？」
+$k
+
+&empty
+咄嗟に要さんに突き飛ばされて、
+受け身も取れなかっただけだけど。
+$k
+
+&empty
+しかし危なかった…。
+$k
+
+&empty
+もう少しで見られてしまうとこだった。
+$k
+
+// MII_0401SN2
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01SN2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030081
+みい
+「…もう少し待つべきでしたか」
+#msmall
+$k
+
+優
+「そこ、今ぼそっと何て言った？」
+$k
+
+// KANAME_0401PU6
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01PU6.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020698
+要
+「ノックはしようね～みいちゃん」
+#meffect,flow,5
+$k
+
+// MII_0401NO
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030082
+みい
+「すみません。
+　お茶を持ってくるという使命で
+　一生懸命になりすぎて、ついうっかり」
+$k
+
+// KANAME_0401FK4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01FK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020699
+要
+「へぇ～、そおなんだ～」
+#meffect,flow,5
+$k
+
+// MII_0401NO
+#sp,vo,06030083
+みい
+「はい、では失礼します。
+$nw,2980
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),l,(s),60%
+#ig
+
+　あ、お茶ここに置いていきますね？」
+$k
+
+#hide
+
+#sp,se,S_Door01o
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),0%
+#ig
+
+#sp,se,S_Door01c
+
+// 	CS( RIGHT, CENTER );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+// KANAME_0401RK2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK2.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,06020700
+要
+「…どう思う、今の？」
+#meffect,flow,5
+$k
+
+優
+「どう見ても怪しいですね…」
+$k
+
+&empty
+俺と要さんのことは、
+基本的には隠してるんだが。
+$k
+
+&empty
+おかしい。
+なぜか、バレバレのような気がする…。
+$k
+
+優
+「どうしましょ」
+$k
+
+&empty
+どうしましょうも何も流れを遮られて、
+完全に萎えてしまっているけど。
+$k
+
+// 	SS_(CENTER, KANAME_A402EG2, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),c,(s),60%
+#ig
+
+// 	ZoomStand(CENTER, SLOWER, 150, 150);
+
+#ir,(dr),2000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+// KANAME_A402EG2
+#sp,vo,06020701
+要
+「じゃあ続きしよっか」
+$k
+
+優
+「え？」
+$k
+
+// KANAME_A402SI
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02SI.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06020702
+要
+「しーっ」
+#msmall
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+要さんは人差し指を口の前に立てると、
+そのまま足音を立てないようにドアの前に歩いていく。
+$k
+
+// YUKIHA_0401OD
+#ir,(ef),off
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01OD.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door03o
+
+#ir,(dr),500,(ef),move
+#ip,c2,(x),l,(al),100%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c2,(y+),-10
+#ig
+
+#sp,vo,06050046
+雪華
+「きゃっ」
+#mlarge
+$k
+
+// 	SS_(LEFT, YUKIHA_0401OD, MOVE_LEFT, SLOW);
+
+優
+「雪華ちゃん！？」
+$k
+
+
+// 	SS(LEFT, YUKIHA_0401KS, MOVE_STOP, NORMAL);
+// 	SS( RIGHT, KANAME_0401IK3 );
+
+// KANAME_0401IK3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK3.png,(x),r,(s),60%
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06020703
+要
+「やっぱり…
+　１回見たら３０回はっていうものね」
+$k
+
+優
+「それ違う」
+$k
+
+// KANAME_0401MJ2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01MJ2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020704
+要
+「それでどうしたの雪華ちゃん？」
+$k
+
+// YUKIHA_0401KS
+
+#sp,vo,06050047
+雪華
+「あはは…
+　みいちゃんにお茶菓子持ってって、って頼まれて…」
+$k
+
+// KANAME_0401MJ3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01MJ3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020705
+要
+「どうせみいちゃんもその辺に隠れてるのよね」
+$k
+
+#sp,vo,06030084
+？？？
+#mstyle,(co),みい
+「いませんよ」
+$k
+
+// KANAME_0401RK2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020706
+要
+「…いいけど」
+$k
+
+&empty
+どこかに姿を潜ませているが、
+あまり隠れている気はないようだった。
+$k
+
+// KANAME_0401FK5
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01FK5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020707
+要
+「どうしてこういうことするの」
+$k
+
+// YUKIHA_0401KS
+#sp,vo,06050048
+雪華
+「その、心配で…あの兄ですし…
+$nw,5950
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM2.png,(x),l,(s),60%
+#ig
+
+　要お姉ちゃんに変なことしてないか…」
+
+$k
+
+// KANAME_0401RK2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020708
+要
+「あ～確かにそれはわかるけど。
+$nw,3660
+
+　実際に……………
+$nw,2100
+
+#madd,ねぇ？」
+
+$k
+
+// 	SS(LEFT, YUKIHA_0401KD, MOVE_STOP, NORMAL);
+
+優
+「ちょ、ちょっと…」
+$k
+
+&empty
+妹にそういうこと吹き込むのやめてっ。
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020709
+要
+「でも、雪華ちゃん？
+　こういうことしちゃだめよ？」
+$k
+
+// YUKIHA_0401BS2
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06050049
+雪華
+「は～い」
+$k
+
+// KANAME_0401MJ2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01MJ2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020710
+要
+「みいも」
+$k
+
+#sp,vo,06030085
+みい
+「いませんから」
+$k
+
+// KANAME_0401US2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01US2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06020711
+要
+「はぁ……」
+#meffect,flow,5
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS(CENTER, KANAME_0401US4);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03D.jpg,(s),100%
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01US4.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KANAME_0401US4
+#sp,vo,06020712
+要
+「…ま、実家でそういう空気作る方も悪いんだけどね」
+$k
+
+優
+「そりゃそうですけど」
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020713
+要
+「やめやめ。今日はもう帰ろっかな」
+$k
+
+優
+「…そうですか。
+$nw,1000
+
+　あ、じゃあ送っていきますから」
+$k
+
+// KANAME_0401IK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020714
+要
+「いいから勉強してなさい」
+$k
+
+優
+「そっけないなあ…。今日が終わったら、
+　今月の終わりまで会わないんでしょ？」
+$k
+
+// KANAME_0401MJ2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020715
+要
+「キミが今一番頑張るべきは勉強でしょ。
+　いくら高望みしないとはいえ、
+　手を抜いてたら足元すくわれるわよ」
+$k
+
+優
+「そうかもしれませんけど」
+$k
+
+// KANAME_0401NO2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020716
+要
+「終わったらまた会えるんだから」
+$k
+
+優
+「…こういうの、ナンセンスな気がしません？」
+$k
+
+// KANAME_0401IK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020717
+要
+「わたしは結構だらしない、
+　キミは人に流されやすいじゃ
+　そんなこと言ってられません」
+$k
+
+// KANAME_0401IK
+#sp,vo,06020718
+要
+「悔しかったら一日でも早く受験を終わらせなさい」
+$k
+
+優
+「いや受験日って、決まってますから」
+$k
+
+// KANAME_0401MJ3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01MJ3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020719
+要
+「あのね……
+　わたしだって何も思わないわけでないのよ」
+$k
+
+優
+「あ…」
+#meffect,flow,5
+$k
+
+&empty
+要さん……。
+#meffect,flow,5
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020720
+要
+「あ、このマンガの続き借りてっていい？
+　読み出したら気になるのよね～」
+$k
+
+&empty
+この人、マンガ目当てで
+俺とつきあったんじゃなかろうな…。
+$k
+
+優
+「はいはい、いいですよ。
+　鞄、それ使っていいですから」
+$k
+
+// KANAME_0401NO2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020721
+要
+「これね」
+$k
+
+#sp,se,W_Kaban01
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),100,(al),0%
+#ig
+
+&empty
+要さんは、軽やかにマンガを鞄に詰め込んでいく。
+$k
+
+// 	SS( CENTER, KANAME_A402BS, MOVE_DOWN );
+
+// KANAME_0402BS
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),80%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+#sp,vo,06020722
+要
+「さんきゅ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),c,(s),100%
+#ig
+
+#sp,se,sound\voice\06\060207\06020723
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+// 	ZoomStand(CENTER, SLOW|SPEED_DOWN, 120, 120);
+// 	SV( BG_SJ_YU03D );
+// 	DelStandAll();
+// 	Zoom(FASTEST, 250, 250);
+// 	Scroll(FASTEST, 0, -100);
+// 	SS(CENTER, KANAME_A402EG2);
+
+#wait,500
+
+#show
+
+//	SP( "S_Kiss01" );
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+優
+「………」
+#meffect,flow,2
+
+$k
+
+// 	SV( BG_SJ_YU03D );
+// 	DelStandAll();
+// 	SS( CENTER, KANAME_A402NO );
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+// KANAME_A402NO
+#sp,vo,06020724
+要
+「さすがにこれならあの子達もわからないわよね」
+$k
+
+
+#next,06kaname14_02

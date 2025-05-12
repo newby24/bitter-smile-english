@@ -1,0 +1,814 @@
+﻿// 既読フラグ
+#read_flag,171
+
+#show
+
+#sp,vo,05031002
+みい
+「はぁ、はぁ……」
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,S_Gatan01
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(y),d_s
+#ig
+
+// 	Zoom( 150, 200, 200, 400, 400 );
+
+// MII_A201NO
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+#sp,vo,05031003
+みい
+「しばらくここに隠れて、
+　お兄様に私を捜してもらいましょう」
+$k
+
+// MII_A201KS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031004
+みい
+「お兄様は私を怒らせたと勘違いして、
+　一生懸命に捜すはずですからね」
+$k
+
+// MII_A201SN2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01SN2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031005
+みい
+「………」
+$k
+
+// MII_A201NI2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NI2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031006
+みい
+「…まあ、実際ちょっと怒ってるんですけど」
+$k
+
+// MII_A201NS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031007
+みい
+「私を見つけたら、改心してもらいます」
+$k
+
+// MII_A202RK
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02RK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031008
+みい
+「いつまでも妹みたいな扱いをされていたのでは
+　堪りませんから」
+$k
+
+// MII_A203FK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031009
+みい
+「私は雪華さんとは違うのです」
+$k
+
+// MII_A203FK
+#sp,vo,05031010
+みい
+「ちゃんと、そういう扱いをしてもらわないと…。
+　私はお兄様の恋人なんですから」
+$k
+
+// MII_A203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031011
+みい
+「………」
+$k
+
+// MII_A203KT
+#sp,vo,05031012
+みい
+「…………」
+$k
+
+// MII_A203MU
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031013
+みい
+「………………」
+$k
+
+// MII_A203SN
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03SN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031014
+みい
+「……来ませんね」
+$k
+
+// MII_A203KM
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031015
+みい
+「お兄様…まさか、追いかけて来ないなんて事は
+　ありませんよね？」
+$k
+
+// MII_A203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031016
+みい
+「………………………」
+$k
+
+// MII_A203EG3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031017
+みい
+「も、もう少しわかりやすいところに
+　移動した方がいいでしょうか？」
+$k
+
+// MII_A203NS2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031018
+みい
+「それに…お兄様が私を必死に探し回る姿をこの目で
+　見ないと、こうしてる意味がないですしね？」
+$k
+
+#hide
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	Zoom( 150, 150, 150, 400, 300, 1 );
+// 	Scroll( 50, 30, 0 );
+// 	WaitScroll();
+
+// 	WaitSE();
+
+// 	SV( BG_GK_ROKA01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01B.jpg,(s),100%
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP2.png,(x),c,(s),60%
+#ig
+
+// 	SS( CENTER, MII_0202SP2, MOVE_LEFT );
+
+#show
+
+// MII_0202SP2
+
+#sp,vo,05031019
+みい
+「………居ない」
+$k
+
+// MII_0202NK
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031020
+みい
+「お兄様はどこへ……」
+$k
+
+// MII_0202NK
+#sp,vo,05031021
+みい
+「……」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KAIDAN01A );
+// 	SS( CENTER, MII_0201BS, MOVE_RIGHT );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KAIDAN01A.jpg,(s),100%
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0201BS
+#sp,vo,05031022
+みい
+「この辺なら、お兄様の姿を見かけたら、
+　すぐ隠れられますかね」
+$k
+
+// MII_0201NS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031023
+みい
+「ふふふ…お兄様の慌てふためく姿が
+　目に浮かぶようです」
+$k
+
+// MII_0203NO2
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031024
+みい
+「………」
+$k
+
+// MII_0203NO2
+#sp,vo,05031025
+みい
+「…………」
+$k
+
+// 	SS( CENTER, MII_0203SN );
+
+// MII_0203SN
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031026
+みい
+「……ちっとも来ませんね………」
+$k
+
+// MII_0202AS2
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02AS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031027
+みい
+「ま、まさか、ショックを受けたまま、
+　屋上で固まっているのでは？」
+$k
+
+// MII_0202AS
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031028
+みい
+「あり得ます。何といってもあのお兄様ですから」
+$k
+
+// MII_0202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031029
+みい
+「はあ……仕方のないお兄様ですねー」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Door10o
+
+// 	WaitSE();
+
+// 	SV( BG_GK_OKUJYO01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_OKUJYO01B.jpg,(s),100%
+#ig
+
+#wait,500
+
+#sp,se,S_Wind02
+
+#wait,1000
+
+// MII_0203AK
+#ir,(ef),off
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AK.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	WaitSE();
+
+// 	SS( CENTER, MII_0203AK, MOVE_RIGHT );
+
+#show
+
+#sp,vo,05031030
+みい
+「ふう、お兄様。
+　少しは反省されましたか？」
+$k
+
+// MII_0203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031031
+みい
+「お兄様……？」
+$k
+
+// MII_0203KD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031032
+みい
+「どうして……。
+$nw,1720
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM.png,(x),c,(s),60%
+#ig
+
+　どこかで行き違いになったのでしょうか？」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r
+#ig
+
+// 	CS( CENTER, RIGHT );
+
+// MII_0201AS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01AS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05031033
+みい
+「それとも私を脅かそうと、
+　屋上のどこかに隠れてるんですかぁ？」
+$k
+
+// 	CS( RIGHT, CENTER );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+
+// MII_0203KD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031034
+みい
+「それは私のポジションですよーっ？」
+$k
+
+// 	CS( CENTER, LEFT );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l
+#ig
+
+// MII_0202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05031035
+みい
+「……お兄様ぁ？」
+$k
+
+// 	CS( LEFT, CENTER );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+// MII_0202SP2
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031036
+みい
+「………わかってますかぁ？」
+$k
+
+// MII_0202NK
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031037
+みい
+「……………」
+$k
+
+//	SetIconIkari( CENTER );
+// MII_0202MJ
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031038
+みい
+「…何なんですかぁ……」
+$k
+
+// MII_0202MJ
+#sp,vo,05031039
+みい
+「………」
+$k
+
+// MII_0202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031040
+みい
+「まさか…私を置いて帰って……」
+$k
+
+// MII_0201SN3
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01SN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05031041
+みい
+「いえ、きっと学園内のどこかに居るはずですっ」
+$k
+
+#hide
+
+#sp,se,S_Door10o
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,T_Walk,(lp),3
+
+// 	SV( BG_GK_KAIDAN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KAIDAN01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	WaitSE();
+// 	WaitSE();
+// 	WaitSE();
+// 	WaitSE();
+// 	WaitSE();
+
+// 	SV( BG_GK_ROKA01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01B.jpg,(s),100%
+#ig
+
+// 	SS( CENTER, MII_0202SP, MOVE_RIGHT );
+
+// MII_0202SP
+#ir,(ef),off
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,05031042
+みい
+「一体どこに…」
+$k
+
+#hide
+
+// 	SV( BG_GK_KYOSHITSU01C );
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_GK_KYOSHITSU01C.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_TOSYOSHITSU01A );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_GK_TOSYOSHITSU01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_SYOKUINSHITSU01A );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_GK_SYOKUINSHITSU01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_CHURIN01B );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_GK_CHURIN01B.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SS( CENTER, MII_A203KM4, MOVE_RIGHT, NORMAL );
+
+// MII_A203KM4
+#ir,(ef),off
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM4.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,05031043
+みい
+「………外にも居ない」
+$k
+
+// MII_A203KM4
+#sp,vo,05031044
+みい
+「まさか…本当に帰ってしまわれたなんて事は…」
+$k
+
+// MII_A202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031045
+みい
+「……ど、どうしましょう。
+　私、お兄様に嫌われてしまったんでしょうか。
+　だから捜してくれなかったのでしょうか？」
+$k
+
+// MII_A202NK
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031046
+みい
+「…とりあえず千寿に……」
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,S_Tel05
+
+#wait,500
+
+#sp,env,S_Tel06#
+
+#wait,1600
+
+// 	SEStop( 0 );
+
+#ss,env
+#sp,se,S_Tel05
+
+#show
+
+#sp,vo,05060012
+紀乃
+「はい、たこ焼き千寿…」
+$k
+
+// MII_A201OD
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031047
+みい
+「お婆様？」
+$k
+
+#sp,vo,05060013
+紀乃
+「なんや、みいかい。どないしたんな？
+　こっちにかけてくるやなんて、珍しなぁ？」
+$k
+
+// MII_A201AS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031048
+みい
+「あ、あの、お兄様はそちらに帰られてますか？」
+$k
+
+#sp,vo,05060014
+紀乃
+「優？　いや、おらへんけど？」
+$k
+
+// MII_A202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031049
+みい
+「…そうですか……」
+$k
+
+#sp,vo,05060015
+紀乃
+「優がどうかしたんか？　今日卒業式やろ？」
+$k
+
+// MII_A202NM2
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031050
+みい
+「ええ…あ、いえ、帰られてないならいいのです。
+　それでは」
+$k
+
+#sp,vo,05060016
+紀乃
+「あ、ちょっと待ちや…」
+$k
+
+#sp,se,S_Tel05
+
+// MII_A203KM4
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031051
+みい
+「千寿には帰ってない……ということは、まだ学園内に？」
+$k
+
+#sp,env,S_Tel07#
+
+// MII_A201OD
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031052
+みい
+「っ！？
+$nw,680
+
+#ss,env,(dr),0,(cl),NO
+#sp,se,S_Tel05
+
+#madd,　お兄様！」
+
+$k
+
+// 	SEStop( 0 );
+
+#sp,vo,05000118
+桜子
+「わっ、びっくりした！？」
+$k
+
+// MII_A201OD2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01OD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031053
+みい
+「あ、姉上」
+$k
+
+#sp,vo,05000119
+桜子
+「どうしたの、大きな声だして？
+　ってか、優が何？」
+$k
+
+// MII_A202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031054
+みい
+「あ、いえ、その…
+　ちょっとお兄様を捜していまして…」
+$k
+
+#sp,vo,05000120
+桜子
+「そうなんだ？
+　みい、今どこにいるの？
+　一緒に写真撮ろうと思ったんだけど…」
+$k
+
+
+#next,05mii16_02

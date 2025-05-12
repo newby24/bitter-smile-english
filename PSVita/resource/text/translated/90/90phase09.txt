@@ -1,0 +1,29 @@
+// 選択肢。
+#read_flag,509
+
+// セーブタイトル
+#flag,save_title,イベント選択　０９,0,0
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),image\select\select_background.jpg
+#ig
+
+// 選択肢ボタン画像の読み込み。
+#ir,(ef),load
+#ip,c1,(fi),image\select\select_phase09_sakurako.png,(al),0:(if),per,1,==,6
+#ip,c2,(fi),image\select\select_phase09_isaki.png,(al),0:(if),per,2,==,6
+//#ip,c3,(fi),image\select\select_phase08_mii.png,(al),0
+#ip,c4,(fi),image\select\select_phase09_kaname.png,(al),0
+#ig
+
+// 要が無条件。みいはなし。
+// 桜子、勇樹はそれぞれ好感度が７のとき。
+
+#selp,(ef),fade,(dr),500
+#seli,　轟木家・居間,03sakurako07_00,(lay),c1,(ali),l,(sta),1:(if),per,1,==,6
+#seli,　鶴ヶ丘学園・教室（勇樹）,04isaki07_00,(lay),c2,(ali),l,(sta),1:(if),per,2,==,6
+//#seli,　轟木家・台所,05mii07_00,(lay),c3,(ali),l,(sta),1
+#seli,　鶴ヶ丘学園・教室（要）,06kaname07_00,(lay),c4,(ali),l,(sta),1
+$k

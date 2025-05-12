@@ -1,0 +1,724 @@
+﻿// 既読フラグ
+#read_flag,152
+
+&empty
+が。
+$k
+
+// 	SS( RIGHTEDGE, YUKIHA_0401IK2 );
+
+#ss,bgm
+
+#ir,(ef),off
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),r3,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ip,c3,(x),r2,(al),100%
+#ig
+
+// YUKIHA_0401IK2
+
+#sp,vo,05050011
+雪華
+「…要お姉ちゃんに何してるの、お兄ちゃん」
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+優
+「ゆ、雪華ちゃん！？」
+$k
+
+// KANAME_A401KM2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05020039
+要
+「あ、雪華ちゃん、助けてぇー」
+$k
+
+// 	ShakeStand( CENTER, SLOW, SHAKE_LEFT, 6, 20 );
+
+// YUKIHA_0401KB3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KB3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,05050012
+雪華
+「ほぉら、離れて離れて」
+$k
+
+#ir
+#ip,c1,(x),l,(s),60%
+#ip,c3,(x),r,(s),60%
+#ig
+
+&empty
+突然現れた雪華ちゃんに、
+あっさり引き離されてしまった。
+$k
+
+// 	SS( CENTER, KANAME_0401KM2 );
+// 	MoveStand( CENTER, NORMAL, -150, 0 );
+// 	CS( RIGHTEDGE, CENTERRIGHT );
+
+優
+「ど、どうしたの雪華ちゃん。こんなとこまで」
+$k
+
+// YUKIHA_0401IK2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05050013
+雪華
+「理由を聞きたいのはこっち。
+　お兄ちゃん、要お姉ちゃんに何してたの？」
+$k
+
+優
+「いやそれは…」
+$k
+
+// KANAME_0403GN2
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05020040
+要
+「ふえーん、雪華ちゃーん」
+$k
+
+優
+「………」
+$k
+
+&empty
+絶体絶命。
+$k
+
+&empty
+要さんならともかく、こんなことが
+雪華ちゃんに知れたら、話し合いの余地もない。
+$k
+
+// YUKIHA_0401IK7
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK7.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05050014
+雪華
+「…聞きたいことはあるけど、その前に、
+　色々と伝言頼まれてるから、先にそっち済ますね」
+$k
+
+優
+「伝言？」
+$k
+
+// YUKIHA_0401KB3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KB3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05050015
+雪華
+「窓を開けて」
+$k
+
+優
+「窓…って、このくそ寒いのに？」
+$k
+
+// YUKIHA_0401IK2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05050016
+雪華
+「いいから早く。そっちの窓ね」
+$k
+
+優
+「はいはい…！」
+$k
+
+#hide
+
+#sp,se,S_Door11o
+
+// 	SV( BG_SJ_YU03D );
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03D.jpg,(s),100%,(er),NO
+#ig
+
+#show
+
+&empty
+一体なんなんだか…。
+とりあえず、雪華ちゃんの指差してる窓を開ける。
+$k
+
+// YUKIHA_0401BS
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05050017
+雪華
+「要お姉ちゃんは、私と一緒に隅の方に避難して」
+$k
+
+// KANAME_0403KT
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03KT.png,(x),l,(s),60%
+#ig
+
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),420,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,05020041
+要
+「避難？」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l2,(al),0%
+#ip,c3,(x),r0,(al),0%
+#ig
+
+優
+「雪華ちゃん、これでいい？」
+$k
+
+// YUKIHA_0401KT
+
+#sp,vo,05050018
+雪華
+「全開にしてね」
+$k
+
+#hide
+
+#ss,bgm
+
+// 	SV( BG_SKY03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+#sp,se,S_Wind02
+
+#show
+
+&empty
+指示通り、窓をいっぱいに開いて、
+夜気の冷たさに身を震わせる。
+$k
+
+&empty
+けど、そうしたところでこの先には…。
+$k
+
+#sp,se,S_Air03
+
+// 	SK2();
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「うわっ！？」
+#mlarge
+$k
+
+// 	SK2();
+
+#sp,bgm,BGM_COMICAL1
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Door08c
+
+&empty
+それを避けられたのは紙一重。
+まさに間一髪のタイミングだった。
+$k
+
+&empty
+いきなり窓の外からすごい勢いで飛来したそれは、
+避けた俺の後ろの壁にぶつかった。
+$k
+
+// KANAME_0401OD3
+
+#sp,vo,05020042
+要
+「な、なになに？　夜討ち！？」
+$k
+
+// YUKIHA_0401EG
+
+#sp,vo,05050019
+雪華
+「さっすがー。ナイスコントロール」
+$k
+
+優
+「………」
+$k
+
+&empty
+俺は、改めて見下ろした。
+$k
+
+&empty
+勢いを失って床に転がった、見慣れたボールを。
+$k
+
+#hide
+
+#sp,env,S_Tel12#
+
+#wait,1000
+
+// 	SEStop( 0 );
+
+#ss,env,(dr),0
+
+#sp,se,S_Tel09
+
+// 	SV( BG_TD_GAIKAN03A );
+
+// 	ZoomVisual(0, 200, 200, 600, 0);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN03A.jpg,(s),100%,(y),u_s
+#ig
+
+//	WT( 60 );
+#show
+
+// SAKURAKO_0101NO
+
+#sp,vo,05000041
+桜子
+「矢崎さーん、おっ届けものでーす」
+$k
+
+優
+「肩良すぎだろおまえ！？」
+#mlarge
+$k
+
+&empty
+それはおそらく…いや間違いなく、
+桜子の部屋から投げ込まれたものだった。
+$k
+
+&empty
+証拠に、向こうの窓で桜子が気軽に手を挙げている。
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　スナイパー
+
+$k
+
+優
+「つか、俺に当たったり、
+　窓から外れたらどうするつもりだったんだよ」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,05000042
+桜子
+「だいじょうぶ、紐をくくりつけてあるもの。
+　キャッチ＆リリースで、何度でもリトライできる」
+$k
+
+&empty
+見ると、確かにボールには長い紐がくくられて、
+桜子の部屋まで繋がっているようだった。
+$k
+
+優
+「横着な…」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,05000043
+桜子
+「なによー、ぶつくさうるさい男ねー。
+　それより届けたものはちゃんと確認したの」
+$k
+
+優
+「届けたものだぁ？」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,05000044
+桜子
+「ボール見る」
+$k
+
+優
+「ボール？」
+$k
+
+// 	SV( BG_SJ_YU03A );
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+// SAKURAKO_0101NO
+
+#sp,vo,05000045
+桜子
+「早く」
+$k
+
+優
+「なんなんだよ…」
+$k
+
+&empty
+とりあえず言われたとおり、
+転がったボールを拾い上げる。
+$k
+
+優
+「あ…」
+$k
+
+#ss,bgm
+
+&empty
+くくりつけてあったのは、紐だけじゃなかった。
+$k
+
+#sp,bgm,BGM_YASURAGI
+
+// SAKURAKO_0101NO
+#sp,vo,05000046
+桜子
+「いよいよ明日だもんね。
+　お互いベストを尽くしましょ」
+$k
+
+優
+「………」
+$k
+
+&empty
+お守りだった。
+$k
+
+&empty
+テープでぐるぐる巻きにされた合格祝いが、
+ボールに貼りつけてあった。
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,05000047
+桜子
+「どうした、感激して言葉も出ないかー」
+$k
+
+優
+「ば、馬っ鹿おまえ、剥がすの大変そうだなって
+　ちょっとブルー入ってただけだよ！
+　そっちこそ、照れを変な言葉で誤魔化してんだろ」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,05000048
+桜子
+「はぁー？
+　なにそれなにそれなにそれー」
+$k
+
+優
+「だいたい雪華ちゃんに伝言頼むくらいなら、
+　渡してもらえばよかっただろうに」
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,05000049
+桜子
+「直接渡さないとご利益なさそうでしょ」
+$k
+
+優
+「こういうのは渡すでなく投げつけると言うんだ」
+$k
+
+&empty
+もっとご利益なさそうだ。
+$k
+
+// SAKURAKO_0101NO
+#sp,vo,05000050
+桜子
+「優にはそれくらいでじゅーぶんよ」
+$k
+
+// 	ShowFace();
+// 	SS( CENTER, YUKIHA_0401KT, MOVE_LEFT );
+
+// YUKIHA_0401KT
+#ir,(ef),off
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+#sp,vo,05050020
+雪華
+「あの、お話し中、悪いんだけど」
+$k
+
+優
+「雪華ちゃん？」
+$k
+
+#sp,vo,05000051
+桜子
+「あ、雪華ちゃん伝言ありがとねー」
+$k
+
+&empty
+いや、おまえの声は聞こえてないから。
+$k
+
+// YUKIHA_0401AK4
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+#sp,vo,05050021
+雪華
+「ついでだからこれ。
+　お母さんに言われて…それと一応私からも」
+$k
+
+// 	ZoomStand( CENTER, 15, 130, 130 );
+// 	ZoomStand( CENTER, 15, 100, 100, 1 );
+
+優
+「お守り、雪華ちゃんから！？」
+$k
+
+// YUKIHA_0401TR
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01TR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05050022
+雪華
+「メインはお母さんですぅ」
+$k
+
+優
+「でも合格祈願じゃなくて
+　安産みたいなんだけど、これ…」
+$k
+
+// YUKIHA_0401KM5
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM5.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),20,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05050023
+雪華
+「ま、間違えたんだもん…」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「全然オッケー！
+　そこは雪華ちゃんの照れ補正と思っておくから」
+$k
+
+// YUKIHA_0401KM3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05050024
+雪華
+「ううう…」
+$k
+
+// 	SS_( RIGHT, KANAME_0402NO );
+
+#ir,(ef),off
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l
+#ip,c2,(x),r,(al),100%
+#ig
+
+// 	CS( CENTER, LEFT );
+
+
+// KANAME_0402NO
+#sp,vo,05020043
+要
+「わたしとお婆ちゃんのも忘れないでよねー。
+$nw,3000
+
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),r,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+　はいどうぞ」
+$k
+
+// 	ZoomStand( RIGHT, 50, 130, 130 );
+// 	ZoomStand( RIGHT, 50, 100, 100, 1 );
+
+#sp,vo,05000052
+桜子
+「もてもてじゃない、優」
+$k
+
+優
+「誰にも期待されてないと思ってたのになー」
+$k
+
+&empty
+みんなからのお守りを抱きしめるように持つ。
+$k
+
+優
+「まじめに生きるもんだな」
+$k
+
+#sp,vo,05000053
+桜子
+「なに言ってんだか」
+$k
+
+優
+「それとすまん、桜子。
+　俺、お返し用意してない」
+$k
+
+#sp,vo,05000054
+桜子
+「べっつにー。
+　お返しがほしくてしたことじゃないし、
+　感謝の気持ちがあるなら結果で返してよね」
+$k
+
+優
+「そうだな」
+$k
+
+&empty
+これだけモチベーションを高めてもらって、
+駄目だったなんて口が裂けても言えないわな。
+$k
+
+優
+「みんなにお礼言うなら、頑張るしかないか」
+$k
+
+#ss,bgm
+
+// YUKIHA_0401KD
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050025
+雪華
+「って、いい話っぽくなっても、
+　うやむやにはならないから」
+$k
+
+優
+「え…？」
+$k
+
+#sp,vo,05000055
+桜子
+「なんの話よ？」
+$k
+
+// YUKIHA_0401IK2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050026
+雪華
+「さっきのこと。
+　お兄ちゃん、要お姉ちゃんに何やってたの」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// KANAME_0401OD2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01OD2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05020044
+要
+「ああー」
+$k
+
+#sp,vo,05000056
+桜子
+「なにー、あんたお姉になんかしたの？」
+$k
+
+優
+「………」
+$k
+
+
+#next,05mii11_04

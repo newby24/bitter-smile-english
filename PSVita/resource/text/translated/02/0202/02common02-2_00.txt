@@ -1,0 +1,636 @@
+﻿// 既読フラグ
+#read_flag,65
+
+// セーブタイトル
+#flag,save_title,Ａｃｔ２－２,0,0
+
+// 	SV( BG_MT_JINJYAMAE02B );
+// 	SS( CENTER, DAIGO_A301EG2 );
+
+//	BFP( BGM_NONBIRI );
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE02B.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,Ａｃｔ２－２　あっ！？秋祭り
+$k
+#note,erase
+
+#ir
+#ip,c1,(fi),DAIGO_A301EG2.png,(x),c,(s),100%
+#ig
+
+#show
+
+// DAIGO_A301EG2
+#sp,vo,02090000
+沖奈大吾
+「いやー、ありがとう優君。
+　やっぱり男の子が居るとこういう時、助かるねえ！」
+$k
+
+優
+「まあこれくらい、大したもんでもないけどさ…」
+$k
+
+&empty
+俺と大吾のおっちゃんの二人きり。
+$k
+
+&empty
+俺は日も落ちないうちに駆り出され、テント建てたり
+屋台セット組み立てたりを手伝わされていた。
+$k
+
+優
+「おっちゃんこれ、毎回一人で二つ組んでんの？」
+$k
+
+// DAIGO_A301BS
+#ir
+#ip,c1,(fi),DAIGO_A301BS.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02090001
+沖奈大吾
+「そうだねえ…年寄りは労わらんといかんとも思うし、
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　いた
+$nw,5400
+
+#ir
+#ip,c1,(fi),DAIGO_A301KS.png,(x),c,(s),100%
+#ig
+
+　看板娘に力仕事させるのもなあ？」
+
+$k
+
+優
+「そんな苦笑い浮かべながら言われてもね」
+$k
+
+// 	SS(  CENTER, KINO_0401IK3, MOVE_RIGHT );
+
+// KINO_0401IK3
+#ir
+#ip,c3,(fi),KINO_A401IK3.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,02060063
+紀乃
+「誰が年寄りじゃ！」
+$k
+
+優
+「じゃあ婆さんも手伝ってあげたらいいのに」
+$k
+
+// KINO_0401NS
+#ir
+#ip,c3,(fi),KINO_A401NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060064
+紀乃
+「年上は敬うもんやろ？」
+#mfuri,　　　　　　　　うやま
+
+$k
+
+優
+「あーいえばこーいう…」
+$k
+
+// 	CS_( CENTER, LEFT );
+// 	SS_( RIGHT, SAKURAKO_0403AK, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03AK.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c2,(x),r,(al),100
+#ip,c3,(x),l
+#ig
+
+// SAKURAKO_0403AK
+#sp,vo,02000326
+桜子
+「はいはい、くだらない言い争いは後でいいから。
+$nw,3300
+
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),80%
+#ig
+
+　これ中に入れて、あとボンベも繋いどいてね」
+$k
+
+優
+「へいへい…」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2,c3
+#ig
+
+&empty
+今日は秋祭り。
+クレープ屋もたこ焼き屋も、もちろん他の店も、
+さあ稼ぎ時とばかりに、みんなで軒をならべる日だ。
+$k
+
+// 	SS( CENTERBOTTOM, MEGUMI_0401EG2, MOVE_LEFT, NORMAL );
+
+// MEGUMI_0401EG2
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG2.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,02070099
+めぐみ
+「毎度毎度、もうかりまっかぁ～？」
+$k
+
+優
+「おう、めぐみも来たか。
+$nw,1000
+
+　……まだ準備も出来てねえよ」
+$k
+
+
+// MEGUMI_0401IK
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070100
+めぐみ
+「も～優ちゃんノリ悪いなぁ～
+$nw,3700
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG6.png,(x),c,(s),60%
+#ig
+
+　ね～勇樹ちゃん？」
+$k
+
+// 	SS( LEFTLEFT, ISAKI_0401NO, MOVE_LEFT, NORMAL );
+
+// ISAKI_0401NO
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),l3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),100%
+#ig
+
+#sp,vo,02010119
+勇樹
+「…もちもちでんな……
+$nw,2200
+
+　生地が」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),2,(sync),NO
+#ig,(se),S_Gan02
+
+//	SM( CHAR_ETC,			-1,					"",				"がんっ！" );
+// 	Blur( 0, 1 );
+
+// 	Zoom(    0, 100, 100, 400, 600 );
+// 	Zoom( 10, 110, 110, 400, 600 );
+// 	Shake( 10, SHAKE_UP, 50, FAST * 2 );
+// 	Rotate( 10, 1 );
+
+// 	Blur();
+// 	Rotate( FAST );
+// 	Zoom( FAST, 100, 100, 400, 600 );
+
+優
+「つっ……お前、宮津橋になに仕込んでんだよっ。
+　ボンベに頭ぶつけたじゃねえか」
+$k
+
+// 	SS_( CENTERBOTTOM, MEGUMI_0401AZ4 );
+// 立ち絵移動。パラメータは適宜。
+
+&empty
+まさか宮津橋を絡めてくるとは思わなかったからな。
+しかしこいつも、どんな弱み握られてんだよ？
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+// 	CS_( CENTERBOTTOM, LEFT, SLOW );
+// 	SS( RIGHT, SAKURAKO_0403NO, MOVE_RIGHT, NORMAL );
+
+// SAKURAKO_0403NO
+#ir,(ef),off
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c2,(x),r,(al),100%
+#ip,c3,(x),l3,(al),0%
+#ip,c1,(x),l
+#ig
+
+#sp,vo,02000327
+桜子
+「そうよね、うちの生地はふわふわなのにねえ？」
+$k
+
+優
+「そういう事じゃなくてだな………
+$nw,1000
+
+　いや、いいよもう」
+$k
+
+// 	ShakeStand( LEFT, 420, SHAKE_RIGHT, 20, NORMAL );
+
+// MEGUMI_0401KM2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM2.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,c1,(x+),-30
+#ig
+
+#sp,vo,02070101
+めぐみ
+「やぁ～だ～、テンション低いな～優ちゃん。
+$nw,4200
+
+// ループ停止。
+#ils
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK4.png,(x),l,(s),60%
+#ig
+
+// 	ShakeStand( LEFT, 0, SHAKE_RIGHT, 0 );
+
+　せっかくのお祭りなのにぃ」
+$k
+
+優
+「祭りつっても、ずっと屋台の中じゃあテンションも
+　上がんねえしなあ…」
+$k
+
+// 	SS_( LEFT, MEGUMI_0401BS3 );
+// 立ち絵移動。パラメータは適宜。
+
+
+// SAKURAKO_0402NO
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS3.png,(x),l,(s),60%
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000328
+桜子
+「なにあんた、聞いてないの？」
+$k
+
+優
+「あー？　なにをー？」
+$k
+
+// SAKURAKO_0401TR3
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000329
+桜子
+「今日は店番とか手伝わなくていいのよ？
+$nw,2600
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+　お婆ちゃんから聞かなかった？」
+$k
+
+優
+「マジでっっ！？」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),KINO_A401NO2.png,(x),c,(s),60%
+#ie,c3,c2
+#ig,(se),T_tukamu
+
+// 	Blur( 0, 1 );
+// 	Zoom( 0, 110, 110 );
+// 	Zoom( FAST | SPEED_DOWN );
+
+優
+「おいおい婆さん、そんなの一言も聞いてなかったぞ」
+$k
+
+// 	Blur();
+
+// KINO_0401NS
+#ir
+#ip,c1,(fi),KINO_A401NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060065
+紀乃
+「サプライズいうんは、ぎりぎりで分かっ…」
+$k
+
+// 	Zoom( FAST );
+
+優
+「いや、へんな気遣いとかいらないから！
+　こうしちゃおれん、戻って財布取ってこないと！」
+$k
+
+// SAKURAKO_0401AK
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000330
+桜子
+「はいはい、ちゃんと店の準備が終わってからね！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE02B.jpg,(s),100%
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),l2,(s),60%,(al),0%
+#ip,c3,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01BS2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#sp,env,T_maturi#
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l,(al),100%
+#ip,c3,(x),r,(al),100%
+#ig
+
+#show
+
+// 	SS( RIGHT, YUKIHA_0901BS2, MOVE_LEFT, NORMAL );
+// YUKIHA_0901BS2
+#sp,vo,02050018
+雪華
+「めぐお姉ちゃんだー、
+$nw,1700
+
+#ir,(dr),0
+#ip,c3,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01EG.png,(x),r,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),-5
+#ig
+
+　あ、勇樹さんもー！」
+$k
+
+// 	DelAction( RIGHT );
+
+// MII_0401BS
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,02030181
+みい
+「みなさん、お晩でございますー」
+$k
+
+// 	DelAction( LEFT );
+// MEGUMI_A401EG3
+
+#sp,vo,02070102
+めぐみ
+「やあ、こんばんわ～、
+$nw,1900
+
+　みいちゃん雪華ちゃん♪」
+$k
+
+// YUKIHA_0901EG3
+#ir
+#ip,c3,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02050019
+雪華
+「こんばんわー」
+$k
+
+// 	SEFade( 0, FAST, 25 );
+// 	Blur( 0, 1 );
+// 	ZoomVisual(    0, 100, 100, 700, 100 );
+// 	ZoomVisual( FAST, 120, 120, 700, 100 );
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),image\etc\bacouple_background.jpg,(er),NO
+#ip,c3,(s),100%,(x),c,(y),d_s
+#ie,c1
+#ig
+
+#sp,se,T_kirakira
+
+#ir,(dr),5000,(ef),move,(cv),linear
+#ip,c3,(x),c,(y),34
+#ig
+
+#show
+
+// #sp,se,S_Swing02
+
+優
+「おお、雪華ちゃん今日は一段と艶やかで可愛いねー！
+　着物もすん―――――――ごい似合ってるよっ！
+　ほら、お兄ちゃんが抱っこしてあげよう」
+$k
+
+// 	SetObject( 0, "bacouple_background.png", -200, 0, OBJATTR_NOSCROLL );
+// 	ZoomVisual( 0, 120, 120, 700, 100 );
+
+// 	SS_( CENTER, YUKIHA_A901AK2 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	Scroll( 20, 0, 100 );
+// 	MoveStand( CENTER, 20, 0, -600 );
+
+// 	Scroll( 160 | SPEED_UP );
+
+// 	MoveStand( CENTER, 160 | SPEED_UP );
+
+// 	MoveStand( CENTER );
+// 	Scroll();
+// #sp,se,Ma_Kyupin01
+
+// 	Blur();
+// 	SEFade( 0 );
+
+
+// YUKIHA_A901AK4
+#ir
+#ip,bg,(fi),BG_MT_JINJYAMAE02B.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01AK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02050020
+雪華
+「お兄ちゃんに褒められてもあんまり嬉しくないなあ…
+$nw,4200
+
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01NI.png,(x),c,(s),80%
+#ig
+
+　あと抱っこはいらない、こっち来ないでね！」
+$k
+
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「そんな嫌がらなくても！」
+$k
+
+// YUKIHA_A901IK4
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02050021
+雪華
+「がるるるるるるぅ～っ！！」
+$k
+
+// 	ZoomVisual( FAST, 100, 100, 700, 100 );
+
+優
+「う！　…いや、単なるジョークですよ。兄一流の？
+　ほらほらーそんな怖い顔はやめてくださいねー？」
+$k
+
+// 	ZoomVisual();
+
+// MII_0401AK
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AK.png,(x),l,(s),60%
+#ip,c3,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030182
+みい
+「さすがお兄様、久々に飛ばしてますね」
+$k
+
+// MEGUMI_A401AK2
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070103
+めぐみ
+「自分の妹にあでやかとか……
+$nw,3100
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KD2.png,(x),r,(s),60%
+#ig
+
+　あれっ？　要さんも一緒に来るんじゃなかったのぉ？」
+
+$k
+
+// MII_0403KT
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030183
+みい
+「ええ、予定ではそうだったのですが、
+　突然残業が入ったとかで少し遅れてくるそうです」
+$k
+
+// MEGUMI_A401KM3
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070104
+めぐみ
+「そっか～、社会人も大変ねえ～。
+$nw,4100
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS2.png,(x),r,(s),60%
+#ig
+
+　花火までに間に合うといいねぇ？」
+$k
+
+// 	SS( RIGHT, SAKURAKO_A402AD, MOVE_RIGHT, NORMAL );
+
+// SAKURAKO_A402AD
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AD.png,(x),r,(s),80%
+#ip,c3,(x),l,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,02000331
+桜子
+「ええっ、今年花火やるの？
+$nw,3000
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),r,(s),80%
+#ig
+
+　一昨年からもうやらないとかって…」
+$k
+
+#next,02common02-2_01

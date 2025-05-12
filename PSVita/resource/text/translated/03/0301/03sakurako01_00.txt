@@ -1,0 +1,797 @@
+﻿// 既読フラグ
+#read_flag,256
+
+// セーブタイトル
+#flag,save_title,桜子　第１話,0,0
+
+// 桜子好感度＋１。
+#flag,per,1,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU01A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第１話　幼馴染み
+$k
+#note,erase
+
+// 	WaitSE( -1 );
+
+#sp,se,S_Door03o
+
+#show
+
+&empty
+帰宅部で寄り道もせずに帰ってきた
+すごーく真面目な俺。
+$k
+
+&empty
+引っ越して以来の安らかなる午後の一時を過ごそうと
+部屋の扉を開けたその先には…。
+$k
+
+優
+「…あっ」
+$k
+
+// SAKURAKO_0301NO
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000000
+桜子
+「んー。お帰りー」
+$k
+
+&empty
+持ち込んだファッション雑誌を捲りつつ、
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　めく
+おやつや飲み物（当然ながら牛乳）を貪る女子がいた。
+$k
+
+優
+「なんで俺の部屋にいるんだよ？」
+$k
+
+// 	SS( CENTER, SAKURAKO_A302NO4 );
+
+// SAKURAKO_A302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000001
+桜子
+「あんたも食べる？」
+$k
+
+&empty
+スティック型のお菓子を抜き取ると
+先端をこちらに向ける。
+$k
+
+優
+「俺が質問して……
+
+$nw,1000
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),T_Poki01
+
+　ぱく…ちっ、うまい」
+
+$k
+
+// 	Shake( SLOW, SHAKE_DOWN, 4, 40 );
+// 	WaitSE( -1 );
+
+&empty
+そのまま食いつくと、途中でポキンと割れた。
+$k
+
+// SAKURAKO_A302EG2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000002
+桜子
+「棒についた塩が美味しいのよね…はむ」
+$k
+
+&empty
+割れた片方を食べた桜子は、手に付いた塩を舐める。
+$k
+
+&empty
+ちらりと覗く舌がたまらなく……いやいや。
+$k
+
+// 	SS( CENTER, SAKURAKO_A302NO2 );
+
+優
+「喉が乾いたから、ついでに飲み物ももらえたらなぁ」
+$k
+
+// SAKURAKO_A302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000003
+桜子
+「へぇー、優は間接キスしたいんだ？」
+$k
+
+#ss,bgm
+
+//	SP( "T_Sword01" );
+// 	WaitSE( -1 );
+
+&empty
+この部屋が冷蔵庫になったかと思うくらいに
+視線が冷たくて、何となく背筋が伸びた。
+$k
+
+優
+「…冗談ですよー。
+　桜子さんの命の水を奪うわけないじゃないですか」
+$k
+
+// SAKURAKO_A302EG
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000004
+桜子
+「そうよねー♪」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+&empty
+そんなに牛乳が大事か！
+#mlarge
+$k
+
+//	SetSubTitle();		//章タイトル表示
+#sp,bgm,BGM_NICHIJYO
+
+// 	SS( CENTER, SAKURAKO_A301NO );
+
+優
+「で、なんで真っ直ぐ帰ってきた俺より
+　早くここに来てくつろいでるんだ？」
+$k
+
+// SAKURAKO_A301AK
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000005
+桜子
+「どうしてあんたより早く着いたのか知らないしぃ。
+$nw,3500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+　ＨＲが早く終わっただけじゃない？」
+$k
+
+// SAKURAKO_A301AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000006
+桜子
+「それにここ、あたしの別荘だし。
+$nw,2690
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),80%
+#ig
+
+　そんであんたはここの管理人ね」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「たこ焼き屋の娘風情が
+　避暑地のお嬢様気取りかよ！」
+$k
+
+// SAKURAKO_A301AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000007
+桜子
+「そういう事だから、管理人さん。
+　あたしがここにいる事は、気にしないでいいわよ？」
+$k
+
+&empty
+気にするってーの。
+$k
+
+&empty
+あとせめて管理人とかじゃなくて、
+執事の爺やくらいにはしてくれよ。
+$k
+
+優
+「部活は？」
+$k
+
+// SAKURAKO_A301NS
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000008
+桜子
+「おっと、部活の話を持ち出しても、
+　なにに入ってるかは教えないわよ。
+$nw,5000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),80%
+#ig
+
+　それにもう三年生は部活やってないしー」
+$k
+
+優
+「そういうんじゃねえよ」
+$k
+
+// SAKURAKO_A303NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000009
+桜子
+「…興味ないんだ」
+$k
+
+優
+「なんでちょっと残念そうな顔すんだよ。
+　…はっ！　本当は俺に部活を教えたいんだろ？
+　そうだな？」
+$k
+
+// SAKURAKO_A303FK2
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03FK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000010
+桜子
+「べっつにー」
+$k
+
+&empty
+じゃあなんなんだよ…。
+$k
+
+優
+「ところでお嬢さん、ここにはいつまでご滞在で？」
+$k
+
+// SAKURAKO_A303NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000011
+桜子
+「飽きるまでー。
+$nw,1500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),80%
+#ig
+
+　……なんで？」
+
+$k
+
+優
+「俺、着替えたいんだけど、いいですかね？」
+$k
+
+&empty
+一応聞いた俺って、紳士だよなー。
+$k
+
+// SAKURAKO_A303NO
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000012
+桜子
+「いいんじゃない？
+　勝手に着替えればー？」
+$k
+
+優
+「マジっすか……」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+異性の幼なじみが居る目の前で着替えって、
+どんな羞恥プレイか。
+$k
+
+&empty
+いや、昔は（小さい頃は）そんなの
+気にしなかったけどさー？
+$k
+
+&empty
+俺達ももうお年頃だし、ね？
+$k
+
+// SAKURAKO_0302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000013
+桜子
+「～♪」
+$k
+
+&empty
+桜子はたった今の会話など気にも留めない様子で、
+再び雑誌に目を落としている。
+$k
+
+// SAKURAKO_0301TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000014
+桜子
+「…あ、これいいな、可愛いかもっ」
+$k
+
+優
+「………」
+$k
+
+// SAKURAKO_0301KN
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000015
+桜子
+「……なんだ、色これしか無いのかー、
+　じゃあ駄目ね…」
+$k
+
+&empty
+もしかして、本当に気にしないのか？
+$k
+
+&empty
+まあいいけど。所詮男の着替えだ。
+幼なじみだし、今更気にするのもおかしい気もする。
+$k
+
+&empty
+いや、ちょっとは気にして欲しいけど。
+$k
+
+// SAKURAKO_0302EG
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000016
+桜子
+「あー、これもいいかなー」
+$k
+
+&empty
+幸いにして、桜子が雑誌を読んでいる間なら、
+見られずに着替える事ができそうだ。
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+…というわけで。
+$k
+
+優
+「……着替えるぞ？」
+$k
+
+#sp,se,S_Nuno08
+
+&empty
+制服のジャケットを脱ぎ、声をかける。
+$k
+
+// SAKURAKO_0302NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000017
+桜子
+「どーぞー」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+桜子は視線を雑誌から外さず答える。
+$k
+
+&empty
+あくまで俺は管理人程度の認識なのか。
+ちいっ、その挑戦、受けて立とうじゃないか！
+$k
+
+&empty
+……でもやっぱりちょっと恥ずかしいから、
+桜子の存在は忘れる事にしよう。
+$k
+
+#ss,bgm
+
+#sp,se,S_Belt01
+
+#wait,500
+
+// 	WaitSE( -1 );
+
+
+// SAKURAKO_0302AS
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000018
+桜子
+「！？」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+&empty
+そして俺は、颯爽とズボンを脱いだ！
+$k
+
+// SAKURAKO_0302IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000019
+桜子
+「脱ぐな、どアホぉぉ――っ！！」
+#mlarge
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Air01
+
+#ir,(dr),500
+#ip,bg,(fi),black.jpg
+#ie,ov
+#ig
+
+// 	RFO( RULE_CIRCLE|RULE_NEGATIVE, NORMAL );
+// 特殊な画面変更。暫定的に。
+
+// 	WaitSE( -1 );
+// 	Wait( 30 );
+
+#sp,se,S_Dotadotan01
+
+優
+「んぼふっ！？」
+#mlarge
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_WINDOW, 30, 5 );
+
+&empty
+勢いよく枕を投げつけられて、後ろに倒れる。
+$k
+
+// 	SV( BG_SJ_YU01A );
+
+// 	RFI( RULE_LEFTRIGHT, SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir
+#ip,bg,(fi),BG_SJ_YU01A.jpg,(s),100%
+#ig
+
+&empty
+顔から枕を外すと、桜子は廊下に飛び出した後だった。
+$k
+
+#sp,vo,03000020
+桜子
+「は、早く着替えなさいよっ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+着替えを済ませた事を告げると、
+俺と目を合わせないようにしながら入ってくる。
+$k
+
+// 	SS( CENTER, SAKURAKO_0302KM3, MOVE_LEFT, SLOW );
+
+// SAKURAKO_0302KM3
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM3.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,03000021
+桜子
+「酷い目に遭った」
+$k
+
+優
+「着替えていいかって聞いたじゃねえか」
+$k
+
+// SAKURAKO_0302IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ikari.png,(x),*520,(y),*60
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op1,(s),120%
+#ig
+
+#sp,vo,03000022
+桜子
+「いいけどダメなのっ、
+　…それくらい分かりなさいよ。
+　見えないところで着替えろっての！」
+$k
+
+//$nw,1380
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+優
+「そんなご無体な…」
+$k
+
+#ir
+#ie,c1
+#ig
+
+#sp,vo,03060000
+紀乃
+「優ー、降りてきい」
+$k
+
+優
+「はーい…
+　…って、なんの用事だろ？」
+$k
+
+// 	SS( CENTER, SAKURAKO_0302NO2, MOVE_STOP, NORMAL );
+
+// SAKURAKO_0302NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000023
+桜子
+「お店の手伝いじゃないの？」
+$k
+
+優
+「…桜子がいるのに俺が手伝うのか？」
+$k
+
+// SAKURAKO_0301AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000024
+桜子
+「居候の対価としてのバイトでしょー？」
+$k
+
+&empty
+そうだとしても、釈然としないものが…
+$k
+
+// SAKURAKO_0301AZ
+#sp,vo,03000025
+桜子
+「大丈夫、大丈夫。
+　あんたはやれば出来る子よ。頑張って！」
+$k
+
+優
+「いやそれ励ましてないし。
+　むしろ馬鹿にして…」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+#sp,vo,03060001
+紀乃
+「優、はようしいやー」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「へいへい、只今ーっ！」
+#mlarge
+$k
+
+&empty
+ったく、賑やかな家だよ。
+$k
+
+&empty
+ここで暮らしている限り、
+安らかな午後のひとときなどというものは、
+永遠に訪れないんだろうなぁ…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+階段を降りるなり
+婆さんに洗面台に連れて行かれる。
+$k
+
+// 	SS( CENTER, KINO_0901NO );
+
+// KINO_0901NO
+#ir
+#ip,c1,(fi),KINO_A901NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03060002
+紀乃
+「ちゃっちゃと手ぇ洗いや」
+$k
+
+優
+「またバイトだったりすんのかね？」
+$k
+
+// KINO_0901AK2
+#ir
+#ip,c1,(fi),KINO_A901AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03060003
+紀乃
+「他になにがあんねん？」
+$k
+
+優
+「いやほらー、桜子も今、上にいるし？
+　それにさー、俺でいいのかよ、とか？」
+$k
+
+// KINO_0901IK2
+#ir
+#ip,c1,(fi),KINO_A901IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03060004
+紀乃
+「バイトも見習いが何を呑気にしてんねや。
+　練習ついでに店番しなはれ」
+$k
+
+&empty
+練習ねえ…。
+$k
+
+
+#next,03sakurako01_01

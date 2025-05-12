@@ -1,0 +1,582 @@
+﻿// 既読フラグ
+#read_flag,245
+
+// セーブタイトル
+#flag,save_title,勇樹　第１８話,0,0
+
+// 	SV( BG_HS_ISAKIMAE01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_ISAKIMAE01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第１８話　叱咤
+$k
+#note,erase
+
+#show
+
+&empty
+桜子と話した次の日。
+俺は宮津橋の元に来ていた。
+$k
+
+// ISAKI_0101NO
+
+#sp,vo,04010711
+勇樹
+「おい、待て！　どういう事だ？」
+$k
+
+&empty
+俺の話を聞いた宮津橋が、
+ドアの向こうから焦った声で叫ぶ。
+$k
+
+優
+「どうもこうも、もう一度言うぞ？」
+$k
+
+&empty
+一拍置いてから、俺は改めて自分の決意を
+宮津橋に伝えた。
+$k
+
+優
+「だから、俺も受験するのを、
+　やめると言ったんだよ」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010712
+勇樹
+「……お前、自分が何を
+　言ってるのか分かっているのか？」
+$k
+
+優
+「ああ。今のままじゃ、
+　とても受験する気になれないし。
+　受けたとしても、どうせ落ちるって」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010713
+勇樹
+「何を馬鹿な事を言っている！」
+$k
+
+&empty
+宮津橋は何をそんなに慌てているのだろう。
+$k
+
+&empty
+もしかして、少しでも、俺の事を
+心配してくれているんだろうか？
+$k
+
+&empty
+…いや、そんな事はないか。
+$k
+
+優
+「どうせ、俺は宮津橋と違って、目標があって、
+　進学しようとしてた訳じゃないからさ」
+$k
+
+&empty
+自嘲気味に笑う。
+$k
+
+&empty
+親の脛を囓って、やりたい事を探すためだけに
+#mfuri,　　　　　　　　かじ
+受験するよりは、他にすべき事があるはずだ。
+$k
+
+優
+「だから、俺もやめるよ、受験。
+　それで、なんか働き口でも探すわ。
+　もう、お前にも迷惑を掛けたりしない」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010714
+勇樹
+「…………おい！」
+$k
+
+優
+「もう決めたんだ。
+　じゃあな」
+$k
+
+#sp,se,S_Walk02o
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	CFO();
+// 	SFP2( 0, "S_Walk02o" );
+
+&empty
+俺はそれだけ告げると、振り返らずに
+宮津橋の部屋の前を去った。
+$k
+
+#hide
+
+#wait,1000
+
+// 	SV( BG_HS_MAE01A );
+
+#sp,bgm,BGM_SABISHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+店の外に出ると、少しすっきりした。
+$k
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+// 	SV( BG_HS_MAE01A );
+
+// 	ShowFace();
+
+優
+「いい天気だなー」
+$k
+
+&empty
+まだ胸は痛い。
+だけど、悩んでいた時よりも、
+ずっと気分は楽だった。
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE01A.jpg,(s),100%
+#ig
+
+優
+「とりあえず、バイトでも探さないとな」
+$k
+
+&empty
+それで、千寿を出よう。
+$k
+
+&empty
+そして、いつか宮津橋を支えられるくらいに
+強くなったら……。
+$k
+
+&empty
+ふ…馬鹿だな、俺……。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_ISAKIMAE01A );
+
+#sp,bgm,BGM_FUAN
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_ISAKIMAE01A.jpg,(s),100%
+#ig
+
+#wait,500
+
+#sp,se,T_Door03
+
+// 	SV( BG_HS_ISAKIMAE01B );
+
+#ir,(dr),500
+#ip,bg,(fi),BG_HS_ISAKIMAE01B.jpg,(s),100%
+#ig
+
+#show
+
+// ISAKI_0401IK3
+
+#sp,vo,04010715
+勇樹
+「おいっ、優っ！！」
+$k
+
+// ISAKI_0401NR
+
+#sp,vo,04010716
+勇樹
+「ちっ！　こんな時だけ、足の速い奴め！」
+$k
+
+// MEGUMI_0401OD
+
+#sp,vo,04070125
+めぐみ
+「勇樹ちゃんー？　なにかあったの？
+$nw,3210
+
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01OD.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+　すごい音がしたけど……」
+
+$k
+
+// 	SS( CENTER, MEGUMI_0401OD, MOVE_RIGHT, NORMAL );
+
+// MEGUMI_0401OD
+#sp,vo,04070126
+めぐみ
+「優ちゃん出てったみたいだけど…
+　え？
+$nw,3600
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK4.png,(x),c,(s),60%
+#ig
+
+　勇樹ちゃんどうしたのそれっ！？」
+$k
+
+// ISAKI_0402IK
+
+#sp,vo,04010717
+勇樹
+「そんな事はどうでもいい！
+　おい、優はどこへ行った！？」
+$k
+
+// MEGUMI_0401KM8
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070127
+めぐみ
+「えっと、もう帰ったみたいだけど……」
+$k
+
+// ISAKI_0401IK3
+
+#sp,vo,04010718
+勇樹
+「あ・の・馬鹿者がぁぁ～～～～っっ！！」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_CHUBO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A603.png,(psi),SAKURAKO_An03AK.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0603AK
+
+#sp,vo,04000218
+桜子
+「は～っ、もう、ほんっと、あの馬鹿！
+　いったい何考えてんのよ！」
+$k
+
+//#sp,se,T_Cook01
+
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 4, 4 );
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 4, 4, 1 );
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 4, 4, 1 );
+// 	WaitSE();
+
+// SAKURAKO_0603IK
+#ir
+#ip,c1,(fi),SAKURAKO_A603.png,(psi),SAKURAKO_An03IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000219
+桜子
+「受験やめてうちを出て行く？
+　それで何が解決すると思ってんの！？」
+$k
+
+// SAKURAKO_0603AK
+#ir
+#ip,c1,(fi),SAKURAKO_A603.png,(psi),SAKURAKO_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000220
+桜子
+「ろくに目標もないくせに…。
+　働いて、家を出て自立できるって言うなら、
+　お姉なんかとっくの昔に自立してるっての！」
+$k
+
+
+//#sp,se,T_Cook01
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 4, 4 );
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 4, 4, 1 );
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 4, 4, 1 );
+// 	WaitSE();
+
+// SAKURAKO_0603FK2
+#ir
+#ip,c1,(fi),SAKURAKO_A603.png,(psi),SAKURAKO_An03FK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000221
+桜子
+「まったく、子供なんだから……！」
+$k
+
+#sp,vo,04010719
+勇樹
+「出てこい！　轟木桜子！」
+$k
+
+// SAKURAKO_0603IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A603.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000222
+桜子
+「あぁ～っ！？」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+
+// 	SV( BG_SJ_GAIKAN01B );
+
+#sp,se,T_Door04o
+
+// 	SS( CENTER, SAKURAKO_0603IK3 );
+
+// 	CFI();
+
+// SAKURAKO_0603IK3
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01B.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A603.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,04000223
+桜子
+「なによっ！　勇樹、　
+　またやろうっての！？」
+$k
+
+// SAKURAKO_0602IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000224
+桜子
+「今、虫の居所が悪いのよ！
+　いくらでも相手になって…」
+$k
+
+// SAKURAKO_0602IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000225
+桜子
+「って、あんた、それ、どうしたのよっ！？」
+$k
+
+// ISAKI_0401IK
+
+#sp,vo,04010720
+勇樹
+「いいから、黙って手を貸せ。
+　話がある」
+$k
+
+// SAKURAKO_0602AS
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000226
+桜子
+「…………は？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_GAIKAN03C );
+
+#sp,bgm,BGM_SHIZUKA
+
+//	SFP( 0, "S_Mushi01#" );
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN03C.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+結局、今日はバイト情報誌を何冊か
+買っただけで終わってしまった。
+$k
+
+&empty
+なんとなく、家に帰りづらくて、
+ファーストフード店でそれを読みふけっていたら、
+すっかり遅くなってしまったんだ。
+$k
+
+&empty
+結局、これというバイトも見つからなかったし…。
+$k
+
+&empty
+いや、バイトなんかいくらでもあるんだろうけど、
+やる気が起きないというのが、正直なところだ。
+$k
+
+&empty
+働くって決めてはみたものも、
+いざとなったら、やっぱり今の俺には何もないのを
+感じてしまう。
+$k
+
+&empty
+なんか…どんどん、ダメになっていくな…俺……。
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+
+//	SFO( 0 );
+// 	SV( BG_SJ_TENNAI03C );
+// 	CFI();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03C.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+もう夕飯も終わっているだろうな。
+まぁ、あまり轟木家の方にも顔を出したくない。
+$k
+
+// 	CFO();
+
+// 	SV( BG_SJ_KAIDAN03B );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KAIDAN03B.jpg,(s),100%
+#ig
+
+&empty
+それでも、何故か後ろめたくて
+誰もいないと分かっているのに、
+足音を殺して階段を昇ってしまう。
+$k
+
+// 	CFO();
+// 	SV( BG_SJ_2FROKA03C );
+
+// 	CFI();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA03C.jpg,(s),100%
+#ig
+
+優
+「ただいまー……」
+$k
+
+&empty
+そう言いながら、そっと自分の部屋のドアを開ける。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Door03o
+
+// 	SV( BG_SJ_YU03A );
+
+// 	WaitSE();
+// 	SS( CENTER, SAKURAKO_0402IK7 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#next,04isaki18_01

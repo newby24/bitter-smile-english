@@ -1,0 +1,727 @@
+﻿// 既読フラグ
+#read_flag,330
+
+// ISAKI_0401AZ
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010135
+勇樹
+「…大切な……友人がっ、
+　一人で二人分苦しんでるんだ。
+$nw,7980
+
+#ir
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+　なんとかしたいさ！」
+
+$k
+
+
+// SAKURAKO_0402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001337
+桜子
+「っ？？
+$nw,1240
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),r,(s),60%
+#ig
+
+　それとこれと、一体どう関係あんのよ！？」
+$k
+
+// ISAKI_0402IK
+#sp,vo,03010136
+勇樹
+「思い出せばわかるっ！！」
+#mlarge
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAMAE01A );
+
+// 	RFI( RULE_RYUUSEN );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「やっぱり、居たっ…」
+$k
+
+&empty
+たぶん、ここだと思った。
+$k
+
+&empty
+人気の無さそうな場所、
+宮津橋の考えそうな場所、考えそうな事。
+……案の定、というか。
+$k
+
+&empty
+まったく何やってんだよあいつは…。
+$k
+
+#sp,vo,03001338
+桜子
+「そんなんじゃ意味わかんないって…」
+$k
+
+#sp,vo,03001339
+桜子
+「きゃ、もうやめてよサキちゃん！」
+$k
+
+#sp,vo,03010137
+勇樹
+「思い出すまでやめんぞ！　攻め続けるっ！！」
+$k
+
+&empty
+ともかく宮津橋を止めないと。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ig
+
+#wait,500
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig,(se),S_Punch01
+
+// 	WaitSE( -1 );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402IK4
+
+#sp,vo,03001340
+桜子
+「…っ！！」
+$k
+
+// 	SS( LEFT, ISAKI_0402IK );
+
+// ISAKI_0402IK
+#ir
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010138
+勇樹
+「どうした、お前からは来ないのか。
+$nw,4000
+
+　思い出すまで帰す気は無いぞ？」
+$k
+
+// 	SS( RIGHT, SAKURAKO_0402IK8, MOVE_STOP, SLOW );
+
+// SAKURAKO_0402IK8
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001341
+桜子
+「あっ……ぐっ、
+$nw,2650
+
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK2.png,(x),r,(s),60%
+#ig
+
+　痛ったいわね！！
+　…あんた……なんで、そんなにっ」
+$k
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+// 	ZoomVisual( 0, 150, 150, 0, 200 );
+
+// 	SS( CENTER, ISAKI_A401IK3 );
+
+#ir
+#ie,c1,c3
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK3.png,(x),l0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// ISAKI_A401IK3
+#sp,vo,03010139
+勇樹
+「三年分、
+　お前を殴り続けてでも思い出させてやるっ！」
+$k
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+// 	ZoomVisual( 0, 150, 150, 800, 200 );
+// 	SS( CENTER, SAKURAKO_A403IK2 );
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK2.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// SAKURAKO_A403IK2
+#sp,vo,03001342
+桜子
+「…こんのっ！！」
+$k
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+// 	ZoomVisual( 0, 150, 150, 400, 200 );
+
+優
+「やめろおおおお――――っ！！！」
+#mlarge
+$k
+
+#hide
+
+#ss,bgm,(dr),0
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch03
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig,(se),S_Punch02
+
+#wait,500
+
+// 	BGMStop();
+// 	Blur( 0, 2 );
+// 	FL_( 20, 100 );
+
+// 	ZoomVisual( 0, 100, 100 );
+// 	Shake( 20, SHAKE_LEFT, 12 );
+
+// 	SS_( LEFTLEFT, ISAKI_A401NR );
+
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NR.png,(x),l,(s),80%
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),80%
+#ig
+
+// 	SS_( RIGHTRIGHT, SAKURAKO_A403IK3 );
+// 立ち絵移動。パラメータは適宜。
+// 	FL( NORMAL );
+
+// 	RuleFlashIn( NORMAL, RULE_SWORD | RULE_NEGATIVE, 1 );
+
+//#sp,se,S_Punch02
+
+// 	Blur();
+
+#show
+
+優
+「ぐっ、ぐほぁ…」
+#mlarge
+$k
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Land01
+
+// 	Shake( NORMAL, SHAKE_DOWN, 20, 20 );
+// 	WaitSE( -1 );
+// 	WaitShake();
+
+// ISAKI_A402KM
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KM.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03010140
+勇樹
+「……またか、矢崎」
+$k
+
+// SAKURAKO_A402AS
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03001343
+桜子
+「優っ！？
+$nw,1000
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),80%
+#ig
+
+　………あ、ごめん」
+$k
+
+&empty
+宮津橋と桜子、二人の間に飛び出した俺に。
+$k
+
+優
+「痛っ……や、やめろって」
+$k
+
+&empty
+久しぶりに二人の拳を同時に貰う俺。
+$k
+
+// 	SS( CENTER, SAKURAKO_A402KM2, MOVE_STOP, NORMAL );
+
+//優
+//「大丈夫か、桜子？
+//　腹とか、蹴られてないか？」
+//$k
+
+// SAKURAKO_A402KM2
+//#ir
+//#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),r,(s),80%
+//#ig
+
+//#sp,vo,03001344
+//桜子
+//「大丈夫だけど……
+//$nw,1990
+
+//#ir
+//#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),80%
+//#ig
+
+//　お腹？」
+//$k
+
+&empty
+本当は格好よく、二人の拳を掴む予定だったんだけど、
+世の中そう上手くはいかず…。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_SABISHII
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+// 	SS( CENTER, ISAKI_0402IK );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「宮津橋、こんなことしたって
+　桜子の記憶が戻るわけないだろ」
+$k
+
+// ISAKI_0402IK
+#sp,vo,03010141
+勇樹
+「そんな事っ」
+$k
+
+優
+「また桜子に何かあったらどうすんだ？」
+$k
+
+// SAKURAKO_0402KM2
+
+#sp,vo,03001345
+桜子
+「……優」
+#meffect,flow,5
+$k
+
+// ISAKI_0402IK
+#sp,vo,03010142
+勇樹
+「…ではどうしろというんだ」
+$k
+
+優
+「いいんだ、記憶なんか」
+$k
+
+// ISAKI_0402KM
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010143
+勇樹
+「なんだと？
+$nw,1000
+
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),c,(s),60%
+#ig
+
+　……そんな綺麗事をっ」
+$k
+
+優
+「本当に、いいんだ」
+$k
+
+// ISAKI_0402KM
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010144
+勇樹
+「……そんな
+$nw,990
+
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),c,(s),60%
+#ig
+
+　…いいわけ無いだろう！？
+　お前が一番…」
+$k
+
+優
+「俺がそう決めたんだ」
+$k
+
+// ISAKI_0401KB
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010145
+勇樹
+「………」
+$k
+
+優
+「思い出も……
+$nw,1000
+
+　思い出なんかはっ…」
+$k
+
+優
+「俺が……、
+　もう一度やり直せば、作り直せばいいだけだ」
+$k
+
+// ISAKI_0402KM
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010146
+勇樹
+「…矢崎」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+そうだ、もう一度。
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+優
+「桜子…」
+#meffect,flow,5
+$k
+
+// 	SS( CENTER, SAKURAKO_0402NO, MOVE_STOP, SLOW );
+
+&empty
+俺は桜子に向き直り、まっすぐ立つ。
+$k
+
+&empty
+そして…。
+$k
+
+// SAKURAKO_0402NO
+
+#sp,vo,03001346
+桜子
+「え、優？」
+$k
+
+&empty
+桜子に向かって…、人生三度目の一大決心を………
+$k
+
+優
+「桜子。
+#meffect,flow,5
+
+　俺、お前のことが好き…」
+#meffect,flow,5
+
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001347
+桜子
+「優、だめっ！！」
+#mlarge
+$k
+
+#sp,se,S_Dash08o
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+// ISAKI_0402IK
+
+#sp,vo,03010147
+勇樹
+「…なっ！？」
+$k
+
+優
+「え？」
+$k
+
+&empty
+桜子が境内を出口へと走って行く。
+$k
+
+優
+「ああっ、また逃げやがった！」
+$k
+
+&empty
+まさか本当に、
+ここまで全部やり直しかよ！？
+$k
+
+&empty
+…じゃあ俺も追いかけないとな。
+$k
+
+#hide
+
+#ss,bgm
+
+#sp,se,S_Dash03o
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RuleFadeOut( NORMAL, RULE_RYUUSEN|RULE_MIRROR );
+// 	WaitSE( -1 );
+// 	RuleFadeIn( NORMAL, RULE_RYUUSEN );
+
+// 	SS( LEFT, SAKURAKO_0402IK4, MOVE_LEFT );
+
+#sp,bgm,BGM_KANASHIMI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ig
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l,(al),100%
+#ig
+
+#show
+
+// SAKURAKO_0402IK4
+#sp,vo,03001348
+桜子
+「まさかっ……」
+$k
+
+// 	SS( RIGHT, MII_0903IK5, MOVE_RIGHT );
+
+// MII_0903IK5
+#ir,(ef),off
+#ip,c2,(fi),MII_A903.png,(psi),MII_An03IK5.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c2,(x),r,(al),100%
+#ig
+
+#sp,vo,03030192
+みい
+「姉上、止まってくださいっ」
+$k
+
+&empty
+いつから居たのか、
+境内の出口を塞ぐように出てきたみいちゃん。
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03001349
+桜子
+「みい？
+$nw,1090
+
+#sp,se,S_Dash08o
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+　………くっ」
+$k
+
+// MII_0903KD2
+#ir
+#ip,c2,(fi),MII_A903.png,(psi),MII_An03KD2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03030193
+みい
+「あっ、姉上！？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2
+#ig
+
+&empty
+を、桜子はスルーしてまた走り出す。
+$k
+
+// 	RFO( RULE_RYUUSEN );
+// 特殊な画面変更。暫定的に。
+// 	RFI( RULE_RYUUSEN | RULE_MIRROR );
+
+// 	SS( RIGHT, CHISEKA_0401KM, MOVE_RIGHT );
+
+// CHISEKA_0401KM
+#ir,(ef),off
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Ton04
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#sp,vo,03040196
+知世翔
+「駄目です先輩っ、道路への飛び出しは危険ですっ！」
+$k
+
+// 	SS( LEFT, SAKURAKO_0402IK4, MOVE_LEFT );
+
+// SAKURAKO_0402IK4
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l,(al),100%
+#ig
+
+#sp,vo,03001350
+桜子
+「っ、知世翔！？」
+$k
+
+// 	SS_( RIGHT, CHISEKA_0401IK );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),r,(s),60%
+#ig
+
+&empty
+今度は有河まで出てきた。
+有河は両手を大きく広げて桜子の行く手を
+ブロックの体勢だ。
+$k
+
+
+#next,03sakurako19_04

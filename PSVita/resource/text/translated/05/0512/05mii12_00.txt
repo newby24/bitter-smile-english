@@ -1,0 +1,803 @@
+﻿// 既読フラグ
+#read_flag,155
+
+// セーブタイトル
+#flag,save_title,みい　第１２話,0,0
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第１２話　合格発表
+$k
+#note,erase
+
+#show
+
+優
+「なあ、今バイクの音が…」
+$k
+
+// KINO_0401KS
+#ir
+#ip,c1,(fi),KINO_A401KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05060006
+紀乃
+「来てへん来てへん」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402AK );
+
+// SAKURAKO_0402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,05000074
+桜子
+「男ならどっしり構えてなさい。
+　じたばたしたって、今から結果が
+　変わるわけでなし…
+$nw,6460
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+#madd,はむ」
+
+$k
+
+優
+「そりゃもう結果の出たおまえは余裕だろうけどさ」
+$k
+
+&empty
+客のいない千寿のテーブル席。
+$k
+
+&empty
+向かいでは、先日第一志望校への合格を決めた桜子が、
+余裕しゃくしゃくでたこ焼きを頬張っている。
+$k
+
+&empty
+そして２月も半分まできた今日、午後。
+$k
+
+&empty
+郵便が届く残り幾ばくかの先に俺の審判が待っていた。
+$k
+
+優
+「つか、遅くない？」
+$k
+
+// SAKURAKO_0401AK
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000075
+桜子
+「配達はまだ先ー」
+$k
+
+優
+「でも、もうちょっと早かったような気が…」
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000076
+桜子
+「もー、男のくせにぐだぐだと！
+　これでも食って黙ってろ！」
+$k
+
+// 	ShakeStand( CENTER, 30, SHAKE_DOWN, 20, 30*2 );
+
+//	ZoomStand( CENTER, 20|SPEED_UP, 110, 110 );
+#sp,se,S_Pon01
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+//	ZoomStand( CENTER, 20|SPEED_DOWN, 100, 100, 1 );
+優
+「んむ！？」
+#mlarge
+$k
+
+&empty
+爪楊枝の先のたこ焼きを、口の中に押し込まれた。
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000077
+桜子
+「配達が来たら、店番のお婆ちゃんが
+　気づかないわけないって言ってんでしょ？」
+$k
+
+// SAKURAKO_0402AK
+#sp,vo,05000078
+桜子
+「それとも気づかないほど…」
+$k
+
+// KINO_0401IK2
+#ir,(ef),off
+#ip,c1,(fi),KINO_A401IK2.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+#sp,vo,05060007
+紀乃
+「誰がもうろくしてんねん」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402NO4 );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r3,(al),0%
+#ig
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000079
+桜子
+「ほら見た？　安心の反応速度」
+$k
+
+優
+「はふほふ……んむ…」
+$k
+
+&empty
+婆さんの具合なんぞどうでもいい。
+$k
+
+優
+「んぐ…んくっ。
+　そもそもどうして桜子がここにいんだよ」
+$k
+
+// SAKURAKO_0402NO
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000080
+桜子
+「そりゃ優のこと心ぱ………
+$nw,3520
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#madd,暇つぶしよ」
+
+$k
+
+優
+「わざとらしい本音と建前じゃ喜べんな」
+$k
+
+// 	CS_( CENTER, RIGHT );
+// 	SS( LEFT, YUKIHA_0401AK );
+
+// YUKIHA_0401AK
+#ir,(ef),off
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l,(al),100%
+#ip,c3,(x),r
+#ig
+
+#sp,vo,05050044
+雪華
+「落ち着きなよ、お兄ちゃん。
+　どうせ合格してるんだから」
+$k
+
+優
+「雪華ちゃん、いつ抱きしめていいの？」
+$k
+
+// YUKIHA_0401AK4
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050045
+雪華
+「いつでもノーサンキューです」
+$k
+
+優
+「どうせなんて言葉とは裏腹の信頼度。
+　ああ、お兄ちゃんはそれだけで胸がいっぱいだ」
+$k
+
+優
+「もう大学なんて落ちてもいい！」
+$k
+
+// YUKIHA_0401SN2
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01SN2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050046
+雪華
+「相変わらずうざいなぁ、もう」
+$k
+
+優
+「だって雪華ちゃんが俺をそこまで信じて…
+　あ、目から汗が」
+$k
+
+// YUKIHA_0401AY2
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AY2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050047
+雪華
+「そういう意味じゃないんだけどなー」
+#msmall
+$k
+
+&empty
+雪華ちゃんは、俺や桜子といった自由登校組と違い、
+学校から帰ってきて、ここにいる。
+$k
+
+&empty
+こうしてたまに婆さんの手伝いをしているが、
+今日はこれから団体の予約でもあるのか、
+テーブルを並べ変えたりしていた。
+$k
+
+優
+「手伝いましょうかマドモアゼル」
+$k
+
+// YUKIHA_0401KB3
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KB3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030673
+雪華
+「どうしてお兄ちゃんって
+　私と話すときだけ、うざくなるんだろ」
+$k
+
+優
+「ほれ、桜子も手伝え」
+$k
+
+// SAKURAKO_0402NO
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000081
+桜子
+「あたしも？」
+$k
+
+// YUKIHA_0401IK2
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050048
+雪華
+「だめ、お兄ちゃんも桜子ちゃんもいいの」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000082
+桜子
+「って、雪華ちゃんは言ってるけど？」
+$k
+
+優
+「けど雪華ちゃんひとり働かせるのは…」
+$k
+
+// YUKIHA_0401IK
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050049
+雪華
+「もー、ひつこい。お兄ちゃんは、
+　配達くるまでひとりでどきどきしててよね」
+$k
+
+優
+「はい」
+$k
+
+&empty
+『しつこい』の発音が舌っ足らずだったのが、
+ちょっとラブリーだった。夢に出ろ。
+$k
+
+優
+「じゃあお言葉に甘えて、
+　じっくり合格の瞬間を待つとしますか」
+$k
+
+// YUKIHA_0401BS3
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050050
+雪華
+「そうそう」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000083
+桜子
+「そうしなさい」
+$k
+
+優
+「いや、そこは『もう少し謙虚に』とかさ…」
+$k
+
+// SAKURAKO_0401AZ
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AZ.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000084
+桜子
+「だってどうせ合格してんだもんね」
+$k
+
+// YUKIHA_0401EG
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050051
+雪華
+「うん」
+$k
+
+優
+「………」
+$k
+
+&empty
+まさかとは思うが、プレッシャーをかけた
+新手のいじめじゃないだろうな。
+$k
+
+&empty
+俺が小動物だったらストレスで死んでるぞ。
+$k
+
+#sp,se,S_Chair01
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+// 	WaitSE();
+
+優
+「………」
+$k
+
+// YUKIHA_0401NO
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05050052
+雪華
+「どこ行くの？」
+$k
+
+優
+「…念のため、もう一度郵便受けを見てこようかと」
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,05000085
+桜子
+「全然じっくり待ってないじゃない」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SetSubTitle();		//章タイトル表示
+//	SetSubTitleEx( 2 );
+
+#sp,se,S_Door04o
+
+// 	WaitSE();
+
+// 	SV( BG_SJ_MISEMAE01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_MISEMAE01B.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_MISEMAE01A );
+
+#sp,se,S_Door04c
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_MISEMAE01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	WaitSE();
+
+#sp,se,S_Wind02
+
+// 	WaitSE();
+
+#show
+
+優
+「落ちてたときの笑顔の練習でもしておくか…」
+$k
+
+&empty
+外に出て、郵便受けが空っぽなのを確認する。
+$k
+
+&empty
+いや、それは見る前からわかってる。
+本当はちょっと席を外したかっただけだ。
+$k
+
+&empty
+だってなあ…。
+合格してるのが当たり前みたいなあの空気。
+$k
+
+&empty
+実際に待つ身にしてみりゃ、
+居た堪れない事、この上ない。
+$k
+
+// 	
+
+#sp,bgm,BGM_MII
+
+// MII_0201BS
+#ir,(ef),off
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,05030674
+みい
+「あらこんなところにお兄様」
+$k
+
+// 	SetStandEx( CENTERLEFT, MII_0201BS );
+// 	MoveStand( CENTERLEFT, 30, 100, 0 );
+// 	ShakeStand( CENTERLEFT, 30, SHAKE_UP, 30, 15 );
+// 	FadeStand( CENTERLEFT, 30, FADE_ALPHA, 100 );
+// 	WaitFadeStand( CENTERLEFT );
+
+優
+「あぁ、みいちゃん」
+$k
+
+// 	SS( CENTER, MII_A202NO );
+
+// MII_A202NO
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030675
+みい
+「どうされました？
+　まるで周囲のプレッシャーにたまらず、
+　外に逃げてきたかのような顔をされてますが」
+$k
+
+優
+「そっちは普通に学校帰りに見えるな」
+$k
+
+// MII_A203EG
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030676
+みい
+「さすがはお兄様。
+　私のことをよく見てくださっていますね」
+$k
+
+優
+「いや、みいちゃんのがすごいと思うな」
+$k
+
+&empty
+的確に俺の痛々しい現状を言い表してくれやがる。
+$k
+
+// MII_A203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030677
+みい
+「そのご様子ですと、
+　まだ合格通知は届いていないようですね」
+$k
+
+優
+「まあねー」
+$k
+
+&empty
+普通に合格を口にされる。
+$k
+
+&empty
+この子の場合は、マジでどちらの意図で言ってるのか
+判断に苦しむところだが…。
+$k
+
+&empty
+いかんな。
+むやみに人を疑っては。
+$k
+
+&empty
+それがみいちゃんであろうとも。
+$k
+
+// MII_A201NO
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030678
+みい
+「ところでお兄様。
+　お兄様は今日なにがあるか覚えてますでしょうか」
+$k
+
+優
+「え…俺とみいちゃんは今まで何の話をしてたんだ？」
+$k
+
+&empty
+だから合格発表…って、壮大な巻き戻し？
+さっきの会話をなかったことにしようとしてる？
+$k
+
+// MII_A201KY
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KY.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030679
+みい
+「心当たりがないということは大丈夫みたいですね」
+$k
+
+優
+「どういう意味？」
+$k
+
+// MII_A201KY
+#sp,vo,05030680
+みい
+「一応、誰かから何か渡されたり、
+　貰ったりというのは？」
+$k
+
+優
+「だからまだ郵便屋がきてないんだって」
+$k
+
+// MII_A202IK2
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030681
+みい
+「郵便屋さんとは限りません。
+　よーく思い出してみてください」
+$k
+
+優
+「えー…」
+$k
+
+&empty
+わけがわからないまま、とりあえず記憶をめぐらせる。
+$k
+
+優
+「なんにせよ、特になかったような…」
+$k
+
+// MII_A202AS2
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02AS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030682
+みい
+「それは確かですか」
+$k
+
+優
+「たぶん…」
+$k
+
+// MII_A203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030683
+みい
+「そうですか」
+$k
+
+優
+「あ、でもさっき桜子にたこ焼き食わされたな」
+$k
+
+// MII_A203KD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),280,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05030684
+みい
+「あ、姉上に…？」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「というか、無理やり口につっこまれたんだけど」
+$k
+
+// MII_A202AS2
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02AS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030685
+みい
+「そ、それはどういった…？
+　甘かったりは？」
+$k
+
+優
+「なんでそんな罰ゲーム…。
+　普通に婆さんの作ったやつだよ」
+$k
+
+// MII_A203AD3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD3.png,(x),c,(s),80%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),230,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,05030686
+みい
+「でしたら問題ないです」
+$k
+
+優
+「？」
+$k
+
+&empty
+この娘の言動は、たまに本気で意味不明だ。
+$k
+
+#sp,se,S_Wind02
+
+// 	WaitSE();
+
+優
+「～っ」
+$k
+
+#next,05mii12_01

@@ -1,0 +1,631 @@
+﻿// 既読フラグ
+#read_flag,44
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_12.png,(x),c
+#ig
+
+$k
+
+#sp,se,S_Tel05
+
+#ir
+#ie,c1
+#ig
+
+// 	SEStop( 0 );
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_12 );
+// 	DEL_KEITAI_MESSAGE();
+
+#show
+
+&empty
+少年が危ないかもしれん、行かないと。
+よし、念のため雑誌を腹に入れておこう…。
+$k
+
+#sp,vo,02990017
+少年
+「ぼ、僕はあ、あの、お姉ちゃんが…」
+$k
+
+#sp,vo,02990018
+８９３
+「ああ？　なんで顔隠すんじゃいや、
+　おどれがやったんじゃろうがあっ！」
+$k
+
+&empty
+うっそー、もう若頭キれちゃったよ！
+なんでもうちょっと我慢しててくれないかなあ！？
+$k
+
+#hide
+
+// 	SWP( "" );
+#sp,se,W_TellVib01#
+
+#wait,2000
+
+#sp,se,S_Tel05
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_13.png,(x),c
+#ig
+
+$k
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_13 );
+// 	DEL_KEITAI_MESSAGE();
+
+#ir
+#ie,c1
+#ig
+
+#show
+
+&empty
+どうやら桜子にもこちらの状況が伝わったみたいだ。
+文面で速度を優先したのが覗けた。
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS( LEFT, CHINPIRA1_0301NI );
+// 	SS( RIGHT, CHINPIRA2_0301IK );
+
+#sp,bgm,BGM_SYOSO
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01IK.png,(x),r,(s),60%
+#ip,c3,(fi),CHINPIRA1_A301NI.png,(x),l,(s),75%
+#ig
+
+優
+「どうかしましたか、お客様っ！」
+$k
+
+#sp,vo,02990019
+少年
+「う、うあ………あう」
+$k
+
+&empty
+少年もう半泣きじゃん。
+$k
+
+優
+「おっ落ち着きましょうお客様！」
+$k
+
+// CHINPIRA1_0301IK2
+#ir
+#ip,c3,(fi),CHINPIRA1_A301IK2.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990020
+８９３
+「兄ちゃんには関係無いけぇ引っ込んどきーや…」
+$k
+
+優
+「うっ………く、」
+$k
+
+// CHINPIRA1_0301NI
+#ir
+#ip,c3,(fi),CHINPIRA1_A301NI.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990021
+８９３
+「おいガキ。さっさと…」
+$k
+
+優
+「や、やめてください、
+　その子を離してあげてくださいっ」
+$k
+
+// CHINPIRA2_0301KD
+#ir
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01KD.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02990022
+８９３
+「ああ？　口出すな言うとるやろ、このボケが！」
+$k
+
+優
+「うるせえ！　…かかっ関係あんだよ！！」
+$k
+
+// CHINPIRA1_0301IK3
+#ir
+#ip,c3,(fi),CHINPIRA1_A301IK3.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990023
+８９３
+「なんじゃいおどれ、邪魔するな」
+$k
+
+&empty
+ちょ、その顔怖いですって！
+$k
+
+優
+「邪魔じゃ、ねえ！…です。
+　店で暴れんな、うちの客に手え出す、さないでく…、
+　もらえますかっ！？」
+$k
+
+&empty
+やばい俺もう死んだかも…。
+$k
+
+#sp,vo,02990024
+少年
+「……わ……うくっ…あわ」
+$k
+
+&empty
+少年は襟を掴まれ持ち上げられ、
+すでにスポーツ新聞も落とし、
+必死にその瞳でこちらに助けを求めていた。
+$k
+
+// CHINPIRA2_0301IK2
+#ir
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01IK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02990025
+８９３
+「じゃっかあしぃわ！
+　これはうちの事務所の問題なんじゃい、
+　すっこんどれ！」
+$k
+
+&empty
+事務所…ってやっぱりマジもんなんじゃん！？
+$k
+
+優
+「なにがあったか知らないけど、とりあえず
+　その子を離して、落ち着いて話し合いませんか！」
+$k
+
+// CHINPIRA1_0301KB2
+#ir
+#ip,c3,(fi),CHINPIRA1_A301KB2.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990026
+８９３
+「…兄ちゃんよ、おどれもこいつとグルか」
+$k
+
+優
+「はあっ！？
+　いや、ちょっと何言って…」
+$k
+
+&empty
+なぜそうなる！？
+$k
+
+#sp,se,S_Dosa01
+
+#sp,vo,02990027
+少年
+「うわっ！」
+$k
+
+// 	MoveStand( LEFT, SLOW, 50, 0 );
+// 	FadeStand( LEFT, SLOW, FADE_ALPHA, 0 );
+
+#ir
+#ip,c3,(fi),CHINPIRA1_A301IK.png,(x),c,(s),100%
+#ie,c1
+#ig
+
+&empty
+少年を放り投げて若頭っぽい方が
+ゆっくりこちらに向かって来る…。
+少年は立って逃げられそうな感じでも無い。
+$k
+
+// 	MoveStand( CENTERLEFT, SLOW, 50, 0 );
+// 	FadeStand( CENTERLEFT, SLOW, FADE_ALPHA, 0 );
+
+// 	SS_( CENTER, CHINPIRA1_A301IK, MOVE_LEFT, SLOW );
+// 立ち絵移動。パラメータは適宜。
+
+// 	ZoomStand( CENTER, 0, 150, 150 );
+
+// CHINPIRA1_A301IK
+#sp,vo,02990028
+８９３
+「そうか、おどれらが…」
+$k
+
+&empty
+おい、どうするよ、まずくないか？
+これまた蹴られたら痛そうな靴履いてるし。
+$k
+
+&empty
+こっちから手を出してもマズいだろうし。
+勝てるとも思えん。
+$k
+
+&empty
+だからって少年は放って置けないし。
+俺のたこ焼き旨そうに食ってくれてたしなぁ…。
+$k
+
+&empty
+…ポリさんはまだ？
+$k
+
+優
+「ぐ…」
+$k
+
+&empty
+あ、さっさとポリさん自分で呼べば良かったんじゃん。
+つか桜子頼ってメールしてて馬鹿みたいだな俺。
+$k
+
+&empty
+ダメだ、テンパっててろくなこと思いつかない。
+どうする？　もう、やっちゃるか！？
+$k
+
+&empty
+あーもう…。
+$k
+
+// 	SV( BG_SJ_GAIKAN01B );
+
+// 	SS( CENTER, KINO_0401IK );
+
+// 	BF( 0, 0 );
+
+#ss,bgm,(dr),0
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,c1,(fi),KINO_A401IK.png,(x),c,(s),100%
+#ie,c3
+#ig
+
+// 	Shake( SLOW );
+
+// KINO_0401IK
+#sp,vo,02060029
+紀乃
+「おのれら、
+　わての店で何やっとるんじゃああっ！！」
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS( RIGHT, CHINPIRA2_0301IK );
+
+//	SM( CHAR_ETC,			-1,					"",				"あ、婆さん！？" );
+優
+「あ、婆さん！？」
+$k
+
+// 	BF( SLOWER, 50 );
+// 	SS( LEFT, KINO_0401IK, MOVE_LEFT );
+
+#sp,bgm,BGM_SYOSO
+
+// CHINPIRA2_0301IK2
+#ir
+#ip,c3,(fi),KINO_A401IK.png,(x),l,(s),60%
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02990029
+８９３
+「ばあさんはすっこんどれや！」
+$k
+
+// KINO_0401IK3
+#ir
+#ip,c3,(fi),KINO_A401IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02060030
+紀乃
+「じゃっかしわい！
+　あんたら店でなにさらしてくれてんねや！
+$nw,4000
+
+#ir
+#ip,c3,(fi),KINO_A401IK2.png,(x),l,(s),60%
+#ig
+
+　ホンマしまいにゃぶっ殺すどぉ！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+//	SS_( CENTER, KINO_A401IK2, MOVE_LEFT, NORMAL );
+//	SS_( RIGHT, CHINPIRA1_A301IK );
+
+&empty
+婆さんが若頭っぽい方に向かって行く。
+$k
+
+優
+「おい婆さん…
+$nw,1000
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Punch01
+
+　ばっ」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ばきゃ。" );
+// 	Shake( NORMAL, SHAKE_RANDOM, 6, 1, 1 );
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS_( CENTER, KINO_A401IK );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),KINO_A401IK.png,(x),c,(s),80%
+#ig
+
+// 	ZoomStand( CENTER, 0, 150, 150 );
+
+// KINO_A401IK
+#sp,vo,02060031
+紀乃
+「こん馬鹿タレどもが！」
+$k
+
+優
+「なぜ俺を殴るのか？」
+$k
+
+//	SS_( CENTER, KINO_A401NI );
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+婆さんと若頭っぽいのは近距離で
+ガンのタレ合いを始めた。
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	Zoom( 0, 150, 150, 800, 0 );
+
+// 	SS_( RIGHT, CHINPIRA1_A301NI );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c1,(fi),CHINPIRA1_A301NI.png,(x),l2,(s),100%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l,(al),100%
+#ig
+
+// 	MoveStand( RIGHT, 0, -50, 0 );
+
+// CHINPIRA1_A301NI
+#sp,vo,02990030
+８９３
+「おいババア、殺されたいんか、
+　やるんか、ああ？」
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	Zoom( 0, 150, 150, 0, 0 );
+
+// 	SS_( LEFT, KINO_A401IK2 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c3,(fi),KINO_A401IK2.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r,(al),100%
+#ig
+
+// 	MoveStand( LEFT, 0, 75, 0 );
+
+// KINO_A401IK2
+#sp,vo,02060032
+紀乃
+「こんガキどもはすぐキレりゃええ、脅しゃええ
+　思いよってからに、しょーもない奴らやで！」
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	Zoom( 0, 150, 150, 800, 0 );
+
+#ir
+#ip,c1,(fi),CHINPIRA1_A301IK3.png,(x),l,(s),100%
+#ig
+
+// 	MoveStand( RIGHT, 0, -50, 0 );
+
+// CHINPIRA1_A301IK3
+#sp,vo,02990031
+８９３
+「おどれにゃ関係なー言うとるじゃろうがぁ」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// KINO_A401NI
+
+#sp,vo,02060033
+紀乃
+「………………………」
+$k
+
+&empty
+婆さんが小声で何か言った後……。
+$k
+
+#ss,bgm
+
+&empty
+なぜか男二人は
+『ちっ』とか『長生きせいやぁババア』
+などと簡単な捨て台詞を吐いて去って行った。
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS( CENTER, KINO_0401KD );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),KINO_A401KD.png,(x),c,(s),60%
+#ig
+
+&empty
+えーどうなってんのっ？
+$k
+
+優
+「婆さん一体何を言った？」
+$k
+
+// KINO_0401AK
+#ir
+#ip,c1,(fi),KINO_A401AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060034
+紀乃
+「あんたはそんな事、気にせんでええんや」
+$k
+
+&empty
+あんた何者だよ。
+$k
+
+優
+「気になんだろ…あっそうだ少年っ大丈夫か！？」
+$k
+
+// 	SS_( CENTER, KINO_0401MJ2 );
+// 立ち絵移動。パラメータは適宜。
+
+#sp,vo,02990032
+少年
+「………あ、はい。どど、どうも…。
+　たっ助かりまし、た」
+$k
+
+// KINO_0401BS2
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060035
+紀乃
+「怪我とかしてないかい？」
+$k
+
+#sp,vo,02990033
+少年
+「いえ…その、大丈夫です。すいませんでした。
+　あの、ありがとうございますっ」
+$k
+
+優
+「そうか、よかっ…」
+$k
+
+#ir
+#ie,c1
+#ig
+
+#sp,vo,02010059
+？？？
+#mstyle,(co),勇樹
+「どうした、何かあったのか？」
+$k
+
+// 	SS( CENTER, ISAKI_0301NO, MOVE_LEFT, NORMAL );
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+優
+「あ、宮津橋…」
+$k
+
+#sp,vo,02990034
+少年
+「いっ勇姉ぇっ！」
+$k
+
+// ISAKI_0302KT
+#ir
+#ip,c3,(fi),ISAKI_A302.png,(psi),ISAKI_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010060
+勇樹
+「…なぜ」
+$k
+
+優
+「………ええっ？」
+$k
+
+&empty
+え、もしかして知り合い？
+$k
+
+#ir
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),r0,(al),0
+#ig
+
+&empty
+少年は宮津橋の方に歩いていく。
+宮津橋も少年の方に近づき……。
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),T_tukamu
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW, 4 );
+
+#sp,vo,02990035
+少年
+「うぐっ！」
+$k
+
+
+#next,02common01-2_07

@@ -1,0 +1,773 @@
+﻿// 既読フラグ
+#read_flag,13
+
+優
+「ふわぁ、これは気持ち良いかも」
+$k
+
+&empty
+なんか初めて、この娘の事を褒めた気がする。
+$k
+
+// MII_0301NO
+#sp,vo,01030023
+みい
+「そうでしょう、そうでしょう。
+　これでも毎晩となくお婆様の肩を
+　お揉みしておりますゆえ～」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ふにゅっ。" );
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Poyon01
+
+// 	Shake(NORMAL, SHAKE_DOWN, 2, 20);
+
+優
+「！！！」
+#mlarge
+$k
+
+// 	SEFade(0, NORMAL, 0);
+
+
+// 	SV( VISUAL_MII_06A );
+
+#flag,cg,56,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_06A.jpg,(s),75%
+#ig
+
+#sp,vo,01030024
+みい
+「どうかしましたか、お兄様？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ふにゅ、ふにゅうっ。@nむに～ん。" );
+優
+「……い、いや。なんでもないよ」
+$k
+
+// 	SEFade(0, SLOW, 40);
+
+#sp,env,S_Nuno09b
+
+&empty
+こ、これは………確かに、確実に、あの感触だよな？
+肩揉みってこれほど刺激的だったっけか！？
+$k
+
+&empty
+……当たってる事言ったほうが良いのかな？
+$k
+
+&empty
+いやまて！
+それだと俺がみいちゃんの事変な目で見てる、
+みたいな感じにとられなくないかも知れない。
+$k
+
+&empty
+ここは紳士的に気にしてない体を貫くべきだろう。
+$k
+
+&empty
+二つの柔らかな物が背中を撫でる、かつて無い程の感触。
+……以前から発育は良い方だな、なんて思っていたが、
+また大きくなっている気がする。
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Poyon01
+
+#sp,vo,01030025
+みい
+「ふんふ～ん♪」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4, 10);
+//	SM( CHAR_ETC,			-1,					"",				"ふにゅん、ふにゅん♪@nぷるるっ。" );
+
+&empty
+だ、駄目だ、いかんいかんっ！
+背中の感覚は捨てないと。
+$k
+
+&empty
+妹分の胸の感触程度にざわついてしまう程、
+俺の精神は弱くないぞ！
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ちら、" );
+#hide
+
+// 	SV( BG_TD_IMA01B );
+// SAKURAKO_0302IK7
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01B.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,01000019
+桜子
+「………………」
+#meffect,flow,5
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「っ！！」
+$k
+
+&empty
+うわ、桜子。こっちを凄っげー凝視してる！
+お前はテレビジョン氏と会話してたはずだろ！
+$k
+
+#ss,env
+
+// MII_0301BS
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030026
+みい
+「さあて、お兄様、今度は最近覚えたばかりの
+　頭のマッサージもしてあげますよ」
+$k
+
+&empty
+背中の感触が無くなり肩揉みとは別の解放感が広がる。
+$k
+
+&empty
+ここまでやってもらっといて、今これを拒否すると
+逆に変に思われるかもしれないよな、絶対。
+$k
+
+&empty
+まあ頭だし、胸が俺に触れる事は
+もう無いんじゃないかな？
+$k
+
+&empty
+ちょっとなごり惜しい気もするけど。
+$k
+
+優
+「そうかいありがとう、じゃあお願いしようかな～」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000020
+桜子
+「声うわずってるっつーの…」
+#msmall
+$k
+
+// MII_0301KY
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KY.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030027
+みい
+「じゃあイキますよ～～？」
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「は、はい。
+$nw,1000
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),S_Kishimu02
+
+　うおおおおおーっ！？」
+
+$k
+
+// 	Shake(SLOWER, SHAKE_DOWN, 8, 200);
+
+&empty
+左右からみいちゃんの手が顔の側部から
+頭のてっぺんにかけられ、顔が引っ張られると同時に
+頭頂部一帯を適度な力で揉みこんでいる。
+$k
+
+&empty
+これも相当気持ちイイな！
+ああっ、首もすっきりのびる感じするし……。
+$k
+
+// MII_0301NO
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030028
+みい
+「はーい、楽にしててくださいね～？」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+今の俺は顔面を相当歪められ、にらめっこすれば
+相当良い勝負が出来るに違いない。
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+&empty
+しかし目の前の桜子は相変わらず、
+こっちをしっかり凝視している。ちょっと怖い顔で。
+$k
+
+// 	SS(CENTER, SAKURAKO_A302NR, MOVE_STOP, SLOW);
+
+// SAKURAKO_A302NR
+
+#sp,vo,01000021
+桜子
+「………」
+$k
+
+優
+「……なにか？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000022
+桜子
+「あんたも所詮ただの男よね～。
+　………すんごい、ニヤけてるわよ？」
+$k
+
+優
+「いや、ナニが？　俺は今日肩が凝っててみいちゃんの
+　肩もみテクがあまりに気持ちよかったから、
+　顔がほころんでいるだけでね？」
+$k
+
+//	SetIconIkari( CENTER  );
+// SAKURAKO_A302NR
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000023
+桜子
+「ええ、そうねー。
+$nw,1830
+
+　あたしは肩が凝るほど
+$nw,1380
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK8.png,(x),c,(s),80%
+#ig
+
+#madd,『持って』
+$nw,1240
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK5.png,(x),c,(s),80%
+#ig
+
+#madd,ないものね～」
+
+$k
+
+&empty
+怖いです、桜子さん。
+これは冤罪……だと思うんですよ。
+$k
+
+優
+「はは……」
+#meffect,flow,5
+$k
+
+&empty
+分かってるさ、だって物凄い感触を俺の首や後頭部や
+ちょっと背中の方にも感じまくっているからな！
+$k
+
+&empty
+しかも、みいちゃんが力をいれる度に
+『ぷるんぷるん』の『ほにょほにょ』なもんでさぁ、
+もうっ！！
+$k
+
+&empty
+鼻をくすぐる若い女の子特有の
+甘い香りも相まって、もうぞわぞわ来るさぁ！
+これで鼻の下が伸びない男はどうかしてるだろっ？
+$k
+
+優
+「いやーどんどん疲れが取れるな～。
+　あ゛あ゛～、癒されるねー、はははー！」
+$k
+
+// SAKURAKO_A302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000024
+桜子
+「ふーん…」
+#meffect,flow,5
+$k
+
+優
+「……はは」
+#meffect,flow,5
+$k
+
+#sp,se,S_Nuno06
+
+// 	SS_(CENTER, SAKURAKO_0303KT, MOVE_STOP, SLOW);
+// 立ち絵移動。パラメータは適宜。
+
+// SAKURAKO_0303KT
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000025
+桜子
+「またちょっと眠くなってきたから、
+　あたし上で昼寝してくるわね。
+　一時間くらいしたら起こしに来てくれる？」
+$k
+
+// 	WaitStand( CENTER );
+
+優
+「お、おう…」
+#meffect,flow,5
+$k
+
+&empty
+つい返事しちゃったけど
+俺が起こしに行っていいのか？
+$k
+
+// SAKURAKO_0303KT
+#sp,vo,01000026
+桜子
+「起きたら学園の方、案内してあげるから。
+$nw,2630
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+　じゃあね」
+$k
+
+// MII_0301AK
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030029
+みい
+「ふうぅ～っ」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"びくん！！" );
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「うひゃいゃああ～っ！？」
+#mlarge
+$k
+
+#ir
+#ie,c1
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KB.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+&empty
+部屋を出て行こうとしていた桜子が
+またこちらを見ている……。
+$k
+
+// 	SS_(RIGHTRIGHT, SAKURAKO_0302KB, MOVE_RIGHT, SLOW);
+// 立ち絵移動。パラメータは適宜。
+
+// 	ZoomStand(RIGHTRIGHT, 0, 80, 80);
+// 	WaitStand( RIGHTRIGHT );
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000027
+桜子
+「なんて声出してんのあんたは。
+　……頭は大丈夫？」
+$k
+
+優
+「も、問題ない！」
+$k
+
+// MII_0301NS
+#ir
+#ip,c3,(fi),MII_A301.png,(psi),MII_An01NS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01030030
+みい
+「けらけら」
+$k
+
+&empty
+く、なんか鳥肌立ったぞ！
+みいちゃん、俺の耳に息を吹きかけやがった。
+勢いよく、ブルっとする感じのを。
+$k
+
+&empty
+この娘は一体何をしたいんだ。
+$k
+
+// SAKURAKO_0302IK7
+
+#sp,vo,01000028
+桜子
+「みいも、そういうのほどほどにね。
+　襲われても知らないからね～？」
+$k
+
+優
+「ちょ、人聞き悪…」
+$k
+
+// MII_0301NO
+#ir
+#ip,c3,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01030031
+みい
+「ほほほ、大丈夫ですよ。その辺は心得てますから。
+$nw,5440
+
+#ir
+#ip,c3,(fi),MII_A301.png,(psi),MII_An01AK.png,(x),l,(s),60%
+#ig
+
+　なんかあったら雪華さんにチクりますし」
+$k
+
+優
+「え？　心得てって……」
+$k
+
+#ir
+#ie,c3
+#ig
+
+&empty
+みいちゃん、もしかしてずっとワザとやってた？
+俺の反応楽しんでたって事？
+$k
+
+// SAKURAKO_0302IK7
+
+#sp,vo,01000029
+桜子
+「だといいけどね？
+$nw,2390
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),r2,(s),60%
+#ig
+
+　じゃあ、あたし寝るから。いちゃつくなら静かにねー」
+
+$k
+
+#sp,se,S_Walk14o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r3,(al),0%
+#ig
+
+&empty
+桜子が部屋から出て、階段を上るトントンという足音も
+遠のいて、残されたのは俺とみいちゃんだけ。
+$k
+
+// 	SEPlay("S_Walk14o", 60, 60);
+
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+&empty
+ふと背中側の感触が消えたのに合わせて、
+みいちゃんの方に向き直ってみる。
+$k
+
+// 	SS_(CENTER, MII_0301NO, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+// 	ZoomStand(CENTER, 0, 80, 80);
+// 	MoveStand(CENTER, 0, 0, 20);
+// 	WaitStand( CENTER );
+
+優
+「おや、みいちゃん。
+　なぜ後ずさっているのかな？」
+$k
+
+// 	CS_(CENTER, CENTERRIGHT, SLOWEST);
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0
+#ig
+
+// MII_0301NO
+#sp,vo,01030032
+みい
+「いえね？　私、これから本屋さんに
+　出かけなければいけない用事がありましてですね」
+$k
+
+// 	WaitStand( CENTERRIGHT );
+
+&empty
+もう居間からその足は完全に出ている。
+$k
+
+// 	CS_(CENTERRIGHT, RIGHT, SLOWEST);
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r
+#ig
+
+// MII_0301NS
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01030033
+みい
+「ぷふ………、気持ちよかったですか？」
+$k
+
+// 	WaitStand( RIGHT );
+
+優
+「……主に正面からの視線がな」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"廊下の柱の後ろに隠れながら……。" );
+// 	CS_(RIGHT, RIGHTRIGHT, SLOWEST);
+
+// MII_0301BS
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2
+#ig
+
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01BS.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01030034
+みい
+「姉上の胸もお兄様が揉んであげれば、
+　大きくなるかもしれないですよ、ということで。
+$nw,8010
+
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),r2,(s),60%
+#ig
+
+　がんばってくださいね、
+$nw,1260
+
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KS.png,(x),r2,(s),60%
+#ig
+
+#madd,うぷぷっ……」
+
+$k
+
+// 	WaitStand( RIGHTRIGHT );
+
+優
+「いったい何をがんばれってんだ！
+$nw,1000
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r3,(al),0%
+#ig
+
+　あ、こら逃げんな！
+$nw,1000
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig
+
+#ir,(dr),500
+#ie,ov
+#ig,(se),S_Punch04
+
+　あ、痛てっ！？」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+&empty
+立ち上がろうとしてテーブルに肘をぶつけた。
+$k
+
+優
+「～～～っ」
+#meffect,flow,2
+$k
+
+#ss,bgm
+
+#sp,vo,01030035
+みい
+「ケラケラケラ………」
+#msmall
+$k
+
+&empty
+痛みをこらえ顔を上げた時には、みいちゃんの姿は無く。
+遠ざかるケラケラ、という笑い声しか聞こえなかった。
+$k
+
+&empty
+ホントにケラケラ笑ってたな……。
+$k
+
+優
+「おのれ妖怪め」
+$k
+
+#sp,env,S_Semi01#
+
+&empty
+誰も居なくなった居間に、
+『まだまだがんばれる』と言わんばかりに、
+もう今年最後かもしれないセミの声が聞こえてきた。
+$k
+
+優
+「ああ、もう余計に疲れた気がするな。
+　朝から移動とか、ちょっとショックな出来事とか。
+$nw,2000
+
+　……俺も少し寝ようかな」
+$k
+
+&empty
+主に気疲れで。
+$k
+
+// 	SV( BG_TD_GAIKAN01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN01B.jpg,(s),100%
+#ig
+
+
+
+&empty
+独り言なぞぼやきながら、
+携帯のアラームを４５分後にセットして、
+
+//#sp,se,S_Nuno05
+
+//	Shake(NORMAL, SHAKE_DOWN, 4, 40);
+
+居間の壁にもたれかかってみた。
+
+$k
+
+&empty
+疲れたけど、以前と何も変わんねえよな……。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+//	PlayMovie( "Fake.mpg" );
+
+//	SM( CHAR_ETC, -1, "", "かさかさ、かさかさ。" );
+
+#sp,se,S_Paper09
+
+#wait,2000
+
+#sp,se,S_Paper09
+
+#show
+
+&empty
+う～～ん、何の音だ……？
+$k
+
+&empty
+あ、そっか俺寝てたんだっけ………。
+$k
+
+
+#next,01pro01_04

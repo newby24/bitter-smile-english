@@ -1,0 +1,731 @@
+﻿// 既読フラグ
+#read_flag,412
+
+// セーブタイトル
+#flag,save_title,要　第２０話,0,0
+
+#sp,env,S_Bird01#
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第２０話　週末デート
+$k
+#note,erase
+
+#show
+
+&empty
+週末は快晴。
+$k
+
+&empty
+約束のかいあってか、絶好のデート日和だ。
+$k
+
+#ss,env,(dr),0
+
+#sp,env,S_Town01#
+
+// #sp,env,S_Gaya01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_EKI01A.jpg,(s),100%,(x),l_s
+#ig
+
+&empty
+待ち合わせ５分前。
+$k
+
+// 	SV( BG_MT_EKI01A );
+
+&empty
+俺は先に来ていた彼女に駆け寄って声をかけた。
+$k
+
+優
+「ごめん、待った？」
+$k
+
+// 	SS_( CENTER, KOZUE_0401EG );
+
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01EG.png,(x),c,(s),60%
+#ig
+
+// KOZUE_0401EG
+#sp,vo,06100043
+山之辺
+「ううん、今来たとこ」
+$k
+
+&empty
+………何かが激しく間違っていたけど。
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#ir,(dr),2000,(ef),move
+#ip,bg,(x),r_s
+#ig
+
+// 	SV( BG_MT_EKI01A );
+// 	Fade( NORMAL, 100 );
+// 	Scroll( SLOWER | SPEED_DOWN, 220, 0 );
+// 	SS( RIGHTRIGHT, KANAME_A401RK );
+// 	MoveStand( RIGHTRIGHT, 0, RIGHTRIGHT + 60, 0 );
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),r,(s),80%
+#ig
+
+//	CFI();
+
+#show
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// KANAME_A401RK
+
+#sp,vo,06021354
+要
+「…人が見てないと思って、
+　なにベタっぽい雰囲気出してんのよぅ」
+$k
+
+#hide
+
+#ir,(ef),off
+#ip,c2,(fi),image\etc\kaname_chousa_01.png,(x),r,(al),0%
+#ig
+
+#sp,se,W_Beep01
+
+#ir,(dr),0
+#ip,c2,(al),100%
+#ig
+
+#wait,500
+
+#ir,(dr),0
+#ip,c2,(al),0%
+#ig
+
+#wait,500
+
+
+#sp,se,W_Beep01
+
+#ir,(dr),0
+#ip,c2,(al),100%
+#ig
+
+#wait,500
+
+#ir,(dr),0
+#ip,c2,(al),0%
+#ig
+
+#wait,500
+
+
+#sp,se,W_Beep01
+
+#ir,(dr),0
+#ip,c2,(al),100%
+#ig
+
+#wait,2000
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	SetObject( 0, "kaname_chousa_01.png",  690, 450, OBJATTR_TOP );
+// 	Scroll( 0, 0, 0 );
+// 	DelStandAll();
+
+#show
+
+&empty
+ことの起こりは、以前から話題に出ていた、
+要さんの２度目のお見合い。
+$k
+
+&empty
+それを回避した要さんは、
+断る代わりに、自分とほぼ同条件・同年齢の友人を、
+冗談半分で紹介したらしい。
+$k
+
+&empty
+問題は…冗談は人を選ぶということ。
+$k
+
+&empty
+特に相手が、お見合いの仲介数を、
+星として数えるタイプのおばさんだと最悪で…。
+$k
+
+#hide
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SV( BG_MT_SHIGAICHI01A );
+// 	SS( CENTER, KOZUE_0401KS );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SHIGAICHI01A.jpg,(s),100%
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KS.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KOZUE_0401KS
+#sp,vo,06100044
+山之辺
+「我がことながら、まさか教え子と
+　デートする日がくるなんて…」
+$k
+
+優
+「卒業しましたし、教育委員会的にも
+　問題ありませんて」
+$k
+
+// KOZUE_0401IK2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100045
+山之辺
+「私の倫理的に問題なの」
+$k
+
+優
+「じゃあ帰ります？」
+$k
+
+// KOZUE_0401KM
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100046
+山之辺
+「でもお見合いもしたくないし～」
+$k
+
+優
+「今からでもご両親に本当のこと、
+　話せばいいじゃないですか。
+　彼氏はいないけど、お見合いはしたくないって」
+$k
+
+// KOZUE_0401KF
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100047
+山之辺
+「今さら頭なんて下げられない～」
+$k
+
+&empty
+どうしろと言うのか。
+$k
+
+優
+「だいたい、どうして彼氏がいるなんて
+　嘘ついちゃったんです？」
+$k
+
+// KOZUE_0401IK2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100048
+山之辺
+「だってお母さんひどいのよ？
+　彼氏いない歴２０うん年とか色気がないとか。
+　実の娘にそういうこと言う普通？」
+$k
+
+// KOZUE_0401KM2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100049
+山之辺
+「それが渡りに舟と見合い話なんか出された後で、
+　勝手に写真とか履歴書まで用意されてたら、
+　売り言葉に買い言葉にもなっちゃうよ」
+$k
+
+優
+「人は本当のことを言われたときほど、
+　ムキになるって言いますしね」
+$k
+
+// KOZUE_0401CH
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01CH.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100050
+山之辺
+「ナンデスト？」
+$k
+
+&empty
+俺は目を逸らした。
+$k
+
+// KOZUE_0401IK
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100051
+山之辺
+「というか、矢崎くんが
+　あの子の監督責任を果たしてれば、
+　こんなことにはならなかったんだから～」
+$k
+
+優
+「だからこうして協力させられてるじゃないですか。
+　先生と、先生の親友のために」
+$k
+
+// KOZUE_0401KM
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100052
+山之辺
+「親友の人生初の彼氏が、
+　まさか自分の教え子なんて…」
+$k
+
+&empty
+望まぬお見合いを強行されそうになった元担任は、
+とっさに男の存在を匂わせて危機を回避。
+$k
+
+&empty
+だが、納得できない母親は証拠を見せろと騒ぎ…。
+$k
+
+&empty
+ふたり一緒の姿を見せ、納得させるという、
+女学生のこじれた男女交際のような解決法が選ばれた。
+$k
+
+&empty
+『だったら証拠にキスしてみせなさいよ』のノリだ。
+$k
+
+&empty
+当然男っ気のない先生は、学生時代からの親友で、
+諸悪の根源でもある要さんに相談。
+$k
+
+&empty
+要さんの付き合っている相手が俺だと発覚。
+$k
+
+&empty
+責任追及する先生と徹底抗戦の要さんの間で、
+文句なしの七ならべ勝負が行われ…。
+$k
+
+&empty
+結果、『売られた』俺に要さんを通じて
+電話がきたのが、つい先日のことだった。
+$k
+
+優
+「先生、行きたいとこありますか？」
+$k
+
+// KOZUE_0401BS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100053
+山之辺
+「花粉のない世界」
+$k
+
+優
+「こないだの電話すごかったですもんね。
+　あと卒業式のときも」
+$k
+
+// KOZUE_0401KM
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100054
+山之辺
+「ほら私デリケートだから。
+　薬が切れちゃうとどうしてもね」
+$k
+
+優
+「先生、行きたいとこありますか？」
+$k
+
+// KOZUE_0401KF
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100055
+山之辺
+「なかったことにしないでよ～」
+$k
+
+優
+「マスクしてくればいいじゃないですか」
+$k
+
+// KOZUE_0401IK2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100056
+山之辺
+「デートの時にそんなものつけられますか」
+$k
+
+&empty
+よくわからない理論だ。
+相手はしょせん俺なのに。
+$k
+
+// KOZUE_0401KM2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100057
+山之辺
+「でもほんと、誰かに見られて
+　こじれるとかないよねぇ」
+$k
+
+優
+「こじれるって？」
+$k
+
+// KOZUE_0401KM
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100058
+山之辺
+「あらぬ疑いをかけられて、
+　矢崎くんの大学合格取り消しとか、
+　私のお給料カットとかボーナスカットとか」
+$k
+
+優
+「大丈夫でしょ。
+　卒業してるんだし、そもそも事実関係は白。
+　いざとなったら本当のことを…」
+$k
+
+優
+「ってこれ、先生が言ったんでしょ」
+$k
+
+// KOZUE_0401KS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100059
+山之辺
+「いざとなったら尻込みしちゃって…
+$nw,2250
+
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01AY.png,(x),c,(s),60%
+#ig
+
+　あはは」
+$k
+
+優
+「そうやって俺に言わせといて、もしもの時、
+　責任を取らせようってんじゃないでしょうね」
+$k
+
+// KOZUE_0401OD
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01OD.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,06100060
+山之辺
+「そんなそんな、まさかまさかっ」
+$k
+
+&empty
+否定するように、胸の前でぶんぶんと手を振る。
+$k
+
+&empty
+先生って、けっこう子供っぽい仕草もするんだな。
+同じ年上の女性でも、やっぱ違うもんだ。
+$k
+
+優
+「いま思ったんですけど」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+// KOZUE_0401BS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100061
+山之辺
+「なぁに？」
+$k
+
+優
+「先生の親御さんがどこかで見てて、
+　そちらにアピールしなきゃいけないわけでしょ」
+$k
+
+// KOZUE_0401BS
+#sp,vo,06100062
+山之辺
+「お母さんね」
+$k
+
+// KOZUE_0401KS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100063
+山之辺
+「お父さんはお見合い自体乗り気じゃなかったとこに、
+　私に彼氏いるって聞いて拗ねちゃったから」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　 す
+$k
+
+優
+「複雑な男親心…」
+#meffect,flow,5
+$k
+
+// KOZUE_0401KS3
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KS3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100064
+山之辺
+「いっそ直接会っちゃえばすぐ済んだのに」
+$k
+
+優
+「この状況を容認できるお母さんに会ったりしたら、
+　それこそ取り返しがつかなくなりそうでしょ」
+$k
+
+// KOZUE_0401KM
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),60%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ase.png,(x),520,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op1,(y+),100,(al),0%
+#ia,op1,al,(dl),500
+#ig
+
+#sp,vo,06100065
+山之辺
+「…それは私も勘弁願いたいかも」
+$k
+
+優
+「話を戻しますけど、
+　俺、先生って呼んでていいんですかね」
+$k
+
+// KOZUE_0401KD
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KD.png,(x),c,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,06100066
+山之辺
+「あ」
+$k
+
+優
+「彼氏が元教え子だなんて言ってないんでしょ」
+$k
+
+// KOZUE_0401BS2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100067
+山之辺
+「た、確かにそうかも…。
+　お母さんにでかしたって褒められちゃう」
+$k
+
+優
+「…まあ受け取り方は人それぞれでしょうけど」
+$k
+
+// KOZUE_0401BS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100068
+山之辺
+「でも、なんて呼ぶ？
+　呼び方なんて限られてるけど」
+$k
+
+優
+「山之辺さん？」
+#meffect,flow,5
+$k
+
+// KOZUE_0401KM
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100069
+山之辺
+「………」
+#meffect,flow,5
+$k
+
+// KOZUE_0401KD
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100070
+山之辺
+「要は？」
+$k
+
+優
+「要さん！？
+　要さんは要さんですけど」
+$k
+
+// KOZUE_0401KD
+#sp,vo,06100071
+山之辺
+「呼び捨てじゃないんだ？」
+$k
+
+優
+「いや、要さんは小さい頃から要さんだし、
+　今さら要さんを要さんじゃない要さんっても…」
+$k
+
+// KOZUE_0401AY
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01AY.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100072
+山之辺
+「別に呼び捨てでもいいんじゃないの？」
+$k
+
+優
+「え、や、そんな…」
+#meffect,flow,5
+$k
+
+// KOZUE_0401EG2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100073
+山之辺
+「ふふ…
+$nw,1350
+
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+　練習してみる？」
+$k
+
+優
+「今はそんな話をしてるんじゃなくて…」
+$k
+
+// KOZUE_0401BS2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100074
+山之辺
+「いいでしょ、先生からの補習授業」
+$k
+
+#next,06kaname20_01

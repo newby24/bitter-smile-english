@@ -1,0 +1,52 @@
+﻿// 既読フラグ
+#read_flag,255
+
+// ISAKI_0101NO
+#sp,vo,04010929
+勇樹
+「優はこっちとこっちなら、どっちがいいんだ？
+　私はこっちがいいと思うんだが」
+$k
+
+&empty
+真剣な顔の勇樹の隣に座って、
+俺も一緒に考え始める。
+$k
+
+&empty
+２人のこれからを。
+$k
+
+&empty
+そっと、手を重ねながら。
+$k
+
+#hide
+
+#wait,1000
+
+#ss,bgm,(dr),2000
+
+#ir,(dr),2000
+#ip,bg,(fi),white.jpg
+#ig
+
+#wait,2000
+
+#ir,(dr),2000
+#ip,bg,(fi),image\stitle\stitle_fin_isaki.jpg,(y),0
+#ig
+
+$k
+
+// トロフィー。
+#trophy,5
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 終了処理へ。
+#next,00_end_flag

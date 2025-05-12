@@ -1,0 +1,730 @@
+﻿// 既読フラグ
+#read_flag,221
+
+// セーブタイトル
+#flag,save_title,勇樹　第１２話,0,0
+
+// 	SV( BG_SJ_GAIKAN01C );
+
+#sp,env,T_Bird
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01C.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第１２話　君の愛情表現がわからない
+$k
+#note,erase
+
+// 	WaitSE();
+
+#ss,env,(dr),1000
+
+#sp,se,T_Walk01
+
+// 	SV( BG_SJ_KAIDAN01A );
+
+// 	WaitSE();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KAIDAN01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	WaitSE();
+
+// 	SV( BG_SJ_2FROKA01A );
+
+#sp,se,T_Walk01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+#show
+
+#sp,vo,04010367
+？？？
+#mstyle,(co),勇樹
+「…………」
+$k
+
+#sp,se,T_Door02
+
+// 	WaitSE();
+
+// 	SV( BG_SJ_YU03N );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03N.jpg,(s),100%
+#ig
+
+優
+「…ぐう……ぐがぁ…」
+$k
+
+#sp,vo,04010368
+？？？
+#mstyle,(co),勇樹
+「……」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+優
+「…ぐぁ……ん、んんー……」
+$k
+
+優
+「……ふわぁ…」
+$k
+
+&empty
+ん…もう朝か……。
+$k
+
+&empty
+よく寝たような、まだ寝足りないような微妙な感じで、
+目がしっかり開かない。
+$k
+
+&empty
+いつもより部屋の中が薄暗い気がするな。
+$k
+
+&empty
+…目覚ましはまだ鳴ってないか。
+$k
+
+&empty
+今、何時だ…？
+このままもう少し布団の中で
+うとうとと惰眠をむさぼる時間があれば…。
+$k
+
+優
+「っ…！？」
+$k
+
+&empty
+部屋の隅にうずくまる謎の人影が！？
+$k
+
+// /*	SetStandEx( CENTER, ISAKI_A202NO );
+// 	MoveStand( CENTER, 0, 0, 100 );
+// 	FadeStand( CENTER, 50, FADE_ALPHA, 100 );*/
+
+// 	SS( CENTER, ISAKI_A202NO );
+
+#sp,bgm,BGM_ISAKI
+
+// 	Zoom( 0, 150, 150, 400, 300 );
+
+// 	RFI( RULE_EYE, SLOW );
+// 特殊な画面変更。暫定的に。
+
+
+#ir,(ef),off
+#ip,bg,(fi),BG_SJ_YU03N.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),100%
+#ip,c2,(fi),image\sysc\sysc_mabuta_1.png,(x),c,(y),u_s
+#ip,c3,(fi),image\sysc\sysc_mabuta_2.png,(x),c,(y),d_s
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,c2,(y),o_u,(al),0
+#ip,c3,(y),o_d,(al),0
+#ia,c2,al,(dr),1000,(dl),1000
+#ia,c3,al,(dr),1000,(dl),1000
+#ig
+
+&empty
+って、あ…。
+$k
+
+優
+「…………お、おはよう、宮津橋」
+$k
+
+&empty
+宮津橋が座っていた。
+$k
+
+// 	SV( BG_SJ_YU03N );
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(x),c,(s),80%
+#ie,c2,c3
+#ig
+
+#sp,vo,04010369
+勇樹
+「おはよう。ずいぶんとねぼすけだな、お前は」
+$k
+
+&empty
+一気に目が覚めた。
+$k
+
+&empty
+時計を見ると、まだ７時前だ。
+学園に行くにしても早い。
+$k
+
+優
+「い、いつからいたんだ？」
+$k
+
+// ISAKI_A202NO
+#sp,vo,04010370
+勇樹
+「３０分ほど前だ」
+$k
+
+&empty
+その間、ずっと俺の寝顔を見ていたんだろうか？
+謎だ。
+$k
+
+優
+「起こしてくれればよかったのに」
+$k
+
+// ISAKI_A202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010371
+勇樹
+「人に頼るな。自分で起きろ」
+$k
+
+優
+「いや、そうじゃなくて……退屈だっただろ」
+$k
+
+&empty
+俺がそう言うと、宮津橋は首を横に振った。
+$k
+
+// ISAKI_A201NS
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010372
+勇樹
+「お前の寝顔を見てたら、飽きなかった」
+$k
+
+優
+「そ、そうか」
+$k
+
+&empty
+３０分もじっと寝顔を見つめられていたかと思うと、
+なぜかやたらに恥ずかしい。
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010373
+勇樹
+「寝言も言ってたしな」
+$k
+
+優
+「へ？　俺、なにか言ってた？」
+$k
+
+// ISAKI_A201NS2
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,sound\voice\xx\04010373x
+勇樹
+「キノコの大戦争があるそうだ」
+$k
+
+// 	SK2( NORMAL );
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「夢の中で何してんだ、俺ぇーっっ！」
+#mlarge
+$k
+
+&empty
+さっぱり覚えてない。
+さっきまで見ていた夢のはずなのに。
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010374
+勇樹
+「起きたなら、さっさと仕度しろ。
+　学園に行くんだろう」
+$k
+
+優
+「あ、ああ。
+　あれ？　もしかして、迎えに来てくれたのか？」
+$k
+
+// ISAKI_A202KT
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010375
+勇樹
+「それ以外のなんだと思ったんだ」
+$k
+
+&empty
+新手の座敷童かと思いました。
+$k
+
+優
+「しかし…どこから入ったんだ…？」
+$k
+
+// ISAKI_A202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010376
+勇樹
+「私も前はここに居たからな。
+　入ろうと思えばどこからでも入れる」
+$k
+
+優
+「そ、そうか、すごいな…」
+$k
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+そんなこんなで宮津橋の謎の行動は続いている。
+$k
+
+&empty
+どうも悪気はないらしいんだが、
+……振り回される方の身としては、
+宮津橋が何をしたいのかわからなくて、時々困る。
+$k
+
+&empty
+別に暴力的なわけじゃないし、害もないんだが…。
+$k
+
+#hide
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+それからもちょくちょく宮津橋は、
+朝、目が覚めると俺の部屋の隅に座っている。
+$k
+
+&empty
+ちょっと心臓に悪い。
+$k
+
+&empty
+また、起こしてくれればいいものを、なぜか、
+飽きずに俺の寝顔を眺めているらしい。
+よくわからない。
+$k
+
+// 	SS( CENTER, ISAKI_A201NO );
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010377
+勇樹
+「矢崎優」
+$k
+
+優
+「お、おう」
+$k
+
+&empty
+宮津橋にフルネームで呼ばれると、ちょっと
+ドキっとしてしまう。
+$k
+
+&empty
+なぜだろう。
+呼び方が変わったせいだろうか。
+$k
+
+// ISAKI_A201NO
+#sp,vo,04010378
+勇樹
+「今日の放課後は私に付き合ってもらおうか」
+$k
+
+優
+「別にいいけど。どうせ、いつも一緒に
+　帰ってるわけだし」
+$k
+
+// ISAKI_A201NO
+#sp,vo,04010379
+勇樹
+「ならば、決まりだな」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+そう言うと、宮津橋は自分の席から持ってきた椅子を
+俺の椅子にくっつけるように置いて、そこに座った。
+$k
+
+&empty
+そのまま、とくに何をするでもなく、
+無言でじっとしている。
+$k
+
+優
+「あの……宮津橋？」
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010380
+勇樹
+「？」
+$k
+
+優
+「話ってそれだけか？
+　何の用事で、とかさ……」
+$k
+
+// ISAKI_A202KT
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010381
+勇樹
+「いや、今はこれだけだ」
+$k
+
+&empty
+移動教室のない休み時間に、
+宮津橋がこうやって
+椅子をくっつけてくるようにもなった。
+$k
+
+&empty
+でも、積極的に話しかけてくるわけでもなく、
+ただ本を読んでたり、じっと座って
+たまに俺の顔を見つめてみたり…。
+$k
+
+&empty
+…何がしたいんだろう。
+$k
+
+優
+「今は……って、なんだ？」
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010383
+勇樹
+「帰りに大きめの本屋に行きたいが、
+　繁華街に１人で行くとわずらわしい」
+$k
+
+優
+「ああ、なるほどな」
+$k
+
+&empty
+この状態をクラスのやつらは
+不思議そうに、若干遠巻きに見ている。
+$k
+
+&empty
+微笑ましそうに見ているヤツもいるみたいだが、
+なんだか、そういうのとは違うような…。
+$k
+
+優
+「わかった。じゃ、駅前の方、行くか。
+　俺も参考書を見たいし」
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010384
+勇樹
+「ああ」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+そこで、宮津橋がまた黙り込んでしまう。
+$k
+
+&empty
+落ちる沈黙。
+$k
+
+&empty
+気まずくなって目を逸らすが、宮津橋が
+俺の事を見ているのを肌で感じる。
+$k
+
+&empty
+ちらっと顔を上げると、宮津橋はやっぱり
+俺の事をじーっと見つめていた。
+$k
+
+&empty
+無表情で。
+$k
+
+&empty
+休み時間はまだ５分ある。
+どうしたものだろう。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT5.png,(x),r0,(s),60%
+#ig
+
+#show
+
+// MEGUMI_0201KT5
+
+#sp,vo,04070085
+めぐみ
+「あれー？　桜子、どうしたの？」
+$k
+
+// SAKURAKO_0203IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000105
+桜子
+「しっ！　声が大きい！」
+$k
+
+// MEGUMI_0201AZ
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01AZ.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,04070086
+めぐみ
+「ああ、もしかして、あの２人が
+　気になって見に来たの？」
+$k
+
+// SAKURAKO_0203FK2
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000106
+桜子
+「違うわよ。
+　そういうんじゃなくて、ただ……」
+$k
+
+// SAKURAKO_0202IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000107
+桜子
+「そう！　あたしはただ、英和辞典を忘れたから
+　借りに来ただけよ」
+$k
+
+// MEGUMI_0201KS
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KS.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,04070087
+めぐみ
+「はいはい。今、取ってくるから待っててね」
+$k
+
+// SAKURAKO_0201AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01AK2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000108
+桜子
+「よろしくね」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),0%
+#ig
+
+// SAKURAKO_0202IK8
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK8.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000109
+桜子
+「……なにやってるのよ、ったく……」
+$k
+
+// MEGUMI_0201TR
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01TR.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),100%
+#ig
+
+#sp,vo,04070088
+めぐみ
+「お待たせっ。はい、英和辞典」
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000110
+桜子
+「ありがと。
+　ところで……さっきからあの２人何してるの？
+　ろくにしゃべりもしないで」
+$k
+
+// MEGUMI_0201KD2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KD2.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,04070089
+めぐみ
+「さあ……でも、いつもあんな感じだけど？」
+$k
+
+// SAKURAKO_0202IK4
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000111
+桜子
+「いつも？　いつもあんなふうに、だまーって、
+　たまに見つめあったり、目逸らしたり？」
+$k
+
+// MEGUMI_0201SP3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP3.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,04070090
+めぐみ
+「うん。ま、優ちゃんと勇樹ちゃんだしねぇ」
+$k
+
+// SAKURAKO_0202IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04000112
+桜子
+「……」
+$k
+
+// MEGUMI_0201KT6
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT6.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,04070091
+めぐみ
+「桜子…なんか怒ってる？」
+$k
+
+
+#next,04isaki12_01

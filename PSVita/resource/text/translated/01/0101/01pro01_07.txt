@@ -1,0 +1,846 @@
+﻿// 既読フラグ
+#read_flag,17
+
+// SAKURAKO_0302NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000097
+桜子
+「なんで、そこでへこむのよ？」
+$k
+
+// SAKURAKO_0302KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000098
+桜子
+「まあ、いいわよ？　別に。
+$nw,2370
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+　ほら受験。ちゃんと上手くいったら見せてあげても」
+$k
+
+優
+「………ふん」
+$k
+
+// SAKURAKO_0302EG
+
+#sp,vo,01000099
+桜子
+「減るもんじゃないし、こんなもん。
+　いくらでも見せたげるって、
+$nw,3490
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),60%
+#ig
+
+　ちらっ、ちらっ！」
+$k
+
+優
+「もう信じねえっつの！
+$nw,1000
+
+　（信じたいけどさ！）」
+$k
+
+&empty
+ああ、俺はなんて愚かなんだ。
+パンツなんぞに釣られるとは……。
+$k
+
+#hide
+
+#ss,bgm
+
+//	SS_(RIGHTRIGHT, ISAKI_0301MU, MOVE_LEFT, SLOW);
+//	ZoomStand(RIGHTRIGHT, FASTEST, 60, 60);
+//	MoveStand(RIGHTRIGHT, FASTEST, -50, 25);
+//	MoveStand(RIGHTRIGHT, SLOW, 0, 25);
+//	WaitStand( RIGHTRIGHT );
+// 	SV( VISUAL_ISAKI_01A );
+
+// 	DelStandAll
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_01A.jpg,(s),75%
+#ig
+
+#flag,cg,11,=,1
+
+#wait,1000
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_MT_JINJYAMAE02A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「！？」
+$k
+
+// 	SV( BG_MT_JINJYAMAE02A );
+// 	SS(CENTER, SAKURAKO_0302EG);
+
+// SAKURAKO_0301KS2
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01KS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000100
+桜子
+「ほらほら～ぁ……優、どうしたの？
+$nw,4320
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+　あれ、怒った？」
+$k
+
+優
+「いや、違う。
+　そうじゃなくて……」
+$k
+
+// SAKURAKO_0302NO
+
+#sp,vo,01000101
+桜子
+「なに？」
+$k
+
+&empty
+今、通り過ぎた娘……
+$k
+
+&empty
+幻覚か？
+一瞬だったし、人違いか。
+$k
+
+&empty
+まあ、そんなワケないよな……まさかね？
+$k
+
+// SAKURAKO_0302KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000102
+桜子
+「優、本当に大丈夫？」
+$k
+
+#sp,bgm,BGM_NICHIJYO
+
+優
+「………なんでもないよ。
+　なんか今日は疲れてるみたいだからな。
+　ちょっと変なもん見たような気がしただけだ」
+$k
+
+// SAKURAKO_0302IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000103
+桜子
+「やだ、あんた怖いこと言わないでくれる？
+　もう怪談シーズンは終わりなんだからね」
+$k
+
+優
+「ところで桜子、
+　この道って、なんか帰りの方向違わねえ？」
+$k
+
+// SAKURAKO_0302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000104
+桜子
+「ん、いいのよこの道で。寄る所あるからね。
+　ほら、あんたの制服、ある人に貰う約束してんの」
+$k
+
+優
+「制服？　そんなん前の学園ので十分だろ？
+　もう半年も着ないんだろうからさ……
+$nw,2000
+
+　って、あっ！」
+$k
+
+// SAKURAKO_0302EG
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000105
+桜子
+「そうね～、あんたの制服も例の事故で
+　アパートもろとも夜空の塵となって消えたわね？」
+$k
+
+優
+「そうだった。すっかり失念していた！」
+$k
+
+// SAKURAKO_0302NO5
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000106
+桜子
+「だから貰いに行くのよ？
+　それに、あたしの幼なじみが私服で登校なんて
+　恥ずかしいもの」
+$k
+
+優
+「でもさ、その制服くれる人の所ってさあ……」
+$k
+
+// SAKURAKO_0302NO5
+#sp,vo,01000107
+桜子
+「だいたいあんたの考えてる通りであってると思うわ。
+　でも物自体は、一度も袖を通してない新品よ？」
+$k
+
+優
+「あー、やっぱり？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC, -1, "", "………" );
+//	SM( CHAR_ETC, -1, "", "……" );
+//	SM( CHAR_ETC, -1, "", "…" );
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SV( BG_HS_MAE02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE02A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「やっぱりここなのか」
+$k
+
+// SAKURAKO_0301NO
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000108
+桜子
+「なにしてんの優、入るわよ」
+$k
+
+優
+「んー」
+$k
+
+#sp,se,S_Door03o
+
+#ir
+#ie,c1
+#ig
+
+// SAKURAKO_0301EG
+#sp,se,S_Cowbell02
+
+#ir
+#ip,bg,(fi),BG_HS_TENNAI02A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000109
+桜子
+「おっちゃん、こんばんは～！」
+$k
+
+//	SV( BG_HS_TENNAI02A );
+
+
+// 	SS(CENTER, DAIGO_0301EG2);
+
+// DAIGO_0301EG2
+#ir
+#ip,c3,(fi),DAIGO_A301EG2.png,(x),r,(s),75%
+#ig
+
+#sp,vo,01990000
+おっちゃん
+「やあ、こんばんは、いらっしゃい二人とも。
+　優君もしばらく見ないうちに大きくなったね～」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000110
+桜子
+「そうそう、こいつまたちょっと背が伸びたのよね。
+　ムカつくわ～。昔はあたしより全然低かったのに！」
+$k
+
+優
+「………」
+$k
+
+&empty
+そこをムカつかれてもなぁ。
+どうしようもないじゃん？
+$k
+
+// DAIGO_0301BS
+#ir
+#ip,c3,(fi),DAIGO_A301BS.png,(x),r,(s),75%
+#ig
+
+#sp,vo,01990001
+おっちゃん
+「そりゃあ、しょうがないよ桜子ちゃん。
+　彼も男の子だからねぇ。
+　大きくなっちゃうのは仕方ない、うん」
+$k
+
+優
+「おっちゃん、
+　その言い方はちょっと危ういんじゃないの？」
+$k
+
+// DAIGO_0301EG
+#ir
+#ip,c3,(fi),DAIGO_A301EG.png,(x),r,(s),75%
+#ig
+
+#sp,vo,01990002
+おっちゃん
+「お、わかるねー！　さっすが男の子。
+$nw,4290
+
+#ir
+#ip,c3,(fi),DAIGO_A301KM3.png,(x),r,(s),75%
+#ig
+
+　うちにもキミみたいな男の子が生まれてたらね～……」
+
+$k
+
+優
+「お父っつぁん、それは言わない約束だよ……」
+$k
+
+// SAKURAKO_0302IK7
+
+#sp,vo,01000111
+桜子
+「なーに、その男同士で分かりあってる、みたいのは？
+　やらしー、気持ち悪ぅーい」
+$k
+
+#hide
+
+#ir,(dr),1000,(un),NO
+#ip,c2,(fi),DAIGO_A301NO.png,(x),c,(s),100%
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),c,(al),50%
+#ie,c3
+#ig
+
+#show
+
+&empty
+このセクハラ低空飛行すれすれの言葉を放った
+このおっちゃん。
+$k
+
+// 	SV( BG_HS_TENNAI02A );
+// 	FadeVisual(FASTEST, 50);
+// 	DelStandAll();
+// 	SS(CENTER, DAIGO_A301NO);
+
+&empty
+名前は、沖奈大吾。
+
+#mfuri,　　　　　　　　おきな　だいご
+
+$k
+
+&empty
+ここ、『ハッピーシ～サ～』の店主であり、
+また俺の数少ない友人の親父さんでもある。
+$k
+
+&empty
+若いときに南の島に行って以来、相当ハマったらしく、
+店の中にはシーサー的な置き物が所狭しと並んでいる。
+$k
+
+&empty
+しかし、だからといって沖縄料理屋を営むわけでもなく、
+なぜかクレープ屋をやっているという、よく分からない
+人だが、とにかく気さくで親しみのある人だ。
+$k
+
+// 	SV( BG_HS_TENNAI02A );
+// 	DelStandAll();
+// 	SS(CENTER, DAIGO_0301NO);
+
+#hide
+
+#ir
+#ip,c1,(fi),DAIGO_A301NO.png,(x),c,(s),75%
+#ie,c2
+#ig
+
+#show
+
+優
+「しっかし、なんかまたシーサー増えてんな」
+$k
+
+// DAIGO_0301EG2
+#ir
+#ip,c1,(fi),DAIGO_A301EG2.png,(x),c,(s),75%
+#ig
+
+#sp,vo,01090000
+沖奈大吾
+「ははは、おっちゃんのライフワークだからねえ！」
+$k
+
+// 	CS_(CENTER, RIGHT);
+// 	SS(LEFT, SAKURAKO_0301NO);
+
+// SAKURAKO_0301NO
+#ir
+#ip,c3,(fi),DAIGO_A301EG2.png,(x),r,(s),75%
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000112
+桜子
+「ところでおっちゃん、めぐは？」
+$k
+
+// DAIGO_0301KM2
+#ir
+#ip,c3,(fi),DAIGO_A301KM2.png,(x),r,(s),75%
+#ig
+
+#sp,vo,01090001
+沖奈大吾
+「いやあ、ごめんねえ桜子ちゃん。
+　あいつは今、出前に出てて居ないんだよ。
+　さっき出た所だから、しばらくは戻ってこないねえ」
+$k
+
+// SAKURAKO_0301NO
+
+#sp,vo,01000113
+桜子
+「そっか、じゃあしょうがないわね」
+$k
+
+// DAIGO_0301NS
+#ir
+#ip,c3,(fi),DAIGO_A301NS.png,(x),r,(s),75%
+#ig
+
+#sp,vo,01090002
+沖奈大吾
+「あ、そうそう制服だったね。今持ってこよう」
+$k
+
+// SAKURAKO_0301TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000114
+桜子
+「あ、ちょっと待った。その前に！」
+$k
+
+// DAIGO_0301EG2
+#ir
+#ip,c3,(fi),DAIGO_A301EG2.png,(x),r,(s),75%
+#ig
+
+#sp,vo,01090003
+沖奈大吾
+「おっ、一本いっとくかい？」
+$k
+
+// SAKURAKO_0301EG
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000115
+桜子
+「いちごミックスひとつ！」
+$k
+
+// DAIGO_0301EG3
+#ir
+#ip,c3,(fi),DAIGO_A301EG3.png,(x),r,(s),75%
+#ig
+
+#sp,vo,01090004
+沖奈大吾
+「あいよ！　いちごミックス入りましたー！」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000,(sync),NO
+#ip,c3,(x),r2,(al),0
+#ig
+
+優
+「おいおい、晩飯前にいいのか？
+　ていうかおっちゃんも！
+　もうすぐ店閉める時間なんじゃねえの？」
+$k
+
+//	CS(LEFT, RIGHT, SLOWEST);
+// SAKURAKO_0302IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000116
+桜子
+「いいの、別腹なんだから」
+$k
+
+優
+「おいおい、それは食後に言う台詞だぞ？」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000117
+桜子
+「細かいこと気にする男ねえ、もてないわよ？」
+$k
+
+優
+「ぐうっ」
+$k
+
+// DAIGO_0301EG2
+#ir
+#ip,c3,(fi),DAIGO_A301EG2.png,(x),r2,(s),75%
+#ig
+
+#sp,vo,01090005
+沖奈大吾
+「そうだよ優君。気にしない気にしない。
+　胃に穴が開いちゃ馬鹿みたいだからね？
+　それに今日は優君のために閉めないで待ってたんだよ」
+$k
+
+優
+「え、俺？　俺のため？」
+$k
+
+// SAKURAKO_0302KB
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000118
+桜子
+「うそよ、ウソだから、優。
+　最近は営業時間延ばしてんのよ、ここ。
+　会社帰りの甘党がよく寄ってくるってね」
+$k
+
+// DAIGO_0301AY
+#ir
+#ip,c3,(fi),DAIGO_A301AY.png,(x),r2,(s),75%
+#ig
+
+#sp,vo,01090006
+沖奈大吾
+「おいおい桜子ちゃん、
+　もうちょっと引っ張ってくれよ？
+　おっちゃんもたまには優君担いでみたかったのに」
+$k
+
+&empty
+こいつら……。
+一日に何度担がれりゃいいの、俺？
+$k
+
+// SAKURAKO_0302KB
+
+#sp,vo,01000119
+桜子
+「どーせ明日にはバレるんだから、めぐの口から。
+　いいじゃない、『ちょっと感動』ネタは、
+　あまり引っ張りすぎると信用無くすし」
+$k
+
+優
+「あとさあ、さっき出前とかいう単語が聞こえたんだが。
+　ここってまだクレープ屋だよな？」
+$k
+
+// SAKURAKO_0302KM
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000120
+桜子
+「そうよ？　クレープ屋だけど」
+$k
+
+優
+「クレープを出前すんのか？」
+$k
+
+// DAIGO_0301BS
+#ir
+#ip,c3,(fi),DAIGO_A301BS.png,(x),r2,(s),75%
+#ig
+
+#sp,vo,01090007
+沖奈大吾
+「最近はクレープ１０本からは出前もしてるんだよ。
+　時間限定、距離限定、メニュー限定、だけどね」
+$k
+
+// SAKURAKO_0302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000121
+桜子
+「そうなの、すごいのよ？
+　出前先で、ぱぱっと作ってくれるんだから」
+$k
+
+&empty
+お前、それ知ってるって事は
+１０本頼んだってことか？
+$k
+
+// DAIGO_0301BS
+
+#sp,vo,01090008
+沖奈大吾
+「まあ生地は保温で運ぶから少し味は落ちちゃうけどね。
+　移動店舗には敵わないけど、概ね好評ですな。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　おおむ
+　実際１０本頼む人は少ないから、こなせるんだけど」
+$k
+
+優
+「もしかしてまた俺の事、騙してない？」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　だま
+
+$k
+
+// SAKURAKO_0302NO5
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO5.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000122
+桜子
+「これは本当よ」
+$k
+
+優
+「お前、俺が今日どんな目に会ってきたか知ってて、
+　それでもまだ信じろと？」
+$k
+
+// DAIGO_0301EG2
+#ir
+#ip,c3,(fi),DAIGO_A301EG2.png,(x),r2,(s),75%
+#ie,c1
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c
+#ig
+
+#sp,vo,01090009
+沖奈大吾
+「はい、いちごミックス一丁！」
+$k
+
+&empty
+おっちゃんが言うと、
+桜子の前にひとつ。俺の前にもひとつ。
+それぞれ皿にのったクレープを差し出してきた。
+$k
+
+&empty
+一丁って言ったよな？
+$k
+
+優
+「え、俺頼んでないよ？」
+$k
+
+&empty
+皿にはこの店のいつものクレープの
+半分の分量のクレープ。
+$k
+
+// DAIGO_0301BS
+#ir
+#ip,c3,(fi),DAIGO_A301BS.png,(x),c,(s),75%
+#ig
+
+#sp,vo,01090010
+沖奈大吾
+「あちらのお客様からのサービスでございます」
+$k
+
+優
+「はい？」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG.png,(x),l,(s),60%
+#ie,c3
+#ig
+
+&empty
+おっちゃんの指す方向には桜子の姿。
+$k
+
+// SAKURAKO_0302EG
+
+#sp,vo,01000123
+桜子
+「疲れてる時は甘いものに限るわよね？」
+$k
+
+&empty
+今、店内には俺と桜子の二人しか客は居ないわけで。
+$k
+
+// SAKURAKO_0301AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000124
+桜子
+「晩御飯前だからね。半分くらいが丁度いいのよ。
+$nw,4040
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),60%
+#ig
+
+　ほら、さっさと食べて制服貰って帰るわよ？
+　もう外も暗くなってきたし」
+$k
+
+// DAIGO_0301EG2
+#ir
+#ip,c3,(fi),DAIGO_A301EG2.png,(x),c,(s),75%
+#ie,c1
+#ig
+
+#sp,vo,01090011
+沖奈大吾
+「おかえり、優君。
+　またうちの奴とも仲良くしてやってくれな？」
+$k
+
+&empty
+まったく、今日はよく担がれる日だ。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+#sp,env,S_Town01#
+
+// 	SV( BG_MT_OLDAPART01E );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_MT_OLDAPART01E.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,01010001
+？？？
+#mstyle,(co),勇樹
+「なんだ、これは……」
+$k
+
+#sp,vo,01010002
+？？？
+#mstyle,(co),勇樹
+「………………。
+#meffect,flow,5
+$nw,1880
+
+　まいったな、大家の名前も住所も覚えてない」
+
+$k
+
+
+#next,01pro01_08

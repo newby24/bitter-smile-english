@@ -1,0 +1,330 @@
+#read_flag,118
+
+// 勇樹ルートの場合。
+
+優
+「桜子……ありがとな？」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402IK4 );
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000744
+桜子
+「なによ、いきなり！？」
+$k
+
+優
+「ずずっ……お前が助けてくれたんだろ？
+　なんか俺の勘違いでさ、…悪かったなって」
+$k
+
+// SAKURAKO_A401TR2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000745
+桜子
+「…別にお礼なんか……
+$nw,1900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+　そういうのは勇樹に言えば？」
+$k
+
+優
+「え？」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000746
+桜子
+「あの子がライター持ってなかったら、どのみち
+　あたし達凍え死んでたかもしれないし」
+$k
+
+// 	SV( VISUAL_ISAKI_04A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_04A.jpg,(s),75%
+#ig
+
+&empty
+桜子に届け物をする為、偶然、桜子を見かけ、
+たまたま桜子の後を追いかけていたらしい宮津橋。
+$k
+
+&empty
+鉄板に火をいれるための先の長いライターを、
+ポケットに偶然、入れたままだったらしい宮津橋。
+$k
+
+&empty
+そのおかげで俺達は凍えずに済んだ。
+$k
+
+優
+「…はは、そうだな」
+$k
+
+&empty
+宮津橋は夜通しの火の番で疲れたのか、
+今は俺の隣でぐっすり寝ている。
+$k
+
+優
+「よく寝てるなーこいつ」
+$k
+
+&empty
+しかし…『たまたま、偶然』ねえ？
+よく俺達の後を付けてくる気になったよな、こいつ。
+いくら桜子の忘れ物を届ける為とはいえ。
+$k
+
+&empty
+まあ…心配であれ、なんであれ、
+俺達を気にしてくれたおかげで
+たまたま、俺も桜子も助かった。
+$k
+
+&empty
+どんなに見かけが変わっても…、
+少々、性格が変わってたって…、
+根っこの優しい部分はやっぱりサキちゃんだよな…。
+$k
+
+&empty
+それに……。
+$k
+
+優
+「………」
+$k
+
+&empty
+生きてまた会えて良かった。
+$nw,1000
+
+桜子に、…なによりも宮津橋に。
+$k
+
+// SAKURAKO_A403KT
+
+#sp,vo,02000747
+桜子
+「……優、あんたさー？」
+$k
+
+// 	SV( BG_DENSYA01A );
+
+// 	SS( CENTER, SAKURAKO_A403KT );
+
+#ir
+#ip,bg,(fi),BG_DENSYA01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),80%
+#ig
+
+優
+「ん、なんだー？」
+$k
+
+// SAKURAKO_A403BS
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000748
+桜子
+「…ううん、なんでもない。
+　そんな事より…」
+$k
+
+// SAKURAKO_A401KN
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000749
+桜子
+「今頃みんな心配してるだろうねー？
+　みんな寝てないかも知れない」
+$k
+
+優
+「一晩くらいでそんな心配するか？」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000750
+桜子
+「ばっかじゃないのあんた？　居なくなったのが、
+　男と女じゃ心配の差が違うってーのっ」
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000763
+桜子
+「あんた雪華ちゃんが夜になっても帰ってこなかったら
+　どうする？」
+$k
+
+優
+「雪華ちゃんはお兄ちゃんに黙って
+　外泊なんかしないぞっ！」
+$k
+
+// SAKURAKO_A402IK6
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK6.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000764
+桜子
+「あーあーやだやだ、シスコンきもーいっ！」
+$k
+
+#sp,vo,02010285
+勇樹
+「うむ……うーん…」
+$k
+
+// 	SS_( CENTER, SAKURAKO_A403NO3 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02990207
+桜子＆優
+「し―――っ！」
+#msmall
+$k
+
+// 	SV( VISUAL_ISAKI_04A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_04A.jpg,(s),75%
+#ig
+
+#sp,vo,02010286
+勇樹
+「………すぅー、…すー」
+$k
+
+// SAKURAKO_A401TR4
+
+#sp,vo,02000765
+桜子
+「…起こしちゃ悪いよね？」
+#msmall
+$k
+
+優
+「そうだな…」
+#msmall
+$k
+
+// SAKURAKO_A402NO5
+
+#sp,vo,02000766
+桜子
+「………寝てるとこんなに可愛いのにねー」
+#msmall
+$k
+
+優
+「おまえなにげにひどいな？」
+#msmall
+$k
+
+// SAKURAKO_A402KM4
+
+#sp,vo,02000767
+桜子
+「ねえ、勇樹ホントは起きてんじゃないの？」
+#msmall
+$k
+
+優
+「いや、これ熟睡だろ、どう見ても」
+#msmall
+$k
+
+// SAKURAKO_A402IK2
+
+#sp,vo,02000768
+桜子
+「あんたちょっと、ちゅーってしてごらん、
+#msmall
+　ほらちゅーって！」
+#msmall
+$k
+
+優
+「なんでよっ？
+#msmall
+　おまえアホだろ！？」
+#msmall
+$k
+
+// SAKURAKO_A402NO3
+
+#sp,vo,02000769
+桜子
+「起きてるか確かめるのにさー。
+#msmall
+　あんたらキスしたことあるんだし大丈夫よね？」
+#msmall
+$k
+
+優
+「まだそのネタ引っ張ってんのかよ。アホか。
+#msmall
+　だいたい、そんなことしたら、
+#msmall
+　それこそこいつに殺されかねんわ！」
+#msmall
+$k
+
+// SAKURAKO_A402NO4
+
+#sp,vo,02000770
+桜子
+「大丈夫、大丈夫、
+#msmall
+$nw,2800
+
+　………たぶんね？」
+#msmall
+
+$k
+
+&empty
+ああー、早く帰りてえ――っ。
+$k
+
+#hide
+
+#next,02common03-3A_05_c

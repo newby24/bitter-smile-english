@@ -1,0 +1,971 @@
+﻿// 既読フラグ
+#read_flag,248
+
+#show
+
+#sp,vo,04070135
+めぐみ
+「あ、勇樹ちゃん」
+$k
+
+// ISAKI_0201NO
+
+#sp,vo,04010743
+勇樹
+「めぐみか」
+$k
+
+// MEGUMI_0201EG4
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070136
+めぐみ
+「どうしたの？　今日も休みでしょ？」
+$k
+
+// ISAKI_0202NO
+
+#sp,vo,04010744
+勇樹
+「……少し、担任に用があってな」
+$k
+
+// MEGUMI_0201MJ2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070137
+めぐみ
+「気になる？　優ちゃんの事」
+$k
+
+// ISAKI_0202KM
+
+#sp,vo,04010745
+勇樹
+「！！　別に、そういうわけじゃ……」
+$k
+
+// MEGUMI_0201BS3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070138
+めぐみ
+「様子見て行く？　今、仮眠中だけど」
+$k
+
+// ISAKI_0201MU
+
+#sp,vo,04010746
+勇樹
+「いや、やめておく」
+$k
+
+// MEGUMI_0201SP
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070139
+めぐみ
+「そう？　優ちゃん、すごく頑張ってるよ」
+$k
+
+// ISAKI_0201NO
+
+#sp,vo,04010747
+勇樹
+「……知っている。桜子が頼みもしないのに、
+　連絡してくるからな」
+$k
+
+// MEGUMI_0201EG4
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070140
+めぐみ
+「そっか、知ってるならいいんだ」
+$k
+
+// ISAKI_0201KS
+
+#sp,vo,04010748
+勇樹
+「私が今、行ったら邪魔になるだろう」
+$k
+
+// MEGUMI_0201SP3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070141
+めぐみ
+「そんな事はないと思うけど」
+$k
+
+// ISAKI_0201MU
+
+#sp,vo,04010749
+勇樹
+「いや……私がまだ会う気になれないんだ」
+$k
+
+// MEGUMI_0201BS
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070142
+めぐみ
+「……そっか」
+$k
+
+// ISAKI_0201NO
+
+#sp,vo,04010750
+勇樹
+「授業が始まるな。それじゃ、私はこの後、
+　病院に行くから、帰りは遅くなる」
+$k
+
+// MEGUMI_0201EG6
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG6.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070143
+めぐみ
+「わかったよぉ～。気をつけてね」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_TOSYOSHITSU01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_TOSYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「他の集団との出入りがあったり、
+　突然変異が起こったり……くそ。
+　さすがに難しいな」
+$k
+
+// 	SetStandEx( CENTER, CHISEKA_0201NR );
+// 	FadeStand( CENTER, 0, FADE_ALPHA, 100 );
+
+// CHISEKA_0201NR
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04040014
+知世翔
+「図書室では静かにしてもらえませんか？」
+$k
+
+優
+「有河。ご、ごめん、気づかなくて」
+$k
+
+&empty
+知らず知らずのうちに、参考書の中身を
+口に出してしまっていたらしい。
+$k
+
+// CHISEKA_0201BS
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04040015
+知世翔
+「と、言いたいところですけど、
+　大目に見てあげます。
+　受験前ですからね」
+$k
+
+優
+「…………ありがとな」
+$k
+
+// CHISEKA_0201NO
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04040016
+知世翔
+「どうして急に猛勉強始めたんですか？」
+$k
+
+優
+「安心させたいからさ、俺の事を無理に
+　甘やかしたりしなくても大丈夫だって」
+$k
+
+優
+「だけど、同時に、そいつがいるから、
+　俺はこんなに頑張れるんだって事も
+　証明したいんだ」
+$k
+
+// CHISEKA_0201OD3
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04040017
+知世翔
+「矛盾してないですか？　それって」
+$k
+
+優
+「そうか？」
+$k
+
+// CHISEKA_0201EG2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04040018
+知世翔
+「ま、分かる気もしますけどね。
+　恋愛なんて……別にしなくても生きていけるけど
+　それがあれば、さらに頑張れる、と」
+$k
+
+優
+「ま、まあ……そういう事かな」
+$k
+
+&empty
+ニュアンスが違う気もするけれど。
+$k
+
+// CHISEKA_0201BS
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04040019
+知世翔
+「さて、あんまり居てもお邪魔でしょうから…」
+$k
+
+&empty
+そう言うと、有河はどさどさと分厚い問題集を
+俺の目の前に積み上げた。
+$k
+
+// CHISEKA_0201EG2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04040020
+知世翔
+「数学関係の分かりやすい解法が載っています。
+　浪人なんかして、先輩にこれ以上、迷惑を
+　掛けないでくださいね」
+$k
+
+優
+「……ありがとな」
+$k
+
+// CHISEKA_0201IK
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04040021
+知世翔
+「別に、あなたのためじゃありません」
+$k
+
+&empty
+つんとすました有河の横顔に、
+俺はもう一度頭を下げた。
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+そして、持ってきてもらった問題集にも
+手を着け始める。
+$k
+
+&empty
+あと少しだ、頑張らないと。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03F );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+夕飯を待つ間も惜しんで、俺はひたすら
+問題集に取り組んでいた。
+$k
+
+&empty
+終わったら、有河に何かお礼しないとな。
+本当に、すごくわかりやすい。
+$k
+
+// 	SS_( CENTER, MII_0403EG );
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+//	SS( LEFT, YUKIHA_0401BS );
+
+// MII_0403EG
+#sp,vo,04030069
+みい
+「お兄様、少し肩をお揉みしましょうか」
+$k
+
+優
+「いや、いいよ」
+$k
+
+&empty
+さすがに今、みいちゃんにつきあう気力はない。
+$k
+
+// MII_0403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),60%
+#ig
+
+&empty
+そんな俺の内心を読んだのか、
+みいちゃんがぷうっと頬を膨らませた。
+$k
+
+#sp,vo,04030070
+みい
+「私だって、お兄様のお役に立ちたいんですよ。
+　だから、今日は普通のマッサージです」
+$k
+
+&empty
+今までのが普通じゃない自覚はあったんだな。
+$k
+
+優
+「じゃあ、お願いしようかな」
+$k
+
+// MII_0403NO
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04030071
+みい
+「お任せください」
+$k
+
+&empty
+みいちゃんが、俺の肩から二の腕をじっくりと
+ほぐしていってくれる。
+$k
+
+&empty
+シャーペンの持ちすぎで、軽く腱鞘炎のように
+なりかかっていたから、正直ありがたい。
+$k
+
+// 	SS_( LEFT, YUKIHA_0401BS2, MOVE_STOP );
+
+#ir,(ef),off
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+// 	CS( CENTER, RIGHT );
+
+// YUKIHA_0401BS2
+#sp,vo,04050025
+雪華
+「お兄ちゃん、
+　今日の夕飯は鯖だからしっかり食べてね」
+$k
+
+優
+「おっ、そうか。でも、鯖だからって、なんで？」
+$k
+
+// YUKIHA_0401BS3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04050026
+雪華
+「ＤＨＡたっぷりだから」
+$k
+
+&empty
+台所からは、味噌煮込みのいい匂いがしてくる。
+$k
+
+優
+「あれ？　でも雪華ちゃんって、
+　鯖は苦手じゃなかった？」
+$k
+
+&empty
+青物は全般に苦手だったんじゃないかな、
+うちの可愛い妹は。
+$k
+
+// YUKIHA_0401AK4
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04050027
+雪華
+「お兄ちゃんの受験が優先です。
+　ま……同じおかずを食べるわけじゃないし」
+$k
+
+優
+「俺だけおかず別っ！？」
+$k
+
+// MII_0403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030072
+みい
+「ほほほ、お兄様はアウェーですから」
+$k
+
+// YUKIHA_0401NK
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04050028
+雪華
+「違うおかずでも、家族だからね」
+$k
+
+&empty
+なに、そのフォロー。
+逆にいろいろえぐられた気分なんですが。
+$k
+
+// MII_0403EG3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030073
+みい
+「ふふ、やっといつものお兄様の顔に
+　戻ってきましたね」
+$k
+
+優
+「え？」
+$k
+
+// MII_0403NI
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NI.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030074
+みい
+「眉間に皺寄せて、がちがちになってたんじゃ
+　受かるものも受からないですよ」
+$k
+
+優
+「じゃあ、俺をリラックスさせようと……」
+$k
+
+&empty
+あえていつもの俺弄りを？
+
+#mfuri,　　　　　　　　　　　　　　　　いじ
+
+$k
+
+// MII_0403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030075
+みい
+「ほほほほほほほ」
+$k
+
+// YUKIHA_0401NS3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NS3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04050029
+雪華
+「さあねー」
+$k
+
+&empty
+まったく食えない妹たちだ。
+$k
+
+// 	SS( CENTER, KANAME_0402NO, MOVE_LEFT, SLOW );
+
+// KANAME_0402NO
+#ir,(ef),off
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),l3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l2,(al),100%
+#ip,c3,(x),c
+#ip,c1,(x),r2
+#ig
+
+#sp,vo,04020016
+要
+「こんばんはー。お、やってるねぇ」
+$k
+
+// YUKIHA_0401EG
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050030
+雪華
+「あ、要お姉ちゃん、こんばんわー」
+$k
+
+優
+「こんばんは、要さん。
+　今日のおかずは鯖ですってよ」
+$k
+
+// MII_0403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04030076
+みい
+「それは兄上用ですから」
+$k
+
+優
+「ちょ、本当におれだけ別なの！？」
+$k
+
+// KANAME_0402EG2
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04020017
+要
+「あー、うん、もちろん晩御飯も
+　食べてくんだけど、今日はこっちがメイン」
+$k
+
+&empty
+言いながら、要さんは１冊のノートを取り出して
+顔の横でひらひらさせる。
+$k
+
+優
+「それは？」
+$k
+
+// KANAME_0401TR2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01TR2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04020018
+要
+「私が受験勉強で使ったノート。
+　まぁ、レベルはちょっと違うかもだけど」
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04020019
+要
+「でも、結構よく出るところをまとめてあるから、
+　優君にも役に立つんじゃないかなーってね」
+$k
+
+//	ZoomStand( CENTER, 30|SPEED_UP, 140, 140 );
+// 	SS( CENTER, KANAME_A401NO );
+
+優
+「え、貸してもらえるんですか、それ？
+　ありがとうございます」
+$k
+
+//	ZoomStand( CENTER, 30|SPEED_UP, 100, 100, 1 );
+// 	SS( CENTER, KANAME_0401NO );
+
+// MII_0401KY2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04030077
+みい
+「…薄っぺらいですね」
+$k
+
+// KANAME_0402IK
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02IK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04020020
+要
+「要点をまとめてあるのっ！
+　本番直前の一夜漬けには最適よ？」
+$k
+
+// YUKIHA_0401KS
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050031
+雪華
+「あはは…一夜漬けはどうなのかなぁ…」
+$k
+
+// KANAME_0401FK4
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01FK4.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04020021
+要
+「むぅ…！」
+$k
+
+優
+「いや、それはそれですごくありがたいです」
+$k
+
+// KANAME_0402EG
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04020022
+要
+「でしょー、でしょー！？
+　さっすが優君、話がわかる」
+$k
+
+// SAKURAKO_0402NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),l,(s),60%
+#ie,c1,c2
+#ig
+
+#sp,vo,04000275
+桜子
+「はいはい、できたわよー」
+$k
+
+// KINO_0401NO
+#ir
+#ip,c1,(fi),KINO_A401NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04060009
+紀乃
+「優、悪いけど机の上かたしてんかー」
+$k
+
+優
+「あいよー」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03A );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「……みんな、気にしてくれてるんだな」
+$k
+
+&empty
+その分、頑張って返さなきゃな。
+$k
+
+&empty
+目の前には、有河が用意してくれた問題集と
+要さんのノートが積まれていて。
+$k
+
+&empty
+さらに、みいちゃんと雪華ちゃんが
+作ってくれた夜食も置いてある。
+$k
+
+&empty
+そういえば、後で桜子も差し入れに来るとか
+言っていたな。
+$k
+
+&empty
+今日も長い夜になりそうだった。
+$k
+
+#hide
+
+// 	SV( BG_SKY03C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03C.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_MISEMAE03C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_MISEMAE03C.jpg,(s),100%
+#ig
+
+#show
+
+// ISAKI_0401NO
+
+#sp,vo,04010751
+勇樹
+「……今日もやっているな」
+$k
+
+// SAKURAKO_0403KT
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000276
+桜子
+「こんなところで何やってるのよ」
+$k
+
+// ISAKI_0401IK2
+
+#sp,vo,04010752
+勇樹
+「少し……その、散歩だ」
+$k
+
+// SAKURAKO_0403BS
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000277
+桜子
+「ふーん、大丈夫なの？
+$nw,3080
+
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO4.png,(x),c,(s),60%
+#ig
+
+　ま、腕だから、散歩には関係なさそうだけど」
+$k
+
+// ISAKI_0401NO
+
+#sp,vo,04010753
+勇樹
+「あいつの合格発表の頃には、
+　固定しなくても済みそうだ」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000278
+桜子
+「よかったじゃない」
+$k
+
+// ISAKI_0402NO
+
+#sp,vo,04010754
+勇樹
+「お前こそ、こんな夜中に何やってるんだ？」
+$k
+
+// SAKURAKO_0403NO
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000279
+桜子
+「ちょっと差し入れにね。何か伝言はある？」
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,04010755
+勇樹
+「そうだな……」
+$k
+
+// ISAKI_0401NO
+
+#sp,vo,04010756
+勇樹
+「いや、いい。時期が来たら、自分で言う」
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000280
+桜子
+「そう？」
+$k
+
+// ISAKI_0402BS
+
+#sp,vo,04010757
+勇樹
+「逃げるなと言ったのは、お前だろう？」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000281
+桜子
+「まあね」
+$k
+
+// ISAKI_0402KS
+
+#sp,vo,04010758
+勇樹
+「不思議だな。
+　あいつは私の傍にいないのに」
+#mfuri,　　　　　　　　　　　　　　そば
+
+$k
+
+// ISAKI_0402BS
+
+#sp,vo,04010759
+勇樹
+「だが、私はあいつがいるからこそ、
+　頑張れているような気がする」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000282
+桜子
+「ま、そういうものかもね」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY01A );
+
+#next,04isaki19_02

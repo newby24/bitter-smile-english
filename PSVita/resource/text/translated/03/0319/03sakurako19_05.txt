@@ -1,0 +1,674 @@
+﻿// 既読フラグ
+#read_flag,332
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+&empty
+有河は桜子の妊娠疑惑を知ってから、
+俺にはかなりご立腹らしい。
+$k
+
+// 	SS( CENTER, MEGUMI_0401NO );
+
+// MEGUMI_0401NO
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070259
+めぐみ
+「ちゃおー優ちゃん」
+$k
+
+優
+「お、おう、めぐみも居たのか…」
+$k
+
+// MEGUMI_0401KN
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070260
+めぐみ
+「あー、その様子じゃあ、
+　桜子はまだ岩戸の中かしら？」
+$k
+
+優
+「別に岩戸じゃないけど……宮津橋は？」
+$k
+
+// MEGUMI_0401MJ
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070261
+めぐみ
+「今はお仕事中。
+$nw,1740
+
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01SP2.png,(x),c,(s),60%
+#ig
+
+　まー様子見に来る気もそんな無いみたいだけどぉ？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2
+#ig
+
+&empty
+宮津橋はどうやら、それでいいらしい。
+$k
+
+優
+「そうか……まあ今は、
+　桜子を信じて待つしかないけどさ」
+$k
+
+&empty
+信じて待つ。
+…俺が最近よく使う言葉だ。
+$k
+
+// 	SS( LEFT, CHISEKA_0401KN );
+
+// CHISEKA_0401KN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03040200
+知世翔
+「……そうですね」
+$k
+
+// 	SS( RIGHT, MII_0403NO, MOVE_RIGHT, NORMAL );
+
+// MII_0403NO
+#ir,(ef),off
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#sp,vo,03030203
+みい
+「どうぞ、知世翔さん。
+　これは私からのサービスです」
+$k
+
+// CHISEKA_0401NO2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03040201
+知世翔
+「あ、たこ焼き？」
+$k
+
+// MII_0403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03030204
+みい
+「皆さんもどうぞ遠慮しないで下さいませ。
+$nw,3210
+
+　お代はお兄様のバイト代からの
+　天引きになっておりますので」
+$k
+
+// CHISEKA_0401BS
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03040202
+知世翔
+「そっか、じゃあ遠慮なく」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「えっ？　
+　ちょっと、みいちゃん！？」
+$k
+
+&empty
+今、私からのサービスって言ってたよね？
+$k
+
+// 	SS_( RIGHTRIGHT, MII_0402IK2 );
+
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02IK2.png,(x),r,(s),60%
+#ig
+
+// 	SS_( CENTER, CHISEKA_0401BS );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( LEFTLEFT, MEGUMI_0401TY2 );
+
+// MII_0402IK2
+#sp,vo,03030205
+みい
+「皆をどこまでも心配させた報いです」
+$k
+
+&empty
+手厳しいな、みいちゃん。
+$k
+
+// MEGUMI_0401TY2
+#ir,(ef),off
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01TY2.png,(x),l3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l2,(al),100%
+#ip,c3,(x),c
+#ip,c1,(x),r2
+#ig
+
+#sp,vo,03070262
+めぐみ
+「でもさぁ、優ちゃんも奥手に見えて、
+　意外と手が早かったんだね～？」
+$k
+
+// 	SS( CENTER, CHISEKA_0401NR );
+
+&empty
+ああっ、せっかくみいちゃんが
+気を利かしてくれたのに…。
+$k
+
+// CHISEKA_0401NR
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040203
+知世翔
+「………」
+$k
+
+&empty
+また有河が、凄く睨んでる。
+そりゃ、言いたい事はいっぱいあるんだろうけど。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+それでも俺達は、桜子を待つしかない。
+$k
+
+&empty
+ちょっとだけ時間が欲しいと、あいつは言っていた。
+$k
+
+&empty
+俺はその言葉を信じようと思う。
+$k
+
+&empty
+なによりも、俺の大好きな、桜子の言葉だから。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_2FROKA03C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA03C.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03N );
+// 	SetObject( 0, "eye_filter.png", 0, 0, OBJATTR_TOP | OBJATTR_NOEFFECT | OBJATTR_NOSHAKE );
+// 	Fade( 0, 0 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03N.jpg,(s),100%
+#ip,c1,(fi),image\sysc\sysc_mabuta_1.png,(x),c,(y),u_s
+#ip,c2,(fi),image\sysc\sysc_mabuta_2.png,(x),c,(y),d_s
+#ig
+
+#sp,env,S_Tel12#
+
+#show
+
+優
+「………っ、」
+#meffect,flow,5
+$k
+
+&empty
+携帯の着信で目を覚まし、のろのろと手を伸ばす。
+$k
+
+// 	Fade( SLOW, 50 );
+
+
+#sp,se,S_Nuno05
+
+// 	WaitSE( -1 );
+
+#ir,(ef),move,(dr),1000
+#ip,c1,(y+),-150
+#ip,c2,(y+),150
+#ig
+
+優
+「なんだ？
+　こんな朝から、誰だ…うっ、冷めたい…」
+$k
+
+&empty
+最近は温かくなってきてたから、
+いきなり今日みたいに寒いと、布団からは
+手も出したく無い…。
+$k
+
+#ss,env
+#sp,se,S_Tel05
+
+// 	WaitSE( -1 );
+
+優
+「うう………もしもし…？」
+$k
+
+&empty
+ディスプレイも見ずに通話ボタンを押す。
+$k
+
+&empty
+これで間違い電話だったら、
+凄く損した気分になるだろうが…。
+$k
+
+#sp,vo,03001367
+桜子
+「…優？」
+#meffect,flow,5
+$k
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ie,c1,c2
+#ig,(se),S_Basa01
+
+// 	Fade();
+// 	WaitSE( -1 );
+
+優
+「………桜子かっ！？」
+#mlarge
+$k
+
+&empty
+慌てて布団を飛ばし、起きあがる。
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「うおぉ～っ、寒っ！！」
+$k
+
+#sp,vo,03001368
+桜子
+「…優……大丈夫？」
+$k
+
+優
+「お、おう。大丈夫だ。
+　どうした、こんな時間に」
+$k
+
+&empty
+太陽もろくに昇っていない時間。
+まだ窓の外は暗いままだ。
+$k
+
+&empty
+いや、もうすでにちょっと明るいか？
+$k
+
+#sp,vo,03001369
+桜子
+「今から神社の境内に来て欲しいんだけど…」
+$k
+
+&empty
+こんな朝っぱらから！？
+$k
+
+優
+「…神社か？」
+$k
+
+#sp,vo,03001370
+桜子
+「……こんな時間じゃ、嫌？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「そんな訳無いっ！
+　分かった、すっ、すぐに行くからっ！」
+$k
+
+#sp,vo,03001371
+桜子
+「うん、じゃあ待ってるから」
+$k
+
+&empty
+桜子が、俺を呼んでいる。
+$k
+
+&empty
+待っていた時……それがおそらく、今なんだ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#sp,se,S_Door01o
+
+#wait,1000
+
+// 	WaitSE( -1 );
+
+#sp,se,S_Door01c
+
+// 	WaitSE( -1 );
+
+// 	SV( BG_TD_GAIKAN01C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN01C.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+急いで仕度をして、外に出る。
+$k
+
+優
+「はあぁ……」
+#meffect,flow,5
+$k
+
+&empty
+息も白ければ、外の景色も真っ白だった。
+$k
+
+&empty
+どうりで冷えると思った。
+夜中に雪が降ってたのか…。
+$k
+
+&empty
+やべ……急がないとっ。
+$k
+
+#hide
+
+#sp,se,S_Dash05o
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+// 	RFO( RULE_LEFTRIGHT );
+// 特殊な画面変更。暫定的に。
+// 	WaitSE( -1 );
+
+// 	SV( BG_MT_JINJYAKEIDAI01D );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01D.jpg,(s),100%
+#ig
+
+#sp,se,S_Walk08i
+
+#show
+
+&empty
+朝靄の空気、
+#mfuri,あさもや
+
+音もない静寂の、真っ白な景色の中に、
+知っているかもしれない人の、足跡がひとつ。
+
+$k
+
+// 	WaitSE( -1 );
+
+&empty
+ゆっくりとそれを辿って行く。
+$k
+
+&empty
+もう雪は降っていないのに、
+まだ空から落ちてくるのを待っている様に、
+そいつは空を見上げて待っていた。
+$k
+
+&empty
+……桜子がそこに居る。
+$k
+
+優
+「よう、待ったか？」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402NO4, MOVE_STOP, NORMAL );
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001372
+桜子
+「あ、おはよう」
+$k
+
+&empty
+こっちを見た桜子は、
+憑き物が落ちたような、そんな笑顔で。
+$k
+
+優
+「ああ、おはよう」
+$k
+
+// SAKURAKO_A402NO4
+#sp,vo,03001373
+桜子
+「来てくれたんだ」
+$k
+
+優
+「当然だろ？
+　ずっと待ってたんだぞ」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001374
+桜子
+「そっかごめんね、待たせちゃって」
+$k
+
+優
+「お前も待ってたんだろ？
+　だから、おあいこだろ？」
+$k
+
+// SAKURAKO_A402TR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001375
+桜子
+「そっか、そうだね？
+$nw,3000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+　……ふふっ」
+$k
+
+優
+「そうだよ、気にすんな」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001376
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001377
+桜子
+「……あ」
+#meffect,flow,5
+$k
+
+&empty
+なにかを云おうとしてくれてる。
+ここでも俺は、じっと桜子の次の言葉を待った。
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001378
+桜子
+「ありがとうね？」
+$k
+
+優
+「……え？
+　なにがだ？」
+$k
+
+&empty
+ありがとう、は想定外だった。
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001379
+桜子
+「前、言おうとしてくれた事」
+$k
+
+優
+「えっと………」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001380
+桜子
+「まあ、それはともかく、はい」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Nuno06
+
+// 	SV( VISUAL_SAKURAKO_14A );
+
+#flag,cg,45,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_SAKURAKO_14A.jpg,(s),75%
+#ig
+
+
+#next,03sakurako19_06

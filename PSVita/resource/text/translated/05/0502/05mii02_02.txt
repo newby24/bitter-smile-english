@@ -1,0 +1,522 @@
+﻿// 既読フラグ
+#read_flag,126
+
+&empty
+それに、当時は幼かったからか桜子と、
+持っているものを共有していたような感覚があった。
+$k
+
+&empty
+だから桜子の妹は、俺の守るべき対象でもあって。
+$k
+
+&empty
+そうすると、結局そう呼ぶのが
+一番しっくりくる気がした。
+$k
+
+#sp,vo,05990045
+クラスメイト
+「みいは？」
+$k
+
+&empty
+だから、みいちゃんもきっと…
+$k
+
+// 	SS( CENTER, MII_0103BS );
+// 	BGMStop();
+
+#ss,bgm
+
+// MII_0103KD
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030087
+みい
+「姉婿」
+$k
+
+優
+「お―――い！！？」
+#mlarge
+$k
+
+#sp,vo,05990046
+クラスメイト
+「え、お兄さんって、
+　みいのお姉さんとも付き合ってんですか！？」
+$k
+
+優
+「と、ともって…」
+$k
+
+#sp,vo,05990047
+クラスメイト
+「お義兄様って、そういう意味だったの？」
+$k
+
+//	SetIconHeart( CENTER );
+// MII_0103TR3
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03TR3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030088
+みい
+「実は姉妹３人で骨抜きにされまして。
+　さすがお兄様…
+$nw,5440
+
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03TR4.png,(x),c,(s),60%
+#ig
+
+　ぽっ」
+$k
+
+#sp,vo,05990048
+クラスメイト
+「うっわ、お兄さんサイテーだ！」
+$k
+
+優
+「ちょっ、みいちゃん！？」
+$k
+
+&empty
+火の回りが速すぎる！？
+$k
+
+#sp,bgm,BGM_MII
+
+// MII_0103KT
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030089
+みい
+「問題があるのでしたら、
+　ペットで手を打つのはどうでしょう？」
+$k
+
+#sp,vo,05990049
+クラスメイト
+「え？」
+$k
+
+// MII_0103MU
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030090
+みい
+「餌を与えないでくださいね。
+　こう見えてお兄様、簡単に発情されますから」
+$k
+
+// 	SK2( SLOW );
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+#sp,vo,05990050
+クラスメイト
+「きゃああ――っ！」
+#mlarge
+$k
+
+// 	SK2( SLOW );
+
+#sp,vo,05990051
+クラスメイト
+「うそぉ―――っ！？」
+#mlarge
+$k
+
+優
+「嘘に決まってんだろー！？
+　今の話のどこに信じられる要素があるっ？」
+$k
+
+&empty
+一気に脱力する。
+なぜこうも盛り上がれる？
+$k
+
+優
+「わかるだろ？　いつもこの調子で
+　好き勝手遊ばれて、疲れるだけなんだから」
+$k
+
+#sp,vo,05990052
+クラスメイト
+「ま、まあいいじゃないですか、かわいい妹さんで」
+$k
+
+#sp,vo,05990053
+クラスメイト
+「兄は妹の踏み台になるために存在するということで」
+$k
+
+// MII_0103MJ
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030091
+みい
+「まったく何が不満なんでしょう」
+$k
+
+優
+「やかましいわ妹同盟」
+$k
+
+#sp,vo,05990054
+クラスメイト
+「で、でもほら、昔はかわいかったんですよね？」
+$k
+
+// 	SS( CENTER, MII_0103NO2 );
+
+優
+「昔…」
+$k
+
+優
+「………」
+$k
+
+// 	SS( CENTER, MII_0103KB );
+
+優
+「…………」
+$k
+
+#sp,vo,05990055
+クラスメイト
+「悲しいくらい心当たりがないみたいよ？」
+$k
+
+// MII_0103AD3
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030092
+みい
+「可哀想に」
+$k
+
+#sp,vo,05990056
+クラスメイト
+「あんたが言うな」
+$k
+
+優
+「あ～もう嫌だ！　うんざりだ！
+　妹に左右される血塗られた人生を変えるんだ！」
+$k
+
+#sp,vo,05990057
+クラスメイト
+「あ、爆発した」
+$k
+
+#sp,vo,05990058
+クラスメイト
+「うちの兄貴でもあんなこと言わないよ」
+$k
+
+優
+「トレードだトレード！
+　いや、もう妹なんているか、リストラだ！
+　兄を虐げる妹という魔物をこの世から抹消する！」
+$k
+
+#ss,bgm
+
+#ir
+#ie,c1
+#ig
+
+//	SS( RIGHTEDGE, YUKIHA_0101KB3 );
+//	MoveStand( RIGHTEDGE, 50, -50, 0 );
+// YUKIHA_0101KB3
+
+#sp,vo,05050002
+？？？
+#mstyle,(co),雪華
+「ふ―――ん」
+$k
+
+// 	SS( CENTER, MII_0102OD );
+
+優
+「………」
+$k
+
+#sp,vo,05990059
+クラスメイト
+「あ、固まった」
+$k
+
+#sp,vo,05990060
+クラスメイト
+「…誰？」
+$k
+
+// 	SS( RIGHT, YUKIHA_0101KB3 );
+
+//	CS_( RIGHTEDGE, RIGHT );
+// 	CS( CENTER, LEFT );
+
+#sp,bgm,BGM_COMICAL1
+
+// MII_0102NO
+#ir
+#ip,c1,(fi),MII_A102.png,(psi),MII_An02NO.png,(x),l,(s),60%
+#ip,c3,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01KB3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05030093
+みい
+「お兄様と血の繋がった正真正銘の妹君、
+　雪華さんです」
+$k
+
+#sp,vo,05990061
+クラスメイト
+「え、ほんとの妹さんもいたんだ？」
+$k
+
+優
+「うそだよ、ゆきはちゃん」
+$k
+
+// MII_0103EG3
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03EG3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030094
+みい
+「ふふ…喋り方に余裕がありませんね」
+$k
+
+#sp,vo,05990062
+クラスメイト
+「あんたもここで笑うか」
+$k
+
+優
+「ごかいしないで？
+　おれがいったのは、
+　ゆきはちゃんのことじゃなくて…」
+$k
+
+// YUKIHA_0101IK7
+#ir
+#ip,c3,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01IK7.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,05050003
+雪華
+「いいよう別に。
+　全然気にしてないから」
+$k
+
+// YUKIHA_0101IK2
+#ir
+#ip,c3,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05050004
+雪華
+「忘れもしないけど」
+#msmall
+$k
+
+優
+「ほ、ほら、年の離れた雪華ちゃんは
+　俺にしてみたら妹というより姫だからっ、姫！」
+$k
+
+// YUKIHA_0101KB
+#ir
+#ip,c3,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05050005
+雪華
+「気持ち悪いこと言わないで」
+$k
+
+// YUKIHA_0101EG
+#ir
+#ip,c3,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05050006
+雪華
+「あ、みいちゃん、お邪魔してごめんね。
+　お婆ちゃん探しにきたんだけど、いなかったみたい」
+$k
+
+// YUKIHA_0101EG
+#sp,vo,05050007
+雪華
+「皆さんもごゆっくりどうぞ」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+優
+「ちょ、雪華ちゃん待って、
+$nw,1000
+
+// 	Shake( SLOW, SHAKE_RANDOM|SHAKE_SCREEN, 15, 6 );
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+　待ってくださいー！」
+$k
+
+#hide
+
+#sp,se,S_Door03o
+
+// 	WaitSE();
+
+#wait,1000
+
+#sp,se,S_Door03c
+
+// 	WaitSE();
+
+#show
+
+#sp,vo,05990063
+クラスメイト
+「…あたし、みいがお兄さんいじる気持ちが、
+　ちょっと分かった気がした」
+$k
+
+// MII_0103EG
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030095
+みい
+「面白いでしょう、私のお兄様。
+　滑稽なほどあったかい気持ちになれますよね」
+$k
+
+#sp,vo,05990064
+クラスメイト
+「いや、こっちもこっちで問題あるから」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01IK7.png,(x),c,(s),60%
+#ig
+
+#show
+
+// YUKIHA_0101IK7
+
+#sp,vo,05050008
+雪華
+「わたし、今季のオフにお兄ちゃんの妹ＦＡするから」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「残留してぇ～！！！」
+#mlarge
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+//	FO();
+//	DS( -1 );
+//	WT( 150 );
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリアしていれば、ジャンプ可能。
+#next,90jump03:(if),sys,0,==,1
+
+#next,02common01-4_00
+

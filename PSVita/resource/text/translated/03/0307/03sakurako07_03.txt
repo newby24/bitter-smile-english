@@ -1,0 +1,189 @@
+﻿// 既読フラグ
+#read_flag,276
+
+// MII_0403EG3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG3.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,03030066
+みい
+「そうです、これくらいとろっとしたカレーも
+　なかなか美味しいですよね……
+$nw,5000
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),l2,(s),80%
+#ig
+
+　さすが姉上です！」
+
+$k
+
+// SAKURAKO_A401AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000303
+桜子
+「べっつに、いいけどねー？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+台所からカレーと共に戻ってきた桜子は、
+割といつもの桜子に戻っていた………気がする。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_SAKURAKO03A );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_SAKURAKO03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0401KN
+
+#sp,vo,03000304
+桜子
+「はあ、あたしは一体何をどうしたいんだろうね……」
+$k
+
+// SAKURAKO_0401KN
+#sp,vo,03000305
+桜子
+「………本当、どうなんだっけ」
+$k
+
+// SAKURAKO_0401KN
+#sp,vo,03000306
+桜子
+「こんなの、みんなに迷惑かけてて
+　嫌になっちゃうな……」
+$k
+
+// SAKURAKO_0402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000307
+桜子
+「…あ、編み目かけ間違えちゃった。
+$nw,3410
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+　また、もうっ！」
+$k
+
+// SAKURAKO_0402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000308
+桜子
+「はあ、編み物って意外と難しいのね…」
+$k
+
+// SAKURAKO_0402KM2
+#sp,vo,03000309
+桜子
+「どうすればいいのかな…」
+$k
+
+// SAKURAKO_0402KM2
+#sp,vo,03000310
+桜子
+「みんなは……
+$nw,1760
+
+　どう思ってんのかな…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリア後にジャンプ可能。
+#next,90jump08:(if),sys,0,==,1
+
+#next,02common03-2_00

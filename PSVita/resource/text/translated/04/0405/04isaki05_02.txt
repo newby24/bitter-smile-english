@@ -1,0 +1,755 @@
+﻿// 既読フラグ
+#read_flag,199
+
+#show
+
+// SAKURAKO_0402EG
+
+#sp,vo,04000027
+桜子
+「うーん、大漁、大漁っ！」
+$k
+
+優
+「お前は１つも捕ってないだろ」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000028
+桜子
+「なによ、あんただって捕れなかったじゃない」
+$k
+
+// 	SS( CENTER, MII_0401KY2 );
+
+// MII_0401KY2
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,04030019
+みい
+「金魚すくいは繊細な動きを要求されますからね。
+　お兄様のような神経がナイロンザイルで
+　出来ている方には無理かと」
+$k
+
+&empty
+そのナイロンザイルとやらは
+ずいぶんと細かく削られていってるんですが。
+言葉というヤスリで。
+$k
+
+// YUKIHA_0901EG3
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01EG3.png,(x),c,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,04050009
+雪華
+「うわぁ……きらきら」
+$k
+
+&empty
+雪華ちゃんが、捕ってもらった金魚を
+光に透かして喜んでいる。
+$k
+
+&empty
+うんうん、にこにこしている妹ってのは
+いいよなあ。
+$k
+
+&empty
+たとえ、それが俺に向けられてなくても！
+$k
+
+// YUKIHA_0901EG
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050010
+雪華
+「ありがとう、勇樹さん。
+　勇樹さんって、案外優しいんだね」
+$k
+
+// 	SS( CENTER, ISAKI_0C01KN );
+
+//	SetIconHirameki( CENTER );
+// ISAKI_0C01KN
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01KN.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04010084
+勇樹
+「そんなことはない」
+$k
+
+// MII_0403EG
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04030020
+みい
+「そうですか？
+　だって、雪華さんのお願いをちゃんと
+　聞いてあげたじゃないですか」
+$k
+
+// ISAKI_0C01IK2
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01IK2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04010085
+勇樹
+「それは、たまたま……捕りやすい位置に
+　あったからだ」
+$k
+
+// SAKURAKO_0403NO
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000029
+桜子
+「そのわりには、かなり熱中してるように
+　見えたけど？」
+$k
+
+// ISAKI_0C01KB2
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01KB2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04010086
+勇樹
+「気のせいだ。
+　お前の目は節穴だな」
+$k
+
+&empty
+そういえば、そうだよな。
+$k
+
+&empty
+無表情なのは変わらないのだが……なんていうか、
+楽しそうにしていたような気がする。
+$k
+
+// ISAKI_0C01IK2
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01IK2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,04010087
+勇樹
+「破れるまで捕り続けないと、もったいないだろう」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000030
+桜子
+「はいはい、そういう事にしておいてあげるわよ」
+$k
+
+// 	SS( RIGHT, MEGUMI_0401EG3, MOVE_RIGHT );
+
+// MEGUMI_0401EG3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG3.png,(x),r,(s),60%
+#ie,c2,c3
+#ig
+
+#sp,vo,04070046
+めぐみ
+「みんな～、買ってきたわよ～っ」
+$k
+
+&empty
+めぐみが、カステラの袋を振り回しながら、
+小走りに戻ってきた。
+$k
+
+// 	SS( CENTER, MII_0401BS, MOVE_LEFT );
+
+// MII_0401BS
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030021
+みい
+「これこれ。
+　このひよこを頭からかじって食べるのが
+　いいんですよねえ」
+$k
+
+// 	SS( LEFT, YUKIHA_0901KS, MOVE_LEFT );
+
+// YUKIHA_0901KS
+#ir
+#ip,c2,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01KS.png,(x),r,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,04050011
+雪華
+「うわぁ、残酷ぅ」
+$k
+
+優
+「雪華ちゃんは食べないの？」
+$k
+
+// YUKIHA_0901BS2
+#ir
+#ip,c2,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01BS2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04050012
+雪華
+「おしりからかじる派なの」
+$k
+
+&empty
+どっちみち食べるんじゃないか。
+$k
+
+// 	CS( RIGHT, CENTERRIGHT );
+
+// 	SS( CENTERLEFT, ISAKI_0C01NO );
+
+// MEGUMI_0401BS2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS2.png,(x),r,(s),60%
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,04070047
+めぐみ
+「勇樹ちゃん、はい、あーん」
+$k
+
+// ISAKI_0C01NO
+
+#sp,vo,04010088
+勇樹
+「よせ。
+　自分で食べる」
+$k
+
+// 	ShakeStand( CENTERLEFT, SLOW, SHAKE_LEFT, 6, 15 );
+
+// MEGUMI_0401KT4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070048
+めぐみ
+「そう？　じゃあ、はい」
+$k
+
+&empty
+もぐもぐとカステラを頬張る宮津橋。
+$k
+
+&empty
+頬がふくらんでるせいか、甘い物効果なのか。
+表情が柔らかくなっている気がする。
+$k
+
+// MEGUMI_0401EG4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070049
+めぐみ
+「おいしいよね、これ。
+　ほんのりはちみつ味で私、好きなんだ」
+$k
+
+// ISAKI_0C01NO
+#sp,vo,04010089
+勇樹
+「嫌いじゃない」
+$k
+
+// 	SS_( CENTERLEFT, SAKURAKO_0401AK2, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),l,(s),60%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),r,(s),60%
+#ie,c2
+#ig
+
+// 	SS( CENTERRIGHT, MII_0403KT, MOVE_STOP, NORMAL );
+
+// SAKURAKO_0401AK2
+#sp,vo,04000031
+桜子
+「だから、好きなら好きって言えばいいじゃない」
+$k
+
+// MII_0403AK
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030022
+みい
+「素直じゃないのは、姉上も同じですけどね」
+#msmall
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04000032
+桜子
+「何か言った？」
+$k
+
+// MII_0403EG
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04030023
+みい
+「いえ、別に」
+$k
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG4.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+// MEGUMI_0401EG4
+#sp,vo,04070050
+めぐみ
+「勇樹ちゃん、もうひとつ食べる？」
+$k
+
+// ISAKI_0C01NO
+#sp,vo,04010090
+勇樹
+「もらおうか」
+$k
+
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ie,c1,c3
+#ig
+
+// 	SS( CENTER, ISAKI_0C01NO, MOVE_STOP, NORMAL );
+
+&empty
+再び、ひよこをもぐもぐと食べる宮津橋。
+$k
+
+&empty
+黙ってると可愛いよな。
+今日は木刀を取り出したりもしないし。
+$k
+
+// ISAKI_0C01KB
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010091
+勇樹
+「…………？」
+$k
+
+&empty
+じっと宮津橋を見てると、ふと目が合った。
+$k
+
+&empty
+理由はわからないけれど。
+なんだか嬉しくなってくる。
+$k
+
+&empty
+俺はつい口元をほころばせた。
+$k
+
+優
+「楽しいな」
+$k
+
+&empty
+そう笑いかけたのに、宮津橋ときたら。
+$k
+
+// ISAKI_0C01IK
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010092
+勇樹
+「うるさい。こっちを見るな」
+$k
+
+&empty
+そっぽを向かれてしまった。
+$k
+
+#hide
+
+#ss,env,(dr),0
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NONBIRI
+
+// 	CFI();
+// 	SS( CENTER, SAKURAKO_0403NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0403NO
+
+#sp,vo,04000033
+桜子
+「そろそろ花火が始まっちゃうわね」
+$k
+
+優
+「おー、もうそんな時間か」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000034
+桜子
+「と、その前に……水飴買っていこっか」
+$k
+
+優
+「まだ食うのかよ！」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000035
+桜子
+「うっるさいわねー。
+　甘い物は別腹っていうでしょ！」
+$k
+
+&empty
+いや、俺たち、ここに至るまでに甘いものだけでも
+わた菓子、こんぺいとう、カステラ、大学芋と
+別腹も満腹だと思うのですが。
+$k
+
+優
+「食い過ぎじゃないか？」
+$k
+
+// 	SS( CENTER, MII_0403MJ, MOVE_LEFT );
+
+// MII_0403MJ
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03MJ.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,04030024
+みい
+「ご安心下さい、お兄様」
+$k
+
+優
+「なにが？」
+$k
+
+// MII_0403TR4
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04030025
+みい
+「真っ白に粘らせて、口の周りをべたべたにしながら、
+　食べてみせますから」
+$k
+
+優
+「そんな事しなくていいからーっ！」
+$k
+
+&empty
+みいちゃんは、俺をつつくことに体張り過ぎだよ！
+$k
+
+#ir
+#ie,c3
+#ig
+
+&empty
+でも、水飴といえば……。
+$k
+
+// ISAKI_0C01NO
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+優
+「そういえばさ、宮津橋。
+　俺たちが子供の頃も、よく食べたよな」
+$k
+
+// 	SS( CENTER, ISAKI_0C01NO );
+
+#sp,vo,04010093
+勇樹
+「そうだったか？」
+$k
+
+&empty
+おっ！
+宮津橋が会話にのってきてくれた！
+$k
+
+優
+「ああ、駄菓子屋で買ってきてさ、真っ白になるまで
+　練った方がうまいのに、お前、上手に練れなくて」
+$k
+
+// ISAKI_0C01MU
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010094
+勇樹
+「…………」
+$k
+
+優
+「だから、俺がいつも代わりに練ってやってさ。
+　おいしいねーって……」
+$k
+
+// ISAKI_0C01KB
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010095
+勇樹
+「ああ、あれか。
+　はっきり言って、迷惑だった」
+$k
+
+#ss,bgm
+
+&empty
+なんですと？
+$k
+
+// ISAKI_0C01IK
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010096
+勇樹
+「私はあまり練らない方が好みだったんだ。
+　それをお前と桜子が横から奪って……。
+　思い出したら、腹が立ってきたな」
+$k
+
+&empty
+宮津橋の眉間にどんどん皺が寄っていく。
+$k
+
+優
+「そ、そうだったか？　あ、あれー？」
+$k
+
+&empty
+た、確かサキちゃんは喜んでおいしいおいしいって
+食べてくれてたような覚えがあるんだけど…？
+$k
+
+// ISAKI_0C01MU
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010097
+勇樹
+「……」
+$k
+
+優
+「………」
+$k
+
+&empty
+…なんだこの気まずさは？
+俺は楽しい思い出話をするつもりだったのに…。
+$k
+
+&empty
+誰か、この沈黙をどうにかしてくれ！
+$k
+
+#hide
+
+#sp,se,T_Hanabi
+
+#wait,1000
+
+// 	WaitSE();
+
+
+#show
+
+優
+「お…」
+$k
+
+#sp,se,T_Hanabi02
+
+#ir,(dr),1000
+#ip,bg,(fi),white.jpg
+#ig
+
+// 	FlashOut();
+
+&empty
+沈黙を切り裂くように、花火が盛大に上がる音が
+響いた。
+$k
+
+&empty
+宮津橋が驚いたように、上を見て、目を見開く。
+$k
+
+#hide
+
+// 	SV( VISUAL_ISAKI_07A );
+
+#flag,cg,16,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_07A.jpg,(s),75%
+#ig
+
+#show
+
+#sp,vo,04010098
+勇樹
+「…………！！」
+$k
+
+優
+「あー、始まっちゃったなー。
+　ははっ、ここからでもよく見えるからいいか」
+$k
+
+// 	SV( VISUAL_ISAKI_07A );
+
+// ISAKI_0101NO
+
+#sp,vo,04010099
+勇樹
+「すごい……な」
+$k
+
+#sp,bgm,BGM_YASURAGI
+
+&empty
+宮津橋が、毒気を抜かれたようにじっと、
+打ち上がる花火を見上げている。
+$k
+
+優
+「だろ？」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010100
+勇樹
+「こんなに……大きいのか」
+$k
+
+&empty
+無邪気な子供みたいに、
+宮津橋は花火を見つめている。
+$k
+
+&empty
+正直、俺たちからすると、花火っていうのは
+この距離で見るものなんだが……。
+宮津橋にとっては違ったのかもしれない。
+$k
+
+優
+「近くで花火見るの、初めてか？」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010101
+勇樹
+「ああ…。前にいた街では、こんなに間近では
+　見られなかった」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010102
+勇樹
+「こんなに……綺麗なものなのだな」
+$k
+
+&empty
+ぎゅっ、と宮津橋の拳が硬く握られていた。
+視線がじっと花火だけを見ている。
+$k
+
+
+#next,04isaki05_03

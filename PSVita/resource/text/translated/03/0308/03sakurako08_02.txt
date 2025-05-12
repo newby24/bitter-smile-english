@@ -1,0 +1,782 @@
+﻿// 既読フラグ
+#read_flag,279
+
+優
+「呼びに来てくれたんだ。ありがとうみいちゃん」
+$k
+
+// MII_0403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030069
+みい
+「いえ…当然の事をしたまでですから。
+$nw,3750
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+　ただ、お兄様が喜ぶ、美味しいお夕飯かは、
+　保証できかねますが……」
+$k
+
+優
+「おいおい、不安になるような事言うなよ…」
+$k
+
+&empty
+しかもみいちゃん、やけにテンション低い。
+$k
+
+&empty
+なんだろう………また肉じゃがか？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03E );
+// 	SS_( CENTER, MII_A403NO );
+
+#sp,bgm,BGM_COMICAL2
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM2.png,(x),r2,(s),80%
+#ip,c2,(fi),KINO_A401IK5.png,(x),l2,(s),80%
+#ig
+
+// 	SS_( RIGHTRIGHT, YUKIHA_A401KM2 );
+// 	SS( LEFTLEFT, KINO_A401IK5 );
+
+#show
+
+// MII_A403NO
+#sp,vo,03030070
+みい
+「どうぞ、今日の宴の供物です」
+$k
+
+優
+「その表現はどうなの？」
+$k
+
+&empty
+みいちゃんに呼ばれ、
+いつも通りに轟木家の居間へ足を運ぶと、
+婆さんも雪華ちゃんもテーブルについていて。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+そしてテーブルの上には大きな鍋がひとつ…。
+$k
+
+優
+「お、もしかして今日はおでんかな？」
+$k
+
+&empty
+にしてはテーブルの中央に鍋が置かれているだけで、
+箸も茶碗もない。
+$k
+
+&empty
+………桜子も居ないみたいだ。
+$k
+
+// MII_0403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030071
+みい
+「まずは蓋を開けて見て下さい、お兄様」
+
+#mfuri,　　　　　　　　ふた
+
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「え？　じゃあ…」
+$k
+
+#sp,se,S_Dish06
+
+// 	WaitSE( -1 );
+// 	SetObject( 0, "sakurako00_breadnabe.png", 150, 50 );
+// 	WaitObject( 0 );
+
+#ir
+#ip,c1,(fi),image\etc\sakurako00_breadnabe.png,(x),c
+#ig
+
+優
+「…………ああー…」
+#meffect,flow,5
+$k
+
+// YUKIHA_0401AS
+
+#sp,vo,03050023
+雪華
+「…わあ、おいしそうだねぇ」
+$k
+
+// KINO_0401BS2
+
+#sp,vo,03060012
+紀乃
+「ほんなら、なにを貰おうかいな？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「夕飯って、パン！？」
+#mlarge
+$k
+
+// MII_0403EG3
+
+
+#sp,vo,03030072
+みい
+「開けて鍋蓋、玉手箱～」
+#mfuri,　　　　　　　　なべぶた
+
+$k
+
+// KINO_0401KS
+
+#sp,vo,03060013
+紀乃
+「ま、たまにはええわな…」
+$k
+
+&empty
+朝食にパンを食う風習は知っている。
+食パンをくわえた転校生と通学路でぶつかっちゃう
+イベントには必須なアイテムの事だろ？
+$k
+
+&empty
+しかし、晩飯にパンを食うのは、
+ファミレスに行った時くらいだ。
+$k
+
+&empty
+けど、それだって……
+$k
+
+&empty
+菓子パン１つ、って事はないだろ。
+$k
+
+// 	SS( CENTER, MII_A403NO2 );
+
+優
+「今日の食事当番って……」
+$k
+
+// MII_A403KM3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030073
+みい
+「ええ、姉上です。
+$nw,2000
+
+　ちなみに姉上は、具合が悪いとかで、
+　部屋で寝ていますので」
+$k
+
+優
+「だったら桜子の代わりに、
+　誰かが作ればいいんじゃ…、
+　あ、なんなら俺が腕を振るってだな…」
+$k
+
+// MII_A403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030074
+みい
+「そもそも食材がないので、不可能です」
+$k
+
+// MII_A403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030075
+みい
+「今日は食材の調達をする予定だったので、
+　姉上が買い物に行ったのですが…」
+$k
+
+優
+「のーう…」
+#meffect,flow,5
+$k
+
+// MII_A403KD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030076
+みい
+「ご飯よ、と召集があったので来てみると、
+　鍋が置かれていたので、冬はやっぱりお鍋ですよね、
+　と鍋のふたを開けると…」
+$k
+
+// MII_A403AD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030077
+みい
+「この通り、パンが盛られていたのです」
+$k
+
+// MII_A403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030078
+みい
+「パン鍋は、さすがに食した事がありませんので、
+　お兄様が美味しいと感じるかどうか…」
+$k
+
+#ir
+#ip,c1,(fi),image\etc\sakurako00_breadnabe.png,(x),c
+#ig
+
+&empty
+１つずつパンがビニールの袋に入っているから、
+パン鍋という事はないけれど。
+$k
+
+&empty
+これが本日の夕食か…。
+$k
+
+// 	WaitObject( 0 );
+// 	SS_( RIGHT, YUKIHA_A401BS );
+
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),r,(s),80%
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),l,(s),80%
+#ig
+
+#sp,se,S_Vinyl01
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+// 	SS( LEFT, MII_A402MJ );
+
+// YUKIHA_A401BS
+#sp,vo,03050024
+雪華
+「じゃあ私はこれにしようかなぁ？」
+$k
+
+// MII_A402OD
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02OD.png,(x),l,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),320,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03030079
+みい
+「あっ、その苺ジャムパンは
+　密かに狙っていましたのに」
+$k
+
+// YUKIHA_A401NS3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NS3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03050025
+雪華
+「えへへぇー」
+$k
+
+// 	CS_( LEFT, RIGHT );
+// 	SS_( LEFT, KINO_A401BS3, MOVE_LEFT, NORMAL );
+
+#ir,(ef),off
+#ip,c2,(fi),KINO_A401BS3.png,(x),l2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c3,(x),r2,(al),0%
+#ip,c1,(x),r
+#ip,c2,(x),l,(al),100%
+#ig
+
+#sp,se,S_Vinyl01
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+// KINO_A401BS3
+#sp,vo,03060014
+紀乃
+「ほなわては、これをもらいまっせ」
+$k
+
+// MII_A403KD2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD2.png,(x),r,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),720,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03030080
+みい
+「ああっ、そのメロンパンは第二候補でしたのに」
+$k
+
+// KINO_A401EG3
+#ir
+#ip,c2,(fi),KINO_A401EG3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03060015
+紀乃
+「みいは、この宇治金時パンで我慢しい」
+$k
+
+// MII_A403AD3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030081
+みい
+「ああ…お婆様、ありがとうございます。
+　やはり残り物には福があるのですねえ。
+$nw,7000
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AK2.png,(x),r,(s),80%
+#ig
+
+
+#madd,ではなくて。
+　ここは普通、カレーパンだと思うのですが…」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+優
+「じゃあ俺はこれを」
+$k
+
+#sp,se,S_Vinyl01
+
+&empty
+俺も残ったカレーパンを取り…。
+$k
+
+// 	SS( CENTER, MII_A403AD3 );
+
+// MII_A403AD3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030082
+みい
+「お兄様も。
+　せめて突っ込んでからにしてくださいませ」
+$k
+
+優
+「えっ？　面倒だなあ…」
+#meffect,flow,5
+$k
+
+// MII_A403NO
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030083
+みい
+「楽しい夕食の団欒ではないですか」
+$k
+
+優
+「あー、じゃあ……、
+　フランスパンじゃなかっただけでも…」
+$k
+
+// MII_A403EG3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030084
+みい
+「私、紅茶を煎れてきますね」
+$k
+
+#sp,se,S_Walk12o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+// 	WaitSE( -1 );
+
+優
+「有難いと思え？
+$nw,1000
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+　……ってちょっと聞いて！」
+
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03E );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+それが本日の晩飯となった。
+$k
+
+// YUKIHA_0401GM
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01GM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03050026
+雪華
+「はむはむ……」
+#meffect,flow,5
+$k
+
+// MII_0403AD3
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03030085
+みい
+「もぐ……」
+#meffect,flow,5
+$k
+
+&empty
+会話もせずに黙々とパンを食べる俺たち。
+$k
+
+&empty
+いつもより質素な晩飯のお陰で、
+普段より随分早く食事を終えてしまった。
+$k
+
+優
+「ご馳走様」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#sp,se,S_Onaka02
+
+#wait,1000
+
+// 	WaitSE( -1 );
+
+
+#sp,bgm,BGM_SHIZUKA
+
+#show
+
+&empty
+空腹で、腹が鳴っている。
+$k
+
+&empty
+ぜんぜん足りないから、
+コンビニにでも行ってくるか。
+$k
+
+#sp,env,S_Tel12#
+
+#wait,1000
+
+優
+「ん…」
+$k
+
+&empty
+俺の携帯からだ。
+携帯電話の画面には『要』の文字。
+$k
+
+#ss,env,(dr),0
+#sp,se,S_Tel05
+
+// 	WaitSE( -1 );
+
+優
+「はい、もしもし」
+$k
+
+#sp,vo,03020053
+要
+「あ、優君？」
+$k
+
+優
+「要さん、どうかしましたか？」
+$k
+
+#sp,vo,03020054
+要
+「今、暇～？
+$nw,1270
+
+　ちょっとさ、駅前まで来ない？」
+$k
+
+&empty
+駅前
+$nw,1000
+
+#madd,＝店が沢山
+$nw,1000
+
+#madd,＝食い物屋。
+$k
+
+&empty
+咄嗟に飯の画像が空腹な脳内を駆けめぐる。
+$k
+
+優
+「行きます。…おごりですか？」
+$k
+
+#sp,vo,03020055
+要
+「………………うん、いいよ」
+#meffect,flow,5
+$k
+
+&empty
+やった。
+$k
+
+&empty
+出費は出来るだけ抑えたかったんだ。
+なにせ、プレゼント代も残しておきたいし。
+$k
+
+&empty
+ありがとうございます、要さん。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_EKI03A );
+// 	SS( CENTER, KANAME_0103GN );
+
+#sp,bgm,BGM_KANAME
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_EKI03A.jpg,(s),100%
+#ip,c1,(fi),KANAMEn_A103.png,(psi),KANAMEn_An03GN.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「はぁ、はぁ……要さん」
+#meffect,flow,5
+$k
+
+// KANAME_0103GN2
+#ir
+#ip,c1,(fi),KANAMEn_A103.png,(psi),KANAMEn_An03GN2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03020056
+要
+「後５分遅ければ、凍死するところだった……」
+$k
+
+優
+「お、遅くなってすみません」
+$k
+
+// KANAME_0101NO5
+#ir
+#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01NO5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03020057
+要
+「でも徒歩でも早かったね。
+　急がせちゃった？」
+$k
+
+優
+「今、すんごく腹減ってるんで」
+$k
+
+// KANAME_0101KM2
+//#ir
+//#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01KM2.png,(x),c,(s),60%
+//#ig
+
+//#sp,vo,03020058
+//要
+//「優君、目が怖いよー…」
+//#meffect,flow,5
+//$k
+
+// KANAME_0101NO
+//#ir
+//#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01NO.png,(x),c,(s),60%
+//#ig
+
+//#sp,vo,03020059
+//要
+//「じゃあ行きつけの飲み屋に行きますか。
+//　なんでも頼んでいいからね
+//$nw,4500
+
+//#ir
+//#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01NK5.png,(x),c,(s),60%
+//#ig
+
+//　……ああ、さむさむ」
+//$k
+
+// 揺れ。パラメータは適宜。
+//#ir,(ef),quake,(qx),2,(qy),0
+//#ig
+
+//優
+//「よっし！」
+//#mlarge
+//$k
+
+// KANAME_0101KT
+#ir
+#ip,c1,(fi),KANAMEn_A101.png,(psi),KANAMEn_An01KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03020060
+要
+「…ご飯まだだったの？」
+$k
+
+優
+「それが、食事当番の桜子が具合悪いとかで…」
+$k
+
+
+#next,03sakurako08_03

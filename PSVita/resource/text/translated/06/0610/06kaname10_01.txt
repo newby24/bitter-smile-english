@@ -1,0 +1,743 @@
+﻿// 既読フラグ
+#read_flag,371
+
+// KANAME_A401NO2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020424
+要
+「あ、でももう４０前よ？
+　仕事が忙しくて結婚する暇がなかったって。
+　渋いオジサマなんだけどねー」
+$k
+
+// YUKIHA_A401MJ2
+
+#sp,vo,06050020
+雪華
+「そんなの関係ないよ。
+　どうして断っちゃったの～？」
+$k
+
+// KANAME_A401NO5
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020425
+要
+「でも、ほら、これだけ好条件並べられると、
+　どこか別に問題があるんじゃないかなーとか」
+$k
+
+// KINO_A401KT
+
+#sp,vo,06060032
+紀乃
+「せやけど趣味も合う言うて、
+　盛りあがっとったやないの」
+$k
+
+// KANAME_A401IK3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020427
+要
+「そ、それは、ああいった場所で、
+　話も聞かないのは失礼だからってことで、ほら」
+$k
+
+// YUKIHA_A401MJ2
+
+#sp,vo,06050022
+雪華
+「もう、一体なにが不満なの～？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+…………。
+#meffect,flow,5
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KB.png,(x),c,(s),80%
+#ig
+
+&empty
+ふと、俺に向けられる視線に気付くと、
+桜子が俺の方を見ていた。
+$k
+
+// 	SS( CENTER, SAKURAKO_A402KB, MOVE_LEFT, SLOW);
+
+//	Zoom(SLOW|SPEED_DOWN, 135, 135, 400, 300);
+//	Scroll(SLOW|SPEED_DOWN, -100, 0);
+//	SS_(CENTERLEFT, SAKURAKO_A402KB, MOVE_LEFT, SLOW);
+//	ZoomStand(CENTERLEFT, FASTEST, 74, 74);
+//	WaitStand( CENTERLEFT );
+
+優
+「……なんだよ？」
+$k
+
+// SAKURAKO_A402KB
+
+#sp,vo,06000060
+桜子
+「気になる？」
+$k
+
+優
+「我が妹の殺伐さが？」
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000061
+桜子
+「お姉のお見合い」
+$k
+
+優
+「…そりゃ、多少は」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402KB
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000062
+桜子
+「どれくらい気になる？」
+$k
+
+&empty
+どれくらいって…
+#meffect,flow,5
+$k
+
+優
+「へ～、そうなんだって感じ？」
+$k
+
+&empty
+だって…俺が特別な何かを思うのは筋違いだろ。
+$k
+
+// SAKURAKO_A402NO5
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000063
+桜子
+「へ～、そうなんだ」
+$k
+
+優
+「お前な…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000064
+桜子
+「いじけた顔して何言ってんだか」
+$k
+
+優
+「いじけてねえよ。お前こそ何言ってんだ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+&empty
+そうか…いじけた顔してるのか、俺。
+$k
+
+&empty
+よくわからない寂しさみたいなものを
+感じてるのは確かだけど…。
+$k
+
+// 	Zoom(NORMAL|SPEED_DOWN, 100, 100, 400, 300);
+// 	Scroll(NORMAL|SPEED_DOWN, 0, 0);
+// 	SS( CENTER, KANAME_A403GM2 );
+
+// 	WaitZoom();
+
+// KANAME_A403GM2
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020428
+要
+「あ、そうだー。
+　わたし明日も会社だからそろそろ帰らないと。
+　そうだそうだ忘れてたー」
+$k
+
+// YUKIHA_A401MJ2
+
+#sp,vo,06050023
+雪華
+「え～、まだ聞きたいことあるのに～」
+$k
+
+// MII_A403AD3
+
+#sp,vo,06030052
+みい
+「わかりやすい逃げを打ちますね」
+$k
+
+#sp,se,S_Nuno06
+
+// 	SS( CENTER, KANAME_0403EG );
+
+// KANAME_0403EG
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020429
+要
+「ほんとごめんねー」
+$k
+
+&empty
+要さんが、追及を振り切って立ち上がる。
+$k
+
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03KM2.png,(x),c,(s),60%
+#ig
+
+優
+「あ…」
+$k
+
+// 	SS(CENTER, KANAME_0403KM2, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03KM.png,(x),c,(s),60%
+#ig
+
+&empty
+反射的に俺も立ち上がりそうになって、
+要さんと目が合う。
+$k
+
+// 	SS(CENTER, KANAME_0403KM, MOVE_STOP, NORMAL);
+// 	BFO ( SLOW );
+
+// 	SS_(CENTER, KANAME_0403BS, MOVE_STOP, NORMAL);
+
+#ss,bgm
+
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03BS.png,(x),c,(s),60%
+#ig
+
+// KANAME_0403BS
+#sp,vo,06020430
+要
+「………」
+#meffect,flow,5
+$k
+
+優
+「え…？」
+$k
+
+// KANAME_0402EG
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020431
+要
+「それじゃあね、ばっいばーい」
+$k
+
+// $nw,1760
+
+#sp,se,S_Dash11o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+要さんは、逃げるように…
+$nw,1000
+
+いや、帰るように逃げてしまった。
+$k
+
+&empty
+俺の抱いていた戸惑いや葛藤、
+後ろめたさを微塵も感じさせない笑顔を残して。
+#mfuri,　　　　　　　　　　　　　みじん
+
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+やっぱり要さんは何とも思ってないのだろうか…。
+$k
+
+&empty
+気にして、身悶えて、勘違いしていたのは俺だけで…。
+$k
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS_( RIGHT, MII_A403AD3 );
+// 	SS( LEFT, YUKIHA_A401RK );
+
+// YUKIHA_A401RK
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01RK.png,(x),l,(s),80%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06050024
+雪華
+「はぁ～、お見合いって本当にあるんだぁ」
+$k
+
+// MII_A403NI
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NI.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06030053
+みい
+「いえ、まだ終わりではありません。
+　もう一人、事情に精通された方がいらっしゃいます」
+$k
+
+// 	SS(CENTER, KINO_A401KD, MOVE_STOP, NORMAL);
+
+// KINO_A401KD
+#ir
+#ip,c2,(fi),KINO_A401KD.png,(x),c,(s),80%
+#ie,c1,c3
+#ig
+
+#sp,vo,06060033
+紀乃
+「ずずず……
+$nw,2910
+
+#madd,元気やなあ」
+
+$k
+
+//	Zoom(SLOW|SPEED_DOWN, 115, 115, 400, 300);
+//	Scroll(SLOW|SPEED_DOWN, -50, 0);
+// 	SS_( LEFT, YUKIHA_0401NS3, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NS3.png,(x),l3,(s),80%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l2,(al),100%
+#ig
+
+// YUKIHA_0401NS3
+#sp,vo,06050025
+雪華
+「おせんべいどうぞ。
+　あ、お茶のおかわりも煎れちゃうね」
+$k
+
+//	Scroll(NORMAL|SPEED_DOWN, 0, 0);
+// 	SS_( RIGHT, MII_0403EG4, MOVE_RIGHT );
+
+#ir,(ef),off
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG4.png,(x),r3,(s),80%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ig
+
+// MII_0403EG4
+#sp,vo,06030054
+みい
+「お婆様…。
+　お婆様の肩をお揉みしたいと、
+　私の胸がきゅんきゅん締めつけてきます」
+$k
+
+// KINO_A401KM
+#ir
+#ip,c2,(fi),KINO_A401KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06060034
+紀乃
+「…現金やな」
+$k
+
+//	Zoom(SLOW|SPEED_DOWN, 100, 100);
+
+#ir
+#ie,c1,c3
+#ig
+
+// KINO_A401KM
+#sp,vo,06060035
+紀乃
+「ちゅーても、ほんまよう知らんで。
+　断りきれんで仕方なしや言うとったけど」
+$k
+
+&empty
+乗り気じゃなかったのは本当なのか。
+$k
+
+&empty
+それだけで、何かほっとしてしまうのが、
+我ながらいじらしいというか惨めというか…。
+$k
+
+&empty
+どうせ要さんは俺の事など気にもしてないのに。
+$k
+
+// KINO_A401NO
+#ir
+#ip,c2,(fi),KINO_A401NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06060036
+紀乃
+「話は弾みよったけどな」
+$k
+
+// SAKURAKO_A402NO
+
+#sp,vo,06000065
+桜子
+「それいつ頃？
+　あたし、全然気づかなかったんだけど」
+$k
+
+// KINO_A401NO
+#sp,vo,06060037
+紀乃
+「先週…ちゃうわ、先々週の日曜やな。
+$nw,5690
+
+　言われへんかったんは、
+　要に念入りに口止めされてたよって」
+$k
+
+&empty
+先々週…。
+#meffect,flow,2
+$k
+
+優
+「…あれ？」
+$k
+
+// 	SV(BG_MT_YATAI03A, FILTER_SEPIA|FILTER_LINKSTAND);
+// 	DelStandAll();
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_KANAME_06A_s.jpg,(s),75%
+#ig
+
+&empty
+先々週って……
+$nw,1000
+
+確か、要さんと屋台に行った週だ。
+
+$k
+
+// KANAME_A902MU
+
+#sp,vo,06020432
+要
+「優くんさぁ…」
+$k
+
+//	SS_(CENTER, KANAME_A902AM, MOVE_STOP, NORMAL);
+// KANAME_A902AM
+
+#sp,vo,06020433
+要
+「聞いてくれる？」
+$k
+
+//	SS_(CENTER, KANAME_A902MU, MOVE_STOP, NORMAL);
+// KANAME_A902MU
+
+#sp,vo,06020434
+要
+「ちょっとした悩み、みたいのなんだけど…」
+#meffect,flow,5
+
+$k
+
+
+// 	ShowFace();
+// 	SV( BG_TD_IMA03E );
+// 	PinbokeVisual(FASTEST, PINBOKE_NORMAL, 0);
+// 	DelStandAll();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ig
+
+優
+「あの時のあれは…」
+#meffect,flow,5
+$k
+
+&empty
+お見合いのことだったのか？
+だとしたら、俺に何を言おうとしてた？
+$k
+
+// 	SS( CENTER, SAKURAKO_A402NO );
+
+// SAKURAKO_A402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000066
+桜子
+「なに？　どうしたの？」
+$k
+
+優
+「いや…」
+$k
+
+// MII_0401NO
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),r2,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,06030055
+みい
+「お婆様、先ほどの質問ですが」
+$k
+
+// YUKIHA_A401BS
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06050026
+雪華
+「うんうん」
+$k
+
+// KINO_A401KM2
+#ir
+#ip,c2,(fi),KINO_A401KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06060038
+紀乃
+「ああしんど。
+　口滑らすんやなかったわー」
+$k
+
+&empty
+向こうは、まだ盛り上がっているらしい。
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ie,c2,c3
+#ig
+
+#sp,vo,06000067
+桜子
+「言いかけてやめないでよ、気持ち悪いから。
+　ほら言っちゃいなさいって」
+$k
+
+優
+「…勘違いかもしれないけど……、
+#meffect,flow,5
+　俺、要さんにお見合いのこと聞いてたかもって」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000068
+桜子
+「はあ？
+$nw,1710
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+　あんた馬っ鹿じゃない？」
+$k
+
+優
+「真顔でそういうこと言うなよ…」
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000069
+桜子
+「だってお姉、口止めしてたんでしょ？
+　頭の巡りが悪い優が気づけるくらいなら、
+　よっぽどのことを言おうとしてたんじゃないの？」
+$k
+
+優
+「そ、そうなのかな…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402NR
+#sp,vo,06000070
+桜子
+「勘違いだとしたら、
+　本当にただの勘違いなのか…、
+$nw,4340
+
+　あんたが勘違いしたかっただけか」
+$k
+
+優
+「どういう意味だよ」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000071
+桜子
+「人の顔色ばっか伺ってんじゃないっつってんの」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+桜子は、俺と要さんの間にあったことを知らない。
+知るわけがない。
+$k
+
+&empty
+なのに、こいつの言葉は
+俺の核心を突いているような気がした。
+$k
+
+優
+「…わかったよ」
+$k
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	FO_( SLOWER );
+
+&empty
+見えた光明は、幻かもしれない。
+$k
+
+優
+「要さん…」
+#meffect,flow,5
+$k
+
+&empty
+でもそれは、きっと、今の俺には関係ないんだ。
+$k
+
+#hide
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	WT( 150 );
+#sp,se,S_Car08
+
+// 	SV( BG_MT_KANAMEMANSION03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAMEMANSION03A.jpg,(s),100%
+#ig
+
+// 	WaitSE( -1 );
+
+#ir,(ef),off
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01KB.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#wait,1000
+
+#ss,se,(dr),1000
+#wait,1000
+
+#sp,se,S_Car03o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	WaitSE( -1 );
+// 	SEStop();
+
+#next,06kaname10_02

@@ -1,0 +1,964 @@
+﻿// 既読フラグ
+#read_flag,108
+
+// セーブタイトル
+#flag,save_title,Ａｃｔ３－３Ｂ,0,0
+
+// 	SV( BG_TD_GAIKAN03A );
+
+#sp,se,T_Dog02
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN03A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,Ａｃｔ３－３Ｂ　聖なる夜なのに…（みい・要）
+$k
+#note,erase
+
+#ss,se,(dr),0
+
+// 	SV( BG_TD_IMA03E );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0403NO
+
+#sp,vo,02000771
+桜子
+「ねえ優、ちょっとお姉送って行ってあげなさいよ」
+$k
+
+優
+「え？　…ああ、もう一分待ってくれ、まだ腹が重たい」
+$k
+
+&empty
+労働の成果か、クリスマスでもイブでも無いのに
+今日は食い過ぎた。
+$k
+
+// KANAME_0401YP3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01YP3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02020169
+要
+「ええ～っいいよ、いいよーん、桜子ちゃん、
+　受験生にそんな重労働ーっ
+$nw,8000
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01YP2.png,(x),l,(s),60%
+#ig
+
+　うへへっ♪」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000772
+桜子
+「重労働って言ってる辺り、送らせる気満々よね」
+$k
+
+優
+「しかも俺には意見を聞く気も無いな」
+$k
+
+&empty
+イブのさらに前夜、クリスマスの準備やら何やらを、
+家族と一緒に手伝う為、朝からやって来た要さん。
+$k
+
+&empty
+色々終わった後も、そのままいつものように
+晩御飯までご馳走になって、さらに酔っ払っていた。
+$k
+
+&empty
+本当、なぜ一人暮らしをしているんだろうか、
+この人は。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GAIKAN03B );
+
+// 	SS( CENTER, SAKURAKO_0402NO3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402NO3
+#sp,vo,02000773
+桜子
+「じゃあ頼んだわよ？」
+$k
+
+優
+「おう」
+$k
+
+// SAKURAKO_0401NS
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000774
+桜子
+「気がついたら自転車軽くなってたとか無い様にね」
+$k
+
+優
+「落とさねえよ！」
+$k
+
+// KANAME_0201YP
+
+#sp,vo,02020170
+要
+「ほんなら、ばいならーっ、桜子ちゃーん♪
+$nw,3100
+
+　あとお笑い婆さんなんとかしろいてれーっ」
+$k
+
+&empty
+めずらしくベロベロになってるな、要さん。
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000775
+桜子
+「はいはい、おやすみー。
+$nw,2300
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR4.png,(x),c,(s),60%
+#ig
+
+　あと優はちゃんと帰ってくるのよ？
+　まだ勉強もしないといけないんだからね？」
+$k
+
+優
+「へいへい、わかってますよ？
+　しかし人を送り狼みたいに言うなよ」
+$k
+
+&empty
+俺ほどの紳士は今時珍しいというのにっ。
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW, 4 );
+// KANAME_0201PU6
+
+#sp,vo,02020171
+要
+「わお―――んっ！」
+#mlarge
+$k
+
+優
+「要さんが狼になってどうするんですか」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// 	SV( BG_MT_TSUGAKURO03A );
+
+#sp,env,T_Bicycle01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO03A.jpg,(s),100%
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01KM2.png,(x),c,(s),80%
+#ig
+
+#show
+
+// KANAME_0201KM2
+
+#sp,vo,02020172
+要
+「ううう、さぶーい！
+　もう酔い覚めちゃったー！」
+$k
+
+優
+「良かったじゃないですか」
+$k
+
+&empty
+俺は自転車を漕がずに押している。
+要さんを荷台に座らせて。
+$k
+
+&empty
+桜子見てたから。
+厳しいんだよ、あいつ。
+$k
+
+// 	SEFade( 0, SLOWEST, 25 );
+
+// KANAME_0201IK
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020173
+要
+「えー。
+　気持ちよーく布団になだれ込みたかったのになー」
+$k
+
+優
+「今日はまたご機嫌でしたね。
+　まだクリスマスでもないのに」
+$k
+
+// KANAME_0201NO
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020174
+要
+「…ふふふ、まーねー？」
+$k
+
+優
+「なんですか、その思わせぶり」
+$k
+
+// KANAME_0202EG
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020175
+要
+「なーにー聞きたい？　乙女の秘密」
+$k
+
+優
+「………そう言われると微妙、
+　もう今月の給料使いきったとか？」
+$k
+
+// KANAME_0202IK
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020176
+要
+「そんな訳ないじゃなーい、
+　どこぞの馬鹿社長でもそれはないよ！」
+$k
+
+優
+「ひどい言われようだな、あの人も」
+$k
+
+#ss,env,(dr),1000
+
+#sp,bgm,BGM_SABISHII
+
+// KANAME_0201NO2
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020177
+要
+「まあでも良かった。桜子ちゃんよくなってて」
+$k
+
+優
+「ん？
+$nw,1000
+
+　……ああ、アレまだ心配してたんですか？
+　だから言ったのに、心配ないって」
+$k
+
+// KANAME_0201NO
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020178
+要
+「はは、
+$nw,900
+
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02NA2.png,(x),c,(s),80%
+#ig
+
+　……でもね心配なものは心配なのよー」
+$k
+
+優
+「でもそんなに心配されるような性格
+　してないでしょ、あいつは」
+$k
+
+// KANAME_0201KB2
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020179
+要
+「ふいーっ……わかってないなあ、優君はー。
+　あれで結構繊細な女の子なのよ桜子ちゃんはー」
+$k
+
+優
+「繊細…ですか？
+　いや、そんな風にはとてもとても」
+$k
+
+&empty
+ましてや乙女ってイメージでもないし。
+$k
+
+// KANAME_0201RK
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01RK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020180
+要
+「……はー、男ってやーねー、これだから…」
+$k
+
+優
+「いや、でも桜子だし」
+$k
+
+// KANAME_0201FK5
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01FK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020181
+要
+「ねえ、わたしがなんで髪切ったか知ってる？」
+$k
+
+優
+「えっ？　ただのイメチェンって前言ってましたよね？」
+$k
+
+// KANAME_0201US2
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01US2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020182
+要
+「それが違うんだな。
+$nw,2200
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO2.png,(x),c,(s),80%
+#ig
+
+　まー、イメチェンには違いないけどー」
+$k
+
+優
+「？？」
+$k
+
+// KANAME_0201NO4
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020183
+要
+「桜子ちゃんはねー、実は轟木家のお姉さんなのよ」
+$k
+
+優
+「………は？
+$nw,1000
+
+　よく聞こえませんでしたけど」
+$k
+
+// KANAME_0201IK
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020184
+要
+「だからー、お母さんでお父さんでもあるのよ」
+$k
+
+優
+「えーっと、もしかして…、
+　みいちゃんのあの話と関係とかあります？」
+
+$k
+
+// KANAME_0202EG
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020185
+要
+「うふふー、まーね。
+$nw,2200
+
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02BS.png,(x),c,(s),80%
+#ig
+
+　優君はうちの両親居ないの知ってるよねー」
+$k
+
+優
+「ええ、まあそれとなく…」
+$k
+
+&empty
+俺が小さい頃ここに越してきて、
+桜子と出会う前にはもう居なかった、とは聞いている。
+$k
+
+// KANAME_0201MJ
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01MJ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020186
+要
+「んでね、両親の死に目に会えたのは
+　お婆ちゃんと桜子ちゃんだけなの」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+そうだったのか。
+$k
+
+// KANAME_0201NK4
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020187
+要
+「その時みいちゃんは小さかったし、わたしは
+　学校の課外活動で…
+$nw,5900
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01MJ2.png,(x),c,(s),80%
+#ig
+
+#madd,病院に早く辿り着いたのは
+　桜子ちゃんとお婆ちゃんだけでさー」
+$k
+
+// KANAME_0201MJ3
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01MJ3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020188
+要
+「その時なにか聞いちゃったのかもね。
+　お姉ちゃん達を頼むわね、とかなんとか。
+$nw,7300
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01MJ2.png,(x),c,(s),80%
+#ig
+
+　想像なんだけどさ？」
+$k
+
+優
+「本人は何も言わないんですか？」
+$k
+
+// KANAME_0201SK
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01SK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020189
+要
+「そ、あの子すごく真面目だからね？
+　自分だけでなんとかしようとしちゃうのよ」
+$k
+
+&empty
+たしかに、なんとかしようとするかもな、
+桜子だったら。
+$k
+
+// KANAME_0201NO3
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020190
+要
+「その日から桜子ちゃん物凄く頑張っちゃって。
+$nw,4000
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO.png,(x),c,(s),80%
+#ig
+
+　わたしの方がお姉ちゃんなのにね、
+　泣いてばかりだったから」
+$k
+
+// KANAME_0201MJ3
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01MJ3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020191
+要
+「そんなだから物凄く溜め込んでたのかもね。
+$nw,4300
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01MJ2.png,(x),c,(s),80%
+#ig
+
+　三年くらい前かな？　突然グレちゃって」
+$k
+
+優
+「………えええっ、桜子がっ！？
+$nw,1000
+
+　いやまあ、たしかに性格悪いし、
+　あの髪の毛とか…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01IK5.png,(x),c,(s),80%
+#ig,(se),S_Hipparu01
+
+優
+「あだだっ、ごめんなさい」
+$k
+
+&empty
+つねられた。
+$k
+
+// KANAME_0201IK
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020192
+要
+「グレたっていっても、そういうんじゃなくてっ。
+$nw,3100
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01MJ3.png,(x),c,(s),80%
+#ig
+
+　突然なにかにイライラしはじめたっていうかー、
+　人の相手をあまりしなくなったっていうか」
+$k
+
+優
+「あの桜子がグレるとか………
+$nw,1000
+
+　あれ、三年前？」
+$k
+
+// KANAME_0201NO2
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020193
+要
+「気付いた？
+　優君が引っ越していった後だよ」
+$k
+
+優
+「でも、だからって俺と関係あるとは…」
+$k
+
+&empty
+俺がグレるならともかく。
+$k
+
+// KANAME_0201NO
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020194
+要
+「っていっても、
+　グレるまでに半年ブランクあったけど。
+$nw,4500
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01SK.png,(x),c,(s),80%
+#ig
+
+　だからどうなのかなー、ってね？」
+$k
+
+優
+「はあ…微妙。
+$nw,1000
+
+　でも多分俺は関係ないと思いますよ？」
+
+$k
+
+// KANAME_0201NO4
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020195
+要
+「かもね、分かんないけど。
+$nw,3500
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO2.png,(x),c,(s),80%
+#ig
+
+　でさ、桜子ちゃんが全然わたしの事とか、
+　家族の事とか見てくれなかったもんだから…」
+$k
+
+// KANAME_0201NO
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020196
+要
+「なんとなく髪切って、目の前に立ったらねー、
+$nw,3500
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01BS.png,(x),c,(s),80%
+#ig
+
+　そりゃあもう桜子ちゃん、
+　真っ青になって私の心配してくれてさー！」
+$k
+
+優
+「そりゃ、ずっとあんな長かったのが、
+　いきなりこんな短くなってたら誰でも驚きますよ」
+$k
+
+// KANAME_0201BS2
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01BS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020197
+要
+「で、追い討ちに家を出て行くって言ってやったわ！」
+$k
+
+優
+「…追い討ちって、
+　それグレたの、実は要さんの方なんじゃ？」
+$k
+
+// KANAME_0202EG
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020198
+要
+「はははははー！」
+$k
+
+// KANAME_0202NO
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020199
+要
+「それもあるかもねっ！」
+$k
+
+優
+「ええーっ！？
+$nw,1000
+
+#madd,　…もしかして、
+　またなんか俺が騙されてる、とかないでしょうね？」
+#mfuri,　　　　　　　　　　　　　　　　だま
+
+$k
+
+// KANAME_0202EG2
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020200
+要
+「さあーどうかなー？
+　私も轟木家の血筋だからー」
+$k
+
+// 	SEFade( 0, NORMAL );
+// 	SV( BG_MT_KANAMEMANSION03A );
+
+優
+「うわあ、嫌な血筋…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAMEMANSION03A.jpg,(s),100%
+#ig
+
+// 	SEStop( 0 );
+
+#sp,se,W_Bicycle01
+
+#show
+
+優
+「あ、着きましたよ、マンション」
+$k
+
+#sp,bgm,BGM_SHIZUKA
+
+// 	SS_( CENTER, KANAME_0201US4, MOVE_UP, NORMAL | SPEED_DOWN );
+// 立ち絵移動。パラメータは適宜。
+
+#sp,se,S_Land01
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01US4.png,(x),c,(s),60%
+#ig
+
+// KANAME_0201US4
+#sp,vo,02020201
+要
+「うむ、お勤めご苦労だった、若いの！
+$nw,3000
+
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG.png,(x),c,(s),60%
+#ig
+
+　愛車はそこの駐輪場に頼むぞ！」
+$k
+
+優
+「いえ、どういたしまして。って、まだ酔ってますか？
+　足元ふらついてますよ？　明日会社まだありますよね？
+　ちゃんと行けますか？」
+$k
+
+// KANAME_0202NO
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020202
+要
+「大丈夫だよー、もー。
+$nw,3000
+
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02IK.png,(x),c,(s),60%
+#ig
+
+　優君今、桜子ちゃんみたいだよー？」
+$k
+
+優
+「いやいや、ホントに大丈夫ですか？
+　部屋まで送りますよ？」
+$k
+
+// KANAME_0201TR3
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01TR3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020203
+要
+「いやーん。本当に狼になるんだー？」
+$k
+
+優
+「ちょっ、
+$nw,1000
+
+　……ご希望とあらばいつでも！」
+$k
+
+&empty
+たまにはと思い、乗ってみたがどうか？
+$k
+
+// KANAME_0202EG
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020204
+要
+「はははー、
+$nw,1400
+
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02IK2.png,(x),c,(s),60%
+#ig
+
+　しかーし、このわたくし自分の足で
+　立って歩いて行けるのでありますよ、軍曹どの！」
+$k
+
+// 	SS_( CENTER, KANAME_0201US2 );
+// 立ち絵移動。パラメータは適宜。
+
+#sp,se,S_Air04
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01US2.png,(x),c,(s),60%
+#ig
+
+// 	MoveStand( CENTER, 30, 0, -30, 1 );
+// 	MoveStand( CENTER, 10, 0,  10, 1 );
+// 	MoveStand( CENTER, 10 );
+
+#sp,se,S_Land03
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#wait,500
+
+&empty
+でっすよねー？
+$k
+
+優
+「でも敬礼とかされると余計心配なんだけど…。
+$nw,1000
+
+　まあいいや、信じましょう。
+　じゃあおやすみなさい、要さん」
+$k
+
+// KANAME_0202EG
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020205
+要
+「はい、おやすみなさいであります。
+$nw,2500
+
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02NO.png,(x),c,(s),60%
+#ig
+
+　ではーまた明日っ！」
+$k
+
+// 	ShakeStand( CENTER, 0, SHAKE_RANDOM, 20, 30 );
+// 	MoveStand( CENTER, SLOW, -100, 0 );
+// 	FadeStand( CENTER, SLOW, FADEn_ALPHA, 0 );
+
+優
+「はい、またあしたー…」
+$k
+
+#ir,(dr),2000,(ef),move
+#ip,c1,(x),l,(y+),30,(al),0%
+#ia,c1,y,(dr),500,(lt),reverse,(lc),3
+#ig
+
+&empty
+敬礼して無理やりカクカク歩いていく要さんを見送る。
+$k
+
+優
+「ううー、寒っ…」
+$k
+
+#next,02common03-3B_01

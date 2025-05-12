@@ -1,0 +1,667 @@
+﻿// 既読フラグ
+#read_flag,217
+
+// セーブタイトル
+#flag,save_title,勇樹　第１１話,0,0
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第１１話　彼氏彼女
+$k
+#note,erase
+
+#show
+
+&empty
+新学期が始まった。
+$k
+
+&empty
+冬休みの前は学園にもあまり来なくて
+心配していた宮津橋だが、
+最近はちゃんと来て、授業を受けている。
+$k
+
+&empty
+よかったよかった。
+$k
+
+&empty
+まあ、それはいい事なんだが、
+１つ気になって仕方がない事がある。
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010305
+勇樹
+「………………」
+$k
+
+&empty
+なんだろう、アレ。
+$k
+
+&empty
+さっきから、宮津橋の方を見る度に
+目が合ってしまう。
+$k
+
+&empty
+宮津橋に見られている。
+$k
+
+&empty
+と、いうか、睨まれている。
+$k
+
+&empty
+すごく、顔が怖いんだよな……。
+$k
+
+// ISAKI_A201NO
+#sp,vo,04010306
+勇樹
+「今日も一緒に帰るぞ」
+#msmall
+$k
+
+&empty
+ん？　なんだ？
+$k
+
+優
+「わからん」
+#msmall
+$k
+
+// ISAKI_A201IK
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010307
+勇樹
+「一緒に帰る」
+#msmall
+$k
+
+&empty
+ひっこしがえる？
+$k
+
+優
+「ええっ、また引っ越すのか？」
+#msmall
+$k
+
+&empty
+彼氏彼女の関係なのに、そんな重要事を
+授業中の口パクで聞かされるとか、
+ありえないだろう。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010308
+勇樹
+「バカ」
+#msmall
+$k
+
+&empty
+今のはわかった。
+$k
+
+&empty
+でも、なんでバカって言われないとダメなんだよっ。
+$k
+
+// 	SS( CENTERBOTTOM, KOZUE_0202IK );
+
+// KOZUE_0202IK
+#ir
+#ip,c3,(fi),KOZUE_A202.png,(psi),KOZUE_An01IK.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,04100000
+山之辺こずえ
+「こらっ、そこの２人！
+　おしゃべりは授業が終わってからにしなさい」
+$k
+
+// KOZUE_0202EG
+#ir
+#ip,c3,(fi),KOZUE_A202.png,(psi),KOZUE_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04100001
+山之辺こずえ
+「ま、仲がいいのはいい事だけどね～」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+#sp,se,T_warai
+
+優
+「す、すみません」
+$k
+
+&empty
+宮津橋はしれっとした顔をしている。
+なんだよ、赤くなってるのは俺だけか。
+$k
+
+// 	Zoom( 30, 140, 140, 300, 300 );
+
+
+#sp,vo,04990073
+クラスメイト
+「なんか、あの２人、最近ラブラブだね～」
+#msmall
+$k
+
+#sp,vo,04990074
+クラスメイト
+「転校した矢崎君を宮津橋さんが
+#msmall
+　追いかけて来たんでしょ？
+#msmall
+　情熱的ぃ」
+#msmall
+$k
+
+#sp,vo,04990075
+クラスメイト
+「意外だったよね、宮津橋さん。
+#msmall
+　そういう風には見えなかったもんね」
+#msmall
+$k
+
+&empty
+うわ、なんか俺の知らないところで、
+よくわからない話が広がってるし！
+$k
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+// KOBAYASHI_0201BS4
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04080003
+小林
+「ケンカしてたけど、
+#msmall
+　元サヤに収まったってわけか。
+#msmall
+　てっきり、轟木と二股だと……」
+#msmall
+$k
+
+優
+「もう二、三度死んでおくか？」
+#msmall
+$k
+
+// KOBAYASHI_0201AS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04080004
+小林
+「スススス、ストップ！
+#msmall
+　人間は一度しか、死ねないんだぜ？」
+#msmall
+$k
+
+優
+「やかましいっ！」
+#msmall
+$k
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ie,c1
+#ig,(se),S_Punch05
+
+// 	SK2( NORMAL );
+
+&empty
+先生の目を盗んで英和辞典で小林を黙らせると、
+俺は宮津橋の方を向いた。
+$k
+
+&empty
+宮津橋がきょとん、と小首をかしげて、
+俺の方を見ている。
+$k
+
+&empty
+そして、いきなり重そうな百科事典を出してきた。
+$k
+
+// ISAKI_A202OD
+#ir
+#ip,c3,(fi),ISAKI_A202.png,(psi),ISAKI_An02OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010309
+勇樹
+「追加の武器だ」
+#msmall
+$k
+
+優
+「いや、いいからっ」
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,se,S_Dosa02
+
+&empty
+謹んで遠慮すると、宮津橋は不満そうに
+百科事典を机に仕舞った。
+$k
+
+#sp,vo,04010310
+勇樹
+「こっちの方が強力なのだが…」
+$k
+
+優
+「俺を殺人者にする気かっ」
+$k
+
+&empty
+わからない。
+俺には宮津橋が本気でわからない。
+$k
+
+// ISAKI_A201KN
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010311
+勇樹
+「必要ないならいい」
+$k
+
+&empty
+心なしか、肩を落として見える宮津橋。
+$k
+
+&empty
+借りてやるべきだったのか？
+でも、小林相手に一生を棒に振りたくはない。
+$k
+
+&empty
+小林なら殺しても死なないような気はするが。
+$k
+
+// 	SS( RIGHT, KOZUE_0202KS3, MOVE_RIGHT );
+
+// KOZUE_0202KS3
+#ir
+#ip,c2,(fi),KOZUE_A202.png,(psi),KOZUE_An01KS3.png,(x),c,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,04100002
+山之辺こずえ
+「お二人さん……授業再開してもいい？」
+$k
+
+優
+「はっ！　す、すみません！」
+$k
+
+&empty
+い、いつから普通に声を出してた？
+$k
+
+#hide
+
+#sp,se,T_warai
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+// 	WaitSE();
+
+#sp,env,S_Gaya01#,(vl),3
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+なんか、その後もずーっと宮津橋は
+俺のことを見ていて、内心、俺はまた
+なにかまずい事でもしたかとヒヤヒヤしていた。
+$k
+
+&empty
+というか、授業が終わって、昼休みになっても
+なぜか黙って俺の事を睨み続けている。
+$k
+
+&empty
+その割には、話し掛けて来る様子もない。
+$k
+
+優
+「なんだよ、何かあるなら言えよ」
+$k
+
+#ss,env,(dr),1000
+
+#sp,bgm,BGM_ISAKI
+
+// ISAKI_A201NO
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010312
+勇樹
+「別に何も。お前の顔を見ていた」
+$k
+
+優
+「へっ？」
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010313
+勇樹
+「お前の顔は、見ていて飽きない」
+$k
+
+&empty
+なんだ、それ？
+なんだか、俺に見惚れていると
+言われているみたいで、照れてしまうんだが。
+$k
+
+優
+「お、面白いのか、俺の顔なんか見て」
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010314
+勇樹
+「別に面白くはないが…」
+$k
+
+&empty
+宮津橋は俺の顔をしげしげと見ながら、
+ゆっくりと俺の周りを回りだす。
+$k
+
+&empty
+見惚れてる……のか？
+$k
+
+優
+「えーっと…こんどは何か……」
+$k
+
+// ISAKI_A201NO
+#sp,vo,04010315
+勇樹
+「ふむ…」
+#msmall
+$k
+
+#ir
+#ie,c3
+#ig
+
+&empty
+そのまま俺の後ろに立ったかと思うと…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"がしっ" );
+// 	SV( VISUAL_ISAKI_11A );
+
+#flag,cg,19,=,1
+
+#ir,(ef),off
+#ip,bg,(fi),VISUAL_ISAKI_11A.jpg,(s),88%,(x),c,(y),c,(al),0%
+#ig
+
+#sp,se,T_tukamu
+
+#ir,(dr),500,(ef),move
+#ip,bg,(s),75%,(x),c,(y),0,(al),100%
+#ig
+
+// 	SK2();
+// 	ZoomCrossFade( NORMAL, 130, 130, 400, 300, 130, 130, 400, 300 );
+
+#sp,bgm,BGM_COMICAL1
+
+#show
+
+優
+「わあっ！　な、何っ！」
+$k
+
+&empty
+いきなり俺の腰にがっちりと腕を回す宮津橋。
+バックを取られた？
+$k
+
+&empty
+そして…。
+$k
+
+#hide
+
+#ir,(dr),500,(ef),move
+#ip,bg,(s),125%,(x),c,(y),0
+#ig
+
+#sp,se,T_Nyu01
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(ag),-30,(rx),1200,(ry),720
+#ig
+
+// 	SFP2( 0, "T_Nyu01" );
+// 	Zoom( 20, 150, 150 );
+// 	Rotate( 80|SPEED_DOWN, 25, 1 );
+
+#show
+
+優
+「えぇぇぇぇぇーっ！？」
+$k
+
+&empty
+ふわっと俺の体が浮き上がる。
+まさか投げっぱなしとか、垂直落下とかっ！？
+$k
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「ちょちょ、ちょっと待って！　許してっ！」
+$k
+
+// 	Shake( 0, SHAKE_RANDOM|SHAKE_SCREEN, 10, 20 );
+
+
+&empty
+慌てて足をばたつかせ腰を落として耐える俺。
+$k
+
+// ISAKI_A202MU
+
+#sp,vo,04010316
+勇樹
+「…………」
+$k
+
+// 	Shake( 50, SHAKE_RANDOM|SHAKE_SCREEN, 20, 20 );
+
+&empty
+変な体勢で宮津橋が俺の背中に抱きついたまま、
+しばし時間が流れる。
+$k
+
+優
+「あの……」
+$k
+
+// ISAKI_A202MU
+#sp,vo,04010317
+勇樹
+「………………」
+$k
+
+&empty
+………なんですか、これは？
+$k
+
+// 	SetVisualObject( 0, BG_GK_KYOSHITSU01A, 0, 0 );
+// 	Zoom( NORMAL );
+// 	Rotate( NORMAL );
+
+#hide
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(ag),0
+#ig
+
+#sp,se,S_Catch01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+// 	ShowFace();
+
+#show
+
+//	CF( SLOW );
+&empty
+そして…しばらくの沈黙のあと、
+ようやく宮津橋が手を離してくれた。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010318
+勇樹
+「…………違うな」
+#msmall
+$k
+
+優
+「み、み、宮津橋…？」
+$k
+
+&empty
+もともと言動が変だったけど、最近は特に
+輪をかけているように思える。
+どう反応していいのか、わからない。
+$k
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+// 	SS( CENTER, ISAKI_A202NO, MOVE_STOP, NORMAL );
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010319
+勇樹
+「表情の一定しない男だな」
+$k
+
+優
+「あのなあ……」
+$k
+
+&empty
+いきなり背後から投げられそうになったら、
+そりゃあ動揺やら、困惑やらするさ。
+$k
+
+#sp,se,S_Onaka02
+
+// 	WaitSE();
+
+&empty
+相手をするのに疲れ始めた俺の腹が
+ぐう、と鳴った。
+$k
+
+
+#next,04isaki11_01

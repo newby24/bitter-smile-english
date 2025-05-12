@@ -1,0 +1,535 @@
+﻿// 既読フラグ
+#read_flag,103
+
+// 	Fade();
+
+&empty
+………。
+$k
+
+&empty
+…。
+$k
+
+&empty
+………。
+$k
+
+&empty
+…。
+$k
+
+#sp,vo,02000658
+桜子
+「ねえ、優？」
+$k
+
+&empty
+………。
+$k
+
+#sp,vo,02000659
+桜子
+「………」
+#meffect,flow,5
+$k
+
+&empty
+………。
+$k
+
+#hide
+
+#wait,1000
+
+// 	SV( BG_MT_ENKEI02A );
+
+#sp,se,S_Wind01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ENKEI02A.jpg,(s),100%
+#ig
+
+#wait,2000
+
+#ss,se,(dr),1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………。" );
+// 	SV( BG_HS_MAE02A );
+
+// 	SS( CENTER, ISAKI_0502KT );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE02A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02KT.png,(x),c,(s),60%
+#ig
+
+#show
+
+// ISAKI_0502KT
+#sp,vo,02010247
+勇樹
+「桜子に届け物……
+$nw,3500
+
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02MU.png,(x),c,(s),60%
+#ig
+
+　まあ構わんか、それくらいは」
+$k
+
+// 	SNLP( 0, "S_Wind02" );
+
+#sp,se,S_Wind02
+
+#wait,500
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010248
+勇樹
+「………ん？」
+$k
+
+// ISAKI_0502KT
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010249
+勇樹
+「……あれは桜子か？　丁度いい所に」
+$k
+
+// ISAKI_0501NR
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010250
+勇樹
+「…って、あんな物担いで一体あいつは
+　今頃どこに行く気だ？」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010251
+勇樹
+「あ…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SNLP( 0, "S_Train01" );
+
+#sp,se,S_Train01
+
+#wait,1000
+
+#show
+
+&empty
+………………。
+$k
+
+#ss,se
+
+#sp,env,S_Train01#
+
+&empty
+……。
+$k
+
+// 	SEFade( 0, SLOW, 0 );
+// 	SEFade( 0, SLOW );
+&empty
+……うーん。
+#meffect,flow,5
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がたんごとん。" );
+&empty
+ん――？
+眠い、なんかうるさいな。
+……昼間の騒音でも耳についてるのかな。
+$k
+
+&empty
+まあいいや……眠い。
+$k
+
+&empty
+………。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がたたん、がたたん。" );
+
+&empty
+……うーっ。
+$k
+
+#hide
+
+// 	SV( BG_DENSYA03A );
+// 	SetObject( 0, "eye_filter.png", 0, 0, OBJATTR_TOP | OBJATTR_NOEFFECT );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DENSYA03A_b.jpg,(s),100%,(y),c
+#ig
+
+#show
+
+&empty
+ん………。
+#meffect,flow,5
+$k
+
+優
+「……あー？」
+#meffect,flow,5
+$k
+
+&empty
+あれ？
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(fi),BG_DENSYA03A.jpg,(s),100%,(y),c
+#ig
+
+優
+「ぐ、おい…」
+$k
+
+&empty
+身動きが…。
+$k
+
+優
+「ええっ、俺どこにいるの！？　今これ何！？」
+$k
+
+// SAKURAKO_A403BS
+
+#flag,cg,28,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_SAKURAKO_04A.jpg,(s),75%,(y),0
+#ig
+
+#sp,vo,02000660
+桜子
+「くー……すー、う…うん……」
+$k
+
+//	SS( CENTER, SAKURAKO_A403BS, MOVE_STOP, NORMAL );
+// 	CFV( VISUAL_SAKURAKO_04A );
+
+&empty
+桜子が横で寝ていた。
+$k
+
+&empty
+どこだここは。
+……電車の中か。いやそうでなくて。
+$k
+
+優
+「おい桜子っ」
+$k
+
+&empty
+俺は部屋で寝ていたはず。
+なのにこれは…。
+$k
+
+// SAKURAKO_A403FK
+
+#sp,vo,02000661
+桜子
+「んっ……むにゃむにゃ…」
+$k
+
+&empty
+身動きもとれず……寝袋かこれ？
+$k
+
+優
+「おい起き……」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(s),88%,(x),-120,(y),-20
+#ig
+
+// 	Zoom(    0, 100, 100, 500, 100 );
+// 	Zoom( SLOW, 120, 120, 500, 100 );
+
+&empty
+……こうなったら、桜子に目覚めの…。
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(s),100%,(x),-240,(y),0
+#ig
+
+// SAKURAKO_A403BS
+
+#sp,vo,02000662
+桜子
+「すぅー…」
+$k
+
+&empty
+目覚めの…。
+$k
+
+優
+「………………ふんはっ！」
+$k
+
+#hide
+
+// 	Zoom(  0, 200, 200, 500, 100 );
+// 	Zoom( 10, 300, 300, 500,  20, 1 );
+// 	FL( 0, 100 );
+// 	FL( FAST );
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,bg,(s),125%,(x),-480,(y),0
+#ig
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2,(sync),NO
+#ig,(se),S_Gan02
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+//	SS_( CENTER, SAKURAKO_A403NK2 );
+
+#show
+
+&empty
+頭突きをかましてみた。
+$k
+
+// 	SEFade( 0, NORMAL, 0 );
+// 	Zoom();
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+// 	SV( BG_DENSYA03A );
+
+// 	ShowFace();
+
+// 	SS( CENTER, SAKURAKO_A403NK2 );
+// 	SEFade( 0, NORMAL, 25 );
+
+#ss,env,(dr),1000
+
+#sp,bgm,BGM_SAKURAKO
+
+#ir
+#ip,bg,(fi),BG_DENSYA03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NK2.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A403NK2
+#sp,vo,02000663
+桜子
+「あいたた……
+$nw,3900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),80%
+#ig
+
+　あんた、もっとやさしく起こしてよねー」
+$k
+
+優
+「なにやってんですか桜子さん！
+　なぜ俺は寝ながら電車旅行にっ！？」
+$k
+
+// SAKURAKO_A403KT
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000664
+桜子
+「………」
+$k
+
+優
+「……おーい？」
+$k
+
+// SAKURAKO_A402KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000665
+桜子
+「……うーん、それは…」
+$k
+
+優
+「それは？」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000666
+桜子
+「………いいじゃない、別に」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「よくねーっ！
+　説明してくれよっ、この状況の理由ー！」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000667
+桜子
+「………」
+$k
+
+優
+「………」
+$k
+
+// SAKURAKO_A401TR
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000668
+桜子
+「…あんたと駆け落ちでもしてみようかなーって、
+　思ってさあ…」
+$k
+
+優
+「………はい？」
+#meffect,flow,5
+$k
+
+&empty
+ちょっと待って？　よく聞こえなかったんだけど？
+$k
+
+
+// 	ZoomIsakiPos( FAST );
+
+#sp,se,S_Dosa01
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+// 揺れ。パラメータは適宜。
+// ISAKI_0501NR
+
+#sp,vo,02010252
+？？？
+#mstyle,(co),勇樹
+（なにっ！？）
+$k
+
+// 	SV( BG_DENSYA03A );
+// 	SS( CENTER, SAKURAKO_A401AK2 );
+
+#ir
+#ip,bg,(fi),BG_DENSYA03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A401AK2
+#sp,vo,02000669
+桜子
+「…冗談よ。ここ笑うとこよ」
+$k
+
+優
+「えーっと………え？」
+$k
+
+&empty
+冗談言ってる様な顔でも無い風に見えるが…。
+二人とも寝起きだしなあー。
+$k
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	ZoomIsakiPos( NORMAL );
+// ISAKI_0501KS
+
+#sp,vo,02010253
+？？？
+#mstyle,(co),勇樹
+（はは、冗談か…）
+$k
+
+// 	SV( BG_DENSYA03A );
+// 	SS( CENTER, SAKURAKO_A401TR4 );
+
+#ir
+#ip,bg,(fi),BG_DENSYA03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A401TR4
+#sp,vo,02000670
+桜子
+「これから山にでも行ってさ…」
+$k
+
+優
+「なんだよ、今からモミの木でも、取りに行くのか？」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000671
+桜子
+「それもいいけど、
+　流れ星でも見に行こうかな～、なんて？」
+$k
+
+
+#next,02common03-3A_02

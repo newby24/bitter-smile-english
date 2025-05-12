@@ -1,0 +1,532 @@
+﻿// 既読フラグ
+#read_flag,433
+
+// セーブタイトル
+#flag,save_title,バッドエンド,0,0
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ie,ov
+#ig
+
+#wait,1000
+
+#sp,env,S_Bird01#
+
+// エピソードタイトルの表示
+#note,バッドエンド～夕陽に吠えろ
+$k
+#note,erase
+
+#show
+
+優
+「まあこんなもんか………ふう」
+$k
+
+#hide
+
+#sp,se,S_Knock03
+
+#wait,2000
+
+//	SM( CHAR_ETC,			-1,					"",				"とんとん" );
+// 	SWP( "" );
+
+#sp,se,S_Door03o
+
+// 	SV( BG_SJ_2FROKA01B );
+
+// 	SS( CENTER, MII_0403NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA01B.jpg,(s),100%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0403NO
+#sp,vo,02030374
+みい
+「お兄様、出立の首尾は万端でしょうか？」
+$k
+
+優
+「いや、出て行くことが主目的じゃないから。
+　ていうか、わかりにくいよ」
+$k
+
+// MII_0401KY
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030375
+みい
+「そうですか？
+　しかしここから出て行くのに変わりはありませんし。
+$nw,5900
+
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KD2.png,(x),c,(s),60%
+#ig
+
+　あ………お兄様にはまだ聞こえておりませんか？」
+$k
+
+優
+「は？　何が？」
+$k
+
+// MII_0403KM5
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030376
+みい
+「いえ、姉上がお兄様をお呼びなのですけど、
+　お兄様には姉上の心の声が届いておられぬようで…」
+$k
+
+優
+「みいちゃん、そういうのはもう少しストレートに
+　伝えてくれると嬉しいんだけどなー？」
+$k
+
+// MII_0403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030377
+みい
+「無理ですね、性格ですから。
+　ともかく、姉上がお呼びですので
+　お早くお願いしますね」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01B );
+
+// 	SS( CENTER, SAKURAKO_0401NO );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01B.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「呼んだか？」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000801
+桜子
+「はい、あんたに餞別よ」
+$k
+
+優
+「餞別…って普通逆だろ、
+　お前が俺に持たせてどうすんだよ？」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000802
+桜子
+「ふーん、
+　桜子様からの貴重なプレゼントをいらないと？
+　……美味しいのに。いらないなら自分で食べるわ」
+$k
+
+優
+「いらないなんて言ってないだろ？
+　餞別が大好物なんだよ、俺。
+　ありがたく受け取っておくって」
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000803
+桜子
+「はー、最後まで適当なやつよねー、あんたって。
+$nw,4400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+　それお菓子だから、三時になってから開けるのよ？」
+$k
+
+&empty
+三月も末、
+桜の木も開花したくてうずうずしようかという頃。
+$k
+
+&empty
+俺は朝から新築アパートに引っ越すための準備。
+俺の荷物なんてほとんど無いようなものなので
+あっさり片付いた。
+$k
+
+&empty
+俺は頑張った甲斐あって、ここの近場の大学に受かり、
+当初の予定通り、婆さん経営の安アパートに
+移動することとなった。
+$k
+
+&empty
+そして桜子は、これもめでたく第一志望に受かり、
+そこの女子寮とやらに入寮するらしい。
+$k
+
+&empty
+今日がその移動日。
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000804
+桜子
+「あとこれ」
+$k
+
+&empty
+桜子は手に持っていた物を俺に見せる。
+$k
+
+優
+「ん？　
+$nw,1000
+
+// 	Shake( FAST, SHAKE_UP | SHAKE_WINDOW, 20, FAST * 2 );
+
+　…ってそっちを先によこせよ！
+　国際電話を後回しにするなよ」
+$k
+
+&empty
+なんとなく想像はつくが。
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「もしもし、母上様？」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW, 4 );
+
+#sp,vo,02110009
+育美
+「ばーかばーか！
+　優のうんこたれー！」
+$k
+
+優
+「あんた、それが親の放つ台詞か！？」
+$k
+
+#sp,vo,02110010
+育美
+「もう母さん情けなくって涙がでてくらあ～ね！」
+$k
+
+優
+「なんだよ、またか」
+$k
+
+#sp,vo,02110011
+育美
+「ほんっとトロいんだからこの子は！
+　せっかくの仕込みも全部無駄…」
+$k
+
+優
+「あーはいはい、じゃあな！」
+$k
+
+#sp,se,S_Tel08
+
+// 	SS( CENTER, SAKURAKO_0402NO );
+
+// SAKURAKO_0402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000805
+桜子
+「あ、いいの？　切っちゃって」
+$k
+
+優
+「どうせいつもの適当なお小言だし、いいんだよ」
+$k
+
+// SAKURAKO_0403NO
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000806
+桜子
+「そう？
+　じゃあそろそろ…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#hide
+
+// 	SV( BG_MT_OLDAPART01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_OLDAPART01A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),c,(s),60%
+#ig
+
+#show
+
+// YUKIHA_0401BS2
+
+#sp,vo,02050076
+雪華
+「じゃあね、お兄ちゃん」
+$k
+
+優
+「ま、またね、雪華ちゃん。
+　何かあったらお兄ちゃんに相談するんだぞ？」
+$k
+
+// YUKIHA_0401AK4
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02050077
+雪華
+「いいよ。お婆ちゃんに相談した方が早そうだし。
+$nw,3700
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG.png,(x),c,(s),60%
+#ig
+
+　またねー、ばいばい」
+$k
+
+優
+「あれえ、つれないなー」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Door10c
+
+// 	SV( BG_MT_YUU01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_YUU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+桜子の見送りも終え、
+俺の方の引っ越しも割とあっさり終わって。
+$k
+
+優
+「お、もうおやつにはいい時間だよな」
+$k
+
+&empty
+などと独り言をもらしつつ、
+桜子から受け取った餞別とやらの袋を開けてみる。
+$k
+
+// 	SWP( "S_Nuno09" );
+
+#sp,se,S_Nuno09
+
+&empty
+中には風呂敷に包まれたプラスチックの容器。
+赤飯とおはぎ。
+$k
+
+優
+「微妙……」
+$k
+
+&empty
+ん？
+容器の下に……ノート？
+$k
+
+優
+「なんだこりゃ？」
+$k
+
+&empty
+『一人暮らしの心得』
+『さみしい男の簡単レシピその一』
+『さみしい男の簡単レシピその二』
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW, 4 );
+
+優
+「ほっとけ！」
+#mlarge
+$k
+
+&empty
+いいながら一冊目のノートをぱらぱらとめくってみる。
+$k
+
+#sp,se,S_Paper01
+
+&empty
+『心得その１０
+　まず野菜を買おうという心がけが大事。
+　買ったらすぐ下ごしらえしろ、忘れないうちに！』
+$k
+
+&empty
+なんのこっちゃ。
+言われなくても買って食うよ、野菜くらい。
+$k
+
+&empty
+ノートにはびっしりと似たような文句が、
+………お前は俺の母ちゃんかよっ！
+$k
+
+&empty
+他のノートもとりあえず目を通しておく。
+$k
+
+#sp,se,S_Paper01
+
+&empty
+『魚のさばき方』のページ
+$k
+
+&empty
+なんだ？
+でかでかと赤字でチェックが入ってる部分がある。
+$k
+
+&empty
+『女の子の前でぱぱっと魚をさばけると結構格好良く見え
+　るかもしれないから、しっかり覚えておくがいいわ！』
+$k
+
+優
+「余計なお世話だっ！」
+$k
+
+// 	SV( BG_MT_YUU01B );
+
+#sp,se,S_Curtain01c
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_YUU01B.jpg,(s),100%
+#ig
+
+&empty
+………。
+$k
+
+&empty
+…。
+$k
+
+#sp,bgm,BGM_SABISHII
+
+&empty
+なんかこの部屋、西日が目にしみるんだけど……。
+$k
+
+&empty
+別に、会おうと思えば電車に乗っていつでも会いに
+行けるのに。
+そんなたいした距離じゃないのに。
+$k
+
+&empty
+昔からお節介な幼なじみは、どこまでいってもお節介で。
+$k
+
+#hide
+
+#ss,bgm,(dr),2000
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+#end
+

@@ -1,0 +1,560 @@
+﻿// 既読フラグ
+#read_flag,73
+
+#ir,(dr),1000
+#ip,bg,(fi),image\etc\bacouple_background.jpg
+#ip,c1,(fi),SACHY_A201TR.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#show
+
+// SACHY_0201TR
+
+#sp,vo,02990117
+幸枝
+「……みっちー」
+$k
+
+// MICHY_0201NO
+#ir,(ef),off
+#ip,c3,(fi),MICHY_A201NO.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ig
+
+#sp,vo,02990118
+充
+「………さっちー」
+$k
+
+// SACHY_0201TR2
+#ir
+#ip,c1,(fi),SACHY_A201TR2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02990119
+幸枝
+「……あ」
+$k
+
+// MICHY_0201SN2
+#ir
+#ip,c3,(fi),MICHY_A201SN2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02990120
+充
+「……あの」
+$k
+
+// SACHY_0201TR5
+#ir
+#ip,c1,(fi),SACHY_A201TR5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02990121
+幸枝
+「きゃ」
+$k
+
+// MICHY_0201KM2
+#ir
+#ip,c3,(fi),MICHY_A201KM2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02990122
+充
+「わ」
+$k
+
+// SACHY_0201TR4
+#ir
+#ip,c1,(fi),SACHY_A201TR4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02990123
+幸枝
+「………」
+$k
+
+// MICHY_0201KS
+#ir
+#ip,c3,(fi),MICHY_A201KS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02990124
+充
+「………」
+$k
+
+#ir
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ig
+
+
+// 	SV( BG_HS_TENNAI01A );
+// 	SetObjectGroup( 0, "FeelIcon.spm", 8, 8 );
+// 	IntervalObjectGroup( 0, 100, 150 );
+// 	ClipObjectGroup( 0, -100, -50, 200, 400 );
+// 	MoveObjectGroup( 0, 0, 200, 0, 300 );
+// 	ZoomObjectGroup( 0, 60, 100 );
+// 	RotateObjectGroup( 0, 340, 360 );
+// 	ShakeObjectGroup( 0, SHAKE_LEFT, 10, 100 );
+// 	MoveVectorObjectGroup( 0, 50, 100, 275, 310 );
+// 	FadeObjectGroup( 0, 0 );
+// 	SetObject( 0, "gradation.png", 0, 0, OBJATTR_TOP, FILTER_FLASHRGB, 246, 198, 195 );
+// 	MoveObject( 0, 0, -200, 0 );
+// 	TileObject( 0, 0, 1 );
+
+#sp,vo,02990125
+幸枝
+「……その、みっちーからどうぞ？」
+$k
+
+// 	FadeObjectGroup( 0, SLOWER, FADE_ALPHA, 50 );
+
+#sp,vo,02990126
+充
+「……いや、さっちーからでいいよ？」
+$k
+
+// 	FadeObjectGroup( 0, SLOWER, FADE_ALPHA, 0 );
+
+// SAKURAKO_A402KM
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000404
+桜子
+「また来てるんだ、あの子達」
+$k
+
+優
+「あー、アレか…」
+$k
+
+// MEGUMI_0901EG3
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ig
+
+#sp,vo,02070131
+めぐみ
+「優ちゃ～ん、桜子～、こっち、こっち！」
+$k
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000405
+桜子
+「なによ一体、わざわざ呼び出して…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelObjectGroup( -1 );
+// 	SS( CENTER, CHISEKAPAPA_A301BS2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c2,(fi),CHISEKAPAPA_A301BS2.png,(x),c,(s),75%
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01AZ2.png,(x),r2,(s),60%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),l2,(s),60%
+#ig
+
+#show
+
+// MEGUMI_A901AZ2
+
+#sp,vo,02070132
+めぐみ
+「要さん、今度はファザコン不倫疑惑だって！」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02000406
+桜子
+「はあ、またあ？」
+$k
+
+優
+「バイト見習い補佐さんも懲りないな」
+$k
+
+// CHISEKAPAPA_A301OD
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301OD.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990127
+社長
+「いや、今度は本当だって！
+　その日はそこが一軒目だったしねえ」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02000407
+桜子
+「どうだか。
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),l2,(s),60%
+#ig
+
+　……社長もさー、
+　お姉の適当な噂、振りまかないでくれるー？」
+$k
+
+// CHISEKAPAPA_A301NK2
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301NK2.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990128
+社長
+「ホントホント、信じてよ！
+　今度のは信憑性高いよ？」
+$k
+
+優
+「…その根拠は？」
+$k
+
+// CHISEKAPAPA_A301MJ
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301MJ.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990129
+社長
+「いいかい？　要ちゃんはね……。
+　その作業着のおっさんとね、
+$nw,7600
+
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301NK.png,(x),c,(s),75%
+#ig
+
+　……肩組んで飲んでたんだよ！」
+$k
+
+// SAKURAKO_A401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02000408
+桜子
+「うん、それで？」
+$k
+
+// CHISEKAPAPA_A301KT
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301KT.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990130
+社長
+「それで十分じゃあないか」
+$k
+
+優
+「………はあ？」
+$k
+
+// MEGUMI_A901KT5
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT5.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02070133
+めぐみ
+「それ、よくある光景じゃないのぉ～？」
+$k
+
+// CHISEKAPAPA_A301KM2
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301KM2.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990131
+社長
+「ないない、無いよ！
+　おいちゃんとはどんなに盛り上がっても
+　要ちゃんそんな事してくれないもの！」
+$k
+
+// MEGUMI_A901AK3
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01AK3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02070134
+めぐみ
+「うわ、ばっかばかしぃ～！
+$nw,2800
+
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM.png,(x),r2,(s),60%
+#ig
+
+　……時間無駄にしたぁ」
+$k
+
+優
+「それって単に社長が嫌われてるんじゃ？」
+$k
+
+// CHISEKAPAPA_A301NK
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301NK.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990132
+社長
+「いやいや、そんなはずないじゃないかあ」
+$k
+
+// SAKURAKO_A401AK
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02000409
+桜子
+「……馬鹿なのね、この人。
+　かわいそうに…」
+$k
+
+// CHISEKAPAPA_A301OD
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301OD.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990133
+社長
+「なんですと！？」
+$k
+
+// DAIGO_0301EG3
+#ir
+#ip,c3,(fi),DAIGO_A301EG3.png,(x),r2,(s),75%
+#ig
+
+#sp,vo,02090006
+沖奈大吾
+「はっはっは、そりゃあ嫌われてますなあ」
+$k
+
+// CHISEKAPAPA_A301OD2
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301OD2.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990134
+社長
+「大吾君までっ！？」
+$k
+
+// DAIGO_0301KD
+#ir
+#ip,c3,(fi),DAIGO_A301KD.png,(x),r2,(s),75%
+#ig
+
+#sp,vo,02090007
+沖奈大吾
+「それよりいいんですか、有河さん。
+　もう時間なんじゃないの？」
+$k
+
+// CHISEKAPAPA_A301AS
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301AS.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990135
+社長
+「ああーっと！　そうだったそうだった。
+$nw,2700
+
+#ir
+#ip,c2,(fi),CHISEKAPAPA_A301NO.png,(x),c,(s),75%
+#ig
+
+　順ちゃん待たせちゃいけないや！
+　大吾君今日のはツケといて！
+//$nw,7500
+$nw,4500
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r0,(al),0%
+#ig
+
+#madd,　じゃあみんなまたね！」
+
+$k
+
+// 	ShowFace();
+
+//#sp,se,S_Door03o
+
+#sp,se,S_Cowbell02
+
+// DAIGO_0301BS2
+#ir
+#ip,c3,(fi),DAIGO_A301BS2.png,(x),r2,(s),75%
+#ig
+
+#sp,vo,02090008
+沖奈大吾
+「はいよ！　がんばって来てくださいな」
+$k
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+ん？
+$nw,1000
+
+あれ、今……なんだっけ？
+$k
+
+// 	SS_( LEFT, SAKURAKO_A401NO );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),80%
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KS2.png,(x),r,(s),80%
+#ig
+
+// MEGUMI_A901KS2
+#sp,vo,02070135
+めぐみ
+「せわしないなあ社長」
+$k
+
+// SAKURAKO_A401TR2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02000410
+桜子
+「なに、順ちゃんって例の？」
+#msmall
+$k
+
+// MEGUMI_A901EG2
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02070136
+めぐみ
+「そうそう、そうなの、今日社長さあ……」
+#msmall
+$k
+
+優
+「なんだ？」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),80%
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01IK3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02990136
+桜子＆めぐみ
+「あんたはいいの」
+「優ちゃんには内緒」
+$k
+
+優
+「あれ、まさか俺も嫌われてる？」
+$k
+
+// DAIGO_0301EG3
+#ir
+#ip,c2,(fi),DAIGO_A301EG3.png,(x),c,(s),100%
+#ie,c1,c3
+#ig
+
+#sp,vo,02090009
+沖奈大吾
+「はっはっはっ！」
+$k
+
+#hide
+
+// エピソードエンド。ロゴのみ。
+
+#ir,(dr),1000
+#ie,c2
+#ig
+
+#wait,500
+
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,c4,al,(lt),straight,(lc),0
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// イベント選択７回目。
+#next,90phase07

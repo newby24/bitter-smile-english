@@ -1,0 +1,633 @@
+﻿// 既読フラグ
+#read_flag,223
+
+// ISAKI_A202KS
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010401
+勇樹
+「ん」
+$k
+
+&empty
+宮津橋は小さく頷くと、ゆっくりと歩き出す。
+$k
+
+// ISAKI_A201EG2
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010402
+勇樹
+「ふ、ふふふ…………」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+&empty
+宮津橋が笑ってる！
+#mlarge
+$k
+
+//	SP( "T_Spark01", 30 );
+// 	SK2( NORMAL );
+// 	WaitSE();
+// 	SS( CENTER, ISAKI_A201EG2 );
+// 	ZoomStand( CENTER, 50, 130, 130 );
+
+#sp,se,S_Nuno06
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+&empty
+しかも、その直後、するっと俺の腕に自分の腕を
+絡めてきた。
+$k
+
+// ISAKI_A202BS2
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02BS2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,04010403
+勇樹
+「実は私の分も作ってある。お揃いだ」
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　そろ
+
+$k
+
+&empty
+まさかのお揃い！？
+
+#mfuri,　　　　　　　　　　そろ
+
+$k
+
+&empty
+冗談かと思ったら、本当に宮津橋の鞄に
+呪い人形ちゃん（仮）がぶらさがっていた。
+$k
+
+優
+「そ、そうか。おそろいかー。嬉しいなー」
+$k
+
+// ISAKI_A201EG2
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01EG2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,04010404
+勇樹
+「♪」
+$k
+
+&empty
+やたらめったら上機嫌な宮津橋に、
+まさか呪いですかとか聞くわけにもいかない。
+$k
+
+&empty
+俺はそっと、その人形をポケットにしまった。
+$k
+
+&empty
+いや、嬉しいのは嬉しいんだが、
+あまり人目に晒すのはどうかと思ったり…。
+#mfuri,　　　　　　　　　　　　さら
+
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+//	BFP( BGM_NONBIRI );
+
+#sp,env,S_Gaya01#,(vl),3
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+また、別の日。
+$k
+
+&empty
+昼休みに入った俺は、いつものように１つ伸びをして
+立ち上がった。
+$k
+
+&empty
+さて、宮津橋を誘って学食にでも行くか。
+$k
+
+優
+「宮津橋、メシ食いに行くか」
+$k
+
+#ss,env,(dr),1000
+
+// 	SS( CENTER, ISAKI_A202NO );
+
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+&empty
+すると、宮津橋は鞄の中から、弁当箱を取りだした。
+$k
+
+&empty
+しかも２つ。
+$k
+
+#sp,se,S_Dosa02
+
+&empty
+それを黙って、ごとん、と俺の机に置く。
+$k
+
+優
+「え？　俺の分？」
+$k
+
+// ISAKI_A202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010405
+勇樹
+「私は１人で２つも弁当を食べる趣味はない。
+　桜子じゃあるまいし」
+$k
+
+優
+「いや、まあ、桜子も
+　そう大食いキャラってわけじゃないけどな」
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010406
+勇樹
+「食うのか？　食わないのか？」
+$k
+
+優
+「食べる食べるっ！　いただきますっ！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+//	MoveStand( CENTER, 50|SPEED_DOWN, 0, 100 );
+#sp,bgm,BGM_KEIKAI
+
+&empty
+久しぶりだな、人に作ってもらったお弁当とか。
+$k
+
+&empty
+しかも、彼女の手作り弁当！
+俺、今、かなり勝ち組じゃないか？
+$k
+
+// 	SS( RIGHT, KOBAYASHI_0201EG, MOVE_RIGHT );
+
+// KOBAYASHI_0201EG
+#ir,(ef),off
+#ip,c3,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01EG.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ig
+
+#sp,vo,04080005
+小林
+「おっ、お２人さん、今日もお熱いねー。
+　俺にもちょっとわけてくれよ」
+$k
+
+優
+「誰がやるかっ！
+　お前は大人しく、ラーメンでも食ってろ」
+$k
+
+// KOBAYASHI_0201AS
+#ir
+#ip,c3,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04080006
+小林
+「ひでぇ！」
+$k
+
+優
+「ほらほら、早く行かないと、食堂の席が
+　埋まっちまうぞ？」
+$k
+
+// KOBAYASHI_0201AY
+#ir
+#ip,c3,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AY.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04080007
+小林
+「ちくしょーっ！
+　俺もいつかめぐみの手作り弁当を
+　食ってやるーっ！」
+$k
+
+#sp,se,S_Hyun01
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r2,(al),0%
+#ig
+
+&empty
+そんな日はこないと思うがな。
+哀れなヤツだ。
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010407
+勇樹
+「もう開けてもいいか？」
+$k
+
+優
+「あ、ああ、悪い。開けてくれ」
+$k
+
+&empty
+宮津橋の料理の腕はなかなかのもんだからな。
+これは期待できるぜ。
+$k
+
+#ss,bgm,(dr),1000
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱかっ！" );
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),Fanfare03
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+&empty
+そして、開けられた弁当箱を見て、
+俺の目が点になった。
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+優
+「あのー……宮津橋さん？」
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010408
+勇樹
+「なんだ？」
+$k
+
+優
+「お弁当、だよな？」
+$k
+
+// ISAKI_A202NO
+#sp,vo,04010409
+勇樹
+「どこからどう見ても弁当だろう」
+$k
+
+&empty
+いや、『側』はな。
+
+#mfuri,　　　　　　　　がわ
+
+$k
+
+&empty
+弁当箱にぎっしりと詰まっていたのは、
+どう見ても小麦粉製の生地の…。
+$k
+
+&empty
+クレープだよな…これ？
+詰まり過ぎてて、訳わからん事になってるけど。
+$k
+
+&empty
+しかも生クリームこってり、フルーツたっぷりの
+超甘味系クレープ。
+$k
+
+&empty
+せ、せめて、ツナマヨとかハムエッグなら…。
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010410
+勇樹
+「ん」
+$k
+
+#hide
+
+// 	SV( VISUAL_ISAKI_12A );
+
+#flag,cg,20,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_12A.jpg,(s),75%
+#ig
+
+#wait,500
+
+// 	Zoom( 20, 130, 130, 400, 300 );
+
+#ir,(ef),beat,(q),2
+#ig,(se),S_Pon02
+
+#wait,500
+
+#ir,(ef),beat,(q),2
+#ig,(se),S_Pon02
+
+// 	SK2();
+// 	Zoom( 20|SPEED_UP, 100, 100, 400, 300 );
+// 	Zoom( 20, 130, 130, 400, 300 );
+// 	SK2();
+// 	Zoom( 20, 100, 100, 400, 300, 1 );
+
+#show
+
+&empty
+それを箸で切り分けた宮津橋が俺の口元へ
+押しつけてくる。
+$k
+
+&empty
+はい、あーんとか可愛いものじゃなくって、
+こう、ぐりぐりと。
+$k
+
+優
+「むぷっ……」
+$k
+
+&empty
+口の中に広がるあまーい味。
+$k
+
+&empty
+美味しい。
+$k
+
+&empty
+美味しいんだけど……。
+$k
+
+// ISAKI_A202NO
+
+#sp,vo,04010411
+勇樹
+「美味いか？」
+$k
+
+優
+「美味い」
+$k
+
+// ISAKI_A202KS
+
+#sp,vo,04010412
+勇樹
+「そうか」
+$k
+
+&empty
+宮津橋は頷くと、自分も弁当箱を開けて
+食べ始めた。
+$k
+
+&empty
+そっちにもクレープがぎっしり入っている。
+$k
+
+&empty
+嫌がらせ……じゃないんだよ、な？
+$k
+
+// ISAKI_A202KT
+
+#sp,vo,04010413
+勇樹
+「食べないのか？」
+$k
+
+優
+「ああ、いや、食べるよ！　食べます！」
+$k
+
+&empty
+宮津橋が不審そうな顔で、俺の弁当箱と
+自分の弁当箱を見比べる。
+$k
+
+#sp,se,S_Pon01
+
+&empty
+そして、ぽんと手を打つと、
+自分の方に入ってるクレープを箸でつかんだ。
+$k
+
+// ISAKI_A201NO
+
+#sp,vo,04010414
+勇樹
+「ほら、食え」
+$k
+
+// 	SV( VISUAL_ISAKI_12A );
+
+//	ZoomStand( CENTER, 30|SPEED_UP, 130, 130 );
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Bicho01
+
+// 	SK2( NORMAL );
+// 	WaitSE();
+// 	ZoomStand( CENTER, 30|SPEED_DOWN, 100, 100 );
+
+優
+「むぷぅっ！」
+$k
+
+&empty
+そして再び、押しつけられるクレープ。
+$k
+
+&empty
+どうやら、宮津橋の方には
+チョコが入っていたみたいだ。
+$k
+
+優
+「むぐ、むぐむぐ……いや、お前のが欲しいとか、
+　そういうわけじゃなかったんだが」
+$k
+
+// ISAKI_A201IK
+
+#sp,vo,04010415
+勇樹
+「じゃあ返せ」
+$k
+
+優
+「無茶言うな！」
+$k
+
+&empty
+なぜクレープなのか聞いても無駄そうだ。
+$k
+
+&empty
+諦めて、俺もクレープ弁当を食べ始める。
+$k
+
+// 	SV( BG_GK_KYOSHITSU01A );
+// 	ShowFace();
+// 	SS( CENTER, ISAKI_A201NS2 );
+// 	MoveStand( CENTER, 0, 0, 100 );
+
+// ISAKI_A201NS2
+#sp,vo,04010416
+勇樹
+「口の周り、クリームだらけだぞ。
+　矢崎は子供みたいだな」
+$k
+
+優
+「お前が押しつけたせいだろうが……」
+$k
+
+//	ZoomStand( CENTER, 30|SPEED_UP, 120, 120 );
+//	ZoomStand( CENTER, 30|SPEED_DOWN, 100, 100, 1 );
+
+&empty
+がっくりと肩を落としていると、
+宮津橋が俺の口元に手を伸ばしてきて、
+クリームを拭った。
+$k
+
+&empty
+その指先を、ぱくりと咥える。
+$k
+
+優
+「なっ！！」
+$k
+
+// ISAKI_A202BS
+
+#sp,vo,04010417
+勇樹
+「ん、甘いな。そっちのクレープも上手に
+　出来ているようだ」
+$k
+
+&empty
+動揺してる俺とは逆に、宮津橋はしれっとしてる。
+$k
+
+&empty
+もちろん、桜子が同じような事をする時は
+あるけどさ……宮津橋だぞ？
+$k
+
+&empty
+いや、でも、この淡々とした感じ……。
+こいつにとっては当たり前なのだろうか？
+$k
+
+&empty
+なにせ、食堂でキスして
+平然としていたヤツだからな。
+$k
+
+// ISAKI_A202KT
+
+#sp,vo,04010418
+勇樹
+「だから、食べないのか？」
+$k
+
+優
+「いや、食べる。食べるよ……」
+$k
+
+&empty
+なんだか、どっと疲れながら、
+俺は甘くて甘くて甘い弁当を空にした。
+$k
+
+&empty
+甘い物って疲れをとってくれるはずなんだけどな。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,04isaki12_03

@@ -1,0 +1,947 @@
+﻿// 既読フラグ
+#read_flag,62
+
+// SAKURAKO_0901NS
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000313
+桜子
+「っふふ。どうよ？　いいでしょ？
+$nw,3470
+
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01TR3.png,(x),c,(s),60%
+#ig
+
+　似合うでしょー♪」
+
+$k
+
+&empty
+くるくる回りながらドレス姿を自慢する桜子。
+$k
+
+&empty
+足下にはまだ包帯も残っているのに、
+怪我を押してでも舞台に立ちたかったのか。
+$k
+
+&empty
+よく見るとちょっとメイクなんぞしてやがって、
+ちょっと別人に見える。
+ちっ、女はたまに化けるよな…。
+$k
+
+&empty
+なんか置いてけぼりくったみたいでちょっとなー。
+あとちょっと新鮮すぎて緊張もあるな。
+$k
+
+// SAKURAKO_0901EG
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000314
+桜子
+「どうどう？　素敵でしょー？」
+$k
+
+優
+「ほにゃ毛のアンか？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"どんっ！" );
+// 立ち絵消える。パラメータは適宜。
+
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),60%
+#ig,(se),S_Punch05
+
+優
+「痛って、なにすんだよー」
+$k
+
+// 	SS( CENTER, SAKURAKO_A901NK4 );
+
+// SAKURAKO_A901NK4
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000315
+桜子
+「ジュリエットだ、馬鹿っ！
+　アンはこんなドレス着ないっつーの」
+$k
+
+&empty
+よしよし、いつもの桜子だ。安心安心。
+$k
+
+優
+「そもそも怪我も治ってないのに
+　舞台とか自重しろよなー？」
+$k
+
+// SAKURAKO_A901TR2
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000316
+桜子
+「…あーもう！
+　こんなもん、大したことないわよ。
+　傷だってもう塞がってんだから」
+$k
+
+&empty
+そこまでしてやりたいのかよ？　ジュリエット。
+$k
+
+// CHISEKA_0201EG3
+
+#sp,vo,02040113
+知世翔
+「せんぱーい！」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+// 	SS_( CENTERLEFT, SAKURAKO_0901EG, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01TR4.png,(x),l0,(s),60%
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG2.png,(x),r0,(s),60%
+#ig
+
+// 	SS_( CENTERRIGHT, CHISEKA_0201EG2, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// SAKURAKO_0901TR4
+
+#sp,vo,02000317
+桜子
+「あ、知世翔じゃなーい！　元気ー？」
+$k
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG3.png,(x),r0,(s),60%
+#ig
+
+#ir,(ef),off
+#ip,op3,(fi),image\icon\kyakya.png,(x),600,(y),30
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),no_limit
+#ip,op3,(x+),10,(y+),10
+#ig
+
+// CHISEKA_0201EG3
+
+#sp,vo,02040114
+知世翔
+「先輩綺麗可愛いー！　ちょー似合ってますよ！」
+$k
+
+// SAKURAKO_0901EG
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01EG.png,(x),l0,(s),60%
+#ie,op3
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,02000318
+桜子
+「でしょでしょー？
+$nw,1400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01AK2.png,(x),l0,(s),60%
+#ig
+
+　それをこの馬鹿、ほにゃ毛のアンとか言いやがるのよ」
+
+$k
+
+// 	DelAction( CENTERLEFT );
+
+優
+「お前には石版の方がお似合いだと思うんだが」
+$k
+
+// 	Blur( 0, 2 );
+// 	Zoom(    0, 110, 110, 500, 200 );
+// 	Zoom( FAST, 100, 100, 500, 200 );
+
+
+// CHISEKA_0201NR
+#ir,(ef),beat,(q),2%
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02040115
+知世翔
+「きぃっ！」
+$k
+
+// 	Blur();
+
+優
+「おおうっ！？」
+$k
+
+// CHISEKA_0201KB
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02040116
+知世翔
+「駄目ですよ桜子先輩、この男にシェイクスピアが
+　分かるわけないんですから」
+$k
+
+// SAKURAKO_0901KS
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01KS.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000319
+桜子
+「そうよねー、
+$nw,900
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,そうっよねー？」
+
+$k
+
+// 	DelAction( CENTERLEFT );
+
+優
+「早とちりして毒飲んで死んじゃう話の良さって
+　なんなのさ。と俺は思うねー」
+$k
+
+// 	SS_( CENTERLEFT, SAKURAKO_0901TR2 );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01TR2.png,(x),l0,(s),60%
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB2.png,(x),r0,(s),60%
+#ig
+
+// CHISEKA_0201KB2
+
+#sp,vo,02040117
+知世翔
+「あーあ、これだから…」
+$k
+
+// SAKURAKO_0901AK
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01AK.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000320
+桜子
+「はー……
+$nw,1300
+
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01NO.png,(x),l0,(s),60%
+#ig
+
+　あ、ところで知世翔、部活の出し物の方はいいの？」
+$k
+
+// CHISEKA_0201BS
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01BS.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02040118
+知世翔
+「まだ大丈夫です。みんなでシフト組んでるんで。
+$nw,3800
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG3.png,(x),r0,(s),60%
+#ig
+
+　それより見ましたよ、舞台っ！」
+$k
+
+// SAKURAKO_0901KS2
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01KS2.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000321
+桜子
+「あ、見に来てくれたんだ。
+$nw,2200
+
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01KS.png,(x),l0,(s),60%
+#ig
+
+　いっぱいいっぱいで気づかなかったわ、
+$nw,1500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01TR4.png,(x),l0,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,ごめん」
+
+$k
+
+// 	DelAction( CENTERLEFT );
+
+// CHISEKA_0201EG
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02040119
+知世翔
+「いえいえ、とっても素敵でしたよ。
+　先輩のジュリエット！」
+$k
+
+// SAKURAKO_0901TR
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01TR.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000322
+桜子
+「あはは、照れるなーもう！」
+$k
+
+// CHISEKA_0201TR6
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR6.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02040120
+知世翔
+「キ、キスシーンも真に迫ってましたし。
+$nw,3400
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG.png,(x),r0,(s),60%
+#ig
+
+　迫真の演技にもうみんな、
+$nw,1000
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR5.png,(x),r0,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),10
+#ig
+
+#madd,ぐっ、
+$nw,1200
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG3.png,(x),r0,(s),60%
+#ig
+
+#madd,ときてましたよ？」
+
+$k
+
+// 	DelAction( CENTERRIGHT );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+&empty
+ぴくっ。
+$k
+
+// CHISEKA_0201BS
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01BS.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02040121
+知世翔
+「舞台なのにラストで回想シーンがあるのも
+　新鮮でしたしー」
+$k
+
+// SAKURAKO_0901KS2
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01KS2.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000323
+桜子
+「そ、そうかなー、はは」
+$k
+
+// CHISEKA_0201TR6
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR6.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02040122
+知世翔
+「思わず泣いちゃいました」
+$k
+
+#hide
+
+#sp,se,W_TellVib01#
+
+#wait,2000
+
+// SAKURAKO_0901NO
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01NO.png,(x),l0,(s),60%
+#ig
+
+#show
+
+#sp,vo,02000324
+桜子
+「あ、いっけない！
+$nw,2000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01TR4.png,(x),l0,(s),60%
+#ig
+
+　もう戻らなきゃ、二回目始まっちゃう」
+$k
+
+// CHISEKA_0201OD3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02040123
+知世翔
+「ああ………、
+$nw,2500
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO.png,(x),r0,(s),60%
+#ig
+
+　ちらっ」
+#msmall
+$k
+
+&empty
+…なんだ？
+$k
+
+// SAKURAKO_0901KS
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01KS.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02000325
+桜子
+「ごめんあたし行ってくる、
+//$nw,1900
+$nw,1400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A901.png,(psi),SAKURAKO_An01TR4.png,(x),l0,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),0%
+#ig
+
+　じゃあね知世翔、優も」
+
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+// 	CS_( CENTERRIGHT, CENTER, NORMAL );
+
+// CHISEKA_0201EG
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG.png,(x),r0,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,02040124
+知世翔
+「いえ、先輩こそ頑張ってくださいね！」
+$k
+
+優
+「………」
+$k
+
+// CHISEKA_0201KB
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040125
+知世翔
+「あーあ、行っちゃった……、
+$nw,3300
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB2.png,(x),c,(s),60%
+#ig
+
+　ちらっ」
+#msmall
+
+$k
+
+優
+「………なんだよ？」
+$k
+
+// CHISEKA_0201NO2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040126
+知世翔
+「矢崎さんは見に行かないんですか？
+　桜子先輩の舞台」
+$k
+
+優
+「なんで俺が」
+$k
+
+// CHISEKA_0201NR
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040127
+知世翔
+「幼なじみの晴れ舞台ですけど？」
+$k
+
+優
+「別に…」
+$k
+
+// CHISEKA_0201KB
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040128
+知世翔
+「キスシーン…」
+$k
+
+&empty
+どうせ、してるフリとか女同士の配役ってオチだろ？
+いや、そもそも気にならないしな。
+$k
+
+優
+「いや、別に興味な……」
+$k
+
+// CHISEKA_0201TR3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040129
+知世翔
+「ロミオ役は男……
+$nw,2100
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR.png,(x),c,(s),60%
+#ig
+
+　っぽく見える女子」
+#msmall
+
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「っ！　…いやいや、そんなの興味ないし俺は。
+　有河こそ今日はみいちゃんと一緒じゃないのか？」
+$k
+
+// CHISEKA_0201NO
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040130
+知世翔
+「今はクラスの出し物手伝ってる頃ですよ。
+$nw,4100
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB.png,(x),c,(s),60%
+#ig
+
+　さ、私も戻ろーっと！」
+$k
+
+優
+「ぐぐ…」
+$k
+
+&empty
+なんかムカツク後輩だな、こいつ。
+$k
+
+// CHISEKA_0201KB2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040131
+知世翔
+「たまには素直に褒めてあげるとかしないんですかね？
+$nw,4100
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+　あ、では失礼しますねー、
+$nw,2000
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG3.png,(x),c,(s),60%
+#ig
+
+#madd,矢崎・先・輩！」
+
+$k
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c3,(x),r0,(al),0%
+#ig
+
+#sp,env,S_Gaya03#
+
+//	SM( CHAR_ETC,			-1,					"",				"たったったっ。" );
+// 	SF( 0, NORMAL, 100 );
+
+&empty
+ムカツク言い方で台詞を吐いた後、
+有河はどこかへ去っていった。
+$k
+
+優
+「ち、調子のりやがってあの野郎」
+$k
+
+// 	SS_( LEFT, ISAKI_0601NO, MOVE_LEFT );
+// 立ち絵移動。パラメータは適宜。
+
+
+#ir,(ef),off
+#ip,c2,(fi),ISAKI_A601.png,(psi),ISAKI_An01NO.png,(x),l2,(s),60%,(al),0%
+#ie,c1,c3
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c2,(x),l,(al),100
+#ig
+
+// ISAKI_0601NO
+#sp,vo,02010109
+勇樹
+「…もう済んだのか？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「うわおっ！？
+　…宮津橋か、びっくりさせんなよ。
+　つか、お前今までどこに……」
+$k
+
+// ISAKI_0601NO
+#sp,vo,02010110
+勇樹
+「…もぐもぐ」
+$k
+
+&empty
+宮津橋の手にはまた新たなジャンクフードが。
+今度は………ネギ焼きか？
+$k
+
+優
+「よく喰うな、お前」
+$k
+
+// ISAKI_0602NO
+#ir
+#ip,c2,(fi),ISAKI_A602.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010111
+勇樹
+「…屋台が私を呼んでいたからな」
+$k
+
+優
+「太るぞ？」
+$k
+
+// ISAKI_0602NO
+#sp,vo,02010112
+勇樹
+「気にはしない………
+$nw,1500
+
+#ir
+#ip,c2,(fi),ISAKI_A601.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+　さあ、次に行くぞ」
+$k
+
+優
+「いや待て、お前どっか消えるときはさあ、
+　一声かけて鍵かけて、って言うだろー？」
+$k
+
+#ss,env,(dr),1000
+
+// ISAKI_0601NR
+#ir
+#ip,c2,(fi),ISAKI_A601.png,(psi),ISAKI_An01NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010113
+勇樹
+「…っ！？」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),500
+#ip,c2,(x),l2,(al),0
+#ig
+
+優
+「だからー、付き合わされてる俺の身になって…
+　ってもう居ねえっ！？」
+$k
+
+&empty
+つーか、なんか回りが急に静かになったな…？
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"どすっ。" );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig,(se),S_Don01
+
+優
+「おっとっと！
+　あっすいません、よそ見してまし、
+$nw,1000
+
+#ir,(ef),off
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01NO.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),c,(al),100%
+#ig
+
+　た……」
+$k
+
+// 	SS_( CENTER, CHINPIRA2_A301NO, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+&empty
+げえ――――っ！
+#mlarge
+$k
+
+#sp,bgm,BGM_SYOSO
+
+// CHINPIRA2_A301NI
+#ir
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01NI.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02990081
+８９３
+「おうおう兄ちゃん、なにさらしとんじゃい、ああん？」
+$k
+
+優
+「すす、
+$nw,1000
+
+// 	Shake( 30, SHAKE_UP, 50, 30 * 2 );
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#madd,すいませんですっ！」
+
+$k
+
+&empty
+またこいつらかよぉ…どうりで周りも静かなわけだ。
+一般開放してるっつーのに教師は何をしているんだ？
+$k
+
+// CHINPIRA2_A301IK
+#ir
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02990082
+８９３
+「すいませんで済んだらポリはいら…
+//$nw,2300
+$nw,1000
+
+#ir,(ef),off
+#ip,c3,(fi),CHINPIRA1_A301IK.png,(x),l2,(s),100%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move,(sync),NO
+#ip,c3,(x),l,(al),100%
+#ig
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01TR.png,(x),c,(s),80%
+#ig,(se),T_kisimu
+
+　あだだっ！？」
+
+$k
+
+// 	ShakeStand( CENTER, NORMAL, SHAKE_RIGHT, 2 );
+// 	MoveStand( CENTER, NORMAL, 0, -20 );
+
+// CHINPIRA1_A301NI
+#ir
+#ip,c1,(fi),CHINPIRA1_A301NI.png,(x),l,(s),100%
+#ig
+
+#sp,vo,02990083
+８９３
+「お前は喋るなや」
+$k
+
+&empty
+き、来た……。
+$k
+
+// CHINPIRA2_A301AS
+#ir
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02990084
+８９３
+「で、でも兄い…」
+$k
+
+#ir,(dr),200,(sync),NO
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Binta03
+
+#ir,(dr),500,(sync),NO
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01TR.png,(x),c,(s),80%
+#ie,ov
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"ばしっ！" );
+
+// 	SS_( CENTER, CHINPIRA2_A301TR );
+// 立ち絵移動。パラメータは適宜。
+
+// 	MoveStand( CENTER, FAST * 2 / 3,  50, 10, 1 )
+// 	MoveStand( CENTER, FAST * 1 / 3, 100,  0, 1 );
+// 	FL( 0, 100 );
+// 	FL( FAST );
+
+// CHINPIRA1_A301IK3
+#ir
+#ip,c3,(fi),CHINPIRA1_A301IK3.png,(x),l,(s),100%
+#ig
+
+#sp,vo,02990085
+８９３
+「外ではジョニーさんや言うたやろーが」
+$k
+
+// CHINPIRA2_A301AY
+#ir
+#ip,c2,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01AY.png,(x),c,(s),80%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+#sp,vo,02990086
+８９３
+「…すんまへん、ジョニーさん」
+$k
+
+// 	DelAction( CENTER );
+// 	SS_( RIGHT, CHINPIRA2_0301KM, MOVE_LEFT, NORMAL );
+
+// 	CS_( LEFT, CENTER, NORMAL );
+
+&empty
+舎弟にジョニーって呼ばせてんのか、この人。
+……いや駄目だ…笑うな、堪えろ俺！
+$k
+
+
+#next,02common02-1_03

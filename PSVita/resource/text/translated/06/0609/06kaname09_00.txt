@@ -1,0 +1,551 @@
+﻿// 既読フラグ
+#read_flag,367
+
+// セーブタイトル
+#flag,save_title,要　第９話,0,0
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SV( BG_SJ_YU03A );
+
+// 	SS( CENTER, SAKURAKO_0402NO2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「要さんが風邪？」
+$k
+
+// SAKURAKO_0402NO2
+#sp,vo,06000039
+桜子
+「そうみたい。
+　お婆ちゃんのとこに電話があったって」
+$k
+
+優
+「昨日まで、あんなにピンピンしてたのに？」
+$k
+
+// SAKURAKO_0402KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000040
+桜子
+「…知恵熱かもね」
+$k
+
+優
+「なんだって？」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000041
+桜子
+「昨夜、雪降ったりで急に冷え込んだでしょ。
+　風邪を引くなら、疲れ気味のあんたかと思ったけど…
+$nw,6080
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+　ま、お姉らしいというか」
+$k
+
+優
+「会社まで休んでるんだろ？
+　穏やかじゃないな」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000042
+桜子
+「だから優、迎えに行ってきてよ」
+$k
+
+優
+「外に出て大丈夫なのか？」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000043
+桜子
+「看病するにも、みんないるウチのが都合いいの。
+$nw,3410
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+　あ、はい、タクシー代」
+$k
+
+// 	ZoomStand(CENTER, NORMAL|SPEED_DOWN, 110, 110);
+// ぴょん。パラメータは適宜。
+// 	ZoomStand(CENTER, NORMAL|SPEED_DOWN, 100, 100);
+
+
+// SAKURAKO_0402NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000044
+桜子
+「あと病院に行くかもしれないから、
+　保険証も忘れず持ってきて。
+　お姉のバッグに入ってるはずだから、それごと」
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000045
+桜子
+「お姉にはもう、
+　迎えが行くって伝えてあるから」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000046
+桜子
+「…何よ、その目は？」
+$k
+
+優
+「いや、なんで俺なのかと」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000047
+桜子
+「お姉が動けなかったら力仕事になるでしょ」
+$k
+
+優
+「別にひとりで行かんでもいいのでは」
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000050
+桜子
+「意味ないでしょうが。
+　ほら、こっちはこっちで準備しとくから、
+$nw,4750
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Basa02
+
+　さっさと行ってくる」
+$k
+
+// 	ZoomStand(CENTER, NORMAL|SPEED_DOWN, 110, 110);
+//#sp,se,S_Basa02
+// 	ZoomStand(CENTER, NORMAL|SPEED_DOWN, 120, 120);
+
+優
+「わかったよ」
+$k
+
+&empty
+まあ、要さんのことは心配だしな。
+大した事なければいいけど…。
+$k
+
+// 	DelStandAll();
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,Title_Jingle02
+
+#ir,(dr),2000
+#ip,bg,(fi),image\stitle\stitle_rootstart_kaname.jpg
+#ig
+
+$k
+
+#ss,se,(dr),1000
+
+// トロフィー。
+#trophy,3
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SetSubTitleEx( 2 );		//章タイトル表示
+
+#sp,se,S_Car08
+
+// 	WaitSE( -1 );
+// 	SEStop();
+
+// エピソードタイトルの表示
+#note,要　第９話　看病
+$k
+#note,erase
+
+#ss,se,(dr),1000
+
+#show
+
+優
+「はい、待っててもらえると…。
+　そうですね、助かります」
+$k
+
+優
+「ただ病人を連れてくるんで、
+　ちょっと支度に時間がかかるかも…。
+　いいですか？　すんません」
+$k
+
+#sp,bgm,BGM_SHIZUKA
+
+// 	SV( BG_MT_KANAMEMANSION03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAMEMANSION03A.jpg,(s),100%
+#ig
+
+優
+「さてと…」
+$k
+
+&empty
+行きは徒歩でと思っていたけど、
+先にタクシーを呼んでおいてくれたようで、
+厚意に甘えておくことにした。
+$k
+
+&empty
+運転手さんも、往復でって
+言い含められていたみたいだし。
+$k
+
+優
+「待たせないようにしないとな」
+$k
+
+&empty
+運転手さんも、要さんも。
+$k
+
+// 	DelStandAll();
+
+
+#hide
+
+#sp,se,S_Dash02o
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+//	SV( BG_MT_KANAMEGENKAN03A );
+//	FI( SLOW );
+#sp,se,W_Interhon02
+
+#show
+
+&empty
+…………。
+#meffect,flow,5
+$k
+
+#sp,se,W_Interhon02
+
+#wait,500
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+優
+「…寝てる？」
+$k
+
+&empty
+あるいは…
+桜子の懸念した通り、返事もままならないほど、
+酷い状態なのかもしれない。
+$k
+
+&empty
+って、まさかな。
+$k
+
+優
+「携帯を鳴らして…
+$nw,1000
+
+#sp,se,S_Door10o
+
+　って、あれ、開いてる？」
+$k
+
+&empty
+何気なく確認した玄関のドアが開いてしまった。
+$k
+
+優
+「あ、そうか。
+　迎えが行くって伝えてあったから…」
+$k
+
+&empty
+鍵開けて待っててくれたか。
+ということは、了承済みってことだ。
+$k
+
+&empty
+とはいえ、勝手に入るのは気が引けるけど…。
+$k
+
+優
+「…おじゃましま～す……」
+#meffect,flow,5
+$k
+
+//	WT( 50 );
+//	SV( VISUAL_BLACK );
+//	CF_( SLOW );
+
+&empty
+なんとなく声を抑え、開いたドアの隙間に滑り込んだ。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+&empty
+短い廊下を歩いていくと、奥の部屋から
+気配というか、要さんの息づかいが感じられる。
+$k
+
+&empty
+やっぱり起きて待っててくれてたみたいだな。
+$k
+
+#ss,bgm
+
+#sp,se,S_Door03o
+
+優
+「要さん…？」
+$k
+
+//	RuleFlashOut(SLOW, RULE_SIDE|RULE_NEGATIVE);
+//※※ＣＧ修正
+// 	SV( VISUAL_KANAME_07A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_KANAME_07A.jpg,(s),100%
+#ig
+
+#sp,vo,06020350
+要
+「……………え？」
+#meffect,flow,2
+$k
+
+優
+「か、な………？」
+#meffect,flow,2
+$k
+
+&empty
+頭が、真っ白になった。
+$k
+
+&empty
+目に入ったのは…無事でよかった、
+ベッドの上に座り込んでいる要さん。
+$k
+
+&empty
+寝苦しかったんだろう。
+髪は少し乱れ、寝汗でしっとりと濡れて艶っぽい。
+$k
+
+&empty
+その濡れ羽色とは対照的な白い肌は、
+熱があるのか、少し上気して見える。
+$k
+
+&empty
+…というか、そんなことより……
+$k
+
+#sp,env,W_Heart01#
+
+// 	Zoom(SLOWER|SPEED_DOWN, 130, 130);
+
+&empty
+要さんの胸が剥き出しだった。
+$k
+
+&empty
+目は釘付けで、頭にかっと血が上り、
+もうそれ以上は何も考えられない。
+$k
+
+&empty
+ただ心臓が破裂しそうなくらい鼓動を繰り返し…。
+$k
+
+#sp,vo,06020351
+要
+「…っ」
+$k
+
+#ss,env
+
+#sp,bgm,BGM_COMICAL1
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+#sp,vo,06020352
+要
+「～～～～～～～～～～～～！？」
+#mlarge
+$k
+
+// 	Zoom(FAST|SPEED_DOWN, 200, 200);
+
+// 	SV( BG_MT_KANAME03A );
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+
+#sp,se,S_Basa01
+
+#ir
+#ip,bg,(fi),BG_MT_KANAME03A.jpg,(s),100%
+#ig
+
+優
+「はっ！？」
+$k
+
+&empty
+隠れるように布団の中に潜りこんだ要さんを見て、
+ようやく我に返った。
+$k
+
+#ss,bgm
+
+#sp,se,S_Basa01
+
+#ir,(ef),stretch_tb
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+優
+「すっ、すみませんでした！」
+#mlarge
+$k
+
+// 	DelStandAll();
+
+#hide
+
+#wait,1000
+
+// 	// 和田：このまま暗転進行はうーん。
+
+
+// 	SV( BG_MT_KANAME03A );
+
+// 	Zoom(FASTEST, 300, 300, 400, 300+300);
+
+#sp,bgm,BGM_COMICAL2
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAME03A.jpg,(s),120%,(x),c,(y),d_s
+#ig
+
+// 	Shake( FAST, SHAKE_DOWN | SHAKE_SCREEN, 32, 100, 0 );
+
+#show
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Basa02
+
+&empty
+土下座。
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Basa02
+
+// 	Shake( FAST, SHAKE_DOWN | SHAKE_SCREEN, 32, 100, 0 );
+
+&empty
+全身全霊の土下座。
+もう完膚無きまでに土下座。
+$k
+
+&empty
+心臓は、まだばくばくいっている。
+$k
+
+
+#next,06kaname09_01

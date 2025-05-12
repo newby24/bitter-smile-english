@@ -1,0 +1,655 @@
+﻿// 既読フラグ
+#read_flag,201
+
+// セーブタイトル
+#flag,save_title,勇樹　第６話,0,0
+
+// 勇樹好感度＋１。
+#flag,per,2,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第６話　不審少年
+$k
+#note,erase
+
+// 	SV( BG_HS_MAE01A );
+
+#show
+
+&empty
+帰り道、ハッピーシ～サ～の前を通ると、
+なにやら店を覗き込んでいる不審な人物がいた。
+$k
+
+優
+「何をやっているんだ？」
+$k
+
+&empty
+子供…少年だな。
+何をこそこそと……。
+$k
+
+&empty
+クレープが食べたいなら、入ればいいのに。
+男が一人でクレープ屋に入りづらいのだろうか？
+$k
+
+&empty
+でも、どっちかっていうと、あの方が恥ずかしいよなぁ。
+$k
+
+&empty
+少年は躊躇うように、何度もチラチラと
+店内を見ている。
+$k
+
+&empty
+その横顔になんとなく覚えがあった。
+あの顔はどこかで見たような……
+どこでだっけ？
+$k
+
+優
+「あ」
+$k
+
+&empty
+そうだ、あの時の！
+$k
+
+&empty
+前に千寿に来て強面に絡まれた…、
+そう、宮津橋の…弟だ。
+$k
+
+&empty
+あれ？　でも、宮津橋に弟なんかいたっけ？
+$k
+
+&empty
+こうして考えてみると、俺は本当に
+宮津橋の事を何も知らないんだなあ……。
+$k
+
+&empty
+こういうのはちょっとヘコむ。
+$k
+
+&empty
+…でも全く記憶にないってのも変だな。
+弟……いたっけかなぁ？
+$k
+
+#hide
+
+//	SV( BG_HS_MAE01B );
+//	CF();
+
+// 	SV( BG_HS_MAE01A );
+//	FI( SLOW );
+// 	SS_( CENTER, ISAKI_0501IK, MOVE_RIGHT, NORMAL );
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01IK.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Cowbell02
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+&empty
+あ、店から宮津橋が出てきた。
+$k
+
+&empty
+なんか怒ってんな。
+$k
+
+#sp,se,T_tukamu
+
+&empty
+あー、少年、首根っこ掴まれて……。
+$k
+
+//	FadeStand( LEFT, 50, FADE_ALPHA, 0 );
+
+#sp,se,S_Door03c
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#sp,se,S_Cowbell02
+
+&empty
+そして、宮津橋はもがく少年を
+そのまま店の中に引っ張り込んでいった。
+$k
+
+&empty
+…どう見ても拉致だな、拉致。
+$k
+
+// 	SV( BG_HS_MAE01A );
+
+優
+「うーむ、気になる」
+$k
+
+&empty
+お節介だとは分かっているが、
+ついつい俺は店の中を覗き込んでしまった。
+$k
+
+#hide
+
+#ss,bgm
+
+#sp,se,S_Door03o
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Cowbell02
+
+// 	WaitSE();
+
+// 	SV( BG_HS_TENNAI01A );
+// 	Zoom( 0, 200, 200, 30, 300 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+店内をそっと覗き込むと、
+宮津橋と弟くんが店の隅で話していた。
+$k
+
+&empty
+途切れ途切れに会話が聞こえてくる。
+$k
+
+#sp,bgm,BGM_ISAKI
+
+// ISAKI_0502IK
+
+#sp,vo,04010107
+勇樹
+「馬鹿者、いつまでもあんなところで……
+#msmall
+　見つかったら、どうするつもりだ」
+#msmall
+$k
+
+#sp,vo,04990065
+弟？
+「だってぇ……」
+#msmall
+$k
+
+&empty
+訳ありなんだろうか。
+気になるなあ。
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Pon01
+
+&empty
+店の様子を覗いていると、横から服を引っ張られた。
+$k
+
+// 	Shake( NORMAL, SHAKE_LEFT|SHAKE_SCREEN, 6, 10 );
+// 	SV( BG_HS_TENNAI01A );
+
+優
+「お？」
+$k
+
+// 	SS( CENTER, MEGUMI_0901BS, MOVE_RIGHT );
+
+// MEGUMI_0901BS
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,04070054
+めぐみ
+「いらっしゃい、優ちゃん。どうしたの？
+　不審人物みたくなってるよ？」
+$k
+
+優
+「しーっ！　…いや、アレが気になってさ」
+$k
+
+&empty
+俺は、なんとなくこそこそと店内に入りながら、
+隅の方の宮津橋姉弟（？）を指差す。
+$k
+
+&empty
+めぐみもそちらを向いて、頷いた。
+$k
+
+// MEGUMI_0901KD2
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070055
+めぐみ
+「ああ、あのコ？」
+$k
+
+優
+「お前、なんだと思う、アレ？」
+$k
+
+// MEGUMI_0901KN3
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070056
+めぐみ
+「さあ……？　私もよくわかんなーい。
+　１時間くらい前から、お店の前に
+　いたみたいなんだけど～」
+$k
+
+優
+「そんなに前からいたんかい」
+$k
+
+// MEGUMI_0901NO
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070057
+めぐみ
+「仲良さそうだし、
+　勇樹ちゃんの弟さんなんじゃない？」
+$k
+
+優
+「やっぱりそう見えるよなぁ……しかし…」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+気になって、いけないとは思いつつも
+ついつい２人の会話に耳をすませてしまう。
+$k
+
+// 	SV( BG_HS_TENNAI01A );
+
+// 	Zoom( 0, 200, 200, 30, 300 );
+// ISAKI_0501IK
+
+#sp,vo,04010108
+勇樹
+「…ここに…………言って……だろうな」
+#msmall
+$k
+
+#sp,vo,04990066
+弟？
+「うん、でも……」
+#msmall
+$k
+
+// ISAKI_0501NO
+
+#sp,vo,04010109
+勇樹
+「なんだ」
+#msmall
+$k
+
+#sp,vo,04990067
+弟？
+「………じさん、心配してるし、その…
+#msmall
+　……たがってたよ」
+#msmall
+$k
+
+// ISAKI_0501NO
+#sp,vo,04010110
+勇樹
+「知った事か」
+#msmall
+$k
+
+#sp,vo,04990068
+弟？
+「勇姉ぇ……そんな事言わないでさあ、帰って……」
+#msmall
+$k
+
+// ISAKI_0501MU
+
+#sp,vo,04010111
+勇樹
+「……にも頼る気は……。私は………ていける」
+#msmall
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_TENNAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+なんだか、やけに気になる単語が聞こえてくる。
+$k
+
+&empty
+でも、下手に首を突っ込むのも、
+宮津橋がものすごく嫌がりそうだ。
+$k
+
+// ISAKI_0502NO
+
+#sp,vo,04010112
+勇樹
+「もう帰れ」
+$k
+
+#sp,vo,04990069
+弟？
+「……わかったよ」
+$k
+
+&empty
+お、決着が着いたみたいだな。
+$k
+
+#sp,vo,04990070
+弟？
+「でも、また来るからね！！」
+$k
+
+#sp,se,S_Door03o
+
+#wait,500
+
+#sp,se,S_Cowbell02
+
+&empty
+そう言って、弟らしい少年は何度も何度も
+宮津橋の方を振り返りながら、帰っていった。
+$k
+
+&empty
+宮津橋はというと、少年が居なくなるのを見届けると、
+首を振りながら、一つ大きくため息をついた。
+$k
+
+&empty
+…もう話しかけても大丈夫だろうか？
+$k
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS_( CENTER, ISAKI_0501MU, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+優
+「…おい、宮津橋」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010113
+勇樹
+「なんだ、居たのか」
+$k
+
+優
+「誰なんだ、今の？」
+$k
+
+&empty
+俺が聞くと、宮津橋はうざったそうに
+髪を払って、目を背けた。
+$k
+
+// ISAKI_0501MU
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010114
+勇樹
+「仕事中だ。話しかけるな」
+$k
+
+優
+「仕事って、お前、
+　さっきまであいつと話してたじゃんよ！
+　それに今、客いねーし」
+$k
+
+&empty
+店内には俺以外の客は１人もいない。
+$k
+
+優
+「宮津橋って、弟いたっけ？
+　俺の記憶だと、お前、確か
+　一人っ子だったと思うんだけど」
+$k
+
+&empty
+少なくとも、桜子と宮津橋の他に、
+一緒に遊んだ覚えのある子はいない。
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010115
+勇樹
+「………」
+$k
+
+//	SS( RIGHTRIGHT, MEGUMI_0901KD, MOVE_RIGHT, SLOW );
+
+&empty
+めぐみも好奇心をそそられたのか、
+じっと宮津橋の事を見つめている。
+$k
+
+// ISAKI_0501KB
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010116
+勇樹
+「はぁ…………」
+$k
+
+&empty
+宮津橋が諦めたような顔でため息をついた。
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010117
+勇樹
+「…従弟だよ、母方のな。名前は宮津橋啓太」
+
+#mfuri,　　　　いとこ
+
+$k
+
+優
+「あー、なるほど従弟ねー」
+$k
+
+&empty
+そりゃ、記憶にないはずだ。
+$k
+
+&empty
+…でも単なる親戚同士の会話にしては、
+やけに訳ありっぽい空気だったが。
+$k
+
+&empty
+そういえば、宮津橋はどうして昔と名字が
+違うんだろう。
+$k
+
+&empty
+…いや、あまりこういう事は触れない方がいいか。
+$k
+
+&empty
+たぶん、色々、事情があるんだろうし、
+この手の話題は本人から言わない限り、
+下手に聞くものでもないよな。
+$k
+
+// ISAKI_0501IK
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010118
+勇樹
+「なんだ、人の顔をじっと見て」
+$k
+
+優
+「いや、なんでもない」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r0,(al),0
+#ig
+
+&empty
+俺がそれ以上、何も聞かなかったからか、
+宮津橋は肩をすくめて店内の掃除を始めた。
+$k
+
+// 	SS( CENTER, MEGUMI_0901KT5 );
+
+// MEGUMI_0901KT5
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070058
+めぐみ
+「でも～、従弟がわざわざ会いに来るなんて、
+　あんまりないよねー」
+$k
+
+// MEGUMI_0901EG2
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070059
+めぐみ
+「啓太くんって、ひょっとして
+　勇樹ちゃんに気があったりしてぇ～？」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04010119
+勇樹
+「そんなわけないだろう」
+$k
+
+// MEGUMI_0901BS2
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070060
+めぐみ
+「でも、勇姉ぇ、勇姉ぇ、ってずいぶん
+　なついてる感じだったじゃない～」
+$k
+
+// ISAKI_0501MU
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04010120
+勇樹
+「気のせいだ」
+$k
+
+
+#next,04isaki06_01

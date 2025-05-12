@@ -1,0 +1,667 @@
+﻿// 既読フラグ
+#read_flag,105
+
+#show
+
+// KANAME_0401KM2
+#sp,vo,02020167
+要
+「ねえ、お婆ちゃん、桜子ちゃん知らない？」
+$k
+
+// KINO_0401KT
+#ir
+#ip,c3,(fi),KINO_A401KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060124
+紀乃
+「なんや、家に居らへんのか？」
+$k
+
+// KANAME_0401NK4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NK4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02020168
+要
+「うん、携帯も留守電になってるし」
+$k
+
+// KINO_0401AK
+#ir
+#ip,c3,(fi),KINO_A401AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060125
+紀乃
+「………まあ、腹すいたらそのうち帰ってくるやろ？」
+$k
+
+// MII_0401KY2
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030340
+みい
+「そういえば、お兄様も見かけないのですけど。
+$nw,4700
+
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01SN2.png,(x),l2,(s),60%
+#ig
+
+　電話にも出ませんし…」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03I );
+
+#sp,env,W_TellVib01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03I.jpg,(s),100%
+#ig
+
+#wait,4000
+
+#ss,env,(dr),1000
+
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+しかし綺麗だな。
+周りに光がないとこんなに星がはっきり見えるんだな。
+$k
+
+&empty
+でも…。
+$k
+
+#hide
+
+// 	SV( BG_DAMKOHAN03A );
+
+#sp,bgm,BGM_SABISHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DAMKOHAN03A.jpg,(s),100%
+#ig
+
+// SAKURAKO_A401KN
+
+#show
+
+#sp,vo,02000694
+桜子
+「うーん…」
+#meffect,flow,5
+$k
+
+&empty
+桜子は湖にある桟橋に陣取り、空を見上げている。
+$k
+
+&empty
+そんな所で夜空を見上げて………危ねえぞ？
+ホントに仮面のおっさんとか水の中から出て来るぞ？
+$k
+
+優
+「おーい桜子、もういいだろ。
+　ここ寒いしよー？」
+$k
+
+&empty
+十二月も末だからなー。
+$k
+
+// SAKURAKO_A401NO
+
+#sp,vo,02000695
+桜子
+「来ないなー、流れ星…」
+$k
+
+&empty
+……マジかよ、それは無理だろ？
+$k
+
+優
+「おい、そろそろ帰ろうぜ？
+　もうみんな心配してる頃だと思うぞ？」
+$k
+
+// SAKURAKO_A402NR
+
+#sp,vo,02000696
+桜子
+「………そんなに帰りたいんなら、優一人で帰れば？」
+$k
+
+優
+「…お前な～」
+$k
+
+&empty
+こんな山の中に、お前一人置いて帰れる訳ないだろ？
+$k
+
+&empty
+しかしこいつは一体どうして…。
+$k
+
+優
+「はあっ、やれやれ…」
+$k
+&empty
+俺は寝袋に入っていた毛布に包まってもう一度、
+星を眺める事にした。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MUJINEKI03A );
+// 	SS( CENTER, ISAKI_0501KN );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MUJINEKI03A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01KN.png,(x),c,(s),60%
+#ig
+
+// 	SNLP( 0, "S_Train02", 50, 75 );
+// 	LeaveTrain( 0, 500 );
+
+#show
+
+// ISAKI_0501KN
+#sp,vo,02010258
+勇樹
+「戻ってこれたのはいいが…」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010259
+勇樹
+「さて、あいつらはここからどこへ向かった？」
+$k
+
+// ISAKI_0502MU
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010260
+勇樹
+「………」
+$k
+
+// ISAKI_0502NO
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010261
+勇樹
+「…いやまさかな？
+　桜子がそんなはずは無い。
+$nw,5000
+
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02KT.png,(x),c,(s),60%
+#ig
+
+　ましてや矢崎にそんな度胸…」
+$k
+
+// ISAKI_0501MU
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010262
+勇樹
+「身投げする程の理由も見つからないしな。
+　これは違うだろう」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010263
+勇樹
+「…でも、こんな何もない所で…」
+$k
+
+// ISAKI_0501MU
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010264
+勇樹
+「本当に星を見に？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_DAMSANBASHI03A );
+
+//	SS( CENTER, SAKURAKO_A402AK );
+#sp,bgm,BGM_SABISHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DAMSANBASHI03A.jpg,(s),100%
+#ig
+
+#show
+
+// SAKURAKO_A402AK
+
+#sp,vo,02000697
+桜子
+「デジカメ持ってくればよかったかなー。
+$nw,3000
+
+　あ、でも操作分かんないしどっちにしても無理か…」
+$k
+
+// SAKURAKO_A403NO
+
+#sp,vo,02000698
+桜子
+「そうだ、そろそろお婆ちゃんに
+　連絡の一つも…」
+$k
+
+// 	ShowFace();
+
+#hide
+
+#sp,se,S_Nuno08
+
+#wait,1000
+
+// 	Shake( FAST, SHAKE_UP, 20, FAST * 2 );
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Water02
+
+#wait,500
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02AS2.png,(x),c,(s),80%
+#ig
+
+// 	SS( CENTER, SAKURAKOn_A402AS2 );
+
+#show
+
+// SAKURAKOn_A402AS2
+
+#sp,vo,02000699
+桜子
+「ああっ！
+$nw,1300
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02AK.png,(x),c,(s),80%
+#ig
+
+　………………あ～あ…あー…」
+
+$k
+
+// SAKURAKOn_A402KM3
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000700
+桜子
+「落としたぁ。ついてない…」
+$k
+
+// SAKURAKOn_A402AK
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000701
+桜子
+「………」
+$k
+
+// SAKURAKOn_A403AK
+#ir
+#ip,c1,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000702
+桜子
+「はあ、ホント、あたし何やってるんだろ。
+$nw,4100
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03KM.png,(x),c,(s),80%
+#ig
+
+　………何を気にしてるんだろう」
+$k
+
+// SAKURAKOn_A402AK
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000703
+桜子
+「はあ、もう疲れちゃったな…」
+$k
+
+// SAKURAKOn_A403AK
+#ir
+#ip,c1,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000704
+桜子
+「………」
+$k
+
+// SAKURAKOn_A403KT
+#ir
+#ip,c1,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000705
+桜子
+「あ……、
+　お婆ちゃんからかなぁ、あの光り方」
+$k
+
+// SAKURAKOn_A403NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000706
+桜子
+「……この深さなら」
+$k
+
+// SAKURAKOn_A403NO3
+#ir
+#ip,c1,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000707
+桜子
+「………」
+$k
+
+#hide
+
+#sp,se,S_Nuno01
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),100,(al),0%
+#ig
+
+#wait,1000
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	MoveStand( CENTER, NORMAL, 0, 100 );
+// 	FadeStand( CENTER, NORMAL, FADE_ALPHA, 0 );
+// 	SNLP( 0, "S_Nuno01" );
+
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+// 	SV( BG_DAMKOHAN03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DAMKOHAN03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「おっと、いかん、また寝てた。
+$nw,1000
+
+　………さて、桜子はまだ…」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱちゃっ。" );
+#hide
+
+#sp,se,S_Water09
+
+#wait,1000
+
+#show
+
+優
+「………………え、なに」
+$k
+
+&empty
+この寒空の下、桜子がなぜか湖に入っている。
+$k
+
+#sp,bgm,BGM_SYOSO
+
+&empty
+………桟橋に服を脱ぎ丁寧に靴を揃えて。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　そろ
+上着とスカートだけ脱いで。
+…なぜ全裸じゃないのかは分からないが…。
+$k
+
+&empty
+いや、そんな事考えてる場合じゃないだろ俺！
+$k
+
+#sp,env,S_Dash09#
+
+#ir,(dr),500,(ef),move,(lt),over,(lc),no_limit
+#ip,bg,(y+),10
+#ig
+
+&empty
+すぐに毛布を捨て、起き上がり走る。
+$k
+
+優
+「馬鹿っ、桜子っ、早まるな、よく話し合おう！！」
+$k
+
+&empty
+どうして、なんでそんな事…。
+$k
+
+#sp,vo,02000708
+桜子
+「は…何言って…
+$nw,1800
+
+#madd,きゃっ、こっち見…」
+$k
+
+優
+「馬鹿野郎、何考えてんだお前」
+$k
+
+#hide
+
+#ils
+
+#ss,env,(dr),0
+#sp,env,W_Dash01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DAMKOHAN03A_Z.jpg,(y),0
+#ig
+
+//	SV( BG_DAMSANBASHI03A );
+// 	SV( BG_DAMKOHAN03A );
+// 	Zoom( 0, 180, 180, 100, 150 );
+
+#show
+
+&empty
+とりあえず深い所へ行っちまう前にと、
+桟橋を経由せず直線で桜子の元へ向かうことにした。
+$k
+
+&empty
+失敗したっ……
+$nw,1000
+
+でこぼこで走り辛いっ、くそっ！
+$k
+
+#sp,vo,02000709
+桜子
+「馬鹿、あんた何でこっちにっ…
+$nw,2600
+
+　ああっ！？」
+$k
+
+優
+「あぁ…」
+$k
+
+#hide
+
+#ils
+
+#ss,bgm,(dr),0
+#ss,env,(dr),0
+
+#sp,se,S_Water13
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV (VISUAL_BLACK );
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+
+// 	DelStandAll();
+
+#sp,env,S_Water15#
+
+//#sp,env,S_Water16#
+
+// 	Blur(0, 10, 5);
+// 	Shake(0, SHAKE_RANDOM|SHAKE_SCREEN, 12, 200);
+// 	SetObject(100, "kyotsu03-3a_underwater.png", 0, 0, OBJATTR_LINKVISUAL|OBJATTR_TOP);
+// 	RotateSpeedObject(100, 0, 5);
+// 	ZoomObject( 100, 0, 150, 150 );
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ip,c1,(fi),image\etc\suichuu.jpg,(s),120%,(x),c,(y),c,(ag),10d,(rx),480,(ry),272,(al),0%
+#ig
+
+#ir,(dr),3000,(ef),move,(lt),reverse,(lc),no_limit
+#ip,c1,(al),100%,(ag),-10d
+#ia,c1,al,(lt),once
+#ig
+
+#show
+
+優
+「がばぼっ！？」
+#mlarge
+$k
+
+// 	WaitObject( 100 );
+
+&empty
+がぼ！
+$k
+
+&empty
+ごぼっ！
+$k
+
+&empty
+冷たい！
+$k
+
+#sp,vo,02000710
+桜子
+「馬鹿っ！」
+$k
+
+// 	SEFade( 0, 500, 80 );
+// 	SEFade( 1, 500, 80 );
+// 	ZoomObject(100, 500|SPEED_DOWN, 90, 90);
+
+&empty
+やばい深いいきなり！
+$k
+
+#next,02common03-3A_04

@@ -1,0 +1,17 @@
+#read_flag,4
+
+#show
+
+&empty
+選択肢２
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#end

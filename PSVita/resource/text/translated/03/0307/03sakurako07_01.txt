@@ -1,0 +1,834 @@
+﻿// 既読フラグ
+#read_flag,274
+
+// 	SV( BG_SJ_2FROKA01A );
+
+// 	SS( CENTER, SAKURAKO_0403NO3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「…遠慮すんなよ。らしくねえぞ？」
+$k
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000269
+桜子
+「いいって言ってるの、もうっ」
+$k
+
+優
+「なん…」
+$k
+
+// SAKURAKO_0403IK3
+#sp,vo,03000270
+桜子
+「ほらっ」
+$k
+
+#sp,se,S_Catch01
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+優
+「…おっと、あぶねっ」
+$k
+
+&empty
+軽く投げられた物を、顔面スレスレで取る。
+$k
+
+優
+「……みかん？」
+#meffect,flow,5
+$k
+
+// 	SS( CENTER, SAKURAKO_0402IK3 );
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000271
+桜子
+「お土産よっ」
+$k
+
+優
+「なんの？　つーか、どこのお土産？」
+$k
+
+&empty
+どこから見ても普通のみかんだよな。
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000272
+桜子
+「……と、
+$nw,1100
+
+#madd,轟木家のよっ」
+
+$k
+
+優
+「それはちょっと無理が…」
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000273
+桜子
+「うっさいわね、ただの差し入れよっ。
+　じゃあもう帰るからねっ」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+&empty
+なんだ、なにか俺に用事があったんじゃないのか？
+$k
+
+&empty
+みかんをお土産に持って来る程度にはさ…。
+$k
+
+// 	SS_( CENTER, SAKURAKO_0402AD );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),60%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR3.png,(x),r,(s),60%
+#ig,(se),S_Poyon01
+
+// 	SS( CENTERRIGHT, MII_0403TR3, MOVE_RIGHT );
+
+// MII_0403TR3
+
+#sp,vo,03030033
+みい
+「むぎゅぅ」
+$k
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c3,(y+),-10
+#ig
+
+// SAKURAKO_0402AD
+#sp,vo,03000274
+桜子
+「ひゃあっ！？」
+#mlarge
+$k
+
+優
+「…みいちゃん？」
+$k
+
+&empty
+みいちゃんが桜子の背後から抱きついていた。
+$k
+
+// MII_0403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03030034
+みい
+「姉上…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402AS
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000275
+桜子
+「み、みい……
+$nw,2300
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM.png,(x),c,(s),60%
+#ig
+
+　どうしたのっ？」
+$k
+
+// MII_0403NO2
+#sp,vo,03030035
+みい
+「…特に意味はありませんよ」
+$k
+
+// 	SS_( RIGHT, MII_0403NO2, MOVE_STOP, NORMAL );
+// 	SS( LEFT, SAKURAKO_0403KM, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),r,(s),60%
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),l,(s),60%
+#ig
+
+&empty
+……やっぱり居たんだね、みいちゃん。
+$k
+
+// MII_0402NO
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),r,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\hirameki.png,(x),720,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,03030036
+みい
+「さあ、おやつでもご一緒しませんか？
+$nw,3000
+
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),r,(s),60%
+#ig
+
+　……あ、お兄様も食べますか？」
+$k
+
+優
+「ああ、じゃあ俺も…」
+$k
+
+// 	SS( CENTER, SAKURAKO_0403NO3, MOVE_STOP, NORMAL );
+// SAKURAKO_0403NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000276
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「なんだ？」
+$k
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000277
+桜子
+「なんでもないわよっ」
+$k
+
+&empty
+なんなんだよ、本当に。
+今日はなんか一段とやりにくいな、こいつは。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01C );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01C.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+みいちゃんは部屋の端に置いてあった茶菓子を、
+テーブルに乗せる。
+$k
+
+// 	SS( CENTER, MII_A401NO );
+
+// MII_A401NO
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030037
+みい
+「ささ、つまらないものですが…」
+$k
+
+優
+「いやいや、お気になさらずに」
+$k
+
+// MII_A401NO
+#sp,vo,03030038
+みい
+「お口に合いますかどうか」
+$k
+
+優
+「……突っ込まないの？」
+$k
+
+&empty
+てっきりみいちゃんは越後屋的な感じで
+攻めてくると踏んでいたのだが。
+$k
+
+// MII_A401KY2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030039
+みい
+「そんなにお菓子を食べたくないのであれば、
+　無理におすすめは…」
+$k
+
+優
+「謹んでいただきます…」
+$k
+
+// 	SS( CENTER, SAKURAKO_A403NO );
+
+// SAKURAKO_A403NO
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,03000278
+桜子
+「あ、お茶の用意はあたしがやるわね」
+$k
+
+#sp,se,S_Walk12o
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+&empty
+席を立ち、台所へと消えてゆく桜子。
+$k
+
+// MII_0403AD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030040
+みい
+「………」
+#meffect,flow,5
+$k
+
+&empty
+みいちゃんは桜子を見やり、嘆息する。
+$k
+
+// MII_0403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030041
+みい
+「姉上、行きましたね」
+$k
+
+優
+「え？」
+$k
+
+#ir
+#ip,c1,(s),80%,(x),c
+#ig
+
+&empty
+すすす、と俺との距離を縮めてくるみいちゃん。
+$k
+
+// 	SS( CENTER, MII_A403NO2, MOVE_LEFT, SLOW );
+
+// MII_A401NI2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NI2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030042
+みい
+「ところでお兄様？」
+$k
+
+優
+「ん、なんだい、みいちゃん？」
+$k
+
+// MII_A401NI2
+#sp,vo,03030043
+みい
+「姉上になにかしましたか？」
+$k
+
+優
+「ええ？　なにをっ！？」
+$k
+
+// MII_A401AK
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030044
+みい
+「ですから、それを私が聞いているのですが…」
+$k
+
+&empty
+俺、何もしてないよな？
+今日の桜子は少し機嫌が悪いみたいではあるが。
+$k
+
+// MII_A402MJ
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030045
+みい
+「姉上から何か聞いたとか、相談されたとか。
+$nw,3990
+
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY.png,(x),c,(s),80%
+#ig
+
+　あ、口止めされている場合は
+　別に答えなくていいですけど」
+$k
+
+優
+「え、いや、なにも……無いけど。
+　なに、なんかあったの？」
+$k
+
+// MII_A403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030046
+みい
+「いえ、そうですか…」
+$k
+
+// MII_A403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030047
+みい
+「うーん…
+#msmall
+
+　クリスマス関係ではないのでしょうかね…」
+#msmall
+$k
+
+優
+「えーと…？」
+$k
+
+// MII_A403FK
+#sp,vo,03030048
+みい
+「ふむ…」
+#msmall
+$k
+
+優
+「……」
+$k
+
+&empty
+なにを考えているんだろう。
+俺から桜子になにかした覚えはないけど。
+$k
+
+&empty
+いや、断定はできないが…。
+知らず知らずに、桜子の逆鱗に触れてないとも
+かぎらないしなあ。
+$k
+
+// MII_A403FK
+#sp,vo,03030049
+みい
+「………」
+#meffect,flow,5
+$k
+
+優
+「あのさあ…」
+$k
+
+&empty
+何か悩みでもあるのか…？
+$k
+
+// MII_A403KD
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030050
+みい
+「……おっと」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+優
+「？」
+$k
+
+&empty
+その時、さっ、とみいちゃんの体が離れた。
+$k
+
+// 	SS( CENTER, SAKURAKO_A403NO3, MOVE_STOP, NORMAL );
+
+// SAKURAKO_A403NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000279
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「…あ」
+#meffect,flow,5
+$k
+
+&empty
+桜子だ。
+もうお茶の用意ができたのか。
+$k
+
+// SAKURAKO_A403NO3
+#sp,vo,03000280
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「ど、どうした？」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000281
+桜子
+「ううん？　なんでもないよ。
+$nw,2500
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+　はい紅茶」
+$k
+
+#sp,se,Ma_Cop01
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+// 	WaitSE( -1 );
+
+&empty
+紅茶って…。
+$k
+
+優
+「………えっと、俺の分も？」
+$k
+
+&empty
+桜子は俺がコーヒー党なの知ってるはずなんだが……
+$k
+
+&empty
+いや、入れて貰っといて文句は言えんが。
+$k
+
+// 	SS( CENTER, SAKURAKO_A402NR );
+
+// SAKURAKO_A402NR
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000282
+桜子
+「なによ？　文句あるの？」
+$k
+
+&empty
+みかんがなんとなく頭の中によぎる。
+$k
+
+優
+「いや、ないよ？」
+$k
+
+&empty
+なんか、怖いぞ。今日の桜子。
+$k
+
+// 	SS_( RIGHT, SAKURAKO_A403NO3, MOVE_STOP, NORMAL );
+// 	SS( LEFT, MII_A403KT, MOVE_LEFT, NORMAL );
+
+// MII_A403KT
+#ir,(ef),off
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),l2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l,(al),100%
+#ip,c3,(x),r
+#ig
+
+#sp,vo,03030051
+みい
+「………」
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),80%
+#ig
+
+// SAKURAKO_A403NO3
+#sp,vo,03000283
+桜子
+「あいかわらず仲良いのね、２人は」
+$k
+
+// MII_A403EG3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03030052
+みい
+「えー…ええ、まあ、そうですね。
+　喧嘩なんかはしてないですしね？」
+$k
+
+優
+「はは、そうだな…」
+$k
+
+// SAKURAKO_A403KM
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03000284
+桜子
+「そう、いいことよね、仲が良いのは」
+$k
+
+優
+「こ、紅茶をいただこうかな……ずずず」
+$k
+
+// SAKURAKO_A403AK
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03000285
+桜子
+「お茶みたいな飲み方…
+$nw,2280
+
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),80%
+#ig
+
+　みいを見習いなさいよ」
+$k
+
+// MII_A403MU
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03MU.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03030053
+みい
+「こくこく」
+$k
+
+&empty
+う…。
+#meffect,flow,5
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01C );
+
+#sp,bgm,BGM_SABISHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01C.jpg,(s),100%
+#ig
+
+#show
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0403FK
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03FK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000286
+桜子
+「………」
+#meffect,flow,5
+$k
+
+// MII_0403NO2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030054
+みい
+「………」
+#meffect,flow,5
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+言われたまま上品に飲み、
+無言の時間が続いた。
+$k
+
+&empty
+妙な無言の時間だ。
+$k
+
+&empty
+なにかをすれば、
+桜子に刺々しくなんか言われそうな雰囲気。
+$k
+
+&empty
+要するに……重いんだよな、空気が。
+$k
+
+&empty
+そう感じているのは、きっと俺だけではないはずだ。
+$k
+
+// 	SS( CENTER, MII_A403NO, MOVE_STOP, NORMAL );
+
+// MII_A403NO
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030055
+みい
+「…ご馳走様でした。
+$nw,1810
+
+　片づけは私がしましょう、姉上」
+$k
+
+// SAKURAKO_0403NO
+
+#sp,vo,03000287
+桜子
+「あ、うん、…ありがとう」
+$k
+
+優
+「あ、俺も手伝おうかなっ？」
+$k
+
+
+#next,03sakurako07_02

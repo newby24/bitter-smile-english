@@ -1,0 +1,794 @@
+﻿// 既読フラグ
+#read_flag,400
+
+// SAKURAKO_0402AK
+
+#sp,vo,06000103
+桜子
+「いい加減にしなさいって」
+$k
+
+// MII_A403KD
+
+#sp,vo,06030094
+みい
+「あらら」
+$k
+
+#sp,se,S_Don01
+
+#ir,(ef),off
+#ie,c1
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,c2,(y),o_u,(al),0
+#ip,c3,(y),o_d,(al),0
+#ia,c2,al,(dr),1000,(dl),1000
+#ia,c3,al,(dr),1000,(dl),1000
+#ig
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8, 40);
+
+優
+「ごほっ…ごほっごほ！」
+#mlarge
+$k
+
+// 	RFI( RULE_EYE );
+// 特殊な画面変更。暫定的に。
+
+&empty
+不意に、釣り上げられていた力が抜ける。
+$k
+
+// 	SS_( RIGHT, KANAME_A401KT );
+
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),r,(s),80%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, YUKIHA_A401NO );
+
+// KANAME_A401KT
+#sp,vo,06021030
+要
+「だ、だいじょうぶ…？」
+#meffect,flow,5
+$k
+
+優
+「はぁ…はぁ…はぁ…
+　い、いったい何が…」
+$k
+
+// YUKIHA_A401BS
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06050056
+雪華
+「乾杯前の挨拶してって」
+$k
+
+優
+「雪華ちゃんの超クールさとは裏腹に、
+　命の危険を感じた気が…」
+$k
+
+&empty
+脳に酸素が行き渡り、段々と状況が把握できてくる。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2
+#ig
+
+&empty
+俺を苦しめた犯人は…。
+$k
+
+// 	SS(CENTER, MII_A401NO, MOVE_STOP, NORMAL);
+
+// MII_A401NO
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06030095
+みい
+「そんなの気のせいでござりまするよ」
+$k
+
+優
+「なるほど、気のせいでござりまするか。
+$nw,1000
+
+　って、ちょっと待てい」
+$k
+
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01GM.png,(x),c,(s),80%
+#ig
+
+// 	SS( CENTER, MII_A401GM );
+
+&empty
+自らつっこみどころを用意して、
+追跡から逃れようとはなかなかの手練れ。
+$k
+
+&empty
+もちろん褒めちゃいない。
+$k
+
+優
+「どういうつもりなの、みいちゃん」
+$k
+
+// 	SS_(CENTER, MII_A403KM3, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+// MII_A403KM3
+#sp,vo,06030096
+みい
+「私の意思とは関係なく、両手が暴走してしまい…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「そんな言い訳があるかっ」
+#mlarge
+$k
+
+// MII_A402NO
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06030097
+みい
+「というわけで、乾杯！」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06000104
+桜子
+「…結局、挨拶してないじゃない」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// 	CFI();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03G.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+本日、轟木家ではささやかなお祝いが開かれていた。
+$k
+
+&empty
+内容は先のとおり。
+$k
+
+&empty
+ぶっちゃけそんなのは口実で、
+ちょっとおかずが豪華な晩飯会だ。
+$k
+
+&empty
+ま、そうやって持ち上げてくれるだけ、
+ありがたいんだけど…。
+$k
+
+優
+「なんでバイト初日の今日なんだよぅ…」
+$k
+
+// 	SS( CENTER ,SAKURAKO_A402KB );
+
+// SAKURAKO_A402KB
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000105
+桜子
+「みいと雪華ちゃんは前から準備してた。
+$nw,3230
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+　おそらく合格が決まった早々、
+　遊び呆けてた誰かが帰ってこなかったからでしょ」
+$k
+
+優
+「う…」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000106
+桜子
+「どうせストレス発散とばかりに、目も当てられない、
+　堕落した毎日を送ってたんじゃないの」
+$k
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),80%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK3.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, YUKIHA_A401AK3 );
+
+// MII_A403EG
+#sp,vo,06030098
+みい
+「違いますよ。お兄様はご立派です。
+$nw,3920
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG3.png,(x),r,(s),80%
+#ig
+
+　なにせ自分探しの旅に出ておられたのですから」
+$k
+
+優
+「いや、それは勘違いだって」
+$k
+
+// YUKIHA_A401NO
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06050057
+雪華
+「じゃあどこに行ってたの？」
+$k
+
+優
+「………自分探しでいいです」
+#meffect,flow,5
+$k
+
+&empty
+言えるわけがない。
+$k
+
+&empty
+本当に要さんの部屋で堕落三昧だったなんて。
+$k
+
+// 	SS( CENTER, KANAME_A401TR2 );
+
+// KANAME_A401TR2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01TR2.png,(x),c,(s),80%
+#ie,c1,c3
+#ig
+
+#sp,vo,06021031
+要
+「まあまあまあ。
+$nw,1380
+
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),c,(s),80%
+#ig
+
+　きっと優くんも色々あったのよねぇ」
+$k
+
+優
+「ま、まあそうですけど…」
+#meffect,flow,5
+$k
+
+&empty
+共犯者のフォロー。
+$k
+
+&empty
+釈然としないというのはさておき、
+素直に嬉しい気持ちもあるけど、今は…。
+$k
+
+// SAKURAKO_A402IK7
+
+#sp,vo,06000107
+桜子
+「お姉は優に甘すぎるんだって」
+$k
+
+// MII_A401NO
+
+#sp,vo,06030099
+みい
+「ですね、実は何か知っているのでは？」
+$k
+
+// 	SS_( CENTER, KANAME_A401OD3 );
+
+// KANAME_A403GM
+#ir
+#ip,c2,(fi),KANAME_A403.png,(psi),KANAME_An03GM.png,(x),c,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),440,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,06021032
+要
+「ままままさかぁ！
+　そんなことあるわけないじゃないのっ」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+&empty
+…ほら、つっこまれた。
+$k
+
+&empty
+俺と要さんの仲は、
+ぼんやりと周囲にばれている感じなので、
+不用意な発言は簡単に邪推を招く。
+$k
+
+&empty
+火のないところに…の典型ではあるけど、
+今はあまり肯定したくない理由があった。
+$k
+
+// 	SS_( LEFTLEFT, SAKURAKO_A402IK7 );
+// 	SS_( CENTER, MII_A402KB2 );
+
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02KB2.png,(x),c,(s),80%
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),r2,(s),80%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l2,(s),80%
+#ig
+
+// 	SS( RIGHTRIGHT, YUKIHA_A401IK2 );
+
+#sp,vo,06000108
+桜子みい雪華
+「…じーっ」
+#meffect,flow,2
+$k
+
+// KANAME_A403AS
+
+#sp,vo,06021033
+要
+「あ、あは、あはははは…っ」
+#meffect,flow,2
+$k
+
+// 	SS_( RIGHTRIGHT, YUKIHA_A401NO );
+// 立ち絵移動。パラメータは適宜。
+
+// SAKURAKO_A401AK
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06000109
+桜子
+「…まあ、まさかね」
+$k
+
+// MII_A401NO
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06030101
+みい
+「ですね」
+$k
+
+// KANAME_A403IT2
+
+#sp,vo,06021034
+要
+「…ほっ」
+$k
+
+優
+「…ふぅ」
+$k
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+俺が行きそうな場所予想に、
+要さんと一緒だったと考えるのは確かに妥当だ。
+$k
+
+&empty
+けど、一泊どころか数日かけて姿を消していたため、
+みんなも『さすがにそこまでは…ねぇ？』と、
+勝手に思い直しているようだった。
+$k
+
+&empty
+ま、ただれたことになるなんて、
+当人さえ予想できなかったもんなあ…。
+$k
+
+&empty
+…と、そういう後ろめたさもあり、
+みんなの前では当分怪しまれないよう心掛けていた。
+$k
+
+// KANAME_A403KM
+#ir
+#ip,c2,(fi),KANAME_A403.png,(psi),KANAME_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021035
+要
+「…ごめん」
+#msmall
+$k
+
+優
+「…いえいえ」
+#msmall
+$k
+
+&empty
+要さんの無言のポーズに、さりげなく応じる。
+$k
+
+// 	SS( CENTER, KINO_A401MJ );
+
+// KINO_A401MJ
+#ir
+#ip,c1,(fi),KINO_A401MJ.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,06060040
+紀乃
+「そやそや。優、おまえさん卒業して、
+　下宿の当てはあるんか」
+$k
+
+優
+「一応色々考えてるよ。
+　母さんにも電話で言われたし」
+$k
+
+// KINO_A401BS2
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06060041
+紀乃
+「なんなら、うちの不動産紹介したるで」
+$k
+
+優
+「婆さんとこは社会人向けが多いだろ。
+　条件厳しいからなぁ」
+$k
+
+// KINO_A401KD
+#ir
+#ip,c1,(fi),KINO_A401KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06060042
+紀乃
+「ほうか。
+$nw,1390
+
+#ir
+#ip,c1,(fi),KINO_A401MJ2.png,(x),c,(s),80%
+#ig
+
+　ま、困ったら遠慮せず言ってき」
+$k
+
+優
+「ああ、そん時はお願いするよ」
+$k
+
+// 	SS_( LEFT, MII_A401KY2 );
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),l,(s),80%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, SAKURAKO_A401NO );
+
+// MII_A401KY2
+#sp,vo,06030102
+みい
+「…というか、お兄様、
+　出て行かれることが前提なのですか？」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),r,(s),80%
+#ig
+
+// SAKURAKO_A401TR4
+
+#sp,vo,06000110
+桜子
+「大学生になるんだし、妥当なとこじゃないの」
+$k
+
+// MII_A403KM3
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06030103
+みい
+「そんな…私の遊び道具が…」
+#meffect,flow,5
+$k
+
+優
+「半年も一緒に生活して、みいちゃんにとって
+　それ以上になれなかったのは、大変遺憾だけどね…」
+$k
+
+// 	SS_( LEFT, KINO_A401BS2 );
+
+#ir
+#ip,c3,(fi),KINO_A401BS2.png,(x),l,(s),80%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, YUKIHA_A401NO );
+
+// KINO_A401BS2
+#sp,vo,06060043
+紀乃
+「ま、雪華ちゃんは残りよるでな」
+$k
+
+優
+「そうだ、雪華ちゃんをいじめる奴は…」
+$k
+
+// YUKIHA_A401EG
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06050059
+雪華
+「兄がほんっと～にお世話になりました。
+　わたしの方は引き続きよろしくお願いします」
+$k
+
+// 	SS_( RIGHT, SAKURAKO_A401KS2 );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),r,(s),80%
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, MII_A401NO );
+
+// SAKURAKO_A401KS2
+#sp,vo,06000111
+桜子
+「出る幕ないわね」
+$k
+
+// MII_A401NO
+
+#sp,vo,06030104
+みい
+「というか、これではお兄様の
+　さよならパーティーみたいですね」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「やかまし」
+#mlarge
+$k
+
+&empty
+妹の成長が、ちょっと寂しかった。
+$k
+
+// 	SS_( LEFT, KINO_A401MJ2 );
+
+#ir
+#ip,c1,(fi),KINO_A401MJ2.png,(x),l,(s),80%
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01US2.png,(x),r,(s),80%
+#ie,c3
+#ig
+
+// 	SS( RIGHT, KANAME_A401US2 );
+
+// KINO_A401MJ2
+#sp,vo,06060044
+紀乃
+「ほう言や要、あの見合いの話、どうなったんや」
+$k
+
+// KANAME_A401US3
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01US3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06021036
+要
+「……ぅん？」
+$k
+
+// SAKURAKO_A403AK
+
+#sp,vo,06000112
+桜子
+「…マイペースねぇ」
+$k
+
+// YUKIHA_A401NO
+
+#sp,vo,06050060
+雪華
+「え、要お姉ちゃん、またお見合いするの？」
+$k
+
+#ir,(dr),200,(ef),move,(lt),over,(lc),1
+#ip,c2,(y+),-10
+#ig
+
+// KANAME_A401US3
+// KANAME_A401OD2
+#sp,vo,06021037
+要
+「！？
+$nw,1400
+
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),r,(s),80%
+#ig
+
+　……違う違う、前の人でしょ？
+$nw,2520
+
+　ちゃーんと代わりに知り合い紹介しといたから」
+$k
+
+// SAKURAKO_A402NR
+
+#sp,vo,06000113
+桜子
+「聞こえのいい人身御供ね」
+$k
+
+// KINO_A401MJ2
+#sp,vo,06060045
+紀乃
+「あんたがええ言う奇特な人やねんけどなあ」
+$k
+
+// 	SS_( LEFT, MII_A402NO );
+
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),l,(s),80%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),r,(s),80%
+#ie,c2
+#ig
+
+// 	SS( RIGHT, SAKURAKO_A402NR );
+
+// MII_A402NO
+#sp,vo,06030105
+みい
+「前の人とは、お医者の方ですか。
+$nw,3880
+
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02MJ2.png,(x),l,(s),80%
+#ig
+
+　仕方ありません、要お姉様の代わりに私が…」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06000114
+桜子
+「出番ないって」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+お見合いか…また話が来てるってのは、
+要さんから聞いていた。
+$k
+
+&empty
+俺たちの仲は公言していないし、
+話が来るのは仕方ないけど。
+$k
+
+&empty
+でもいい気分はしない。
+とは言え、要さんがもてるのが誇らしいような…、
+なんとも微妙な感じだ。
+$k
+
+// 	SS_( LEFT, KINO_A401MJ2 );
+// 	SS( RIGHT, KANAME_A401MJ );
+
+// KANAME_A401MJ
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01MJ.png,(x),r,(s),80%
+#ip,c1,(fi),KINO_A401MJ2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021038
+要
+「………」
+#meffect,flow,5
+$k
+
+
+#next,06kaname18_02

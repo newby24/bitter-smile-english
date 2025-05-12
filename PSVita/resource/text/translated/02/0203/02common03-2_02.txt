@@ -1,0 +1,796 @@
+﻿// 既読フラグ
+#read_flag,93
+
+#show
+
+// CHISEKA_0A01OD3
+
+#sp,vo,02040320
+知世翔
+「そんなに違うんですか？」
+$k
+
+// SAKURAKO_0A02EG
+
+#sp,vo,02000553
+桜子
+「そりゃもう、全然ストレート気分だもの」
+$k
+
+// CHISEKA_0A01EG
+
+#sp,vo,02040321
+知世翔
+「そんなに気にしなくても綺麗なのに、
+　ウェーブの髪…」
+$k
+
+// SAKURAKO_0A01TR2
+
+#sp,vo,02000554
+桜子
+「ちぇっ仕方ない、みいの借りるかー。
+$nw,3400
+
+　ねえ、みいー？」
+$k
+
+// MII_0B03FK
+
+#sp,vo,02030253
+みい
+「ああどうぞ姉上、今手が離せませんので、
+　適当に持っていって下さい」
+$k
+
+// SAKURAKO_0A02NO4
+
+#sp,vo,02000555
+桜子
+「じゃあ借りるわよー？
+$nw,1600
+
+　あ、あと洗面器はもっと左にあるから」
+$k
+
+// CHISEKA_0A01NO2
+
+#sp,vo,02040322
+知世翔
+「あ、そこもっと奥だから、
+$nw,2600
+
+#madd,そこも少し左…」
+
+$k
+
+// MII_0B03AD3
+
+#sp,vo,02030254
+みい
+「あ、ありました。
+$nw,2300
+
+#madd,どうもご親切に。
+　シャンプーが目に入ってしまいましてね。
+$nw,5700
+
+　このご恩は一生忘れません」
+$k
+
+// CHISEKA_0A01TR6
+
+#sp,vo,02040323
+知世翔
+「それは大袈裟すぎだよ」
+$k
+
+// SAKURAKO_0A01KS2
+
+#sp,vo,02000556
+桜子
+「なんかスイカ割りみたいね…」
+$k
+
+// YUKIHA_0B01EG
+
+#sp,vo,02050048
+雪華
+「ねえ桜子ちゃーん、こういう髪型とかどうかなー？」
+$k
+
+// SAKURAKO_0A03KS
+
+#sp,vo,02000557
+桜子
+「ぷはっ、あははっ！　なにそれっ？」
+$k
+
+// YUKIHA_0B01NS2
+
+#sp,vo,02050049
+雪華
+「ちょんまげ将軍ー。
+$nw,2900
+
+#madd,で、これがー」
+
+$k
+
+// MII_0B03AD3
+
+#sp,vo,02030255
+みい
+「ああ、待ってください雪華さん。
+　私まだ見てないです。
+$nw,3900
+
+　まだ目が…」
+
+$k
+
+#hide
+
+#sp,se,S_Water11
+
+#wait,1000
+
+#show
+
+// CHISEKA_0A01EG2
+
+#sp,vo,02040324
+知世翔
+「ふうっ。じゃあ私は先に湯船に…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SENTOONNA03A.jpg,(s),100%
+#ig
+
+#show
+
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_WINDOW, 2, FAST );
+
+// YUKIHA_0A01AS3
+
+#sp,vo,02050050
+雪華
+「あわわわわわ、わわわ
+　くすぐったーい、これぇ」
+$k
+
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_WINDOW, 0 );
+
+// MII_0A03EG4
+
+#sp,vo,02030256
+みい
+「ああ、この泡は肩こりに効きそうですねー。
+　帰ったら、お婆さまに教えてあげましょう」
+$k
+
+// SAKURAKO_0A02NO
+
+#sp,vo,02000558
+桜子
+「あれ、知世翔は？」
+$k
+
+// MII_0A03NO2
+
+#sp,vo,02030257
+みい
+「知世翔さんでしたら先程、湯あたりしないように、
+　お先にと、もうお上がりになられましたが。
+$nw,8000
+
+　きっと今頃は瓶牛乳でも飲んで…」
+$k
+
+// SAKURAKO_0A01NO
+
+#sp,vo,02000559
+桜子
+「そっか、じゃあ、あたし達も少ししたら上がろうか？
+　知世翔待たせてもなんだし。
+$nw,6900
+
+　…ふぅ…でも広いお風呂っていいわよねー」
+$k
+
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_WINDOW, 2, FAST );
+
+// YUKIHA_0A01GM
+
+#sp,vo,02050051
+雪華
+「おっお婆ちゃんもっもも、来れば良かったた
+　のにねねねねっ
+$nw,6300
+
+　ひゃははぁ～っ」
+
+$k
+
+// 	Shake( FAST, SHAKE_UP | SHAKE_WINDOW, 20, FAST );
+
+// MII_0A02OD
+
+#sp,vo,02030258
+みい
+「大変です姉上、雪華さんが壊れてしまいました」
+$k
+
+// SAKURAKO_0A01KS2
+
+#sp,vo,02000560
+桜子
+「くすぐったいのに無理して入らなくても…」
+$k
+
+#hide
+
+#ss,bgm
+#ss,env
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+
+// 	SV( BG_MT_SENTO03A );
+
+// 	Zoom( 0, 200, 200, 200, 350 );
+
+#show
+
+&empty
+あいつら、もう出たかなー？
+$k
+
+//	SV( BG_MT_SENTO03A );
+//	SS( CENTER, CHISEKA_0401NO );
+// 	SV( VISUAL_CHISEKA_03A );
+
+#hide
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_CHISEKA_03A.jpg,(s),75%
+#ig
+
+#sp,bgm,BGM_SHIZUKA
+
+// CHISEKA_0401OD3
+
+#show
+
+#sp,vo,02040325
+知世翔
+「……あっ」
+$k
+
+優
+「あー…」
+#meffect,flow,5
+$k
+
+&empty
+銭湯を出ると、出入り口横のちょうど壁の辺りに、
+有河がちょこんと立っていた。
+$k
+
+// 	CFV( VISUAL_CHISEKA_03B );
+
+//	SM( CHAR_CHISEKA,		CHISEKA_0101NO,		"知世翔",		"@v02040326「………（ぷいっ）」" );
+// CHISEKA_0401KB
+
+
+#ir,(dr),500
+#ip,bg,(fi),VISUAL_CHISEKA_03B.jpg,(s),75%
+#ig
+
+#sp,vo,02040326
+知世翔
+「………ふんっ」
+#msmall
+$k
+
+優
+「えーっと、みんなは……まだ？」
+#meffect,flow,5
+$k
+
+// 	CFV( VISUAL_CHISEKA_03A );
+
+// CHISEKA_0401NR
+#ir,(dr),500
+#ip,bg,(fi),VISUAL_CHISEKA_03A.jpg,(s),75%
+#ig
+
+#sp,vo,02040327
+知世翔
+「………」
+$k
+
+&empty
+ちょっと勉強に熱中してて、
+傘持って行けなかっただけなのに…。
+$k
+
+#sp,se,S_Tel18
+
+優
+「うをっ、まだ怒ってるっ！？」
+$k
+
+&empty
+まだ続いてるのか、このネタ！
+$k
+
+// 	CFV( VISUAL_CHISEKA_03B );
+
+#flag,cg,3,=,1
+
+// CHISEKA_0401IK2
+#ir,(dr),500
+#ip,bg,(fi),VISUAL_CHISEKA_03B.jpg,(s),75%
+#ig
+
+#sp,vo,02040328
+知世翔
+「…怒ってませんよーだ！」
+$k
+
+優
+「いや、その反応どう見てもおかしいし！」
+$k
+
+// CHISEKA_0401KB
+
+#sp,vo,02040329
+知世翔
+「…そんな事ないですよー？」
+$k
+
+// 	SNLP( 0, "" );
+
+#sp,se,S_Tel18
+
+優
+「ほら、めっちゃ根に持ってんじゃん！？」
+$k
+
+// CHISEKA_0401NR
+
+#sp,vo,02040330
+知世翔
+「ふんっ」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"きん、きんっ！" );
+#hide
+
+#sp,se,S_Hyoshigi01
+
+#wait,1500
+
+#show
+
+// MEGUMI_0401EG2
+
+#sp,vo,02070143
+めぐみ
+「よ～そろぉ～！」
+$k
+
+// 	SV( BG_MT_SENTO03A );
+// 	ShowFace();
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,bg,(fi),BG_MT_SENTO03A.jpg,(y),d_s,(s),100%
+#ig
+
+優
+「うわおーうっ！？」
+#mlarge
+$k
+
+// CHISEKA_0401OD
+
+#sp,vo,02040331
+知世翔
+「わっ、なに！？
+$nw,1600
+
+#ir,(ef),off
+#ip,c3,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01EG2.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+　…ってめぐみ先輩っ？」
+
+$k
+
+// 	SS_( LEFT, MEGUMI_0401EG2, MOVE_LEFT, NORMAL );
+// 	SS_( CENTERRIGHT, CHISEKA_0401OD3, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c2,(fi),DAIGOn_A301NO.png,(x),r2,(s),75%
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),l2,(s),60%
+#ig
+
+優
+「なんだ、めぐみかよ、おっちゃんも、宮津橋まで。
+　つーか耳元でびっくりさせんなよなー？」
+$k
+
+// MEGUMI_0401KT4
+#ir
+#ip,c3,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01KT4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070144
+めぐみ
+「おやおや、二人してこんな所で。
+$nw,3300
+
+#ir
+#ip,c3,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01AZ2.png,(x),c,(s),60%
+#ig
+
+　さては火遊びかな～？」
+$k
+
+// DAIGO_0301EG3
+#ir
+#ip,c2,(fi),DAIGOn_A301EG3.png,(x),r2,(s),75%
+#ig
+
+#sp,vo,02090010
+沖奈大吾
+「いよっ、御両人！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"きんっ！" );
+#hide
+
+// 	SNLP( 0, "S_Hyoshigi01" );
+
+#sp,se,S_Hyoshigi01
+
+#wait,1000
+
+// 	SEStop( 0 );
+
+#show
+
+#sp,vo,02040332
+知世翔
+「ちちちっ違いますって！
+　めぐみ先輩、誤解ですからねっ？
+$nw,5000
+
+　こんな人となんか絶対ありえませんからっ！」
+$k
+
+優
+「ちょ、おい有河、否定はしないが
+　それはそれで、お前なんか酷すぎるぞ？」
+$k
+
+// MEGUMI_0401EG6
+#ir
+#ip,c3,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01EG6.png,(x),c,(s),60%
+#ig
+
+#ir,(ef),off
+#ip,op3,(fi),image\icon\kyakya.png,(x),500,(y),30
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),no_limit
+#ip,op3,(x+),10,(y+),10
+#ig
+
+#sp,vo,02070145
+めぐみ
+「はは、わかってるって有河ちゃ～ん。
+　ちょっと、からかっただけだよぉ～、
+$nw,7200
+
+#ir
+#ip,c3,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01BS.png,(x),c,(s),60%
+#ig
+
+　ねえ？」
+
+$k
+
+// ISAKI_0401MU
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01MU.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02010232
+勇樹
+「……そうだな、できればこっちには振るな」
+$k
+
+優
+「あんたらこんな夜更けに元気だなー？」
+$k
+
+#hide
+
+#ir
+#ie,c1,c2
+#ig
+
+// 立ち絵移動消える。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01AZ.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l,(al),100%
+#ip,c3,(x),r
+#ig
+
+#show
+
+// 	SS_( RIGHT, MEGUMI_0401BS );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( LEFT, SAKURAKO_0401AZ, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// SAKURAKO_0401AZ
+#sp,vo,02000561
+桜子
+「お待たせ知世翔ー！
+$nw,1600
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01NO.png,(x),l,(s),60%
+#ig
+
+　って、めぐじゃない、どうしたの？
+　あんたんとこもお風呂壊れたの？」
+$k
+
+// MEGUMI_0401EG
+#ir
+#ip,c3,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070146
+めぐみ
+「やだなぁ～、そんな訳ないじゃない。
+　うちのお風呂、桜子ん家の年代物とは違うし～？」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02IK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000562
+桜子
+「まあ、それは認めるけどね…」
+$k
+
+優
+「やっぱ風呂場もシーサーなのか？」
+$k
+
+// MEGUMI_0401KN3
+#ir
+#ip,c3,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01KN3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070147
+めぐみ
+「まあね…ハイビスカスくらいなら、
+　まだ許せるんだけどねぇ…」
+$k
+
+// 	SS_( CENTERRIGHT, CHISEKA_0401OD3, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),CHISEKAn_A401.png,(psi),CHISEKAn_An01OD3.png,(x),r,(s),60%
+#ip,c3,(fi),MIIn_A401.png,(psi),MIIn_An01NO.png,(x),l,(s),60%
+#ig
+
+// 	SS_( LEFT, MII_0401NO, MOVE_STOP, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// CHISEKA_0401OD3
+
+#sp,vo,02040333
+知世翔
+「えーっ、それホントですか！？」
+$k
+
+// MII_0401KY2
+#ir
+#ip,c3,(fi),MIIn_A401.png,(psi),MIIn_An01KY2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030259
+みい
+「本当らしいですよ？
+$nw,2300
+
+#ir
+#ip,c3,(fi),MIIn_A401.png,(psi),MIIn_An01NO.png,(x),l,(s),60%
+#ig
+
+　大吾さんは筋金入りの、しーさー、ですから」
+$k
+
+優
+「みいちゃん、
+　そこはもう少し、ひねろうよ？」
+$k
+
+// 	SS_( CENTERLEFT, YUKIHA_0401EG, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),YUKIHAn_A401.png,(psi),YUKIHAn_An01EG.png,(x),l0,(s),60%
+#ip,c2,(fi),DAIGOn_A301NO.png,(x),r,(s),75%
+#ie,c3
+#ig
+
+// 	SS_( RIGHT, DAIGO_0301NO, MOVE_STOP, NORMAL );
+
+// YUKIHA_0401EG
+#sp,vo,02050052
+雪華
+「おじさんこんばんわー。
+$nw,2200
+
+#ir
+#ip,c1,(fi),YUKIHAn_A401.png,(psi),YUKIHAn_An01NO.png,(x),l0,(s),60%
+#ig
+
+　それ、持ってるのなんですか？」
+$k
+
+// DAIGO_0301EG2
+#ir
+#ip,c2,(fi),DAIGOn_A301EG2.png,(x),r,(s),75%
+#ig
+
+#sp,vo,02090011
+沖奈大吾
+「ああ、これかい？
+　火の用心の拍子だよ」
+$k
+
+優
+「あれ、今日雨降ったばかりなのに見回ってんの？」
+$k
+
+// MEGUMI_0401BS2
+
+#sp,vo,02070148
+めぐみ
+「町内会で順番が回ってきたから、一応ね」
+$k
+
+// SAKURAKO_0403NO2
+
+#sp,vo,02000563
+桜子
+「めぐも大変ねー」
+$k
+
+// MEGUMI_0401KS
+
+#sp,vo,02070149
+めぐみ
+「有志募ってやってるからしようがないわ。
+#mfuri,　　　　　　つの
+$nw,3700
+
+
+　うちは親父が、こういうの好きだからね～？」
+$k
+
+// YUKIHA_0401KT
+#ir
+#ip,c1,(fi),YUKIHAn_A401.png,(psi),YUKIHAn_An01KT.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02050053
+雪華
+「…私もやってみたいなー」
+$k
+
+// DAIGO_0301EG
+#ir
+#ip,c2,(fi),DAIGOn_A301EG.png,(x),r,(s),75%
+#ig
+
+#sp,vo,02090012
+沖奈大吾
+「おーっ、じゃあ帰り道、途中まで代わりに、
+　やってみるかいっ？」
+$k
+
+// 	SetActionPyon( CENTERLEFT );
+// YUKIHA_0401EG2
+#ir,(dr),0
+#ip,c1,(fi),YUKIHAn_A401.png,(psi),YUKIHAn_An01EG2.png,(x),l0,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-5
+#ig
+
+#sp,vo,02050054
+雪華
+「わ、いいの？」
+$k
+
+// 	DelAction( CENTERLEFT );
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_ENKEI03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ENKEI03A.jpg,(s),100%
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"きん、きん。" );
+#sp,se,S_Hyoshigi01
+
+#wait,1000
+
+#show
+
+// YUKIHAn_A401IK3
+
+#sp,vo,02050055
+雪華
+「ひのーぅよーうじーん！」
+$k
+
+優
+「はいっ！」
+$k
+
+#hide
+
+#sp,se,sound\voice\02\020900\02090013,(vl),3
+
+
+#next,02common03-2_03

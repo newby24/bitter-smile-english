@@ -1,0 +1,625 @@
+﻿// 既読フラグ
+#read_flag,137
+
+&empty
+つ～かさぁ。
+$k
+
+#ss,bgm
+
+#sp,se,S_Catch02
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#wait,500
+
+#ils
+
+// MII_A202AS
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02AS.png,(x),c,(s),80%
+#ig
+
+//	DS( CENTER );
+//	SS( CENTER, MII_A202AS );
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030328
+みい
+「…っ！？」
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+#sp,se,S_Za01
+
+#ir
+#ip,c1,(x),c,(s),60%
+#ig
+
+// 	SS( CENTER, MII_0202AS );
+
+// MII_0202AS
+#sp,vo,05030329
+みい
+「な、なんです…！？」
+$k
+
+優
+「驚かせた？　ごめんごめん。
+　たまたま手の置きやすい位置にあったから」
+$k
+
+&empty
+実際は、ぽんっと頭に手を乗せた途端、
+みいちゃんは弾けるように離れてっちゃったけど。
+$k
+
+// MII_0202KB3
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02KB3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030330
+みい
+「な、なに考えてるんです…！」
+$k
+
+優
+「いや、頭を撫でるって今みたいにかなって」
+$k
+
+&empty
+ただ、みいちゃんはよっぽどびっくりしたのか、
+$k
+
+// MII_0202IK
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030331
+みい
+「気をつけてください。私からお兄様へと、
+　お兄様が私にするのでは価値観から違いますから」
+$k
+
+優
+「兄から妹と思えば問題ないんじゃない？」
+$k
+
+// MII_0202KB
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030332
+みい
+「それで雪華さんは許してくださいますか？」
+$k
+
+優
+「すみませんっしたー！」
+#mlarge
+$k
+
+&empty
+妹分とはいえ、
+女の子の頭を撫でるのも簡単じゃないなあ。
+$k
+
+優
+「ま、ともあれ受験にせよマラソンにせよ、
+　頑張らにゃいかんよなー」
+$k
+
+// 	ZoomStand( CENTER, 50, 100, 100 );
+
+// MII_0203EG
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030333
+みい
+「では、指きりでもしましょうか」
+$k
+
+優
+「…今度はなに？」
+$k
+
+// MII_0203EG2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030334
+みい
+「お互い死力を尽くそうという約束ですよ」
+$k
+
+優
+「………」
+$k
+
+&empty
+それで…指きり？
+$k
+
+// MII_0203KD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030335
+みい
+「？　お兄様？」
+$k
+
+優
+「…ぷっ」
+$k
+
+// MII_0202OD
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030336
+みい
+「な、なんです…？」
+$k
+
+優
+「いや、だってみいちゃん、
+　今日は妙に可愛いこと言い出すからさ…くく」
+$k
+
+&empty
+さっきの頭を撫でる発言もそうだったけど。
+$k
+
+&empty
+みいちゃんの突拍子ないこういうとこ、
+ふと気づくと、微笑ましいというか、
+つい頬が緩んでしまう。
+$k
+
+// MII_0203FK2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03FK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030337
+みい
+「べ、別にかわいくなんてないじゃないですか」
+$k
+
+優
+「いやいや、みいちゃんはかわいいって」
+$k
+
+// MII_0203IK2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030338
+みい
+「お兄様…私を馬鹿にしてますね？」
+$k
+
+優
+「見た目だってかわいいし、性格は…」
+$k
+
+// MII_0203SN2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03SN2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030339
+みい
+「あ、あほですか」
+$k
+
+優
+「ほんとだってば」
+$k
+
+// MII_0203FK2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03FK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030340
+みい
+「お兄様の妄言には付き合っていられません。
+　先、行かせていただきますから」
+$k
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),l0,(al),0%
+#ig
+
+// 	ZoomStand( CENTER, 100, 40, 40 );
+// 	FadeStand( CENTER, 50, FADE_ALPHA, 0 );
+
+//#sp,bgm,BGM_NICHIJYO
+
+優
+「あ、ちょっ…」
+$k
+
+優
+「あらら…怒らせちゃったか」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+
+//	SV( BG_MT_TSUGAKURO01C );
+// 	SV( VISUAL_MII_09A );
+
+#sp,bgm,BGM_MII
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_09A.jpg,(s),75%
+#ig
+
+#show
+
+#sp,vo,05030341
+みい
+「………」
+$k
+
+
+// 	CFV_( VISUAL_MII_09B, NORMAL );
+
+#ir
+#ip,bg,(fi),VISUAL_MII_09B.jpg,(s),75%
+#ig
+
+
+#sp,vo,05030342
+みい
+「………」
+$k
+
+// 	CFV_( VISUAL_MII_09C, NORMAL );
+
+#ir
+#ip,bg,(fi),VISUAL_MII_09C.jpg,(s),75%
+#ig
+
+#sp,vo,05030343
+みい
+「かわいい…ですか」
+$k
+
+// 	CFV_( VISUAL_MII_09D, NORMAL );
+
+#ir
+#ip,bg,(fi),VISUAL_MII_09D.jpg,(s),75%
+#ig
+
+&empty
+あ、みいちゃん居た。
+$k
+
+// 	CFV_( VISUAL_MII_09E, NORMAL );
+
+#flag,cg,59,=,1
+
+#ir
+#ip,bg,(fi),VISUAL_MII_09E.jpg,(s),75%
+#ig
+
+&empty
+なぜか水たまりを前にして俯いている。
+$k
+
+優
+「みいちゃ～ん」
+$k
+
+// 	SV( BG_MT_TSUGAKURO01C );
+// 	SS( CENTER, MII_0201KD, MOVE_DOWN, FAST );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,bg,(fi),BG_MT_TSUGAKURO01C.jpg,(s),100%
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KD.png,(x),c,(s),60%
+#ig,(se),S_Basa01
+
+// MII_0201KD
+#sp,vo,05030344
+みい
+「…っ！」
+$k
+
+// MII_0201SN2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01SN2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030345
+みい
+「…（ぷいっ）」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「うわ～」
+$k
+
+&empty
+拗ねてるなー。
+#mfuri, す
+
+$k
+
+優
+「さっきのはからかったわけじゃないんだって。
+　ほんと。嘘じゃなくて」
+$k
+
+// 	SS( CENTER, MII_A203FK );
+
+// MII_A203FK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030346
+みい
+「…どうしてついてこられるのです」
+$k
+
+優
+「同じ目的地で無茶言わないでくれよ」
+$k
+
+優
+「そういやみいちゃん、今水たまりで何を…」
+$k
+
+// MII_A203IK2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030347
+みい
+「別になにも？」
+$k
+
+優
+「………」
+$k
+
+// MII_A203FK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030348
+みい
+「…（ぷいっ）」
+#msmall
+$k
+
+優
+「…さいですか」
+$k
+
+&empty
+何かいるのかと思って、俺も覗き込んだけど、
+自分の間抜けづらが映ってるだけだし。
+$k
+
+&empty
+深くつっこまない方がいいみたいだ。
+$k
+
+優
+「んじゃみいちゃん、指きり」
+$k
+
+// MII_A203IK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030349
+みい
+「どうしてです？」
+$k
+
+優
+「受験とマラソン。
+　お互い死力を尽くす約束と、誤解をとくために」
+$k
+
+// MII_A203FK2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03FK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030350
+みい
+「…指きりとか恥ずかしくないんですか？」
+$k
+
+優
+「ひどい…」
+$k
+
+// MII_A203IK2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030351
+みい
+「いえ、言われてみて改めて気がついたもので」
+$k
+
+優
+「お、俺は別にそういうつもりじゃなかったけどね」
+$k
+
+// MII_A203EG3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030352
+みい
+「…ぷっ」
+$k
+
+優
+「な、なに…？」
+$k
+
+//	SetIconHirameki( CENTER );
+// MII_A203EG
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030353
+みい
+「ふふ…いいですよ、お兄様のお願いですから。
+　仕方なく仕方なく仕方なーく、してさしあげます」
+$k
+
+優
+「あー、…許してくださったようでどうも」
+$k
+
+// MII_A203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030354
+みい
+「私はかわいいだけでなく、優しいのですよ」
+$k
+
+優
+「自称はいいんだ？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+そうして歩きがてら、
+手をつなぐように小指を絡ませた。
+$k
+
+優
+「ゆーびきりげんまん　うそついたら♪」
+$k
+
+// MII_A203EG2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030355
+みい
+「ふふふんふん　ふ～んふふ♪」
+$k
+
+優
+「針千本以上の拷問を！？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリア後にジャンプ可能。
+#next,90jump07:(if),sys,0,==,1
+
+#next,02common02-4_00
+

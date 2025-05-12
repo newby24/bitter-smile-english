@@ -1,0 +1,775 @@
+﻿// 既読フラグ
+#read_flag,278
+
+&empty
+桜子は目を逸らして謝ると、俺達の前から走り去った。
+$k
+
+// 	SS( CENTER, MEGUMI_0201KM );
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c
+#ig
+
+// MEGUMI_0201KM
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070114
+めぐみ
+「行っちゃったー…ねぇ？」
+#meffect,flow,5
+$k
+
+優
+「断られた…な」
+#meffect,flow,5
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070115
+めぐみ
+「優ちゃん嫌われた～？」
+$k
+
+#ss,bgm
+
+優
+「さあ、どうかね？」
+$k
+
+// MEGUMI_0201MJ2
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070116
+めぐみ
+「で、優ちゃん、追いかけなくていいの？」
+$k
+
+優
+「ちょっと昼飯誘いに来ただけだしなあ」
+$k
+
+&empty
+まああの断り方は、わざとらしい気もするが。
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070117
+めぐみ
+「いいの？　幼なじみでしょ～？
+$nw,3000
+
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM5.png,(x),c,(s),60%
+#ig
+
+
+　なにか深～い悩みがあるのかもよぉ？」
+$k
+
+&empty
+悩みね……
+俺だって少しでも話が出来れば、って思ってたけど。
+$k
+
+優
+「いや、もう何処に行ったかわかんねぇし」
+$k
+
+// MEGUMI_0201KT
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070118
+めぐみ
+「でもさぁ、気になる事があったから、
+　お昼に誘おうとしたんじゃないのぉ～？」
+$k
+
+優
+「んー、まあ…」
+#meffect,flow,5
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070119
+めぐみ
+「だったら、追いかけたら？」
+$k
+
+優
+「でも忙しいって言われたらな？
+　……無理に追いかけても、蹴られるのがオチだろ」
+$k
+
+&empty
+ただの幼なじみ。
+$k
+
+// MEGUMI_0201MJ2
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070120
+めぐみ
+「それはないんじゃない？」
+$k
+
+優
+「……そーかぁ？」
+$k
+
+&empty
+されど幼なじみ。
+$k
+
+// MEGUMI_0201IK
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070121
+めぐみ
+「うん。いいからほら、早くしないとっ」
+$k
+
+優
+「うーん…」
+#meffect,flow,5
+$k
+
+&empty
+所詮は幼なじみ。
+$k
+
+// MEGUMI_0201IK3
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070122
+めぐみ
+「もう！」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Binta02
+
+// 	WaitSE( -1 );
+
+優
+「…ってぇ！なんで蹴るっ！？」
+#mlarge
+$k
+
+// 	SS( CENTER, MEGUMI_A201IK4, MOVE_DOWN, SLOW );
+
+// MEGUMI_A201IK4
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03070123
+めぐみ
+「というか、さっさと行けぇっ！」
+#mlarge
+$k
+
+優
+「なん…
+$nw,1000
+
+　わーった、わかった、行くよ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+&empty
+めぐみが俺を蹴るのは初めてかも…。
+$k
+
+&empty
+とりあえず、行くだけ行ってみるか。
+幼なじみ……いや、今は心配する友達として。
+$k
+
+#hide
+
+#sp,se,S_Dash02o
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_SYOKUDO01A );
+
+// 	RFI( RULE_LEFTRIGHT );
+// 特殊な画面変更。暫定的に。
+
+#sp,bgm,BGM_KANASHIMI
+
+#sp,env,S_Gaya03#,(vl),3
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_SYOKUDO01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+いつも賑やかな食堂にやってきた。
+$k
+
+&empty
+中はもちろん、
+テラス席にも…桜子は見あたらない。
+$k
+
+&empty
+有河もみいちゃんも居ないし、
+食堂には来ていないかもしれないな。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#sp,se,S_Dash02o
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_LEFTRIGHT );
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_GK_ROKA01A );
+// 	SS( CENTER, KOZUE_0201IK );
+
+// 	RFI( RULE_LEFTRIGHT );
+
+// KOZUE_0201IK
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01IK.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,03100004
+山之辺こずえ
+「こらぁー、廊下は走らないのっ！」
+$k
+
+優
+「ごめんなさーい！」
+$k
+
+#hide
+
+#sp,se,S_Dash02o
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_LEFTRIGHT );
+// 	RFI( RULE_LEFTRIGHT );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+先生の注意と空腹と戦いながら、
+校舎の廊下をぐるりと回ってみた。
+$k
+
+&empty
+でも、居ない。
+$k
+
+優
+「あいつ何処に行ったんだ？
+　校舎には居ないのか？」
+$k
+
+&empty
+こうなったら、高いところからでも探してみるか。
+$k
+
+#hide
+
+#ss,bgm
+
+#sp,se,S_Dash02o
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_LEFTRIGHT );
+// 	WaitSE( -1 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_OKUJYO01A.jpg,(s),100%
+#ig
+
+// 	SV( BG_GK_OKUJYO01A );
+
+#sp,se,S_Wind02
+
+// 	WaitSE( -1 );
+
+#show
+
+優
+「……寒い」
+#meffect,flow,5
+$k
+
+&empty
+そりゃそうだ。
+もう冬だもんな、屋上は風もあるし。
+$k
+
+&empty
+こんな寒い所、誰も居るわけもないと思うが、一応…。
+$k
+
+// ISAKI_0201MU
+
+#sp,vo,03010007
+勇樹
+「はむ、んぐ………」
+#meffect,flow,5
+$k
+
+&empty
+１人、居た！
+$k
+
+&empty
+しかも、あんなフェンスの近くでパン食ってる！
+寒くねぇの？　風吹いてるぞ。大丈夫なのか？
+$k
+
+#sp,bgm,BGM_ISAKI
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KB.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+優
+「よう、宮津橋。
+　こんなところで食ってると、風邪ひくぞ？」
+$k
+
+// 	SS( CENTER, ISAKI_0201KB, MOVE_LEFT, NORMAL );
+// ISAKI_0201KB
+
+#sp,vo,03010008
+勇樹
+「………矢崎か、
+$nw,2100
+
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#madd,ふん」
+
+$k
+
+&empty
+相変わらずだな…。
+$k
+
+優
+「なあ？」
+$k
+
+// ISAKI_0201MU
+#sp,vo,03010009
+勇樹
+「………」
+#meffect,flow,5
+$k
+
+優
+「桜子見なかったか？」
+$k
+
+// ISAKI_0201MU
+#sp,vo,03010010
+勇樹
+「さあな」
+$k
+
+優
+「そうか」
+$k
+
+// ISAKI_0201KB
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010011
+勇樹
+「…お前が悪いな」
+$k
+
+優
+「えええ？　なんで俺？
+　しかもいきなり？」
+$k
+
+// ISAKI_0201NR
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010012
+勇樹
+「当然だろう」
+$k
+
+優
+「……お前、何か知ってんのか？」
+$k
+
+// ISAKI_0202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010013
+勇樹
+「いや、なにも知らん。
+$nw,2500
+
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),60%
+#ig
+
+
+　それでもお前が悪いに決まっている」
+$k
+
+優
+「何故そこで決めつける」
+$k
+
+&empty
+しかし、どいつもこいつも、なんなんだ。
+俺が何をしたって言うんだ。
+$k
+
+&empty
+…まだ何もしてねぇのに。
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010014
+勇樹
+「どうでもいい。
+　私には関係ないしな」
+$k
+
+&empty
+そんな宮津橋には言われたくないなあ…。
+$k
+
+優
+「そっか……じゃああいつは一体、
+　何処に居るんだ？」
+$k
+
+// ISAKI_0202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010015
+勇樹
+「………」
+#meffect,flow,5
+$k
+
+優
+「あ、悪かったな、昼飯の邪魔して。
+　そのうち店に客で行くから許してくれよ？」
+$k
+
+// ISAKI_0202MU
+#sp,vo,03010016
+勇樹
+「来なくていい」
+$k
+
+優
+「そ、そうか、じゃあな」
+$k
+
+#hide
+
+#sp,se,S_Walk01o
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	WaitSE( -1 );
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#hide
+
+// 	SV( BG_GK_OKUJYO01A );
+
+#sp,bgm,BGM_SABISHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_OKUJYO01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#show
+
+// ISAKI_0201NO
+
+#sp,vo,03010017
+勇樹
+「……行ったぞ？」
+$k
+
+// SAKURAKO_0203KM
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KM.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ig
+
+#sp,vo,03000322
+桜子
+「…あ、気付いてたんだ、ここに居るの」
+$k
+
+// ISAKI_0202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010018
+勇樹
+「何か悩み事か？」
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000323
+桜子
+「別に……
+$nw,1000
+
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+　…あんたからそういう言葉が
+　出てくるとは思わなかったわ」
+$k
+
+// ISAKI_0202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010019
+勇樹
+「……そうだな。
+$nw,1500
+
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ig
+
+　で、何か気にしてる事でもあるのか？」
+$k
+
+// SAKURAKO_0201KN
+#ir
+#ip,c3,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01KN.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000324
+桜子
+「べ……べっつにぃー」
+#meffect,flow,5
+$k
+
+// ISAKI_0202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010020
+勇樹
+「………そうか…」
+$k
+
+// SAKURAKO_0202NR
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NR.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000325
+桜子
+「…なによ？」
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010021
+勇樹
+「……なにも。
+$nw,1260
+
+　好きにすればいい…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+結局、昼休みの間に、
+桜子を見つける事は出来なかった。
+$k
+
+&empty
+帰りも桜子の教室を覗いたが、
+そこにもあいつの姿は無かった。
+$k
+
+&empty
+もしかして俺、避けられてる…？
+$k
+
+&empty
+んなわけないよな。
+桜子の性格からそれは考えられない。
+$k
+
+#sp,se,S_Knock03
+
+// 	WaitSE( -1 );
+
+#sp,vo,03030067
+みい
+「お兄様、私です…」
+$k
+
+優
+「あ、みいちゃんか」
+$k
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door09o
+
+// 	WaitSE( -1 );
+// 	SS( CENTER, MII_0403KM3, MOVE_LEFT, MOVE_LEFT, NORMAL )
+// MII_0403KM3
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,03030068
+みい
+「お夕飯の支度が調いましたので、
+　どうぞお越し下さい…」
+$k
+
+
+#next,03sakurako08_02
