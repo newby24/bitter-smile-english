@@ -1,0 +1,722 @@
+﻿// 既読フラグ
+#read_flag,132
+
+// セーブタイトル
+#flag,save_title,みい　第４話,0,0
+
+// みい好感度＋１。
+#flag,per,3,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TEIBO02A );
+
+#sp,bgm,BGM_MII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO02A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第４話　その犬、ユウ
+$k
+#note,erase
+
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,05030172
+みい
+「お兄様」
+$k
+
+// 	SS( CENTER, MII_0201NO );
+
+優
+「あ、みいちゃん」
+$k
+
+// MII_0201KY2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030173
+みい
+「今、お帰りですか」
+$k
+
+優
+「おう。帰り道で一緒になるってなにげに珍しいね」
+$k
+
+// MII_0203KM
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030174
+みい
+「そうですね。
+　…お兄様に前を横切られるとは縁起の悪い」
+$k
+
+//	SetIconTameiki( CENTER );
+
+優
+「俺は黒ねこなのか」
+$k
+
+//	SetIconTameiki( CENTER );
+// MII_0203AD3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030175
+みい
+「私、その話を聞くたび、
+　クロねこさんが不憫で不憫で…」
+$k
+
+優
+「俺のことも少しは考えようよ…」
+$k
+
+&empty
+不平を言いながらも、
+みいちゃんの横に並んで歩く。
+$k
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030176
+みい
+「学園祭が終わって、お兄様はいよいよ受験ですね」
+$k
+
+//	SP( "K_Shock01" );
+//	SK2( NORMAL );
+
+優
+「また、さらに縁起の悪い話題を…」
+$k
+
+// MII_0202NO
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030177
+みい
+「縁起が悪いだなんて、お兄様ほどのお方が」
+$k
+
+// MII_0201KY2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030178
+みい
+「あら、手が滑って、鞄を落としてしまいました」
+$k
+
+//	SP( "K_Shock01" );
+//	SK2( NORMAL );
+優
+「たった今、縁起が悪くなった…」
+$k
+
+&empty
+サクラチル…
+って、そんな神経質な性格でもないと思うけど。
+$k
+
+優
+「ほら、まだ秋祭りがあるし」
+$k
+
+// MII_0203EG
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030179
+みい
+「では秋祭りが終わったら受験ですね」
+$k
+
+優
+「ク、クリスマスだって…！」
+$k
+
+// MII_0203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030180
+みい
+「その頃にはセンターまで１ヶ月ありませんが」
+$k
+
+// 	//三木：空の絵がどんなんかわからんけど夕日がまぶしい感じのエフェクト作ろう
+
+
+#sp,se,T_ti-n01
+
+// 	Flash( 50, 40 );
+
+// 	SV( BG_SKY02A );
+
+#ir
+#ip,bg,(fi),BG_SKY02A.jpg,(s),100%
+#ig
+
+// 	WaitSE();
+// 	Flash( 50, 0 );
+
+優
+「…俺の首を絞めるの、楽しい？」
+$k
+
+&empty
+現実逃避も許されなかった。
+$k
+
+// 	SV( BG_MT_TEIBO02A );
+// 	SS( CENTER, MII_0203NO );
+
+#ir
+#ip,bg,(fi),BG_MT_TEIBO02A.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+// MII_0203NO
+#sp,vo,05030181
+みい
+「これもお兄様を思っての発言ですよ。
+　我が家の受験生は、自覚がなさすぎますから」
+$k
+
+優
+「まだ普通に応援してくれた方がさ」
+$k
+
+// MII_0203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030182
+みい
+「普通ですか」
+$k
+
+//	SetIconKyakya( CENTER );
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030183
+みい
+「床におでこをこすりつけたら、
+　お夜食くらいは考えてあげてもいいですよ」
+$k
+
+優
+「達成条件が厳しいな！」
+$k
+
+&empty
+普通にも個人差があるようだ。
+$k
+
+// MII_0203NO2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030184
+みい
+「ま、浪人になって、
+　我が家に居残るというのもひとつの手ですが」
+$k
+
+優
+「みんなの視線に耐えられそうにない…」
+$k
+
+&empty
+特に雪華ちゃんの。
+$k
+
+優
+「頑張るしかないか…雪華ちゃんのために」
+$k
+
+// MII_0203MU
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030185
+みい
+「雪華さんもいい迷惑でしょうね」
+$k
+
+優
+「…でも勉強ってめんどくさいんだよなぁ」
+$k
+
+//	SetIconAse( CENTER );
+// MII_0203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030186
+みい
+「そういう問題ではない気もしますが…」
+$k
+
+// MII_0201NO
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030187
+みい
+「とはいえ、私に協力できることがあれば
+　遠慮なく言ってください」
+$k
+
+優
+「え？」
+$k
+
+// MII_0201BS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030188
+みい
+「できることは多くありませんが、
+　お手伝いくらいさせていただきますから」
+$k
+
+優
+「みいちゃん…」
+$k
+
+
+#hide
+
+#sp,se,T_kirakira
+
+#ir,(dr),1000
+#ip,bg,(fi),image\etc\bacouple_background.jpg,(s),100%,(y),0
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),c,(s),100%,(y),-30
+#ig
+
+// 	SetObject( 0, "bacouple_background.png", 0, 0 );
+// 	SetObject( 1, "mii_megamiefect.png", 0, 0 );
+
+// 	Flash( 50, 30 );
+
+// 	RadialLine( 50, 20, 400, 300, 250, 500, 50, 100, 100, 255, 255, 255 );
+
+#show
+
+&empty
+まさか君の口から、そんな言葉が聞けるとはっ…。
+$k
+
+// MII_0201KS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KS.png,(x),c,(s),100%,(y),-30
+#ig
+
+#sp,vo,05030189
+みい
+「床とキスする覚悟ができたらいつでもどうぞ」
+$k
+
+// 	RadialLine( 0 );
+// 	Flash( 0, 0 );
+// 	SK2();
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,bg,(fi),BG_MT_TEIBO02A.jpg,(s),100%,(er),NO
+#ip,c1,(x),c,(s),60%
+#ig
+
+優
+「それはやらせるんだ！？」
+$k
+
+&empty
+ちょっとじんときたのに、台無しです。
+$k
+
+//	SetIconExcl( CENTER );
+// MII_0201KY2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030190
+みい
+「勉強でしたら、こういうのはどうでしょう」
+$k
+
+優
+「なに？」
+$k
+
+// MII_0202NO
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030191
+みい
+「私が勉強でわからないところを、
+　お兄様が答えることで復習されるとか」
+$k
+
+優
+「…それ、主にみいちゃんが得するだけでしょ。
+　出題範囲が１年の冬までって偏りすぎてるし」
+$k
+
+// MII_0203TR3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03TR3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030192
+みい
+「ｓｔｕｄｙ
+　ｏｆ　ｔｈｅ　ｙｏｕ，
+　ｂｙ　ｔｈｅ　ｙｏｕ，ｆｏｒ　ｔｈｅ　ｍｅ」
+$k
+
+優
+「俺の俺によるみいちゃんのための勉強！？」
+$k
+
+// MII_0203SN
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030193
+みい
+「元ネタは気になさらないでください。
+　そもそもあの大統領も引用ですし」
+$k
+
+優
+「大統領の次がみいちゃんって、スケールでかいな…
+　って、そんな話じゃなくてね？」
+$k
+
+// MII_0203NO2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030194
+みい
+「私は私のためになればそれで」
+$k
+
+優
+「うわ、なんて邪悪なんだ…」
+$k
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030195
+みい
+「生きることは持ちつ持たれつ。
+　頼れる相手がいるというのは幸せなことですね？」
+$k
+
+優
+「いや、そうかも知れないけどね…」
+$k
+
+&empty
+いい事を言ってるのに、ちっともそう聞こえないのは
+なぜだろう。
+$k
+
+優
+「わからないとこあるなら桜子に聞きなよ。
+　…むしろ、俺も桜子に勉強教えてもらうか」
+$k
+
+//	SetIconExcl( CENTER );
+// 	FadeVisual( 50, 50 );
+
+// MII_0203IK2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030196
+みい
+「（ぴく）お兄様が姉上と…？」
+#msmall
+$k
+
+優
+「いや、でも桜子が何て言うかな」
+$k
+
+// MII_0203FK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030197
+みい
+「………」
+#msmall
+$k
+
+優
+「あいつの苦手科目を俺が埋めてやれば…」
+$k
+
+// 	FadeVisual( 50, 100 );
+
+// MII_0203IK2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030198
+みい
+「他人の足を引っ張ることばかり考えてないで、
+　独力で頑張った方がよろしいのでは？」
+$k
+
+優
+「さっきと言ってることが違わない？」
+$k
+
+// MII_0203AK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030199
+みい
+「その二本の足は何の為に付いているのですか」
+$k
+
+優
+「俺の受験勉強に使わないことは確かだけど」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+//	SetSubTitle();		//章タイトル表示
+//	SetSubTitleEx( 1 );
+//夕方
+// 	SV( BG_MT_TSUGAKURO02A );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO02A.jpg,(s),100%
+#ig
+
+#sp,se,S_Dog01
+
+#wait,2000
+
+#show
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「うわ！？」
+$k
+
+// 	Shake( SLOW, SHAKE_RANDOM|SHAKE_SCREEN, 10, 6 );
+
+&empty
+突然の吠え声に驚く。
+$k
+
+&empty
+見ると、柵に首輪で繋がれた犬が、
+こちらにしっぽを振っていた。
+$k
+
+// 	SS( CENTER, MII_0203NO );
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030200
+みい
+「さすがはお兄様。
+　犬に吠えられることでは他の追随を許しませんね」
+$k
+
+優
+「それ褒めてないから。
+　認識自体、間違ってるし」
+$k
+
+// MII_0203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030201
+みい
+「既成事実は大切ですよね」
+$k
+
+優
+「俺がそんなに吠えられてるとこ見たことあったっけ？」
+$k
+
+// MII_0203NO2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030202
+みい
+「一事が万事とも言いますし」
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「ごめんなー。
+　大声出して驚かせちゃったか？」
+$k
+
+&empty
+より話の通じそうな犬に、会話の相手をチェンジする。
+$k
+
+優
+「飼い主は買い物に行ってるパターンかな？」
+$k
+
+// MII_0203KD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030203
+みい
+「あら、ユウ」
+$k
+
+#sp,se,T_Dog01
+
+優
+「なに突然？
+　俺、なんかした？」
+$k
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030204
+みい
+「いえ、そうではなくて。
+　この方、三丁目に住んでる佐藤さんちのユウですね」
+$k
+
+優
+「またややこしい名前を犬に…」
+$k
+
+// MII_0203EG
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030205
+みい
+「ユウはだらしないけど、いい子なんですよ。
+　私、ユウが大好きです」
+$k
+
+優
+「ああ、そうなんだ…」
+$k
+
+&empty
+なんか微妙な気分。
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// MII_0203EG3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030206
+みい
+「ほら見てください、ユウの顔。
+　年中このアホ面なんですよ。
+　かわいいですよねー」
+$k
+
+優
+「アホ面って…みいちゃんほんとは嫌いなんじゃ…」
+$k
+
+
+#next,05mii04_01

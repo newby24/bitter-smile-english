@@ -1,0 +1,432 @@
+﻿// 既読フラグ
+#read_flag,183
+
+// セーブタイトル
+#flag,save_title,みい　エピローグ,0,0
+
+// 	SV( BG_SKY01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+// 	ShowFace(); 
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　エピローグ～これからも、ずっと
+$k
+#note,erase
+
+#flag,mode,novel,0,0
+
+//	SW();
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+３月上旬。
+#mstyle,(co),その他
+
+#malign,c
+#meffect,fade,500
+
+$k
+
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+俺達が結ばれたあの日から、丸２年という月日が経った。
+#mstyle,(co),その他
+
+#malign,c
+#meffect,fade,500
+
+$k
+
+//	DW();
+// 	SV( BG_TD_IMA01A );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ig
+
+// SAKURAKO_0101NO
+
+#sp,vo,05000122
+
+&empty
+&empty
+
+　　　　「お姉、お婆ちゃん、用意まだなのーっ？」
+#mstyle,(co),桜子
+
+#meffect,fade,500
+
+$k
+
+
+#sp,vo,05020063
+
+&empty
+&empty
+&empty
+&empty
+
+「忘れ物無いわよね。ビデカメは持った？」
+#mstyle,(co),要
+
+#meffect,fade,500
+
+$k
+
+
+// SAKURAKO_0101NO
+#sp,vo,05000123
+
+&empty
+&empty
+
+　　　　　　　　　　　　「ちゃんと持ったわよっ」
+#mstyle,(co),桜子
+
+#meffect,fade,500
+
+$k
+
+// KINO_0401NO
+
+#sp,vo,05060017
+
+&empty
+&empty
+&empty
+&empty
+&empty
+&empty
+
+「カメラもあるで。…ほな行こか」
+#mstyle,(co),その他
+
+#malign,c
+#meffect,fade,500
+
+$k
+
+
+// KANAME_0101NO
+#sp,vo,05020064
+
+&empty
+&empty
+&empty
+&empty
+
+「優君は？　一緒に行くんだったよね？」
+#mstyle,(co),要
+
+#meffect,fade,500
+
+$k
+
+
+// SAKURAKO_0101NO
+#sp,vo,05000124
+
+&empty
+&empty
+
+　　　　「もう表に来てるって。
+#mstyle,(co),桜子
+
+#meffect,fade,500
+
+$nw,1750
+
+　　　　　たぶん千寿の前で待ってんじゃないかな」
+
+#mstyle,(co),桜子
+
+#meffect,fade,500
+
+$k
+
+#flag,mode,adv,0,0
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN01B.jpg,(s),100%
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+// SAKURAKO_0402EG2
+
+
+#sp,vo,05000125
+桜子
+「優―――！　お待たせー」
+$k
+
+優
+「お、おう」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402EG2, MOVE_LEFT, FAST );
+//	Shake( 0, SHAKE_LEFT|SHAKE_WINDOW, 4, 5 );
+
+// SAKURAKO_0402AS
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05000126
+桜子
+「ぎゃあああ！？」
+#mlarge
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「か、髪型どうだ？
+　アダルトにキメてみたんだが」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402AK );
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000127
+桜子
+「どこのホストよ！
+　しかもオールバックって…１０年早いわよっ。
+$nw,6040
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+　こんな髪、こうしてやるっ」
+$k
+
+#sp,se,T_tukamu
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	SS( CENTER, SAKURAKO_A402IK4, MOVE_DOWN, NORMAL );
+// 	ZoomStand( CENTER, 30, 130, 130, 0, 1 );
+
+#sp,se,S_Gasagoso01
+
+優
+「ぐわー！
+　てめぇ、俺が２時間かけてセットした髪に
+　なんて事するんだー！」
+$k
+
+// SAKURAKO_A402IK4
+#sp,vo,05000128
+桜子
+「こんなカッコで行ったら、みいに愛想尽かされるわよっ。
+　アンタって、ほんっとバカなんだからっ」
+$k
+
+#hide
+
+#sp,se,T_pop
+
+#wait,2000
+
+// 	WaitSE();
+
+// SAKURAKO_A402EG
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN01B.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,se,S_Pirorin
+
+#show
+
+#sp,vo,05000129
+桜子
+「これで良しっ」
+$k
+
+// 	ZoomStand( CENTER, 30, 100, 100 );
+
+優
+「うう……俺の努力が……」
+$k
+
+&empty
+せっかくキメたのに。
+ニワトリの尻尾みたいにぴんぴんに
+跳ねちゃったじゃないか。
+$k
+
+優
+「しかも鏡がないから、ちっとも分からん！
+　やっぱり自分でセットし直して……」
+$k
+
+// 	SS( RIGHT, KANAME_0401NO4 );
+
+// KANAME_0401NO4
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO4.png,(x),r2,(s),80%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\hirameki.png,(x),820,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,05020065
+要
+「あら、こっちの方が断然いいんじゃない？
+　今風で格好いいわよ」
+$k
+
+優
+「…要さんが言うなら、いっか」
+$k
+
+&empty
+うん、格好いいなら万事良しだ。
+$k
+
+//	SetIconIkari( CENTER );
+// SAKURAKO_A402IK5
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05000130
+桜子
+「おのれ～…」
+$k
+
+// KANAME_0401NO3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,05020066
+要
+「卒業式まで時間ないわよ、急ぎましょ」
+$k
+
+優
+「あ、はい」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SetSubTitle();		//章タイトル表示
+//	SetSubTitleEx( 0 );
+// 	SV( BG_SKY01A );
+
+//#sp,env,#Walk01_A
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#sp,env,#Walk06_A
+
+#show
+
+&empty
+俺達はちょっと急ぎ足で、
+久しぶりの学園への道を歩いていく。
+$k
+
+&empty
+今日は俺達の代の二つ後輩…、
+つまり、みいちゃんや有河の卒業式だ。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KOMON01E );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KOMON01E.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+私立鶴ヶ丘学園。
+$k
+
+&empty
+少し前まで通っていたところなのに、
+とても懐かしく感じる。
+$k
+
+&empty
+駐輪場には自販機があったりだとか、
+食堂のランチはまあまあ美味かったとか…。
+$k
+
+
+#next,05mii17_01

@@ -1,0 +1,771 @@
+﻿// 既読フラグ
+#read_flag,352
+
+// 	SS_(LEFT, MII_0201KY, MOVE_STOP, NORMAL); 
+
+// 	SS(RIGHT, MEGUMI_0201KT5, MOVE_STOP, NORMAL); 
+
+優
+「要さ………」
+$k
+
+#ss,bgm
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「ぁああああ…っ！？」
+#mlarge
+$k
+
+// MEGUMI_0201OD
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01OD.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070011
+めぐみ
+「え…？」
+$k
+
+// 	SetIconHeart( LEFT );
+
+// MII_0201BS
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030021
+みい
+「まあ…▼」
+$k
+
+// 	SV( BG_SKY01A );
+// 	DelStandAll();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+&empty
+…………。
+#meffect,flow,2
+$k
+
+&empty
+時が、止まった。
+$k
+
+&empty
+…のみならず、身体中の血液が、
+さーっと凍りついていくような感覚。
+$k
+
+&empty
+一部例外はいるみたいだけど、
+唖然呆然とは、きっとこんな時に言うのだろう。
+$k
+
+&empty
+だって、そこにいたのは…。
+$k
+
+#hide
+
+// 	SV( VISUAL_KANAME_02A );
+
+#flag,cg,32,=,1
+
+#ir,(dr),200
+#ip,bg,(fi),VISUAL_KANAME_02A.jpg,(s),100%,(x),c,(y),c
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,bg,(s),75%,(x),c,(y),def
+#ig
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig,(se),S_Fanfare01
+
+// 	ZoomCrossFade(FAST, 130, 130);
+
+#sp,bgm,BGM_COMICAL1
+
+#show
+
+#sp,vo,06020118
+要
+「どう？　似合う？　似合うかな？」
+$k
+
+優
+「か、かな…」
+#meffect,flow,2
+$k
+
+// MEGUMI_0201KM3
+
+#sp,vo,06070012
+めぐみ
+「え、え～っとぉ…」
+#meffect,flow,5
+$k
+
+// MII_0201NO
+
+#sp,vo,06030022
+みい
+「…ないすです。お姉さま」
+$k
+
+&empty
+要さんだった。
+$k
+
+&empty
+…ちょっとサイズの合ってない体操服に身を包んだ。
+$k
+
+#sp,vo,06020119
+要
+「最初はどうかな～って思ったんだけど…」
+$k
+
+#sp,vo,06020120
+要
+「バッグに入ってるの見たら、
+　これは挑戦状だわって気づいてね」
+$k
+
+#sp,vo,06020121
+要
+「わたしも捨てたもんじゃないっていうか、
+　まだまだ現役っていうか……
+$nw,6310
+
+　ど、どうかな？」
+
+$k
+
+優
+「……えーと、いえ…その…」
+#meffect,flow,2
+$k
+
+&empty
+いや、確かにまだまだ要さん、全然イケてるんだけど…。
+$k
+
+&empty
+これはさすがにちょっと…マニアックというか…。
+それになにより…。
+$k
+
+優
+「まず、その…サイズが……」
+#meffect,flow,2
+$k
+
+#ir
+#ip,bg,(fi),BG_GK_TENNIS01A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A803.png,(psi),KANAME_An03BS.png,(x),c,(s),60%
+#ig
+
+&empty
+なんとなく目線を外してしまう。
+$k
+
+// 	SV( BG_GK_TENNIS01A );
+// 	SS( CENTER,KANAME_0803BS );
+
+// MEGUMI_0201KM3
+
+#sp,vo,06070013
+めぐみ
+「うん…おへそ出てるね。完璧に」
+#meffect,flow,5
+$k
+
+// KANAME_0803KT
+#ir
+#ip,c1,(fi),KANAME_A803.png,(psi),KANAME_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020122
+要
+「…え？」
+$k
+
+// MII_0203EG
+
+#sp,vo,06030023
+みい
+「素敵です、さすがは敬愛する要お姉様」
+$k
+
+優
+「そこはちゃんと敬愛なんだ…」
+$k
+
+&empty
+計算ずく。
+鬼子か、この娘は。
+$k
+
+// MII_0203EG3
+
+#sp,vo,06030024
+みい
+「ほらほら、お兄様、サービスショットですよ」
+$k
+
+優
+「い、いや、だからあのね…」
+#meffect,flow,5
+$k
+
+// KANAME_0801OD3
+#ir
+#ip,c1,(fi),KANAME_A801.png,(psi),KANAME_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020123
+要
+「って…あ、れ…？
+　ひょっとして、ちょっとこれ、露出が…」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+要さんが、こちらの視線に気づいたように、
+みるみると動きを錆び付かせていく。
+$k
+
+&empty
+いや、ちゃんとは見てないんだけど。
+$k
+
+// MEGUMI_0201KM3
+#sp,vo,06070014
+めぐみ
+「優ちゃんにはちょっと刺激が強いかも？」
+$k
+
+// KANAME_0801OD5
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A801.png,(psi),KANAME_An01OD5.png,(x),c,(s),60%
+#ig
+
+#sp,se,S_Basa01
+
+#ir,(dr),500,(ef),move
+#ip,c1,(y+),100,(al),0%
+#ig
+
+#sp,vo,06020124
+要
+「ええぇぇぇええええ～～～！！？」
+#mlarge
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+&empty
+要さんが、その場にしゃがみこんで、
+亀のように丸くなる。
+$k
+
+// KANAME_0803AY
+
+#sp,vo,06020125
+要
+「うそーっ！　うそーっ！
+　優君、見なかったことにして！
+　記憶から抹消して～！！」
+$k
+
+優
+「…その……すみません」
+#meffect,flow,5
+$k
+
+// KANAME_0803AY
+#sp,vo,06020126
+要
+「なんで謝るのよ～～っ！！」
+$k
+
+&empty
+抹消できそうになかった。
+$k
+
+// 	SS_( LEFT,MII_0201KY2 );
+
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK.png,(x),r,(s),60%
+#ig
+
+// 	SS( RIGHT,MEGUMI_0201KM3 );
+
+// MEGUMI_0201KM3
+#sp,vo,06070015
+めぐみ
+「なんで体操服？」
+$k
+
+// MII_0201KY2
+#sp,vo,06030025
+みい
+「時期的にスクール水着が
+　用意できませんでしたので」
+$k
+
+優
+「その答えはなんか違うでしょ」
+$k
+
+// MII_0201NO
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030026
+みい
+「申し訳ございません。
+　スク水でしたね、スク水」
+$k
+
+優
+「略すとかじゃなくって」
+$k
+
+// MEGUMI_0201IK
+
+#sp,vo,06070016
+めぐみ
+「そう、優ちゃんはこう言っているの。
+$nw,3190
+
+　調理準備室に裸エプロンがあっただろって」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「裸エプロンというエプロンはない！」
+$k
+
+// MII_0201NO
+#sp,vo,06030027
+みい
+「はだエロですね、はだエロ」
+$k
+
+優
+「無理して略した上に何かいびつだ！？」
+$k
+
+&empty
+キリがなかった。
+$k
+
+// MII_0203EG
+#ir
+#ip,c2,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030028
+みい
+「しかしお兄様…。
+　これがお兄様の、
+　最後の学園祭の思い出になるんですね…」
+$k
+
+優
+「この場面で、しみじみその台詞！？」
+$k
+
+&empty
+いや、一番の問題は、
+勢いで着ちゃった要さんなんだろうけど。
+$k
+
+// KANAME_0803GN3
+
+#sp,vo,06020127
+要
+「しくしくしくしく…」
+$k
+
+&empty
+さて、この場をどうフォローしたものか…。
+$k
+
+#ss,bgm
+
+#sp,vo,06100000
+？？？
+「こら～！」
+$k
+
+// 	SS(LEFT, MII_0203KD, MOVE_STOP, NORMAL);
+// 	SS_(RIGHT, MEGUMI_0201KT6, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT6.png,(x),r,(s),60%
+#ip,c2,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),l,(s),60%
+#ig
+
+優
+「…え？」
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070017
+めぐみ
+「まだ誰か増えるの？」
+$k
+
+// MII_0201OD2
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01OD2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030029
+みい
+「いえ、あれは…」
+$k
+
+優
+「…マジでやばいんじゃ？」
+$k
+
+#ir
+#ie,c2,c3
+#ig
+
+&empty
+と言ったときには、
+声の主はすぐ近くまできていた。
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+// 	SS(CENTER, KOZUE_0201MJ2, MOVE_LEFT, NORMAL);
+
+// KOZUE_0201MJ2
+#ir,(ef),off
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01MJ2.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,06100001
+山之辺
+「誰かと思えば…
+　矢崎くんに沖奈さんじゃない」
+$k
+
+// MEGUMI_0201KM
+
+#sp,vo,06070018
+めぐみ
+「や、山之辺先生…」
+#meffect,flow,5
+$k
+
+#sp,vo,06020128
+要
+「…っ！？」
+$k
+
+&empty
+さっきまでさめざめと泣き崩れていた要さんが、
+びくっと反応したのが、気配でわかった。
+$k
+
+// KOZUE_0201IK2
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100002
+山之辺
+「なにしてるの、こんなところで？」
+$k
+
+&empty
+生徒でなく、職員に見つかったのは
+運が悪かった。
+$k
+
+// KOZUE_0201IK
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100003
+山之辺
+「ＨＲで伝えたでしょう？
+$nw,2290
+
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01IK2.png,(x),c,(s),60%
+#ig
+
+
+　学園祭で校内開放中は外部の方がみえるから、
+　混乱防止のため、範囲外には極力立ち入り禁止って」
+$k
+
+優
+「はい…」
+$k
+
+// KOZUE_0201AK2
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100004
+山之辺
+「まさか私のクラスから、
+　約束を守れない子が二人も出るなんて…」
+$k
+
+// KOZUE_0201KS2
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01KS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100005
+山之辺
+「学園祭で羽目を外したい気持ちは、
+　わからないでもないけどね」
+$k
+
+// MEGUMI_0201KM8
+
+#sp,vo,06070019
+めぐみ
+「すみません…」
+$k
+
+優
+「じゃあ俺たち反省しつつ、
+　速やかにここを出て行きますので」
+$k
+
+// KOZUE_0201IK
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100006
+山之辺
+「待ちなさい」
+$k
+
+// 	SS(CENTER, KOZUE_0201IK, MOVE_STOP, NORMAL);
+
+優
+「う…」
+#meffect,flow,5
+$k
+
+&empty
+さりげないフェードアウトを心掛けるも、
+あっさり引き止められる。
+$k
+
+// KOZUE_0201IK2
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100007
+山之辺
+「一応、全員の名前だけ確認しておくわ。
+$nw,3740
+
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01BS2.png,(x),c,(s),60%
+#ig
+
+　あなたは一年生の轟木さんよね？」
+$k
+
+// MII_0201KS
+
+#sp,vo,06030030
+みい
+「相違ありません」
+$k
+
+優
+「じゃあ全員身元も判明したところで…」
+$k
+
+// KOZUE_0201IK2
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100008
+山之辺
+「そっちの体操服のあなたは？」
+$k
+
+// 	SS_(LEFTEDGE, KANAME_A801KU4, MOVE_STOP, SLOW);
+// 	MoveStand(LEFTEDGE, FASTEST, 40, 0);
+// 	WaitStand( LEFTEDGE );
+
+#ir
+#ip,c3,(fi),KANAME_A801.png,(psi),KANAME_An01KU4.png,(x),l3,(s),80%
+#ig
+
+#sp,vo,06020129
+要
+「………」
+#meffect,flow,5
+$k
+
+&empty
+やばい…
+$k
+
+&empty
+要さんの身元が割れる。
+$k
+
+&empty
+それだけならまだしも、
+今の状況では要さんの名誉が
+いろいろマズイ感じに…。
+$k
+
+優
+「先生…全員反省してますから、
+　ここはひとつ穏便に…」
+$k
+
+// KOZUE_0201MJ
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100009
+山之辺
+「なに？　かばってるの？」
+$k
+
+優
+「いや、まぁ…」
+$k
+
+// KOZUE_0201BS
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100010
+山之辺
+「大丈夫よ、内申に響いたりしないから」
+$k
+
+&empty
+先生は、体操服の要さんを、
+完全にうちの生徒だと思っているらしい。
+$k
+
+&empty
+そりゃそうだ。
+$k
+
+&empty
+一方の要さんは、
+顔が見えないよう陰にしてるけど、
+これ以上、先生が近づいたら危ない。
+$k
+
+#ir
+#ie,c3
+#ig
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+やるしかない…！
+$k
+
+#sp,se,S_Nuno02
+
+&empty
+俺は学生服の上着を素早く脱ぐと、
+$k
+
+#ss,bgm
+
+優
+「先生ごめんっ！」
+#mlarge
+$k
+
+// 	Zoom(FAST, 150, 150, 400, 300-120);
+// 	SS_(CENTER, KOZUE_0201KD);
+
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100011
+山之辺
+「えっ…
+$nw,580
+
+#sp,bgm,BGM_COMICAL1
+
+#sp,se,S_Air01
+
+#ir,(dr),500,(ef),move
+#ip,c1,(y+),100,(al),0%
+#ig
+
+　きゃあっ！？」
+$k
+
+//#sp,se,S_Nuno02
+
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+// 	// 和田：そして布でくるんでるので顔グラは出しません。
+
+&empty
+先生の頭に、上着を覆い被せた。
+$k
+
+#sp,vo,06100012
+山之辺
+「ちょっ、ちょっとぉっ！？」
+$k
+
+
+#next,06kaname03_02

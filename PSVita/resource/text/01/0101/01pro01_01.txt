@@ -1,0 +1,705 @@
+﻿// 既読フラグ
+#read_flag,11
+
+&empty
+いつからだろうか、俺の事を『お兄様』と呼んでいて。
+$k
+
+&empty
+気付いた時にはもう俺に懐いていた様な気はする。
+$k
+
+&empty
+いやしかし…、
+懐いているといって良いものかどうか、
+判断に困るところの多い子だ。
+$k
+
+&empty
+それは何故かというなら………扱いづらいというか、
+反応に困る懐き方をするから、というか。
+平気な顔して先程のような事を度々してくるから。
+$k
+
+&empty
+肉を切らせて骨を断つのが生き甲斐っぽい女の子だ。
+そういう所を除けばそれほど悪い気はしないのだけど。
+$k
+
+&empty
+そう思いたい。
+$k
+
+#hide
+
+// 	SV( BG_MT_NEWSYOTEN01A );
+// 	DelStandAll();
+// 	SS(LEFT, MII_0301NO);
+// 	SS(RIGHT, YUKIHA_0301AS3);
+
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01AS3.png,(x),r,(s),60%
+#ie,c2
+#ig
+
+#show
+
+// YUKIHA_0301AS3
+#sp,vo,01050006
+雪華
+「はは……みいちゃんも相変わらずだねぇ」
+$k
+
+#hide
+
+#ir,(dr),1000,(un),NO
+#ip,c2,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NO.png,(x),c,(s),100%
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),c,(al),50%
+#ie,c3
+#ig
+
+#show
+
+&empty
+この、目に入れても痛くない可愛い女の子。
+$k
+
+// 	SV( BG_MT_NEWSYOTEN01A );
+// 	FadeVisual(FASTEST, 50);
+// 	DelStandAll();
+// 	SS(CENTER, YUKIHA_A301NO);
+
+&empty
+俺の愛妹こと矢崎雪華。
+#mfuri,　　　　シスター　　　　　やざきゆきは
+
+妹キャラはこの実の妹一人で十分事足りている。
+$k
+
+&empty
+俺は彼女を雪華ちゃんと呼んでいるが、最近はもう
+お年頃で反抗期なのか、俺の相手もろくにしてくれない。
+$k
+
+&empty
+昔はお兄ちゃんお兄ちゃんと懐いてくれてたのに……。
+$k
+
+&empty
+『ウザい』とさえ言われる事もしばしばだが、
+それはきっと俺への愛情の裏返しなのだろう。
+そうに違いない。
+$k
+
+&empty
+俺の妹が俺の事を嫌うわけないからな！
+$k
+
+#hide
+
+#ss,bgm
+
+#ir
+#ie,c1,c2
+#ig
+
+#show
+
+&empty
+そして………
+#meffect,flow,5
+$k
+
+
+// 	SV( BG_MT_NEWSYOTEN01A );
+// 	DelStandAll();
+
+優
+「よう、久しぶり…だな。
+　元気だったか？」
+$k
+
+#sp,bgm,BGM_SAKURAKO
+
+// 	SS(CENTER, SAKURAKO_0301KN, MOVE_RIGHT, SLOW);
+// SAKURAKO_0301KN
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01KN.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,01000009
+？？？
+#mstyle,(co),桜子
+「んー。まあ元気なんじゃない…？
+$nw,3890
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+　んじゃ、さっさと次行こうか～」
+$k
+
+優
+「おいおい桜子さん、
+　久々に会った幼なじみに対して、なんでそんなに
+　そっけない態度なのよ？」
+$k
+
+// SAKURAKO_0302IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000010
+桜子
+「は？　
+$nw,1490
+
+　ああ…も～面倒臭いなぁ」
+
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0301NO
+#sp,vo,01000011
+桜子
+「優………久しぶり、元気にしてたかな。
+　また背が伸びたかな？　追い越されちゃったネ……
+$nw,9460
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+　ふぁ～～～ぁ、ねむ…」
+
+$k
+
+優
+「おーい、感動の再会だってのになんでそんなに
+　適当調なのさ、ヤル気無いのさ？」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000012
+
+桜子
+「ああ、もうっぶつぶつとうるさい男ねー。
+　遅れて来といて感動もへったくれも無いでしょーに。
+$nw,7070
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+　それよりあたし、急に眠くなってきたのよねー」
+$k
+
+&empty
+くっ……。
+$k
+
+優
+「にしても、もうちょっとなんかあるだろ、
+　こういう時、普通はよー」
+$k
+
+#hide
+
+#ir,(dr),1000,(un),NO
+#ip,c2,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR2.png,(x),c,(s),100%
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),c,(al),50%
+#ig
+
+#show
+
+&empty
+このいかにも、早くＨＲ終わらせて帰りたい！
+みたいなオーラを発してる赤毛の女の子。
+$k
+
+// 	SV( BG_MT_NEWSYOTEN01A );
+// 	FadeVisual(FASTEST, 50);
+// 	DelStandAll();
+// 	SS(CENTER, SAKURAKO_A301TR2);
+
+&empty
+姓を轟木、名を桜子という。
+#mfuri,　　　　とどろき　　　　　　さくらこ
+
+$k
+
+&empty
+轟木三姉妹の次女であり、
+俺の幼なじみにして、昔から親しい友人であり、
+$k
+
+&empty
+……というか親友、………のような？
+$k
+
+&empty
+昔は色々あったけどもさ、今も友達だよね俺達？
+$k
+
+&empty
+まあ、今は眠くて機嫌悪い、みたいなノリだけど、
+普段は気さくで面倒見のいい奴なんだよ。
+$k
+
+#hide
+
+#ss,bgm
+#ss,env
+
+// 全面黒と背景画像読み込み。
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NICHIJYO
+
+// 	SV( BG_MT_JINJYAMICHI01A );
+
+#sp,env,S_Town01#
+
+// 	SS(CENTER, MII_0301NI2);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMICHI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NI2.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0301NI2
+#sp,vo,01030003
+みい
+「しかし、この時期に引越しとは底辺でしたね」
+$k
+
+優
+「それはウチのマミーの仕事の都合だから仕方な…、
+
+$nw,1000
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+　って発音違う、俺達はそこまで貧乏じゃないぞ！」
+
+$k
+
+// MII_0301KY2
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030004
+みい
+「いえ、今のはうちの長女の趣味の影響で、
+　江戸前口調がぽろっと出てしまっただけでして。
+$nw,7750
+
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KS.png,(x),c,(s),60%
+#ig
+
+　きゃー恥ずかしい」
+
+$k
+
+優
+「ぽろっと間違いじゃなくて、物凄くワザと、だろ？」
+$k
+
+// MII_0301KY2
+#sp,vo,01030005
+みい
+「あと、お兄様の言う『俺達』というのは誤りですね。
+　貧乏長屋に住んでいるのはお兄様だけであり、妹君は
+　姫君としてお金持ちの庄屋様に娶られて居るのです」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　めと　　　　　　 お
+
+$k
+
+優
+「俺だけ貧乏長屋？　その扱いの違いは何なの？
+　しかも雪華ちゃんをいつ庄屋の嫁に出した！」
+$k
+
+// MII_0302NO
+#ir
+#ip,c1,(fi),MII_A302.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030006
+みい
+「大丈夫です、病に伏せっている時は年に一度くらい
+　心配で様子を見に来てくれますから」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01SN.png,(x),c,(s),60%
+#ig
+
+優
+「雪華ちゃん助けて！
+　お兄ちゃんはいつかこの娘に殺されるかもしれない！」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　オニ
+
+$k
+
+
+// 	SS_(CENTER, YUKIHA_0301SN, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+// 	ZoomStand(CENTER, 0, 80, 80);
+// 	MoveStand(CENTER, 0, 0, 20);
+// 	WaitStand( CENTER );
+
+&empty
+相変わらず眠そうに付いて来る桜子と一緒になって、
+俺の後方を歩いている雪華ちゃんに助けを求めてみた。
+$k
+
+// YUKIHA_0301NO
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01050007
+雪華
+「うん、そうだね。
+　お線香くらいはあげても良いかな～？　お盆には」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「っ！！　もう居ない事に？」
+$k
+
+// MII_0303MU
+
+#sp,vo,01030007
+みい
+「お兄様もいいかげん妹離れしないと雪華さんから
+　一生嫌われ者のレッテルを貼られてしまいますよ？
+　そういう時期なのです。お年頃なのです」
+$k
+
+優
+「ち、違うよ。今のは俺の話の振り方が悪かったから！
+　急な振りに雪華ちゃんが戸惑って…」
+$k
+
+// YUKIHA_0301NK
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01050008
+雪華
+「そういうところも余計にウザいのになぁ…」
+#meffect,flow,5
+$k
+
+&empty
+聞こえない、聞かなかった、
+風の便りも俺を素通りしました。
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+// MII_A303NO2
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Basa02
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4, 20, 1);
+
+// 	SS(CENTER, MII_A303NO2);
+
+#show
+
+#sp,vo,01030008
+みい
+「もうそろそろいいんじゃないですか？
+　第二の妹の座は私で手を打ってみてはどうでしょう？」
+
+$k
+
+// MII_A303TR4
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01030009
+みい
+「私なら付かず離れず、
+　ずっと枕元に立っててあげます」
+$k
+
+優
+「そんな未練のあるお婆ちゃんみたいな妹は嫌だよ！」
+$k
+
+//	SS_(LEFTLEFT, SAKURAKO_0302AK, MOVE_STOP, SLOW);
+// SAKURAKO_0302AK
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000013
+桜子
+「ふわぁ～～ぁあ…
+#meffect,flow,2
+
+$nw,3990
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KB.png,(x),c,(s),60%
+#ig
+
+　夏も終わりっていうのに、元気ねえあんた達」
+
+$k
+
+#hide
+
+#ss,env
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SV( BG_MT_JINJYAMAE01A );
+// 	SS(RIGHT, MII_0303NO);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE01A.jpg,(s),100%
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),r,(s),60%
+#ig
+
+#show
+
+// MII_0303NO
+#sp,vo,01030010
+みい
+「それでは左手をご覧くださ～い？」
+$k
+
+// 	SetVisualObject(0, BG_MT_JINJYAKEIDAI01A, -100, 0, OBJATTR_NOSCROLL);
+// 	MoveObject(0, NORMAL, 0, 0);
+// 	Scroll(NORMAL, -100, 0);
+
+// 	WaitObject( 0 );
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ig
+
+優
+「おお、懐かしいな。
+　ここも全然変わってねえー」
+$k
+
+// MII_0301KY
+
+#sp,vo,01030011
+みい
+「この神社は鎌倉時代に立てられ、三度の修復工事にも
+　めげずに現存する由緒正しき神社でして。
+　そうです、ちょうど十字軍が遠足に出かけた頃ですね」
+
+$k
+
+優
+「へーそんな頃からあんのか、この神社。
+$nw,1000
+
+　ていうか遠足はないだろ遠足は。子供じゃないんだし」
+
+$k
+
+// MII_0301NO
+
+#sp,vo,01030012
+みい
+「はい～勉強になりますねー。
+$nw,3020
+
+#madd,ちなみに十字軍の始まりは
+
+　『十字軍、腹黒だよ十字軍、始まったな！』
+#mfuri,　　　　１０　　　　　　　　９６
+
+　と覚えるといいでしょう」
+
+$k
+
+優
+「いや、その覚え方はちょっと、どうかと思うね…」
+$k
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+// MII_0301KY2
+
+#sp,vo,01030013
+みい
+「さらに二回目を『言い訳しなよ十字軍』。
+#mfuri,　　　　　　　　　　　　　　　　　　１　１　　　４　７
+　さらに『言い訳臭いよ十字軍』『いつも乙です十字軍』
+
+#mfuri,　　　　　　　　　　１　１　８　９　　　　　　　　　　　　　　　１　２　　　０２
+
+　『いつもニヤニヤ十字軍』『いつかシワシワ十字軍』」
+#mfuri,　　　　１　２　　　２　８　　　　　　　　　　　　　　　１　２　　　４　８
+
+$k
+
+優
+「やめてっ、あまり良いイメージないのに
+　さらに変なイメージになっちまう！
+　お前どんだけ十字軍嫌いなんだよ！」
+$k
+
+// MII_0301BS
+
+#sp,vo,01030014
+みい
+「そして『いつかなれるよ十字軍』で終幕を迎えます」
+#mfuri,　　　　　　　　　　１　２　　　７　０
+$k
+
+優
+「うわ、なんか星になっちゃったっぽいよ？
+　その数字の充て方ひど過ぎないかっ」
+$k
+
+// MII_0301BS
+#sp,vo,01030015
+みい
+「さらに付け加えますと悲劇の少年十字軍は
+$nw,4350
+　『イチャイ…
+$nw,1210
+
+　おっと、それでは右をご覧ください」
+
+$k
+
+優
+「気になるとこで切らないでくれよ………
+$nw,1000
+
+#ss,bgm,(dr),0,(cl),NO
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(fi),BG_MT_OLDAPART01C.jpg,(s),100%
+#ig,(se),S_Fanfare01
+
+　って！　え、なんだここ、どうしちゃったのこれ？」
+
+$k
+
+// 	SV( BG_MT_OLDAPART01C );
+// 	ZoomCrossFade(FAST, 130, 130);
+
+#sp,bgm,BGM_COMICAL1
+
+// SAKURAKO_0301AK2
+
+#sp,vo,01000014
+桜子
+「右に見えますのがあんたの入居先の
+　アパートでございまーす。ってことよ？
+$nw,6260
+
+　まあ悲劇よね……むしろ運が良かったとも思うけど」
+$k
+
+優
+「はい？」
+$k
+
+// MII_0301AS4
+
+#sp,vo,01030016
+みい
+「あああっ！　姉上、せっかくの私のフリを
+　いとも簡単に奪いましたね！？」
+$k
+
+// SAKURAKO_0302NO2
+
+#sp,vo,01000015
+桜子
+「いやいや、優の入る予定だった部屋とかモロだし、
+　さすがに不謹慎でしょ？
+　おかげで、ばたばたしててあんまり眠れなかったし」
+$k
+
+// YUKIHA_0301NO
+
+#sp,vo,01050009
+雪華
+「……そうだね、
+　お兄ちゃん運が良かったかもね。
+　入居日が数日早かったらどうなってたか……」
+$k
+
+優
+「え、え、ええっ？
+　ホントにここ…え、アレ？　冗談じゃなくて？」
+$k
+
+&empty
+自分の引越し先の建物からトラックが生えているという
+あまりの光景に………。
+$k
+
+
+#next,01pro01_02

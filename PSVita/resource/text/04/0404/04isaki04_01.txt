@@ -1,0 +1,653 @@
+﻿// 既読フラグ
+#read_flag,195
+
+#show
+
+&empty
+めぐみが指さした所を見ると、宮津橋は
+お客さんにいろいろと
+話しかけられてるみたいだった。
+$k
+
+#sp,vo,04990052
+女のコ
+「どう～？　バイト、慣れてきた？」
+$k
+
+// ISAKI_0502KT
+
+#sp,vo,04010059
+勇樹
+「ええ、なんとか」
+$k
+
+#sp,vo,04990053
+女のコ
+「宮津橋さん、明日もいるの？」
+$k
+
+// ISAKI_0502MU
+
+#sp,vo,04010060
+勇樹
+「はい、いますよ」
+$k
+
+#sp,vo,04990054
+女のコ
+「じゃあ、私ぃ、明日も来ちゃおっかな？」
+$k
+
+#sp,vo,04990055
+女のコ
+「うんうん、宮津橋さんに会いたいしね～」
+$k
+
+
+// ISAKI_0502NO
+
+#sp,vo,04010061
+勇樹
+「……ありがとうございます」
+$k
+
+// 	DelAction( CENTER );
+
+&empty
+お辞儀したよ、お辞儀！
+$k
+
+&empty
+貴重なものを見た気がする。
+…とは言え……。
+$k
+
+&empty
+俺にはちょっと無愛想に見えるのだが、
+あれでいいんだろうか。
+$k
+
+#sp,vo,04990056
+女のコ
+「もう、宮津橋さんったら、クールなんだから」
+$k
+
+#sp,vo,04990057
+女のコ
+「そこがいいんだけどねっ。
+　明日は宮津橋さんが作ってくれる？」
+$k
+
+// ISAKI_0501NO
+
+#sp,vo,04010062
+勇樹
+「まだ、見習いみたいなものですから。
+　店長の許可が出たら、作りますよ」
+$k
+
+#hide
+
+// 	SV( BG_HS_TENNAI01A );
+// 	SS( CENTER, DAIGO_0301EG2 );
+// 	ShowFace();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),DAIGO_A301EG2.png,(x),c,(s),75%
+#ig
+
+#wait,500
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),-20
+#ig
+
+#show
+
+&empty
+おっちゃんが大きく腕で丸を作る。
+$k
+
+&empty
+それを見た、女のコたちから嬌声があがった。
+$k
+
+// MEGUMI_A901TR2
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01TR2.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,04070035
+めぐみ
+「ね、すごい人気でしょ？」
+$k
+
+優
+「……そうみたいだな」
+$k
+
+// MEGUMI_A901BS2
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04070036
+めぐみ
+「今はね、女のコは勇樹ちゃんが担当で、
+　男のコのお客さんは私が担当なの」
+$k
+
+// MEGUMI_A901EG2
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04070037
+めぐみ
+「看板娘が２人に増えたってわけなのよ」
+$k
+
+#ir
+#ie,c3
+#ig
+
+&empty
+女子担当が宮津橋で、男子担当がめぐみ……。
+何か、俺は新しい世界に来てしまったんじゃないか。
+そんな気がする。
+$k
+
+// 	SS( CENTER, ISAKI_0501NO );
+
+// ISAKI_0501NO
+#ir
+#ip,c2,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04990058
+女のコ
+「ね、ね、宮津橋さんのおすすめってなに？」
+$k
+
+#sp,vo,04010063
+勇樹
+「どれも……おすすめですよ」
+$k
+
+&empty
+それにしても……やっぱりちょっと気になるな。
+$k
+
+優
+「そこはさ、お前の好きなクレープとかを
+　答えたらいいんじゃないのか？」
+$k
+
+// ISAKI_0501KB
+#ir
+#ip,c2,(fi),ISAKI_A501.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010064
+勇樹
+「…………ふぅ」
+$k
+
+&empty
+無言で睨まれた。
+しかも、ため息までつかれた。
+$k
+
+// DAIGO_0301EG2
+#sp,vo,04090006
+沖奈大吾
+「勇樹ちゃん、クレープ出来たよ」
+$k
+
+// ISAKI_0502KT
+#ir
+#ip,c2,(fi),ISAKI_A502.png,(psi),ISAKI_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010065
+勇樹
+「あ、はい」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r0,(al),0%
+#ig
+
+&empty
+宮津橋はおっちゃんから
+お盆に乗せたクレープを受け取り……
+$k
+
+// 	SS_( CENTER, ISAKI_0502MU, MOVE_RIGHT, SLOW );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c2,(fi),ISAKI_A502.png,(psi),ISAKI_An02MU.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c2,(x),c,(al),100%
+#ig
+
+#sp,se,S_Dish03
+
+&empty
+黙ったまま、まるで爆弾でも置くような表情で
+お客さんの前に出す。
+$k
+
+優
+「そこは、どうぞ、とかお待たせしました、とか
+　一言あった方がいいんじゃないのか？」
+$k
+
+&empty
+一応、俺も千寿での接客で鍛えられた身。
+これくらいのアドバイスは出来る。
+$k
+
+// ISAKI_0501KB
+#ir
+#ip,c2,(fi),ISAKI_A501.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010066
+勇樹
+「…………うるさい」
+$k
+
+優
+「なっ！！」
+$k
+
+#sp,vo,04990059
+女のコ
+「ねえねえ、あの人、なに？
+　宮津橋さんの知り合いなのぉ？」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c2,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010067
+勇樹
+「いえ、知りません」
+$k
+
+優
+「おいっ！」
+$k
+
+// ISAKI_0501IK
+#ir
+#ip,c2,(fi),ISAKI_A501.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010068
+勇樹
+「なにも食わないのなら帰れ。
+　客でもないヤツに振りまく愛想などない」
+$k
+
+&empty
+そうか、そうか。
+そっちがそう来るなら、こっちにだって
+考えがある。
+$k
+
+優
+「マロンクリームを１つくれ」
+$k
+
+&empty
+どうだ、これで俺も立派な客だぞ！
+$k
+
+// ISAKI_0501MU
+#ir
+#ip,c2,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010069
+勇樹
+「……持ち帰りだな」
+$k
+
+優
+「店内で食うに決まってるだろ」
+$k
+
+// ISAKI_0501IK
+#ir
+#ip,c2,(fi),ISAKI_A501.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010070
+勇樹
+「持ち帰りだな」
+$k
+
+優
+「店内だって言ってんだろっ！」
+$k
+
+//	SS( CENTERRIGHT, MEGUMI_0901KS2, MOVE_RIGHT );
+// MEGUMI_0901KS2
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KS2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04070038
+めぐみ
+「まあまあ、優ちゃんには私が運んであげるから。
+　お父さん、マロンクリーム１つね」
+$k
+
+// DAIGO_0301EG2
+#sp,vo,04090007
+沖奈大吾
+「はいよっと」
+$k
+
+// ISAKI_0501MU
+#ir
+#ip,c2,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010071
+勇樹
+「…………ふん」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r0,(al),0%
+#ig
+
+&empty
+宮津橋は顔を背けて、
+新しい客の方へと行ってしまった。
+$k
+
+&empty
+まるで俺がいないかのように。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_HS_TENNAI01A );
+
+// 	SS( CENTER, MEGUMI_A901EG3 );
+
+#sp,bgm,BGM_NICHIJYO
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),80%
+#ig
+
+#show
+
+// MEGUMI_A901EG3
+
+#sp,vo,04070039
+めぐみ
+「はい、優ちゃん、おまたせっ」
+$k
+
+#sp,se,S_Dish03
+
+優
+「おー、ありがとな」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+うん、この栗の甘みと甘さ控えめのホイップが
+いいバランスだよな。
+$k
+
+&empty
+秋だ、秋。
+$k
+
+// ISAKI_0502NO
+
+#sp,vo,04010072
+勇樹
+「はい、お持ち帰りですね。少々、お待ち下さい」
+$k
+
+&empty
+クレープを食べながら、
+宮津橋の接客を見ていたけど、
+おおむね問題はないように思えた。
+$k
+
+&empty
+俺なんかからすると、
+やっぱ愛想が足りない気がするけど……。
+$k
+
+&empty
+でも、宮津橋目当ての女性客が多いって事は、
+それがいいのかもしれない。
+$k
+
+&empty
+本当、乙女心は魔境だ。
+$k
+
+優
+「……ごちそうさまでした」
+$k
+
+&empty
+気がついたら、
+クレープを食べ終わってしまっていた。
+$k
+
+#ss,bgm
+
+// 	SS_( CENTER, ISAKI_0501IK, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01IK.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+// ISAKI_0501IK
+#sp,vo,04010073
+勇樹
+「食い終わったな、じゃあ出てけ」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+優
+「なんだと！」
+$k
+
+&empty
+いくらなんでも、ひどすぎる。
+$k
+
+&empty
+だいたい、俺は宮津橋と話をしたくて来たのに、
+これはあんまりだ。
+$k
+
+優
+「あのなあ、お前、それは……」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+// 	Zoom( 10, 140, 140, 400, 300 );
+// 	Scroll( 10, -100, 0 );
+
+#sp,vo,04990060
+女のコ
+「ちょっと！　宮津橋さんを困らせないでよね！」
+$k
+
+優
+「へっ？」
+$k
+
+//	Scroll( 10, 100, 0 );
+#sp,vo,04990061
+女のコ
+「さっきから聞いてれば、あたしたちの宮津橋さんに
+　なに馴れ馴れしい口聞いてんの？」
+$k
+
+//	Scroll( 10, -100, 0 );
+
+#sp,vo,04990062
+女のコ
+「宮津橋さんは私たちの王子様なんだから、
+　あれでいいの！」
+$k
+
+&empty
+なぜか、女の子達に険悪な顔で取り囲まれる。
+ちょっと、待ってくれ。
+$k
+
+&empty
+俺、何か間違った事言ったか！？
+$k
+
+//	Scroll( 50, 0, 0 );
+//	SetObject( 0, "tehe.png", 400, 100, OBJATTR_TOP );
+
+&empty
+助けを求めてめぐみの方を見るが……
+苦笑を浮かべて手を合わせるだけだ。
+$k
+
+// MEGUMI_0901TH
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01TH.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04070040
+めぐみ
+「あ～……勇樹ちゃんのファンは
+　過激なコが多いから。
+　がんばってねっ！」
+$k
+
+優
+「なにをがんばれって言うんだよっ」
+$k
+
+#ir
+#ie,c1
+#ig
+
+//	Scroll( 10, -100, 0 );
+
+#sp,vo,04990063
+女のコ
+「いいから早く帰りなさいよ」
+$k
+
+//	Scroll( 10, 100, 0 );
+#sp,vo,04990064
+女のコ
+「これ以上、宮津橋さんに話しかけたら、
+　ただじゃおかないんだから」
+$k
+
+&empty
+ち、ちっくしょー！
+やっぱり、ここは俺の知らない世界なんだ！
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリア後にジャンプ可能。
+#next,90jump05:(if),sys,0,==,1
+
+#next,02common02-2_00

@@ -1,0 +1,602 @@
+﻿// 既読フラグ
+#read_flag,401
+
+// KANAME_A401MJ2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01MJ2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06021039
+要
+「いい、お婆ちゃん？　言っておくけど、
+　お見合いなんてもう二度と、金輪際しないから。
+　全部シャットアウトしてよ」
+$k
+
+&empty
+高らかに要さんが宣言する。
+$k
+
+// KINO_A401NI
+#ir
+#ip,c1,(fi),KINO_A401NI.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06060046
+紀乃
+「なら早よ嫁行く当て、見つけぇや」
+$k
+
+#ir
+#ie,c1,c2
+#ig
+
+&empty
+きっとこれは、俺に気を遣ってくれたんだろう。
+$k
+
+優
+「…ありがとうございます」
+#msmall
+$k
+
+// KANAME_A402EG2
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021040
+要
+「…いぇい！」
+#msmall
+$k
+
+// 	SS( CENTER, MII_A403KD );
+
+// MII_A403KD
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,06030106
+みい
+「お兄様、さっきから何をされてるのです？」
+$k
+
+優
+「いや～、それにしても要さんから縁談を紹介される
+　知り合いって、どんな人なんだろうね？」
+$k
+
+// MII_A403AK
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06030107
+みい
+「いえ、別にそこに興味はありませんが」
+$k
+
+&empty
+…必死で誤魔化した。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+// 	SV( BG_GK_ROKA03A );
+
+//	SS( CENTER, KOZUE_0201KF2 );
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA03A.jpg,(s),100%
+#ig
+
+#show
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#sp,vo,06100039
+？？？
+「ひっくしょんっ」
+#mlarge
+$k
+
+#sp,vo,06100040
+？？？
+「うぅぅ…風邪かしら？」
+#meffect,flow,5
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	BFP ( BGM_NONBIRI );
+// 	SV( BG_TD_IMA03G );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03G.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ふあああ～」
+#meffect,flow,2
+$k
+
+&empty
+食事が進み、腹も満たされると、
+またも眠たくなってきた。
+$k
+
+優
+「ねむ…」
+#meffect,flow,5
+$k
+
+#sp,vo,06021041
+？？？
+#mstyle,(co),要
+「仕事、大変だったみたいね」
+$k
+
+// 	SS_( CENTERBOTTOM, KANAME_A402BS, MOVE_RIGHT, NORMAL );
+
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「か、要さん…！？」
+$k
+
+&empty
+そこに要さんが近づいてくる。
+$k
+
+&empty
+今日はこれまである程度距離を取らざるを得なくて、
+ようやくといった感じだ。
+$k
+
+&empty
+もう宴もたけなわ。
+このタイミングなら、そうそう怪しまれないだろう。
+$k
+
+// カットあり。
+
+#ss,bgm
+
+// KANAME_A402BS
+
+#sp,vo,06021044
+要
+「はい、お疲れさま、いっぱい…」
+$k
+
+// 	SS_(RIGHT, SAKURAKO_A402NO4 , MOVE_RIGHT);
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+// 	SS_(CENTERBOTTOM, KANAME_A401OD3);
+// 	CS_(CENTERBOTTOM, CENTERLEFTBOTTOM);
+
+// SAKURAKO_A402NO4
+#sp,vo,06000115
+桜子
+「優、飲み物が空じゃない。ウーロンでいいでしょ」
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+#ir,(sync),NO
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),l,(s),80%
+#ig
+
+#sp,se,S_Drink02
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+&empty
+要さんよりも早く、気がついた桜子がついでくれる。
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),0%
+#ip,c1,(x),c
+#ig
+
+// 	CS(CENTERLEFTBOTTOM, CENTER, NORMAL);
+
+優
+「えっと…」
+#meffect,flow,5
+$k
+
+// KANAME_A401OD3
+#sp,vo,06021045
+要
+「………」
+#meffect,flow,5
+$k
+
+&empty
+要さんが固まっている…。
+$k
+
+&empty
+えっと…やるしかないか。
+$k
+
+&empty
+なかなかの満腹感の中、俺はグラスを手に取り、
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4, 20);
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig
+
+優
+「ん、んく…」
+#meffect,flow,5
+$k
+
+&empty
+一気に烏龍茶を流し込む。
+$k
+
+優
+「ん…げぷっ、はあぁぁ…
+$nw,1000
+
+#sp,se,W_Cup01
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+　要さん、よければおかわりください」
+$k
+
+// KANAME_A401OD
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD.png,(x),c,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,06021046
+要
+「え？　あ、あれー？」
+#meffect,flow,5
+$k
+
+&empty
+一瞬、意識も飛んでいたのか、
+空のグラスを見直した要さんが首を傾げる。
+$k
+
+// KANAME_A402KT
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021047
+要
+「んー？」
+$k
+
+#ir,(sync),NO
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,se,S_Drink02
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+&empty
+とりあえず納得した要さんの手によって、
+次の烏龍茶が満たされた。
+$k
+
+// 	SS(CENTER, KANAME_A402BS);
+
+&empty
+…当分飲めないけど。
+$k
+
+&empty
+いいや、仕切り直し仕切り直し。
+$k
+
+// KANAME_A402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021048
+要
+「仕事、どうだった？」
+$k
+
+優
+「なめてました…痛感しました」
+$k
+
+// KANAME_A402EG2
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021049
+要
+「えらいえらい」
+$k
+
+&empty
+みんなの前じゃなかったら、
+頭でも撫でてくれそうな笑顔だ。
+$k
+
+// KANAME_A402BS
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021050
+要
+「工場だよね、どんなことして…」
+$k
+
+// 	SS_( LEFT, YUKIHA_A401NO, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+// 	SS_(CENTER, KANAME_A401OD3);
+// 	CS_(CENTER, CENTERRIGHTBOTTOM);
+
+// YUKIHA_A401NO
+#sp,vo,06050061
+雪華
+「そういえばお兄ちゃんアルバイト始めたんだっけ。
+　どんな仕事してるの？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),r,(s),80%
+#ig
+
+優
+「ぎゃー」
+#mlarge
+$k
+
+// YUKIHA_A401OD
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01OD.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06050062
+雪華
+「え、なに…？」
+$k
+
+優
+「いや、なんでこんな時に限って、
+　雪華ちゃんがお兄ちゃんに食いつくのかと」
+$k
+
+// YUKIHA_A401KM2
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06050063
+雪華
+「…別に嫌ならいいけど」
+#meffect,flow,5
+$k
+
+優
+「嫌じゃない！　嫌じゃないよぉ！？」
+#mlarge
+$k
+
+// 	SS(LEFT, YUKIHA_A401KT, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l,(s),80%
+#ig
+
+&empty
+嫌なわけじゃないんだけどぉ！
+$k
+
+&empty
+ちなみに要さんは、
+$k
+
+// 	SetStand(CENTERRIGHT, KANAME_A401OD3, MOVE_STOP, NORMAL, 1, FILTER_MONO);
+// 	SetIconChinmoku( CENTERRIGHT );
+
+#ir
+#ip,c1,(fi),KANAMEm_A401.png,(psi),KANAMEm_An01OD3.png,(x),r,(s),80%
+#ig
+
+// KANAME_A401OD3
+#sp,vo,06021051
+要
+「………」
+#meffect,flow,5
+$k
+
+// 	WaitStand( CENTERRIGHT );
+
+&empty
+石像と化していた。
+$k
+
+#sp,se,S_Nuno07
+
+#ir,(dr),500,(ef),move,(lt),over,(lc),3
+#ip,c1,(x+),20
+#ig
+
+優
+「…要さんっ」
+#msmall
+$k
+
+// 	ShakeStand( CENTERRIGHT, NORMAL, SHAKE_LEFT, 20, 50 );
+// 	ShakeStand( CENTERRIGHT, NORMAL, SHAKE_RIGHT, 20, 50 );
+// 	ShakeStand( CENTERRIGHT, NORMAL, SHAKE_LEFT, 20, 50 );
+// 	ShakeStand( CENTERRIGHT, NORMAL, SHAKE_RIGHT, 20, 50 );
+
+&empty
+とりあえず誰にも見えない角度から
+要さんを揺すり、意識の帰還を促すことにする。
+$k
+
+// YUKIHA_A401NO
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06050064
+雪華
+「それで、どんな仕事なの？」
+$k
+
+優
+「いや、俺も自分が何をしてるのか、
+　まだ把握できてない有様でさ…
+$nw,1500
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),1
+#ig
+
+　あ、いててっ」
+$k
+
+// YUKIHA_A401NO
+#sp,vo,06050065
+雪華
+「どうしたのー？」
+$k
+
+優
+「全身痛くて…筋肉痛だね」
+$k
+
+// 	SetStand(CENTERRIGHTBOTTOM, KANAME_A401OD3, MOVE_STOP, FASTEST, 0, FILTER_MONO);
+// 	SS_(CENTERRIGHT, KANAME_A401KT);
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),r,(s),80%
+#ig
+
+// KANAME_A401KT
+#sp,vo,06021052
+要
+「ぁ…」
+$k
+
+// 	WaitStand( CENTERRIGHT );
+
+// KANAME_A402BS
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06021053
+要
+「だ、だったらわたしがマッサー…」
+$k
+
+// 	SS(RIGHTOUT, MII_A403EG, MOVE_STOP, FASTEST);
+
+// MII_A403EG
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),100%
+#ie,c1
+#ig,(se),S_Punch02
+
+#sp,vo,06030108
+みい
+「お兄様飲んでますかー！」
+#mlarge
+$k
+
+// 	ZoomStand(RIGHTOUT, NORMAL, 130, 130);
+// 	CS_(RIGHTOUT, CENTER, NORMAL);
+// 	Zoom(FAST, 120, 120);
+// 	BlurZoom(0, 10, 5);
+// 	BlurZoom(SLOWER, 0, 0);
+// 	Shake(NORMAL, SHAKE_LEFT, 32);
+
+#sp,se,W_Fall01
+
+優
+「ごはっ！？」
+#mlarge
+$k
+
+#next,06kaname18_03

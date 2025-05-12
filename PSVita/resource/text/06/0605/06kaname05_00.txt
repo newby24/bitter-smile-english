@@ -1,0 +1,648 @@
+﻿// 既読フラグ
+#read_flag,356
+
+// セーブタイトル
+#flag,save_title,要　第４話,0,0
+
+// 要好感度＋１。
+#flag,per,4,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+//	SEFadePlay(0, "W_Cook01#", SLOW, 30, 0, 60);
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第４話　つまみぐい
+$k
+#note,erase
+
+// KINO_0901BS2
+#ir,(ef),off
+#ip,c1,(fi),KINO_A901BS2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,06060014
+紀乃
+「優、ええとこに来たな」
+$k
+
+// 	SS(CENTER, KINO_0901BS2, MOVE_RIGHT, NORMAL);
+
+&empty
+休日の昼下がり。
+$k
+
+&empty
+千寿に降りて行くと、
+店に出ていた婆さんに声をかけられた。
+$k
+
+優
+「いや、俺はトイレに降りてきただけだが？」
+$k
+
+// KINO_0901BS2
+#sp,vo,06060015
+紀乃
+「ほな、ちょっと店番してくれんか」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「聞けよっ、人の話を！」
+#mlarge
+$k
+
+// KINO_0901AK2
+#ir
+#ip,c1,(fi),KINO_A901AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06060016
+紀乃
+「ちょっとの間だけでええねん。
+　すぐ戻ってくるさかい」
+$k
+
+優
+「出かけるのか？」
+$k
+
+// KINO_0901MJ
+#ir
+#ip,c1,(fi),KINO_A901MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06060017
+紀乃
+「庭師さんとこ、行かなあかん用事思い出してな」
+$k
+
+優
+「…今日はバイトの日じゃないんだけどなぁ」
+$k
+
+// KINO_0901BS2
+#ir
+#ip,c1,(fi),KINO_A901BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06060018
+紀乃
+「時給はずむよってに」
+$k
+
+優
+「このかき入れ時に
+　時間単位で俺に任せるつもりかよ！？
+$nw,1000
+
+　ってか、他誰も居ないのか？」
+$k
+
+// KINO_0901NO
+#ir
+#ip,c1,(fi),KINO_A901NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06060019
+紀乃
+「桜子もみいも出とってな。
+　焼き貯めた分、なんぼかあるさかい
+　当分は大丈夫やろ」
+$k
+
+優
+「品質保持期限って知ってるか？」
+#mfuri,　　　ホールディングタイム
+
+$k
+
+// KINO_0901BS
+#ir
+#ip,c1,(fi),KINO_A901BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06060020
+紀乃
+「難しいことはええんや。
+$nw,2760
+
+#ir
+#ip,c1,(fi),KINO_A901BS2.png,(x),c,(s),60%
+#ig
+
+　ほな、頼んだで」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「おいおいっ、ほんとに行くのかよ。
+　せめてトイレ出るまで待ってくれ」
+$k
+
+// 	SS(RIGHT, KINO_0901BS2, MOVE_RIGHT, NORMAL);
+
+#ir,(ef),off
+#ip,c1,(fi),KINO_A901BS2.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+// KINO_0901BS2
+#sp,vo,06060021
+紀乃
+「ちゃんと手ぇ洗いや」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「わかっとるわい！」
+#mlarge
+$k
+
+// KINO_0901KD
+#ir
+#ip,c1,(fi),KINO_A901KD.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06060022
+紀乃
+「あぁ、もうすぐ昼食べに要が来るやろから、
+$nw,4230
+
+#ir
+#ip,c1,(fi),KINO_A901BS2.png,(x),r,(s),60%
+#ig
+
+　心配やったら捕まえたらええわ」
+$k
+
+優
+「おう。ならまぁ大丈夫か」
+$k
+
+&empty
+この時間帯に半額セールという免罪符無しに
+一人で鉄板の前に立ってる度胸は、俺にはまだない。
+$k
+
+//	SFO( 0, SLOWER );
+// 	DelStandAll();
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	// *-- TITLE TEMPLATE START --* //
+//
+//	SetSubTitleEx();
+//
+//	// *-- TITLE TEMPLATE END --* //
+// 	SV( BG_SJ_GAIKAN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03IT4.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KANAME_0403IT4
+
+#sp,vo,06020165
+要
+「あー、お腹すいたー」
+#meffect,flow,5
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「はい、こちら、おつり２００円です。
+　ありがとうございましたー」
+$k
+
+// KANAME_0403KT2
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03KT2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020166
+要
+「…あれ、優君？」
+#meffect,flow,5
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+
+#sp,bgm,BGM_NICHIJYO
+
+//#sp,env,S_Water04#
+
+// 	SV( BG_SJ_CHUBO01A );
+
+// 	CFI();
+//#sp,se,S_Hineru01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ふう、一息ついたかな？」
+$k
+
+&empty
+婆さんが出かけて行ったあと、
+結構なお客さんが来て、婆さんの作り置きは
+どんどん捌けていった。
+#mfuri,　　　　　　　　さば
+
+$k
+
+優
+「ちょっと心許なくなってきたかな……
+　もう少しは大丈夫だけど」
+$k
+
+#sp,se,S_Door04o
+
+優
+「できれば、焼かないで乗り切りたいが…」
+$k
+
+#sp,se,S_Door04c
+
+優
+「でも、持ち帰りはともかく、
+　店内で食べる人の分くらいは、さすがに
+　焼かないで出すのはマズイだろうしな…」
+$k
+
+&empty
+こそこそ……
+$k
+
+優
+「そうなると、どのみち焼かないといけないわけだが…」
+
+$k
+
+&empty
+……ん？
+$k
+
+優
+「なんか今、戸が開いたような…？」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+&empty
+言ってるそばから、こちらでお召し上がりの
+お客さんが来たかと思ったんだけど、
+覗いてみても店内には誰もいない。
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+
+&empty
+気のせいかな？
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO01A.jpg,(s),100%
+#ig
+
+&empty
+まあ、いいか…。
+とりあえず、また店頭の方に立っとくか。
+$k
+
+// 	SV( BG_SJ_CHUBO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+&empty
+そう思いながら、厨房から出てきて……
+$k
+
+// 	SV( BG_SJ_COUNTERURA01A );
+
+#ss,bgm
+
+#sp,vo,06020167
+？？？
+#mstyle,(co),要
+「………」
+#meffect,flow,5
+$k
+
+&empty
+そこで見た光景にめまいを覚える。
+いやね、もう、なんてゆ～か…
+$k
+
+#hide
+
+#sp,bgm,BGM_COMICAL2
+
+#flag,cg,33,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_KANAME_03A.jpg,(s),75%
+#ig
+
+#show
+
+優
+「要さん！」
+#mlarge
+$k
+
+// 	SV( VISUAL_KANAME_03A );
+
+#sp,vo,06020168
+要
+「んむう…っ！？」
+$k
+
+優
+「なにしてるんですか、こんなところで」
+$k
+
+&empty
+いや、見たまんまだろうけど。
+$k
+
+#sp,vo,06020169
+要
+「んっ、ん～っ！」
+$k
+
+優
+「え、待て待て…ですか？」
+$k
+
+#sp,vo,06020170
+要
+「んうっ」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// 	SV( BG_SJ_COUNTERURA01A );
+
+#sp,vo,06020171
+要
+「ん…むぐぅ…」
+$k
+
+#sp,vo,06020172
+要
+「………」
+#meffect,flow,5
+$k
+
+優
+「って、開き直って食べ続けないでください」
+$k
+
+&empty
+すごい根性だ。
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+// 	SS_(CENTER, KANAME_0403KT2, MOVE_DOWN);
+
+// KANAME_0401IK4
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK4.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#sp,se,S_Basa01
+
+#ir,(dr),500,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+#sp,vo,06020173
+要
+「んむっ…！？」
+$k
+
+優
+「え？」
+$k
+
+// 	SetActionBuru( CENTER )
+
+// KANAME_0401KU
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KU.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,06020174
+要
+「んっ…ん、
+$nw,1480
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,c1,(y+),20
+#ig
+
+　んんん～っ！」
+
+$k
+
+// ぴょん。パラメータは適宜。
+
+&empty
+突然、要さんの手が泳ぎだす。
+$k
+
+&empty
+目に涙を浮かべ、
+苦しそうにとんとんと胸元を叩いて…
+$k
+
+優
+「水ですね？」
+$k
+
+
+// KANAME_0401KU2
+//#ir
+//#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KU2.png,(x),c,(s),60%
+//#ig
+
+#sp,vo,06020175
+要
+「んん…んっ、ん～っ！」
+$k
+
+&empty
+当たりらしい。
+$k
+
+優
+「ちょっと待ってください、今すぐ…」
+$k
+
+#ils
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+#ir
+#ie,c1
+#ig
+
+#sp,vo,06990000
+お客さん
+「すみませーん、たこ焼きひとつー」
+$k
+
+// 	Zoom(NORMAL, 130, 130, 400-200, 300-100);
+
+優
+「まいどっ、３００円になりまーす」
+#mlarge
+$k
+
+#sp,se,S_Nuno08
+
+// 	Shake(SLOWER, SHAKE_DOWN, 4, 20);
+// KANAME_0401IK3
+
+#sp,vo,06020176
+要
+「んんんんんんん～～～っ！！？」
+#mlarge
+$k
+
+&empty
+ぐいぐいとズボンの裾を引っ張られる。
+$k
+
+#sp,vo,06990001
+お客さん
+「あのぉ…大丈夫なんですか、その人…？」
+#meffect,flow,5
+$k
+
+優
+「たぶん天罰ですから」
+$k
+
+#sp,se,S_Pashi01
+
+// KANAME_0401IK3
+#sp,vo,06020177
+要
+「んんんんんんっ！！！」
+#mlarge
+$k
+
+&empty
+ばっしばし叩かれる背中が痛い。
+まだまだ余裕のようだった。
+$k
+
+// 	DelStandAll();
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+#sp,bgm,BGM_KANAME
+
+// 	SV( BG_SJ_COUNTERURA01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+
+#next,06kaname05_01

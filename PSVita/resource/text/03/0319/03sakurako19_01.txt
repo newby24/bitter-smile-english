@@ -1,0 +1,937 @@
+﻿// 既読フラグ
+#read_flag,328
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_SAKURAKO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_SAKURAKO01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402AK
+
+#sp,vo,03001303
+桜子
+「もう繋がんないや…」
+$k
+
+#sp,se,W_InterHon01
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001304
+桜子
+「まったくもうお姉はー。まだ話の途中だったのに」
+$k
+
+#sp,se,W_InterHon01
+
+// SAKURAKO_0403KT
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001305
+桜子
+「あー、はいはい、今行きまーす！」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GENKANMAE01B );
+
+// 	SS( CENTER, SAKURAKO_0401NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKANMAE01B.jpg,(s),100%
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#show
+
+// SAKURAKO_0401NO
+#sp,vo,03001306
+桜子
+「…宮津橋………
+$nw,1990
+
+　サキ…ちゃん、だよね？」
+$k
+
+// ISAKI_0401IK
+
+#sp,vo,03010107
+勇樹
+「…轟木桜子……話がある」
+$k
+
+// SAKURAKO_0401NO
+#sp,vo,03001307
+桜子
+「話？　あたしに？」
+$k
+
+// ISAKI_0401KB
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010108
+勇樹
+「………」
+$k
+
+// SAKURAKO_0401NO
+#sp,vo,03001308
+桜子
+「えっと……
+$nw,1490
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),r,(s),60%
+#ig
+
+　まあ上がってよ？
+　お茶でも飲んで…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_EKI01A );
+
+#sp,env,W_Bicycle01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_EKI01A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ig
+
+#show
+
+// KANAME_0101KM2
+
+#sp,vo,03020153
+要
+「えっとえーっと……
+$nw,2000
+
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01OD2.png,(x),c,(s),80%
+#ig
+
+　そうだ、薬局、薬局っ！」
+
+$k
+
+#ss,env,(dr),0
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),Ma_Break02
+
+// 	WaitSE( -1 );
+
+// KANAME_0101OD4
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01OD4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020154
+要
+「ぎゃあーっ！
+　チェーン外れたぁっ！？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_SAKURAKO01A );
+
+#sp,bgm,BGM_ISAKI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_SAKURAKO01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0401NO
+
+#sp,vo,03001309
+桜子
+「で、あたしに話って、なに？」
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,03010109
+勇樹
+「………」
+$k
+
+// SAKURAKO_0402NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001310
+桜子
+「………」
+$k
+
+// ISAKI_0401IK
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010110
+勇樹
+「その……だな」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402NO2
+#sp,vo,03001311
+桜子
+「うん…」
+$k
+
+// ISAKI_0401MU
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010111
+勇樹
+「………」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402NO2
+#sp,vo,03001312
+桜子
+「………」
+#meffect,flow,5
+$k
+
+// ISAKI_0401IK
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010112
+勇樹
+「や……」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001313
+桜子
+「…や？」
+$k
+
+// ISAKI_0401MU
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010113
+勇樹
+「………」
+$k
+
+// ISAKI_0401AZ
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010114
+勇樹
+「……くそっ」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0401NK4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001314
+桜子
+「え…なによ？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_NEWSYOTEN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_NEWSYOTEN01A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01OD4.png,(x),c,(s),80%
+#ig
+
+#show
+
+// KANAME_0101OD4
+
+#sp,vo,03020155
+要
+「すいませーん！
+$nw,1380
+
+　けけ、検査や、くっ！」
+
+$k
+
+#sp,vo,03990049
+薬局の店主
+「どうしました？」
+$k
+
+// KANAME_0101IK2
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020156
+要
+「検査薬っ、どこですかっ！？」
+#mlarge
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_SAKURAKO01A );
+
+#sp,bgm,BGM_ISAKI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_SAKURAKO01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402NO2
+
+#sp,vo,03001315
+桜子
+「………」
+$k
+
+// ISAKI_0401IK
+
+#sp,vo,03010115
+勇樹
+「………とは…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001316
+桜子
+「…ねえサキちゃん、話があるんじゃなかったの？」
+$k
+
+// ISAKI_0401AZ
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010116
+勇樹
+「くっ………
+$nw,2500
+
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+　それは、お前……お前と…や…」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001317
+桜子
+「……わたしが…や？」
+$k
+
+// ISAKI_0401IK
+#sp,vo,03010117
+勇樹
+「なぜ………あいつとの事…」
+$k
+
+// SAKURAKO_0402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001318
+桜子
+「……あ、もしかして、あの時の…」
+$k
+
+// ISAKI_0401AZ
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010118
+勇樹
+「くそっ…
+$nw,1500
+
+#ir
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+　とりあえずっ、
+　そのサキちゃんと言うのをやめてくれないか？」
+
+$k
+
+// SAKURAKO_0402NO
+#sp,vo,03001319
+桜子
+「…でもあんた……サキちゃん、なのよね？」
+$k
+
+// ISAKI_0401AZ
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010119
+勇樹
+「ちっ……
+$nw,1250
+
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+　とりあえず場所を変える、
+　少し私に付き合え。ここは落ち着かん…」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001320
+桜子
+「ん……そうかなぁ？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GENKANMAE01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKANMAE01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GENKAN01C );
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN01C.jpg,(s),100%
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+// 	WaitSE( -1 );
+
+#show
+
+// MII_0203NO
+
+#sp,vo,03030180
+みい
+「ただいま戻りました……と？
+$nw,1510
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),r2,(s),60%
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),60%
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),l2,(s),60%
+#ig
+
+　おや、勇樹お姉様。いらしてたんですね」
+$k
+
+// 	SS( CENTERLEFT, SAKURAKO_0402KM4, MOVE_STOP, SLOW );
+
+// ISAKI_0401NO
+#sp,vo,03010120
+勇樹
+「…轟木の妹か」
+$k
+
+// MII_0203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03030181
+みい
+「あの、姉上も……
+$nw,2270
+
+　お出かけ、ですか？」
+$k
+
+// SAKURAKO_0402KM4
+
+#sp,vo,03001321
+桜子
+「んー、そうみたい…？」
+$k
+
+// MII_0203KT
+#sp,vo,03030182
+みい
+「はい？」
+$k
+
+// ISAKI_0401IK
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03010121
+勇樹
+「轟木妹、しばらく桜子を借りるぞ」
+$k
+
+// MII_0203KM
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03030183
+みい
+「は、はあ」
+$k
+
+// 	SV( BG_TD_GENKANMAE01B );
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKANMAE01B.jpg,(s),100%
+#ig
+
+// MII_0203KD
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),r,(s),60%,(al),0%
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ip,c2,(x),c,(al),100%
+#ig
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM.png,(x),l2,(s),60%
+#ig
+
+#show
+
+#sp,vo,03030184
+みい
+「あっ…あの、どちらへ？」
+$k
+
+// 	SS_( RIGHT, ISAKI_0401NO, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( LEFT, SAKURAKO_0402KM4, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+// ISAKI_0402NO
+
+#sp,vo,03010122
+勇樹
+「…近所だ、すぐに戻る」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001322
+桜子
+「そういう事らしいから、
+　あたしちょっと出てくるわね？」
+$k
+
+// MII_0202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03030185
+みい
+「あ、はい、いってらっしゃいませ…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r0,(al),0%
+#ip,c3,(x),r3,(al),0%
+#ig
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ig
+
+#sp,se,S_Wind02
+
+// 	WaitSE( -1 );
+// 	SS_( RIGHT, SAKURAKO_0403NO );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+// 	SS( LEFT, ISAKI_0401IK );
+
+#show
+
+// SAKURAKO_0403NO
+#sp,vo,03001323
+桜子
+「どうしたのよ？
+$nw,1170
+
+　こんな所まで来て…」
+$k
+
+// ISAKI_0401IK
+
+#sp,vo,03010123
+勇樹
+「轟木、桜子…」
+$k
+
+// SAKURAKO_0403KT
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001324
+桜子
+「…？」
+$k
+
+// ISAKI_0402IK
+#ir
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010124
+勇樹
+「もういい、面倒だっ…」
+$k
+
+#sp,se,S_Ton04
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+// 	WaitSE( -1 );
+
+// ISAKI_0402IK
+#sp,vo,03010125
+勇樹
+「…死ねえぇっ！！」
+#mlarge
+
+$k
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig,(se),S_Air01
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+// 立ち絵移動消える。パラメータは適宜。
+
+// SAKURAKO_0402AD
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AD.png,(x),r,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r2
+#ig
+
+#sp,vo,03001325
+桜子
+「きゃっ、ちょっとなに？
+$nw,1510
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),r2,(s),60%
+#ig
+
+　いきなり危ないじゃない！？」
+$k
+
+#sp,bgm,BGM_SYOSO
+
+// ISAKI_0401IK3
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK3.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+#sp,vo,03010126
+勇樹
+「だあああっ！」
+#mlarge
+$k
+
+// SAKURAKO_0403IK
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03001326
+桜子
+「だからっ！
+$nw,910
+
+　なんでそうなるのよぉ！？」
+$k
+
+// ISAKI_0401AZ
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01AZ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010127
+勇樹
+「なんで忘れた…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,500
+
+
+#sp,se,Ma_Flash01
+
+#ir,(dr),500
+#ip,bg,(fi),BG_MT_KAWARA01A_s.jpg,(s),100%
+#ig
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,500
+
+
+#sp,se,Ma_Flash01
+
+#ir,(dr),500
+#ip,bg,(fi),BG_GK_CHURIN01A_s.jpg,(s),100%
+#ig
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,500
+
+
+#sp,se,Ma_Flash01
+
+// 	SV( BG_MT_JINJYAKEIDAI02A, FILTER_SEPIA );
+
+#ir,(dr),500
+#ip,bg,(fi),BG_GK_SYOKUDO01A_s.jpg,(s),100%
+#ig
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,500
+
+// 	SEStop( -1 );
+
+
+#sp,se,Ma_Flash01
+
+#ir,(dr),500
+#ip,bg,(fi),BG_MT_KOEN03A_s.jpg,(s),100%
+#ig
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,500
+
+
+// 	BF( NORMAL, 50 );
+// 	RuleFlashOut( NORMAL, RULE_CIRCLE );
+// 	SV( BG_SJ_2FROKA02A, FILTER_SEPIA );
+
+
+// 	RuleFlashIn( FAST, RULE_CIRCLE );
+// 	SV( VSUAL_EVENT_SAKUXISA, FILTER_SEPIA );
+
+// 	SV( BG_GK_SYOKUDO01A, FILTER_SEPIA );
+
+// 	SV( BG_MT_KOEN03A, FILTER_SEPIA );
+
+
+// 	RuleFlashOut( FAST, RULE_CIRCLE );
+
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+// 	SS_( RIGHT, SAKURAKO_0403KM );
+
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+// 	SS( LEFT, ISAKI_0402IK );
+// 	BF( NORMAL );
+// 	RuleFlashIn( NORMAL, RULE_CIRCLE );
+
+#show
+
+// SAKURAKO_0403KM
+#sp,vo,03001327
+桜子
+「っ！　
+$nw,990
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),60%
+#ig
+
+　…また………そんなこと言われても…」
+$k
+
+#next,03sakurako19_02

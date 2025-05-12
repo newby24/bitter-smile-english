@@ -1,0 +1,769 @@
+﻿// 既読フラグ
+#read_flag,89
+
+#sp,vo,02020131
+？？？
+#mstyle,(co),要
+「やーい、引っ掛かった、引っ掛かった！」
+$k
+
+&empty
+後ろから肩をぽん、と叩かれ振り向くと、
+誰かさんの指が、俺の頬に食い込んだ。
+$k
+
+// KANAME_0103NS
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A103.png,(psi),KANAME_An03NS.png,(x),l0,(s),60%,(al),0%
+#ig
+
+// 	SS_( CENTER, KANAME_0103NS, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),c,(al),100
+#ig
+
+優
+「って、要さん、どうしたんですかこんな所で？」
+$k
+
+// KANAME_0103NO
+#ir
+#ip,c1,(fi),KANAME_A103.png,(psi),KANAME_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020132
+要
+「やあ優君。わたし今、会社のお使いの途中なのよ」
+$k
+
+優
+「ああ、なるほど。
+　………しかし要さん、今の人違いだったら、
+　結構恥ずかしい事に…」
+$k
+
+// KANAME_0103NS
+#ir
+#ip,c1,(fi),KANAME_A103.png,(psi),KANAME_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020133
+要
+「大丈夫よー、優君の後ろ髪の寝癖、今朝のままだもん」
+
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ええっマジでっ！？」
+$k
+
+&empty
+ずっと気付かないままで、もう夕方近いのに！
+誰かもっと早くに教えてくれよー！
+$k
+
+// KANAME_0103KT
+#ir
+#ip,c1,(fi),KANAME_A103.png,(psi),KANAME_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020134
+要
+「それより今、優君一人？
+　ちょっと時間あるかなー？」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_CAFE02A );
+// 	SS( CENTER, KANAME_A903BS );
+
+#sp,bgm,BGM_KANAME
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_CAFE02A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03BS.png,(x),c,(s),80%
+#ig
+
+#show
+
+&empty
+要さんにお茶に誘われた。
+$k
+
+優
+「轟木家の人間はみんな信用できないな」
+$k
+
+// KANAME_A903NS
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020135
+要
+「ごめんごめん、そんなに気にするタイプだと
+　思ってなかったから」
+$k
+
+&empty
+喫茶店に入ってからも後ろ頭を気にしてた俺を見て、
+いきなり大爆笑した要さん。
+$k
+
+&empty
+寝癖は嘘だった。
+$k
+
+優
+「まあ慣れてますけどね、しかし要さんまで…」
+$k
+
+// KANAME_A903EG
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020136
+要
+「ごめーん、わたしも優君弄るの楽しいしー？」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　いじ
+
+$k
+
+優
+「う………」
+$k
+
+&empty
+そう言われてしまうと、
+なんか嬉しいような恥ずかしいような…。
+$k
+
+// KANAME_A901NO3
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020137
+要
+「ところでさあ優君……」
+$k
+
+優
+「……なんですか？」
+$k
+
+// KANAME_A902MU
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020138
+要
+「………あのね」
+$k
+
+&empty
+急に要さんのトーンが変わり顔も少し俯く。
+これから真面目な話でもするんだろうか。
+$k
+
+優
+「あ、はい」
+$k
+
+&empty
+さっきの後だし、冗談の前フリかもしれないけど、
+俺はまさかね…と思いつつも、ちょっとかしこまる。
+$k
+
+&empty
+『わたし今、彼と上手くいってなくてねー…』
+$k
+
+&empty
+なんて台詞をまさかのまさかで、
+言われる事は無いだろう、とは思うんだけど。
+$k
+
+// KANAME_A902SI
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02SI.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020139
+要
+「優君さあ……。
+　最近桜子ちゃん、少し変だと思わない？」
+$k
+
+優
+「………」
+$k
+
+// KANAME_A902KT
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020140
+要
+「……？」
+$k
+
+優
+「…ひっ」
+$k
+
+// KANAME_A902SI
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02SI.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020141
+要
+「……優君？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「あははははっ！」
+$k
+
+// 	SetActionPyon( CENTER );
+
+// KANAME_A901OD2
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01OD2.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,02020142
+要
+「ちょっと、優君！？」
+$k
+
+// 	DelAction( CENTER );
+
+優
+「はは…なあんだ、そんな事かー。
+　いや、すいません」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig
+
+優
+「っぷふ。
+$nw,1000
+
+// 	Shake( NORMAL, SHAKE_DOWN, 10, NORMAL );
+
+　変ですよ桜子は………いつも通りに変ですからっ」
+$k
+
+// KANAME_A901KM2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020143
+要
+「…ちょっとちょっと。
+　人の妹捕まえて、変、変ってー。
+$nw,3800
+
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+　もうっ優君、私は真剣に桜子ちゃんの事…」
+$k
+
+優
+「ああ、すいません、すいません。
+　ふう、俺はてっきり、また要さんが…」
+$k
+
+// KANAME_A901KT3
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01KT3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020144
+要
+「え、わたしが何？」
+$k
+
+優
+「いや、なんでもないです。
+　こっちの勘違いですから、ははは」
+$k
+
+// KANAME_A903SN
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03SN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020145
+要
+「なっ、なにがおかしいのよぅー？」
+$k
+
+優
+「ああ、大丈夫ですよ桜子なら。
+　どうせみいちゃんの事で悩んでるくらいでしょ？」
+$k
+
+// KANAME_A903KT
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020146
+要
+「えっ、みいちゃんがどうかしたのっ！？」
+$k
+
+優
+「そういや、どうせ要さんも協力してるんでしょ？
+　みいちゃんがサンタ信じてる話って」
+$k
+
+// KANAME_A903KT2
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03KT2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020147
+要
+「サン？
+$nw,1500
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03BS.png,(x),c,(s),80%
+#ig
+
+#madd,　……ああー、そっちかあ。
+$nw,3000
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03KM.png,(x),c,(s),80%
+#ig
+
+　みいちゃんが不良にでもなったのかと思っちゃった」
+$k
+
+優
+「大丈夫。大丈夫ですよ。
+　特に変な感じとかないし、桜子はいつも桜子ですよ」
+$k
+
+// KANAME_A901KM
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020148
+要
+「そ、そうかなー？
+　でもわたし、そういうのとは…」
+$k
+
+優
+「心配ないですよ。いつも顔合わせてるんだし、
+　それくらい分かりますって」
+$k
+
+// KANAME_A901SK
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01SK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020149
+要
+「うーん……だったら別にいいんだけどさー」
+$k
+
+優
+「それに要さんも、
+　もうそろそろ会社に戻った方がいいですよ？」
+$k
+
+// KANAME_A901OD3
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020150
+要
+「あ……やばっ！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	// ＢＧ：千寿厨房：夕：裏口扉開き
+
+// 	SV( BG_SJ_CHUBO02B );
+
+#sp,se,S_Door01o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO02B.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ただいまー」
+$k
+
+// 	// ＢＧ：千寿厨房：夕
+
+// 	SV( BG_SJ_CHUBO02A );
+
+#sp,bgm,BGM_NONBIRI
+
+#sp,se,S_Door01c
+
+#ir
+#ip,bg,(fi),BG_SJ_CHUBO02A.jpg,(s),100%
+#ig
+
+// 	SS( CENTER, SAKURAKO_0401EG, MOVE_LEFT, NORMAL );
+
+// SAKURAKO_0401EG
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01EG.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,02000533
+桜子
+「あら、おかえり、遅かったわね？」
+$k
+
+優
+「ん、そうかー？」
+$k
+
+&empty
+千寿に入ると、今まさに奥から出てきたらしい、
+やけにニヤニヤした桜子とすれ違った。
+$k
+
+&empty
+……これはたしかに、変と言えば変だろうか？
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000534
+桜子
+「あっそうだ優、奥でお婆ちゃんが待ってるから、
+　今すぐ行って来るといいわ♪」
+$k
+
+優
+「うん？　…ああ、分かったよ」
+$k
+
+&empty
+…なんだよ、お小言か？
+それとも今の桜子のにやけ顔と関係があるのか。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_KYUKEISHITSU01A );
+// 	SS( CENTER, KINO_0401BS3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KYUKEISHITSU01A.jpg,(s),100%
+#ip,c1,(fi),KINO_A401BS3.png,(x),c,(s),60%
+#ig
+
+#show
+
+&empty
+休憩室に顔を出すと、
+婆さんが茶をすすりながら待っていた。
+$k
+
+// KINO_0401NO2
+#ir
+#ip,c1,(fi),KINO_A401NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060084
+紀乃
+「おう、やっと戻ったかい」
+$k
+
+優
+「店はいいのか？」
+$k
+
+// KINO_0401NO
+#ir
+#ip,c1,(fi),KINO_A401NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060085
+紀乃
+「そっちは大丈夫や、とりあえず上がりなはれ」
+$k
+
+優
+「はあ…？」
+$k
+
+&empty
+どうやらお小言を言われる様な空気、ではないが…。
+$k
+
+// KINO_0401BS2
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060086
+紀乃
+「まあそこに座りいな」
+$k
+
+// 	// TODO : SE挿入（座る音）
+// 	SS_( CENTER, KINO_A401BS2, MOVE_STOP, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),80%
+#ig
+
+&empty
+婆さんに言われるまま、とりあえず卓袱台の前に
+座ってみる。一応正座で。
+$k
+
+優
+「……座ったけど。
+　そんで、一体なにがあるんだ婆さん？」
+$k
+
+// KINO_A401BS
+#ir
+#ip,c1,(fi),KINO_A401BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060087
+紀乃
+「そこは店長様、言わなな？」
+$k
+
+優
+「………はあ？」
+$k
+
+&empty
+何を今更？
+$k
+
+// KINO_A401KM2
+#ir
+#ip,c1,(fi),KINO_A401KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060088
+紀乃
+「………まあええわ、
+$nw,1600
+
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),80%
+#ig
+
+#madd,ほれ。お給金や」
+
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KINO_A401KM
+#ir
+#ip,c1,(fi),KINO_A401KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060089
+紀乃
+「……どないしたんや？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「……えええっ？」
+#mlarge
+$k
+
+// KINO_A401AS
+#ir
+#ip,c1,(fi),KINO_A401AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060090
+紀乃
+「なんや、どうしたんえ？」
+$k
+
+優
+「お年玉にはまだ早いぞ？　どうせ、ぬか喜びで、
+　ご縁がありますようにとか言って５円なんだろ？」
+$k
+
+// KINO_A401IK
+#ir
+#ip,c1,(fi),KINO_A401IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060091
+紀乃
+「あほか！　わてがそんなみみっちい事するかいな！」
+$k
+
+&empty
+いや、一番やりそうなんだけど？
+$k
+
+優
+「しかしねえ…」
+$k
+
+// KINO_A401AK
+#ir
+#ip,c1,(fi),KINO_A401AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060092
+紀乃
+「ほんなら触ってみいな、普通に札が入っとるわ」
+$k
+
+優
+「新聞紙じゃねえだろうな…」
+$k
+
+&empty
+封筒を手に持ってみる。
+たしかに、札の入っている様な感触はする。
+$k
+
+// KINO_A401KS
+#ir
+#ip,c1,(fi),KINO_A401KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060093
+紀乃
+「いらんねやったら、わてがもろとくけど…」
+$k
+
+優
+「要ります、貰います、受け取りますっ！」
+$k
+
+&empty
+ここのバイトの賃金は自動的に轟木家に渡す
+家賃、生活費の足しだと思ってたから…。
+$k
+
+// 	SS_( CENTER, KINO_A401BS2 );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「あっ、意外とあるぞ……」
+$k
+
+&empty
+ろくろく役に立たないバイトの俺に対して、こんなに？
+$k
+
+// KINO_A401EG2
+#ir
+#ip,c1,(fi),KINO_A401EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060094
+紀乃
+「臨時ボーナスや、それ位は出さななあ？
+$nw,4600
+
+#ir
+#ip,c1,(fi),KINO_A401MJ2.png,(x),c,(s),80%
+#ig
+
+　で、その中身、何に使うかは分かってるやろな？」
+$k
+
+優
+「もちろん全額雪華ちゃんのプレゼント代に！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"すぱーん！" );
+// 	SS_( CENTER, KINO_A401IK2 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),quake,(qx),0,(qy),2,(sync),NO
+#ip,c1,(fi),KINO_A401IK2.png,(x),c,(s),80%
+#ig,(se),S_Bashi02
+
+
+優
+「冗談に決まってんだろー？　分かってるって！」
+$k
+
+#next,02common03-1_04

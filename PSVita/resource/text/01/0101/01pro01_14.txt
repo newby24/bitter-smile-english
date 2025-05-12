@@ -1,0 +1,725 @@
+﻿// 既読フラグ
+#read_flag,24
+
+優
+「あ、雪華ちゃん」
+$k
+
+&empty
+……は分かるけど。
+$k
+
+// MII_0101BS
+#ir
+#ip,c1,(fi),MII_A101.png,(psi),MII_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030040
+みい
+「ごきげん麗しゅう、お兄様」
+$k
+
+優
+「なんで二人とも玄関前で座りこんでるわけ？」
+$k
+
+#ir
+#ip,c1,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01KS.png,(x),l,(s),60%
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01BS.png,(x),r,(s),60%
+#ig
+
+// YUKIHA_0101KS
+#sp,vo,01050031
+雪華
+「あはは、それがねぇ～…」
+$k
+
+優
+「みいちゃん、カギ持ってんじゃないの？」
+$k
+
+// MII_0101NI
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01NI.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01030041
+みい
+「いわゆるキー閉じ込みというやつですね」
+$k
+
+優
+「……なんの事さ？」
+$k
+
+// MII_0101SN3
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01SN3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01030042
+みい
+「私は今日、一番早くこの家を出発したのです」
+$k
+
+優
+「うん、知ってるけど？」
+$k
+
+// MII_0101NI2
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01NI2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01030043
+みい
+「つまりですね、私は今日戸締りをしていないのです」
+$k
+
+優
+「え、まさか、泥棒とか……」
+$k
+
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01SN3.png,(x),r,(s),60%
+#ig
+
+// MII_0101NI2
+#sp,vo,01030044
+みい
+「まさか。この通りどこもかしこも、
+　我が家の防犯設備は健在です」
+$k
+
+#sp,se,S_Gatan01
+
+// 	SS(RIGHT, MII_0101SN3, MOVE_STOP, NORMAL);
+
+&empty
+みいちゃんは玄関の扉をカタカタしてみせる。
+$k
+
+// YUKIHA_0101MJ2
+#ir
+#ip,c1,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01MJ2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01050032
+雪華
+「お兄ちゃん鈍ぅい……」
+$k
+
+優
+「え、あれれ、俺なんか間違った？　…やっちゃった？」
+
+$k
+
+// MII_0101BS
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01BS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01030045
+みい
+「まあ……、早い話が私の所持しているはずの鍵は
+　我が家の中に存在しています。
+　私が鍵を忘れて外出してしまったという事ですね」
+$k
+
+&empty
+まわりくどっ！
+#mlarge
+$k
+
+優
+「なーんだ、俺はてっきり……
+$nw,1000
+
+　じゃあ、俺の持ってるこの鍵でさっさと入ろうか」
+$k
+
+#ss,bgm
+
+// 	SS_(LEFT, YUKIHA_0101SP, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01SP.png,(x),l,(s),60%
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01SN3.png,(x),c,(s),80%
+#ig,(se),S_Dosa01
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4, 20);
+// 	SS(CENTER, MII_A101SN3);
+
+// MII_A101SN3
+
+#sp,vo,01030046
+みい
+「殿！」
+#mlarge
+$k
+
+&empty
+轟木家の鍵を取り出した俺の手をみいちゃんが、
+がっしと掴んだ。
+$k
+
+優
+「え、え？　今度は何さ！？」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// MII_A101NI2
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01NI2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01030047
+みい
+「この私め、鍵を忘れたばかりか、
+　殿の大事な姫君をこの炎天下の中、
+　待ち惚けさせてしまったので御座いますっ」
+$k
+
+優
+「えーと……？」
+#meffect,flow,5
+$k
+
+&empty
+なんか予感がする。
+$k
+
+// MII_A102MJ
+#ir
+#ip,c3,(fi),MII_A102.png,(psi),MII_An02MJ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01030048
+みい
+「かくなるうえはこのむねかっさばいて！」
+$k
+
+&empty
+おい！
+今、聞き慣れない単語が一文に含まれてなかったか？
+$k
+
+優
+「ちょ、ちょっとそこ違うから、みいちゃん！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ふにょふにょ！" );
+
+// 	SetActionPyon( CENTER );
+// 	ZoomStand(CENTER, NORMAL, 130, 130);
+
+// MII_A101AM
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c2,(fi),MII_A101.png,(psi),MII_An01AM.png,(x),c,(s),100%
+#ie,c3
+#ig,(se),S_Poyon01
+
+#sp,vo,01030049
+みい
+「お止め下さるな拙者は、拙者はー！」
+$k
+
+// 	SS(LEFT, YUKIHA_0101NI, MOVE_STOP, NORMAL);
+
+#sp,se,S_Poyon02
+
+&empty
+やっぱりな！
+掴んだ俺の手を胸に押し当てている。
+昨日からこんなのばっかり！
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"むにょむにょにょ。" );
+優
+「ちょ―――っとぉ、まずい、まずいってそれは！」
+$k
+
+// YUKIHA_0101NI
+#ir
+#ip,c1,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01NI.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01050033
+雪華
+「………」
+#meffect,flow,5
+$k
+
+&empty
+雪華ちゃんの視線が冷たい。
+こんなに陽は照っているのに。
+$k
+
+&empty
+どんどん俺の評価がっ！
+$k
+
+// MEGUMI_0101AZ
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01AZ.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ig
+
+#sp,vo,01070022
+めぐみ
+「あいや待たれい～、お侍さん～！」
+$k
+
+// 	SS_(CENTER, MII_A101AM);
+// 立ち絵移動。パラメータは適宜。
+// 	SS(LEFT, YUKIHA_0101KD2, MOVE_STOP, NORMAL);
+
+// YUKIHA_0101NO
+#ir
+#ip,c1,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01050034
+雪華
+「あっ、めぐお姉ちゃんだ」
+$k
+
+// 	SS(RIGHTRIGHT, MEGUMI_0101AZ, MOVE_RIGHT, NORMAL);
+
+優
+「今度は何？
+　お前、さっきそこで別れたばっかじゃん？」
+$k
+
+// 	SS_(LEFT, MII_A102AS2);
+
+#ir
+#ip,c3,(fi),MII_A102.png,(psi),MII_An02AS2.png,(x),l,(s),80%
+#ip,c2,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01AZ2.png,(x),r,(s),80%
+#ie,c1
+#ig
+
+// 	SS(RIGHT, MEGUMI_A101AZ2);
+// MEGUMI_A101AZ2
+
+#sp,vo,01070023
+めぐみ
+「私が介錯してしんぜよう～。
+$nw,4140
+
+　はぁ～～～～っ！」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Basa01
+
+#ir,(dr),500
+#ip,c3,(fi),MII_A103.png,(psi),MII_An03AD.png,(x),l,(s),80%
+#ie,ov
+#ig
+
+#sp,se,S_Basa02
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(y+),100,(al),0%
+#ig
+
+// 	RuleFlashIn(NORMAL, RULE_SWORD|RULE_NEGATIVE);
+//	SM( CHAR_ETC,			-1,					"",				"ぽすっ。" );
+// MII_A103AD
+
+#sp,vo,01030050
+みい
+「むぅう、無念～……」
+#meffect,flow,5
+$k
+
+&empty
+とたんにみいちゃんが俺の手を離す。
+$k
+
+優
+「なにこの茶番！？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SV( BG_TD_IMA01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01B.jpg,(s),100%
+#ig
+
+#show
+
+優
+「あ、俺もなんか作ろうか？」
+$k
+
+&empty
+うちの母上が仕事で遅くなった時とか、
+俺が晩飯作ってたりもしてたし、少しは手伝える。
+$k
+
+#sp,vo,01050035
+雪華
+「いいよ、お兄ちゃんはお茶でもすすってなよ」
+$k
+
+優
+「はい」
+$k
+
+&empty
+雪華ちゃんたら、ビミョーに
+言葉遣いが荒くなってる気がするんですけど。
+$k
+
+#hide
+
+//#sp,env,S_Cook02#
+
+// 	SV( BG_TD_KITCHEN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_KITCHEN01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG4.png,(x),r,(s),60%
+#ig
+
+#sp,env,S_Cook01#
+
+#show
+
+// MEGUMI_0101EG4
+
+#sp,vo,01070024
+めぐみ
+「男子厨房に入るべからず～、ってねぇ」
+$k
+
+// YUKIHA_0301IK3
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01050036
+雪華
+「そうそう。
+　あのね、お兄ちゃんってなんでも焦がすんだよ？
+　ハンバーグなんかもうヒドくてねぇ…」
+$k
+
+// MEGUMI_0101BS
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01070025
+めぐみ
+「あ～やっぱり？
+　優ちゃんは火の扱いとか、めっちゃ適当そうだし～」
+$k
+
+#ss,env,(dr),1000
+
+&empty
+轟木家に帰って来てからは、めぐみ先生指導の元、
+お昼御飯料理教室が開かれることとなった。
+$k
+
+&empty
+桜子がよろしくと言っていたのは、
+昼飯の準備を代わりに手伝ってやってくれ、
+という事らしかった。
+$k
+
+// MEGUMI_0101BS
+#sp,vo,01070026
+めぐみ
+「味の濃い料理ばかり出てくるとか？
+$nw,3590
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS2.png,(x),r,(s),60%
+#ig
+
+　で、ここは背中の方から剥いでいくと、ほらぁ」
+$k
+
+// YUKIHA_0301OD
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01OD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01050037
+雪華
+「わっすごい。きれいに骨が取れた。
+$nw,4930
+
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK2.png,(x),l,(s),60%
+#ig
+
+　聞いて聞いて、もうねぇお兄ちゃんが作る日のは
+　全部塩辛かったりとかさぁ～」
+$k
+
+&empty
+さすがは心の乙女。
+料理も妹達の人気もお手のモノだ。
+$k
+
+#hide
+
+//	SFO(-1, SLOWER);
+// 	SV( BG_TD_IMA01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01B.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ああ、楽しそうだな、俺もあっち側に行きたい…」
+$k
+
+&empty
+料理教室の生徒は只今、雪華ちゃん一人。
+もう一人、生徒だったはずのみいちゃんは……。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_1FROKA01A.jpg,(s),100%
+#ip,c1,(fi),MII_A102.png,(psi),MII_An02NM.png,(x),c,(s),80%
+#ig
+
+#show
+
+&empty
+なぜか廊下に正座をし、
+膝の上に何冊かの百科事典を乗せ、
+神妙な顔で一番上に置かれた料理本のページを眺めていた。
+$k
+
+// 	SV( BG_TD_1FROKA01A );
+// 	SS(CENTER, MII_A102NM);
+// 	MoveStand(CENTER, 0, 0, 30);
+
+// MII_A102NM
+#sp,vo,01030051
+みい
+「そうですね、楽しそうですね。
+　私も出来ればあちら側がよかったのですが……」
+$k
+
+優
+「で、みいちゃんは一体、そこで何をしてるんだい？」
+$k
+
+// MII_A102NM2
+#ir
+#ip,c1,(fi),MII_A102.png,(psi),MII_An02NM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01030052
+みい
+「反省と称しての読本自習……。
+　いえ、この場合島流しでしょうか」
+$k
+
+優
+「ああ、まだ続いてんだ？」
+$k
+
+// MII_A102KB3
+#ir
+#ip,c1,(fi),MII_A102.png,(psi),MII_An02KB3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01030053
+みい
+「沖奈裁きの判決によりますと、
+　私は少し方法を間違えたのだそうです」
+$k
+
+&empty
+それはめぐみに同意だ。
+$k
+
+&empty
+そう、お前はやりすぎた。
+俺には目的として何を狙っていたのかは分からんが。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+// 	SV( BG_SJ_YU01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+昼飯をゆかいにご馳走になった後。
+妹達の輪の中に入り損ねた俺は、
+なんとなくいたたまれなくなり、自分の部屋に戻った。
+$k
+
+&empty
+それから部屋に置いてある桜子の蔵書の一部、
+漫画雑誌なぞを読みふけっている。
+……参考書とかも塵になっちまったからな。
+$k
+
+&empty
+言い訳じゃないぞ。
+$k
+
+// 	SS(CENTER, SAKURAKO_0303NO, MOVE_RIGHT, NORMAL);
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door03o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,bgm,BGM_SAKURAKO
+
+// SAKURAKO_0303NO
+
+#sp,vo,01000228
+桜子
+「優入るわよー」
+$k
+
+優
+「入りながら言われてもな。
+　着替え中だったらどうすんだよ」
+$k
+
+// SAKURAKO_0303IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000229
+桜子
+「あんたの着替えなんか興味ないわよ。
+$nw,3100
+
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+　それより鍵、返してね」
+$k
+
+優
+「おー、テーブルの上に置いてあるぞー」
+$k
+
+// SAKURAKO_0303NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000230
+桜子
+「……せめて投げてよこすとかしたら？
+$nw,2830
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),60%
+#ig
+
+#sp,se,S_Book03
+
+　はい、これ！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"どさっ" );
+優
+「んー？　なんだそれ」
+$k
+
+// SAKURAKO_0302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000231
+桜子
+「あたしの使ってる参考書と、
+　みんなでかき集めた、とりあえずのあんたの服よ」
+$k
+
+優
+「参考書……服とかもか、悪いななんか。
+　もしかしてまた……めぐみのか？」
+$k
+
+// SAKURAKO_0302KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ase.png,(x),520,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op1,(y+),100,(al),0%
+#ia,op1,al,(dl),500
+#ig
+
+#sp,vo,01000232
+桜子
+「いや、さすがにそれは………。
+　あんた、フリフリとか着こなせるんだ？」
+$k
+
+優
+「無理！」
+#mlarge
+$k
+
+
+#next,01pro01_15

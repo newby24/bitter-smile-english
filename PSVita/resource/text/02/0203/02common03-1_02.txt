@@ -1,0 +1,850 @@
+﻿// 既読フラグ
+#read_flag,88
+
+&empty
+というかこの信用の無さ！
+$k
+
+// CHISEKA_A201KB
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040313
+知世翔
+「言いたい事はそれだけです、
+　お邪魔しました、
+$nw,3700
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01BS.png,(x),c,(s),80%
+#ig
+
+#madd,では失礼します！」
+
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r0,(al),0
+#ig
+
+&empty
+颯爽と去って行く有河。
+$k
+
+優
+「ピュ…ピュアー………ですか」
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02010231
+勇樹
+「……何の事だ」
+$k
+
+優
+「俺がさっき言ってたサンタの事だよ」
+$k
+
+&empty
+俺はサンタとみいちゃんの関係を簡単に説明した。
+$k
+
+// 	SS( CENTER, ISAKI_A201MU );
+
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+// ISAKI_A201MU
+#sp,vo,02010231x
+勇樹
+「くだらん、興味ないな。
+$nw,3000
+
+　クリスマスなどというものは危険な思想だ」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「お前は一体どこの革命家なのさっ！？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_GAIKAN02A );
+// 	ZoomVisual( 0, 110, 110, 0, 300 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_GAIKAN02A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	Scroll( SLOWER | SPEED_DOWN, 85, 0 );
+// 	SetVisualObject( 0, BG_MT_TEIBO02A, 0, 0, OBJATTR_NOSCROLL );
+
+//	FI( SLOW );
+//	CF();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO02A.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,02030220
+？？？
+#mstyle,(co),みい
+「お兄様ー」
+$k
+
+優
+「………」
+$k
+
+#sp,vo,02030221
+？？？
+#mstyle,(co),みい
+「そこの素敵なお兄様――っ」
+$k
+
+// 	SV( BG_MT_TEIBO02A );
+
+#sp,bgm,BGM_MII
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),l0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+優
+「うん？　………あ、みいちゃん？」
+$k
+
+// 	SS_( CENTER, MII_A201BS, MOVE_LEFT, NORMAL );
+
+// MII_A202NO
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030222
+みい
+「…やっと追いつきました」
+$k
+
+// MII_A203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030223
+みい
+「校門を出るときに見かけて、あれはもしやお兄様、
+　と思い声をかけたのですが、いっこうに
+　気付かれないので…」
+$k
+
+優
+「ああ、ごめんね……考え事してたからさ」
+$k
+
+// MII_A203EG
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030224
+みい
+「そうでしたか。
+$nw,1600
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD3.png,(x),c,(s),80%
+#ig
+
+　しかし、人違いでなくて良かったです。
+$nw,2800
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD4.png,(x),c,(s),80%
+#ig
+
+　私とっても恥ずかしい電波な子になるところでした」
+$k
+
+優
+「はは…それは残念」
+$k
+
+// MII_A203KD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030225
+みい
+「ところで、考え事と言うのは？
+$nw,2900
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+　私で良ければお兄様の良きパートナーとして
+　相談役になりますけども」
+$k
+
+優
+「う、うーん。
+　……相談に乗ってくれるのはうれしいんだけども…」
+$k
+
+&empty
+そもそもこんな事で悩むのもおかしい気もするけど…。
+$k
+
+// MII_A203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030226
+みい
+「こんな私では頼りないですか？」
+$k
+
+&empty
+いつになく良い子なみいちゃんを見ていると…。
+$k
+
+優
+「いや、そうじゃなくて…」
+#meffect,flow,5
+$k
+
+&empty
+もしやの奇跡が起きている最中なのだとしたら、
+本人に直接聞くのもどうかと思うし…。
+$k
+
+&empty
+それならむしろ、俺も参加せざるを得ない。
+$k
+
+優
+「うん、あのね、俺の悩みと言うのは受験というか、
+　そのー、数学の問題でですね……」
+$k
+
+&empty
+人として。
+$k
+
+// MII_A203NO2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030227
+みい
+「もう無理をなさらなくてもいいのですよ、お兄様。
+$nw,4500
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+
+　姉上から何か言われているのですね？」
+$k
+
+優
+「えっ…何を無理な……………あれ？」
+$k
+
+// MII_A203AD3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030228
+みい
+「分かっていますとも。
+$nw,2200
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+　…サンタ箝口令ですね？」
+
+#mfuri,　　　　　　　　　　かんこうれい
+
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ええっ、なぜそれを！？」
+$k
+
+// MII_A203BS
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030229
+みい
+「サンタを待ちわびるよい子を演じるのも、
+　悪くないものですよ。
+$nw,5300
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+　少々肩は凝りますが……年に一度ですし」
+$k
+
+優
+「なんて事だ。クリスマスの悪魔がここに！」
+$k
+
+// MII_A203EG4
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030230
+みい
+「まあ♪
+　安めの遠まわしな駄洒落も素敵です、お兄様♪」
+$k
+
+&empty
+メッキを剥がした後にも関わらず、
+未だに良い子が続いてるっ『ぽい』のも、
+ポイントが高いぜーっ！
+$k
+
+優
+「うわーっ、なんて儚い夢だったのだっ！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TSUGAKURO02A )
+// 	SS( CENTER, MII_A203NO );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO02A.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+優
+「で、みいちゃんは
+　いつ頃からサンタが居ないって気付いてたの？」
+$k
+
+// MII_A203TR
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030231
+みい
+「そうですね、サンタの存在を知ってから
+　７年目位に、でしょうか？」
+$k
+
+優
+「へー、意外と…」
+#meffect,flow,5
+$k
+
+// MII_A203TR2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030232
+みい
+「はい、不覚にも長々と騙されてしまいました…」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　だま
+
+$k
+
+優
+「決め手は？」
+$k
+
+// MII_A203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030233
+みい
+「毎年、私へ宛てたクリスマスカードが
+　入っていまして」
+$k
+
+優
+「メリークリスマスーっとか書いてるやつ？」
+$k
+
+// MII_A203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030234
+みい
+「ええ、まあ、その様な物ですね。
+$nw,3700
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03TR3.png,(x),c,(s),80%
+#ig
+
+　私は宝物としてカードも大事に取っておいたのですが、
+$nw,4700
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03MJ.png,(x),c,(s),80%
+#ig
+
+　ある日、並べて眺めていた時に気付いたのです」
+$k
+
+優
+「何に？」
+$k
+
+// MII_A203KM3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030235
+みい
+「一つずつ筆跡が違う事に。
+$nw,3300
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+　その内の一つはとても達筆でしたので…」
+$k
+
+優
+「婆さんかっ！？」
+$k
+
+// MII_A203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030236
+みい
+「いえ、決め手はそこではなくてですね」
+$k
+
+優
+「違うの？」
+$k
+
+// MII_A203TR
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030237
+みい
+「さらに一つは丸い字、一つは少しキレの無い丸い字、
+　女のサンタが二人いるのはおかしいのでは、と思い、
+　よくよく考えると身内と筆跡が重なるという…」
+$k
+
+優
+「なるほど……でも、女のサンタって？」
+$k
+
+// MII_A203TR4
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030238
+みい
+「それはこちらの話ですので、お気になさらず」
+$k
+
+優
+「そっか、ふーん。
+　で、悔しさから復讐の為に逆に騙し続けてる、と？」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　だま
+
+$k
+
+// MII_A203TR2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030239
+みい
+「………滅相も無いです」
+$k
+
+&empty
+ふと、みいちゃんの方を見て、
+自分の放った言葉を訂正したくなった。
+$k
+
+&empty
+その子は、
+俯いて、胸に手を当て、とことこと歩きながら…。
+$k
+
+// 	SS_( CENTER, MII_A203EG2, MOVE_STOP, 0 );
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TODOROKIMICHI02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI02A.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG2.png,(x),c,(s),80%
+#ig
+
+// MII_A203EG2
+
+#show
+
+#sp,vo,02030240
+みい
+「そんな事はないですよ。
+　むしろとっても嬉しい事だと思いましたから。
+　家族の愛がとっても伝わりましたので…」
+$k
+
+優
+「あ、そうか………そうだよな」
+$k
+
+// MII_A203TR4
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030241
+みい
+「むしろずっと騙されていたいと思いました」
+#mfuri,　　　　　　　　　　　　　　だま
+
+$k
+
+優
+「………ごめんな」
+$k
+
+// MII_A203EG3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030242
+みい
+「いえ、そんな小さな事は気にしないでくださいな」
+$k
+
+優
+「ところでさ、
+　……どうして俺には種明かししてくれたの？」
+$k
+
+// MII_A202NO
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030243
+みい
+「はい、それはですね」
+$k
+
+&empty
+俯いていた顔が上を向き俺の方を見る。
+$k
+
+&empty
+……にっこり笑って。
+$k
+
+// MII_A201BS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030244
+みい
+「共犯者は一人くらい居ても良いのではないかと
+　思っていましたから。
+$nw,5100
+
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NS.png,(x),c,(s),80%
+#ig
+
+　………ふふっ♪」
+$k
+
+// 	SS_( CENTER, MII_A201BS );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),c,(s),100%
+#ig,(se),S_Basa02
+
+// 	ZoomStand( CENTER, 0, 120, 120 );
+// 	Shake( NORMAL, SHAKE_DOWN, 30, NORMAL );
+
+&empty
+そう言ってみいちゃんが俺に抱き付く。
+$k
+
+優
+「……まさか俺、また騙されて無いよなー？」
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　だま
+
+$k
+
+// MII_A201AM2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01AM2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02030245
+みい
+「さあどうでしょう？」
+$k
+
+優
+「いや、だからくっつかないでね？
+　君の体は凶器に等しいのだよ！？」
+$k
+
+&empty
+全員が共犯者ってオチが無いとも限らんし。
+$k
+
+// MII_A201BS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02030246
+みい
+「まあまあ、遠慮なさらずに～。
+　信じる心が大事なんですから」
+$k
+
+優
+「今とっても信仰心が揺らぎそうなんだけども…」
+$k
+
+// 	SS_( CENTER, MII_A201TR2, MOVE_STOP, 0 );
+
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01TR2.png,(x),c,(s),100%
+#ig
+
+// MII_A201TR2
+#sp,vo,02030247
+みい
+「ふふふふっ♪」
+$k
+
+#hide
+
+// 	SV( BG_SJ_GAIKAN02B );
+// 	Scroll( 0, -150, 0 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN02B.jpg,(s),100%
+#ig
+
+// 	MoveStand( CENTER, 0, -150, 0 );
+// 	ZoomStand( CENTER, 0, 120, 120 );
+
+#show
+
+&empty
+気付けばもう千寿の近くだ。
+$k
+
+//	SS_( LEFTLEFT, SAKURAKO_0201TR4, MOVE_LEFT, NORMAL );
+// SAKURAKO_0401TR4
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000531
+桜子
+「あら、あんた達、いつになく楽しそうね。
+$nw,3000
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+　どうしたの？」
+$k
+
+優
+「……まあ、ちょっとな？」
+$k
+
+// MII_A201BS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030248
+みい
+「ふふっ、お兄様と少し内緒話をしてました♪」
+$k
+
+// SAKURAKO_0401NS
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000532
+桜子
+「なーにー？　やらしーのー。
+$nw,2800
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),r,(s),60%
+#ig
+
+　……まあ、いいけどさー？」
+$k
+
+&empty
+まあ、信じてるけどさー。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_EKI02A );
+
+#sp,env,S_Town03#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_EKI02A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「低脂肪牛乳も買ったよなー？」
+$k
+
+&empty
+俺は千寿で待っていた桜子に夕飯の買い物を頼まれた。
+というか今日は俺の買い物当番だった…。
+$k
+
+&empty
+例のごとく、
+みいちゃんは俺の仕事を肩代わりしようとしたものの、
+有河との約束を思い出したとかで、涙ながらに断念。
+$k
+
+&empty
+そして俺はメモに記されている通りの買い物を、
+駅前まで足を運び、実行して今に至る。
+$k
+
+優
+「え――っと、これで終りか？
+　全部買ったよな。もう足りないものは…」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ぽん" );
+// 	Shake( FAST, SHAKE_DOWN, 10, FAST );
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Pon02
+
+優
+「はい？　………なん
+$nw,1000
+
+
+// 	Shake( FAST, SHAKE_LEFT, 20, FASTER );
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+　ひぇふぁっ！？」
+
+$k
+
+
+#next,02common03-1_03

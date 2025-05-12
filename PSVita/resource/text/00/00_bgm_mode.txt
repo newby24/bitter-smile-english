@@ -1,0 +1,47 @@
+// BGM モード。
+// コマンドの種類は、先頭のアルファペットで区別する。
+// 『 page 』はページの区切りを示す。
+// 『 item 』はページに配置する BGM のデータを示す。(item),( BGM 名称),(ファイル名)
+
+// １ページ目のデータ。
+page
+
+item,路地裏のひだまり,BGM_NONBIRI
+item,a cup of downtown,BGM_TANOSHII
+item,Hop▲Step▲Fly!,BGM_CHISEKA
+item,こけつまろびつ,BGM_COMICAL2
+item,palpitation.,BGM_SAKURAKO
+item,心の中にひとり,BGM_SABISHII
+item,impatient mind,BGM_SYOSO
+
+
+// ２ページ目のデータ。
+page
+
+item,Smile For You,BGM_KANDO
+item,見上げたほしぞら,BGM_SHIZUKA
+item,とけあうように,BGM_H2
+item,おみおつけのいいにおい,BGM_NICHIJYO
+item,今日も爽やかに,BGM_KEIKAI
+item,そろばんずく,BGM_MII
+item,秘技・ちゃぶ台返し,BGM_COMICAL1
+
+
+// ３ページ目のデータ。
+page
+
+item,Every Smile,BGM_KANAME
+item,夕闇,BGM_FUAN
+item,かじかんだ手のひら,BGM_OMOIDE
+item,吐息のそばで,BGM_H1
+item,calm passion,BGM_ISAKI
+item,ひとりぼっちの心,BGM_KANASHIMI
+item,手を繋いだ帰り道,BGM_YASURAGI
+
+
+// ４ページ目のデータ。
+page
+
+item,SAKURA☆風味,BGM_OP
+item,とびきりスマイル,BGM_STAFF
+

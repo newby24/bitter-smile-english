@@ -1,0 +1,724 @@
+﻿// 既読フラグ
+#read_flag,226
+
+&empty
+そう言いながら、
+宮津橋は俺の腕を引っ張っていく。
+$k
+
+&empty
+そのまま、お墓の前まで歩いていった。
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO( SLOW );
+// 	SS( CENTER, ISAKI_0401MU );
+// 	CFI( SLOW );
+
+// ISAKI_0401MU
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_BOCHI01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+
+#show
+
+#sp,vo,04010443
+勇樹
+「さすがに１年も来ないと、苔がすごいな」
+$k
+
+優
+「だなぁ。たわしとかあるか？」
+$k
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010444
+勇樹
+「ああ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+#sp,se,T_Gosigosi
+
+&empty
+差し出されたアクリルたわしを使って、
+苔を落として、お墓を綺麗にしていく。
+$k
+
+&empty
+宮津橋も、周りの雑草を抜いていた。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	BF( 100, 100 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_BOCHI01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「こんなもんか？」
+$k
+
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+// ISAKI_0401NO
+#sp,vo,04010445
+勇樹
+「こんなものだろう。花を貸してくれ」
+$k
+
+優
+「おう」
+$k
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,S_Vinyl01
+
+&empty
+地面に置いてあった花束を渡すと、
+宮津橋はそれを墓前に供えた。
+$k
+
+#sp,se,K_Nuno09
+
+&empty
+鞄から、線香とろうそくを出して、
+それもセットする。
+$k
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	RFO( RULE_EYE );
+// 特殊な画面変更。暫定的に。
+
+&empty
+手を合わせて、目を閉じる宮津橋の後ろに立って、
+俺も同じようにした。
+$k
+
+&empty
+宮津橋のお母さん、頼りないかもしれませんが、
+俺、彼女の事を幸せにしたいです。
+$k
+
+&empty
+するり、とそんな事を思った。
+$k
+
+優
+「……………ふぅ」
+$k
+
+#hide
+
+//	SV( VISUAL_WHITE );
+
+#sp,bgm,BGM_ISAKI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_BOCHI01A.jpg,(s),100%
+#ig
+
+//	CF();
+#show
+
+&empty
+目を開けると、宮津橋はまだお母さんと
+話をしているかのように目を閉じていた。
+$k
+
+#sp,vo,04010446
+勇樹
+「……」
+$k
+
+&empty
+真剣な顔だ。
+$k
+
+&empty
+宮津橋のお参りが終わるまで、待つ事にする。
+$k
+
+&empty
+やがて、宮津橋は小さく息を吐くと、
+ゆっくり目を開けて、俺を見上げた。
+$k
+
+//	SV( BG_MT_BOCHI01A );
+// 	SS( CENTER, ISAKI_0401NO, MOVE_DOWN, SLOW );
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+//	CF();
+
+// ISAKI_0401NO
+#sp,vo,04010447
+勇樹
+「待たせたな」
+$k
+
+優
+「いや、いいよ。何を話してたんだ？」
+$k
+
+// ISAKI_0402MU
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010448
+勇樹
+「受験の事、だな。
+　受ける大学が決まった事と……
+　勉強が上手くいってる事だ」
+$k
+
+// ISAKI_0402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010449
+勇樹
+「あとは、ありがとうって言っておいた」
+$k
+
+優
+「そうか」
+$k
+
+&empty
+宮津橋が、お墓をじっと見つめる。
+その目は、とても優しい目だった。
+$k
+
+// ISAKI_0402NO
+#sp,vo,04010450
+勇樹
+「母さんが、私の進学費用だけは守ってくれたから
+　私は大学に行ける。
+　それは、感謝しないとな」
+$k
+
+優
+「そうか……お前のために
+　がんばってくれたんだな」
+$k
+
+&empty
+宮津橋の拳がぎゅっと握られる。
+その手が微かに震えている。
+$k
+
+// ISAKI_0401MU
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010451
+勇樹
+「あの男が借金を作ったせいで、
+　母さんは苦労のしっぱなしだった…」
+$k
+
+優
+「宮津橋……」
+$k
+
+// ISAKI_0401AZ
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01AZ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010452
+勇樹
+「あいつがいなくなってから、母さんとずっと
+　２人だった。母さんはずっと働き詰めだったから、
+　私はそれを少しでも助けたかった」
+$k
+
+// ISAKI_0401MU
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010453
+勇樹
+「でも」
+$k
+
+&empty
+宮津橋の瞳にうっすらと涙が浮かぶ。
+$k
+
+// ISAKI_0401KN
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010454
+勇樹
+「助けられなかった……」
+$k
+
+// ISAKI_0401KN
+#sp,vo,04010455
+勇樹
+「…私は…何もできない子供だった……。
+　私が居たから母さんは…」
+$k
+
+#sp,se,K_Hair01
+
+// 	SS( CENTER, ISAKI_A401KN );
+
+#ir
+#ip,c1,(s),80%,(x),c
+#ig
+
+優
+「そんな事はないさ。
+　お前の存在はきっとお袋さんの励みになってたはずだ」
+
+$k
+
+&empty
+俺は、宮津橋の肩を抱き寄せた。
+それは、想像以上に華奢で、細くて……
+強く抱いたら壊れてしまいそうだった。
+$k
+
+優
+「…お前がさ、なんでもできるのって、
+　１人で頑張ってきたからなんだな」
+$k
+
+// ISAKI_A402KT
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010456
+勇樹
+「え……？」
+$k
+
+優
+「お母さんに心配かけまいとして。
+　１人で大丈夫と、必死に頑張ってきたから……
+　なんでもできるんだよな」
+$k
+
+// ISAKI_A402KM
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010457
+勇樹
+「…………そう、だ。
+　だって、１人で全てをこなさなければ、
+　生きてなんかこれなかった」
+$k
+
+&empty
+俺を無理矢理に突き放す事なく、
+宮津橋は俺の肩に頭をもたせかけた。
+$k
+
+&empty
+宮津橋の気持ちが、俺にも少しわかる。
+$k
+
+優
+「うちもさ、似たような感じだったんだ」
+$k
+
+// ISAKI_A402OD
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010458
+勇樹
+「そう、なのか？」
+$k
+
+優
+「うちの親父、酒を飲むと暴れる
+　どーしよーもない人間でさ」
+$k
+
+優
+「怯える妹と母さん見て、思ったんだよ。
+　強くなりたいって」
+$k
+
+// ISAKI_A402KT
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010459
+勇樹
+「…………そうか」
+$k
+
+優
+「お前とはちょっと違うかもしれないけど、
+　親父なんかいなくても大丈夫だって
+　言える人間になりたかった」
+$k
+
+// ISAKI_A402OD
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010460
+勇樹
+「……なれたのか？」
+$k
+
+&empty
+宮津橋の問いに、俺は小さく首を振った。
+$k
+
+優
+「いいや。
+　結局、母さんは親父と自力で離婚したし、
+　最近、雪華ちゃんも冷たいしな」
+$k
+
+// ISAKI_A402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010461
+勇樹
+「…………」
+$k
+
+優
+「なんだかんだで、婆さんとか桜子に
+　助けられてるって思うしさ……。
+　だから、お前は偉いよ、ほんと」
+$k
+
+// ISAKI_A402KT
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010462
+勇樹
+「私が、偉い？」
+$k
+
+&empty
+手を伸ばすと、俺は宮津橋の頭を撫でた。
+優しく、そっと。
+$k
+
+// ISAKI_A402OD
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010463
+勇樹
+「っ…！」
+$k
+
+優
+「誰の力も借りずに、ずっと頑張ってたんだよな。
+　強いよ、宮津橋は。すごい。偉いと思う」
+$k
+
+// ISAKI_A402TR
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010464
+勇樹
+「そんな、事はっ……ないっ……
+　私はまだまだ全然……っ」
+$k
+
+// ISAKI_A402KM
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010465
+勇樹
+「母さんを…助けることもできなかった。
+　もっと早く大人になっていれば…」
+$k
+
+優
+「俺は、お前にすごく助けられてるぞ？」
+$k
+
+// ISAKI_A402TR
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010466
+勇樹
+「嘘を言うな」
+$k
+
+優
+「嘘じゃないって」
+$k
+
+&empty
+俺はポケットからあの人形を取り出した。
+呪いの人形にしか見えない、アレ。
+$k
+
+&empty
+でも、その背中には……。
+$k
+
+優
+「合格祈願って書いてある。
+　これ、お守りだったんだろ？」
+$k
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),10
+#ig
+
+&empty
+小さく頷く宮津橋。
+$k
+
+優
+「俺が学食ばっかりだから、
+　弁当も作ってくれたんだよな？
+　美味かったよ」
+$k
+
+&empty
+好意的に考えればそのはずだ。
+ちょっと伝わりづらいのは確かだけど。
+$k
+
+// ISAKI_A402TR
+#sp,vo,04010467
+勇樹
+「お前は……何が言いたいんだ」
+$k
+
+優
+「だから、宮津橋も俺を頼ってくれていいんだって」
+$k
+
+// ISAKI_A402OD2
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02OD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010468
+勇樹
+「なん、だと……」
+$k
+
+優
+「１人で頑張りすぎるなよ。
+　俺、お前の助けになりたいんだ。
+　だから……もっと頼ってくれよ」
+$k
+
+// ISAKI_A401KN
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010469
+勇樹
+「…………っっっ！！」
+$k
+
+優
+「宮津橋？」
+$k
+
+// ISAKI_A401KB2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010470
+勇樹
+「今まで、誰もそんな事言わなかった」
+$k
+
+&empty
+それは、どれだけ辛かっただろう。
+$k
+
+&empty
+震える宮津橋の肩を俺は強く抱く。
+$k
+
+&empty
+ここにいる。
+俺がここにいる。
+$k
+
+// ISAKI_A401IK2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010471
+勇樹
+「どうして、お前が言うんだ。
+　どうして……どうして、お前が……っ」
+$k
+
+優
+「俺じゃ、だめなのか？」
+$k
+
+// ISAKI_A401KN
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010472
+勇樹
+「そうじゃない。
+　ダメなのは、お前じゃない。
+　ダメなのは…………私だ」
+$k
+
+#ss,bgm,(dr),1000
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig,(se),S_Binta02
+
+// 	BGMStop();
+// 	ZoomStand( CENTER, 30|SPEED_UP, 100, 100 );
+// 	FadeStand( CENTER, 30|SPEED_UP, FADE_ALPHA, 0 );
+// 	WaitStand( CENTER );
+// 	SetStandEx( CENTER, ISAKI_0402NO );
+// 	FadeStand( CENTER, 50, FADE_ALPHA, 100 );
+
+&empty
+宮津橋が、俺の腕を振り払った。
+$k
+
+&empty
+涙の溜まった目で、きつく睨まれる。
+$k
+
+// ISAKI_0402IK
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010473
+勇樹
+「帰る！！」
+$k
+
+#sp,se,S_Dash05o
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「あっ、宮津橋！！」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+// 	SV( BG_SKY01A );
+
+&empty
+慌てて追いかけたが、宮津橋の姿は
+あっという間に見えなくなってしまった。
+$k
+
+&empty
+もしかして、俺は調子に乗って、
+踏み込みすぎてしまったんだろうか。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TSUGAKURO01A );
+
+#sp,bgm,BGM_KANASHIMI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO01A.jpg,(s),100%
+#ig
+
+
+#next,04isaki13_02

@@ -1,0 +1,593 @@
+﻿// 既読フラグ
+#read_flag,359
+
+// セーブタイトル
+#flag,save_title,要　第６話,0,0
+
+// 要好感度＋１。
+#flag,per,4,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SV( BG_MT_KANAMEMANSION03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAMEMANSION03A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第６話　要さんの自宅探訪
+$k
+#note,erase
+
+// 	SS( CENTER,  KANAME_0203EG, MOVE_LEFT );
+
+// KANAME_0203EG
+#ir,(ef),off
+#ip,c1,(fi),KANAMEn_A203.png,(psi),KANAMEn_An03EG.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,06020228
+要
+「はい到着ー」
+$k
+
+優
+「ふ～、着きましたか」
+$k
+
+// KANAME_0203BS
+#ir
+#ip,c1,(fi),KANAMEn_A203.png,(psi),KANAMEn_An03BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020229
+要
+「待ってて、いま自転車置いてくるから」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#sp,se,S_Nuno07
+
+&empty
+要さんを見送りながら、
+腕の中の羽毛布団一式を抱え直す。
+$k
+
+// 	Shake( 200, SHAKE_DOWN | SHAKE_SCREEN, 4, 100, 0 );
+
+&empty
+要さんが通販で、受け取りを実家に指定した代物だ。
+$k
+
+&empty
+手伝いをねだられて安請け合いしたのはいいけど、
+バランスが取りづらく、意外と苦労した。
+$k
+
+&empty
+しかし、ここが…。
+$k
+
+優
+「要さんの家かぁ」
+$k
+
+&empty
+はじめて訪れる、一人暮らしの女性の部屋。
+$k
+
+&empty
+しかも夜更けともなると、
+客観的には下心のかたまりにしか見えない。
+$k
+
+&empty
+じゃあ主観的にはどうかというと…。
+$k
+
+// 	SV( BG_TD_IMA03A, FILTER_SEPIA | FILTER_LINKSTAND );
+// 	SS( CENTER, SAKURAKO_0402IK7 );
+
+#ir
+#ip,bg,(fi),BG_TD_IMA03A_s.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOs_A402.png,(psi),SAKURAKOs_An02IK7.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0402IK7
+
+#sp,vo,06000019
+桜子
+「お姉の部屋に入りたいだけでしょ」
+$k
+
+&empty
+家を出たとき、桜子が半眼で言った言葉を思い出す。
+$k
+
+// 	ShowFace();
+
+// KANAME_0202IK
+#ir
+#ip,bg,(fi),BG_MT_KANAMEMANSION03A.jpg,(s),100%
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020230
+要
+「キミキミ、やらしい目をして
+　なにをじっと見上げとるのかね」
+$k
+
+// 	SV( BG_MT_KANAMEMANSION03A );
+// 	DelStandAll();
+// 	SS(CENTER, KANAME_0202IK);
+
+優
+「目は口ほどに…？」
+$k
+
+// KANAME_0202KT
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020231
+要
+「なぁに？」
+$k
+
+優
+「冬の夜空は綺麗ですね」
+$k
+
+&empty
+考えないことにした。
+$k
+
+// KANAME_0202NO
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020232
+要
+「なんだか濁った目じゃなかったかなー」
+$k
+
+優
+「わぁ見て要さん、息が真っ白だ～」
+$k
+
+// KANAME_0202SI
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02SI.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020233
+要
+「話、逸らそうとしてる？」
+$k
+
+&empty
+要さんの指摘は的を射てるのに、
+反してトーンに警戒の色がない。
+$k
+
+// KANAME_0202SI
+#sp,vo,06020234
+要
+「ここ、一人暮らしの女の人も少なくないし、
+　誤解を招く行動は慎まないと。
+　通報されちゃうよ？」
+$k
+
+優
+「いや、俺は空間デザインの視点から
+　この建物を見上げてただけでして」
+$k
+
+// KANAME_0203BS
+#ir
+#ip,c1,(fi),KANAMEn_A203.png,(psi),KANAMEn_An03BS.png,(x),c,(s),60%
+#ig
+
+// KANAME_0203KT
+#sp,vo,06020235
+要
+「どれどれ…？
+$nw,1260
+
+#ir
+#ip,c1,(fi),KANAMEn_A203.png,(psi),KANAMEn_An03KT.png,(x),c,(s),60%
+#ig
+
+　あ、下心。
+$nw,1580
+
+#ir
+#ip,c1,(fi),KANAMEn_A203.png,(psi),KANAMEn_An03NS.png,(x),c,(s),60%
+#ig
+
+#madd,なんちゃって」
+
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_0202EG2
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020236
+要
+「拗ねない拗ねない♪」
+
+#mfuri,　　 す　　　　　　　す
+
+$k
+
+&empty
+俺をからかって上機嫌だ。
+$k
+
+// KANAME_0202NO
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020237
+要
+「さ、荷物重いでしょ。
+　寒いしさっさと中入ろ？」
+$k
+
+優
+「重くはないですけど…いいんですか？」
+$k
+
+// KANAME_0202KT
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020238
+要
+「なにが？」
+$k
+
+優
+「いや、俺が言うのもなんですけど躊躇とかね」
+$k
+
+// KANAME_0202NO
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020239
+要
+「ヒツジさんの皮を脱いで、
+　送りオオカミにでもなるつもりかな？」
+$k
+
+優
+「…お邪魔します」
+$k
+
+// KANAME_0202EG2
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020240
+要
+「はいどうぞー」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+…信用されているのか、相手にされていないのか。
+$k
+
+// KANAME_0202KT
+
+#sp,vo,06020241
+要
+「えっと鍵、鍵…」
+$k
+
+&empty
+要さんの部屋…。
+$k
+
+&empty
+なんか年甲斐もなく、
+$k
+
+// 	SS(CENTER, KANAME_0202KT);
+
+// KANAME_0202NO
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020242
+要
+「どきどきする？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「しませんよ！」
+#mlarge
+$k
+
+// KANAME_0201IK3
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020243
+要
+「しとこうよぉそこは！」
+$k
+
+&empty
+…嘘ついた。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelStandAll();
+
+//	DS( CENTER, MOVE_RIGHT );
+#sp,se,W_Keylock01
+
+#wait,1000
+
+#sp,se,S_Door10o
+
+// 	SV( BG_MT_KANAME03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAME03A.jpg,(s),100%
+#ig
+
+#sp,bgm,BGM_KANAME
+
+// KANAME_0402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,06020244
+要
+「適当に座って。
+　あ、荷物はーその辺に」
+$k
+
+優
+「わかりました」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#sp,se,S_Nuno07
+
+&empty
+部屋角に布団一式を下ろし、座れそうな場所を探す。
+$k
+
+&empty
+床でも構わないけど、要さんが気を遣うだろう。
+こういう正解を探すのは、どうも苦手だ。
+$k
+
+優
+「え～っと」
+$k
+
+// KANAME_0401TR4
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01TR4.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+#sp,vo,06020245
+要
+「ベッドでもいいよー？」
+$k
+
+優
+「ベッドですか…」
+#meffect,flow,5
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r3,(al),0%
+#ig
+
+&empty
+…いちいち深読みするな、俺。
+$k
+
+#sp,se,S_Nuno07
+
+// 	Shake( 200, SHAKE_DOWN | SHAKE_SCREEN, 4, 100, 0 );
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,bg,(y+),10
+#ig
+
+&empty
+クッションを見つけたので、
+その上に落ち着く。
+$k
+
+&empty
+部屋に入った時から気づいてたけど、
+かすかにいい匂いがする。
+どこからだろう？
+$k
+
+&empty
+あんまり見回すのは失礼と自制しつつ…。
+$k
+
+&empty
+部屋はシックな感じで、物もそれほど多くない。
+$k
+
+&empty
+予想より小綺麗な印象だけど、
+完璧というわけでもない。
+$k
+
+&empty
+玄関脇、ここで１回溶けたんじゃと心配させる、
+人型のまま脱ぎ捨ててあった服一式も見てしまった。
+$k
+
+&empty
+実はそういう生活感のあるものの方が、
+逆にどきっとしたりして。
+$k
+
+// 	SS( CENTER, KANAME_A402IK, MOVE_LEFT );
+
+// KANAME_A402IK
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020246
+要
+「じろじろ見るの禁止ぃー。
+$nw,3130
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+　紅茶とコーヒー、どっちがいい？」
+$k
+
+優
+「じゃあコーヒーで」
+$k
+
+// KANAME_A402BS
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020247
+要
+「わたしは紅茶にしとこっと」
+$k
+
+優
+「あ、ブラックにしてもらえますか」
+$k
+
+// KANAME_A401US
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01US.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020248
+要
+「おー、カッコつけちゃってー」
+$k
+
+優
+「ブラックぐらいでそんなこと思われても」
+$k
+
+&empty
+ちなみに答えは帰宅後の受験勉強用だ。
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　わるあがき
+
+$k
+
+// KANAME_A403IT5
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03IT5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020249
+要
+「よーし、カッコつけの優くんには、
+　砂糖をたっぷりサービスしちゃうぞー」
+$k
+
+優
+「いや、いらないんですってっ」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// 	SV( BG_MT_KANAME03A );
+// 	SS( CENTER, KANAME_A401TR2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAME03A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01TR2.png,(x),c,(s),80%
+#ig
+
+
+#next,06kaname06_01

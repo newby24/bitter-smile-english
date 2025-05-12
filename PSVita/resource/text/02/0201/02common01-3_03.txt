@@ -1,0 +1,988 @@
+﻿// 既読フラグ
+#read_flag,49
+
+// SAKURAKO_0303NO
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000170
+桜子
+「やっぱ気になるよね～？」
+$k
+
+優
+「いや、そうでなくてな？」
+$k
+
+優
+「あんな奴だからさ…俺、あいつには
+　もっとちゃんとした友達が必要なんじゃないかって
+　思うんだよ。だからその第一段階として…」
+$k
+
+// SAKURAKO_0303KM
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000171
+桜子
+「あんまり気にしすぎるのも迷惑なんじゃないの？
+　勇樹ちゃん側にも色々あるんだろうし」
+$k
+
+優
+「でもよ…」
+$k
+
+// SAKURAKO_0303KT
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000172
+桜子
+「ま…あたしも気にはなっているんだけどね？」
+$k
+
+優
+「だ、だろっ？　気になるよな？　ほっとけないだろ？
+　あんな危なっかしい危険人物はよー！」
+$k
+
+// SAKURAKO_0303AK
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000173
+桜子
+「いや、そうじゃなくってさぁ。
+$nw,2300
+
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),60%
+#ig
+
+
+　ずっと誰かに似てるなーって思ってたんだけど…」
+$k
+
+優
+「なんだよ、またそれか。誰に似てるっていうんだよ。
+　あんな奴そうそう居ないぞ？
+　知ってたら忘れないだろが、あんなのは」
+$k
+
+// SAKURAKO_0303FK
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000174
+桜子
+「…でもねえ」
+$k
+
+// SAKURAKO_0303NO
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000175
+桜子
+「優さ、覚えてる？
+　小さい時からよく一緒に遊んでた子」
+$k
+
+優
+「え…と誰が、誰の事？」
+$k
+
+// SAKURAKO_0302AS
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000176
+桜子
+「あんたっ、はっくじょうな奴ねー！
+$nw,2900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+　ほらー、居たじゃない。よく家に来てあたしらとさ、
+　あんたも一緒になって遊んでたでしょうが？」
+$k
+
+優
+「えーと？　……ああ、居たななんつったっけな、名前」
+
+$k
+
+// SAKURAKO_0302IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000177
+桜子
+「あーもー。
+$nw,1500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM.png,(x),c,(s),60%
+#ig
+
+#madd,あんたに夢中だったあの子の事よ？
+　５年くらいの時に引っ越して行った子、居たでしょ。
+$nw,4700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+　もう忘れちゃったんだ？」
+$k
+
+優
+「まてまて待て！　今思い出すから…」
+$k
+
+&empty
+もちろんめぐみではない。
+$k
+
+#sp,env,S_Cook01#
+
+優
+「………」
+$k
+
+// 	SS_( CENTER, SAKURAKO_0302NO2 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0302NO2
+#sp,vo,02000178
+桜子
+「………」
+$k
+
+優
+「…あれ？」
+$k
+
+#ss,env
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000179
+桜子
+「…あーもう！
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+　３丁目のサキちゃんよ、
+//$nw,3900
+$nw,1500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+　覚えてない？」
+
+$k
+
+// 	etActionPyon( CENTER );
+// 	DelAction( CENTER );
+
+優
+「あーそう！　サキちゃんな！
+　いや、よく覚えてるぞ、うん。
+　…本当だぞ？」
+$k
+
+// SAKURAKO_0301AK
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000180
+桜子
+「はいはいそうね、そうだといいわね？」
+$k
+
+優
+「いや、でも全然違うだろ！？
+　名前も苗字も顔も性格も髪型もっ！
+　……宮津橋と被る所なんか一つも無えじゃん？」
+$k
+
+// SAKURAKO_0302AK
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000181
+桜子
+「そうなんだけどさ、
+$nw,2100
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+　でもね…」
+
+$k
+
+優
+「あ、そういやサキちゃんの苗字ってなんだっけ？
+　お前覚えてるか？」
+$k
+
+&empty
+ほぼ最後までサキちゃんとしか
+呼んでなかったから、苗字なんて覚えてない。
+というか苗字で呼んだ事すら無いかも知れない。
+$k
+
+// SAKURAKO_0301NO
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000182
+桜子
+「中井サキ。
+$nw,1700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),60%
+#ig
+
+　そういえばあの子に手紙送ったけど、
+　届かずに戻ってきたのよねー」
+$k
+
+優
+「お前どうせ住所間違えたんだろ？」
+$k
+
+// SAKURAKO_0302IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000183
+桜子
+「そんな訳無いわよ。
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+　本人にアドレス帳に書いて貰ったんだから。
+　郵便番号と番地が合ってりゃ大抵届くし」
+$k
+
+優
+「どんどん怪しくなってきたな…」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000184
+桜子
+「絶対あの子サキちゃんよ
+$nw,2100
+
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03FK.png,(x),c,(s),60%
+#ig
+
+　あたしには判る！」
+$k
+
+#sp,env,S_Cook01#
+
+// MII_0303KT
+
+#sp,vo,02030115
+みい
+「姉上」
+$k
+
+優
+「だから全然違うじゃんよ！」
+$k
+
+// SAKURAKO_0302IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000185
+桜子
+「似てるって！　面影あるもん、
+$nw,3600
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),60%
+#ig
+
+#madd,名前は…
+$nw,1900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+// 電球アイコン。レイヤーと位置は適宜。
+#ir,(ef),off,(sync),NO
+#ip,op1,(fi),image\icon\denkyuu.png,(x),520,(y),30,(ckc),2,(cki),200,(clc),1
+#ig
+
+　あ、ほら！　養子に貰われていった、とかさ！
+$nw,3500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03BS.png,(x),c,(s),60%
+#ig
+
+　名前も被ってるし一文字違いじゃない？　勇樹とサキ」
+
+$k
+
+// $nw,9500
+
+// MII_A301AM
+
+#sp,vo,02030116
+みい
+「お兄様ー」
+$k
+
+優
+「いや苗字はともかく、
+　名前まで変えられるもんなのか？」
+$k
+
+// SAKURAKO_0302KM5
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000186
+桜子
+「さ…さあ？」
+$k
+
+優
+「………」
+$k
+
+// SAKURAKO_0301TR2
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000187
+桜子
+「………」
+$k
+
+// 	CS_( CENTER, CENTERLEFT, FAST );
+// 	SS_( RIGHTTOP, MII_A303IK2, MOVE_RIGHT );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03IK2.png,(x),r3,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ig
+
+// MII_A303IK2
+#sp,vo,02030117
+みい
+「あのーっ」
+$k
+
+// 	Shake( FAST, SHAKE_RANDOM, 4 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「おう？」
+$k
+
+// SAKURAKO_0301NO
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,02000188
+桜子
+「あっ、みい。
+$nw,1100
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+　…何？」
+
+$k
+
+#ss,bgm
+
+// 	SF( 0, SLOW, 500 );
+// MII_A303KM2
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03KM2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030118
+みい
+「鍋から黒い煙が出ているようなのですが、
+　それは大丈夫なのでしょうか」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+優
+「え？」
+$k
+
+// 	SS_( RIGHTTOP, MII_A303AD3 );
+// 立ち絵移動。パラメータは適宜。
+
+// SAKURAKO_0302AS2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AS2.png,(x),c,(s),60%
+#ie,c3
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,02000189
+桜子
+「ぎゃあー！？
+　肉じゃが煮てるのすっかり忘れてたぁーっ！！」
+$k
+
+#hide
+
+#ss,bgm
+#ss,env
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+#show
+
+// ISAKI_0301MU
+
+#sp,vo,02010062
+勇樹
+「バイト募集…か………」
+$k
+
+#sp,se,S_Door03o
+
+#wait,500
+
+#sp,se,S_Cowbell02
+
+// ISAKI_0302NO
+
+#sp,vo,02010063
+勇樹
+「すみません、あの…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03B );
+// 	SS( RIGHT, YUKIHA_0301AS );
+// 	SS( LEFT, KINO_0401BS3 );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03B.jpg,(s),100%
+#ip,c1,(fi),KINO_A401BS3.png,(x),l,(s),60%
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01AS.png,(x),r,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),520,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#show
+
+// YUKIHA_0301AS
+
+#sp,vo,02050007
+雪華
+「ああっちょっと待った、今の無し無し！」
+$k
+
+// KINO_0401KS
+#ir
+#ip,c1,(fi),KINO_A401KS.png,(x),l,(s),60%
+#ie,c4
+#ig
+
+#sp,vo,02060039
+紀乃
+「なんぼ雪華ちゃんが相手やかて、
+　ポーカーでやり直しは無理やなあ」
+$k
+
+// 	SetActionPyonpyon1( RIGHT );
+
+// YUKIHA_0301IK
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02050008
+雪華
+「ロイヤルストレートフラッシュとか！
+$nw,2700
+
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01SN4.png,(x),r,(s),60%
+#ig
+
+　どうしたらそんなの揃っちゃうのよぉ？」
+#mfuri,　　　　　　　　　　　　　　　　　　　　そろ
+
+$k
+
+// 	DelAction( RIGHT );
+
+// KINO_0401BS
+#ir
+#ip,c1,(fi),KINO_A401BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02060040
+紀乃
+「運と勘、
+$nw,1300
+
+#ir
+#ip,c1,(fi),KINO_A401NS.png,(x),l,(s),60%
+#ig
+
+#madd,としか言えへんなあ…」
+
+$k
+
+// YUKIHA_0301IK3
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02050009
+雪華
+「も、もう一回！」
+$k
+
+// 	SetActionPyon( RIGHT );
+// 	DelAction( RIGHT );
+
+// KINO_0401EG2
+#ir
+#ip,c1,(fi),KINO_A401EG2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02060041
+紀乃
+「しゃあないなあ」
+$k
+
+&empty
+晩飯後、雪華ちゃんは婆さんに
+ポーカーを教わっている。
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+優
+「雪華ちゃん、すっかりはまっちゃってるなー」
+$k
+
+&empty
+残りの俺達は食器を片付けつつ、
+一人の客の相手をしていた。
+$k
+
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01KT2.png,(x),c,(s),80%
+#ig
+
+// KANAME_A301KT2
+#sp,vo,02020019
+要
+「このお芋のペーストみたいなのは何？」
+$k
+
+&empty
+以前みいちゃんが言っていた。
+近所の要はよく飯食う客だ、と。
+$k
+
+// SAKURAKO_A301TR2
+#ir
+#ip,c3,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000190
+桜子
+「肉じゃがよ…」
+$k
+
+// MII_0301KS
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KS.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02030119
+みい
+「どうみても肉じゃがですね」
+$k
+
+// KANAME_A301OD3
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020020
+要
+「えええっ？
+　これ、これが肉じゃがですかっ！？
+$nw,3900
+
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ig
+
+　わ、ちょっと焦げ臭いよー」
+$k
+
+// SAKURAKO_A302IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000191
+桜子
+「なによお姉、急に帰って来て晩ご飯要求した挙句に、
+　文句まで付けようっての？
+$nw,5300
+
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),r2,(s),80%
+#ig
+
+　もうみんな食べ終わって片付けてたとこだったのに」
+$k
+
+&empty
+桜子は失敗した肉じゃがを明日の自分の弁当に入れる
+と言っていたが、もうおかずも残って無かったので
+要さんに渋々それを出した。
+$k
+
+// KANAME_A301OD2
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01OD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020021
+要
+「とと、とんでもない！
+$nw,1700
+
+// 	SetActionPyon( CENTER );
+// 	DelAction( CENTER );
+
+　料理得意な桜子ちゃんにしてはこんなの
+　珍しいなーって…
+//$nw,6200
+$nw,4500
+
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ig
+
+#madd,ねぇー？」
+
+$k
+
+// MII_0303AK
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03AK.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02030120
+みい
+「そこで私を見られても困りますが。
+$nw,3300
+
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG.png,(x),l2,(s),80%
+#ig
+
+　さ、私はそろそろお風呂に入りますね」
+$k
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),l3,(al),0%
+#ig
+
+// KANAME_A301OD4
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01OD4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020022
+要
+「あ、みいちゃん、離反した！？」
+$k
+
+// YUKIHA_0301BS2
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01BS2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02050010
+雪華
+「あ、じゃあ私もお風呂行こうかなー」
+$k
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),l3,(al),0%
+#ig
+
+// KANAME_A303GM
+#ir
+#ip,c2,(fi),KANAME_A303.png,(psi),KANAME_An03GM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02020023
+要
+「…いやー、もうすぐ学園祭よねー？」
+$k
+
+// SAKURAKO_A302IK2
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000192
+桜子
+「お姉、なに誤魔化そうとしてんのよ」
+$k
+
+優
+「まあまあ、いいじゃん別に。
+　細かい事気にすんなよ」
+$k
+
+// SAKURAKO_A302IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000193
+桜子
+「先に細かい事気にしたの…」
+$k
+
+// KANAME_A303AS
+#ir
+#ip,c2,(fi),KANAME_A303.png,(psi),KANAME_An03AS.png,(x),c,(s),100%
+#ie,c3,c1
+#ig
+
+#sp,vo,02020024
+要
+「学園祭、楽しみだよねー？」
+$k
+
+優
+「んで、要さんの時は学園祭ってどんな感じでした？
+　俺まだ聞いた事無かったですよねー？」
+$k
+
+// SAKURAKO_A302IK7
+
+#sp,vo,02000194
+桜子
+「ちっ」
+$k
+
+優
+「要さんはどんな出し物したんですか？」
+$k
+
+// KANAME_A301PU4
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01PU4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02020025
+要
+「そうそう、私らの時はねー映画撮ったのよ映画！」
+$k
+
+優
+「へーどんな映画だったんですか？」
+$k
+
+// SAKURAKO_A302AS2
+
+#sp,vo,02000195
+桜子
+「あ、馬鹿その話は…」
+#msmall
+$k
+
+優
+「ん？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"だだん！" );
+// 	BGMStop();
+
+#ss,bgm,(dr),1000
+
+// 	SS_( CENTER, KANAME_0301IK5 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01IK5.png,(x),c,(s),60%
+#ig,(se),W_Dish01
+
+// 	Blur( 0, 1 );
+// 	MoveStand( CENTER, FAST, 0, -50 );
+// 	Shake( NORMAL, SHAKE_DOWN );
+
+// #sp,se,S_Bashi03
+
+優
+「うわ？」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// KANAME_0301PU4
+#ir
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01PU4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02020026
+要
+「そう！
+$nw,700
+
+#ir,(dr),0
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01IK.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),200,(ef),move
+#ip,c2,(x),r0
+#ig,(se),S_Air04
+
+#madd,　ほとばしる青春！
+$nw,1000
+
+#ir,(dr),0
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01FK2.png,(x),r0,(s),60%
+#ig
+
+#ir,(dr),200,(ef),move
+#ip,c2,(x),c
+#ig,(se),S_Air04
+
+　ほとばしる血飛沫！
+#mfuri,　　　　　　　　　　　　　ちしぶき
+$nw,1000
+
+//$nw,3100
+
+#ir,(ef),beat,(q),2%
+#ip,c2,(fi),KANAME_A301.png,(psi),KANAME_An01OD4.png,(x),c,(s),60%
+#ig,(se),S_Taiko01
+
+// 	Zoom( 0, 120, 120 );
+// 	Blur( 0, 2 );
+// 	Zoom( NORMAL | SPEED_DOWN );
+
+　これぞ文化！」
+
+$k
+
+// 	MoveStand( CENTER, 20 | SPEED_UP,  60, -50, 1 );
+// 	MoveStand( CENTER, 10,             50, -50, 1 );
+
+// 	MoveStand( CENTER,  0,             50, -50 );
+// 	MoveStand( CENTER, 20 | SPEED_UP, -20, -50, 1 );
+// 	MoveStand( CENTER, 10,              0, -50, 1 );
+
+#next,02common01-3_04

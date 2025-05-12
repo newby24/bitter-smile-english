@@ -1,0 +1,734 @@
+﻿// 既読フラグ
+#read_flag,162
+
+// MII_0903TR
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03TR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030755
+みい
+「あ、あの…」
+$k
+
+優
+「…なにこれ？　どういうこと？」
+$k
+
+// MII_0903EG4
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030756
+みい
+「ほ…ほほほほほほほっ」
+$k
+
+// MII_0903IK5
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03IK5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030757
+みい
+「お、お、お兄様！
+　まままんまと引っかかりましたねっ！？」
+$k
+
+優
+「え、え？」
+$k
+
+// MII_0903IK
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030758
+みい
+「この件は私が知世翔さんにお願いしたのですっ！」
+$k
+
+// MII_0903NK
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03NK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030759
+みい
+「お兄様は、知世翔さんの演技に
+　すっかり心を奪われたようですけれども、
+　それは全て………
+$nw,6700
+
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03NK3.png,(x),c,(s),60%
+#ig
+
+#madd,ううっ」
+$k
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+#sp,vo,05030760
+みい
+「…さ、さらばですっ！！」
+$k
+
+#sp,bgm,BGM_SABISHII
+
+// CHISEKA_0401OD3
+
+#sp,vo,05040114
+知世翔
+「あ、みいっ！」
+$k
+
+優
+「みいちゃん！？」
+$k
+
+&empty
+中途半端に何かしゃべったと思ったら、
+みいちゃんは急に踵を返し走り去る。
+$k
+
+優
+「みいちゃん…？」
+$k
+
+&empty
+なんでこんなところに、みいちゃんが居たんだ。
+$k
+
+#sp,vo,05040115
+知世翔
+「○○矢崎っ！」
+$k
+
+// 	SK2();
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+&empty
+びくっ。
+$k
+
+&empty
+え…な、なに？　何言われたの！？
+$k
+
+// 	SS( CENTER, CHISEKA_0401IK2 );
+
+// CHISEKA_0401IK2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040116
+知世翔
+「このアホ！
+　ボーッとしてる場合じゃないでしょうっ」
+$k
+
+優
+「は…？」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040117
+知世翔
+「なに間抜けな声出してるんですか」
+$k
+
+優
+「いや、だって」
+$k
+
+// CHISEKA_0401IK
+#sp,vo,05040118
+知世翔
+「みいを追いかけて下さいっ」
+$k
+
+優
+「え…」
+$k
+
+// CHISEKA_0401IK2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040119
+知世翔
+「だーかーらー、『え…』じゃないですっ」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040120
+知世翔
+「あなたが好きなのは私なんですか！？」
+$k
+
+優
+「い、いや…けど………ええ？」
+$k
+
+&empty
+有河は何を言ってるんだ？
+$k
+
+&empty
+告白してくれたのに、アホ呼ばわりするし、
+みいちゃんを追いかけろって……意味が分からない。
+$k
+
+// CHISEKA_0401KB2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040121
+知世翔
+「もー、ホントに鈍くさいですねっ。
+　みいですよ、みい。あなたに手紙出したのはっ」
+$k
+
+優
+「えーと…」
+$k
+
+&empty
+…どういう事だ？
+$k
+
+&empty
+展開がいきなりすぎて、付いていけない。
+$k
+
+&empty
+あの手紙は、有河じゃなくて、みいちゃんが？
+$k
+
+優
+「ちょっと待って、俺は今頭が混乱してて……」
+$k
+
+// CHISEKA_0401IK2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040122
+知世翔
+「みいを追いかければ、全て分かりますからっ」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040123
+知世翔
+「とにかく今は、何も考えずに
+　みいを追いかけて下さい！
+　みいを泣かせたら、承知しませんからねっ」
+$k
+
+&empty
+もうなにがなにやら。
+$k
+
+&empty
+手紙を出したのはみいちゃんで、
+告白したのは有河で……
+$k
+
+&empty
+訳がわからねぇぇ～～っ。
+$k
+
+&empty
+と、とはいえ、
+みいちゃんを放っておくワケにはいかない空気が…。
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+俺は慌ててみいちゃんの後を追って駆け出した。
+$k
+
+// 	RFO( RULE_LEFTRIGHT|RULE_MIRROR, NORMAL );
+// 特殊な画面変更。暫定的に。
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAMAE01A );
+
+#sp,bgm,BGM_KANASHIMI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「みいちゃーん」
+$k
+
+// 	SS( CENTER, MII_0902NK, MOVE_RIGHT );
+//	SetIconBikkuri( CENTER );
+
+// MII_0902SP
+#ir,(ef),off
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02SP.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,05030761
+みい
+「！？」
+$k
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+俺の声にビックリして、速度を上げるみいちゃん。
+$k
+
+&empty
+なんで逃げるんだよ！
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO( FAST );
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+// 	CFI( FAST );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ぜぇ、ぜぇ……」
+$k
+
+&empty
+意外とすばしっこいぜ。
+$k
+
+優
+「追いつめたぞ、みいちゃん」
+$k
+
+// MII_0903KD2
+#ir,(ef),off
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KD2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	SS( CENTER, MII_0903KD2, MOVE_RIGHT );
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),300,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05030762
+みい
+「わわわ、逃げ場がないー！」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+&empty
+追いつめられた事を悟ったみいちゃんは、
+正面を向いて俺を睨む。
+$k
+
+// MII_0903IK
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030763
+みい
+「が…がるるるーっ！」
+$k
+
+優
+「どうどう」
+$k
+
+//	SetIconIkari( CENTER );
+// MII_0903FK
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030764
+みい
+「馬扱いしないでください。
+　今の私は危険な猛獣なのですっ」
+$k
+
+優
+「どっちでも良いから、とにかく落ち着こう」
+$k
+
+// MII_0903NK4
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030765
+みい
+「良くありませんっ」
+$k
+
+// MII_0903NK5
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NK5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030766
+みい
+「もう、お兄様なんて嫌いです！」
+$k
+
+優
+「え……うわっ」
+$k
+
+// 	SNLP( 0, "S_Dash02i" );
+
+#sp,se,S_Dash02i
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(s),100%,(al),0%
+#ig
+
+&empty
+突然、危険な猛獣が、
+俺に向かって飛びかかってきた。
+$k
+
+// 	SEStop( 0 );
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig,(se),T_tukamu
+
+&empty
+すんでの所で両腕を掴むも、その力は強い。
+$k
+
+優
+「み、みいちゃん、いきなりなんだ…くっ」
+$k
+
+#hide
+
+#ss,bgm
+
+// 	SV( VISUAL_MII_11A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_11A.jpg,(s),75%
+#ig
+
+#sp,bgm,BGM_SABISHII
+
+// MII_0101NO
+
+#show
+
+#sp,vo,05030767
+みい
+「お兄様のバカっ、
+$nw,2870
+
+#ir,(dr),300,(ef),move,(lt),reverse,(lc),5
+#ip,bg,(y+),20
+#ig
+
+　バカバカバカ」
+
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 10, 5 );
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 10, 5 );
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 10, 5 );
+
+優
+「なんでバカ呼ばわりされるんだ？」
+$k
+
+// MII_0101NO
+#sp,vo,05030768
+みい
+「知世翔さんに告白されて浮かれてたからですっ」
+$k
+
+優
+「それは、まあ…」
+$k
+
+&empty
+否定はできないけど…。
+$k
+
+// MII_0101NO
+#sp,vo,05030769
+みい
+「なにが、まあ、なんですかっ、
+　お兄様の変態！　色情魔っ！！」
+$k
+
+&empty
+みいちゃんの腕が動き、なおも襲いかかろうとしてくる。
+$k
+
+&empty
+ほとんど取っ組み合いに近かった。
+$k
+
+優
+「て言うかっ、
+　み、みいちゃんが有河に頼んでたって何だよっ？」
+$k
+
+&empty
+もがくみいちゃんを必死で押さえながら、
+疑問を口にする。
+$k
+
+優
+「有河のが…演技だったとかってさ！」
+$k
+
+// MII_0101NO
+#sp,vo,05030770
+みい
+「そうですよっ、まだわからないんですか！」
+$k
+
+// MII_0101NO
+#sp,vo,05030771
+みい
+「全部っ、私が仕組んだんですよっ！
+　お兄様を引っ掛けたんですっ」
+$k
+
+// MII_0101NO
+#sp,vo,05030772
+みい
+「知世翔さんにお兄様を誘惑させて、困惑するお兄様を
+　陰からほくそ笑むつもりだったのですっ！」
+$k
+
+優
+「なっ……何だよそれ！？
+　たちが悪いにも程があるぞっ？」
+$k
+
+&empty
+いくらなんでも、これはちょっと酷すぎないか？
+$k
+
+&empty
+これまでもみいちゃんは、しょっちゅう俺の事を
+からかったりイタズラしたりしてきてたけど…。
+$k
+
+&empty
+別にそれは嫌われてるとかじゃあないと思ってた。
+$k
+
+&empty
+いや、正直どちらかと言えば好かれている方だと思ってた。
+$k
+
+&empty
+でもこれは…。
+$k
+
+&empty
+俺、そんなにみいちゃんに嫌われてたんだ？
+$k
+
+&empty
+なんか…かなりショックだ……。
+$k
+
+// MII_0101NO
+#sp,vo,05030773
+みい
+「みんなみんな、お兄様が悪いんですっ！」
+$k
+
+優
+「結局、あの送られてきたチョコもみいちゃんの仕業か」
+$k
+
+// MII_0101NO
+#sp,vo,05030774
+みい
+「……そうですよ」
+$k
+
+優
+「あんなんで俺を騙して…。
+#mfuri,　　　　　　　　　　　　　　　　だま
+　バカにして……」
+$k
+
+優
+「そんな…」
+$k
+
+優
+「そんなに俺の事が嫌いなのか？」
+$k
+
+// 	CFV_( VISUAL_MII_11B );
+
+#ir
+#ip,bg,(fi),VISUAL_MII_11B.jpg,(s),75%
+#ig
+
+// MII_0101NO
+#sp,vo,05030775
+みい
+「っ！？
+　………………お兄様の、ばかぁ…」
+$k
+
+&empty
+急にみいちゃんの体から力が抜ける。
+$k
+
+優
+「…え！？」
+$k
+
+&empty
+みいちゃんの目に…大粒の涙が浮かんでいる。
+$k
+
+&empty
+泣きたいのはこっちの方で……。
+$k
+
+&empty
+俺、なんか間違ってるのか？
+$k
+
+&empty
+みいちゃんの目に溜まった涙が
+あふれて零れ落ちた。
+$k
+
+&empty
+それを見て、一気に頭が冷えてくる。
+$k
+
+&empty
+有河が言ってた。
+$k
+
+&empty
+みいちゃんを追いかけたら全部わかるって。
+みいちゃんを泣かしたら承知しないって。
+$k
+
+&empty
+…なんでみいちゃんは泣いてるんだ？
+$k
+
+&empty
+俺が嫌いだから？
+$k
+
+&empty
+それとも…？
+$k
+
+優
+「みいちゃん……」
+$k
+
+優
+「……最初のチョコは…本気だったの？」
+$k
+
+// MII_0101NO
+#sp,vo,05030776
+みい
+「………」
+$k
+
+&empty
+みいちゃんが無言のまま首を縦に振る。
+$k
+
+優
+「なんでこんなこと…？」
+$k
+
+// MII_0101NO
+#sp,vo,05030777
+みい
+「………」
+$k
+
+
+#next,05mii13_04

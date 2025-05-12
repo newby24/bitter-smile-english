@@ -1,0 +1,853 @@
+﻿// 既読フラグ
+#read_flag,21
+
+// 	SS(CENTER, SAKURAKO_0303NO3, MOVE_DOWN, NORMAL);
+
+&empty
+桜子が立ち上がった。
+$k
+
+優
+「ん、じゃあ帰るか？」
+$k
+
+// SAKURAKO_0303NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000172
+桜子
+「大声で叫んでみよう」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「なんで！？」
+#mlarge
+$k
+
+// SAKURAKO_0303NS
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000173
+桜子
+「きっと気持ち良くてすっきりするわ。
+　そんでイライラも消え失せるのよ！」
+$k
+
+優
+「カラオケにでも行けよ！」
+$k
+
+// SAKURAKO_0303NO3
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000174
+桜子
+「そんなもんには何の価値もない」
+$k
+
+&empty
+価値って……、お前は何を求めてるんだ。
+$k
+
+優
+「おいおい、今は夕方でもなければ
+　目の前に広がる海や山があるわけでもないぞっ！？」
+$k
+
+// SAKURAKO_0303IK3
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000175
+桜子
+「こまっけー事気にする男ね～。
+　ふんっ」
+$k
+
+優
+「気にするよ…」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+// SAKURAKO_0303IK
+
+#sp,vo,01000176
+桜子
+「ゆうー、
+$nw,1220
+
+#madd,ひの～！
+$nw,1760
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+　ばっかやろぉ―――っ！！」
+
+$k
+
+優
+「おっおおお、おい、お前なあ！」
+$k
+
+&empty
+本当に叫びやがった。
+$k
+
+// 	SS(CENTER, SAKURAKO_0302NO3);
+
+// SAKURAKO_0302NO3
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000177
+桜子
+「あんたもやんなさいよ、案外スカッとするわよ？」
+$k
+
+優
+「出来るかっ、近所迷惑だっつーの！
+　つーか、変な所で切るなよ。俺にも迷惑だろ」
+$k
+
+// SAKURAKO_0302IK2
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000178
+桜子
+「ふうーん……この後にきゃーチカンへんたーい、
+　なんて叫んだらどうなるかな？　うふふ………
+$nw,8240
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK3.png,(x),c,(s),60%
+#ig
+
+　すぅ――っ」
+$k
+
+優
+「こ、このっ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+優
+「さくらこのっ
+$nw,1000
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+　あっほんだらぁ―――～っ！！」
+$k
+
+&empty
+あ、ちょっといいかも。
+$k
+
+// 	SS(CENTER, SAKURAKO_0302AS2);
+
+// SAKURAKO_0302AS2
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02AS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000179
+桜子
+「なっ！　ちょっと、あんたやめてよねっ！？
+　あたしみたいな名前の子、そうそう居ないんだからっ」
+
+$k
+
+優
+「やられる前にやっただけだよ、桜子君」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+// SAKURAKO_0303KS
+
+#sp,vo,01000180
+桜子
+「チカン変態、きゃーおかされるぅ―――っ！！
+$nw,4740
+
+　あと…
+$nw,500
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+#madd,ゆうのうんこたれぇ―――っ！！！」
+
+$k
+
+// SAKURAKO_0302IK6
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK6.png,(x),c,(s),60%
+#ig
+
+// 	SS(CENTER, SAKURAKO_0302IK6);
+
+優
+「まてまて待て、おかされるとか言うなよっ！
+　世の中冗談通じない人だってたくさんいるんだぞ？」
+$k
+
+&empty
+あと女の子がうんことか叫ぶな！
+がっかりだ！
+$k
+
+#sp,vo,01000181
+桜子
+「ぎゃはは、そーれ、逃げろっ。
+　いーちぬけたーっと！」
+
+$k
+
+#sp,se,S_Dash05o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「あ、お前っ、待てよ桜子っ。
+　ずるいぞ！」
+$k
+
+//#sp,se,W_Bicycle01#
+
+#ss,env
+
+#sp,se,W_Bicycle01
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+#sp,vo,01020000
+近所の人？
+#mstyle,(co),要
+「こらあーっ！　この不良どもーっ！！」
+#mlarge
+$k
+
+// SAKURAKO_0302AD
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02AD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000182
+桜子
+「わっ！？」
+$k
+
+//	SM( CHAR_YUU,			-1,					"優",			"「あ、やべっ！」" );
+#sp,bgm,BGM_KANAME
+
+//	SS(CENTER, KANAME_0301NO, MOVE_RIGHT, NORMAL);
+#sp,vo,01020001
+近所の人？
+#mstyle,(co),要
+「ひっさしぶりー、
+$nw,1700
+
+#madd,……だよねー？
+　桜子ちゃんと優くんでしょー？」
+$k
+
+// SAKURAKO_0302AD
+#sp,vo,01000183
+桜子
+「……あれ、
+$nw,2490
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NO3.png,(x),c,(s),60%
+#ig
+
+　なんだーお姉じゃない」
+$k
+
+
+// KANAME_0301BS
+#ir,(ef),off
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01BS.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ig
+
+#sp,vo,01020002
+要
+「このふりょーどもー。
+　こんな時間になにやってるのかなー？」
+$k
+
+優
+「要、…さん？」
+
+#mfuri,　　かなめ
+
+$k
+
+// KANAME_0301TR4
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01TR4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01020003
+要
+「あっそうだ！
+　あっちの国道沿いにラーメンの屋台出てるんだけど、
+　三人で食べに行かない？　よし行こう！」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000184
+桜子
+「屋台って……もしかして今からぁ？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_KEIKAI
+
+#sp,env,S_Town01#
+
+// #sp,env,S_Gaya01#
+
+// 	SV( BG_MT_TSUGAKURO03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+桜子はラーメン、要さんはメンマ大盛り、
+俺はチャーシューと麺大盛りを頼んだ。
+$k
+
+&empty
+いや、奢りだったしね？
+$k
+
+&empty
+ちなみにこの店は醤油のみで、他のラインナップはない。
+屋台だしな。
+$k
+
+// SAKURAKO_0301NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01NO.png,(x),l,(s),60%
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01NO3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01000185
+桜子
+「そういや、お姉こんな時間まで何やってたの」
+$k
+
+// 	SS(CENTER, KANAMEn_A301NO3, MOVE_STOP, NORMAL);
+
+// KANAMEn_A301IK
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01020004
+要
+「それが残業、遅くまでやっててさー」　
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK7.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000186
+桜子
+「お姉、ちょっとお酒臭いね？」
+$k
+
+// KANAMEn_A301OD3
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01OD3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01020005
+要
+「い、一杯だけよ？　一杯飲んだだけだから！
+　残業は本当よ？」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000187
+桜子
+「別にうろたえる必要はないでしょ。
+　自転車も押してたし。
+　『いっぱい』の正確な意味は分かりかねるけど」
+$k
+
+優
+「はは」
+$k
+
+// KANAMEn_A301NO
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01020006
+要
+「そうそう、優くんおかえり。
+　元気してた？」
+$k
+
+優
+「はい、おかげさまで」
+$k
+
+// SAKURAKO_0301TR4
+#ir
+#ip,c1,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01TR4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000188
+桜子
+「ふふっ……」
+$k
+
+// KANAMEn_A301FK4
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01FK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01020007
+要
+「うーん、なんか硬いなー。
+　久しぶりすぎて緊張してるのかなぁ？
+$nw,5740
+
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01TR4.png,(x),r,(s),60%
+#ig
+
+
+　あ、そうだ」
+$k
+
+// KANAMEn_A301PU4
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01PU4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01020008
+要
+「大将ーっ、ビール頂戴っ。
+　コップ三つね！」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK7.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000189
+桜子
+「ちょっとお姉、まだ飲む気？」
+$k
+
+// KANAMEn_A301PU4
+
+#sp,vo,01020009
+要
+「何言ってんのぉ、引っ越し祝い、引っ越し祝い♪」
+$k
+
+優
+「ていうか、その前に三つって俺達も飲むんですか？」
+$k
+
+// KANAMEn_A301PU4
+#sp,vo,01020010
+要
+「乾杯するだけよ、乾杯するだけ！　ね？」
+$k
+
+// 追加。
+優
+「ダメダメ、俺と桜子はダメっ！
+　ビールじゃなくてオレンジジュースですから！」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000190
+桜子
+「……あたし達はただのダシなんじゃないの？
+　こんな時間に、……明日遅刻しても知らないから」
+$k
+
+// KANAMEn_A301NO
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01020011
+要
+「深く考えないの、お祝いですよぉ？
+　ね、ゆーうくん！」
+$k
+
+優
+「いや、はは……」
+#meffect,flow,5
+$k
+
+//#sp,vo,01990003
+//屋台の大将
+//「はい、お姉さん達！　ビールとグラス三つね。
+//　悪いけど自分達でそっちの席まで運んでね」
+//$k
+
+// 追加。
+&empty
+ほどなく、屋台の主人からビール１本とオレンジジュース
+２本、そしてコップ３つが差し出される。
+$k
+
+// KANAME_0301PU4
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01PU4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01020012
+要
+「お、来たね！　来たね？」
+$k
+
+// 	SS(CENTER, KANAME_0301PU4, MOVE_STOP, NORMAL);
+
+//&empty
+//要さんはテーブル席から屋台のバンへ行き、
+//ビールを取って戻ってくる。
+//$k
+
+// 	SS(CENTER, KANAME_0302EG2, MOVE_RIGHT, NORMAL);
+
+// 立ち絵移動消える。パラメータは適宜。
+
+// 	SS(CENTER, KANAMEn_A301TR, MOVE_STOP, NORMAL);
+
+// 変更。
+//&empty
+//すごく嬉しそうだ。
+//$k
+
+&empty
+要さんはすごく嬉しそうだ。
+$k
+
+// KANAMEn_A301NO
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01020013
+要
+「はいはい、二人ともグラス持って！」
+$k
+
+// SAKURAKO_0303AK
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03AK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000191
+桜子
+「はぁ……」
+$k
+
+// カットあり。
+
+// KANAMEn_A301PU4
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01PU4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01020015
+要
+「よーしじゃあ、優くんの帰港を祝して。
+$nw,3610
+
+　せーのぉ、
+$nw,1630
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Kanpai01
+
+#madd,かんぱ――い！」
+
+$k
+
+// 揺れ。パラメータは適宜。
+
+#sp,vo,01000194
+桜子＆優
+「かんぱーい…」
+#meffect,flow,5
+$k
+
+// KANAMEn_A301SK
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01SK.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,01020016
+要
+「んっんっ…」
+$k
+
+// 	SetActionBuru( CENTER );
+
+
+// KANAMEn_A301PU5
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01PU5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01020017
+要
+「くぱぁー、おいちーっ！！」
+#mlarge
+$k
+
+#hide
+
+// SAKURAKO_0301NK4
+//#ir
+//#ip,c1,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01NK4.png,(x),0,(s),60%
+//#ig
+
+//#sp,vo,01000195
+//桜子
+//「うわ、なんでこんなもん
+//　そんな美味しそうに飲めるんだか…うぇっ」
+//$k
+
+#ir,(dr),1000,(un),NO
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01NO.png,(x),c,(s),100%
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),c,(al),50%
+#ig
+
+#show
+
+&empty
+この人は轟木要。
+#mfuri,　　　　　　　　　　　　かなめ
+
+$k
+
+// 	SV( BG_MT_TSUGAKURO03A );
+// 	FadeVisual(FASTEST, 50);
+// 	DelStandAll();
+// 	SS(CENTER, KANAME_0301NO);
+// 	//SetStand(CENTER, KANAME_0301NO, MOVE_STOP, SLOWEST, 0, FILTER_FADE, 100);
+
+&empty
+轟木家の長女。
+つまり、桜子やみいちゃんの姉である。
+$k
+
+&empty
+俺にとっては、やさしくて綺麗で、
+ちょっとおちゃめな近所のお姉さんだ。
+$k
+
+&empty
+駅向こうのオフィス街の中にある会社で働いている。
+桜子曰く、『自称バリバリの社会人』らしい。
+$k
+
+&empty
+なぜか轟木家ではなく、割と近所にマンションを
+借りて一人暮らしをしている。
+$nw,2000
+
+……らしい。
+
+$k
+
+&empty
+俺達が幼い頃、よく桜子の家で遊んでいると、
+学校から帰ってきたセーラー服姿の要さんが
+おやつを出してくれたりした。
+$k
+
+&empty
+小学生だった当時の俺には同い年で気安い桜子と違って、
+年上でやさしくて、俺達とは別の世界を見ている……。
+$k
+
+&empty
+そんな大人の女性みたいに感じていて、
+すごい憧れがあった。
+そこらの上級生よりもずっとずっと、大人な感じがした。
+$k
+
+&empty
+だからなのか、やっぱり今でも少し緊張してしまう。
+今はもう社会人だもんな。
+$k
+
+&empty
+俺が最後に見た時の要さんは大学生で。
+流れるように綺麗な長い髪をなびかせて、
+いつもやさしく微笑んでくれていた。
+$k
+
+&empty
+そんな年上、つねに俺達の先にいる存在。
+$k
+
+&empty
+そういや要さん、髪、切ったんだな……。
+$k
+
+&empty
+なんでだろ、あんなに似合ってたのに。
+$k
+
+#hide
+
+#ir
+#ie,c3,c1
+#ig
+
+#show
+
+優
+「な、なあ桜子？」
+#msmall
+$k
+
+// SAKURAKO_0301NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000196
+桜子
+「ん？」
+#msmall
+$k
+
+優
+「要さんあの髪さ、もしかして失恋でもして……」
+#msmall
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000197
+桜子
+「……ばっかじゃない、あんた」
+$k
+
+// 	SS(CENTER, KANAMEn_A301KT);
+
+// KANAMEn_A301KT
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),l,(s),80%
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01KT.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01020018
+要
+「どうしたの？」
+$k
+
+// SAKURAKO_0301AK2
+#ir
+#ip,c1,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01AK2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000198
+桜子
+「んー、なんか優がね、
+　お姉が髪切った理由が知りたいんだってー。
+　失恋でもしたんじゃ、って心配だそうよ？」
+$k
+
+優
+「おい桜子」
+$k
+
+// KANAMEn_A301NK4
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01NK4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01020019
+要
+「うん、………実はね」
+#meffect,flow,5
+$k
+
+
+#next,01pro01_12

@@ -1,0 +1,300 @@
+﻿// 既読フラグ
+#read_flag,200
+
+&empty
+その、無邪気な横顔が……
+なぜか、すごく綺麗に見えて……
+俺の胸がどきりと高鳴った。
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010103
+勇樹
+「でも、すぐに消えてしまう。
+　儚いな」
+$k
+
+// ISAKI_0101NO
+#sp,vo,04010104
+勇樹
+「……だから、綺麗なのか」
+$k
+
+&empty
+宮津橋の目が、寂しそうで、切なそうで、
+俺の胸まで痛くなる。
+$k
+
+&empty
+思わず、その硬く握られた拳を開いて、
+手を握ってやりたくなった。
+$k
+
+&empty
+なぜかは、わからないけど。
+$k
+
+#hide
+
+#ss,bgm
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAKEIDAI03A );
+
+// 	ShowFace();
+
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK4.png,(x),c,(s),80%
+#ig,(se),S_Basa01
+
+// 揺れ。パラメータは適宜。
+
+// 	SS( CENTER, MEGUMI_A401IK4, MOVE_DOWN, 10 );
+// 	BGMStop();
+
+#show
+
+// MEGUMI_A401IK4
+
+#sp,vo,04070051
+めぐみ
+「ちょっとぉ～っ、何、２人の世界に
+　入っちゃってるのよ～っ」
+$k
+
+&empty
+めぐみが俺と宮津橋の間にぐっと割って入る。
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// 	SS( CENTERLEFT, MII_0402KB2, MOVE_LEFT );
+
+// MII_0402KB2
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02KB2.png,(x),l,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,04030026
+みい
+「抜け駆け厳禁なのですよ、お兄様」
+$k
+
+// 	SS( CENTERRIGHT, SAKURAKO_0402EG, MOVE_RIGHT );
+
+// SAKURAKO_0402EG
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000036
+桜子
+「そうそう、あたしだって勇樹の
+　幼なじみなんだからねっ！」
+$k
+
+優
+「ちょっ、そっちかよ！」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000037
+桜子
+「そっちって何よ。
+　あんたなんかに妬くわけないでしょ？」
+$k
+
+// SAKURAKO_0401NS
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000038
+桜子
+「はは～ん、それとも妬いて欲しかったの？
+　ねえ、どうなの？」
+$k
+
+優
+「そ、そんなわけねーだろっ！」
+$k
+
+// MII_0403MU
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030027
+みい
+「本当に姉上は進歩のない……まあ、お兄様も
+#msmall
+
+　お兄様なのですが」
+#msmall
+$k
+
+// 	SS( CENTER, MEGUMI_A401KN3 );
+
+// MEGUMI_A401KN3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KN3.png,(x),c,(s),80%
+#ie,c3,c2
+#ig
+
+#sp,vo,04070052
+めぐみ
+「で・も、優ちゃんと勇樹ちゃんが仲良しさんで、
+　私もちょ～っと妬けちゃったかな」
+$k
+
+優
+「めぐみまで！」
+$k
+
+// MEGUMI_A401IK2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04070053
+めぐみ
+「だって、優ちゃんったら、勇樹ちゃんにすっごく
+　見とれちゃってたもんね」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+&empty
+ぎくっっ！
+$k
+
+&empty
+それ、は……あながち否定できない。
+$k
+
+// 	SS( CENTER, YUKIHA_0901NS2 );
+
+// YUKIHA_0901NS2
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01NS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050013
+雪華
+「あ～っ、
+　否定しないって事は、図星なんだ」
+$k
+
+&empty
+うおぅ、ここはなんだ！
+ハイエナの群れか！
+隙を見せたら、骨までしゃぶりつくされる！？
+$k
+
+// 	SS( CENTER, ISAKI_0C01NS2 );
+
+// ISAKI_0C01NS2
+#ir
+#ip,c1,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010105
+勇樹
+「なんだ、お前、私に気があるのか？」
+$k
+
+優
+「違っ…！」
+$k
+
+&empty
+う……とも言い切れないような気はするけど……。
+$k
+
+// ISAKI_0C01NS
+#ir
+#ip,c1,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010106
+勇樹
+「………ふっ」
+$k
+
+&empty
+は、鼻で笑われた……。
+$k
+
+&empty
+でも、なんだろう。
+バカにされた感じではあるんだけど…。
+$k
+
+&empty
+不思議と悪い気はしなかった。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// イベント選択６回目へ。
+#next,90phase06

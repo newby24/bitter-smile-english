@@ -1,0 +1,930 @@
+﻿// 既読フラグ
+#read_flag,318
+
+// セーブタイトル
+#flag,save_title,桜子　第１８話,0,0
+
+// 	SV( BG_TD_IMA03E );
+// 	SS( CENTER, SAKURAKO_0402EG );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第１８話　画竜点睛
+$k
+#note,erase
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402EG
+#sp,vo,03001122
+桜子
+「たっだいまー」
+$k
+
+// 	SS_( RIGHT, MII_0202NO );
+
+#ir
+#ip,c3,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),r,(s),60%
+#ip,c2,(fi),YUKIHA_A201.png,(psi),YUKIHA_An01EG3.png,(x),l,(s),60%
+#ie,c1
+#ig
+
+// 	SS( LEFT, YUKIHA_0201EG3 );
+
+// MII_0202NO
+#sp,vo,03030143
+みい
+「お帰りなさいませ、姉上。
+$nw,2500
+
+　退院おめでとうございます」
+$k
+
+// YUKIHA_0201EG3
+
+#sp,vo,03050042
+雪華
+「おかえりなさい桜子ちゃん！」
+$k
+
+優
+「あれ、みいちゃん……雪華ちゃんまで！？」
+$k
+
+&empty
+朝、ちゃんと出かけたはずのみいちゃんと雪葉ちゃんが
+玄関で待っていた。
+$k
+
+// SAKURAKO_0402NO
+
+#sp,vo,03001123
+桜子
+「二人とも、なんで？
+$nw,1990
+
+
+　……今日は平日だよねぇ？」
+$k
+
+&empty
+そう、俺は三年だから、もう自由登校でいいけど、
+雪華ちゃんもみいちゃんも、普通に授業のある日だ。
+$k
+
+// MII_0201BS
+#ir
+#ip,c3,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03030144
+みい
+「ほほほ、姉上の退院の日ですので、
+　少し遅れて行く事にしたのです」
+$k
+
+// YUKIHA_0201EG
+#ir
+#ip,c2,(fi),YUKIHA_A201.png,(psi),YUKIHA_An01EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03050043
+雪華
+「私もー、桜子ちゃんの顔見てから行きたかったし」
+$k
+
+// KINO_0401NO
+#ir,(ef),off
+#ip,c1,(fi),KINO_A401NO.png,(x),l3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l2,(al),100%
+#ip,c2,(x),c
+#ip,c3,(x),r2
+#ig
+
+#sp,vo,03060035
+紀乃
+「あんたら……
+$nw,1380
+
+　ちゃんと今からでも行きなはれや？」
+$k
+
+// MII_0203NO
+#ir
+#ip,c3,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03030145
+みい
+「はい、もちろんそのつもりです、お婆さま。
+$nw,3250
+
+#ir
+#ip,c3,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),r2,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\hirameki.png,(x),760,(y),40
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+　ね、雪華さん？」
+$k
+
+// YUKIHA_0201BS
+#ir
+#ip,c2,(fi),YUKIHA_A201.png,(psi),YUKIHA_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03050044
+雪華
+「うん！」
+$k
+
+// SAKURAKO_0402EG2
+
+#sp,vo,03001124
+桜子
+「……もう、しょうがないなあ」
+$k
+
+// 	SS( CENTER, YUKIHA_0201KM );
+
+優
+「雪華ちゃん、ずる休みはよくないんだぞ？
+　そういうの今日だけだからね？」
+$k
+
+// YUKIHA_0201KM
+#ir
+#ip,c2,(fi),YUKIHA_A201.png,(psi),YUKIHA_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03050045
+雪華
+「わかってるよー、
+　こういう時だけ普通の事言うんだから」
+$k
+
+優
+「それは雪華ちゃんの事を思って…
+$nw,1000
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+#sp,se,S_Ton02
+
+　……やれやれ…………よっこらせっと」
+$k
+
+// 	WaitSE( -1 );
+// 	SS( CENTER, KINO_0401KS );
+
+// KINO_0401KS
+#ir
+#ip,c1,(fi),KINO_A401KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03060036
+紀乃
+「優、あんた年よりくさいで」
+$k
+
+優
+「荷物置くくらいで婆さんに年よりくさいと
+　言われるとは…」
+$k
+
+&empty
+…寿命は縮んだ気はするが。
+$k
+
+// 	SS_( RIGHT, KINO_0401BS2 );
+
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),60%
+#ig
+
+// 	SS( LEFT, MII_0203NO );
+
+// KINO_0401BS2
+#sp,vo,03060037
+紀乃
+「ほな、わては店の方出とるさかいな。
+　あとはよろしゅう」
+$k
+
+// MII_0203NO
+#ir
+#ip,c3,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03030146
+みい
+「はい、了解しました」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+俺は朝から婆さんと病院へ出向き、
+今日退院する桜子を迎えに行った。
+$k
+
+&empty
+俺は主に荷物持ち、という名目で。
+$k
+
+&empty
+といっても病院までの移動はタクシーだが。
+$k
+
+// 	SS( CENTER, SAKURAKO_A401EG );
+
+// SAKURAKO_A401EG
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001125
+桜子
+「うーん、久々の我が家はやっぱいいわねー」
+$k
+
+優
+「大袈裟だなぁ、
+　久々っつっても、たかだか数日だろ？」
+$k
+
+// SAKURAKO_A401KS2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001126
+桜子
+「はは、そうね、そうなるのかな？
+$nw,3990
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+　まあいいや。とりあえず部屋行ってくる」
+$k
+
+#sp,se,S_Walk13o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+// 	WaitSE( -1 );
+
+優
+「………」
+$k
+
+#ss,se,(dr),1000
+
+// 	SS( CENTER, MII_A203NO );
+
+#ir
+#ip,c3,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+// MII_A203NO
+#sp,vo,03030147
+みい
+「すっかり元気ですね」
+$k
+
+優
+「ああ…うん、そうだな」
+#meffect,flow,5
+$k
+
+// MII_A202SP
+#ir
+#ip,c3,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030148
+みい
+「…いいんですか、お兄様」
+$k
+
+優
+「……うん」
+#meffect,flow,5
+$k
+
+// MII_A202SP2
+#ir
+#ip,c3,(fi),MII_A202.png,(psi),MII_An02SP2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030149
+みい
+「お兄様がそうおっしゃるなら構いませんけどね。
+$nw,3480
+
+#ir
+#ip,c3,(fi),MII_A201.png,(psi),MII_An01KY.png,(x),c,(s),80%
+#ig
+
+
+　あ、お昼の用意、どうしましょうか？」
+$k
+
+優
+「ああ、そういえば忘れてたな。
+　……どうしようか」
+$k
+
+#sp,se,S_Walk13i
+
+#wait,500
+
+// 	WaitSE( -1 );
+
+// MII_0203KT
+#ir
+#ip,c3,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030150
+みい
+「姉上、もう降りて………
+$nw,2000
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01TR4.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ip,c3,(x),l0,(al),0%
+#ig
+
+　なんですか、その格好は」
+$k
+
+// 	SS( CENTER, SAKURAKO_0201TR4, MOVE_RIGHT, NORMAL );
+
+優
+「桜子……どうしたんだよ？」
+$k
+
+// SAKURAKO_0201NO
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001127
+桜子
+「どうしたって……
+$nw,1990
+
+　制服着ただけだけど？
+　学園、行かないの？」
+$k
+
+優
+「え？　……いや…三年はもう自由登校だし…
+$nw,1000
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Basa03
+
+// 	Shake( SLOW, SHAKE_RIGHT, 4, 20 );
+
+　っと」
+
+$k
+
+&empty
+みいちゃんが肘で俺を小突いてきた。
+$k
+
+// MII_0203NO
+#ir,(ef),off
+#ip,c3,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+#sp,vo,03030151
+みい
+「そうですね姉上、行きましょうか」
+$k
+
+優
+「…あっ、そうだな、じゃあ俺も着替えてくるから」
+$k
+
+// SAKURAKO_0201NO
+#sp,vo,03001128
+桜子
+「……？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SetSubTitle();		//章タイトル表示
+// 	SV( BG_SJ_GAIKAN01C );
+
+// 	SS( CENTER, SAKURAKO_0203NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01C.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0203NO
+#sp,vo,03001129
+桜子
+「うーんしっかし、あんた、
+　本当にあの部屋に住んでんのね？」
+$k
+
+優
+「ん？　……ああ、二階の部屋か？」
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001130
+桜子
+「……あの部屋で変な事してないでしょうね？
+$nw,2750
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+
+　あそこはあたしの別荘…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「してねえっつの！」
+$k
+
+優
+「それに入院中にもちゃんと説明しただろ？
+　ほら、さっさと行こうぜ？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TSUGAKURO01A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO01A.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),l,(s),60%
+#ig
+
+#show
+
+// MII_0203KT
+
+#sp,vo,03030152
+みい
+「………お兄様、どこへ行かれるんですか？
+$nw,3000
+
+　そっちは道が違いますけど」
+$k
+
+優
+「なあ、ちょっと寄り道しながら行かないか？」
+$k
+
+// SAKURAKO_0202NO
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001131
+桜子
+「……寄り道？
+$nw,1300
+
+　…まあいいけど」
+$k
+
+// 	SS( CENTER, MII_A203MJ );
+
+// MII_A203MJ
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03MJ.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,03030153
+みい
+「お兄様……
+$nw,2000
+
+　なんとなく考えている事は分かりますが、
+　くれぐれも…」
+$k
+
+優
+「分かってるよみいちゃん、
+　桜子の負担にはならないようにするから…」
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,03001132
+桜子
+「どうしたの二人とも、こそこそ内緒話なんかして、
+　仲いいのねー？」
+$k
+
+// MII_0203EG3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030154
+みい
+「いえ、これはですね、
+　今日の快気祝いのメニューの相談を…
+$nw,5240
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),l,(s),60%
+#ig
+
+
+　ねえお兄様？」
+$k
+
+優
+「そ、そうそう！
+　そうだ桜子、お前なに食いたい？」
+$k
+
+// MII_0201OD
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01OD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030155
+みい
+「それを聞いてどうするんですかお兄様、
+　折角のサプライズが…」
+$k
+
+&empty
+サプライズとか、
+わざとらしくないか、みいちゃん？
+$k
+
+// 	SS( CENTER, SAKURAKO_0203NO3 );
+
+// SAKURAKO_0203NO3
+#sp,vo,03001133
+桜子
+「いいけどさ……
+$nw,1260
+
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ig
+
+　ほら、早く行こうよ？
+　寄り道もするんでしょ？」
+$k
+
+優
+「お、おう」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAMAE01A );
+// 	SS( CENTER, SAKURAKO_0203KT );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0203KT
+#sp,vo,03001134
+桜子
+「あ、ここ…」
+$k
+
+優
+「……どうだ？
+　なんか思い出さないか？」
+$k
+
+// MII_0201KY2
+#ir,(ef),off
+#ip,c3,(fi),MII_A201.png,(psi),MII_An01KY2.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+#sp,vo,03030156
+みい
+「……？
+$nw,990
+
+#ir
+#ip,c3,(fi),MII_A201.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+　ああ、なるほど、お兄様はあの日はここで…」
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001135
+桜子
+「…えーっと優………
+$nw,2500
+
+　まだあの時の事怒って…」
+$k
+
+// MII_0201KY2
+#ir
+#ip,c3,(fi),MII_A201.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030157
+みい
+「……怒って？」
+$k
+
+// SAKURAKO_0202AS
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AS.png,(x),r,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),520,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+// ぴょん。パラメータは適宜。
+
+#sp,vo,03001136
+桜子
+「ああ違う違う、ううん、
+$nw,2020
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02EG.png,(x),r,(s),60%
+#ig
+
+　気にしないで！」
+$k
+
+&empty
+やっぱ、俺を振った時のところまでか…。
+$k
+
+優
+「………じゃなくてっ！　
+　ほら、ここで秋祭りとか、初詣とか、
+　……出店も手伝ったりとかさ？」
+$k
+
+// SAKURAKO_0202NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001137
+桜子
+「………」
+#meffect,flow,5
+$k
+
+// MII_0201KY2
+#sp,vo,03030158
+みい
+「いえ、お兄様は手伝って無いのでは」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「いやいや、設営は手伝ったし！」
+#mlarge
+$k
+
+// SAKURAKO_0203KM
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,03001138
+桜子
+「ふーん……
+$nw,990
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),60%
+#ig
+
+　楽しそうね、あんた達」
+
+$k
+
+優
+「ああっすまん、そういうつもりじゃ…」
+$k
+
+&empty
+自分に覚えのない事で盛り上がる俺達を見て、
+桜子は少し寂しそうにしていた。
+$k
+
+// SAKURAKO_0201KS2
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01KS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001139
+桜子
+「あっ、ごめん、あんまり気にしないで。
+$nw,3220
+
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),60%
+#ig
+
+　……あたしの為にしてくれてるんでしょ？」
+$k
+
+優
+「桜子…」
+#meffect,flow,5
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+桜子も俺達の魂胆には気付いてるみたいだ。
+$k
+
+&empty
+あまり気を遣わせる様な事はさせたくなかったけど。
+ま、バレバレなのは元より承知だし。
+$k
+
+// MII_0201NO
+#ir
+#ip,c3,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030159
+みい
+「ささ、では次へ参りましょうか？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TEIBO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO01A.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0203NO
+
+#sp,vo,03030160
+みい
+「私はここで待っていますねお兄様」
+$k
+
+優
+「ああ。
+$nw,1000
+
+#ir
+#ie,c1
+#ig
+
+　あ、おい、すべるから気を付けろよ？」
+$k
+
+// 	SS( CENTER, SAKURAKO_0201AZ, MOVE_LEFT, NORMAL );
+
+// SAKURAKO_0201AZ
+#ir
+#ip,c3,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001140
+桜子
+「何言ってんのよ優じゃあるまいし、
+　そんなドジしないわよ？」
+$k
+
+優
+「くっ、うるせえやい！」
+$k
+
+&empty
+こういうところも、いつも通りの桜子だ。
+$k
+
+
+#next,03sakurako18_01

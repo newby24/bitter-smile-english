@@ -1,0 +1,690 @@
+﻿// 既読フラグ
+#read_flag,209
+
+&empty
+俺はちらっと後ろを見た。
+$k
+
+// 	SS( CENTER, ISAKI_0401NO );
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010223
+勇樹
+「確かに寒いな」
+$k
+
+優
+「ああ……」
+$k
+
+&empty
+店の前で宮津橋に呼び止められて、
+気がついたら何故か一緒に行く事になっていた。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_TENNAI01A, FILTER_SEPIA|FILTER_LINKSTAND );
+
+// 	SS_( RIGHT, DAIGO_0301EG2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A_s.jpg,(s),100%
+#ip,c1,(fi),DAIGOs_A301EG2.png,(x),r,(s),75%
+#ip,c3,(fi),ISAKIs_A501.png,(psi),ISAKIs_An01NO.png,(x),l,(s),60%
+#ig
+
+// 	SS( LEFT, ISAKI_0501NO );
+// 	RFI( RULE_CIRCLE );
+
+#show
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+&empty
+バイト中だったはずなのに、
+おっちゃん、あっさりＯＫだすんだもんなぁ…。
+$k
+
+#sp,vo,04010224
+勇樹
+「お、矢崎、その道を上がっていったところだぞ」
+$k
+
+// 	RFO( RULE_CIRCLE );
+
+// 	SV( BG_MUJINEKIMAE01A, FILTER_LINKSTAND );
+
+// 	SS( CENTER, ISAKI_0402NO );
+
+#ir
+#ip,bg,(fi),BG_MUJINEKIMAE01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+優
+「あ、ああ」
+$k
+
+&empty
+しかも……なんで宮津橋の方が、俺よりも
+張り切ってるように見えるんだろう？
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_CIRCLE );
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SS( LEFT, MII_0702NO );
+
+// 	RFI( RULE_CIRCLE );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c3,(fi),MII_A702.png,(psi),MII_An02NO.png,(x),l,(s),60%
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03BS.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+// 	SS( RIGHT, SAKURAKO_0403BS, MOVE_RIGHT );
+
+#show
+
+// SAKURAKO_0403BS
+
+#sp,vo,04000049
+桜子
+「ただいまー、みい。
+　優は、大丈夫そう？　上で大人しくしてる？」
+$k
+
+// MII_0701KY2
+#ir
+#ip,c3,(fi),MII_A701.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030042
+みい
+「お兄様なら先ほど、お出かけになられましたが」
+$k
+
+// SAKURAKO_0402AS
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000050
+桜子
+「へっ？　どこへ！？」
+$k
+
+// MII_0701KY
+#ir
+#ip,c3,(fi),MII_A701.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030043
+みい
+「さあ……？
+　この冬の最中に昆虫採集に
+　出かけられたようですよ」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000051
+桜子
+「はあ？」
+$k
+
+// MII_0703AD3
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03AD3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030044
+みい
+「おそらく、風邪のウイルスで頭の方が……
+　おいたわしや」
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000052
+桜子
+「ちょっと、それ、どういう事！？
+　とりあえず両手を合わせるのは止めなさい！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_CIRCLE );
+
+// 	SV( BG_YAMAMICHI01A );
+
+// #sp,env,S_Mori01#
+
+// 	RFI( RULE_CIRCLE );
+// 特殊な画面変更。暫定的に。
+#ir,(dr),1000
+#ip,bg,(fi),BG_YAMAMICHI01A.jpg,(s),100%
+#ig
+
+#sp,env,S_Tel12#
+
+#show
+
+&empty
+お、電話だ。
+みいちゃんからだな。
+あんな出て行き方したから、心配してるのかも。
+$k
+
+// 	SEStop( 0 );
+
+#ss,env,(dr),0
+#sp,se,S_Tel05
+
+優
+「はい、もしも……」
+$k
+
+// 	SEStop( 1 );
+
+
+#sp,vo,04000053
+桜子
+「ちょっとあんた、なにやってんのよ！」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+&empty
+げっ、桜子だ！！
+$k
+
+優
+「あー、いや、そのこれには深い訳がだな」
+$k
+
+#sp,vo,04000054
+桜子
+「まさか、この間の山じゃないでしょうね！？
+　それに帰ってこられないかもって何事！？
+　あんた、自分が病み上がりだってわかって……」
+$k
+
+// 	SS( CENTER, ISAKI_0402NO, MOVE_STOP, NORMAL );
+
+// ISAKI_0402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010225
+勇樹
+「誰だ？」
+$k
+
+&empty
+近づいてきた宮津橋に手を振って、
+何でもないと口パクで答える。
+$k
+
+&empty
+その間にも、さらに桜子はヒートアップしていた。
+$k
+
+#sp,vo,04000055
+桜子
+「え、ちょっと今の声……もしかして
+　勇樹も一緒なの？　ねえ！？」
+$k
+
+&empty
+うわあ聞かれていたか！
+とりあえず、後でちゃんと話をしよう。
+$k
+
+優
+「あの、とりあえずちゃんと帰るから、心配するな。
+　後で話するから！　じゃな！」
+$k
+
+#sp,vo,04000056
+桜子
+「あ、ちょっと、ゆ…！」
+$k
+
+#hide
+
+#sp,se,S_Tel05
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_CIRCLE );
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_SJ_TENNAI01A );
+
+// 	SS_( LEFT, MII_0701KY2 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A701.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK2.png,(x),r,(s),60%
+#ig
+
+// 	SS( RIGHT, SAKURAKO_0403IK2 );
+
+// 	RFI( RULE_CIRCLE );
+// 特殊な画面変更。暫定的に。
+
+#show
+
+// SAKURAKO_0403IK2
+
+#sp,vo,04000057
+桜子
+「優っ！　優ってば！　あ、切りやがったわね！」
+$k
+
+// MII_0701KY
+#ir
+#ip,c1,(fi),MII_A701.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030045
+みい
+「お兄様のご様子はいかがですか？」
+$k
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000058
+桜子
+「あんの馬鹿っ、いったい何やってんのよ」
+$k
+
+// MII_0703NO2
+#ir
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03NO2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030046
+みい
+「聞けば勇樹お姉様とご一緒だとか？
+　お泊まりですか？」
+$k
+
+// SAKURAKO_0403FK
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03FK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000059
+桜子
+「ううん、帰ってくるって」
+$k
+
+// MII_0703SN
+#ir
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03SN.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030047
+みい
+「………それはそれは甲斐性のない事で」
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000060
+桜子
+「あんたねぇ……」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_DAMKOHAN01A );
+
+#sp,env,S_Mori01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DAMKOHAN01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_DAMSANBASHI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DAMSANBASHI01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+湖についた俺は、まず桟橋から湖を覗き込んだ。
+$k
+
+&empty
+桜子を助けに入って溺れた時に、
+落とした可能性が一番高いからな。
+$k
+
+&empty
+まあ、実際は俺が助けられたわけだが…。
+$k
+
+&empty
+水は澄んでいて底まで見通せたけど、
+それらしいものは見当たらない。
+$k
+
+&empty
+砂ん中に埋もれてるのかもな。
+$k
+
+優
+「よし」
+$k
+
+#sp,se,S_Water09
+
+&empty
+虫取り網を持ってきて正解だった。
+掴んで、泥をさらうように探していく。
+$k
+
+// ISAKI_0401NO
+
+#sp,vo,04010226
+勇樹
+「珍しい魚でも見つけたか？」
+$k
+
+#ss,env,(dr),1000
+
+#sp,bgm,BGM_ISAKI
+
+優
+「まあ、そんなところだ」
+$k
+
+// ISAKI_0401NO
+#sp,vo,04010227
+勇樹
+「何か……手伝う事はあるか？」
+$k
+
+&empty
+なんだか、今日の宮津橋はやけに積極的だな。
+$k
+
+優
+「いや、いいよ。その辺で待っててくれ。
+　寝袋があるから、出して座っててもいいし」
+$k
+
+// ISAKI_0402KT
+
+#sp,vo,04010228
+勇樹
+「寝袋？　ここに泊まる気だったのか？」
+$k
+
+優
+「あー……そうなるかもしれないと思ってたけど
+　なんとか帰るよ」
+$k
+
+&empty
+宮津橋もいるしな。
+こいつにまで無理はさせられない。
+$k
+
+// ISAKI_0401NO
+
+#sp,vo,04010229
+勇樹
+「ふむ……」
+$k
+
+#hide
+
+// 	SV( VISUAL_ISAKI_08A );
+
+#flag,cg,17,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_08A.jpg,(s),75%
+#ig
+
+#show
+
+&empty
+宮津橋は寝袋を広げると、そこにちょこんと座った。
+$k
+
+優
+「なあ、なんで着いてきたんだ」
+$k
+
+&empty
+泥をさらいながら聞いてみる。
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,04010230
+勇樹
+「さあ…なんとなく、だな」
+$k
+
+優
+「なんとなくって…………」
+$k
+
+// ISAKI_0401NO
+
+#sp,vo,04010231
+勇樹
+「冗談だ。お前は病み上がりだろう。
+　そんな奴を１人でこんなところになど
+　来させられるか」
+$k
+
+&empty
+それって……。
+$k
+
+優
+「もしかして、俺の事を心配してくれたのか？」
+$k
+
+&empty
+だったら、素直に嬉しい。
+$k
+
+// ISAKI_0401IK
+
+#sp,vo,04010232
+勇樹
+「違う……そんなんじゃない」
+$k
+
+// ISAKI_0401IK2
+
+#sp,vo,04010233
+勇樹
+「ただ、その……お前がいないと、落ち着いた
+　学園生活を送るためにはいろいろと不便なんだ。
+　また風邪をぶり返されてたまるか」
+$k
+
+優
+「あ、そういう事ね……」
+$k
+
+&empty
+結局、偽の恋人としてか。
+$k
+
+&empty
+いつもなら、流してしまおうと思っている
+その言葉が、やけにひっかかった。
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,04010234
+勇樹
+「……別にお前のためじゃない。
+　自分のためだ。無理するな、馬鹿」
+$k
+
+&empty
+だけど、いくら仮面カップルだからって
+こんなところまで着いてくるだろうか。
+$k
+
+&empty
+俺から目をそらす宮津橋の顔に、
+少しでも俺は自分への好意を読み取ろうとした。
+$k
+
+&empty
+嫌われてない……よな？
+$k
+
+&empty
+少なくとも嫌われていたら、こんなところまで
+着いてきたりはしないだろう……とは思うし。
+$k
+
+優
+「なあ……宮津橋って、
+　俺の事は、嫌いか？」
+$k
+
+// ISAKI_0401IK
+
+#sp,vo,04010235
+勇樹
+「何を馬鹿な事を言っている。
+　嫌いな奴のためにここまで来るか、馬鹿」
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,04010236
+勇樹
+「だいたい、嫌いなら偽だとはいえ、
+　恋人役など頼まない」
+$k
+
+&empty
+そう言われて、胸が苦しくなった。
+$k
+
+&empty
+嬉しいのか、切ないのか分からない。
+$k
+
+&empty
+嫌いじゃないと言われた事は、嬉しい。
+$k
+
+&empty
+だけど……もっと宮津橋に近づきたい。
+$k
+
+// ISAKI_0401NO
+
+#sp,vo,04010237
+勇樹
+「もう魚はいいのか？」
+$k
+
+優
+「あ、ああ」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Water09
+
+// 	SK2(  NORMAL, 6, 10);
+
+&empty
+突然、こみあげてきた感情を誤魔化すように、
+俺は湖を網でかき回した。
+$k
+
+
+#next,04isaki09_02

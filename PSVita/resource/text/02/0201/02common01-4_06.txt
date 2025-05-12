@@ -1,0 +1,1050 @@
+﻿// 既読フラグ
+#read_flag,58
+
+// KANAME_0903GN2
+#ir
+#ip,c3,(fi),KANAME_A903.png,(psi),KANAME_An03GN2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02020061
+要
+「晩御飯がクレープだなんて」
+$k
+
+// MII_0302MJ
+#ir
+#ip,c1,(fi),MII_A302.png,(psi),MII_An02MJ.png,(x),c,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,02030169
+みい
+「制限時間は準備も含めて三十分。
+　お店に無いオリジナルメニューをＡさん、Ｂさんの
+　お二人に、審査に必要な分だけ作ってもらいます」
+$k
+
+&empty
+掴み合いの喧嘩に発展するかどうかという所で
+みいちゃんが一つの提案をした。
+$k
+
+&empty
+そして今日。
+$k
+
+// MII_0302IK2
+#ir
+#ip,c1,(fi),MII_A302.png,(psi),MII_An02IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030170
+みい
+「公平な審査のうえで、よりお店に合った美味しい
+　オリジナルクレープを作った方が勝者となります」
+$k
+
+&empty
+公平な審査を行う為、会社帰りの暇なＯＬさんや
+学園帰りの暇な客を捕まえて来た。
+$k
+
+&empty
+新商品試食がタダという事ですんなり集まったようだ。
+$k
+
+&empty
+ちなみに要さんは事情を知らずＯＬさん達の
+付き添いでやって来たが審査員からは除外。
+（おそらくみいちゃん辺りに騙されたのだろう）
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　だま
+
+$k
+
+&empty
+あと身内関係者も大吾のおっちゃん以外は外してある。
+$k
+
+&empty
+おっちゃんは店の主らしく結構真剣の様相。
+労せずして新商品が開発されるから
+期待しているのかもな。
+$k
+
+// MII_0303MJ
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030171
+みい
+「そして敗者は勝者の条件を呑む事。
+　条件は非公開ですけど。それでいいですね？
+$nw,8100
+
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+　ＯＫなら頷いてください」
+$k
+
+&empty
+両者共こくりと頷く。
+$k
+
+&empty
+なんとなく条件は見当が付く。
+宮津橋は『構うな』
+桜子は『うちに居ろ』とかだろう、たぶん。
+$k
+
+// MII_0303IK
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030172
+みい
+「ではスタートです！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+優
+「しかしなんで覆面勝負なんだ？」
+$k
+
+// 	SV( VISUAL_ETC_03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ETC_03A.jpg,(s),75%
+#ig
+
+#sp,vo,02070072
+めぐみ
+「まあその方がより公平っぽいし、
+　盛り上がる感じしない？」
+$k
+
+優
+「そうかなあ？
+　闇の組織だろ、あれじゃあ」
+$k
+
+// MEGUMI_A901EG6
+
+#sp,vo,02070073
+めぐみ
+「しっかしまさかこんな事になってるなんて
+　思いもしなかったわ。
+$nw,5500
+
+　昔から知り合いだったんだね～、あの二人」
+$k
+
+優
+「俺もだがな」
+$k
+
+// MEGUMI_A901EG
+
+#sp,vo,02070074
+めぐみ
+「あとあの足もね、特になに？　あの左のギプス。
+　軸足だから相当辛そうだよね…ぷふっ」
+$k
+
+//$nw,1800
+//$nw,3200
+//$nw,3100
+
+&empty
+右足は包帯にサンダル。左足にギプス。
+$k
+
+&empty
+大袈裟に見えるが実際傷は深くて結構縫った、
+という話だし仕方ない。
+しかし骨折以外でもギプスってするんだな…。
+$k
+
+// MEGUMI_A901NO
+
+#sp,vo,02070075
+めぐみ
+「桜子の自転車通学も初めて見たし～。
+　学園ちょっとくらい休めばいいのに」
+$k
+
+//$nw,3700
+
+優
+「だよな。
+　自転車押すだけってのも結構疲れるんだよ…」
+$k
+
+&empty
+学園には桜子を乗せて自転車で通う事になった。
+二人乗りはいかん！と言う桜子の主張で、
+桜子を乗せた自転車をただただ俺が押していくのだ。
+$k
+
+// 	SV( BG_HS_TENNAI02A );
+// 	SS_( LEFT, KANAME_0903SN, MOVE_STOP, NORMAL );
+
+
+#ir
+#ip,bg,(fi),BG_HS_TENNAI02A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03SN.png,(x),l,(s),60%
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03NO2.png,(x),r,(s),60%
+#ig
+
+// KANAME_0903SN
+#sp,vo,02020062
+要
+「松茸食べるって聞いたから連れて来たのに…」
+$k
+
+// MII_0303NO
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030173
+みい
+「それは終わってからのお楽しみですよ、お姉様」
+$k
+
+// KANAME_0903NO
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02020063
+要
+「そっそれは本当、みいちゃん？」
+$k
+
+// MII_0303EG
+#ir
+#ip,c3,(fi),MII_A303.png,(psi),MII_An03EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030174
+みい
+「まあ、あまり期待はしないで下さいね」
+$k
+
+優
+「要さん…」
+$k
+
+// 	SV( VISUAL_ETC_03A );
+
+#flag,cg,5,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ETC_03A.jpg,(s),75%
+#ig
+
+&empty
+あまり心配はしていないのだが、桜子は
+たこ焼きは言うまでも無く、料理全般はそこそこ出来る。
+$k
+
+&empty
+クレープもめぐみのとこに通いつめているのだから、
+レシピとか作り方も知っているだろう。
+$k
+
+&empty
+対する宮津橋は様々なバイトをこなしているらしいし、
+自炊もしているしで、その手捌きも見事な感じがする。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　てさば
+$k
+
+&empty
+どちらが勝っても不思議じゃない雰囲気だ。
+しかし……。
+$k
+
+&empty
+先程ちらっと見えた食材がすごく気になった。
+本当に勝つ気あんのかあいつ…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TODOROKIMICHI03A );
+
+#sp,env,W_Bicycle01#
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03IK3.png,(x),c,(s),80%
+#ig
+
+#show
+
+// SAKURAKO_A303IK3
+
+#sp,vo,02000287
+桜子
+「くそう、くそう…」
+$k
+
+// 	SF( 0, 1000, 0 );
+
+&empty
+シーサーからの帰り道、
+桜子はずっと、ぶつぶつ呪文を唱えている。
+$k
+
+&empty
+よほど悔しいらしい。
+$k
+
+優
+「なあ桜子、お前最後宮津橋になんか言われてたろ。
+　あれなんだったんだ？」
+$k
+
+// SAKURAKO_A303IK
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000288
+桜子
+「は？　そんなのあんたには関係の無い事よ。
+$nw,3600
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03FK2.png,(x),c,(s),80%
+#ig
+
+　くそ、くそう。
+　…絶対に美味しいのにあのおっさん！」
+$k
+
+優
+「確かに凄く旨かったけどな…」
+$k
+
+&empty
+ＯＬ四人、女子学園生五人、店主一人。
+十人中、店主とＯＬ三人、学園女子一人がＡさんに。
+残りがＢさんに投票。
+$k
+
+// MII_0303KD
+#ir
+#ip,c3,(fi),MIIn_A303.png,(psi),MIIn_An03KD.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030175
+みい
+「確かにＯＬさんや一部の女子にはうけてましたね。
+$nw,4700
+
+#ir
+#ip,c3,(fi),MIIn_A301.png,(psi),MIIn_An01KS.png,(x),r2,(s),80%
+#ig
+
+　でもさすがに同票となるとコストと平日需要が
+　優先されるでしょうねえ」
+$k
+
+// SAKURAKO_A302IK3
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000289
+桜子
+「なんで！？
+　需要なら大人の部で十分でしょ？」
+$k
+
+&empty
+結果引き分けになったが、
+勝負は時間的に持ち越せないので
+店主に最終判断が委ねられた。
+$k
+
+// MII_0301NO
+#ir
+#ip,c3,(fi),MIIn_A301.png,(psi),MIIn_An01NO.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030176
+みい
+「まあ、最後は店主の判断ですからね。
+　至極正当な評価でしょう」
+$k
+
+// MII_0303EG
+#ir
+#ip,c3,(fi),MIIn_A303.png,(psi),MIIn_An03EG.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030177
+みい
+「ＯＬ陣営にもう一人居れば、
+　また結果は変わったかもしれませんが」
+$k
+
+&empty
+審判を十一人にすればよかったのにな。
+$k
+
+// SAKURAKO_A303FK2
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03FK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000290
+桜子
+「ぐうぅっ…」
+$k
+
+// KANAME_0903KM2
+#ir
+#ip,c2,(fi),KANAMEn_A903.png,(psi),KANAMEn_An03KM2.png,(x),l3,(s),80%
+#ig
+
+#sp,vo,02020064
+要
+「べ、別に私のせいじゃないよねー？」
+$k
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+確かに桜子のクレープは旨かった。
+$k
+
+&empty
+クレープといえるのかどうかは分からないが、
+少し厚めで、すごくプリプリ、しかし、ふわっと
+した触感のクレープ生地。
+$k
+
+&empty
+そこへなんと、苦味をほどよくおさえたゴーヤの
+極小チップが上手くミルクチョコペーストと酸味果物で
+コラボしてくるとは誰も思っては居なくて。
+$k
+
+&empty
+おっちゃんやＯＬ陣は大人の味とか絶賛していた。
+ゴーヤに手を出したにも拘らずよくある
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　かかわ
+惣菜系クレープにならなかったのも良かった。
+
+$k
+
+&empty
+しかし一方の宮津橋のクレープもまた巧かった。
+一見シンプルなカスタードのクレープのように見えて
+しかし一口、その期待は上手に裏切られる。
+$k
+
+&empty
+カスタードに見えたのは良く知らないが、
+おそらく何とかいうチーズだろう。
+$k
+
+&empty
+中は何層かに分かれていたがそのチーズと
+やはりフルーツのスライスが見事に後を引く
+味を醸し出していた。
+$k
+
+&empty
+しかも原価が桜子の物より安いらしい。
+あとは前述の通りだ…。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_GAIKAN03B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN03B.jpg,(s),100%
+#ig
+
+// 	SNLP( 0, "W_Bicycle01" );
+
+#sp,se,W_Bicycle01
+
+#wait,1000
+
+#ir
+#ip,c1,(fi),MIIn_A301.png,(psi),MIIn_An01KD.png,(x),l,(s),60%
+#ig
+
+#show
+
+// MII_0301KD
+#sp,vo,02030178
+みい
+「あ、
+$nw,700
+
+#ir
+#ip,c1,(fi),MIIn_A301.png,(psi),MIIn_An01NO.png,(x),l,(s),60%
+#ig
+
+#madd,お婆ちゃんが店先で待ってますね」
+
+$k
+
+// 	SEStop( 0 );
+
+#ir
+#ie,c1
+#ig
+
+&empty
+要さんが小走りに婆さんの元へ。
+$k
+
+// 	SS_( RIGHT, KINO_0401NO, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),KINOn_A401NO.png,(x),r,(s),60%
+#ip,c2,(fi),KANAMEn_A903.png,(psi),KANAMEn_An03EG.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,c2,(y+),-5
+#ig
+
+// 	SS_( LEFT, KANAME_0903EG, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SetActionPyonpyon1( LEFT );
+
+// KANAME_0903EG
+#sp,vo,02020065
+要
+「お婆ちゃん。
+　今日ご飯、松茸だよねー！？」
+$k
+
+// 	DelAction( LEFT );
+
+// ループ停止。
+#ils
+
+// KINO_0401AS
+#ir
+#ip,c3,(fi),KINOn_A401AS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060056
+紀乃
+「はあ？
+　何言ってんねや、この子は」
+$k
+
+// 	SetActionPyon( LEFT );
+
+
+// KANAME_0903AY
+#ir,(dr),0
+#ip,c2,(fi),KANAMEn_A903.png,(psi),KANAMEn_An03AY.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c2,(y+),-5
+#ig
+
+#sp,vo,02020066
+要
+「ええ、やっぱり！
+$nw,1700
+
+#ir
+#ip,c2,(fi),KANAMEn_A903.png,(psi),KANAMEn_An03GN2.png,(x),l,(s),60%
+#ig
+
+　インスタントのお吸い物とかいうオチなのねっ？」
+
+$k
+
+// 	DelAction( LEFT );
+// 	SS_( LEFT, KANAME_0903KT );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c2,(fi),KANAMEn_A903.png,(psi),KANAMEn_An03KT.png,(x),l,(s),60%
+#ip,c3,(fi),MIIn_A301.png,(psi),MIIn_An01KS.png,(x),r,(s),60%
+#ig
+
+// MII_0301KS
+
+#sp,vo,02030179
+みい
+「……大丈夫ですよ、私の分とお兄様の分から少しずつ
+　お姉様の分も捻出しますから」
+$k
+
+優
+「え、どういうこと？
+　まさか本当に松茸…」
+$k
+
+// KINO_0401AK
+#ir
+#ip,c3,(fi),KINOn_A401AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060057
+紀乃
+「今日は要、飲みにいくーゆうとったから、
+　この事は内緒やでーいうたのに…」
+$k
+
+// 	ShakeStand( LEFT, FAST, SHAKE_LEFT, 25, FAST * 2 );
+
+// KANAME_0903AY3
+#ir,(dr),0
+#ip,c2,(fi),KANAMEn_A903.png,(psi),KANAMEn_An03AY3.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c2,(x),-10
+#ig
+
+#sp,vo,02020067
+要
+「ちょっと、何？
+$nw,1700
+
+#ir
+#ip,c2,(fi),KANAMEn_A903.png,(psi),KANAMEn_An03SN2.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,c2,(y+),-5
+#ig
+
+　…私もしかして食いぶちの事で
+　仲間はずれにされようとしてた訳？」
+
+$k
+
+// 	SetActionPyonpyon1( LEFT );
+// 	DelAction( LEFT );
+
+// ループ停止。
+#ils
+
+// KINO_0401IK4
+#ir
+#ip,c3,(fi),KINOn_A401IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060058
+紀乃
+「当たり前やろ、国産やねんで？」
+$k
+
+優
+「マジで松茸様がっ？
+　夢の国宝が！？」
+$k
+
+// MII_0302MJ
+
+#sp,vo,02030180
+みい
+「…国外産とは香りが全然違うそうですよ」
+$k
+
+// KANAME_0903EG
+#ir
+#ip,c2,(fi),KANAMEn_A903.png,(psi),KANAMEn_An03EG.png,(x),l,(s),60%
+#ig
+
+#ir,(ef),off
+#ip,op2,(fi),image\icon\kyakya.png,(x),400,(y),30
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),no_limit
+#ip,op2,(x+),10,(y+),10
+#ig
+
+#sp,vo,02020068
+要
+「きゃーっ！
+$nw,800
+
+#ir,(ef),off
+#ie,op2
+#ig
+
+#ir
+#ip,c2,(fi),KANAMEn_A903.png,(psi),KANAMEn_An03NO.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,c2,(y+),-5
+#ig
+
+　早くっ、早く食べようよ！」
+
+$k
+
+// 	SetActionPyonpyon1( LEFT );
+// 	DelAction( LEFT );
+
+// KINO_0401AK
+
+// ループ停止。
+#ils
+
+#ir
+#ip,c3,(fi),KINOn_A401AK.png,(x),r,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,02060059
+紀乃
+「やれやれ…」
+$k
+
+優
+「なんでこんな日に勝負なんか…」
+$k
+
+// KINO_0401KD2
+#ir
+#ip,c3,(fi),KINOn_A401KD2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060060
+紀乃
+「その顔は勝負、負けてきたみたいやな？」
+$k
+
+#ir
+#ip,c2,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03FK.png,(x),l2,(s),80%
+#ig
+
+// SAKURAKOn_A303FK
+#sp,vo,02000291
+桜子
+「引き分けのち、惨敗よ…」
+$k
+
+// KINO_0401EG2
+#ir
+#ip,c3,(fi),KINOn_A401EG2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060061
+紀乃
+「そんならしゃーないなぁ、桜子はん。
+$nw,3100
+
+#ir
+#ip,c3,(fi),KINOn_A401MJ2.png,(x),r,(s),60%
+#ig
+
+　まあ生き方人それぞれやし。
+　無理に止めたかてな？」
+$k
+
+優
+「そうだよ、いいじゃん別に。
+　すぐ会えるんだしさ、住む場所くらいよ？」
+$k
+
+// SAKURAKOn_A303AK
+#ir
+#ip,c2,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03AK.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02000292
+桜子
+「そういうんじゃないよ…。
+$nw,2400
+
+#ir
+#ip,c2,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),l2,(s),80%
+#ig
+
+　それにずっとこの町にいるとは限んないのに…」
+
+$k
+
+// KINO_0401BS3
+#ir
+#ip,c3,(fi),KINOn_A401BS3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060062
+紀乃
+「さ、早よ家入りー、
+$nw,2200
+
+#ir
+#ip,c3,(fi),KINOn_A401NS.png,(x),r,(s),60%
+#ig
+
+　今日はご馳走やからな。
+　それで機嫌直したりや？」
+$k
+
+// SAKURAKOn_A301KN
+#ir
+#ip,c2,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01KN.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,02000293
+桜子
+「………」
+$k
+
+優
+「……お前泣いてんのか？」
+$k
+
+// SAKURAKOn_A301NK4
+#ir
+#ip,c2,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01NK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000294
+桜子
+「は？　何言ってんのあんた。
+$nw,2600
+
+#ir
+#ip,c2,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK3.png,(x),c,(s),80%
+#ig
+
+　勘違いしないでよ、
+　あんな奴に負けたのが悔しいだけよ！」
+$k
+
+&empty
+負けたのがそんなに悔しいのか、別の理由なのか…、
+桜子の目は少し赤かった。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_TENNAI03A, FILTER_SEPIA | FILTER_LINKSTAND );
+// 	SS( LEFT, ISAKI_A302NO );
+// 	SS( RIGHT, SAKURAKO_A303NO3 );
+
+#sp,bgm,BGM_ISAKI
+
+// ISAKI_A302NO
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI03A_s.jpg,(s),100%
+#ip,c1,(fi),ISAKIs_A302.png,(psi),ISAKIs_An02NO.png,(x),l,(s),80%
+#ip,c3,(fi),SAKURAKOs_A303.png,(psi),SAKURAKOs_An03NO3.png,(x),r,(s),80%
+#ig
+
+#show
+
+#sp,vo,02010089
+勇樹
+「アレには別段『そういう』意図は無かったから…」
+$k
+
+// SAKURAKO_A303NO3
+
+#sp,vo,02000295
+桜子
+「……何の事よ？」
+$k
+
+// ISAKI_A301NO
+#ir
+#ip,c1,(fi),ISAKIs_A301.png,(psi),ISAKIs_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02010090
+勇樹
+「転入初日のアレだよ。
+　あいつには何の感情も持ち合わせてはいないから、
+　お前がその事を気にする必要は何もない」
+$k
+
+// SAKURAKO_A303FK2
+#ir
+#ip,c3,(fi),SAKURAKOs_A303.png,(psi),SAKURAKOs_An03FK2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000296
+桜子
+「…何言ってんのよあんた。
+$nw,2000
+
+#ir
+#ip,c3,(fi),SAKURAKOs_A303.png,(psi),SAKURAKOs_An03IK3.png,(x),r,(s),80%
+#ig
+
+　なんであいつがあたしと関係あんのよ？」
+$k
+
+// ISAKI_A301MU
+#ir
+#ip,c1,(fi),ISAKIs_A301.png,(psi),ISAKIs_An01MU.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02010091
+勇樹
+「てっきりお前は昔の事をだらだら
+　気にしてるものと思っていたけどね」
+$k
+
+// SAKURAKO_A302IK7
+#ir
+#ip,c3,(fi),SAKURAKOs_A302.png,(psi),SAKURAKOs_An02IK7.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000297
+桜子
+「……ふん、昔の事なんか覚えてないっての」
+$k
+
+// ISAKI_A301NO
+#ir
+#ip,c1,(fi),ISAKIs_A301.png,(psi),ISAKIs_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02010092
+勇樹
+「それは助かるね。
+　じゃあ私は、またあいつを借りるかもしれんが、
+　これでお前を気にする必要も無いな」
+$k
+
+// SAKURAKO_A303FK
+#ir
+#ip,c3,(fi),SAKURAKOs_A303.png,(psi),SAKURAKOs_An03FK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000298
+桜子
+「……好きにすれば？」
+$k
+
+// SAKURAKO_A303IK3
+#ir
+#ip,c3,(fi),SAKURAKOs_A303.png,(psi),SAKURAKOs_An03IK3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000299
+桜子
+「でもね……あいつを泣かす様な事、
+$nw,3100
+
+#ir
+#ip,c3,(fi),SAKURAKOs_A303.png,(psi),SAKURAKOs_An03NO3.png,(x),r,(s),80%
+#ig
+
+　しないでよね」
+$k
+
+// ISAKI_A302NO
+#ir
+#ip,c1,(fi),ISAKIs_A302.png,(psi),ISAKIs_An02NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02010093
+勇樹
+「…保証は出来ないな。
+　そんな事を気にする気も無いし」
+$k
+
+// 	ShowFace();
+
+
+#hide
+
+// エピソードエンド。ロゴのみ。
+
+#ir,(dr),1000
+#ie,c1,c3
+#ig
+
+#wait,500
+
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,c4,al,(lt),straight,(lc),0
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// みいの好感度が２の場合、みい第２話追加へ。
+#next,05mii03A_00:(if),per,3,==,2
+
+// 上記以外。
+#next,02common02-1_00

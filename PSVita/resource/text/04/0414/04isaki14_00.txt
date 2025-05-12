@@ -1,0 +1,861 @@
+﻿// 既読フラグ
+#read_flag,228
+
+// セーブタイトル
+#flag,save_title,勇樹　第１４話,0,0
+
+// エピソードタイトルの表示
+#note,勇樹　第１４話　一触即発
+$k
+#note,erase
+
+#ir,(dr),500
+#ip,ov,(fi),sysc_white.jpg
+#ig
+
+// 	SV(BG_MT_TODOROKIMICHI01A, FILTER_SEPIA|FILTER_LINKSTAND);
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI01A_s.jpg,(s),100%
+#ie,ov
+#ig
+
+#show
+
+#sp,vo,03001718
+桜子
+「はいこれ、あげるわ」
+$k
+
+#sp,vo,03010157
+サキ
+#mstyle,(co),勇樹
+「えっ、いいの？
+　このぬいぐるみ、チーちゃんのお気に入りなのに…」
+$k
+
+#sp,bgm,BGM_OMOIDE
+
+#sp,vo,03001719
+桜子
+「そうよ？
+　だからさあ、あたしの代わりだと思って
+　可愛がってあげてよね？」
+$k
+
+#sp,vo,03010158
+サキ
+#mstyle,(co),勇樹
+「うん、大事にする」
+$k
+
+#sp,vo,03001720
+桜子
+「別に大事にしなくてもいいけど。
+　もし辛い事とか、悲しい事とかあったら、
+　それ殴っとけばいいのよ。殴ろう、殴っちゃえ」
+$k
+
+#sp,vo,03010159
+サキ
+#mstyle,(co),勇樹
+「そんな可哀相な事しないよう」
+$k
+
+#sp,vo,03001721
+桜子
+「それなりに相手してくれるのよ？
+　そいつ、案外タフだから。
+$nw,4900
+
+　優も見習って欲しいもんよね」
+$k
+
+#sp,vo,03010160
+サキ
+#mstyle,(co),勇樹
+「あははは、そうだね！」
+$k
+
+#sp,vo,03001722
+桜子
+「で、優は来てないの？」
+$k
+
+#sp,vo,03010161
+サキ
+#mstyle,(co),勇樹
+「うん、言ってないもん、引越しの事」
+#meffect,flow,5
+$k
+
+#sp,vo,03001723
+桜子
+「なんでよ、
+　あんなに優ちゃん、優ちゃんっていっつも…」
+$k
+
+#sp,vo,03010162
+サキ
+#mstyle,(co),勇樹
+「いいの、だからチーちゃん、
+　優ちゃんの事、よろしくね？」
+$k
+
+#sp,vo,03001724
+桜子
+「分かってるって」
+$k
+
+#sp,vo,03010163
+サキ
+#mstyle,(co),勇樹
+「私が居ない間に、優ちゃんとっちゃ嫌だよ？」
+$k
+
+#sp,vo,03001725
+桜子
+「なにそれ、なんであたしが優なんか
+　とるわけないじゃない」
+$k
+
+#sp,vo,03010164
+サキ
+#mstyle,(co),勇樹
+「あんなに仲良しなのに？」
+$k
+
+#sp,vo,03001726
+桜子
+「別に小さい時から一緒だし家近いし。
+　別にそんなんじゃないよ」
+$k
+
+#sp,vo,03010165
+サキ
+#mstyle,(co),勇樹
+「そうかな………人生何が起こるか分からないもん」
+$k
+
+#sp,vo,03001727
+桜子
+「大丈夫よ、ないないないって！」
+$k
+
+#sp,vo,03010166
+サキ
+#mstyle,(co),勇樹
+「あ、呼んでるから、もう行かないと…」
+$k
+
+#ir,(dr),2000
+#ip,bg,(fi),white.jpg
+#ig
+
+#sp,vo,03001728
+桜子
+「あ、……手紙書くからね！」
+$k
+
+#sp,vo,03010167
+サキ
+#mstyle,(co),勇樹
+「うん私も！　返事書くから！」
+$k
+
+#sp,vo,03001729
+桜子
+「うん、あと、あたし達の事……
+$nw,4660
+
+　忘れないでよねっ」
+
+$k
+
+#sp,vo,03010168
+サキ
+#mstyle,(co),勇樹
+「うん、絶対忘れないよぅ。
+　ずっと友達だもん、チーちゃんはっ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#sp,bgm,BGM_SABISHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+次の日から、宮津橋は俺の事を完全に
+迎えに来なくなってしまった。
+$k
+
+&empty
+授業中に目が合っても、
+すぐに視線を逸らされてしまう。
+$k
+
+&empty
+休み時間に俺の机に来る事も無くなった。
+$k
+
+優
+「宮津橋…………」
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010484
+勇樹
+「…………」
+$k
+
+#ir
+#ie,c1
+#ig
+
+//	DS( -1 );
+
+&empty
+俺が呼びかけても、宮津橋は参考書から
+顔を上げようともしない。
+$k
+
+優
+「俺が何か気に障った事をしたのなら、謝るから。
+　だから、何があったか話してくれよ」
+$k
+
+// ISAKI_A201MU
+
+#sp,vo,04010485
+勇樹
+「…………うるさい。
+　邪魔をしないでくれないか」
+$k
+
+&empty
+俺の方を一度も見ないまま、
+宮津橋はそう切って捨てた。
+$k
+
+優
+「…………そっか。ごめん」
+$k
+
+&empty
+もしかしたら、
+もっと食い下がるべきなのかもしれない。
+$k
+
+&empty
+でも、その宮津橋の言葉は硬く強ばっていて、
+俺にそれ以上の追求を許さなかった。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO( SLOW );
+// 	CFI( SLOW );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+昼休みになると、宮津橋はどこかへふらっと
+消えてしまうようになっていた。
+$k
+
+&empty
+あちこち探してもみたけれど、
+どこにも見あたらない。
+$k
+
+&empty
+最近では諦めて、自分の席でもそもそと
+パンを囓る事にしていた。
+
+#mfuri,　　　　　　かじ
+
+$k
+
+// 	SS( CENTER, MEGUMI_0201SP, MOVE_RIGHT );
+
+// MEGUMI_0201SP
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+#sp,vo,04070093
+めぐみ
+「優ちゃん、今日も１人なの？」
+$k
+
+優
+「あ、ああ……まあな」
+$k
+
+&empty
+めぐみが心配そうに俺の顔を覗き込む。
+$k
+
+&empty
+俺は無理に笑顔を作った。
+$k
+
+優
+「たぶん……俺が無神経だから、何かして
+　怒らせちゃったんだよ」
+$k
+
+優
+「有河の時もそうだったしさ……はは」
+$k
+
+// MEGUMI_0201KD2
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070094
+めぐみ
+「そうかなあ？　だって、授業中、勇樹ちゃんってば
+　ずっと優ちゃんの事だけ見てるよ」
+$k
+
+優
+「それは俺も気づいてたけど……
+　でも、すぐに目をそらされちゃうしな」
+$k
+
+// MEGUMI_0201SP3
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070095
+めぐみ
+「うーん、仲直りしたいのに、
+　意地を張っちゃってるだけとかじゃないのかなー？」
+$k
+
+優
+「それならまだいいんだけどな…」
+$k
+
+&empty
+だとしても、急に心を閉ざされた方としては、
+どうしたらいいのかわからない。
+$k
+
+// MEGUMI_0201BS4
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070096
+めぐみ
+「だって、ちょっと前までは、勇樹ちゃんは
+　うちでよく優ちゃんの話をしてたもの」
+$k
+
+// MEGUMI_0201BS3
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070097
+めぐみ
+「少なくとも、優ちゃんのこと
+　嫌ったりなんかしてないよ」
+$k
+
+優
+「そっか」
+$k
+
+&empty
+それが……どうして……？
+$k
+
+// MEGUMI_0201MJ3
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01MJ3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070098
+めぐみ
+「とにかく、ちゃんと話しなきゃ。
+　今のまま放っといちゃダメだよー？」
+$k
+
+優
+「ああ、ありがとな」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+&empty
+めぐみの心遣いに感謝しながら、
+俺はもう一度、宮津橋を探しに教室を出た。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_OKUJYO01A );
+
+#sp,se,S_Door10o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_OKUJYO01A.jpg,(s),100%
+#ig
+
+#sp,bgm,BGM_KANASHIMI
+
+#show
+
+優
+「ここにいたのか」
+$k
+
+// 	SS( CENTER, ISAKI_0201IK, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+&empty
+珍しく、あっさりと宮津橋は見つかった。
+$k
+
+&empty
+だが、俺の事を、まるで刺すような
+鋭い視線で睨んでくる。
+$k
+
+// ISAKI_0201IK
+
+#sp,vo,04010486
+勇樹
+「なぜ来た。
+　近づくなと言ったはずだ」
+$k
+
+優
+「彼女を心配しちゃいけないのか？」
+$k
+
+// ISAKI_0201AZ
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010487
+勇樹
+「……っ！」
+$k
+
+&empty
+宮津橋が、唇を噛んで顔を伏せる。
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010488
+勇樹
+「誰が心配してくれなんて、頼んだんだ。
+　放っておいてくれ、１人にしてくれ」
+$k
+
+優
+「頼まれてなくても、
+　俺がしたいからしてるんだ」
+$k
+
+// ISAKI_0202IK
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010489
+勇樹
+「余計なお世話だ！！」
+$k
+
+&empty
+宮津橋が顔を上げ、俺を睨みつける。
+$k
+
+// ISAKI_0201AZ
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010490
+勇樹
+「お前がそんなだから……私はっ……」
+$k
+
+優
+「宮津橋？」
+$k
+
+// ISAKI_0201KN
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010491
+勇樹
+「はぁっはぁっはぁっ……」
+$k
+
+&empty
+叫ぼうとした宮津橋が言葉を切って、
+胸を押さえる。
+$k
+
+&empty
+苦しそうに。
+吐き出すものを、こらえるように。
+$k
+
+&empty
+一歩、踏み出して手を伸ばしたら、
+後ずさられた。
+$k
+
+&empty
+それで、俺はそれ以上踏み込めなくなる。
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010492
+勇樹
+「これ以上、私の心をかき乱すな」
+$k
+
+&empty
+宮津橋が俺から目を逸らす。
+これ以上、見ていられないと言うように。
+$k
+
+// ISAKI_0201KN
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010493
+勇樹
+「受験に集中したいんだ。
+　だから……放っておいてくれ」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+それだけを言うと、宮津橋は俺の隣を
+すり抜けるようにして、階段を下りていく。
+$k
+
+&empty
+そして……授業が始まっても、
+そのまま宮津橋は戻ってこなかった。
+$k
+
+#hide
+
+#ss,bgm
+
+#wait,2000
+
+// 	SV( BG_GK_CHURIN01A );
+// 	SS_( LEFT, ISAKI_0202MU );
+
+#sp,bgm,BGM_SYOSO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_CHURIN01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),l,(s),60%
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK2.png,(x),r,(s),60%
+#ig
+
+// 	SS( RIGHT, SAKURAKO_0203FK2 );
+
+#show
+
+// SAKURAKO_0203FK2
+#sp,vo,04000127
+桜子
+「なんで呼び出したか、わかってんでしょうね」
+$k
+
+// ISAKI_0202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010494
+勇樹
+「……矢崎の事か」
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000128
+桜子
+「わかってんなら、なんとかしなさいよ」
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010495
+勇樹
+「昔ならともかく、今、お前にぐだぐだ言われる
+　筋合いはないと思うがな」
+$k
+
+// SAKURAKO_0203IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000129
+桜子
+「……あるわよ」
+$k
+
+// ISAKI_0201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010496
+勇樹
+「…お前はあいつが好きなのか？」
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000130
+桜子
+「だったら何？」
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010497
+勇樹
+「なら……返してやる。
+　私にはもう……必要ない」
+$k
+
+// SAKURAKO_0203AK
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000131
+桜子
+「嘘ばっかり。
+　好きなんでしょ？　優の事」
+$k
+
+// ISAKI_0201MU
+#sp,vo,04010498
+勇樹
+「…………分からない。
+　私には、あいつに対する気持ちを
+　何と表現していいのか、分からないんだ」
+$k
+
+// ISAKI_0201KN
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010499
+勇樹
+「あいつの近くにいると、おかしくなる。
+　だから、距離を置かないとダメなんだ！」
+$k
+
+// SAKURAKO_0202AK
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000132
+桜子
+「…………はぁぁぁぁ。
+　殴ろうと思ってたけど、殴る気も失せたわ」
+$k
+
+// ISAKI_0202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010500
+勇樹
+「…？」
+$k
+
+// SAKURAKO_0203IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000133
+桜子
+「言っておくけど、
+　あたしが優の事を好きっていうのは、
+　１００％幼なじみとしてだけだから」
+$k
+
+// ISAKI_0202NO
+#sp,vo,04010501
+勇樹
+「だったら……私にどうしろと？」
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000134
+桜子
+「別に、なんでもいいわよ、もう。
+　でもね、あいつはすっごい辛そうな顔してた。
+　あんたとちゃんと付き合っているか分からないって」
+$k
+
+// ISAKI_0202KT
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010502
+勇樹
+「あいつが……辛そうに……？」
+$k
+
+// SAKURAKO_0203KM
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000135
+桜子
+「好きでもないなら、付き合わないでよ。
+　あんたがどう思っててもいいけど、
+　約束はちゃんと守って」
+$k
+
+// ISAKI_0202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010503
+勇樹
+「約束？」
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000136
+桜子
+「優を泣かすような真似はしないって」
+$k
+
+// ISAKI_0202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010504
+勇樹
+「……保証はできないと言ったはずだ」
+$k
+
+// SAKURAKO_0203IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000137
+桜子
+「それでもよっ。
+　あたしは……あんたのした事に
+　自分で責任をとれって言ってるの！」
+$k
+
+
+#next,04isaki14_01

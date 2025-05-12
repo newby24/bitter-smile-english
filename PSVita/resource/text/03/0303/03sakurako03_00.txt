@@ -1,0 +1,848 @@
+﻿// 既読フラグ
+#read_flag,262
+
+// セーブタイトル
+#flag,save_title,桜子　第３話,0,0
+
+// 桜子好感度＋１。
+#flag,per,1,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_SJ_GAIKAN01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第３話　たこ焼き怖い
+$k
+#note,erase
+
+#show
+
+優
+「たこ焼き出来たぞー」
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),c,(s),80%
+#ig
+
+&empty
+雪華ちゃん達がいるテーブルまで持っていく。
+$k
+
+優
+「雪華ちゃん、熱いからフーフーしてやろうか？」
+$k
+
+// 	SS( CENTER, YUKIHA_A401BS, MOVE_STOP, NORMAL );
+
+// YUKIHA_A401KB
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KB.png,(x),c,(s),80%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ase.png,(x),530,(y),70
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op1,(y+),100,(al),0%
+#ia,op1,al,(dl),500
+#ig
+
+#sp,vo,03050001
+雪華
+「いいよぉ、子供じゃないんだから…」
+$k
+
+// YUKIHA_A401AK4
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03050002
+雪華
+「ふー、ふー……
+$nw,3170
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS3.png,(x),c,(s),80%
+#ig
+
+　はむ。ん…はふ……」
+$k
+
+// 	SS_( RIGHT, MII_A403NO );
+
+#ir,(ef),off
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+// 	SS( LEFT, YUKIHA_A401BS3 );
+
+// MII_A403NO
+#sp,vo,03030011
+みい
+「雪華さん、お兄様のたこ焼きはいかがでしょうか」
+$k
+
+// YUKIHA_A401KM3
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03050003
+雪華
+「うーん………」
+#meffect,flow,5
+$k
+
+&empty
+爪楊枝を動かしながら、難しい顔をする。
+
+#mfuri,つまようじ
+
+$k
+
+// YUKIHA_A401KS
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03050004
+雪華
+「普通、かなあ？」
+$k
+
+// MII_A403NO2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030012
+みい
+「それはまた、微妙な評価ですね」
+$k
+
+&empty
+桜子どころか、千寿としての味にも及ばないのか…。
+$k
+
+// YUKIHA_A401KM4
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03050005
+雪華
+「お兄ちゃんにしては、良く出来てると思うけど」
+$k
+
+&empty
+それ、誉めてないよね？
+$k
+
+// MII_A403AD3
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),r,(s),80%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+#sp,vo,03030013
+みい
+「はふ……んく。
+#meffect,flow,5
+$nw,3290
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),r,(s),80%
+#ig
+
+　確かにもうちょっとですね」
+
+$k
+
+// YUKIHA_A401KS
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03050006
+雪華
+「うん、あと１歩ってところかなぁ」
+$k
+
+// 	SS_( LEFT, MII_A403NO2 );
+
+// 	SS( RIGHT, SAKURAKO_A402NO2 );
+
+// SAKURAKO_A402NO2
+#ir,(ef),off
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r,(al),100%
+#ip,c3,(x),l
+#ip,c1,(x),l2,(al),0%
+#ig
+
+#sp,vo,03000113
+桜子
+「優に秋祭りを任せられそう？」
+$k
+
+// MII_A403KM
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03030014
+みい
+「どうでしょう。
+$nw,1220
+
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),l,(s),80%
+#ig
+
+　もう少し練習する必要はあると思いますけど、
+　タコの位置もばらついていますし」
+$k
+
+優
+「秋祭り？
+$nw,1000
+
+　……ああ、神社のところのか」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+そんなお祭りもあったな。
+子供の頃、何度か桜子達と行ったっけ。
+$k
+
+&empty
+屋台がずらーっと並んでいて、
+子供だった俺たちは行くたびに浮かれてたっけ。
+$k
+
+&empty
+もうすっかり忘れてた。
+$k
+
+// 	SS( CENTER, SAKURAKO_A402NO	 );
+
+優
+「で、俺はいつの間に、出店要員になったんだ？」
+$k
+
+// SAKURAKO_A402NO
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000114
+桜子
+「嫌なの？」
+$k
+
+優
+「嫌っつーか、いきなりは無理じゃないか？」
+$k
+
+// SAKURAKO_A403KT
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000115
+桜子
+「練習すればいいじゃない、どうせ暇なんでしょ」
+$k
+
+優
+「暇………とは限らないだろ？」
+#meffect,flow,5
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2
+#ig
+
+&empty
+暇だけど。
+スケジュール真っ白だけど。
+$k
+
+&empty
+一緒に行こう、
+なんて言ってくれる子も居ないから、
+秋祭りというイベントすら頭から抜けてたけど。
+$k
+
+
+// 	SS( CENTER, SAKURAKO_A402NO2 );
+
+// SAKURAKO_A402NO2
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A402KM
+#sp,vo,03000116
+桜子
+「だったら、一緒に行きたい子でもいるの？
+　サキちゃん……
+$nw,2690
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),80%
+#ig
+
+#madd,じゃなくて、勇樹、とか。
+　彼女だもんね？」
+$k
+
+優
+「どう考えたって、
+　今のところ宮津橋には嫌われてるだろ…」
+$k
+
+// SAKURAKO_A402KM
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000117
+桜子
+「そうかしらね」
+$k
+
+優
+「つーか誘って一緒に行ってくれる女の子がいるなら、
+　喜んで誘うけどな！　そうでなくても、
+　出店巡って、ヨーヨー釣りとかしてえよなっ？」
+$k
+
+// YUKIHA_0401SP
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01SP.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,03050007
+雪華
+「お兄ちゃん子供みたい。恥ずかしいなぁ、もう」
+$k
+
+// MII_A403NO
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,03030015
+みい
+「でもお兄様、これはチャンスですよ？」
+$k
+
+// 	SS( CENTER, MII_A403NO, MOVE_RIGHT, NORMAL );
+
+優
+「なんのさ？」
+$k
+
+// MII_A403KT
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030016
+みい
+「秋祭りで懸命に額に汗してたこ焼きを焼いていれば、
+　そんな真面目なお兄様を見直すかもしれません」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+&empty
+誰とは言わないが、主に有河とか？
+$k
+
+&empty
+宮津橋が俺を見直すという事になれば、
+凄い事だとは思うが、
+あいつがたこ焼きくらいでそれは無いだろうし。
+$k
+
+// 	SS_( LEFT, YUKIHA_A401KM );
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01MJ.png,(x),l,(s),80%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, MII_A403NO );
+// MII_A403NO
+
+#sp,vo,03030017
+みい
+「雪華さんも、お兄様の美味しいたこ焼きを
+　食べてみたいと思いませんか？」
+$k
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM.png,(x),l,(s),80%
+#ig
+
+// YUKIHA_A401KM
+#sp,vo,03050008
+雪華
+「食べてみたいというか、もう少し上手くなれば、
+　お店に迷惑かかることもないし、
+　みんなが助かるのかな、って思うけどぉ」
+$k
+
+// MII_A403MJ
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03MJ.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030018
+みい
+「とどのつまり？」
+$k
+
+// YUKIHA_A401NO
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l,(s),80%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),320,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,03050009
+雪華
+「………私は何を言えばいいの？」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+// MII_A403EG3
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030019
+みい
+「食べたいと、ひとこと言えばいいのですわ」
+$k
+
+// YUKIHA_A401KT
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03050010
+雪華
+「……食べたい…？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ie,c1,c2,c3
+#ig
+
+優
+「さあ、今すぐ特訓しようじゃないかあ！」
+#mlarge
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000118
+桜子
+「単純すぎる…」
+$k
+
+#ir
+#ie,c2
+#ig
+
+&empty
+雪華ちゃんは当たり前としても、
+俺は桜子にも少しは見直してもらいたい、
+とも思ってるし。
+$k
+
+&empty
+桜子は訳の分からない作り方をするが、
+そのたこ焼きは天下一品。
+心の師匠と言ってもいい。
+$k
+
+&empty
+口に出しては言わないけどな。
+$k
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),80%
+#ig
+
+&empty
+…ちらりと桜子を見る。
+$k
+
+// 	SS( CENTER, SAKURAKO_A402NR, MOVE_STOP, NORMAL );
+
+// SAKURAKO_A402NR
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000119
+桜子
+「な、なによ」
+#meffect,flow,5
+$k
+
+優
+「たこ焼きの特訓しようぜ！」
+$k
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000120
+桜子
+「嫌よ。一人で頑張れば？」
+$k
+
+優
+「気の置けない幼なじみの頼みじゃないか」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000121
+桜子
+「ただの出戻りの癖に。
+$nw,1640
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),80%
+#ig
+
+　鼻にピーナッツでも詰め込んでみなさいよ」
+$k
+
+&empty
+雪華ちゃんの前でそんな醜態を晒せるかよっ。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　さら
+
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2
+#ig
+
+優
+「…無理だ」
+#meffect,flow,5
+$k
+
+&empty
+なんつーか、一人で特訓をして、
+これ以上、上手くなるものだろうか。
+$k
+
+&empty
+けど…ここは雪華ちゃんのためにも、
+頑張るしかない……よなぁ。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO02A.jpg,(s),100%
+#ig
+
+//	WaitSubTitle();
+#show
+
+&empty
+しばらく一人で特訓をしていると、
+夕日に照らされ、さらに赤くなった癖っ毛が
+視界に入ってきた。
+$k
+
+// 	SS( CENTER, SAKURAKO_0402IK7, MOVE_LEFT, SLOW );
+
+// SAKURAKO_0402IK7
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,03000122
+桜子
+「しばらく見てたけど、
+　やっぱりなってないわねぇ？
+$nw,4000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+　どれくらいすれば上手くなるのやら…」
+$k
+
+優
+「ぬぬ…」
+#meffect,flow,5
+$k
+
+&empty
+そんなの、俺が知りたい。
+$k
+
+// SAKURAKO_0402AK
+#sp,vo,03000123
+桜子
+「あたしの爪の垢でも煎じて飲ませてあげたいわ」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402NO );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「そこまで言われると屈辱だっ。
+　こうなったら絶対に上手くなってやるっ！」
+$k
+
+// SAKURAKO_0401NS
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000124
+桜子
+「…やっぱ優って、単純」
+$k
+
+優
+「な、なんとでも言え！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+けど、ここまで奥が深いとは…、
+たかがたこ焼き、などと侮るべからずだ。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#hide
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_COUNTERURA01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「じゃあ今日も始めますかねー」
+$k
+
+&empty
+学園から帰ってくるなり、バイトという名の
+秋祭り特訓に勤しむ。
+$k
+
+&empty
+最近ようやく常連客の顔が分かるようになってきた。
+それと、混みやすい時間なんかも。
+$k
+
+&empty
+この時間は、割と暇な時間帯。
+つまり、練習に充てられるという訳だ。
+$k
+
+// SAKURAKO_0402EG
+
+#sp,vo,03000125
+桜子
+「ゆーうっ」
+$k
+
+&empty
+窓の外から、にんまりした桜子に声をかけられた。
+$k
+
+優
+「桜子？」
+$k
+
+&empty
+店内に誰もいない事を確認すると、
+たたた、と軽やかな足取りで店に入ってくる。
+$k
+
+#hide
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+// 	SS( CENTER, SAKURAKO_0402EG, MOVE_LEFT, NORMAL );
+
+// SAKURAKO_0402EG
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#sp,bgm,BGM_SAKURAKO
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,03000126
+桜子
+「あんたに、いいものあげるっ」
+$k
+
+優
+「なに？」
+$k
+
+// 会釈。パラメータは適宜。
+
+// SAKURAKO_0402NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03000127
+桜子
+「じゃーん、お守りよっ」
+$k
+
+
+#next,03sakurako03_01

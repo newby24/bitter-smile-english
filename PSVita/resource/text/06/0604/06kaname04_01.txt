@@ -1,0 +1,641 @@
+﻿// 既読フラグ
+#read_flag,355
+
+&empty
+しかもなんか、段々言い出しづらい空気に、
+なっていってるような気がする。
+$k
+
+// 	SS( CENTER, KANAME_A901IK4 );
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+// 	SS_(CENTER, KANAME_A902IK2);
+
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02IK2.png,(x),c,(s),100%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+// 	ZoomStand(CENTER, FAST|SPEED_DOWN, 150, 150);
+
+// KANAME_A902IK2
+#sp,vo,06020151
+要
+「優くんっ」
+#mlarge
+$k
+
+優
+「きゅ、急に顔近づけないでくださいよ！？」
+$k
+
+&empty
+どこかアクロバティックに、
+要さんが身を乗り出してきていた。
+$k
+
+&empty
+び、びっくりしたぁ…。
+$k
+
+// 	Zoom(SLOW|SPEED_DOWN, 120, 120, 300, 400+200);
+// 	MoveStand(CENTER, SLOW|SPEED_DOWN, 0, -100);
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y),c
+#ig
+
+&empty
+が、ついでに目標を至近で確認。
+$k
+
+&empty
+あ～、やっぱり掛け違えてる。
+勘違いじゃない。
+$k
+
+// 	SS(CENTER, KANAME_A901FK4, MOVE_STOP, NORMAL);
+// 	SS_(CENTER, KANAME_A901IK5);
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01IK5.png,(x),c,(s),100%
+#ig,(se),S_Basa02
+
+// 	Shake(FAST, SHAKE_LEFT, 8);
+// 	Scroll(FAST|SPEED_DOWN, 0, -100);
+// 	MoveStand(FAST, NORMAL|SPEED_DOWN, 0, 0);
+// 	WaitScroll();
+
+// KANAME_A901IK5
+#sp,vo,06020152
+要
+「どこ見てるのよぉー？」
+#mlarge
+$k
+
+&empty
+両手で顔を挟まれ、要さんの方にぐいっと向けられる。
+$k
+
+優
+「うぁ…！」
+$k
+
+&empty
+顔が近くて、どぎまぎする。
+$k
+
+// KANAME_A902AM
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02AM.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06020153
+要
+「優くんなら…
+　優くんなら、信じてくれるよね」
+$k
+
+優
+「な、なにをです…？」
+#meffect,flow,5
+$k
+
+// KANAME_A902AM
+#sp,vo,06020154
+要
+「きっとわたしが生まれ変わって、
+　歯車の噛み合う完璧な人になれるって」
+$k
+
+// MII_A201KY2
+
+#sp,vo,06030038
+みい
+「その前に要お姉様、テーブルで
+　そのように身を乗り出されては危険です」
+$k
+
+// SAKURAKO_A202NR
+#sp,vo,06000013
+桜子
+「食器ひっくり返さないでよ？」
+$k
+
+// KINO_A401AS
+
+#sp,vo,06060010
+紀乃
+「こぼすんやないで、こぼすんやないで。
+　ぜったいにこぼすんやないで～？」
+$k
+
+// YUKIHA_A201KT
+
+#sp,vo,06050009
+雪華
+「それだと、こぼしちゃうんじゃ…」
+$k
+
+// KANAME_A902AM
+
+#sp,vo,06020155
+要
+「どうなのかなー？」
+$k
+
+// YUKIHA_A201AY2
+
+#sp,vo,06050010
+雪華
+「要お姉ちゃん聞いてないし…」
+$k
+
+優
+「え、ええっと…ま、まあ？」
+#meffect,flow,5
+$k
+
+&empty
+話はよくわからないけど、
+ここは要さんが望むように頷いておこう。
+$k
+
+&empty
+実際、そんなことを言っているこの時点で、
+歯車はズレてるんだけど…。
+$k
+
+&empty
+今すぐそれを指摘して、
+揚げ足を取るような真似をしなくても、
+後でこっそり教えてあげれば済む話だし。
+$k
+
+優
+「そ、そうですね…
+　要さんの言うとおりだと思います」
+$k
+
+// KANAME_A901TR
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01TR.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06020156
+要
+「ほら聞いた？　聞いたでしょ？
+　優くんだけはわたしの味方なんだからー」
+$k
+
+// KANAME_A901PU2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01PU2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06020157
+要
+「んーもう、
+$nw,1000
+
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01TR4.png,(x),c,(s),100%
+#ig
+
+　かいぐりかいぐりってしちゃう♪」
+$k
+
+//#sp,se,W_Hair01
+// 	Shake( 100, SHAKE_DOWN | SHAKE_SCREEN, 4, 50, 0 );
+
+//#sp,se,W_Hair01
+// 	Shake( 100, SHAKE_DOWN | SHAKE_SCREEN, 4, 50, 0 );
+
+優
+「いえ、それはいいですから…！」
+$k
+
+// YUKIHA_A201AK4
+
+#sp,vo,06050011
+雪華
+「はぁ…」
+$k
+
+// MII_A203AD
+
+#sp,vo,06030039
+みい
+「ああ…なぜか朝から胸焼けが」
+$k
+
+&empty
+周りの反応が冷たかった。
+$k
+
+// KANAME_A901GB4
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01GB4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06020158
+要
+「わたしがんばるわ！
+　これからはもう常に思慮深く、
+　行動の先の先まで見通して動くつもりで…」
+$k
+
+&empty
+でも、とりあえず要さんはご機嫌だし、
+やり過ごせたから、そう悪くなかったかな。
+$k
+
+// SAKURAKO_A202NO2
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000014
+桜子
+「そういえば優」
+$k
+
+優
+「なんか出来の悪い芸名みたいな呼び方だな…」
+$k
+
+// SAKURAKO_A202NO2
+#sp,vo,06000015
+桜子
+「あんた、今の話が始まる前、
+　お姉に何か言おうとしてなかった？」
+$k
+
+優
+「…お前、よくそんなの覚えてたな」
+$k
+
+&empty
+確か、最初に掛け違いを指摘しそびれた時だ。
+$k
+
+#ss,bgm
+
+// KANAME_A903KT2
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03KT2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06020159
+要
+「え、優くんなにか話が…
+$nw,2670
+
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01OD3.png,(x),c,(s),100%
+#ig
+
+#sp,se,S_Break01
+
+#ir,(dr),500,(ef),move
+#ip,c1,(y+),100,(al),0%
+#ig
+
+　きゃあっ！？」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+
+#sp,bgm,BGM_COMICAL1
+
+// KINO_A401AK
+#ir
+#ip,c3,(fi),KINO_A401AK.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06060011
+紀乃
+「せやから言うてたのに…」
+$k
+
+// SAKURAKO_A202AK
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000016
+桜子
+「見事に肘で薙ぎ払ったわね…」
+$k
+
+// YUKIHA_0201OD
+#ir
+#ip,c2,(fi),YUKIHA_A201.png,(psi),YUKIHA_An01OD.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06050012
+雪華
+「わわっ、台拭き台拭きっ」
+$k
+
+// MII_A203KD2
+#ir
+#ip,c2,(fi),MII_A203.png,(psi),MII_An03KD2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06030040
+みい
+「要お姉様、服です、服。
+　醤油が跳ねて…」
+$k
+
+// 	Scroll(FAST|SPEED_DOWN, 0, 0);
+// 	Zoom(FAST|SPEED_DOWN, 100, 100, 400, 300 );
+// 	SS(CENTER, KANAME_A901KU3, MOVE_DOWN);
+
+// KANAME_A901KU3
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01KU3.png,(x),c,(s),80%
+#ie,c2,c3
+#ig
+
+#sp,vo,06020160
+要
+「きゃーっ、染みになっちゃうーっ！？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelStandAll();
+
+#sp,bgm,BGM_NICHIJYO
+
+// 	SV( BG_TD_IMA01A );
+
+// 	SS( CENTERBOTTOM, KINO_A401AK2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ip,c1,(fi),KINO_A401AK2.png,(x),c,(s),80%
+#ig
+
+#show
+
+// KINO_A401AK2
+#sp,vo,06060012
+紀乃
+「これからは常に思慮深く」
+$k
+
+// 	SS( LEFTLEFT, MII_A202KB );
+
+// MII_A202KB
+#ir
+#ip,c3,(fi),MII_A202.png,(psi),MII_An02KB.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06030041
+みい
+「行動の先の先まで見通して動くつもりで」
+$k
+
+// 	SS( RIGHTRIGHT, SAKURAKO_A202IK7 );
+
+// SAKURAKO_A202IK7
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06000017
+桜子
+「生まれ変わって歯車の噛み合う完璧な人に」
+$k
+
+#ir
+#ip,c1,(fi),KINO_A401AK.png,(x),c,(s),80%
+#ip,c3,(fi),MII_A203.png,(psi),MII_An03AD.png,(x),l2,(s),80%
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),r2,(s),80%
+#ig
+
+
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),200,(al),0%
+#ip,op2,(fi),image\icon\tameiki.png,(x),650,(y),200,(al),0%
+#ip,op3,(fi),image\icon\tameiki.png,(x),100,(y),200,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ip,op2,(x+),-30,(y+),30,(al),100%
+#ia,op2,al,(dr),1000,(lt),reverse,(lc),1
+#ip,op3,(x+),-30,(y+),30,(al),100%
+#ia,op3,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,06000018
+桜子みい紀乃
+「はぁ…」
+#meffect,flow,5
+$k
+
+// 	SS( RIGHTRIGHT, SAKURAKO_A202AK, MOVE_STOP, NORMAL );
+// 	DelIconAll();
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03GN3.png,(x),c,(s),80%
+#ip,op1,(fi),image\icon\tatesen.png,(x),620,(y),30
+#ie,c2,c3
+#ig
+
+// 縦線アイコン。レイヤー番号と位置は適宜。
+
+// 	WaitStand( CENTER );
+
+// KANAME_A903GN3
+#sp,vo,06020161
+要
+「そんなにいじめなくてもいいじゃなーい」
+$k
+
+// YUKIHA_0201NO
+#ir
+#ip,c3,(fi),YUKIHA_A201.png,(psi),YUKIHA_An01NO.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06050013
+雪華
+「要お姉ちゃん、だいじょうぶだった？」
+$k
+
+// 	SS_(CENTER, KANAME_A901NO2, MOVE_STOP, NORMAL);
+
+// KANAME_A901KM
+#ir
+#ip,c2,(fi),KANAME_A901.png,(psi),KANAME_An01KM.png,(x),c,(s),80%
+#ie,c1,c3
+#ig
+
+#sp,vo,06020162
+要
+「うん、シャツも染みになる前に洗濯できたし。
+$nw,4310
+
+#ir
+#ip,c2,(fi),KANAME_A901.png,(psi),KANAME_An01RK.png,(x),c,(s),80%
+#ig
+
+　借りたのは、ちょーっと胸がきつ………
+$nw,1080
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),l4,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l3,(al),100%
+#ig
+
+#ir
+#ip,c2,(fi),KANAME_A901.png,(psi),KANAME_An01PU5.png,(x),c,(s),80%
+#ig
+
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+　めでたしめでたし」
+
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+#ir
+#ie,c2,c3
+#ig
+
+&empty
+強引に話を打ち切った。
+$k
+
+&empty
+ちなみにみいちゃんのシャツでは、胸囲はともかく、
+致命的に身長が足りないため無理らしい。
+$k
+
+&empty
+あっちが伸びればこっちは膨らまず…。
+$k
+
+// 	SS(CENTER, KANAME_A901NO5);
+
+// KANAME_A901NO5
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020163
+要
+「そうだ優くん、結局話ってなんだったの？」
+$k
+
+優
+「いえ…それが取り越し苦労と言いますか、
+　徒労と言いますか」
+$k
+
+&empty
+原因…、
+今はもう洗濯機の中だもんなあ…。
+$k
+
+優
+「まあ一言で言うなら…
+　めでたしめでたし？」
+$k
+
+// KANAME_A901IK3
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020164
+要
+「えっと…
+　意味が全然わからないんだけど、それ」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリア後にジャンプ可能。
+#next,90jump06:(if),sys,0,==,1
+
+#next,02common02-3_00

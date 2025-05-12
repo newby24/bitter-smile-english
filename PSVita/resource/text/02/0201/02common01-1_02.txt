@@ -1,0 +1,774 @@
+﻿// 既読フラグ
+#read_flag,33
+
+#show
+
+// SAKURAKO_0101TR4
+
+#sp,vo,02000023
+桜子
+「ここに居たんだ、宮津橋さん」
+$k
+
+// 	SS( CENTER, ISAKI_A101MU, NORMAL );
+
+// ISAKI_A101MU
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010032
+勇樹
+「………」
+$k
+
+// SAKURAKO_0101NO
+#ir
+#ip,c1,(fi),SAKURAKO_A101.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000024
+桜子
+「ちょっと聞きたい事があるんだけどいいかな？」
+$k
+
+// ISAKI_A101NO
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010033
+勇樹
+「…轟木桜子」
+$k
+
+// SAKURAKO_0101KS2
+#ir
+#ip,c1,(fi),SAKURAKO_A101.png,(psi),SAKURAKO_An01KS2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000025
+桜子
+「名前覚えてくれるのはうれしいけど
+　フルネームは…
+$nw,3900
+
+#ir
+#ip,c1,(fi),SAKURAKO_A101.png,(psi),SAKURAKO_An01TR4.png,(x),r,(s),60%
+#ig
+
+#madd,まあいいか」
+
+$k
+
+// ISAKI_A101MU
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+#sp,vo,02010034
+勇樹
+「失礼…」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO3.png,(x),r,(s),60%
+#ig,(se),T_tukamu
+
+// SAKURAKO_0103NO3
+
+#sp,vo,02000026
+桜子
+「ちょっと待った！」
+$k
+
+// ISAKI_A101NO
+#sp,vo,02010035
+勇樹
+「…手を離して、貰えるかな」
+$k
+
+// SAKURAKO_0103IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000027
+桜子
+「話があるって言ってるのにそれはないでしょ。
+$nw,2700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),60%
+#ig
+
+　で、優との事なん…」
+$k
+
+// ISAKI_A101NO
+#sp,vo,02010036
+勇樹
+「こちらには無い」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02AS.png,(x),r,(s),60%
+#ig,(se),S_Swing02
+
+// 	Blur( 0, 1 );
+// 	Shake( FAST );
+
+// 	SS_( CENTER, ISAKI_0101NO );
+// 立ち絵移動。パラメータは適宜。
+
+// 	Blur();
+
+// SAKURAKO_0102AS
+
+#sp,vo,02000028
+桜子
+「おっとと。
+$nw,2800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02KM2.png,(x),r,(s),60%
+#ig
+
+　ところで宮津橋さん。
+　あんたさー、どっかで会った事なかったっけ？」
+
+$k
+
+// ISAKI_0101MU
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010037
+勇樹
+「………人違いだ、お前など知らん」
+$k
+
+// SAKURAKO_0103FK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03FK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000029
+桜子
+「そうかなー？
+　なんか知ってるような気がするんだけど…
+$nw,4000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ig
+
+　でさ、話っていうのは…
+$nw,1000
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c3,(x),l0,(al),0%
+#ig
+
+#madd,あ、ちょっと待ってよ！」
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+$k
+
+// ISAKI_0101MU
+#sp,vo,02010038
+勇樹
+「………」
+$k
+
+#sp,se,S_Door10c
+
+#wait,500
+
+// SAKURAKO_0102KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000030
+桜子
+「………」
+$k
+
+// SAKURAKO_0102AK
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000031
+桜子
+「たしかに気になるかもね、あんな顔されたんじゃ…」
+$k
+
+// SAKURAKO_0102KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02KM4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000032
+桜子
+「しかし本当にどっかで…うーん、なんだっけな？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KYOSHITSU02B );
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS( CENTER, MEGUMI_0101OD );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU02B.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01OD.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MEGUMI_0101OD
+#sp,vo,02070002
+めぐみ
+「は、なにそれぇ？
+　うちは出前なんかやってないよ～？」
+$k
+
+優
+「え、でもおっちゃんは出前に出てるって」
+$k
+
+// MEGUMI_0101TR4
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070003
+めぐみ
+「いや、あの日は私デートだったしぃ。
+$nw,2900
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01OD2.png,(x),c,(s),60%
+#ig
+
+　あっ、
+$nw,1000
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG2.png,(x),c,(s),60%
+#ig
+
+#madd,どうなったか聞きたい？　聞きたい～？」
+
+$k
+
+// 	SetActionPyon( CENTER );
+// 	MovStand( CENTER, 10, 0,  0, 1 );
+// 	DelAction( CENTER );
+
+// 	ShakeStand( CENTER, 20, SHAKE_LEFT, 15, 20 );
+
+// 	ShakeStand( CENTER, 20, SHAKE_LEFT, 30, 20 );
+
+優
+「言わんでいい。
+　人ののろけ話なんぞどうでもいいわ！
+　つーか出前も嘘かよ！」
+$k
+
+&empty
+どんだけ時間差…。
+$k
+
+// MEGUMI_0101TR
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01TR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070004
+めぐみ
+「嘘で誤魔化したいほど私と彼の仲を認めたくないって
+　ことなのよ～きっと」
+$k
+
+優
+「お前も懲りない奴だよなー。うらやましいよ」
+$k
+
+// MEGUMI_0101KD
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070005
+めぐみ
+「そういや宮津橋さん、もう優ちゃんの事
+　あきらめたのかな？」
+$k
+
+優
+「まだ分からんが、さっさと居なくなった
+　ところを見ると、帰りは一緒じゃなくても
+　いいみたいだな」
+$k
+
+&empty
+まあ、千寿でも会えるわけだし。
+帰ったらじっくり話を聞かせて貰う事も可能だろう。
+$k
+
+// MEGUMI_0101BS2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070006
+めぐみ
+「じゃあそろそろ私は帰るね～」
+$k
+
+優
+「なんだデートか？」
+$k
+
+// MEGUMI_0101KS
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070007
+めぐみ
+「今日は家の手伝いだよ。なんたって看板娘だからね？
+$nw,5300
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG5.png,(x),c,(s),60%
+#ig
+
+　じゃあね～ばいば～い！
+$nw,2700
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01AZ3.png,(x),c,(s),60%
+#ig
+
+　そっちこそデートがんばってねん♪」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「デートじゃねえよ！
+　ああーじゃあなー、はいはい」
+$k
+
+#sp,se,S_Door04c
+
+&empty
+やたら手を振りながら去って行くめぐみに応え、
+こっちも手を振り振り、自分の席から見送る。
+$k
+
+優
+「………」
+$k
+
+&empty
+誰も居なくなり静まり返った教室。
+$k
+
+優
+「しかし桜子の奴遅いな」
+$k
+
+&empty
+今日は鍵を取りに行くついでに買い物にも
+付き合ってもらうから、という事らしいので
+俺は桜子を教室で待っていた。
+$k
+
+#hide
+
+#sp,se,S_Door04o
+
+#wait,1000
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02AS.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ig
+
+#show
+
+// SAKURAKO_0102AS
+#sp,vo,02000033
+桜子
+「優――ごっめーん」
+$k
+
+優
+「やっと来たか…遅っせーよお前、
+　自分から言っといてなー」
+$k
+
+// SAKURAKO_0102EG
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000034
+桜子
+「ごめんごめん、
+$nw,1400
+
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO3.png,(x),r,(s),60%
+#ig
+
+　で、ごめんついでにさー
+　ちょっと先帰っててくんない？」
+$k
+
+優
+「ああー？
+　なんじゃそら！」
+$k
+
+// SAKURAKO_0102NO5
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000035
+桜子
+「別に待ってくれててもいいんだけどさ、
+　先生の頼まれ事がもう少し残ってて、
+　もうちょい掛かりそうなんだー」
+$k
+
+優
+「…いいけどな。
+　じゃあ俺先に帰ってるぞ？」
+$k
+
+&empty
+ちょっと小腹も空いたし。
+$k
+
+// SAKURAKO_0101TR4
+#ir
+#ip,c3,(fi),SAKURAKO_A101.png,(psi),SAKURAKO_An01TR4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000036
+桜子
+「今日はお婆ちゃん店にいるはずだから。
+$nw,2000
+
+　じゃね」
+
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),0%
+#ig
+
+// 	MoveStand( RIGHT, SLOW, 50, 0 );
+// 	FadeStand( RIGHT, SLOW, FADE_ALPHA, 0 );
+
+優
+「おう」
+$k
+
+&empty
+時間を無駄にしたな。さっさと帰って
+婆さんに菓子のひとつも、せびってみるか。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#hide
+
+//	WT( 200 );
+// 	SV( BG_GK_GAIKAN02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_GAIKAN02A.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,02040000
+？？？
+#mstyle,(co),知世翔
+「ちょっとやめてください。
+　やめなさい、あなた！」
+$k
+
+// 	SEPlay( "S_Punch01", 50, -75 );
+
+#sp,se,S_Punch01
+
+優
+「ん、なんだ？」
+$k
+
+&empty
+あっちの方でなんかやってるみたいだ。
+$k
+
+&empty
+あとどっかで聞いた事のある声も。
+$k
+
+// 	SEPlay( "S_Punch05", 50, -75 );
+
+#se,sp,S_Punch05
+
+#ir,(dr),500
+#ip,bg,(fi),black.jpg
+#ig
+
+// CHISEKA_0101KM
+
+#sp,vo,02040001
+知世翔
+「やめてって言ってるのに！！」
+$k
+
+// 	SV( BG_GK_CHURIN02A );
+// 	SS( CENTER, CHISEKA_A101NR);
+
+#ir
+#ip,bg,(fi),BG_GK_CHURIN02A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01NR.png,(x),c,(s),80%
+#ig
+
+優
+「おう、後輩。
+　どうしたんだ？」
+$k
+
+// CHISEKA_A101NO2
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040002
+知世翔
+「あ、矢崎…」
+$k
+
+優
+「もう、さん付けも、先輩とさえも
+　言ってもくれないのか後輩よ…」
+$k
+
+// CHISEKA_A101IK
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040003
+知世翔
+「今それどころじゃ…」
+$k
+
+&empty
+なんだかうめき声が聞こえるな。
+$k
+
+優
+「……って」
+$k
+
+#hide
+
+#sp,bgm,BGM_SYOSO
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_03A.jpg,(s),100%,(x),c,(y),d_s
+#ig
+
+#flag,cg,13,=,1
+
+#wait,1000
+
+#ir,(dr),5000,(ef),move,(cv),linear
+#ip,bg,(x),r_s,(y),u_s
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(x),c,(s),75%
+#ig
+
+// 	// ベース（背景代わり）
+// 	SetCGFlg( VISUAL_ISAKI_03A );
+// 	SetVisualObject( 0, VISUAL_ISAKI_03A, 0, 0 );
+// 	// 地面演出
+// 	Blur( 0, 0 );
+// 	SetVisualObject( 1, VISUAL_ISAKI_03A, 200, -150 );
+// 	ZoomObject( 1, 0, 150, 150, 0, 600 );
+
+#show
+
+// 	MoveObject( 1, SLOWER, -200, -150 );
+
+優
+「なんだよこれ…」
+$k
+
+// 	SV( VISUAL_ISAKI_03A );
+// 	Blur();
+
+&empty
+有河を見つけたので近寄って建物の角を曲がってみると
+そこには呻きながら倒れている男が数名。
+$k
+
+優
+「宮津橋か？
+　…なにやってんだよお前」
+$k
+
+#sp,vo,02010039
+勇樹
+「………」
+$k
+
+#sp,vo,02990000
+男子生徒
+「ぐっ」
+$k
+
+&empty
+俺を気にもせず、宮津橋は倒れている
+男の腹を蹴っていた。どうなってんだ？
+$k
+
+&empty
+宮津橋の手には例のものが握られている。
+$k
+
+&empty
+いやいや、そりゃまずいだろ。
+まさか倒れてる周りの奴らもアレで…？
+$k
+
+// CHISEKA_0101IK
+
+#sp,vo,02040004
+知世翔
+「もういいでしょ！　宮津橋さん！」
+$k
+
+&empty
+有河が止めに入ろうとする。
+$k
+
+優
+「あっおいよせ有河！」
+$k
+
+#hide
+
+// 	SV( BG_GK_CHURIN02A );
+// 	SS( LEFT, ISAKI_0101IK );
+// 	SS( RIGHT, CHISEKA_A101OD );
+
+// 揺れ。パラメータは適宜。
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,bg,(fi),BG_GK_CHURIN02A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01OD.png,(x),r,(s),80%
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig,(se),S_Swing02
+
+#show
+
+// CHISEKA_A101OD
+#sp,vo,02040005
+知世翔
+「きゃっ！
+$nw,1700
+
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01AS.png,(x),r,(s),80%
+#ig
+
+　………ちょっ…と何！？」
+$k
+
+&empty
+間に合った。
+すんでの所で俺は有河の襟を掴み、
+引っ張る事が出来ていた。
+$k
+
+&empty
+今結構な素振りの音が聞こえたぞ。
+$k
+
+// 	SetActionBuru( RIGHT );
+
+// CHISEKA_A101KN
+#ir,(ef),off
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01KN.png,(x),r,(s),80%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),over,(lc),3
+#ip,c1,(x+),5
+#ig
+
+#sp,vo,02040006
+知世翔
+「………う」
+$k
+
+#next,02common01-1_03

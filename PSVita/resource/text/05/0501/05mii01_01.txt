@@ -1,0 +1,503 @@
+﻿// 既読フラグ
+#read_flag,121
+
+#show
+
+&empty
+そうして数時間後……。
+$k
+
+&empty
+俺はめぐみに駅前の商店街を引っ張りまわされ、
+きっちり時間を潰して、千寿に帰ってきた。
+$k
+
+&empty
+…そこには一体何が待ち受けているのか。
+$k
+
+&empty
+千寿はすでに閉店し灯りも消えている。
+…いつもよりちょっと早いか？
+$k
+
+&empty
+なんか、ますます怪しい。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Door04o
+
+#wait,1000
+
+// 	WaitSE();
+
+#show
+
+優
+「ただいま～……？」
+$k
+
+#hide
+
+// 	SV( BG_SJ_TENNAI03C );
+
+#sp,bgm,BGM_FUAN
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03C.jpg,(s),100%
+#ig
+
+#show
+
+優
+「とりあえず電気を…」
+$k
+
+#hide
+
+#sp,se,Switch04
+
+// 	SV( BG_SJ_TENNAI03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03A2.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+警戒しつつ、わざとらしく声を出しながら
+店の電気を点ける。
+$k
+
+&empty
+いつもと変わりない店内。
+…とりあえず、何もないみたいだな……。
+$k
+
+優
+「ん？」
+$k
+
+#hide
+
+// 	BlinkObject( 1, 100, 0, 100 );
+
+#ir,(ef),off
+#ip,c1,(fi),image\etc\yajirushi_shita.png,(x),520,(y),350,(al),0%
+#ig
+
+#sp,se,S_Pikon01,(lp),1
+
+// 	WaitSE()
+// 	WaitSE();
+
+#ir,(dr),1000,(ef),move,(lt),reverse,(lc),no_limit
+#ip,c1,(al),100%
+#ig
+
+#show
+
+&empty
+ふと見ると、店の真ん中辺りの床に…、
+ガムテープだろうか？
+赤いテープで×印がうってある。
+$k
+
+優
+「…何だコレ？」
+$k
+
+//	Zoom( 100, 150, 150, 750, 550 );
+&empty
+……………。
+$k
+
+&empty
+……ここに立てと言う事だろうか？
+$k
+
+//	Zoom( 10, 100, 100, 400, 300 );
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 15, 4 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ie,c1
+#ig
+
+&empty
+いやいや、待て待て。
+それはいくらなんでもあからさま過ぎる。
+$k
+
+優
+「みいちゃん、俺はこんなものに乗らないぞー？」
+$k
+
+&empty
+………。
+$k
+
+優
+「どうせ、その辺に隠れてんだろー…？」
+$k
+
+&empty
+声をかけてみるが返事はない。
+$k
+
+優
+「カウンターの裏とか…」
+$k
+
+#hide
+
+#ir,(ef),off
+#ip,c1,(fi),image\etc\yajirushi_migi.png,(x),850,(y),320,(al),0%
+#ig
+
+#sp,se,S_Pikon01,(lp),1
+
+// 	WaitSE()
+// 	WaitSE();
+
+#ir,(dr),1000,(ef),move,(lt),reverse,(lc),no_limit
+#ip,c1,(al),100%
+#ig
+
+//	Zoom( 100, 150, 150, 800, 450 );
+//	WaitZoom();
+// 	BlinkObject( 3, 100, 0, 100 );
+
+// 	WaitSE();
+
+// 	WaitSE();
+
+#show
+
+&empty
+と、カウンターを見ると、一枚の紙切れ。
+$k
+
+&empty
+『そちらへどうぞ↓』
+$k
+
+&empty
+矢印は床の×印の方を向いていて…。
+$k
+
+//	Zoom( 10, 100, 100, 400, 300 );
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 15, 4 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ie,c1
+#ig
+
+&empty
+いやいやいやいや！
+$k
+
+&empty
+それはないって！
+$k
+
+優
+「………ないと思うんだけど…」
+$k
+
+&empty
+こうまで露骨に怪しいと、逆に何があるのか
+気になってしまう。
+$k
+
+&empty
+×印の上、天井にもとくに何もない。
+$k
+
+&empty
+いきなり何かが落ちてくるということは無いとして。
+$k
+
+&empty
+……………。
+$k
+
+優
+「…乗っちゃうぞ？」
+$k
+
+//	Zoom( 100, 150, 150, 750, 550 );
+
+&empty
+馬鹿な。
+何を口走ってんだ、俺。
+$k
+
+優
+「誰もいませんかー？」
+$k
+
+//	Zoom( 100, 170, 170, 750, 550 );
+
+&empty
+×印にそろそろと近づいていく。
+$k
+
+優
+「くっ、巧妙だな…」
+$k
+
+&empty
+わかっていても、好奇心が止められない。
+$k
+
+&empty
+もう一度、辺りを見回す。
+人の気配はない。
+$k
+
+//	Zoom( 100, 190, 190, 750, 550 );
+
+&empty
+そして、俺は片足ずつゆっくりと
+×印の上に歩を進め…。
+$k
+
+// 	BGMStop();
+
+#ss,bgm,(dr),1000
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+//	Blur( 0, 20 );
+//	Zoom( 10, 200, 200, 750, 550 );
+
+#sp,se,S_Land02
+
+&empty
+乗ってしまった。
+$k
+
+#hide
+
+#sp,se,T_Door01
+
+// 	WaitSE()
+// 	//SE処理
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03A2.jpg,(s),100%
+#ig
+
+#show
+
+//	SM( CHAR_ETC,			-1,					"",				"がららっ！！" );
+優
+「外かよっ！？」
+$k
+
+//	RFO( RULE_LEFTRIGHT );
+//	Zoom( 0, 100, 100, 400, 300 );
+//	RFI( RULE_LEFTRIGHT );
+
+#sp,bgm,BGM_MII
+
+// MII_0303EG4
+#ir,(ef),off
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG4.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+#sp,vo,05030015
+みい
+「やはり引っかかりましたね、お兄様！」
+$k
+
+&empty
+入り口から入ってきたみいちゃんが、
+高らかに勝ち鬨を上げる。
+
+#mfuri,　　　　　　　　　　　　どき
+
+$k
+
+優
+「もうっ、俺のバカ！」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+見ると、みいちゃんはカウンターの端に
+留めてあったらしい紐を手にしている。
+$k
+
+&empty
+紐はカウンターの裏に伸びていて、
+おそらくその先は何かのトラップに繋がっている…。
+$k
+
+//	SP( "T_Wind01" );
+//	BlurZoom( 200, 10, 10 );
+
+&empty
+やばっ！　逃げないと！
+$k
+
+// SAKURAKO_0302AS
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AS.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05000000
+桜子
+「優！　そのままっ！」
+$k
+
+// 	BlurZoom( 0, 0, 0 );
+
+#ir
+#ie,c3
+#ig
+
+&empty
+みいちゃんの後ろから現れた桜子の声に
+俺の足が止まった。
+$k
+
+#hide
+
+// 	SetAnimeObject( 4, "yuu_birthdayobject.spm", 0, 600, 300, OBJATTR_TOP );
+// 	SetAnimeObject( 5, "yuu_birthdayobject.spm", 1, 200, 300, OBJATTR_TOP );
+// 	SetAnimeObject( 6, "yuu_birthdayobject.spm", 2, 400, 0 );
+
+//	MoveObject( 4, 10, 0, 0 );
+//	MoveObject( 5, 10, 0, 250 );
+//	MoveObject( 6, 10, 0, 250 );
+// 	ShakeObject( 6, 0, SHAKE_LEFT, 3, 30 );
+
+
+//	MoveObject( 6, 3000, 400, 300 );
+//	WaitObject( 5 );
+// 	BGMStop();
+
+// 	//三木：後で画像作ってオブジェクトだ！
+
+#ss,bgm,(dr),0
+
+#sp,se,T_Cracker
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),image\etc\cracker_l.png,(x),c
+#ip,c3,(fi),image\etc\cracker_r.png,(x),c
+#ip,c2,(fi),image\etc\cracker_paper.png,(x),c,(y),-100
+#ig
+
+#ir,(dr),3000,(ef),move,(lt),once,(lc),0
+#ip,ov,(al),0%
+#ip,c1,(al),0%
+#ip,c3,(al),0%
+#ia,c1,al,(dl),1000
+#ia,c3,al,(dl),1000
+#ip,c2,(al),0%,(y),0,(x+),30
+#ia,c2,al,(dl),1000
+#ia,c2,x,(dr),1000,(lt),over,(lc),no_limit
+#ia,c2,y,(dr),6000
+#ig
+
+#wait,1000
+
+#ils
+
+// 	Flash( 0, 100 );
+// 	Flash( NORMAL );
+// 	Shake( NORMAL, SHAKE_RANDOM, 10, 4, 1 );
+// 	Flash( 0, 100 );
+// 	Flash( NORMAL );
+// 	Shake( NORMAL, SHAKE_RANDOM, 10, 4, 1 );
+// 	Flash( 0, 100 );
+// 	Flash( NORMAL );
+// 	MoveObject( 6, SLOWEST, 400, 300 );
+// 	Shake( NORMAL, SHAKE_RANDOM, 12, 4, 1 );
+// 	WaitSE();
+
+#show
+
+優
+「っ！？」
+$k
+
+&empty
+な、なんだぁ！？
+$k
+
+&empty
+思わず身をすくめた俺の体に、
+周囲から大量の紙テープが浴びせかけられる。
+$k
+
+&empty
+これって…クラッカーか？
+$k
+
+// 	//（みい、桜子、要、雪華、紀乃、めぐみ）
+
+// 	SS_( LEFT, KANAME_0903EG );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ie,c1,c2,c3
+#ig
+
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG.png,(x),l0,(s),60%
+#ip,c2,(fi),KANAME_A903.png,(psi),KANAME_An03EG.png,(x),l3,(s),60%
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG.png,(x),r2,(s),60%
+#ip,c4,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01EG.png,(x),r0,(s),60%
+#ig
+
+// 	SS( RIGHT, SAKURAKO_0302EG );
+
+#sp,vo,05990000
+
+全員
+「誕生日おめでとう～っ」
+$k
+
+// 	Zoom( 10|SPEED_UP, 130, 130, 400, 300, 0 );
+// 	RadialLine( 0, 50, 400, 300, 250, 500, 15, 100, 10, 255, 255, 255 );
+// 	Blur( 0, 10 );
+
+// 	SS_( CENTER, MII_0303EG );
+// 立ち絵移動。パラメータは適宜。
+
+
+// 	SS_( RIGHT, MEGUMI_0101EG8 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( LEFT, YUKIHA_0301EG3 );
+
+#hide
+
+#next,05mii01_02

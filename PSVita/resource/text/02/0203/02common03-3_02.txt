@@ -1,0 +1,868 @@
+﻿// 既読フラグ
+#read_flag,97
+
+優
+「うっそーっ？
+$nw,1000
+
+　先にちょっとくらい休憩を…」
+$k
+
+// SAKURAKO_0602AK
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000612
+桜子
+「………もう、しょうがないわねぇ。
+$nw,2600
+
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+　じゃあ休憩の前に、とりあえずお店のテーブル、
+　さっさと綺麗にしてからね？」
+$k
+
+優
+「ええ――っ」
+#mlarge
+$k
+
+// SAKURAKO_0601AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A601.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000613
+桜子
+「ほらほら、お客の居ないうちにっ！」
+$k
+
+優
+「へいへーい…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0601TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A601.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000614
+桜子
+「じゃああたしご飯の仕度するから。
+　みいもあとよろしくね？」
+$k
+
+// 	MoveStand( CENTER, NORMAL, 50, 0 );
+// 	FadeStand( CENTER, NORMAL, FADE_ALPHA, 0 );
+
+// MII_0701BS
+#ir
+#ip,c3,(fi),MII_A701.png,(psi),MII_An01BS.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02030270
+みい
+「はい姉上、ここは任されました」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SS( CENTER, MII_0703NO2 );
+
+#sp,bgm,BGM_MII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「………で、婆さんは？
+　昼間は居たのに」
+$k
+
+
+&empty
+最近、というか年の瀬だからなのか、
+夕方以降も客足が多くて、バイトと勉強の比率が
+飛躍的にアップ………つまり遊ぶ暇がない。
+$k
+
+&empty
+商売繁盛はいい事だけどな。
+$k
+
+// MII_0703KD
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030271
+みい
+「お婆さまですか？
+$nw,1800
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+　今日は町会の会合に行ってますよ、雪華さんと」
+$k
+
+優
+「いいなあ、どうせゆっくりお茶してんだろうな…」
+$k
+
+// MII_0703NO
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030272
+みい
+「会合はとりあえず出席するのに意義があるんですよ。
+$nw,5100
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03KM3.png,(x),c,(s),60%
+#ig
+
+　一度付いて行った事がありますが、
+　結構暇な集まりなので、あれはあれで苦痛ですよ？」
+$k
+
+優
+「意義って……
+$nw,1000
+
+　いや、今の俺は別にそれでもいいや。
+　雪華ちゃんも一緒なんだろ？」
+
+$k
+
+&empty
+いいなあー、雪華ちゃんとお出かけ。
+$k
+
+// MII_0703EG
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030273
+みい
+「……お兄様、とてもお疲れの様ですね。
+　受験勉強はそんなに大変ですか？」
+$k
+
+優
+「うん………俺って日頃の蓄えが無いからね？」
+$k
+
+// MII_0703AD3
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),10
+#ig
+
+#sp,vo,02030274
+みい
+「なるほど、ならそれは仕方ないですよね。
+$nw,3700
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03EG3.png,(x),c,(s),60%
+#ig
+
+　お兄様は冬を越せないキリギリスですから」
+$k
+
+// 	DelAction( CENTER );
+
+優
+「はいテーブル片付け終わりっ。
+$nw,1000
+
+　……あ、よう有河。いらっしゃい」
+$k
+
+// 	SetActionPyon( CENTER );
+
+// MII_0703KD2
+#ir,(dr),0
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03KD2.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),-10
+#ig
+
+#sp,vo,02030275
+みい
+「どきっ！
+$nw,1200
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03IK.png,(x),c,(s),60%
+#ig
+
+　…って誰も居ないじゃないですか」
+
+$k
+
+優
+「みいちゃんは誰も居なくなったとたんに
+　いつもの毒が出るよね？」
+$k
+
+// MII_0703SN
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030276
+みい
+「…学習はしないのに、
+　変な知恵はつけるんですね、お兄様は」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Dosa01
+
+// 	Shake( NORMAL, SHAKE_UP, 50, NORMAL * 2 );
+
+優
+「あー、休憩休憩。
+　……はあ、雪華ちゃんの微笑みで癒されたいよぅ！」
+$k
+
+// MII_0703TR4
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030277
+みい
+「可愛い妹ならここにも一人居ますけど？」
+$k
+
+優
+「ぐったり…」
+#meffect,flow,5
+$k
+
+// MII_A703NK2
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03NK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030278
+みい
+「……ひどいです、お兄様っ。
+$nw,2700
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03KM3.png,(x),c,(s),60%
+#ig
+
+　せっかく雪華さんのクリスマスお得情報を、
+　お伝えしようと思ってましたのに。
+$nw,5400
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03AD.png,(x),c,(s),60%
+#ig
+
+#madd,よよよ…」
+
+$k
+
+// 	Blur( 0, 2 );
+// 	Zoom( 0, 105, 105 );
+// 	Zoom( FAST );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig,(se),S_Basa01
+
+// 	SS_( CENTER, MII_A703KD );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「なっ！？
+　やだなー、みいちゃん。俺がみいちゃんの魅力に
+　メロメロなのは誰もが知る事実じゃないかー？」
+$k
+
+// 	Blur();
+
+// MII_A703KB
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030279
+みい
+「まあ。なんて分かり易いおべっかなのでしょう…。
+$nw,4300
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+　そんなお兄様も今日は一段と寝癖が素敵ですね？」
+$k
+
+優
+「まあまあ、そう言わずにさあ？
+　去年のプレゼントで大失敗しちゃってるから、
+　今年はもう失敗できないんだよ」
+$k
+
+// MII_A703MU
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030280
+みい
+「……しようの無いお兄様ですね。
+$nw,3300
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+　いいでしょう、雪華さんの為ですし、
+$nw,3100
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+　ちょっとお耳を拝借よろしいですか？」
+$k
+
+優
+「うんうんもちろん。ではその情報とやらを…」
+$k
+
+// 	MoveStand( CENTER, NORMAL, 50 );
+// 	FadeStand( CENTER, NORMAL, FADE_ALPHA, 0 );
+
+// 	SS_( RIGHTRIGHTTOP, MII_A703NO, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),MII_A703.png,(psi),MII_An03NO.png,(x),c,(s),100%
+#ig
+
+// 	ZoomStand( RIGHTRIGHTTOP, 0, 125, 125 );
+
+&empty
+みいちゃんに従い、そっと耳を傾ける。
+$k
+
+// 	SV( BG_SJ_GAIKAN03B );
+
+#ir
+#ip,bg,(fi),BG_SJ_GAIKAN03B.jpg,(s),100%
+#ig
+
+// YUKIHA_0401EG
+
+#sp,vo,02050059
+雪華
+「たこ焼き一船くださーい！」
+#mlarge
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「うわおーっ！」
+#mlarge
+$k
+
+// KINO_0401AK
+
+#sp,vo,02060106
+紀乃
+「ただいま。帰ったでー」
+$k
+
+// 	SV( BG_SJ_TENNAI03A );
+
+// 	SS( RIGHTRIGHT, MII_A703KD );
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03KD.png,(x),r2,(s),80%
+#ig
+
+#ir,(ef),off
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),l,(s),60%,(al),0%
+#ig
+
+// 	SS_( CENTERLEFT, YUKIHA_0401BS, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),l0,(al),100
+#ig
+
+// MII_A703KD
+#sp,vo,02030281
+みい
+「おっと……雪華さん、お婆さまも」
+$k
+
+// YUKIHA_0401IK3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK3.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02050060
+雪華
+「さぼって内緒話なんかしてちゃダメだぞぉー？」
+$k
+
+優
+「雪華ちゃんおかえり。
+$nw,1000
+
+　…いやえっと、これはね？」
+
+$k
+
+#ir
+#ip,c1,(fi),MII_A703.png,(psi),MII_An03EG.png,(x),r,(s),60%
+#ig
+
+// MII_0703EG
+#sp,vo,02030282
+みい
+「申し訳ありません。
+　ちょっとお兄様と愛のスキンシップを？」
+$k
+
+// YUKIHA_0401EG2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG2.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02050061
+雪華
+「なーんだ、ならしょうがないかぁ」
+$k
+
+// 	Shake( FAST, SHAKE_RANDOM | SHAKE_WINDOW );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ええっ、誤解だよっ！？」
+$k
+
+&empty
+そこに愛はないんだからねっ！？
+$k
+
+// MII_0701KY
+#ir
+#ip,c1,(fi),MII_A701.png,(psi),MII_An01KY.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030283
+みい
+「ところでお婆さま、今回は早かったんですねえ？」
+$k
+
+// KINO_0401AK
+#ir
+#ip,c2,(fi),KINO_A401AK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02060107
+紀乃
+「いつもの如くやで。
+$nw,2000
+
+#ir
+#ip,c2,(fi),KINO_A401MJ2.png,(x),l2,(s),60%
+#ig
+
+
+　別に新しい事はなんもなかったわ、例年通りや」
+$k
+
+// YUKIHA_0401BS2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02050062
+雪華
+「で、これお土産ー」
+$k
+
+// MII_0701KD
+#ir
+#ip,c1,(fi),MII_A701.png,(psi),MII_An01KD.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030284
+みい
+「おや、その包みはもしや、
+$nw,2900
+
+#ir
+#ip,c1,(fi),MII_A701.png,(psi),MII_An01BS.png,(x),r,(s),60%
+#ig
+
+#madd,お団子ですね？」
+
+$k
+
+// KINO_0401BS
+#ir
+#ip,c2,(fi),KINO_A401BS.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02060108
+紀乃
+「とりあえずお茶頼むわ」
+$k
+
+// MII_0702NO
+#ir
+#ip,c1,(fi),MII_A702.png,(psi),MII_An02NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030285
+みい
+「了解しました」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ig
+
+// 	SS_( CENTER, SAKURAKO_0403NO2, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+// SAKURAKO_0403NO2
+#sp,vo,02000615
+桜子
+「来たわよー。
+$nw,1200
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+　って何お店の中でどうどうと休憩してんのっ？」
+$k
+
+// KINO_0401EG2
+
+#sp,vo,02060109
+紀乃
+「まあまあ、硬い事言いなや、
+　どうせ持ち帰りの客ばっかりなんやし。
+　とりあえず窓開いてるだけで十分やろ」
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000616
+桜子
+「……ったく、お婆ちゃんはもう！
+$nw,2800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+　あ、美味しそう、どれどれ…」
+
+$k
+
+優
+「結局お前も食うんじゃねえか」
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000617
+桜子
+「そりゃ当たり前でしょ？」
+$k
+
+// MII_A401NO
+
+#sp,vo,02030286
+みい
+「はいどうぞ姉上、煎茶です」
+$k
+
+// SAKURAKO_A402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000618
+桜子
+「あ、ありがとー、
+$nw,1700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+#madd,じゃあさっそく…」
+
+$k
+
+#sp,vo,02990201
+客
+「あのー、すいませーん。
+　たこ焼き二つ欲しいんですけど、いいですかー？」
+$k
+
+// SAKURAKO_A403KT
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000619
+桜子
+「はいはーい！
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+　……優行って来てよ？」
+
+$k
+
+優
+「ええっ、俺ー？」
+$k
+
+// KINO_0401AK2
+
+#sp,vo,02060110
+紀乃
+「こんな時のバイトやろが」
+$k
+
+// YUKIHA_A401KB3
+
+#sp,vo,02050063
+雪華
+「お兄ちゃん、行ってきなさい」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+// 	SS_( LEFT, YUKIHA_0401BS );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS.png,(x),l,(s),60%
+#ie,c1
+#ig,(se),S_Basa01
+
+// 	SS_( CENTERBOTTOM, MII_0403NO );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( RIGHT, SAKURAKO_0402NO4 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	Blur( 0, 1 );
+
+// 揺れ。パラメータは適宜。
+
+優
+「はい！　只今っ！」
+#mlarge
+$k
+
+// 	Blur();
+
+// MII_0403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02030287
+みい
+「大丈夫ですよー？
+　誰もお兄様の分まで盗ったりしませんから」
+$k
+
+優
+「言われると余計心配になるんだけど？」
+$k
+
+// YUKIHA_0401AK4
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02050064
+雪華
+「お客さん待ってるよ？」
+$k
+
+優
+「はい、今行きまーす！」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_COUNTERURA03A );
+// 	Zoom( 0, 160, 160, 400, 0 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「すいませんお待たせしました。
+　えーっと二つでしたっけ？」
+$k
+
+#sp,vo,02990202
+客
+「あ、ごめんなさい、お爺ちゃんも食べるって
+　言ってたから、やっぱり三つでお願いできるかしら」
+$k
+
+優
+「えーっと、はい大丈夫ですよー。
+　今包みますから、少々お待ちを…」
+$k
+
+// 	SV( BG_SJ_TENNAI03A );
+
+// 	SS( CENTER, YUKIHA_0401NO );
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),c,(s),60%
+#ig
+
+// 	BF( SLOWER, 50 );
+
+// YUKIHA_0401NO
+#sp,vo,02050065
+雪華
+「ところでさ、あのねー、前から思ってたんだけど、
+$nw,4700
+
+#ss,bgm,(cl),NO
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),c,(s),60%
+#ig
+
+　みいちゃんってお兄ちゃんの事が好きなの？」
+
+$k
+
+// 	BGMStop();
+// 	SV( BG_SJ_COUNTERURA03A );
+// 	Zoom( 0, 160, 160, 400, 0 );
+
+#sp,bgm,BGM_COMICAL1
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,bg,(fi),BG_SJ_COUNTERURA03A.jpg,(s),100%
+#ig
+
+優
+「おわっと！」
+$k
+
+&empty
+今なんか雪華ちゃんすごい事を…
+$k
+
+#sp,vo,02990203
+客
+「…大丈夫？」
+$k
+
+優
+「あー大丈夫ですーご心配なくー」
+$k
+
+#next,02common03-3_03

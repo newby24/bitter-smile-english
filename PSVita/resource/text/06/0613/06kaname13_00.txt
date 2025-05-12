@@ -1,0 +1,869 @@
+﻿// 既読フラグ
+#read_flag,380
+
+// セーブタイトル
+#flag,save_title,要　第１３話,0,0
+
+// 	SV( BG_TD_IMA03E );
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS( LEFT, KANAME_A403NO );
+
+// 	SS( RIGHT, SAKURAKO_A402KM4);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第１３話　暴走自転車
+$k
+#note,erase
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),r,(s),80%
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03NO.png,(x),l,(s),80%
+#ig
+
+#show
+
+// KANAME_A403NO
+
+#sp,vo,06020566
+要
+「よし寝よっか」
+$k
+
+// SAKURAKO_A403KM
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06000079
+桜子
+「寝たらダメだってば」
+$k
+
+// KANAME_A403IT4
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03IT4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06020567
+要
+「んんんん～眠いの～。
+$nw,3590
+
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03SN3.png,(x),l,(s),80%
+#ig
+
+　わたしは徹夜がデフォで残業手当もつかない会社で
+　働いてる人じゃないんだからね～」
+$k
+
+// MII_A402NO
+
+#sp,vo,06030068
+みい
+「みんなで初日の出を見るって約束しましたよね」
+$k
+
+// KANAME_A401FK3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01FK3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06020568
+要
+「したけどぉ～
+#meffect,flow,2
+$nw,2840
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KB.png,(x),l,(s),80%
+#ig
+
+#madd,したけどー
+$nw,2320
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01US2.png,(x),l,(s),80%
+#ig
+
+#madd,したけどー…」
+
+$k
+
+// 	SS_(LEFT, KANAME_A401KB, MOVE_STOP, NORMAL);
+// 	SS_(LEFT, KANAME_A401US2, MOVE_STOP, NORMAL);
+
+//	SetIconZzz( LEFT );
+
+// KANAME_A401US2
+#sp,vo,06020569
+要
+「ぐー」
+$k
+
+// 	CS(RIGHT, CENTERBOTTOM);
+// 	ShakeStand(LEFT, SHAKE_DOWN, 4, 20);
+
+// SAKURAKO_A403IK
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),80%
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),l,(s),80%
+#ig,(se),S_Poko01
+
+#sp,vo,06000080
+桜子
+「寝るなってば」
+$k
+
+// 	SS(LEFT, KANAME_A401OD3);
+// 	CS_(CENTERBOTTOM, RIGHTBOTTOM, NORMAL);
+
+// 	SS_(LEFT, KANAME_A401IK3, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01IK3.png,(x),l,(s),80%
+#ig
+
+// KANAME_A401IK3
+#sp,vo,06020570
+要
+「ふみゅ～～～ん」
+#meffect,flow,2
+$k
+
+優
+「あまりの眠さにアイデンティティが崩壊してるな…」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+年が明けて５時間…つまりは元日の午前５時。
+$k
+
+&empty
+轟木家の居間は意識を保っているだけで、
+ほぼ死屍累々の様相を呈していた。
+$k
+
+&empty
+特別な日特有のテンションで
+軽々と乗り切れるだろうと思っていたが、
+前日の大掃除での労働が地味に効いていたらしい。
+$k
+
+// 	SS( CENTER, YUKIHA_A401NM );
+
+// YUKIHA_A401NM
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NM.png,(x),c,(s),80%
+#ig
+
+// YUKIHA_A401NM2
+#sp,vo,06050040
+雪華
+「初日の出を拝んで…
+$nw,3440
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NM3.png,(x),c,(s),80%
+#ig
+
+#madd,ふあぁ…
+$nw,2500
+
+　初詣に行って、
+　桜子ちゃんの受験合格をお祈りするんです」
+$k
+
+優
+「雪華ちゃんは眠かったら寝てもいいんだよ。
+　あと眠さのあまり、お兄ちゃんを忘れちゃってるぞ」
+$k
+
+// YUKIHA_A401IK2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06050041
+雪華
+「目が覚めました。
+　あと特に忘れてないから」
+$k
+
+&empty
+年が変わっても、
+雪華ちゃんは相変わらずかわいいなぁ…（棒読み）　
+$k
+
+// 	SS_( LEFT, KANAME_A403SN );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03FK2.png,(x),r,(s),80%
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03SN.png,(x),l,(s),80%
+#ig
+
+// 	SS( RIGHT, SAKURAKO_A403FK2 );
+
+// KANAME_A403SN
+#sp,vo,06020571
+要
+「おばあちゃんは早々と寝たのに～」
+$k
+
+// SAKURAKO_A403NO
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06000081
+桜子
+「年寄りは朝が早いからもう起きてくるわよ」
+$k
+
+// KANAME_A403IT5
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03IT5.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06020572
+要
+「じゃあ、おばあちゃんに起こしてもらう～」
+$k
+
+// SAKURAKO_A403IK
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06000082
+桜子
+「今から寝たら起きれるわけないでしょ。
+　あと１時間くらいで出かけるわよ」
+$k
+
+優
+「要さん、顔でも洗ってきたら」
+$k
+
+#sp,se,S_Nuno05
+
+// 	SS( LEFT, KANAME_0401KT3 );
+
+// KANAME_0401KT3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KT3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06020573
+要
+「…っ、そ、そうね…」
+#meffect,flow,5
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),0%
+#ig
+
+&empty
+俺に対して若干のぎこちなさを残しながら、
+要さんが居間を出て行く。
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06000083
+桜子
+「…そろそろかな」
+$k
+
+優
+「ん？　もう出かける準備するか？」
+$k
+
+// SAKURAKO_A401NO
+#sp,vo,06000084
+桜子
+「あんたはそうね」
+$k
+
+優
+「…は？」
+$k
+
+// MII_0403KT
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06030069
+みい
+「……」
+$k
+
+#ir
+#ie,c2,c1
+#ig
+
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01US2.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+// KANAME_0401US2
+#sp,vo,06020574
+要
+「う～…目が覚めた、かなぁ～？」
+#meffect,flow,2
+$k
+
+&empty
+そこに要さんが戻ってくる。
+$k
+
+// SAKURAKO_A402NO3
+
+#sp,vo,06000085
+桜子
+「あ、お姉、立ってるついでに、
+　お菓子と飲み物取ってきてよ」
+$k
+
+// KANAME_0401RK
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020575
+要
+「え～めんどくさ～い」
+#meffect,flow,2
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+&empty
+文句を言いながらも台所に向かう要さん。
+$k
+
+#sp,vo,06020576
+要
+「ないわよ～」
+$k
+
+// SAKURAKO_A403KT
+
+#sp,vo,06000086
+桜子
+「冷蔵庫の一番下と戸棚よ」
+$k
+
+#sp,vo,06020577
+要
+「探したってば～」
+$k
+
+// 	SS_( CENTER, KANAME_0401GB, MOVE_LEFT , SLOW );
+
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01GB.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+// KANAME_0401GB
+#sp,vo,06020578
+要
+「なかったよ～う～寒寒っ」
+#meffect,flow,2
+$k
+
+&empty
+帰ってきた要さんは、
+報告と同時にこたつに入ろうとして、
+$k
+
+// SAKURAKO_A402NO3
+
+#sp,vo,06000087
+桜子
+「じゃあお姉、立ってるついでに、
+　お菓子と飲み物買ってきてよ」
+$k
+
+// KANAME_0401OD
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020579
+要
+「え、なにそれ？」
+$k
+
+// SAKURAKO_A402NO4
+
+#sp,vo,06000088
+桜子
+「眠気覚ましにちょうどいいでしょ。
+　優、手伝ったげて」
+$k
+
+// KANAME_0401OD
+#sp,vo,06020580
+要
+「え？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「はぁ！？　なんで俺がっ」
+$k
+
+// KANAME_0401OD3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020581
+要
+「あ、じゃあじゃあ、優くんひとりで
+　行ってもらうっていうのは」
+$k
+
+優
+「いや、それはそれで酷い…」
+$k
+
+// SAKURAKO_A403FK2
+
+#sp,vo,06000089
+桜子
+「人に押し付けるなんて人格を疑うわね」
+$k
+
+// YUKIHA_0401KM5
+
+#sp,vo,06050042
+雪華
+「それを桜子ちゃんが言うのは、
+　どうかと思うけど…」
+$k
+
+// KANAME_0403IT2
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03IT2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020582
+要
+「そうよ、横暴～」
+$k
+
+// SAKURAKO_0402NR
+
+#sp,vo,06000090
+桜子
+「誰が一番食い散らかしたと思ってんのよ」
+$k
+
+// KANAME_0403GM
+
+#sp,vo,06020583
+要
+「それは…
+$nw,1390
+
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03NO.png,(x),c,(s),60%
+#ig
+
+#madd,この際、ね？」
+
+$k
+
+// SAKURAKO_0401AK2
+
+#sp,vo,06000091
+桜子
+「却下」
+$k
+
+// KANAME_0403GN3
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03GN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020584
+要
+「うぅぅ…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402NO4
+
+#sp,vo,06000092
+桜子
+「ほら、優も立った立った」
+$k
+
+#sp,se,S_Nuno05
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4, 20);
+
+#ir
+#ie,c3
+#ig
+
+&empty
+俺をこたつのぬくもりから追い立てる。
+$k
+
+&empty
+どういうことだ？
+桜子のヤツ、なんで俺と要さんを…。
+$k
+
+// 	SS( CENTER, MII_A401BS );
+
+// MII_A401BS
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06030070
+みい
+「私もお供しましょうか」
+$k
+
+&empty
+と、そこでおもむろにみいちゃんが声をあげる。
+$k
+
+// 	CS_( CENTER, LEFT );
+// 	SS( RIGHT, SAKURAKO_A402NR );
+
+// SAKURAKO_A402NR
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ip,c2,(x),l
+#ig
+
+#sp,vo,06000093
+桜子
+「みい？」
+$k
+
+// KANAME_0403EG
+
+#sp,vo,06020585
+要
+「やった！　じゃあみいちゃんも行きましょ。
+　いっそ優くんとみいちゃんだけで行ってもいいのよ」
+$k
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06000094
+桜子
+「ちょっと、ダメだってみい！」
+$k
+
+// YUKIHA_A401KT
+
+#sp,vo,06050043
+雪華
+「桜子ちゃん？」
+$k
+
+// MII_A401NO
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06030071
+みい
+「姉上のお考えはわかりますが、
+　甘やかすのはいかがなものでしょうか？」
+$k
+
+優
+「え？」
+$k
+
+// 	SS_( RIGHT, SAKURAKO_A402NR );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),r,(s),80%
+#ig
+
+#sp,se,S_Nuno05
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),100,(al),0%
+#ig
+
+// MII_A401GM
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01GM.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06030072
+みい
+「…というより私が面白くありませんので」
+$k
+
+#ss,bgm
+
+// MII_A401BS
+#ir
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01BS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06030073
+みい
+「そういうことで、私はこのおみかんを剥いたら
+　ついていくことに…
+$nw,4830
+
+#sp,se,S_Basa01
+
+#ir,(dr),0
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01AS.png,(x),l,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c2,(y+),100,(al),0%
+#ig
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+　きゃっ！？」
+$k
+
+//#sp,se,S_Nuno05
+
+#sp,bgm,BGM_COMICAL2
+
+// 	// 和田：このへんからSHAKE
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_SCREEN, 16, 32);
+
+#sp,env,S_Nuno04
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,bg,(y+),10
+#ig
+
+優
+「うお！？」
+$k
+
+&empty
+突然みいちゃんが座っていた状態から
+こたつの中に吸い込まれた。
+$k
+
+#ss,env,(dr),1000
+
+#ils
+
+// 	Shake( SLOW, SHAKE_RANDOM | SHAKE_SCREEN, 16, 32);
+
+// 	// 和田：ここまで。
+
+&empty
+そのままこたつは二、三度どたばたと暴れ、
+ぴたっと静かになる。
+$k
+
+&empty
+見ればいつの間にか桜子の姿もなかった。
+$k
+
+優
+「人喰いこたつ！？」
+$k
+
+// 	SS( CENTER, KANAME_0401KT2 );
+
+// KANAME_0401KT2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KT2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020586
+要
+「え、えっと…これは何？」
+#meffect,flow,5
+$k
+
+&empty
+あー、えーと…これはつまり…。
+#meffect,flow,5
+$k
+
+優
+「ま、まあ、姉妹で仲良く悪ふざけしてるだけかと。
+　気にせず俺らは買出しに行きましょう」
+$k
+
+// KANAME_0402MU
+#ir
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020587
+要
+「う…」
+#meffect,flow,5
+$k
+
+優
+「さあさあ、着替えましょ。
+　外は寒いですよ」
+$k
+
+// KANAME_0402KT
+#ir
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020588
+要
+「あ、うん…
+$nw,2150
+
+#ir
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),60%
+#ig
+
+　じゃあ待ってて、
+　いま上羽織ってくるから」
+$k
+
+優
+「はいはい」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+#sp,se,S_Door04o
+
+#wait,2000
+
+#sp,se,S_Door04c
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT2.png,(x),c,(s),80%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),80%,(al),0%
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01TR.png,(x),l,(s),80%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ip,c2,(y+),100
+#ig
+
+#show
+
+// YUKIHA_A401KT2
+
+#sp,vo,06050044
+雪華
+「…えーと、大丈夫…？」
+#meffect,flow,5
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+
+#ir
+#ie,c3
+#ig
+
+#sp,se,S_Basa01
+
+// SAKURAKO_A402IK4
+
+#ir,(dr),500,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ip,c2,(y+),-100,(al),100%
+#ig
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+#sp,vo,06000095
+桜子
+「ぷはあっ…はっ…暑かったぁ～」
+$k
+
+// 	SS_( RIGHT, SAKURAKO_A402IK4, MOVE_DOWN );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( LEFT, MII_A401TR, MOVE_DOWN, NORMAL );
+
+// MII_A401TR
+#sp,vo,06030074
+みい
+「姉上に熱烈に抱きしめられてしまいました」
+$k
+
+// SAKURAKO_A403IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06000096
+桜子
+「あんたねぇ。
+　なんでついていこうとするのよ」
+$k
+
+
+#next,06kaname13_01

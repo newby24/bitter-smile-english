@@ -1,0 +1,621 @@
+﻿// 既読フラグ
+#read_flag,141
+
+#show
+
+優
+「はぁ～」
+$k
+
+
+&empty
+定番だけど…極楽極楽。
+$k
+
+&empty
+広い湯船で足を伸ばせば、
+世間のしがらみを少しでも忘れられるなあ。受験とか。
+$k
+
+&empty
+………
+$k
+
+&empty
+忘れてないじゃん。
+$k
+
+#sp,vo,05000029
+桜子
+「優―――っ
+　そろそろ上がるわよ―――」
+$k
+
+&empty
+っと、合図だ。
+$k
+
+優
+「お―――う」
+#mlarge
+$k
+
+#sp,vo,05030420
+みい
+「ああっ！？　そんな姉上っ！」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Bath02
+
+#sp,vo,05000030
+桜子
+「えぇっ？」
+$k
+
+// 	Shake( SLOW, SHAKE_LEFT|SHAKE_WINDOW, 5, 10 );
+
+優
+「お？」
+$k
+
+&empty
+なんか今、みいちゃんの悲鳴（？）が聞こえたような…。
+$k
+
+優
+「そういや…合図、桜子だったな」
+$k
+
+&empty
+あれだけ前フリしてたのに…。
+いいネタが思いつかなかったのかな？
+$k
+
+#hide
+
+#ss,bgm
+#ss,env
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// 	SV( BG_MT_SENTO03A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SENTO03A.jpg,(s),100%,(y),d_s
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02EG.png,(x),c,(s),60%
+#ig
+
+// 	SS( CENTER, SAKURAKO_0402EG );
+
+// SAKURAKO_0402EG
+
+#show
+
+#sp,vo,05000031
+桜子
+「お待たせー」
+$k
+
+優
+「いや、ほんと容赦なく待たせるよな…おまえ」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000032
+桜子
+「仕方ないでしょ、
+　男と女じゃ身だしなみの時間が違うんだから」
+$k
+
+優
+「言っとくけど、男だろうと女だろうと
+　こんだけ待たされたら間違いなく寒いからな？」
+$k
+
+&empty
+たいして体の構造も違わんくせに、
+なにが身だしなみだ。
+$k
+
+優
+「あれ？　みいちゃんはまだか？」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000033
+桜子
+「んー、なんか長湯したいから先帰ってって」
+$k
+
+優
+「一緒に帰ろうっつってたのに…」
+$k
+
+&empty
+まあ気まぐれな娘だからな。
+$k
+
+優
+「しゃあない。もうちょい待つか」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000034
+桜子
+「あたしは帰るけどね」
+$k
+
+優
+「じゃあ帰るか」
+$k
+
+//	SetIconAse( CENTER );
+// SAKURAKO_0402AS2
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02AS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000035
+桜子
+「は？　何言ってんの？」
+$k
+
+優
+「？　なんだよ」
+$k
+
+//	SetIconTameiki( CENTER );
+// SAKURAKO_0402KM2
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000036
+桜子
+「あんたさー、それはないんじゃない？」
+$k
+
+優
+「なんでだよ。だってみいちゃん、
+　先帰れって言ったんだろ？」
+$k
+
+// SAKURAKO_0402KM2
+#sp,vo,05000037
+桜子
+「そうだけどさ」
+$k
+
+優
+「んで、お前は帰るんだろ？」
+$k
+
+// SAKURAKO_0402NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000038
+桜子
+「だから？」
+$k
+
+優
+「だったら、俺も帰るのが当然だろ」
+$k
+
+// SAKURAKO_0401TR2
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000039
+桜子
+「……いいのかしらねぇ、それで」
+$k
+
+優
+「いいから早よ帰るぞ、俺は忙しいんだ。
+　ほらほら」
+$k
+
+
+// 	SetStandEx( CENTER, SAKURAKOn_A401NK4 );
+// 	FadeStand( CENTER, 10, FADEn_ALPHA, 100 );
+
+// SAKURAKOn_A401NK4
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01NK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05000040
+桜子
+「わかったから押さないでよっ」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	MoveStand( CENTER, 50|SPEED_DOWN, 200, 0 );
+// 	WaitMoveStand( CENTER );
+// 	ShakeStand( CENTER, NORMAL, SHAKE_LEFT, 6, 10 );
+// 	MoveStand( CENTER, 100|SPEED_DOWN, 400, 0 );
+
+// 	FadeStand( CENTER, 30, FADEn_ALPHA, 0 );
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+#sp,se,S_Door04c
+
+// 	WaitSE();
+// 	SV( BG_MT_SENTO03A );
+
+#sp,env,T_yoru01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SENTO03A.jpg,(s),100%,(y),d_s
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0903KM3
+
+#sp,vo,05030421
+みい
+「………」
+$k
+
+// MII_0903KM3
+#sp,vo,05030422
+みい
+「本当に帰られたのですね…」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+
+// 	SF( 0, NORMAL, 40 );
+// 	SV( BG_MT_TEIBO03A );
+
+#sp,env,#T_Pokkuri03
+
+// 	SS( CENTERLEFT, MII_0903KM3, MOVE_RIGHT, NORMAL );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO03A.jpg,(s),100%
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0903KM3
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),230,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,05030423
+みい
+「………ふぅ」
+$k
+
+// MII_0903NM2
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03NM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030424
+みい
+「夜道にひとり…」
+$k
+
+// 	CS( CENTERLEFT, CENTER, SLOWER );
+
+// MII_0901GM
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01GM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030425
+みい
+「おーい、襲われちゃいますよー」
+$k
+
+// 	CS( CENTER, CENTERLEFT, SLOW );
+// 	CS( CENTERLEFT, CENTERRIGHT, SLOW );
+// 	CS( CENTERRIGHT, CENTER, SLOW );
+
+//	SEStop( 1 );
+//	SP( "T_Pokkuri02" );
+
+#ss,env
+#sp,se,T_Pokkuri02
+
+// MII_0902OD
+#ir
+#ip,c1,(fi),MIIn_A902.png,(psi),MIIn_An02OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030426
+みい
+「…っ！？」
+$k
+
+// 	ShakeStand( CENTER, SLOW, SHAKE_LEFT, 6, 20 );
+
+// MII_0903AD3
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03AD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030427
+みい
+「はあ…」
+$k
+
+#sp,env,#T_Pokkuri03
+
+#sp,bgm,BGM_KANASHIMI
+
+// MII_0903KM3
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030428
+みい
+「………」
+$k
+
+// MII_0903KM2
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030429
+みい
+「重い…」
+$k
+
+// MII_0903KM4
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030430
+みい
+「…足痛い…」
+$k
+
+#hide
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// 	SEStop( 1 );
+
+#ss,env
+#ss,bgm
+
+#wait,1000
+
+#sp,env,S_Dash10#,(vl),3
+
+#wait,1000
+
+//	SetIconExcl( CENTER );
+
+// MII_0901KY2
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01KY2.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,05030431
+みい
+「っ…」
+$k
+
+#sp,bgm,BGM_FUAN
+
+// MII_0902NK
+#ir
+#ip,c1,(fi),MIIn_A902.png,(psi),MIIn_An02NK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030432
+みい
+「…なんの、音？」
+$k
+
+// 	SF( 3, 50 );
+// 	Zoom( 50, 110, 110, 400, 300 );
+// 	RadialLine( 50, 30, 400, 300, 300, 500, 10, 50, 80, 255, 255, 255 );
+
+#so,env,(vl),def
+
+&empty
+………
+$k
+
+// MII_0903KM2
+#ir
+#ip,c2,(fi),image\sysc\sysc_shuuchuu.png
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030433
+みい
+「え…ぇ…？」
+$k
+
+// 	SF( 3, 100 );
+// 	SK2();
+// 	Zoom( 50, 130, 130, 400, 300 );
+// 	RadialLine( 10, 50, 400, 300, 200, 500, 15, 100, 50, 255, 255, 255 );
+
+// MII_0903NK5
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03NK5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030434
+みい
+「………っ」
+$k
+
+// 	RadialLine( 0 );
+// 	SEStop( 3 );
+// 	BGMStop();
+
+#ss,env
+#ss,bgm
+
+優
+「みいちゃん！！！」
+$k
+
+// 	Zoom( 50, 100, 100, 400, 300 );
+
+// 	SS( CENTER, MIIn_A903KD2 );
+
+// MIIn_A903KD2
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KD2.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,05030435
+みい
+「ぅえ…？」
+$k
+
+優
+「はぁ…はぁっ…やっと見つけたぁ～」
+$k
+
+#sp,bgm,BGM_KANASHIMI
+
+// MIIn_A903KT
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030436
+みい
+「え………？」
+$k
+
+&empty
+ようやく見つけたみいちゃんは、
+街灯のせいか少し目が潤んでいるようにも見えた。
+$k
+
+&empty
+そんなはずないけど、ちょい胸が痛む。
+$k
+
+優
+「桜子を送ってとんぼ返りしてきたんだけど、
+　みいちゃんもう帰ったっていうし」
+$k
+
+優
+「しかも携帯持ってきてないだろ。
+　何度コールしても出ないからさ…もう焦った焦った」
+$k
+
+// MIIn_A903KD
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030437
+みい
+「あ…」
+$k
+
+優
+「まあ、みいちゃんならしっかりしてるし
+　一人でも大丈夫かもしれないけど」
+$k
+
+優
+「でも一応ほら、一緒に帰る約束もしてたしね」
+$k
+
+&empty
+後ろめたさにみいちゃんの無言がプラスされ、
+言い訳が次々と出てくる。
+$k
+
+// MIIn_A903NK
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03NK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030438
+みい
+「………」
+$k
+
+#hide
+
+#sp,env,#T_Pokkuri03
+
+#ir,(dr),2000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+#next,05mii08_02

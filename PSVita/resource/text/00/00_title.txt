@@ -1,0 +1,36 @@
+// 既読フラグの設定。
+#read_flag,1
+
+// 操作不可にする。
+#flag,ctrl,NO,0,0
+
+// メーカーロゴ。
+#ir,(dr),1000
+#ip,bg,(fi),image\sys\sys_maker_logo.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),image\sysc\sysc_black.jpg
+#ig
+
+#wait,500
+
+#ir,(dr),1000
+#ip,bg,(fi),image\sys\sys_title_base_0.jpg
+#ig
+
+#wait,500
+
+#sp,bgm,BGM_KEIKAI
+
+// タイトルパネルの表示。
+#ir,(dr),1000
+#ip,pl,(fi),image\sys\sys_title_base.jpg
+#ip,bt,(al),100%
+#ig
+
+// 操作可能にする。
+#flag,ctrl,YES,0,0
+

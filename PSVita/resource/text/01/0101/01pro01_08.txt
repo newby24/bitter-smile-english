@@ -1,0 +1,772 @@
+﻿// 既読フラグ
+#read_flag,18
+
+#sp,vo,01010003
+？？？
+#mstyle,(co),勇樹
+「携帯も忘れてる………」
+$k
+
+#sp,vo,01010004
+？？？
+#mstyle,(co),勇樹
+「……仕方ないな………今日は野宿か」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+#sp,bgm,BGM_NICHIJYO
+
+// 	SV( BG_TD_IMA03A );
+
+// 	SS(LEFT, KINO_A401KT);
+
+// 	SS(RIGHT, SAKURAKO_A301TR2);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03A.jpg,(s),100%
+#ip,c1,(fi),KINO_A401KT.png,(x),l,(s),80%
+#ip,c3,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR2.png,(x),r,(s),80%
+#ig
+
+#show
+
+&empty
+轟木家での晩飯の後、婆さんから重大発表があった。
+$k
+
+// SAKURAKO_A303KM
+#ir
+#ip,c3,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01000125
+桜子
+「ちょっとまって、どういうこと？」
+$k
+
+// KINO_A401KT
+#sp,vo,01060007
+紀乃
+「せやから優に貸せる分の部屋はあれへんねて。
+　アパートの他の住人優先したからな」
+$k
+
+&empty
+入居先アパートを失ったため、今後の俺の移住先が
+どうなるのかとか、そういう話だ。
+$k
+
+優
+「え、じゃあ俺どうすんの？」
+$k
+
+// KINO_A401MJ2
+#ir
+#ip,c1,(fi),KINO_A401MJ2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01060008
+紀乃
+「あのアパート建て直すまでは
+　うちに居てもらうしかないやろな、問題ないやろ」
+$k
+
+// SAKURAKO_A303AK
+#ir
+#ip,c3,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01000126
+桜子
+「う～～………ん。
+#meffect,flow,5
+$nw,3460
+
+#ir
+#ip,c3,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),80%
+#ig
+
+　じゃあ、部屋割とかはどうすんの？
+　まだ一人アパートの住人来る予定なんでしょ？」
+$k
+
+// MII_A301NI2
+
+#sp,vo,01030036
+みい
+「その住人も女の人でしたっけ。
+　部屋の数からして相部屋が発生しますが」
+$k
+
+// KINO_A401MJ2
+
+#sp,vo,01060009
+紀乃
+「まぁそうなるわなぁ。
+　身内以外はちゃんと一部屋充てたいところやから…」
+$k
+
+// YUKIHA_A301AK2
+
+#sp,vo,01050026
+雪華
+「………がっくり」
+$k
+
+&empty
+あーあ、なんとなく空気を読んだ雪華ちゃんが、
+がっかりしてる…。
+$k
+
+優
+「あ、俺なら居間の隅とかでもいいんだけどね？
+　なんなら台所とかでも良いけど。……どう？」
+$k
+
+&empty
+お、雪華ちゃんの顔色が少し持ち直した。
+大丈夫、お兄ちゃんは雪華ちゃんの味方だからね。
+$k
+
+&empty
+お年頃だし、いつまでも兄と一緒の部屋は嫌だろう。
+兄には悲しい事実であるが。
+$k
+
+// SAKURAKO_A303IK3
+
+#sp,vo,01000127
+桜子
+「それはだめよ。優、受験生なんだから、
+　ちゃんと落ち着ける所じゃないと」
+$k
+
+優
+「あ…」
+$k
+
+&empty
+桜子……。
+$k
+
+// SAKURAKO_A303IK3
+#sp,vo,01000128
+桜子
+「居間とか台所に居座られても夜とか怖いし。
+　女ばかりなんだから、その辺もキチンとしないと」
+$k
+
+&empty
+そっちが本音か。
+$k
+
+優
+「歯に衣着せぬ意見、
+　ありがとうございます、桜子さん…」
+$k
+
+&empty
+所詮、ただの幼なじみ。
+$k
+
+&empty
+ああ、雪華ちゃんがまた沈んでる……。
+そんなに兄妹一緒の部屋は嫌ですかっ？
+$k
+
+// KINO_A401NS
+#ir
+#ip,c1,(fi),KINO_A401NS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01060010
+紀乃
+「しゃあないな。ここは優に、わての部屋で…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「それだけは断る！」
+#mlarge
+$k
+
+&empty
+ごめん雪華ちゃん、情けない兄で。
+でも婆さんと一緒だけはありえないから！
+$k
+
+// KINO_A401MJ2
+#ir
+#ip,c1,(fi),KINO_A401MJ2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01060011
+紀乃
+「冗談じゃ、本気にしなはんなや。
+　あんたは店の二階に住めばええやろ」
+$k
+
+優
+「は？」
+$k
+
+// SAKURAKO_A302KM4
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM4.png,(x),r,(s),80%
+#ig
+
+// 電球アイコン。レイヤーと位置は適宜。
+#ir,(ef),off,(sync),NO
+#ip,op3,(fi),image\icon\denkyuu.png,(x),720,(y),30,(ckc),2,(cki),200,(clc),1
+#ig
+
+#sp,vo,01000129
+桜子
+「ああ、そうよね。
+　若い男女が一つ屋根の下とか色々まずいし、
+$nw,6440
+
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG2.png,(x),r,(s),80%
+#ig
+
+　それがいいわ。賛成ー」
+
+$k
+
+// 	SS_(LEFT, MII_A302SP2);
+
+#ir
+#ip,c2,(fi),MII_A302.png,(psi),MII_An02SP2.png,(x),l,(s),80%
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01MJ.png,(x),r,(s),80%
+#ie,c3
+#ig
+
+// 	SS(RIGHT, YUKIHA_A301MJ);
+
+// MII_A302SP2
+#sp,vo,01030037
+みい
+「まあ、それが妥当でしょうか。
+$nw,2760
+
+#ir
+#ip,c2,(fi),MII_A301.png,(psi),MII_An01TR2.png,(x),l,(s),80%
+#ig
+
+　私は誰と相部屋でもいっこうに構いませんけどね」
+$k
+
+// YUKIHA_A301NM2
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NM2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01050027
+雪華
+「ほっ」
+$k
+
+// 	SS_(LEFT, KINO_A401MJ2);
+// 立ち絵移動。パラメータは適宜。
+
+
+#ir
+#ip,c1,(fi),KINO_A401MJ2.png,(x),l,(s),80%
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO2.png,(x),r,(s),80%
+#ie,c2
+#ig
+
+// 	SS(RIGHT, SAKURAKO_A302NO2);
+
+優
+「ええっ、千寿…ですか？」
+$k
+
+&empty
+そこはもう少し考えようよ！
+$k
+
+&empty
+ほら、みんなと一緒に住むほうが毎日楽しいよ？
+大家族みたいで賑やかですよ？
+$k
+
+// KINO_A401AK2
+#ir
+#ip,c1,(fi),KINO_A401AK2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01060012
+紀乃
+「なんや、不満なんか？」
+$k
+
+優
+「いや、そんな事ない……です、けど？」
+$k
+
+&empty
+そこはまあまあ、と強引に住まわせるとこだろ？
+$k
+
+&empty
+紆余曲折の末の、若い男女が一つ屋根の下。
+ちょっと期待してたんだけどなぁ…。
+$k
+
+// SAKURAKO_A302IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01000130
+桜子
+「どうせ変な期待でもしてたんでしょー？
+　あんた、Ｈなことばかり考えてちゃ駄目よ、
+　受験生なんだから」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ちっげーよ！
+　桜子、お前俺の信用奪うような事言うなよな！」
+$k
+
+// 	SS(LEFT, MII_A301AM);
+
+// MII_A301AM
+#ir
+#ip,c2,(fi),MII_A301.png,(psi),MII_An01AM.png,(x),l,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,01030038
+みい
+「どうやら図星みたいですね」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「どこがっ！？
+　俺は雪華ちゃんの事が心配なだけなんだ！」
+$k
+
+// MII_A301NO
+#ir
+#ip,c2,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01030039
+みい
+「お兄様、こういう時は熱くなったら負けなんです。
+　声もうわずってましたよ？」
+$k
+
+// 	SS(RIGHT, YUKIHA_A301NI);
+
+// YUKIHA_A301NI
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NI.png,(x),r,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,01050028
+雪華
+「じとー……」
+#meffect,flow,5
+$k
+
+優
+「う、違うんだ雪華ちゃん、俺はそんな変な事とか
+　これっぽっちも考えてなかったよ！
+　ホントだから、お兄ちゃんを信じて！」
+$k
+
+// YUKIHA_A301KB3
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01KB3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01050029
+雪華
+「お兄ちゃん最低ー」
+$k
+
+#ir
+#ie,c1,c2
+#ig
+
+// 	FO_( SLOWER );
+
+&empty
+それらしい議論もなく、
+こうして俺はたこ焼き屋千寿の居候になった。
+$k
+
+&empty
+本当は婆さん、初めからこうするって
+決めてたんじゃねえだろうな？
+$k
+
+&empty
+……有り得る、
+轟木家の面々はそんなのばかりだからな。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+// 	SV( BG_SJ_KAIDAN03B );
+
+#sp,env,S_Mushi01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KAIDAN03B.jpg,(s),100%
+#ig
+
+// SAKURAKO_0303NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,01000131
+桜子
+「優、階段気を付けてよ？
+　滑って、転んで、落ちないでよ？」
+$k
+
+優
+「お前も受験生の一人なんだから、
+　そういう言葉のチョイス、もっと気を使おうぜ？」
+$k
+
+// SAKURAKO_0303KT
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000132
+桜子
+「そういうの気にするようだから駄目なのよ。
+　それより階段踏み外さないでよね。
+　一歩一歩、慎重に上がりなさいよ？」
+$k
+
+優
+「………まかせろ」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+俺は今晩から早くも千寿に移る事になり、
+今、こうして桜子に先導されて来客用の布団を貰って
+千寿に運び込んでいるワケだ。
+$k
+
+#hide
+
+// 	SV( BG_SJ_2FROKA03C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA03C.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_2FROKA03A );
+
+#sp,se,S_Switch01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA03A.jpg,(s),100%
+#ig
+
+#ss,env
+
+#sp,bgm,BGM_NONBIRI
+
+#show
+
+優
+「あれ？　二階意外と綺麗だな。
+　使ってないんだろ、ここ」
+$k
+
+&empty
+昔から二階があるのは知ってたけど、
+こうして上がってみたのは実は初めてだ。
+$k
+
+&empty
+店で遊ぶと婆さんがチョー怒るからな。
+あの婆さん、昔から子供にも容赦なかったし。
+$k
+
+// 	SS(CENTER, SAKURAKO_0302KM2);
+
+// SAKURAKO_0302KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000133
+桜子
+「使ってるわよ？」
+$k
+
+優
+「でも、店は一階しか使ってないよな、たしか。
+　また変な商売でも始めたのか？」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000134
+桜子
+「するわけないでしょ。
+$nw,2760
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),60%
+#ig
+
+　ここはね……
+$nw,1530
+
+#madd,別荘なの」
+
+$k
+
+優
+「はあ？　なんだそれ」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000135
+桜子
+「別荘ったら別荘なの。
+　見れば分かるわよっ。たく……」
+$k
+
+優
+「なに怒ってんだよ」
+$k
+
+// SAKURAKO_0302IK7
+#sp,vo,01000136
+桜子
+「怒ってない！
+$nw,2250
+
+　ほら、ここ。今日からここがあんたの部屋よ」
+$k
+
+#hide
+
+// 	SV( BG_SJ_YU03J );
+// 	DelStandAll();
+
+#sp,se,S_Door03o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03J.jpg,(s),100%
+#ig
+
+#show
+
+優
+「……なんだここ。
+　誰か住んでたのか？」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000137
+桜子
+「馬鹿。あんた、今まで何聞いてたのよ。
+　あたしが使ってんのよ、この部屋は」
+$k
+
+優
+「いや、お前家に部屋あるだろ」
+$k
+
+// SAKURAKO_0303IK
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000138
+桜子
+「だから、別荘っつってんでしょうが、
+$nw,2120
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Punch01
+
+　さっさと入れ！」
+$k
+
+優
+「おい、だから蹴るなって！
+　受験生だぞ！」
+$k
+
+// SAKURAKO_0303IK3
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000139
+桜子
+「あたしも受験生だ」
+$k
+
+優
+「蹴る理由になってないから！」
+$k
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,S_Switch02
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03C.jpg,(s),100%
+#ig
+
+&empty
+明かりのついた部屋の中を見回すと、
+ちょっと甘い香りと少し生活感のある景色が
+より鮮明に確認出来た。
+$k
+
+// 	SV( BG_SJ_YU03C );
+
+&empty
+本棚、使い古されたマットレス、
+座椅子に小さめの安テーブル。
+$k
+
+&empty
+床には読みかけの雑誌や専門書か何か、
+あと参考書。裁縫道具や……
+$k
+
+&empty
+……野球のグローブと軟球もある。
+$k
+
+&empty
+最後のは俺も見覚えのある品だ。
+$k
+
+&empty
+ん？　テーブルの上にあるのはなんだ？
+$k
+
+#ss,bgm
+
+// SAKURAKO_0302AS
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000140
+桜子
+「あっ、優ちょっと待って！」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),S_Basa01
+
+//	SM( CHAR_ETC,			-1,					"",				"どん！" );
+&empty
+いきなり横から桜子に押されて転ばされた。
+$k
+
+// 揺れ。パラメータは適宜。
+
+//#sp,se,S_Dotadotan01
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+
+優
+「な、なんだ！？」
+$k
+
+// SAKURAKO_0302IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000141
+桜子
+「あんたちょっと部屋から出てて！」
+$k
+
+優
+「なんで？
+$nw,1000
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig,(se),S_Punch01
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4);
+
+#madd,　…って押すな蹴るな転がすな！」
+
+$k
+
+
+#next,01pro01_09

@@ -1,0 +1,823 @@
+﻿// 既読フラグ
+#read_flag,40
+
+// 	DelAction( CENTER );
+
+優
+「あん？」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000129
+桜子
+「優、今からあたしが言う事よく聞いてね」
+$k
+
+優
+「なんだよいきなり？」
+$k
+
+// SAKURAKO_0302NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000130
+桜子
+「お客さんが来たらいらっしゃいませ。
+　帰る時はありがとう御座いました」
+$k
+
+優
+「…馬鹿にしてるのか？
+　それくらいは俺でも…」
+$k
+
+// SAKURAKO_0301AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000131
+桜子
+「トイレ休憩に行く時はレジのキーを必ず抜いてから。
+　あとビール、ジュースはここ。栓抜いてコップと
+　一緒に出すだけ、わかった？」
+$k
+
+優
+「お、おい桜子、お前何言ってんだ」
+$k
+
+// SAKURAKO_0301NS
+#ir
+#ip,c3,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000132
+桜子
+「一応助っ人も呼んどいたけど、まー午前中なんて
+　ほとんどお客来ないから大丈夫よ」
+$k
+
+&empty
+桜子はいつの間にかエプロンをはずしていた。
+$k
+
+// SAKURAKO_0303NO
+#ir
+#ip,c3,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000133
+桜子
+「…それから未成年と思しき客には、
+　何言われてもアルコールとか出さないようにねっ？」
+$k
+
+優
+「おいこら桜子、ちょっと待てよ！」
+$k
+
+// SAKURAKO_0303NS
+#ir
+#ip,c3,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000134
+桜子
+「あとはまっかせたーっ！　
+$nw,2200
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+　ばいばーい！」
+
+$k
+
+優
+「おいおーい！　俺だけ置いてくなよ、ずるいぞ！」
+$k
+
+#sp,vo,02000135
+桜子
+「本当に困った事があったらメールでもしてよ。
+　ほんじゃあ、行ってきまーす♪」
+$k
+
+優
+「まーす♪　…じゃねえよばかやろーっ！」
+$k
+
+#sp,vo,02000136
+桜子
+「お土産買ってきてあげるから～…」
+$k
+
+優
+「………」
+$k
+
+&empty
+しーん。
+$k
+
+&empty
+あのアマ、逃げやがった！
+$k
+
+&empty
+………。
+$k
+
+&empty
+いっそもう店閉まいしちまおうか。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#sp,bgm,BGM_MII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03EG.png,(x),r0,(s),60%,(al),0%
+#ig
+
+// 	SS_( CENTER, MII_0303EG, MOVE_RIGHT );
+// 立ち絵移動。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+// MII_0303EG
+#sp,vo,02030024
+みい
+「お呼びでしょうか、姉上……
+$nw,2700
+
+#ir
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),50
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+　おや？」
+
+$k
+
+優
+（…まさか）
+$k
+
+// MII_0301KY2
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030025
+みい
+「すいませんがお兄様、姉上はいったい…」
+$k
+
+優
+「今ここには存在しないが？」
+$k
+
+// MII_0301OD2
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01OD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030026
+みい
+「はあ、あの…つい先程、姉上が私だけの為に
+　たこ焼きを焼いてくれる、とメールを貰ったので
+　ここへ来たのですが、一体姉上は何処へ…」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　いずこ
+
+$k
+
+優
+「おそらくたこ焼きは全部俺が焼く手筈になっていて、
+　桜子は当分ここには戻ってこないだろうな」
+$k
+
+// MII_0301AS3
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01AS3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030027
+みい
+「ああ、それはもしかして…」
+$k
+
+優
+「そして、みいちゃんは俺と共に
+　店番をしないといけない事になったんだ…」
+$k
+
+// 	MoveStand( CENTER, SLOW, 100, 0 );
+
+
+// MII_0301GM
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01GM.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0
+#ig
+
+#sp,vo,02030028
+みい
+「私、今日は忙しくしておりますので、
+　これにて失礼をば…」
+$k
+
+// 	MoveStand( CENTER, 0, 100, 0 );
+// 	MoveStand( CENTER, FAST   | SPEED_UP,   70, 0, 1 );
+// 	MoveStand( CENTER, FASTER | SPEED_DOWN, 80, 0, 1 );
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(x+),-30
+#ig
+
+優
+「待って、みいちゃん！
+　一時間でいいから俺を救済してくれっ…ください！」
+$k
+
+// MII_0301SN2
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01SN2.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02030029
+みい
+「ああ忙しい忙しい！」
+$k
+
+優
+「お願いだよお――っ！」
+$k
+
+&empty
+客商売初出勤で店に一人きりは切な過ぎるぅ！
+$k
+
+// 	MoveStand( CENTER, NORMAL );
+
+
+// MII_0301KB
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KB.png,(x),r0,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+#sp,vo,02030030
+みい
+「………ぅぐ…」
+$k
+
+// 	MoveStand( CENTER );
+
+// MII_0301NI2
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NI2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030031
+みい
+「…お兄様…とりあえず服を引っ張るのは
+　遠慮していただけないでしょうか？
+　お気に入りが破れてしまいます…」
+$k
+
+&empty
+俺は去りゆくみいちゃんに思い切り取りすがっていた…。
+プライドなどは無い。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI01A );
+
+// 	SS( CENTER, MII_A602KB2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A602.png,(psi),MII_An02KB2.png,(x),c,(s),80%
+#ig
+
+#show
+
+// MII_A602KB2
+#sp,vo,02030032
+みい
+「なんですかこのボロ雑巾は？」
+$k
+
+優
+「すいません、ごめんなさい。
+　今の俺の精一杯がこれなんだ」
+$k
+
+&empty
+開店五分前。
+とりあえずさっき作った試作品をみいちゃんに
+食べてもらう事になった。
+$k
+
+// MII_A601SN2
+#ir
+#ip,c1,(fi),MII_A601.png,(psi),MII_An01SN2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030033
+みい
+「ぱく、もぐもぐ………
+$nw,4000
+
+#ir
+#ip,c1,(fi),MII_A602.png,(psi),MII_An02NM2.png,(x),c,(s),80%
+#ig
+
+　あんまりですね」
+$k
+
+優
+「こんなんで店に出ていいのか？」
+$k
+
+// MII_A603AK
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030034
+みい
+「大丈夫ですよ、
+　お店で出すのはさっきお兄様が言っていた
+　姉上のこさえた生地ですから」
+$k
+
+優
+「ああ、なるほど。
+　そこからもう差が出ちゃうのね…」
+$k
+
+// MII_A603NO2
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030035
+みい
+「とりあえず作り置きも兼ねて、
+　業務用のタネで実践してみて下さい。
+　大丈夫です、どうせ半額なので安心です」
+$k
+
+優
+「…わかった、やってみよう」
+$k
+
+// MII_A603NO
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030036
+みい
+「では私は暖簾を出して来ますので」
+#mfuri,　　　　　　　　　　のれん
+
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+//	WT( 50 );
+// 	SV( BG_SJ_GAIKAN01C );
+
+//	Scroll( 0, 532, 0 );
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01C.jpg,(s),100%,(x),r_s
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_GAIKAN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01A.jpg,(s),100%,(x),r_s
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	WT( 50 );
+// 	SV( BG_SJ_COUNTERURA01A );
+
+// 	SS( CENTER, MII_A603KT );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#show
+
+// MII_A603KT
+#sp,vo,02030037
+みい
+「まあまあですね」
+$k
+
+優
+「まあまあだな…」
+$k
+
+&empty
+俺が新しく焼いたものを二人で試食。
+$k
+
+&empty
+桜子が焼いたのには遠く及ばないが、
+コンビニのたこ焼きよりは遥かに旨いと思う。
+$k
+
+// MII_A603NO2
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030038
+みい
+「姉上の言うところのイメージですが、
+　慣れないうちは端っこの方にタネを少し垂らして
+　焼けるまでの感じを掴むのも手ですよ」
+$k
+
+優
+「なるほど、参考にさせてもらうよ」
+$k
+
+&empty
+掴めるかどうかはまだまだ先だろうが。
+$k
+
+// MII_A603KT
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030039
+みい
+「ではあと一回焼いてお客が来るか
+　待って見ましょうか」
+$k
+
+優
+「了解」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+#show
+
+//	SM( CHAR_ETC,			-1,					"",				"…………" );
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+優
+「あまり客来ないなあ」
+$k
+
+// 	SS( CENTER, MII_0603NO2 );
+
+// MII_0603NO2
+#ir
+#ip,c1,(fi),MII_A603.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030040
+みい
+「まだまだ暑いですからね。
+　それに開店したばかりですし実際に客が来るのは
+　だいたい十時半以降からですね。私の経験では」
+$k
+
+// MII_0602NO
+#ir
+#ip,c1,(fi),MII_A602.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030041
+みい
+「本当のかき入れ時は平日の放課後以降ですが」
+$k
+
+優
+「そんなもんなのか」
+$k
+
+&empty
+別に昼まで来なくてもいいけど…。
+いや、いかんいかん、そんな発想。
+実践しながら勉強しないとな！
+$k
+
+// MII_0601BS
+#ir
+#ip,c1,(fi),MII_A601.png,(psi),MII_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030042
+みい
+「私ちょっとおトイレに行ってきます」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r0,(al),0
+#ig
+
+優
+「おう」
+$k
+
+#hide
+
+#sp,se,S_Door04o
+
+#wait,1000
+
+#sp,bgm,BGM_CHISEKA
+
+#show
+
+#sp,vo,02040023
+？？？
+#mstyle,(co),知世翔
+「こんにちはー。
+$nw,1700
+
+　みい、来たわよ…
+//$nw,3400
+$nw,1400
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+　っ！？」
+
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS( CENTER, CHISEKA_0301OD3, MOVE_STOP, NORMAL );
+
+優
+「いらっしゃいま…せ」
+$k
+
+// CHISEKA_0301NR
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040024
+知世翔
+「…なっ」
+$k
+
+優
+「あ」
+$k
+
+// CHISEKA_0301IK
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040025
+知世翔
+「……むぅ」
+$k
+
+優
+「よ、よう、後輩」
+$k
+
+// CHISEKA_0301KB
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01KB.png,(x),c,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,02040026
+知世翔
+「…こんにちは」
+$k
+
+// 	DelAction( CENTER );
+
+優
+「………」
+$k
+
+// CHISEKA_0301NR
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040027
+知世翔
+「………」
+$k
+
+&empty
+有河は俺を見たとたん、すんげー不機嫌になったのが
+分かった。
+$k
+
+&empty
+まだ怒ってるみたいだな、こないだの事。
+$k
+
+優
+「あの…こ、こないだはホント…」
+$k
+
+// CHISEKA_0301MJ
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040028
+知世翔
+「みいはどこですか？」
+$k
+
+優
+「あ、みいちゃんなら今トイレに」
+$k
+
+// CHISEKA_0301KB
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040029
+知世翔
+「そうですか。
+　ちょっとあちらに座らせてもらいますね」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),l0,(al),0
+#ig
+
+優
+「おう」
+$k
+
+&empty
+言って、有河はこちらに背を向けテーブル席に座る。
+俺に掛ける彼女の声はとっても冷たい感じだ。
+$k
+
+&empty
+気まずいなあ…。
+みいちゃん早く戻って来てくれよ。
+$k
+
+// 	SS( CENTERRIGHT, MII_0603EG, MOVE_RIGHT );
+
+// MII_0603EG
+#ir,(ef),off
+#ip,c3,(fi),MII_A603.png,(psi),MII_An03EG.png,(x),r,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r0,(al),100%
+#ig
+
+#sp,vo,02030043
+みい
+「まあ知世翔さん、いらっしゃいまし」
+$k
+
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01IK.png,(x),l0,(s),60%
+#ig
+
+// CHISEKA_0301IK
+#sp,vo,02040030
+知世翔
+「なによみい、話が違うじゃない！」
+#msmall
+$k
+
+// MII_0603KT
+#ir
+#ip,c3,(fi),MII_A603.png,(psi),MII_An03KT.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02030044
+みい
+「はて、なにか問題でも」
+$k
+
+// CHISEKA_0301TR3
+#ir
+#ip,c1,(fi),CHISEKA_A301.png,(psi),CHISEKA_An01TR3.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02040031
+知世翔
+「あるでしょ、先輩が私にたこ焼き焼いてくれる
+#msmall
+　って言うから来たのに。アレは一体なに！？」
+#msmall
+$k
+
+&empty
+うわ…なんか肩越しに凄く睨まれてるんですが。
+$k
+
+// MII_0601KS
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01KS.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02030045
+みい
+「まあまあ、あれも一応先輩ですし。
+　私も騙されたクチですので」
+
+#mfuri,　　　　　　だま
+
+$k
+
+#next,02common01-2_03

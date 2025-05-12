@@ -1,0 +1,188 @@
+﻿// 既読フラグ
+#read_flag,51
+
+// SAKURAKO_0301NS
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02000204
+桜子
+「へー」
+$k
+
+優
+（…そうなんだ？）
+$k
+
+// KANAME_A301OD5
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01OD5.png,(x),r,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),520,(y),0,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,02020039
+要
+「ちょ、待った待った！　今の無し今の無しっ！」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+// SAKURAKO_0302AK
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02000205
+桜子
+「お姉…さっきより顔色悪いわよ？」
+$k
+
+// KANAME_A301TR2
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01TR2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020040
+要
+「違う違う！　ご飯途中だったの思い出しちゃって、
+　急になんか胃液がね？」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02000206
+桜子
+「なにそれ？」
+$k
+
+// KINO_0401KM2
+#ir
+#ip,c1,(fi),KINO_A401KM2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060046
+紀乃
+「まさか本当に…
+$nw,2900
+
+#ir
+#ip,c1,(fi),KINO_A401IK2.png,(x),l,(s),80%
+#ig
+
+　あんた、不倫はほんまにやめときや？」
+$k
+
+// KANAME_A301IK
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01IK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020041
+要
+「とにかく不倫なんてしてないから！
+$nw,2400
+
+#ir
+#ip,c3,(fi),KANAME_A302.png,(psi),KANAME_An02EG.png,(x),r,(s),80%
+#ig
+
+　さ、ご飯ご飯…」
+$k
+
+// KINO_0401KS
+#ir
+#ip,c1,(fi),KINO_A401KS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02060047
+紀乃
+「…まあ不倫とか変な事してへんねやったら
+　別にええねんけどな。
+$nw,5200
+
+#ir
+#ip,c1,(fi),KINO_A401MJ.png,(x),l,(s),80%
+#ig
+
+　ちゃあんと、男は選びいや？」
+$k
+
+// KANAME_A301OD5
+#ir
+#ip,c3,(fi),KANAME_A301.png,(psi),KANAME_An01OD5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020042
+要
+「あ、もうご飯冷めてるぅーっ！？」
+$k
+
+// SAKURAKO_0301AK
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02000207
+桜子
+「そりゃそうでしょ…。
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),80%
+#ig
+
+　あ、お姉、残さずちゃんと食べて水に漬けといてね」
+$k
+
+#hide
+
+// エピソードエンド。ロゴのみ。
+
+#ir,(dr),1000
+#ie,c1,c3
+#ig
+
+#wait,500
+
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,c4,al,(lt),straight,(lc),0
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,90phase02

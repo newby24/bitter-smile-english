@@ -1,0 +1,821 @@
+﻿// 既読フラグ
+#read_flag,370
+
+// セーブタイトル
+#flag,save_title,要　第１０話,0,0
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SV( BG_TD_IMA03E );
+
+// 	SS( LEFT, KANAME_A401NO2 );
+
+// 	SS( RIGHT, KINO_A401MJ );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第１０話　見合って見合って
+$k
+#note,erase
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),l,(s),80%
+#ip,c1,(fi),KINO_A401MJ.png,(x),r,(s),80%
+#ig
+
+#show
+
+// KANAME_A401NO2
+
+#sp,vo,06020402
+要
+「そだ、年賀状ってまだ余ってる？」
+$k
+
+&empty
+今年も、残すところあと数日という夕食後。
+$k
+
+&empty
+こたつでみかんを剥いていた要さんが、
+ふと顔をあげた。
+$k
+
+// KINO_A401MJ
+#sp,vo,06060024
+紀乃
+「わての部屋にまだ１０枚くらいあったやろ。
+$nw,4800
+
+#ir
+#ip,c1,(fi),KINO_A401SP.png,(x),r,(s),80%
+#ig
+
+　なんや、まだ書いてなかったんか」
+$k
+
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),l2,(s),80%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),80%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),r2,(s),80%
+#ig
+
+// 	SS_( CENTERBOTTOM, SAKURAKO_A402NO2 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( RIGHTRIGHT, YUKIHA_A401NO );
+
+// MII_A403EG
+#sp,vo,06030043
+みい
+「もう～いつつ寝ると～♪」
+$k
+
+// YUKIHA_A401NO
+
+#sp,vo,06050014
+雪華
+「今日２７日だっけ？」
+$k
+
+// SAKURAKO_A402NO2
+#sp,vo,06000051
+桜子
+「メールで済ませりゃいいじゃない」
+$k
+
+// KANAME_A401NO
+
+#sp,vo,06020403
+要
+「上司宛てなの。
+$nw,1970
+
+　最初に１回出しちゃったから、
+　やめづらくて、こうずるずるとねぇー」
+$k
+
+// MII_A403KT
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06030044
+みい
+「不倫の言い訳みたいですね」
+$k
+
+// SAKURAKO_A402NO5
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000052
+桜子
+「明日から会社復帰だっけ？」
+$k
+
+// KANAME_A402BS
+
+#sp,vo,06020404
+要
+「そう。まあすぐ休みになるけどねー」
+$k
+
+// 	SS( CENTER, KANAME_A403NO );
+
+// KANAME_A403NO
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ie,c1,c2
+#ig
+
+#sp,vo,06020405
+要
+「今晩帰るから。
+　皆さんお世話になりました」
+$k
+
+// KINO_A401NO
+
+#sp,vo,06060025
+紀乃
+「身体冷やさへんよう、
+　今晩くらいタクシーで帰りやー」
+$k
+
+&empty
+轟木家での手厚い看護もあって、
+要さんはすっかり復調していた。
+$k
+
+&empty
+原因がウイルス性のインフルエンザでなく、
+体調を崩しただけってのも長引かずに済んだ理由とか。
+$k
+
+&empty
+実は３８度を超えていたらしい熱も、
+すぐに平熱に落ち着いたとのことだった。
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_KANAME_07B_s.jpg,(s),100%
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+&empty
+身体、熱かったもんな…。
+#meffect,flow,5
+$k
+
+// 	SV( VISUAL_KANAME_07C, FILTER_SEPIA | FILTER_LINKSTAND );
+// 	DelStandAll();
+
+&empty
+まるで俺の方が熱で浮かされたような出来事で、
+今でもふわふわと現実感がない。
+$k
+
+&empty
+おかげでこちらからは気まずくて、
+話すどころか、まともに顔も合わせづらい。
+$k
+
+&empty
+なのに…。
+$k
+
+// 	SV( BG_TD_IMA03E );
+
+// 	SS( CENTER, KANAME_A403NO );
+
+#ir
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ig
+
+// KANAME_A403NO
+#sp,vo,06020406
+要
+「そうそう、年末年始は
+　ちゃーんと帰ってくるからよろしくね」
+$k
+
+&empty
+要さんの方は、すっかりいつも通りで。
+$k
+
+&empty
+まるで要さんの熱だけが、
+俺に移ってしまったみたいだった。
+$k
+
+//	CS_( CENTER, LEFT );
+//	SS( RIGHT, SAKURAKO_A403IK3 );
+// SAKURAKO_A403IK3
+
+#sp,vo,06000053
+桜子
+「帰ってくるって…またぁ？」
+$k
+
+// KANAME_A402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020408
+要
+「歓迎会はお気づかいなくー」
+$k
+
+// SAKURAKO_A402NR
+
+#sp,vo,06000054
+桜子
+「お姉、帰ってこないでよ」
+$k
+
+// KANAME_A401OD5
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020409
+要
+「ひどい！？」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+そんな要さんから、俺は、目が離せなかった。
+$k
+
+&empty
+目が合いそうになれば視線を逸らすのに、
+いつの間にか、また無意識に探してしまう。
+$k
+
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),r,(s),80%
+#ip,c2,(fi),KINO_A401IK5.png,(x),l,(s),80%
+#ig
+
+// 	SS(RIGHT, MII_A402NO);
+
+// KINO_A401IK5
+#sp,vo,06060026
+紀乃
+「客間はあんさん専用の部屋やあらへんで」
+$k
+
+// MII_A402NO
+
+#sp,vo,06030045
+みい
+「あそこはどうでしょう。
+　勇樹お姉様が使われていたお部屋」
+$k
+
+優
+「え？」
+$k
+
+&empty
+それって千寿の…？
+つまり要さんと、隣の部屋！？
+$k
+
+// SAKURAKO_A401AK
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),80%
+#ie,c1,c2
+#ig
+
+#sp,vo,06000055
+桜子
+「薄壁一枚の状況だけで、何を想像してるのよ。
+　エロいわねー」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「しっ、してねーよ！？
+　大体、壁一枚って、押入れ挟んでるだろうがっ」
+$k
+
+&empty
+動揺をなんとか押し隠したつもりだけど…、
+たぶん隠せてないんだろうな。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+//#ir
+//#ie,c1
+//#ig
+
+//&empty
+//あんなことがあったせいで
+//要さんを意識してしまっている。
+//$k
+
+//&empty
+//妄想と想像がリアルで…
+//あの夜、あんなに興奮して、
+//要さんを汚してしまったのは初めてだった。
+//$k
+
+//&empty
+//もしあのまま続けてたら、要さんは…。
+//そう想像すると、もう止められなかった。
+//$k
+
+//&empty
+//…その後の自己嫌悪は半端じゃなかったが。
+//$k
+
+// 	SS( CENTER, KANAME_A401KB, MOVE_STOP, NORMAL );
+
+// KANAME_A401KB
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KB.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,06020410
+要
+「………」
+#meffect,flow,5
+$k
+
+// 	SS( LEFTLEFT, YUKIHA_A401AK4, MOVE_LEFT );
+
+// YUKIHA_A401AK4
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06050015
+雪華
+「まあまあ…。
+$nw,1710
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l2,(s),80%
+#ig
+
+　お部屋は、客間でいいよね？」
+$k
+
+// 	SS( RIGHTRIGHT, MII_A403NO2, MOVE_RIGHT );
+
+// MII_A403NO2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06030046
+みい
+「そもそも、何故帰ってこられるのです？」
+$k
+
+// KANAME_A401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020411
+要
+「家族が年末年始に帰省するのは当然ー」
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),l,(s),80%
+#ip,c2,(fi),KINO_A401KM2.png,(x),r,(s),80%
+#ie,c1
+#ig
+
+// 	SS( RIGHT, KINO_A401KM2 );
+
+// SAKURAKO_A401AK2
+#sp,vo,06000056
+桜子
+「どうせ、ごろごろしてても
+　勝手にご飯が出てくるからでしょ」
+$k
+
+// KINO_A401KM2
+
+#sp,vo,06060027
+紀乃
+「やっぱ帰ってくんなや」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2,c3
+#ig
+
+&empty
+いつもの調子だ。
+$k
+
+&empty
+いつもの調子すぎる…とも思うけど。
+$k
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l2,(s),80%
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),r2,(s),80%
+#ig
+
+// 	SS( RIGHTRIGHT, MII_A403NO2 );
+
+// YUKIHA_A401NO
+#sp,vo,06050016
+雪華
+「要お姉ちゃんって、冬休み…でいいのかな？
+　いつからなの？」
+$k
+
+// KANAME_A401GB
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01GB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020412
+要
+「３０に大掃除があって、やっと終わりなの。
+　友達はとっくに冬休みなのにねー」
+$k
+
+// SAKURAKO_A402NR
+
+#sp,vo,06000057
+桜子
+「とっくに…
+　社会人の正月休みで１０日近くとなると、
+　確かに長いかもね」
+$k
+
+// YUKIHA_A401KT
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06050017
+雪華
+「エリート？」
+$k
+
+// MII_A403KT
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06030047
+みい
+「高給取り？」
+$k
+
+// KINO_A401IK2
+
+#sp,vo,06060028
+紀乃
+「あんたも、ええ会社入る努力しといたら良かったんや」
+#mfuri,　　　　　　　　　　　　　　　　　とこ
+
+$k
+
+// KANAME_A403GN3
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN3.png,(x),c,(s),80%
+#ig
+
+#sp,se,S_Hiyohiyo01
+
+#ir,(dr),2000,(ef),move
+#ip,c1,(x+),30,(y+),100,(al),0%
+#ia,c1,x,(dr),500,(lt),over,(lc),3
+#ig
+
+#sp,vo,06020413
+要
+「病み上がりにお説教は嫌ぁー」
+$k
+
+// 	ShakeStand(CENTER, SLOWER, SHAKE_LEFT, 8, 40);
+// 	SS_(LEFTLEFT, YUKIHA_A401KS, MOVE_STOP, NORMAL);
+
+// 	SS(RIGHTRIGHT, MII_A403AK, MOVE_STOP, NORMAL);
+
+&empty
+要さんが、もぞもぞとこたつの中に逃げていく。
+$k
+
+&empty
+そんな姿さえ、かわいいと思った。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+次の瞬間までは。
+$k
+
+#ss,bgm
+
+// 	SS( CENTER, KINO_A401IK5 );
+
+// KINO_A401IK5
+#ir
+#ip,c2,(fi),KINO_A401IK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06060029
+紀乃
+「せやから、こないだの見合い相手と
+　くっつけばよろしかったやろ。
+　そうそうないで、あないなええ話」
+$k
+
+優
+「…え？」
+$k
+
+&empty
+お見合い、って…？
+#meffect,flow,2
+$k
+
+// KANAME_A401OD2
+
+#sp,vo,06020414
+要
+「お、おばあちゃん！？」
+$k
+
+// 	SS_( LEFT, YUKIHA_A401OD );
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01OD2.png,(x),l,(s),80%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AK.png,(x),r,(s),80%
+#ie,c2
+#ig
+
+// 	SS( RIGHT, MII_A401BS );
+
+// YUKIHA_A401OD2
+
+#sp,vo,06050018
+雪華
+「え…
+$nw,790
+
+　お、おおおお見合いぃ～！？」
+$k
+
+// MII_A401NO
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),r,(s),80%
+#ig
+
+// きらりアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\kirari.png,(x),*860,(y),*185,(s),50%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,op3,(s),100%,(al),100%
+#ig,(se),S_Pikon02
+
+#sp,vo,06030048
+みい
+「その話、詳しくお聞きしたいですね」
+$k
+
+&empty
+考えがまとまるよりも早く、年下組が色めき立つ。
+$k
+
+// 	SS( CENTER, KANAME_A401KM2 );
+
+// KANAME_A401KM2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ie,c1,c3
+#ig
+
+#sp,vo,06020415
+要
+「ちょっとおばあちゃん、その話は内緒でって…」
+#meffect,flow,5
+$k
+
+// KINO_A401IK5
+#sp,vo,06060030
+紀乃
+「隠す必要あらへんやろ？
+　ええやろ、人生なんでも経験やで」
+$k
+
+// KANAME_A401KM2
+#sp,vo,06020416
+要
+「だ、だけど……
+$nw,2960
+
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01KT2.png,(x),c,(s),80%
+#ig
+
+#madd,あ」
+
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+#sp,bgm,BGM_SABISHII
+
+&empty
+冗談だと思いたかった。
+$k
+
+&empty
+男だ不倫だって、前にあった噂みたいに。
+$k
+
+// 	SS_(CENTER, KANAME_A401MJ3, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01MJ3.png,(x),c,(s),80%
+#ig
+
+// KANAME_A401MJ3
+#sp,vo,06020417
+要
+「………」
+#meffect,flow,5
+$k
+
+&empty
+でも、今度はそうじゃないのは、
+要さんの態度からも明白で。
+$k
+
+&empty
+何より違うのは、それを聞いた俺が、
+前とは比べられないくらい衝撃を受けていることだった。
+$k
+
+// 	SS( LEFTLEFT, SAKURAKO_A402NO2, MOVE_LEFT );
+
+// SAKURAKO_A402NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06000058
+桜子
+「本当なの、お姉？」
+$k
+
+// KANAME_A402MU
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020418
+要
+「う、うんまあ…」
+#meffect,flow,5
+$k
+
+// KANAME_A402BS
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020419
+要
+「けど、もうお断りした話だからね？」
+$k
+
+// 	SS( RIGHTRIGHT, MII_A403NO, MOVE_RIGHT );
+
+// MII_A403NO
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06030049
+みい
+「興味深いお話ですね」
+$k
+
+// KANAME_A401FK4
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01FK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020420
+要
+「わかった、わかりました。
+　白状しますぅー」
+$k
+
+// MII_A403NO2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06030050
+みい
+「やけにあきらめがいいですね」
+$k
+
+// KINO_A401KM2
+
+#sp,vo,06060031
+紀乃
+「開き直っただけやろが」
+$k
+
+// YUKIHA_A401IK
+
+#sp,vo,06050019
+雪華
+「ふたりとも、しっ！」
+$k
+
+// SAKURAKO_A401KS2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,06000059
+桜子
+「…雪華ちゃんの食いつきが一番いいわね」
+$k
+
+// KANAME_A401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ie,c2,c3
+#ig
+
+#sp,vo,06020421
+要
+「会社のね、お偉方の奥さんが、
+　お見合いの立会人になるのを趣味にしてる人で」
+$k
+
+// KANAME_A401FK5
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01FK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020422
+要
+「ほら、うちって小さい会社でしょ？
+　だから余計に断りづらくって」
+$k
+
+// MII_A402MJ
+
+#sp,vo,06030051
+みい
+「相手はどのような？」
+$k
+
+// KANAME_A401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020423
+要
+「んー、お医者様。
+　町医者だけど病院を経営してるって」
+$k
+
+
+#next,06kaname10_01

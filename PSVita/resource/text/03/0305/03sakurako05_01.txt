@@ -1,0 +1,893 @@
+﻿// 既読フラグ
+#read_flag,268
+
+&empty
+悲しそうだったり、怒ったり。
+なんだか気持ちが悪いぞ桜子…。
+$k
+
+優
+「なってるよ、ちゃんと」
+$k
+
+// SAKURAKO_A402NO5
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000180
+桜子
+「へー、どの辺がー？」
+$k
+
+優
+「…なんだよー」
+$k
+
+&empty
+なんでそんな幸せそうな顔してんだ。
+訳わかんねーぞ。
+$k
+
+
+// 	SS( CENTER, YUKIHA_A401KM2 );
+
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM2.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+優
+「ほら雪華ちゃん、苦手なの寄越して」
+$k
+
+// YUKIHA_A401KM2
+
+#sp,vo,03050019
+雪華
+「ううーんやっぱり自分で…でもぉ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+
+// KANAME_0403NS
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03NS.png,(x),r,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,03020031
+要
+「今のうちに、みんな均等にあげちゃおう♪」
+$k
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000181
+桜子
+「ちょっと、お姉ー」
+$k
+
+// KANAME_A402EG2
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020032
+要
+「はい、優君、どうぞ～」
+$k
+
+// 	SS( CENTER, KANAME_A402EG2, MOVE_STOP, NORMAL );
+
+優
+「ええ？　……しょうがないなあ。
+　今回だけですよ？」
+$k
+
+// KANAME_A403NS
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03NS.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020033
+要
+「へっへ～」
+$k
+
+// 	CS_( CENTER, RIGHT );
+
+
+// 	SS( LEFT, SAKURAKO_A402IK3, MOVE_LEFT, NORMAL );
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000182
+桜子
+「もーう、優もお姉を甘やかさないのっ！」
+$k
+
+// KANAME_A403GM
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020034
+要
+「嫌いだからあげてるんじゃないのよ？
+$nw,2730
+
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN.png,(x),r,(s),80%
+#ig
+
+　育ち盛りのみんなのために、泣く泣く分けてるの！」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000183
+桜子
+「言い訳しないでみいを見習ってよ。
+$nw,2490
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),80%
+#ig
+
+　好き嫌い直そうとか思わないの？」
+$k
+
+// MII_0403NM
+#sp,vo,03030027
+みい
+「すぅ……すぅ……」
+$k
+
+// KANAME_0401NO3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020035
+要
+「みいちゃんを見習う…」
+$k
+
+// SAKURAKO_0401NK4
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000184
+桜子
+「ね、寝ながら食べるのは見習わないでね」
+$k
+
+// KINO_0401IK2
+#ir
+#ip,c3,(fi),KINO_A401IK2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03060008
+紀乃
+「あんたら、時間なくなるで」
+$k
+
+// KANAME_0403NO
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020036
+要
+「はーい」
+$k
+
+&empty
+………時間？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_1FROKA01A );
+// 	SS( CENTER, SAKURAKO_0401TR4 );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_1FROKA01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0401TR4
+#sp,vo,03000185
+桜子
+「お姉もみいも、準備できたー？」
+$k
+
+// KANAME_0401OD5
+
+#sp,vo,03020037
+要
+「ちょちょ、ちょい待って。
+　１分待って、トイレ行くから」
+$k
+
+// SAKURAKO_0401NK4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000186
+桜子
+「ええ、今頃ー？」
+$k
+
+// 	CS_( CENTER, RIGHT );
+// 	SS( LEFT, MII_0903KM3, MOVE_LEFT, NORMAL );
+
+// MII_0903KM3
+#ir,(ef),off
+#ip,c2,(fi),MII_A903.png,(psi),MII_An03KM3.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+#sp,vo,03030028
+みい
+「………」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000187
+桜子
+「みいは準備できた？」
+$k
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+// MII_0903KM3
+#sp,vo,03030029
+みい
+「こく」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000188
+桜子
+「もー、ほんとお姉にはみいを見習って欲しいわ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2
+#ig
+
+&empty
+飯を食って早々、
+出かける準備を始めているようだが…
+$k
+
+// 	SS( CENTER, SAKURAKO_0402NO4 );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+優
+「轟木家のご一同様は、どちらかへお出かけで？」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000189
+桜子
+「うん。たまには家族水入らずで、ね？」
+$k
+
+優
+「ふーん、そうか。
+　今日は絶好のお出かけ日和だもんな」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+となると、俺は久々に雪華ちゃんと水入らず？
+$k
+
+// 	SS( CENTER, KINO_0401BS2, MOVE_STOP, NORMAL );
+
+// KINO_0401BS2
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03060009
+紀乃
+「そういう訳やさかい優、
+　留守の間は店番の方頼んだで」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「えっ、みんな出かけるのに店開けるのかよ！？」
+$k
+
+// KINO_0401NO
+#ir
+#ip,c1,(fi),KINO_A401NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03060010
+紀乃
+「助っ人は頼んであるよって。
+$nw,2000
+
+　昼過ぎには戻ってくるさかいな」
+$k
+
+優
+「そっちは家族水入らずなのに、
+　こっちは兄妹水入らずじゃないの！？」
+$k
+
+// YUKIHA_0401RK
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01RK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03050020
+雪華
+「私は別に水入らずじゃなくても…」
+$k
+
+// KINO_0401BS2
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03060011
+紀乃
+「ほな、さいなら」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+優
+「そこは
+　『行ってきます、お土産買ってくるからね』だろー？」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402NO );
+
+// SAKURAKO_0402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,03000190
+桜子
+「あ、そうだ優。
+$nw,1880
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),60%
+#ig
+
+　ちょっとお願いがあるんだけど…」
+$k
+
+優
+「ん、なんだ？」
+$k
+
+&empty
+桜子からお願いなんて珍しいな。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GENKAN01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),r,(s),60%
+#ig
+
+#sp,se,S_Dash01i
+
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A203.png,(psi),KANAME_An03BS.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ig
+
+// 	WaitSE( -1 );
+
+#ss,se,(dr),1000
+
+// 	SS_( RIGHT, SAKURAKO_0402NO4 );
+// 	SS( LEFT, KANAME_0203BS, MOVE_LEFT, NORMAL );
+
+#show
+
+// KANAME_0203BS
+
+#sp,vo,03020038
+要
+「お待たせ～！　行こうかっ」
+$k
+
+// SAKURAKO_0402NO4
+#sp,vo,03000191
+桜子
+「みい、行こ」
+$k
+
+// 	SS( CENTER, MII_0903NO2 );
+
+// MII_0903NO2
+#ir
+#ip,c2,(fi),MII_A903.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ie,c1,c3
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+#sp,vo,03030030
+みい
+「こく」
+$k
+
+&empty
+今日のみいちゃんは、随分とおとなしいなあ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	SV( BG_MT_TODOROKIMICHI01A );
+// 	SS_( RIGHT, SAKURAKO_0403BS );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03BS.png,(x),r,(s),60%
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ip,c2,(fi),KANAME_A202.png,(psi),KANAME_An02BS.png,(x),l,(s),60%
+#ig
+
+// 	SS_( CENTER, MII_0903NO2 );
+
+// 	SS( LEFT, KANAME_0202BS );
+
+#show
+
+// SAKURAKO_0403BS
+#sp,vo,03000192
+桜子
+「ほら、みい」
+$k
+
+// MII_0903NO2
+#sp,vo,03030031
+みい
+「はい…」
+#meffect,flow,5
+$k
+
+#sp,se,Ma_Clap01
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),10
+#ip,c3,(y+),10
+#ig
+
+// 	WaitSE( -1 );
+
+&empty
+桜子の声でみいちゃんが片手をあげると、
+桜子はその手をきゅっと掴む。
+$k
+
+&empty
+もう片方の手は、いつの間にか要さんが握っていた。
+$k
+
+優
+「みんな、気をつけてな」
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000193
+桜子
+「優はしっかりお店を頼むわよ」
+$k
+
+優
+「おみやげは気にしないでいいから。
+　いやほんと、いきなり店番頼んだからって、
+　気を遣う必要とか、全然無いから」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000194
+桜子
+「そお？
+$nw,990
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AZ.png,(x),r,(s),60%
+#ig
+
+　じゃあ雪華ちゃんの分だけ買ってくるわね？」
+
+$k
+
+優
+「おおーい…」
+#meffect,flow,5
+$k
+
+&empty
+いやいや、そこは
+悪いから買ってくるよー、とか…なあ？
+$k
+
+// KANAME_0202EG
+#ir
+#ip,c2,(fi),KANAME_A202.png,(psi),KANAME_An02EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03020039
+要
+「それではしゅっぱーつ！」
+#mlarge
+$k
+
+// SAKURAKO_0402NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000195
+桜子
+「じゃあ留守番よろしくねー」
+$k
+
+// MII_0903MU
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030032
+みい
+「………」
+#meffect,flow,5
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r0,(al),0
+#ip,c3,(x),l0,(al),0
+#ip,c2,(x),l2,(al),0%
+#ig
+
+&empty
+い、行ってしまった…。
+$k
+
+優
+「…ふうん」
+$k
+
+&empty
+けど、３人で手を繋ぐなんて、珍しい光景だなぁ。
+$k
+
+&empty
+あ、そういえばみんなして
+何処行くのか聞いてなかったな。
+$k
+
+&empty
+………。
+$k
+
+&empty
+…ま、いいか。
+お土産に期待するとしよう。
+$k
+
+#sp,vo,03070037
+？？？
+#mstyle,(co),めぐみ
+「お～い、優ちゃんまだぁ～～？」
+$k
+
+&empty
+店内から誰かの声がする。
+$k
+
+#hide
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「まだ店は開いてませんよー」
+$k
+
+#sp,vo,03070038
+？？？
+#mstyle,(co),めぐみ
+「開店前なのは知ってるわよぉ」
+$k
+
+// 	SS( CENTER, MEGUMI_0401BS, MOVE_LEFT, NORMAL );
+
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+優
+「………めぐみか」
+$k
+
+// MEGUMI_0401EG
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03070039
+めぐみ
+「は～い、助っ人のめぐちゃんでぇ～す。
+$nw,3990
+
+　今日はよろしくねぇ～？」
+$k
+
+優
+「婆さんが言ってた助っ人って、
+　めぐみのことだったのか」
+$k
+
+// MEGUMI_0401NO
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070040
+めぐみ
+「そうだよ～♪」
+$k
+
+優
+「たこ焼き、焼いた事あんのか？」
+$k
+
+// MEGUMI_0401BS
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070041
+めぐみ
+「もっちろんよぉ～。
+$nw,1500
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01AZ.png,(x),c,(s),60%
+#ig
+
+　でなきゃ優ちゃんのお手伝いが
+　出来ないじゃな～い？」
+$k
+
+&empty
+そうかもしれないけれど、
+めぐみがたこ焼きを焼く姿が想像できない。
+$k
+
+// MEGUMI_0401EG3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070042
+めぐみ
+「今日は夫婦水入らずでがんばろ～ねっ♪」
+$k
+
+優
+「めぐみと水入らずはいやだな。
+$nw,1000
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+　雪華ちゃんがいい！」
+
+$k
+
+// 	SetIconHeart( CENTER );
+
+// MEGUMI_0401TR2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070043
+めぐみ
+「優ちゃんが拒めば拒むほど、
+　燃え上がるこの乙女心……
+$nw,5510
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG8.png,(x),c,(s),60%
+#ig
+
+　どうしようか～？」
+$k
+
+優
+「別にどうもしなくていいからな？
+　だいたいお前、自分の店の方はいいのかよ」
+$k
+
+// MEGUMI_0401EG4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070044
+めぐみ
+「うん大丈夫大丈夫。
+　あっちは勇樹ちゃんもいるし」
+$k
+
+優
+「そういやめぐみ、婆さん達って
+　どこに出掛けたか知ってるか？」
+$k
+
+// MEGUMI_0401KT5
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070045
+めぐみ
+「あ、優ちゃん聞いてなかったんだ？
+$nw,2700
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KS2.png,(x),c,(s),60%
+#ig
+
+　毎年この時期は、千寿お休みなのよ」
+$k
+
+優
+「毎年、なんで？」
+$k
+
+// MEGUMI_0401BS3
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070046
+めぐみ
+「みんなでお墓参りなんだって」
+$k
+
+優
+「え？　………なるほど、そっか」
+$k
+
+// 	SV( BG_SJ_TENNAI01A, FILTER_MONO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A_m.jpg,(s),100%
+#ig
+
+&empty
+命日、この時期だったんだな。
+$k
+
+
+#next,03sakurako05_02

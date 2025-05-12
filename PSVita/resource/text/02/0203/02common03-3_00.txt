@@ -1,0 +1,770 @@
+﻿// 既読フラグ
+#read_flag,95
+
+// セーブタイトル
+#flag,save_title,Ａｃｔ３－３,0,0
+
+// 	SV( BG_SJ_YU01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,Ａｃｔ３－３　聖なる夜なのに…
+$k
+#note,erase
+
+#show
+
+優
+「なあ桜子」
+$k
+
+// 	SS( CENTER, SAKURAKO_A403NO, MOVE_STOP, NORMAL );
+
+// SAKURAKO_A403NO
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000572
+桜子
+「……なにー？」
+$k
+
+優
+「最近さあ、勉強時間増えてねえか？」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000573
+桜子
+「あんた前の模試の判定どうだったっけ？」
+$k
+
+優
+「聞いてくれるなよ…」
+$k
+
+// SAKURAKO_A402NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000574
+桜子
+「いくら地元のランク低めっていっても、
+　一夜漬けじゃ受からないわよ？
+　お姉も滑り止めに受けてたけど落ちてたし」
+$k
+
+優
+「マジ？」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000575
+桜子
+「まあ二つ目受かってたから良かったけどね？」
+$k
+
+優
+「そ、そうか…」
+$k
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000576
+桜子
+「……それにしても、あんたのノートって地味よね？」
+$k
+
+優
+「いきなり何言ってんだお前は」
+$k
+
+&empty
+年の暮も迫り、受験も迫り…で、
+最近俺は、桜子と一緒に勉強をする事が多い。
+$k
+
+&empty
+今日も授業が終わった後、
+まっすぐ帰って来ては机に向かっていたのだ。
+………ほぼ強制的に、だが。
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000577
+桜子
+「あんたそんなノートで、
+　今迄よくやって来れたわね…感心するわ」
+$k
+
+優
+「な、なんだよ？
+　ノートぐらいで、…普通こんなもんだろ？」
+$k
+
+// SAKURAKO_A402KM
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000578
+桜子
+「あんたのノート、解りにくそう。
+　板書そのまま写してるだけなんじゃないの？」
+$k
+
+優
+「そ、そんなことは………お前はどうなんだよ？」
+$k
+
+&empty
+今更ノートのとり方に突っ込みが入るとは、
+思ってもいなかった。
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000579
+桜子
+「あたしは自分に分かり易くを心がけてるけど」
+$k
+
+優
+「どれどれ？
+$nw,1000
+
+　……ふっ、色が付いてカラフルなら
+　いいってもんじゃないだろ桜子君？」
+
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000580
+桜子
+「……あんた今、女子はこれだから～？
+　みたいな事考えたでしょ！」
+$k
+
+優
+「いや、だって目がチカチカすんだろー？
+　これだから…」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"こんこん。" );
+// SAKURAKO_A402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000581
+桜子
+「だからこそ、ぱっと見でポイントが…
+$nw,1000
+
+#sp,se,S_Knock01
+
+$nw,500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+　はーい、どーぞー？」
+
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door03o
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),c,(al),100
+#ig
+
+#show
+
+// 	SS_( CENTER, MEGUMI_0401EG, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// MEGUMI_0401EG
+#sp,vo,02070157
+めぐみ
+「やっほ～ぅ、お二人さん。
+　お勉強中の所、お邪魔だったかしら～ん？」
+$k
+
+// SAKURAKO_A401TR4
+
+#sp,vo,02000582
+桜子
+「なんだ、めぐじゃない。
+　今日は？　お店はいいの？」
+$k
+
+// MEGUMI_0401KM
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070158
+めぐみ
+「あ～、今日はねぇ、クリスマスにそなえて、
+　店に新型のプレート導入とかで、
+　業者が設置に来てて今暇なのよ～」
+$k
+
+// MEGUMI_0401KM7
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070159
+めぐみ
+「親父もさ、
+$nw,1500
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01AZ.png,(x),c,(s),60%
+#ig
+
+#madd,『最近は電熱式プレートの性能も
+　なかなかどうしたもんだ』
+$nw,4200
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM3.png,(x),c,(s),60%
+#ig
+
+　とかうるさいからさ～」
+$k
+
+// SAKURAKO_A402NO
+
+#sp,vo,02000583
+桜子
+「ふーん」
+$k
+
+// 	SS_( RIGHT, MEGUMI_0401KT5, MOVE_STOP, NORMAL );
+// 	SS( LEFT, ISAKI_0401MU, MOVE_LEFT, NORMAL );
+
+// ISAKI_0401MU
+#ir,(ef),off
+#ip,c2,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l,(al),100%
+#ip,c3,(x),r
+#ig
+
+#sp,vo,02010235
+勇樹
+「……菓子を持って図書館で勉強、
+　というのは嘘だったのだな」
+$k
+
+優
+「あ、宮津橋も来てたのか」
+$k
+
+// ISAKI_0401IK
+#ir
+#ip,c2,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010236
+勇樹
+「…騙されただけだ」
+
+#mfuri,　　　　だま
+
+$k
+
+// MEGUMI_0401BS2
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070160
+めぐみ
+「まあ、そ～ゆ～訳で暇つぶしと差し入れも兼ねて
+　一緒に勉強会などしようかと？」
+$k
+
+// SAKURAKO_A401NO
+
+#sp,vo,02000584
+桜子
+「なるほど、
+$nw,1200
+
+　じゃあテーブル増やすから、
+　めぐ達はそこら辺座ってゆっくりしてて」
+$k
+
+// MEGUMI_0401EG8
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG8.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070161
+めぐみ
+「あ～じゃあその間に、私お茶の用意しようか～？」
+$k
+
+// SAKURAKO_A402EG
+
+#sp,vo,02000585
+桜子
+「いいよいいよ、差し入れだけで十分っ。
+$nw,2400
+
+　お茶は妹に頼むから」
+$k
+
+// MEGUMI_0401KT5
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02070162
+めぐみ
+「そう？
+$nw,1700
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01TR2.png,(x),r,(s),60%
+#ig
+
+　いきなり押しかけて来たのに悪いわねぇ～？
+$nw,2000
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c2,(x),l2,(al),0
+#ig
+
+#ir,(sync),NO
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01AK.png,(x),r,(s),60%
+#ig
+
+#sp,se,T_tukamu
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+　はいはい、勇樹ちゃんは帰ろうとしないのぉ！」
+
+$k
+
+// SAKURAKO_0401KS2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),c,(s),60%
+#ie,c2,c3
+#ig
+
+#sp,vo,02000586
+桜子
+「じゃあ行って来るわ」
+$k
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),r0,(al),0%
+#ig
+
+// MEGUMI_0401EG3
+
+#ir,(sync),NO
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02070163
+めぐみ
+「あ～い、いってらっさ～い」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_MII
+
+// 	SV( BG_SJ_YU01D );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01D.jpg,(s),100%
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"こんこん。" );
+#sp,se,S_Knock01
+
+#show
+
+#sp,vo,02030262
+みい
+「失礼します。みいで御座いますー。
+　お茶をお持ち致しましたー」
+$k
+
+// SAKURAKO_A401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000587
+桜子
+「お、来た来た」
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「はーい、今」
+$k
+
+#sp,se,S_Door03o
+
+&empty
+俺が行くより先にドアが開く
+そこにはみいちゃんが三つ指ついて土下座。
+……ではなくお辞儀をしていた。
+$k
+
+// 	SS_( CENTER, MII_0403EG, MOVE_DOWN, SLOW );
+
+#ir,(ef),off
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c3,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(y+),-100,(al),100%
+#ig
+
+// MII_0403EG
+#sp,vo,02030263
+みい
+「大変お待たせ致しました。
+　当店自慢、午後のティー、で御座います。
+$nw,6600
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KD2.png,(x),c,(s),60%
+#ig
+
+　あ、お兄様の分はコーヒーでしたね」
+$k
+
+&empty
+これは一体何ごっこなんだろう。旅館？　喫茶店？
+$k
+
+優
+「ああ、ありがとう。じゃあ…」
+$k
+
+// MII_0403EG3
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030264
+みい
+「ああ、お構いなく。
+　皆様どうぞおくつろぎ下さい。
+　受験勉強でお疲れなのですから」
+$k
+
+優
+「えー…そう？」
+#meffect,flow,5
+$k
+
+&empty
+この微妙な優しさ。
+まだ続いてるのかな………あのネタ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01D.jpg,(s),100%
+#ig
+
+#show
+
+// 	// 田坂注：位置情報（仮・背景画像によって変更する可能性あり）
+// 	// 　　　　現在の配置理由は以下の通り
+// 	// 　　　　　　・みいが扉付近におり、めぐみの右手側（なでやすい位置）にいる
+// 	// 　　　　　　・めぐみに無理矢理連れてこられた勇樹はめぐみの隣
+// 	// 　　　　　　・桜子⇔みいのやりとりがあるので桜子はみいの隣、優は消去法
+// 	//		　　[窓]　　　　 　 |押
+// 	//		　　　　勇樹　 　　 |入
+// 	//		めぐみ (ﾃｰﾌﾞﾙ) 優　 ＿
+// 	//		　　　みい 桜子　　|棚
+// 	//		[扉]
+
+
+優
+「あ、美味いなこれ」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01EG.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A401EG
+#sp,vo,02000588
+桜子
+「そりゃあうちの妹が心を込めて淹れ…」
+$k
+
+// 	CCFR( MII_A403EG3 );
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r2,(s),80%
+#ig
+
+// MII_A403EG3
+#sp,vo,02030265
+みい
+「はいー。姉上直伝ですから。
+　コーヒーメーカーの使い方も
+　紅茶の淹れ方も丁寧に教えてもらいましたので」
+$k
+
+// 	CCFL( SAKURAKO_A401TR );
+
+// SAKURAKO_A401TR
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000589
+桜子
+「う゛っ、ちょっと、みいったら…」
+$k
+
+&empty
+桜子もこっちノリのみいちゃんとはやりにくそうだな。
+……やっぱ騙されてるんだろうな、桜子。
+#mfuri,　　　　　　　　　　だま
+
+$k
+
+// 	CCMS( MEGUMI_A401BS4 );
+
+// MEGUMI_A401BS4
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS4.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,02070164
+めぐみ
+「うんおいしぃ～♪
+$nw,2800
+
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG7.png,(x),c,(s),80%
+#ig
+
+　みいちゃんよくできました」
+$k
+
+// 	CCMS( ISAKI_A402BS );
+
+// ISAKI_A402BS
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02010237
+勇樹
+「……うむ」
+$k
+
+// 	CCMS( MEGUMI_A401EG );
+
+
+// MEGUMI_A401EG
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02070165
+めぐみ
+「なで、なで～♪」
+$k
+
+// 	CCFL( MII_A401TR );
+
+// MII_A401TR
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01TR.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030266
+みい
+「ああ、そんな…なでなでされるほどの事では。
+　これも姉上の指導の賜物で御座いますので」
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　たまもの
+
+$k
+
+// 	CCFL( SAKURAKO_A401TR );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),l2,(s),80%
+#ig
+
+// SAKURAKO_A401TR
+#sp,vo,02000590
+桜子
+「うぐぐ…」
+$k
+
+&empty
+これはもう嫌がらせだよなー？
+$k
+
+// 	CCMS( MEGUMI_A401AZ2 );
+
+// MEGUMI_A401AZ2
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01AZ2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02070166
+めぐみ
+「ほほう…」
+$k
+
+// 	CCMS( MII_A401KY2, NORMAL );
+// MII_A401KY2
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),c,(s),80%
+#ie,c1,c2
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\hirameki.png,(x),620,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,02030267
+みい
+「あら、お兄様のノート…
+$nw,3300
+
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01KS.png,(x),c,(s),80%
+#ig
+
+　えっと、………大変モノトーンで……趣のある字で、
+　すっきりしていて目に優しい…ですね？」
+$k
+
+優
+「いや、そんな気を遣わなくていいよ？」
+$k
+
+&empty
+確実に嫌がらせだ！
+$k
+
+// 	CCMS( ISAKI_A401NO );
+
+// ISAKI_A401NO
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02010238
+勇樹
+「たしかに勉強しない奴のノートだな」
+$k
+
+// 	CCMS( SAKURAKO_A401AZ );
+
+// SAKURAKO_A401AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AZ.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000591
+桜子
+「ほら優、だから言ったじゃない」
+$k
+
+優
+「ぐ…
+$nw,1000
+
+　宮津橋はもう少し人に対して気を遣った方が
+　いいと思うぞっ」
+$k
+
+
+#next,02common03-3_01

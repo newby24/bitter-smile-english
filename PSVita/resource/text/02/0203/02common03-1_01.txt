@@ -1,0 +1,727 @@
+﻿// 既読フラグ
+#read_flag,87
+
+&empty
+…お兄ちゃんは寂しいよ。
+$k
+
+優
+「やっぱあれかな？
+　クリスマス前には、皆優しい気持ちになるというか」
+$k
+
+優
+「そう、昔は雪華ちゃんも似たような事をね…」
+$k
+
+&empty
+俗に言う、プレゼントのおねだりというやつだ。
+$k
+
+// SAKURAKO_A201EG
+#ir
+#ip,c1,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000521
+桜子
+「そうねー。
+　期待されてるわね、優」
+$k
+
+優
+「桜子はプレゼント何に……」
+$k
+
+// 	SS_( CENTER, SAKURAKO_A202NR, MOVE_LEFT );
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig,(se),S_Pon02
+
+優
+「うおっ！？」
+$k
+
+&empty
+突然、隣を歩いていた桜子が俺の鼻を突いてきた。
+$k
+
+// SAKURAKO_A202NR
+#sp,vo,02000522
+桜子
+「よく聞いて優。
+　これから言う事は絶対だからね？」
+$k
+
+優
+「は？　どうしたんだよ桜子」
+$k
+
+// SAKURAKO_A202IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000523
+桜子
+「みいの事！」
+#mlarge
+$k
+
+優
+「う、うん？」
+$k
+
+// SAKURAKO_A202NR
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000524
+桜子
+「みいの前でサンタを否定しない事！」
+$k
+
+優
+「………………あ？　お前なに言ってんの？」
+$k
+
+// SAKURAKO_A203NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000525
+桜子
+「あの子はね、サンタを信じてるの。
+　夢を壊さない様に。
+$nw,5000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),80%
+#ig
+
+　以上！　分かった？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「え、ええー？　まさかっ！？」
+$k
+
+&empty
+あのみいちゃんがっ？
+$k
+
+// SAKURAKO_A203KT
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000526
+桜子
+「なによ？」
+$k
+
+優
+「いやいやーっ、そんな訳ないだろう？
+　こんな世の中に、あの歳でだぞ？
+　雪華ちゃんでさえ、もうとっくの昔に…」
+$k
+
+// SAKURAKO_A203IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000527
+桜子
+「信じてるっていったら信じてるのっ。
+　大人しくそういう事にしておきなさい」
+$k
+
+優
+「えええーっ、そんな理不尽な」
+$k
+
+// SAKURAKO_A202NR
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000528
+桜子
+「どこが理不尽なの。別に難しい事じゃないでしょ？」
+$k
+
+&empty
+難しいって！
+$k
+
+優
+「いやでもなあ、それはどう考えても無理っつーか、
+　まだ信じてるって、それ奇跡クラスじゃないか？」
+$k
+
+&empty
+それに、あのおねだり的な優しさ、とかさあ？
+$k
+
+&empty
+いや待て、知人からのプレゼントは別扱いか？
+$k
+
+// SAKURAKO_A202IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000529
+桜子
+「じゃあ、お願いね。
+$nw,1700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03FK.png,(x),c,(s),80%
+#ig
+
+　じゃなかった、
+$nw,800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),80%
+#ig
+
+#madd,命令よ！　いいわねっ！」
+
+$k
+
+優
+「命令って、いつからお前は俺の上官になった」
+$k
+
+// SAKURAKO_A203NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000530
+桜子
+「じゃあ、あたし先に行くから。
+$nw,2000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+　後はしっかり勉学に励みなさい」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),l0,(al),0
+#ig
+
+優
+「おーい！　……って行っちまったよ」
+$k
+
+&empty
+マジかよ。
+本当に轟木家には奇跡がっ？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+//	WT( 50 );
+//	SetSubTitle( 1 );		//章タイトル表示
+//	WT( 50 );
+// 	SV( BG_GK_ROKA01A );
+
+#sp,env,S_Gaya01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	SS( CENTER, ISAKI_0201NO, MOVE_LEFT, SLOW );
+// ISAKI_0201NO
+
+#show
+
+#sp,vo,02010218
+勇樹
+「………」
+$k
+
+優
+「あっ」
+$k
+
+&empty
+トイレから出た直後。
+同じくトイレから出てきた宮津橋と目が合った。
+$k
+
+優
+「よ、よう、元気か？」
+#meffect,flow,5
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010219
+勇樹
+「すっきりした気分だったが、今不愉快になった」
+$k
+
+// 	SS_( CENTER, ISAKI_0201MU, MOVE_STOP, 0 );
+// 立ち絵移動。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+そう言って宮津橋は踵を返す。トイレに。
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「待て待て！　俺が何を！？
+　そこまで嫌わなくても、ねっ？
+　いや、悪かった。以前騙したのは謝るけどもっ！」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　だま
+$k
+
+&empty
+あとすっきりとか、表現する方向性に気を遣ってくれ。
+$k
+
+// ISAKI_0201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010220
+勇樹
+「……冗談だ」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KAIDAN01A );
+// 	ZoomVisual( 0, 150, 150, 100, 0 );
+
+// 	SS( CENTER, ISAKI_0201IK );
+
+#sp,bgm,BGM_KANAME
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KAIDAN01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#show
+
+// ISAKI_0201IK
+#sp,vo,02010221
+勇樹
+「なぜ付いて来る？
+　私は今、お前に用は無いが」
+$k
+
+優
+「いや、まあ。いいだろ、休み時間だし。
+　俺の方には用があるんだよ」
+$k
+
+&empty
+今出来た、というか思い出した。
+宮津橋に聞くのもどうかと思うけど…。
+$k
+
+&empty
+休み時間。
+教室へ戻る途中に、トイレで出くわした宮津橋に
+意見を求めようと俺は…。
+$k
+
+// ISAKI_0201AZ
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01AZ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010222
+勇樹
+「……ちっ」
+$k
+
+&empty
+そこで舌打ちって。俺ってそんなに？
+$k
+
+優
+「えっと………元気か？
+　めぐみ達とはうまくやってるのか？」
+$k
+
+// ISAKI_0201IK
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010223
+勇樹
+「お前はそんな事を聞くために私を付け回すのか？」
+$k
+
+優
+「いや、それも大事な事だし」
+$k
+
+&empty
+あんな事のあった後だしな。少しは気にするって。
+$k
+
+// ISAKI_0201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010224
+勇樹
+「………ぼちぼちだ」
+$k
+
+優
+「そうか、そりゃ良かった。
+　あとさあ…」
+$k
+
+// ISAKI_0201KB
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010225
+勇樹
+「なんだ、まだあるのか？」
+$k
+
+&empty
+こいつ少しは変わったかな……って思ったんだが、
+相変わらず淡白すぎるよ。
+$k
+
+優
+「えーっと、そうだな………宮津橋さ、
+　…サンタってどう思う？」
+$k
+
+// ISAKI_0201NR
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010226
+勇樹
+「紅白爺さんがどうした。
+　私はなんとも思わないが？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「紅白爺さんっ！？
+$nw,1000
+
+#madd,　………お前の場合マジなのか
+　冗談なのかよくわからんが…、
+　いや、なんでもない、忘れてくれ」
+$k
+
+&empty
+やっぱり嫌な思い出の一つもあるのか……。
+でも紅白爺さんってのはどうなんだ？
+$k
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010227
+勇樹
+「…くだらん話だ」
+$k
+
+優
+「なんか怒ってる？」
+$k
+
+&empty
+声は普段どおりだが、
+そんな顔をしてる気がしないでもない。
+$k
+
+// ISAKI_0201IK
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010228
+勇樹
+「ふん、矢崎にはどうでも…」
+$k
+
+#ir
+#ie,c1
+#ig
+
+#sp,vo,02040305
+？？？
+#mstyle,(co),知世翔
+「両先輩方っ！！」
+$k
+
+優
+「おおっとー？
+　………どこから声が？」
+$k
+
+// 	Zoom(    0, 100, 100, 0, 150 );
+// 	Zoom( FAST, 130, 130, 0, 150 );
+
+//#sp,se,K_Nyu01
+
+// 	Zoom( 0, 130, 130, 0, 150 );
+// 	Scroll( FAST, 320, 0 );
+
+//#sp,se,K_Nyu01
+
+// 	Zoom( FAST, 100, 100, 0, 150 );
+// 	Scroll( FAST );
+
+&empty
+周りを見回しても宮津橋以外、人は居ない。
+$k
+
+// ISAKI_0201NO
+
+#sp,vo,02010229
+勇樹
+「………」
+$k
+
+#sp,vo,02040306
+？？？
+#mstyle,(co),知世翔
+「ぐぬっ………っ、まあいいですけどねえっ？
+　もう少し下を向いて下さると嬉しいんですけどぉっ」
+$k
+
+優
+「下？　……………っ！？」
+$k
+
+// 	SS_( CENTER, CHISEKA_0201IK3, MOVE_STOP, NORMAL );
+
+#ir,(ef),off
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK3.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c3,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(y+),-100,(al),100%
+#ig
+
+// 	MoveStand( CENTER,      0, 0, 100 );
+// 	MoveStand( CENTER, NORMAL, 0,  50 );
+
+優
+「すまん有河、気付かなかった」
+$k
+
+&empty
+すぐ横に有河のシルバーな頭が見えた。
+今日は普通に気付かなかった。
+$k
+
+// CHISEKA_0201IK4
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040307
+知世翔
+「………っ！！
+　ワザとじゃないっぽい所が、余計傷つくっ！」
+$k
+
+優
+「すまん！　ワザとじゃないんだ！」
+$k
+
+// CHISEKA_0201IK2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040308
+知世翔
+「もういいですっ！　変な気を遣わないでくれますか！？
+$nw,4700
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+　そんな事より、階段の途中で話しこまないで下さい」
+
+$k
+
+優
+「おぉ、悪い悪い…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_ROKA01A );
+// 	SS( CENTER, CHISEKA_0201NO2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),60%
+#ig
+
+#show
+
+&empty
+そして階段を上りきると、有河はいきなり
+宮津橋を指差す。
+$k
+
+// CHISEKA_0201NO2
+#sp,vo,02040309
+知世翔
+「あ、宮津橋先輩！」
+$k
+
+// ISAKI_A202OD
+#ir
+#ip,c3,(fi),ISAKI_A202.png,(psi),ISAKI_An02OD.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02010230
+勇樹
+「……な、なんだ？」
+$k
+
+// CHISEKA_0201OD3
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040310
+知世翔
+「……はいいとして、
+$nw,2600
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+　矢崎先輩っ！！」
+
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「は、はいっ！」
+$k
+
+&empty
+初めに宮津橋を指名したのに油断してて、思わず
+元気よく返事をしてしまった…。
+$k
+
+// CHISEKA_A201IK
+#sp,vo,02040311
+知世翔
+「ついでだから言っておきますけど、みいの事っ！
+　くれぐれも夢を壊さないで下さいねっ！！」
+$k
+
+優
+「お前もかよ！？」
+$k
+
+&empty
+さすがは桜子の後輩だ。教育が行き届いている。
+$k
+
+// CHISEKA_A201NR
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02040312
+知世翔
+「みいは心の優しいピュアな女の子なんです。
+　あなたの邪悪な心で夢を汚さないで下さいよ？」
+$k
+
+優
+「わっ、分かってるって」
+$k
+
+#next,02common03-1_02

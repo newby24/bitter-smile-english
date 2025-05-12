@@ -1,0 +1,824 @@
+﻿// 既読フラグ
+#read_flag,159
+
+// セーブタイトル
+#flag,save_title,みい　第１３話,0,0
+
+// 	SV( BG_SJ_YU03A );
+
+//	BFP( BGM_SHIZUKA );
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第１３話　意外？な告白
+$k
+#note,erase
+
+#show
+
+優
+「どうしたものか…」
+$k
+
+&empty
+可愛らしく梱包されたチョコを眺めつつ嘆息する。
+$k
+
+&empty
+一番可能性があるのは……。
+$k
+
+&empty
+あの子だと思うんだけど。
+$k
+
+&empty
+…ありえるか？
+みいちゃんが俺にチョコをくれるだけでなく、
+直球ど真ん中メッセージを送ってくるなんてさ。
+$k
+
+&empty
+他に差出人がいると思った方が無難だよなぁ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Door03o
+
+#wait,500
+
+#sp,se,S_Cowbell02
+
+// 	WaitSE();
+
+// 	SV( BG_HS_TENNAI01A );
+// 	SS( CENTER, MEGUMI_0901KT6 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT6.png,(x),c,(s),60%
+#ig
+
+#sp,bgm,BGM_NICHIJYO
+
+#show
+
+// MEGUMI_0901KT6
+#sp,vo,05070011
+めぐみ
+「で、開店早々ここへ来たと」
+$k
+
+優
+「そういう事です、はい」
+$k
+
+&empty
+メッセージにあった日曜日の当日。
+朝から俺はハッピーシ～サ～にやってきていた。
+$k
+
+優
+「念のため確認するけど…
+　差出人が、めぐみって事はねぇよな？」
+$k
+
+// MEGUMI_0901KM3
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070012
+めぐみ
+「今年は受験でそれどころじゃなかったからなあ」
+$k
+
+優
+「そっか」
+$k
+
+優
+「…という事はもしかして、チョコは
+　受験生以外から送られた物か？」
+$k
+
+// MEGUMI_0901SP3
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01SP3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070013
+めぐみ
+「短絡的ねぇ」
+$k
+
+優
+「う…」
+$k
+
+// MEGUMI_0901AZ2
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01AZ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070014
+めぐみ
+「好きっていう想いが強いなら、
+　受験生なんて肩書きは関係ないって」
+$k
+
+// MEGUMI_0901EG4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070015
+めぐみ
+「好きな人に想いを伝える、
+　絶好のチャンスなんだもの♪」
+$k
+
+優
+「ドリーマーめ…」
+$k
+
+// MEGUMI_0901KM2
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070016
+めぐみ
+「なによぅ、乙女だもん」
+$k
+
+&empty
+口を尖らせためぐみは、ちょっと可愛かった。
+$k
+
+// MEGUMI_0901KT6
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT6.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070017
+めぐみ
+「優ちゃんには、心当たりがないの？」
+$k
+
+優
+「あるような、ないような…」
+$k
+
+// MEGUMI_0901NO
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070018
+めぐみ
+「桜子とか」
+$k
+
+// 	Shake( SLOW, SHAKE_RANDOM|SHAKE_SCREEN, 10, 5 );
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「ぶーっ」
+$k
+
+// MEGUMI_0901KM3
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM3.png,(x),c,(s),60%
+#ig
+
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05070019
+めぐみ
+「うわー、
+$nw,1000
+
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01IK5.png,(x),c,(s),60%
+#ig
+
+　汚ったないなあ！？」
+
+$k
+
+優
+「あ、アイツが一番ないだろ」
+$k
+
+// MEGUMI_0901OD3
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070020
+めぐみ
+「…そーかなぁ？」
+$k
+
+優
+「大体、あいつからは義理をもらってるし」
+$k
+
+// MEGUMI_0901KT2
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070021
+めぐみ
+「ふーん…じゃあ、カノジョとか？」
+$k
+
+// 	SS( RIGHTOUT, ISAKI_0501NO );
+// 	CS_( CENTER, LEFTOUT );
+// 	CS( RIGHTOUT, CENTER );
+
+#ir
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),r3,(s),60%
+#ig
+
+&empty
+めぐみが横目でちらりと見るその先には、
+無言でクレープを焼く黒髪の怖い美少女がいる。
+$k
+
+#ir
+#ie,c3
+#ig
+
+優
+「ないない」
+$k
+
+// 	SS( LEFTOUT, MEGUMI_0901KT6 );
+// 	CS_( CENTER, RIGHTOUT );
+// 	CS( LEFTOUT, CENTER );
+
+// MEGUMI_0901KT6
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT6.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070022
+めぐみ
+「偽物でもカノジョじゃないの？」
+$k
+
+// MEGUMI_0901BS4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070023
+めぐみ
+「バレンタインという聖なるイベントで、
+　カノジョという義理を果たしたとかさ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+絶対にない。
+$k
+
+&empty
+断言できる……たぶん。
+$k
+
+&empty
+…もし。
+もしもだぞ？
+$k
+
+&empty
+これが宮津橋からのチョコで、
+めぐみが言った通りの理由だったら、
+俺は感動で涙する。
+$k
+
+&empty
+義理でも何でも、
+宮津橋にそんな女の子らしい面があったとは。
+$k
+
+&empty
+とは言え…、
+メッセージカードの内容からすると、
+それはやっぱりないと思うんだけどなぁ？
+$k
+
+// 	SS( CENTER, MEGUMI_0901SP );
+
+// MEGUMI_0901SP
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070024
+めぐみ
+「勇樹ちゃん、そこんとこ、どうなの？」
+$k
+
+優
+「おい…め、めぐみ、ここで聞くのか？」
+$k
+
+&empty
+バ、バレンタインはもっとナイーブなイベントだぞ？
+$k
+
+&empty
+そんな風に聞いちゃいけないものなんじゃないかなって
+思うんだけど、そこんとこどうなんだよ？
+$k
+
+// 	SS( RIGHTOUT, ISAKI_0502KT );
+// 	CS_( CENTER, LEFTOUT );
+// 	CS( RIGHTOUT, CENTER );
+
+// ISAKI_0502KT
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A502.png,(psi),ISAKI_An02KT.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ig
+
+#sp,vo,05010007
+勇樹
+「なんの話だ」
+$k
+
+&empty
+話を聞いていなかったのか、きょとんとしている。
+$k
+
+// MEGUMI_0901BS4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070025
+めぐみ
+「だからぁ、優ちゃんにチョコをね…？」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05010008
+勇樹
+「チョコがどうした？
+　くれるならもらうぞ？」
+$k
+
+// MEGUMI_0901EG4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070026
+めぐみ
+「じゃなくって、バレンタインデーに
+　優ちゃんへチョコを送ったかって？」
+$k
+
+// ISAKI_0501IK
+#ir
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01IK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05010009
+勇樹
+「バレンタイン？
+　なんだくだらん。そんな話か」
+$k
+
+&empty
+そうだよ、そういうもんだよ。
+別に期待なんかしてなかったし。
+$k
+
+// ISAKI_0502KT
+#ir
+#ip,c3,(fi),ISAKI_A502.png,(psi),ISAKI_An02KT.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05010010
+勇樹
+「なに泣いてるんだ」
+$k
+
+優
+「泣いてねぇ……っ」
+$k
+
+&empty
+しくしくしく…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 	SS_( LEFT, MEGUMI_0901MJ2 );
+// 立ち絵移動。パラメータは適宜。
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01MJ2.png,(x),l,(s),60%
+#ip,c3,(fi),ISAKI_A502.png,(psi),ISAKI_An02KT.png,(x),r,(s),60%
+#ig
+
+// 	SS( RIGHT, ISAKI_0502KT );
+
+#show
+
+// ISAKI_0502KT
+#sp,vo,05010011
+勇樹
+「そうか……相手がわからないのでは、
+　対応のしようもないな」
+$k
+
+優
+「うん。それで、誰が差出人かを捜してるんだ」
+$k
+
+// ISAKI_0502NO
+#ir
+#ip,c3,(fi),ISAKI_A502.png,(psi),ISAKI_An02NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05010012
+勇樹
+「送ってきたのは、お前に好意を寄せている奴だろう？
+　心当たりはないのか？」
+$k
+
+// MEGUMI_0901EG6
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG6.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05070027
+めぐみ
+「鈍感な優ちゃんに、わかるわけないでしょ」
+$k
+
+//	SP( "K_Shock01" );
+// 	SK2();
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+&empty
+バッサリ切られたよ、バッサリ！
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05010013
+勇樹
+「仲良くしている奴とは限らないな。
+　知らない人物が送ってきた可能性もある」
+$k
+
+// MEGUMI_0901TR
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01TR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05070028
+めぐみ
+「そうなのよねぇ～。優ちゃんのことが好きで好きで
+　しょうがないけど、今まで話しかける事もできずに、
+　ずっとこっそり物陰から見続けている娘が居てさあ」
+$k
+
+// MEGUMI_0901TY
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01TY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05070029
+めぐみ
+「それがバレンタインをきっかけに
+　行動を開始したり…とか？」
+$k
+
+優
+「表現が不気味だぞ」
+$k
+
+&empty
+なんで、怖い方に思考を持っていこうとする。
+$k
+
+// MEGUMI_0901TR
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01TR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05070030
+めぐみ
+「まあ、可能性は無限にあるわよね～」
+$k
+
+優
+「限りなくゼロに近い可能性を論じている余裕はない」
+$k
+
+&empty
+なんつーか…、
+結局、有力な情報は得られないか。
+$k
+
+優
+「とりあえず戻って考えるか」
+$k
+
+// MEGUMI_0901BS
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05070031
+めぐみ
+「そうね。桜子達にはお昼ご飯の時にでも
+　聞いてみたら？　それとなく」
+$k
+
+優
+「おう、そうする」
+$k
+
+&empty
+轟木三姉妹の中に、送り主が居るとは思えないけどな。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01D );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01D.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+メッセージに書かれた時間まで、あと２時間近くか。
+$k
+
+&empty
+桜子は台所で昼飯の支度中。
+今は要さん、みいちゃん、雪華ちゃんが居間にいる。
+$k
+
+// KANAME_0401RK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05020059
+要
+「２月なのに、ちっとも雪が降らないわね～。
+　つまんな～い」
+$k
+
+// 	SS_( CENTERLEFT, KANAME_0401RK );
+
+// 	SS( CENTERRIGHT, MII_0403NO );
+
+// MII_0403NO
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05030737
+みい
+「雪が降ったら雪合戦をしたり、
+　雪だるまを作るんですか？」
+$k
+
+// KANAME_0401TR
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01TR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05020060
+要
+「それもいいけど、やっぱり雪見酒よ～」
+$k
+
+// MII_0402SP
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02SP.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05030738
+みい
+「はあ。お酒ってそんなに美味しいですかね」
+$k
+
+// KANAME_0401TR
+#sp,vo,05020061
+要
+「みいちゃんったら年相応な反応しちゃって。
+　かーわいいー♪」
+$k
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),l0
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+&empty
+みいちゃんの頭をグリグリ撫でる要さん。
+$k
+
+// MII_0403TR4
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03TR4.png,(x),r,(s),60%
+#ig
+
+// 気づきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\kiduki.png,(x),720,(y),30,(ag),-20d
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,05030739
+みい
+「ふあぁ？　あ、あうっ」
+$k
+
+// MII_0403TR2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03TR2.png,(x),r,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),500,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05030740
+みい
+「お姉様、やめてください……みゃううう」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+// YUKIHA_0401EG2
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG2.png,(x),l3,(s),60%
+#ig
+
+#sp,vo,05050063
+雪華
+「みいちゃん、可愛い反応だね」
+$k
+
+// MII_0403AD2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AD2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05030741
+みい
+「ああっ、そんな微笑ましい顔で見ないで下さい、
+　私、雪華さんより年上ですよ、あぁぁ」
+$k
+
+// KANAME_0403IT5
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03IT5.png,(x),l0,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),3
+#ip,c1,(x+),20
+#ig
+
+#sp,vo,05020062
+要
+「えいえい♪」
+$k
+
+// 	MoveStand( CENTERLEFT, 10|SPEED_UP, 10, 0 );
+// 	MoveStand( CENTERLEFT, 10|SPEED_UP, -1, 0, 1 );
+// 	MoveStand( CENTERLEFT, 10|SPEED_UP, -10, 0, 1 );
+// 	MoveStand( CENTERLEFT, 10|SPEED_UP, -1, 0, 1 );
+
+// MII_0403AD4
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AD4.png,(x),r,(s),60%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),over,(lc),3
+#ip,c3,(x+),-10
+#ig
+
+#sp,vo,05030742
+みい
+「みゃうー」
+$k
+
+// 	ShakeStand( CENTERRIGHT, NORMAL, SHAKE_LEFT, 5, 10 );
+// 	DelIconAll();
+// 	DelStand( -1 );
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+時間が迫ってるっていうのに、
+この緊迫感のなさ……みんな、いつも通りだ。
+$k
+
+&empty
+差出人は、ここに居ないんじゃねぇかな。
+$k
+
+#ss,bgm,(dr),1000
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),K_Kyupin01
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+// 	BGMStop();
+
+&empty
+はっ。
+$k
+
+
+#next,05mii13_01

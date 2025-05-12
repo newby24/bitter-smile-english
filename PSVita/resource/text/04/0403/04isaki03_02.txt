@@ -1,0 +1,145 @@
+﻿// 既読フラグ
+#read_flag,193
+
+// ISAKI_0601MU
+
+#sp,vo,04010050
+勇樹
+「天誅だ」
+$k
+
+#sp,vo,04990049
+クラスメイト
+「そう…。て、天誅じゃしかたないね。
+　……ごゆっくり～」
+$k
+
+&empty
+そそくさと、走り去る女子達。
+$k
+
+&empty
+ああ…せっかくいい雰囲気になっていたのに、
+…俺の馬鹿………。
+$k
+
+#hide
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+#sp,bgm,BGM_COMICAL2
+
+// 	CFI();
+
+// 	SetStandEx( CENTER, MEGUMI_0201BS2 );
+// 	MoveStand( CENTER, 0, 50, -280 );
+// 	MoveStand( CENTER, 50, 0, -280, 1 );
+// 	FadeStand( CENTER, 50, FADE_ALPHA, 100 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01C.jpg,(s),100%,(y),d_s
+#ig
+
+// MEGUMI_0201BS2
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS2.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,04070019
+めぐみ
+「たっだいま～。
+　あ、優ちゃん、待っててくれたんだ」
+$k
+
+優
+「おー」
+$k
+
+// MEGUMI_0201KT5
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04070020
+めぐみ
+「でも、床につっぷして、そんなに疲れちゃった？」
+$k
+
+// MEGUMI_0201SP
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04070021
+めぐみ
+「なんかコブもできてるし…、
+　どうしたのそれ？」
+$k
+
+優
+「…………天誅だ」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c3
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// イベント選択４回目へ。
+#next,90phase04

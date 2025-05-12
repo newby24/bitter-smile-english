@@ -1,0 +1,740 @@
+﻿// 既読フラグ
+#read_flag,153
+
+&empty
+わーすーれーてーたー！！！
+#mlarge
+$k
+
+&empty
+か、要さん、ここは誤解のないようにきちんと説明して！
+$k
+
+// YUKIHA_0401AS2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AS2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050027
+雪華
+「要お姉ちゃん、お兄ちゃんになんかされた？」
+$k
+
+優
+（…後生です要さん…！）
+$k
+
+&empty
+俺は、わらにもすがる思いで要さんに視線を送る。
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05020045
+要
+「大丈夫だって、雪華ちゃん。
+　早く帰るように言われてただけ。
+$nw,4960
+
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01SK.png,(x),r,(s),60%
+#ig
+
+　大体、優くんに私がどうにかできるわけないしー」
+$k
+
+// YUKIHA_0401KT
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05050028
+雪華
+「そっかあ」
+$k
+
+優
+「…ほっ」
+#msmall
+$k
+
+&empty
+微妙に心外な台詞が混ざっていたが、
+とりあえずそこは我慢しよう。
+$k
+
+// 	BF( NORMAL, 0 );
+
+#ss,bgm
+
+//	SetIconKyakya( RIGHT );
+// KANAME_0401BS
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01BS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05020046
+要
+「ただ、押入れになにか隠してるみたいだけどねー」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,bg,(fi),BG_SJ_YU03A_Z.jpg,(s),100%,(y),0
+#ig
+
+// 	ZoomVisual( 100, 200, 200, 800, 300 );
+// 	WaitZoomVisual();
+
+優
+「おおおお男の子の秘密だから絶対に開けさせない！」
+$k
+
+&empty
+瞬時に押入れの前に立ち塞がって、壁になる。
+$k
+
+&empty
+あの爆弾娘を失念していたこともさることながら、
+#mfuri,　　　　みいちゃん
+状況的に、その存在がこの３人にバレたりしたら…
+$k
+
+&empty
+どんな恐ろしいことになるか想像もつかない。
+$k
+
+// 	BF( SLOW, 100 );
+
+#sp,bgm,BGM_COMICAL1
+
+// YUKIHA_0401KM5
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM5.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05050029
+雪華
+「それは私も見たくないなあ…」
+$k
+
+// KANAME_0402IK
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02IK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05020047
+要
+「ううん、そういうんじゃなくて、
+　わたしの見立てだと捨て猫を隠してるね」
+$k
+
+// YUKIHA_0401IK
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05050030
+雪華
+「お兄ちゃん！」
+$k
+
+#ir
+#ie,c2,c3
+#ig
+
+#sp,vo,05000057
+桜子
+「あんたあたしの別荘に…！
+$nw,2580
+
+　っていうか、千寿は食べ物を扱ってるのよ」
+$k
+
+優
+「捨て猫とか拾わないから！」
+$k
+
+&empty
+俺もそこまでモラル欠如してねえよ！
+つか、まじめな雪華ちゃん以外は絶対興味本位だろ。
+$k
+
+#sp,vo,05000058
+桜子
+「だったら男らしく全開にして潔白を証明しなさいよ」
+$k
+
+優
+「できない事情もあるんだよ、わかれ！」
+$k
+
+// KANAME_0401MJ3
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01MJ3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05020048
+要
+「………そうだね。
+　正直、こんな問い詰めたりするのは趣味じゃない」
+$k
+
+優
+「要さん……」
+$k
+
+//	SetIconKyakya( RIGHT );
+// KANAME_0401BS2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01BS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05020049
+要
+「こうね、嫌がる相手の隙を見て、
+　ちょいっと覗き見ちゃうのが面白いというか…」
+$k
+
+優
+「要さんはもう黙っててください」
+$k
+
+// KANAME_0401KM2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05020050
+要
+「えー」
+$k
+
+// 	SS( CENTER, YUKIHA_A401AK3, MOVE_STOP, NORMAL );
+
+// YUKIHA_A401AK3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK3.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,05050031
+雪華
+「お兄ちゃん」
+$k
+
+優
+「雪華ちゃん…」
+$k
+
+// YUKIHA_A401SP
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05050032
+雪華
+「雪華にも、見せれないの？」
+$k
+
+優
+「う…」
+$k
+
+&empty
+雪華ちゃんの一人称が自分の名前になっている。
+ちょっと我を忘れている証拠だ。
+$k
+
+&empty
+けど、それでも…
+$k
+
+優
+「…ごめん」
+$k
+
+&empty
+だって見られた方が怖いし。
+$k
+
+#hide
+
+#ir
+#ie,c3
+#ig
+
+// 	WaitSE();
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#sp,se,S_Door03o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,05000059
+桜子
+「あー、もうじれったい！」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402IK7 );
+
+優
+「いっ…」
+$k
+
+// YUKIHA_A401AS
+
+#sp,vo,05050033
+雪華
+「桜子ちゃん」
+$k
+
+優
+「さ、桜子！？
+　あれ、だって携帯…」
+$k
+
+#sp,se,S_Tel11#
+
+// 	WaitSE();
+
+&empty
+すでに切れてる！？
+$k
+
+#ss,se
+
+//	SetIconIkari( CENTER );
+// SAKURAKO_A402IK7
+
+#sp,vo,05000060
+桜子
+「あんたがはっきりしないから来ちゃったじゃない」
+$k
+
+優
+「誰も頼んでねぇ！」
+$k
+
+// SAKURAKO_A402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05000061
+桜子
+「もう遅い。来ちゃった。過去形。
+$nw,2220
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+　さー、観念しなさい」
+$k
+
+優
+「できるかぁ！？」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05000062
+桜子
+「お姉、優を押さえ込んで。
+　雪華ちゃん、こっち開けるの手伝って」
+$k
+
+// YUKIHA_0401EG3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG3.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,05050034
+雪華
+「はーい」
+$k
+
+// 	SS( LEFT, YUKIHA_0401EG3 );
+
+// KANAME_0402EG
+#ir
+#ip,c2,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,05020051
+要
+「オッケー、
+$nw,1000
+
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01BS.png,(x),r2,(s),80%
+#ig
+
+　優くんこっちにいらっしゃーい」
+$k
+
+// 	SS( RIGHT, KANAME_0402EG );
+
+// 	SS( LEFTTOP, YUKIHA_A401EG3, MOVE_LEFT );
+
+優
+「待て待て待て待てー！」
+$k
+
+&empty
+なんだこの連係プレーは！？
+$k
+
+&empty
+あっという間に殺到された。
+$k
+
+// 	Shake( 0, SHAKE_LEFT|SHAKE_SCREEN, 4, 30 );
+
+// YUKIHA_A401IK
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,05050035
+雪華
+「お兄ちゃん、おとなしくしなさーい」
+$k
+
+// SAKURAKO_A402IK7
+#sp,vo,05000063
+桜子
+「大体これだけ必死になってる時点で怪しいのよ」
+$k
+
+優
+「だからって、見す見す
+　開けられるわけにはいかんのだー！」
+$k
+
+// KANAME_A401OD2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01OD2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,05020052
+要
+「わー、優くんすごい力だー」
+$k
+
+&empty
+押入れを開けようとする桜子達と、
+それを阻止せんとする外の俺と中のみいちゃん。
+$k
+
+&empty
+彼我戦力差は３対２。
+$k
+
+&empty
+この状況がすでに詰んだようなものだが、
+最後まであきらめなければ。
+$k
+
+優
+「必ず活路がぁぁあああああー！？」
+#mlarge
+$k
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	Shake( 10, SHAKE_LEFT|SHAKE_SCREEN, 4, 30 );
+
+&empty
+俺は群がる女子供を押しのけながら、
+這いつくばるように押入れの扉にすがりつく。
+$k
+
+&empty
+もはや、おのれの見た目など、構っていられない。
+$k
+
+&empty
+たとえ幼なじみや実の妹に足蹴にされようとも。
+$k
+
+// SAKURAKO_0402AK
+
+#sp,vo,05000064
+桜子
+「あんたねぇ…」
+$k
+
+&empty
+桜子の声に呆れが混じり、俺の体にかかる力が少し緩む。
+$k
+
+&empty
+しめた！
+$k
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03A_Z.jpg,(s),100%,(y),0
+#ig
+
+&empty
+幸い、状況的に桜子も暴力に訴えてきていない。
+$k
+
+&empty
+みっともない姿を晒す事にはなるだろうが、
+#mfuri,　　　　　　　　　　　　　　　　さら
+このままなら最悪の事態だけは免れるかも！
+$k
+
+&empty
+俺は体を反転させ、皆の方を向くと両手を広げて
+押入れを死守する構えをとる。
+$k
+
+優
+「頼むから、この場だけは見逃してくれ！」
+#mlarge
+$k
+
+// YUKIHA_0401SP2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01SP2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,05050036
+雪華
+「お兄ちゃん」
+$k
+
+&empty
+ああ、哀れむような目で見てくれてもいいさ。
+$k
+
+// KANAME_0401KM2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,05020053
+要
+「ま、まあ、そこまで言うなら…」
+$k
+
+// SAKURAKO_0402KM3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05000065
+桜子
+「あたしもさすがに
+　これ以上の醜態は見る気しないわ」
+$k
+
+優
+「あ、ありがとう、皆！」
+$k
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+乗り切った！
+奇跡だ！
+$k
+
+&empty
+神様ありがとう！
+$k
+
+#ss,bgm
+
+#sp,se,S_Husuma02o
+
+// 	BGMStop();
+// 	SV( BG_SJ_YU03B );
+// 	ZoomVisual( 0, 200, 200, 800, 300 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03B_Z.jpg,(s),100%,(y),0
+#ig
+
+&empty
+その瞬間…扉が内側の力から開けられたその瞬間、
+俺は、自分がすごい勘違いをしていたことに気づいた。
+$k
+
+//	BFO();
+// KANAME_0401OD
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,05020054
+要
+「え…？」
+$k
+
+&empty
+彼我戦力差は４対１だった。
+$k
+
+// YUKIHA_0401KT
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,05050037
+雪華
+「あ…」
+$k
+
+&empty
+悪魔は初めからそこにいた。
+$k
+
+// SAKURAKO_0402AS
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05000066
+桜子
+「あんた…」
+$k
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+つまり、状況は最悪で。
+$k
+
+// MII_0403TR
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR.png,(x),c,(s),100%
+#ig
+
+#sp,vo,05030664
+みい
+「すみません、私がいけないんです。
+　私がお願いしたから、お兄様は悪くないんです…！」
+$k
+
+優
+「棒読みで茶番だぁ―――っ」
+#mlarge
+$k
+
+#sp,bgm,BGM_SABISHII
+
+// SAKURAKO_0403KT
+
+#sp,vo,05000067
+桜子
+「………」
+$k
+
+// KANAME_0401KT2
+
+#sp,vo,05020055
+要
+「………」
+$k
+
+&empty
+状況をつかみかねるのか、俺以外は言葉を失っている。
+$k
+
+// YUKIHA_0401NO
+
+#sp,vo,05050038
+雪華
+「…どうしてみいちゃん服がちょっと脱げてるの？」
+$k
+
+&empty
+完全に意味の分からない雪華ちゃんを除いて。
+$k
+
+&empty
+そのまっすぐさが、今は痛い…。
+$k
+
+優
+「いや、自分でやったんだよ！？
+　これはいつものみいちゃんのいたずらで…！」
+$k
+
+// MII_0402NK
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02NK.png,(x),c,(s),100%
+#ig
+
+#sp,vo,05030665
+みい
+「お兄様…」
+$k
+
+優
+「みいちゃんも！　なんか言ってよ！」
+$k
+
+&empty
+でないと俺が殺される。
+$k
+
+// MII_0403NK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NK.png,(x),c,(s),100%
+#ig
+
+#sp,vo,05030666
+みい
+「私、お兄様の一番になりたかった」
+$k
+
+優
+「そういう意味深なのじゃなくてー！」
+$k
+
+// KANAME_0402MU
+
+#sp,vo,05020056
+要
+「みいちゃん…そうだったの……」
+$k
+
+優
+「要さんも乗らなくていいですっ」
+$k
+
+// SAKURAKO_0403IK3
+
+#sp,vo,05000068
+桜子
+「あんたも黙りなさい」
+$k
+
+
+#next,05mii11_05

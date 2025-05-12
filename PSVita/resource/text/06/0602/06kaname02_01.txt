@@ -1,0 +1,697 @@
+﻿// 既読フラグ
+#read_flag,350
+
+優
+「あー、それはわかる気が」
+$k
+
+// KANAME_A903BS
+
+#sp,vo,06020071
+要
+「スイーツ。
+$nw,1330
+
+　本当にわかるのは社会人になってからよ」
+$k
+
+優
+「多分スイーツって言葉に、
+　『甘い甘い』みたいな意味ありませんから…」
+$k
+
+// 	SV( VISUAL_KANAME_05A );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_05A.jpg,(s),75%
+#ig
+
+// KANAME_A903GM3
+
+#sp,vo,06020072
+要
+「クラスで何をやるか、まとまらないＨＲ。
+$nw,4150
+　とにかく女子にコスプレさせたいだけの男子。
+$nw,3920
+　どう男子をぬか喜びさせ突き落とすか策を練る女子」
+$k
+
+&empty
+殺伐としてるな…。
+要さんの楽しいお祭り準備…。
+$k
+
+優
+「要さんの時は、映画を作ったんですよね？」
+$k
+
+// KANAME_0903NS
+
+#sp,vo,06020073
+要
+「お忘れかな？
+　学園生活は３年あるのだよ矢崎くん」
+$k
+
+優
+「じゃ、他の年は何をやったんですか？」
+$k
+
+// KANAME_0903NO
+
+#sp,vo,06020074
+要
+「お侍喫茶、峠の茶屋」
+$k
+
+優
+「やっぱり時代劇関係ですか…」
+$k
+
+&empty
+それを通してしまう、要さんもすごいけど。
+$k
+
+優
+「でも要さんの着物姿は見てみたかったかな。
+　似合ってたんでしょうねー」
+$k
+
+// KANAME_0903BS
+
+#sp,vo,06020075
+要
+「ううん、わたしは毎時１５分に、
+　茶屋を荒らしに行く浪人一賊の親分役ー」
+$k
+
+優
+「…寸劇付きなんだ」
+$k
+
+&empty
+それはそれで見てみたい？
+$k
+
+// KANAME_0902EG2
+
+#sp,vo,06020076
+要
+「いいねー、青春。
+　みんなどんなの作ってるのかなー」
+$k
+
+優
+「やっぱり来てくださいよ。
+　一緒に学園祭、冷やかしましょ？」
+$k
+
+// 	SV( VISUAL_KANAME_05B );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_05B.jpg,(s),75%
+#ig
+
+// KANAME_0903KT
+
+#sp,vo,06020077
+要
+「…振られちゃった？」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,bg,(fi),VISUAL_KANAME_05C.jpg,(s),75%
+#ig,(se),W_Bicycle01
+
+#so,env,(vl),0
+
+// 	Shake(SLOWER, SHAKE_LEFT|SPEED_DOWN|SHAKE_SCREEN, 24, 40);
+// 	Zoom(30, 120, 120);
+
+// 	SV( VISUAL_KANAME_05C );
+// 	Zoom(FASTEST, 120, 120);
+
+// KANAME_0903KT
+
+#sp,vo,06020078
+要
+「きゃあっ！？」
+#mlarge
+$k
+
+// 	SV( VISUAL_KANAME_05B );
+// 	Zoom(FASTEST, 120, 120);
+
+#so,env,(vl),def
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_05B.jpg,(s),75%
+#ig
+
+// KANAME_0903SN
+
+#sp,vo,06020079
+要
+「び、びっくりしたぁー」
+#meffect,flow,5
+$k
+
+// 	Zoom(NORMAL|SPEED_DOWN, 100, 100);
+
+優
+「す、すみません…
+　いきなり要さんが変なこと言うから」
+$k
+
+&empty
+動揺して、ずっこけるように、
+ハンドルをぶらしてしまった。
+$k
+
+&empty
+しがみつかれた時の思わぬ柔らかな役得が、
+驚きとは別の意味で、心臓をどきどきさせる。
+$k
+
+// KANAME_0903KT
+
+#sp,vo,06020080
+要
+「でも優くん、振られちゃったんでしょ？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「だ、だだだだだ誰に！？」
+#mlarge
+$k
+
+// KANAME_0901NO3
+
+#sp,vo,06020081
+要
+「だってわたしを誘うってことは、
+　よっぽど切羽詰まった状況なのかなーって」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「振られてませんって！」
+#mlarge
+$k
+
+// KANAME_0902RK
+
+#sp,vo,06020082
+要
+「さみしい青春時代ねぇ」
+$k
+
+&empty
+悲しいレッテルが貼られた。
+$k
+
+&empty
+俺はさらっと言っただけなんだけど、
+要さんを誘ったのって
+それくらいあり得ないことなのか？
+$k
+
+// KANAME_0901NO3
+
+#sp,vo,06020083
+要
+「桜子ちゃんは？」
+$k
+
+優
+「いえ、別に何も…」
+$k
+
+// KANAME_0901NO3
+#sp,vo,06020084
+要
+「勇樹ちゃんか、みいちゃんは…」
+$k
+
+優
+「そんな俺必死じゃないですから」
+$k
+
+// KANAME_0903GM3
+
+#sp,vo,06020085
+要
+「どうしようっかなー？」
+$k
+
+優
+「気をつかわないでいいですよ」
+$k
+
+// 	SV( VISUAL_KANAME_05A );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_05A.jpg,(s),75%
+#ig
+
+// KANAME_0903NS
+
+#sp,vo,06020086
+要
+「ふっふーん、わたしも暇じゃないからなぁー」
+#meffect,flow,5
+$k
+
+&empty
+うわー、楽しそー。
+$k
+
+// 	SV( VISUAL_KANAME_05B );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_05C.jpg,(s),75%
+#ig
+
+// KANAME_0903KT
+
+#sp,vo,06020087
+要
+「あ…
+$nw,710
+
+　スト――ップ！」
+$k
+
+// 	SV( VISUAL_KANAME_05C );
+
+#ss,env,(dr),0
+
+#sp,se,W_Bicycle01
+
+// 	SV( BG_MT_SHIGAICHI01A );
+
+#ir
+#ip,bg,(fi),BG_MT_SHIGAICHI01A.jpg,(s),100%
+#ig
+
+// 	ShowFace();
+
+優
+「…っと」
+$k
+
+&empty
+もうこんなところまで来てたのか。
+$k
+
+// KANAME_0901NO
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020088
+要
+「ここまででいいわ。
+　送ってくれてありがとね」
+$k
+
+優
+「せっかくですから最後まで送りますよ」
+$k
+
+// KANAME_0903NS
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020089
+要
+「さすがに会社の前まではちょっと。
+　同伴出勤してみんなに噂されると恥ずかしいし」
+$k
+
+優
+「そっか…そこまで考えてませんでした」
+$k
+
+&empty
+常識的におかしいよな。
+$k
+
+&empty
+あと要さん適当に言葉使いすぎ。
+$k
+
+優
+「二日酔いはもう平気ですか？」
+$k
+
+// 	SS_( CENTER, KANAME_0902EG2, MOVE_DOWN, NORMAL );
+
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02EG2.png,(x),c,(s),80%
+#ig
+
+// KANAME_0902EG2
+#sp,vo,06020090
+要
+「ここまで来れば、気合い気合い。
+$nw,2680
+
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02KT.png,(x),c,(s),80%
+#ig
+
+　優くんこそ時間だいじょうぶ？」
+$k
+
+優
+「ええ、思ったより余裕みたいで」
+$k
+
+// 	SS_( CENTER, KANAME_A903NO );
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ig
+
+// KANAME_A903NO
+#sp,vo,06020091
+要
+「よっし、じゃあいってらっしゃい男の子！」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Punch03
+
+優
+「～～っ！？
+$nw,1000
+
+　こんなところで尻を叩かなくても…」
+$k
+
+// KANAME_A902NO
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020092
+要
+「いけいけゴーゴー、
+$nw,1310
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+　ダーッシュ！」
+$k
+
+// 	SET_ACTION_PYON( CENTER );
+
+優
+「…わかりましたよ」
+#meffect,flow,5
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+この時間なら、走らなくても大丈夫だろう。
+$k
+
+優
+「じゃ、いってきます」
+$k
+
+// 	SS_(CENTER, KANAME_0902NO, MOVE_STOP, NORMAL);
+// 	ZoomStand(CENTER, FASTEST, 70, 70);
+
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02NO.png,(x),c,(s),60%
+#ig
+
+// KANAME_0902NO
+#sp,vo,06020093
+要
+「ゆっうくーん」
+#mlarge
+
+$k
+
+優
+「はい？」
+$k
+
+// 	SET_ACTION_PYON( CENTER );
+
+
+// KANAME_0902RK
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02RK.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,06020094
+要
+「～ちゅっ」
+#mlarge
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「っ！？」
+#mlarge
+$k
+
+&empty
+な、投げキッス！？
+#meffect,flow,2
+$k
+
+// KANAME_0902NO
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020095
+要
+「今日の、お礼」
+$k
+
+優
+「お、お礼って…」
+#meffect,flow,5
+$k
+
+// KANAME_0903AY2
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03AY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020096
+要
+「ふふっ」
+$k
+
+&empty
+な、なんか異様にこっ恥ずかしい…。
+$k
+
+// KANAME_0903EG
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020097
+要
+「気が向いたら、再来週の日曜、
+　なんかおごったげる」
+$k
+
+優
+「再来週の日曜って」
+$k
+
+&empty
+…あ。
+$k
+
+// KANAME_0901IK
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020098
+要
+「じゃあ今度こそ、
+$nw,2310
+
+　よーい、
+$nw,1000
+
+#madd,どん！」
+$k
+
+#ss,bgm
+
+#sp,se,S_Dash02o
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	DelStandAll();
+
+//	SM( CHAR_YUU,			-1,					"優",			"@m04「………」" );
+&empty
+応える代わりに大きく手を挙げて、走り出す。
+$k
+
+&empty
+痛いくらい、顔が赤くなってる気がした。
+$k
+
+#hide
+
+// 	SS( CENTER, KANAME_A902BS );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SHIGAICHI01A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+#show
+
+// KANAME_A902BS
+#sp,vo,06020099
+要
+「がんばれー、少年」
+$k
+
+// KANAME_A903BS
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020100
+要
+「さてと会社に…
+$nw,2670
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03KT.png,(x),c,(s),80%
+#ig
+
+　って、あれ…？」
+$k
+
+// KANAME_A901MJ2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01MJ2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020101
+要
+「なにこのカゴの中の見慣れぬ学生カバンは？」
+$k
+
+// KANAME_A901OD3
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020102
+要
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_A901OD4
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01OD4.png,(x),c,(s),80%
+#ig
+
+#sp,se,S_Dash02o
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#sp,vo,06020103
+要
+「ちょ～～っと待ったぁぁああ！？」
+#mlarge
+$k
+
+//	FO( SLOWER );
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリアしていれば、ジャンプ可能。
+#next,90jump03:(if),sys,0,==,1
+
+#next,02common01-4_00

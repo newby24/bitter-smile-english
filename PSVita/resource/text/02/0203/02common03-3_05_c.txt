@@ -1,0 +1,739 @@
+// 既読フラグ
+#read_flag,112
+
+// 	SV( BG_TD_IMA01C );
+// 	SS( RIGHT, KANAME_0401NO3 );
+// 	SS( LEFT, SAKURAKO_0402KM );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01C.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM.png,(x),l,(s),60%
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO3.png,(x),r,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402KM
+#sp,vo,02000632
+桜子
+「うーん、文面はこんなもんでいいかなー？
+$nw,4200
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),l,(s),60%
+#ig
+
+　後は当日まで隠して、どう置きに行くかだけど…」
+$k
+
+// KANAME_0401KM2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02020163
+要
+「ねえ、桜子ちゃん。
+　これっていつまで続けるつもりなの？」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000633
+桜子
+「それは……
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR2.png,(x),l,(s),60%
+#ig
+
+　みいが気付くまでかなぁ？」
+$k
+
+// KANAME_0402NA2
+#ir
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02NA2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02020164
+要
+「うーん、どう考えてもそれはとっくに…」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000634
+桜子
+「分かってるわよ、あたしだってそれくらい。
+$nw,2700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),l,(s),60%
+#ig
+
+　でもあの子が騙されてくれてる間はさあ…。
+#mfuri,　　　　　　　　　　　　　　だま
+
+　自分から言い出すまではさ？」
+
+$k
+
+// KANAME_0401KT
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02020165
+要
+「それって、一生言わない可能性は？」
+$k
+
+// SAKURAKO_0401TR2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000635
+桜子
+「あるかもね。
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),60%
+#ig
+
+　だからお姉もさ、これからも頼んだわよ？」
+$k
+
+// KANAME_0401KM
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KM.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02020166
+要
+「うーん、それは責任重大……なのかなあ？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_EKI01A );
+
+// 	SS( CENTER, MII_A903KT );
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_EKI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#show
+
+優
+「思ったよりあるな、荷物」
+$k
+
+// MII_A903EG
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030319
+みい
+「だからお兄様が居る訳ですが」
+$k
+
+優
+「しかも重いのに、
+　七面鳥じゃないところが悔しいな」
+$k
+
+// MII_A903KB2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030320
+みい
+「それは贅沢というものですよ。
+$nw,3100
+
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+　…私も一度は食べて見たいですけどね」
+$k
+
+
+優
+「だろー？」
+$k
+
+// 	SetActionPyon( CENTER );
+
+// MII_A901KY
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KY.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-20
+#ig
+
+#sp,vo,02030321
+みい
+「あっ、
+$nw,800
+
+// 	DelAction( CENTER );
+
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01NO.png,(x),c,(s),80%
+#ig
+
+#madd,では、来年のお兄様からのプレゼントは
+　七面鳥という事で。
+//$nw,6600
+$nw,4500
+
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01BS.png,(x),c,(s),80%
+#ig
+
+　ちゃんと私が大事に飼育しますので」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「生きたまま！？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_NEWSYOTEN01B );
+// 	SS( CENTER, MII_A903NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_NEWSYOTEN01B.jpg,(s),100%
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+優
+「もうこんなもんか？　全部買った？」
+$k
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+// MII_A903NO
+#sp,vo,02030322
+みい
+「はい、
+$nw,1000
+
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+　あとは例の植木屋さんだけですね」
+$k
+
+// 	DelAction( CENTER );
+
+優
+「一度家に戻ったほうがいいかな？」
+$k
+
+// MII_A903NO
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030323
+みい
+「まあ物を見てからでも遅くないですし、
+　この通り、私の手は全然フリーですし。
+$nw,6000
+
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-20
+#ig
+
+　…あっ、
+$nw,1000
+
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+#madd,私の心も今フリーですよ？」
+
+$k
+
+// 	SetActionPyon( CENTER );
+// 	DelAction( CENTER );
+
+優
+「はいはい、付け足し感一杯でありがとねー？
+$nw,1000
+
+　じゃあもうひと頑張りいきますかね？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TSUGAKURO01A );
+
+// 	SS( CENTER, MII_A901BS );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO01A.jpg,(s),100%
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01BS.png,(x),c,(s),80%
+#ig
+
+#show
+
+// MII_A901BS
+#sp,vo,02030324
+みい
+「ところで、話は変わりますがお兄様」
+$k
+
+優
+「うん。なにかね？」
+$k
+
+// MII_A901KY
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KY.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030325
+みい
+「お兄様は姉上とは恋仲にはなられないのですか？」
+$k
+
+優
+「んー……」
+#meffect,flow,5
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「って、いきなり何っ！？」
+#meffect,flow,5
+$k
+
+#sp,bgm,BGM_SABISHII
+
+// MII_A901KS
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030326
+みい
+「いきなりでもないですけど。
+$nw,2700
+
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KB.png,(x),c,(s),80%
+#ig
+
+　……あんなに仲がいいのに、
+　どうしてそうならないのかと疑問は前々から…」
+$k
+
+優
+「仲、いいかなあ…？
+　……まあ、幼なじみなんてそんなもんじゃないか？」
+$k
+
+// MII_A901KY2
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KY2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030327
+みい
+「そうですか？」
+$k
+
+優
+「うーん、…同年代だし、桜子だし？」
+$k
+
+// MII_A903KD
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030328
+みい
+「お兄様は姉上が嫌い、
+　もしくは好みではないのでしょうか？」
+$k
+
+優
+「いや、嫌いじゃないけどねっ？
+$nw,1000
+
+　……とにかくそういう関係じゃあないよ」
+$k
+
+// MII_A903KT
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030329
+みい
+「どうしてですか？」
+$k
+
+優
+「要さんにも聞かれた事あるけどさ、
+　桜子とは小さい頃から一緒に遊んだりしてるけど、
+　殴りあったりもしてるし？」
+$k
+
+// MII_A903KD
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02030330
+みい
+「はあ、それが？」
+$k
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+優
+「どっちかっていうと兄弟姉妹みたいな感じだろ？
+　お互いに家族みたいでさ、
+　そういう恋人でどうこうって感情は無いんだよ…」
+$k
+
+&empty
+俺も今ではそう思ってる。
+$k
+
+#ss,bgm
+
+// MII_0901KS
+
+#sp,vo,02030331
+みい
+「あー、熱く語ってらっしゃる所すいませんが、
+　着きましたよ、植木屋さんに」
+$k
+
+// 	SV( BG_MT_TSUGAKURO01A );
+// 	SS( CENTER, MII_0901KS );
+
+#sp,bgm,BGM_COMICAL1
+
+#ir
+#ip,bg,(fi),BG_MT_TSUGAKURO01A.jpg,(s),100%
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KS.png,(x),c,(s),60%
+#ig
+
+優
+「……あれ？
+　後半興味無かった？　道々の適当な話題でしたかっ！？
+　桜子の心配とかそういう話題じゃないの？」
+$k
+
+// MII_0903EG
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030332
+みい
+「いえいえ、大変参考になりました。
+$nw,4000
+
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+　私も要お姉様もある意味幼なじみなんですけど。
+$nw,4500
+
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+　まあ今は寒いので、どうでもいいですけどね」
+$k
+
+優
+「うっわー」
+$k
+
+// MII_0903AK
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030333
+みい
+「まあ姉上は心配性で過保護ですし、
+　身近な人全てに対してそういうところがあるので。
+$nw,8200
+
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+　心配は心配ですけど。受験生の妹として」
+$k
+
+優
+「受験生の心配と俺の恋仲の関係は？」
+$k
+
+// MII_0903EG
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030334
+みい
+「さあ、とっとと用事を済ませて帰りましょうか」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),l0,(al),0
+#ig
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW, 4 );
+
+優
+「ああっ！」
+$k
+
+&empty
+恥ずかしげな独白をさせるだけさせて、
+…それは無いよみいちゃん。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GENKAN01A );
+
+#sp,bgm,BGM_YASURAGI
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN01A.jpg,(s),100%
+#ig
+
+// 	WaitSE();
+// 	Shake( NORMAL, SHAKE_UP, 30, NORMAL * 2 );
+
+#wait,1000
+
+#sp,se,S_Don01
+
+// 	SV( BG_TD_GENKAN01C );
+
+#ir
+#ip,bg,(fi),BG_TD_GENKAN01C.jpg,(s),100%
+#ig
+
+#show
+
+優
+「……っふううー、疲れた」
+$k
+
+// MII_0901KY
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030335
+みい
+「姉上、戻りましたよー？」
+$k
+
+// 	SS_( LEFT, MII_0901KY, MOVE_STOP, NORMAL );
+// 	SS_( RIGHT, SAKURAKO_0401TR4, MOVE_RIGHT, NORMAL );
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),r,(al),100
+#ig
+
+// SAKURAKO_0401TR4
+#sp,vo,02000636
+桜子
+「あら、おかえりー。
+$nw,1500
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),r,(s),60%
+#ig
+
+　買いこぼしとか無いでしょうねー？」
+$k
+
+// MII_0902NO
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030336
+みい
+「大丈夫です、問題ありません」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000637
+桜子
+「そうね、みいがついてたんだし大丈夫か」
+$k
+
+優
+「もしかして俺って、お前の中では、
+　買い物もろくろく出来ない設定なのか？」
+$k
+
+// SAKURAKO_0403KT
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000638
+桜子
+「そうだけど？
+$nw,1400
+
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03FK.png,(x),r,(s),60%
+#ig
+
+　買い物だけならいいんだけど…」
+$k
+
+&empty
+どこまで…。
+#meffect,flow,5
+$k
+
+// MII_0901KY
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030337
+みい
+「ところで姉上。
+　この鉢植え………
+$nw,3800
+
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01AK.png,(x),l,(s),60%
+#ig
+
+#madd,観葉植物は一体？」
+
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000639
+桜子
+「ああ、それ？
+$nw,1600
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),r,(s),60%
+#ig
+
+
+　なんか玄関寂しいからさ、なんとなく」
+
+$k
+
+優
+「…なにもこんな時に買わなくても
+　良かったんじゃないか？
+　つーか、配達とかもしてくれるだろ？」
+$k
+
+#next,02common03-3_06

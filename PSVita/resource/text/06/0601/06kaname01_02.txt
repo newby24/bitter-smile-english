@@ -1,0 +1,147 @@
+﻿// 既読フラグ
+#read_flag,348
+
+// KANAME_A901OD3
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020051
+要
+「あ、ちょっと、
+$nw,890
+
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01OD4.png,(x),c,(s),60%
+#ig
+
+　傘持って逃げるなぁー」
+
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+#show
+
+&empty
+その後、なんとか話を
+うやむやにできたのはいいけれど…。
+$k
+
+#hide
+
+#sp,bgm,BGM_COMICAL2
+
+// 	SV( BG_TD_GENKAN01A );
+// 	SS( LEFT, YUKIHA_0301KM2 );
+// 	SS( RIGHT, SAKURAKO_0302IK8 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK8.png,(x),r,(s),60%
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01KM2.png,(x),l,(s),60%
+#ig
+
+#show
+
+// YUKIHA_0301KM2
+
+#sp,vo,06050000
+雪華
+「明日も学校あるんだよ？
+　雨なのに制服乾くと思ってるの？」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06000000
+桜子
+「いい歳して何考えてんのあんたは。
+　お姉まで一緒になって」
+$k
+
+優
+「すみません」
+$k
+
+// KANAME_0902RK
+
+#sp,vo,06020052
+要
+「ごめんなさーい」
+#meffect,flow,5
+$k
+
+&empty
+当然怒られた。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1,c3
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリアしていれば、ジャンプ可能。
+#next,90jump02:(if),sys,0,==,1
+
+#next,02common01-3_00

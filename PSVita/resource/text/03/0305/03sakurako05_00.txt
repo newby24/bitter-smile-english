@@ -1,0 +1,979 @@
+﻿// 既読フラグ
+#read_flag,267
+
+// セーブタイトル
+#flag,save_title,桜子　第５話,0,0
+
+// 桜子好感度＋１。
+#flag,per,1,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_SJ_YU01F );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01F.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第５話　姉妹
+$k
+#note,erase
+
+#show
+
+優
+「ふわああぁ～～…」
+#meffect,flow,5
+$k
+
+&empty
+布団からむくりと顔を上げると、朝だった。
+$k
+
+優
+「ねむ…」
+$k
+
+&empty
+目を細めながら、窓から見上げる空は眩しくて、
+綺麗な青い色をしていた。
+$k
+
+&empty
+今日は絶好のお出かけ日和ってやつだな…。
+$k
+
+優
+「ふぁ…」
+#meffect,flow,5
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01D );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01D.jpg,(s),100%
+#ig
+
+#show
+
+優
+「おはよう」
+$k
+
+// KANAME_0402EG
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020011
+要
+「おーっ、起きてきたわね、矢崎家の長男坊。
+$nw,3990
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+　だが安心したまえ、朝ご飯はこれからだぞっ！」
+$k
+
+優
+「要さん、朝からテンション高いですね…」
+$k
+
+&empty
+しかもごろごろして、かなりくつろいでいる。
+$k
+
+// KANAME_0402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020012
+要
+「月曜の朝に比べたら、日曜の朝は格別よねー。
+$nw,4980
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01GB4.png,(x),c,(s),80%
+#ig
+
+　月とすっぽん、薔薇とラフレシア、提灯に釣り鐘っ」
+$k
+
+優
+「はあ」
+$k
+
+&empty
+休日なのに、朝早いよなあ。
+それとも、昨夜からいたのかな？
+$k
+
+// KANAME_0403NO
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020013
+要
+「桜子ちゃん、優君も来たよー。ご飯まだぁー？」
+$k
+
+&empty
+要さんが、台所に立っている桜子に声をかけた。
+$k
+
+// SAKURAKO_0401TR4
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+#sp,vo,03000167
+桜子
+「はいはい、今できたわよ」
+$k
+
+// KANAME_0402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03020014
+要
+「おー、優君が来る時間ピッタリね？」
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03000168
+桜子
+「別に時間合わせてる訳じゃないからねー」
+$k
+
+// KANAME_0403SN
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03SN.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03020015
+要
+「何も言ってないじゃなーい」
+$k
+
+// SAKURAKO_0402IK8
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03000169
+桜子
+「あっそ」
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03020016
+要
+「相性ばっちりーとか思っただけよ」
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03000170
+桜子
+「お姉、朝からバカなこと言ってないで
+　少しは手伝うとかさ…」
+$k
+
+// KANAME_0403GM
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GM.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03020017
+要
+「やー、今日もいい天気よねー？」
+$k
+
+// SAKURAKO_0403KM
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03000171
+桜子
+「…はぁ、やれやれ」
+$k
+
+// 	SV( BG_TD_IMA01D );
+
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+食卓に、朝ご飯が運び込まれてくる。
+$k
+
+// 	SS_( CENTER, KANAME_A401OD3 );
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ip,op1,(fi),image\icon\tatesen.png,(x),520,(y),30
+#ig
+
+// 縦線アイコン。レイヤー番号と位置は適宜。
+
+// KANAME_A401OD3
+#sp,vo,03020018
+要
+「うわ……来ちゃったよぉ。
+$nw,3240
+
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN.png,(x),c,(s),80%
+#ie,op1
+#ig
+
+　桜子ちゃん、今日はこれなのー？」
+$k
+
+#sp,vo,03000172
+桜子
+「文句言わないのっ」
+$k
+
+優
+「要さん、苦手な食材あったんだ」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+#ir
+#ie,c1
+#ig
+
+&empty
+茄子とからしの和え物か、
+それとも、豆とオカラのなんとか料理か、
+はたまた高野豆腐か。
+$k
+
+&empty
+今朝はやけに健康的な献立だな。
+$k
+
+// KANAME_0402RK
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02RK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020019
+要
+「うーん、これ苦手ぇ～……」
+$k
+
+// 	SS_( RIGHT, YUKIHA_0401NM );
+
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NM.png,(x),r,(s),60%
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NM2.png,(x),l,(s),60%
+#ie,c1
+#ig
+
+// 	SS( LEFT, MII_0403NM2 );
+
+// YUKIHA_0401NM
+#sp,vo,03050011
+雪華
+「ふああ、おはよう…」
+#meffect,flow,5
+$k
+
+#sp,vo,03030020
+みい
+「皆さん、おはようございます。
+　本日はお日柄も良く……
+$nw,6260
+
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NM.png,(x),l,(s),60%
+#ig
+
+　こっくりこっくり」
+$k
+
+// YUKIHA_0401MJ2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01MJ2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03050012
+雪華
+「みいちゃん、こんなところで寝ちゃダメだよぉ」
+$k
+
+// MII_0403NM
+#sp,vo,03030021
+みい
+「はい、大丈夫で…す……」
+#meffect,flow,5
+$k
+
+// YUKIHA_0401MJ2
+#sp,vo,03050013
+雪華
+「ぜったい寝てるぅ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ip,c2,(s),80%,(x),c
+#ie,c3
+#ig
+
+// 	SS( CENTER, MII_A403NM );
+
+優
+「みいちゃん、立ってると危ないから座ろうな？」
+$k
+
+// MII_A403NM2
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030022
+みい
+「大丈夫です………
+　寝てなどは、おり…
+$nw,4490
+
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NM.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+　かくん」
+$k
+
+優
+「はいはい」
+$k
+
+#sp,se,S_Nuno07
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l0,(al),0%
+#ig
+
+// 	WaitSE( -1 );
+
+&empty
+珍しくまだ眠そうなみいちゃんを席に連れて行く。
+…夜更かしでもしてたのかな？
+$k
+
+// MII_0402NM2
+#ir
+#ip,c2,(fi),MII_A402.png,(psi),MII_An02NM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030023
+みい
+「………」
+#meffect,flow,5
+$k
+
+&empty
+席に座ったみいちゃんは
+ときどき目を開けて瞬きをするが、
+まだまだ眠たそうだ。
+$k
+
+// 	SS( CENTER, KANAME_A401TR4 );
+
+// KANAME_A401TR4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01TR4.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,03020020
+要
+「よし、今のうちに、みいちゃんのお皿に
+　苦手なの全部あげちゃおう」
+$k
+
+優
+「ダメですよ要さん」
+$k
+
+// KANAME_A401IK4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ase.png,(x),540,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op1,(y+),100,(al),0%
+#ia,op1,al,(dl),500
+#ig
+
+#sp,vo,03020021
+要
+「うー、優君厳しいねー」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+こんな口調の時は、どっちが年上か分からなくなるな。
+$k
+
+&empty
+婆さんやみんなも揃い、ようやく朝飯の時間。
+#mfuri,　　　　　　　　　　　　　　　　そろ
+$k
+
+&empty
+要さんは早速、嫌いな食材を
+皿の端に避ける作業を始めていた。
+$k
+
+&empty
+ホントに社会人なのか、この人は。
+昔はこんなイメージじゃなかったのになあ…。
+$k
+
+// 	SS( CENTER, MII_A402NM2, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c2,(fi),MII_A402.png,(psi),MII_An02NM2.png,(x),c,(s),80%
+#ig
+
+// MII_A402NM2
+#sp,vo,03030024
+みい
+「はむはむ」
+$k
+
+&empty
+みいちゃんは特に好き嫌いもないみたいだ。
+まだ眠そうにしながらも、黙々と食べている。
+$k
+
+優
+「みいちゃんは好き嫌いとか無いの？」
+$k
+
+// MII_A402NM
+#ir
+#ip,c2,(fi),MII_A402.png,(psi),MII_An02NM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03030025
+みい
+「まあ………姉上も昔は料理が不得意でしたから…」
+#meffect,flow,5
+$k
+
+// YUKIHA_0401KT
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,03050014
+雪華
+「へー」
+$k
+
+優
+「ああ、なるほど…」
+$k
+
+// SAKURAKO_0403NO
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,03000173
+桜子
+「………」
+$k
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+そーゆう事か…。
+$k
+
+&empty
+マズイ料理も食っていたから、
+好き嫌いというものがないんだな、きっと。
+$k
+
+&empty
+みいちゃん達の苦労を、ちょっと垣間見た気がした。
+姉妹支え合って生きてきた、って事だろ？
+$k
+
+&empty
+じゃあ雪華ちゃん、
+俺たちも支え合って生きていこうじゃないか。
+$k
+
+// 	SS( CENTER, YUKIHA_A401KM2, MOVE_STOP, NORMAL );
+
+// YUKIHA_A401KM2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03050015
+雪華
+「………」
+$k
+
+&empty
+とか思っているそばから、雪華ちゃんが
+残しておいた苦手な物に手を伸ばそうか
+悩んでいる。
+$k
+
+// YUKIHA_A401KM4
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03050016
+雪華
+「うう…」
+#meffect,flow,5
+$k
+
+&empty
+行け、行くんだ。
+雪華ちゃんなら、食べられる。
+今の桜子の料理は、どれも美味しいはずなんだ。
+$k
+
+// SAKURAKO_0402NO2
+#sp,vo,03000174
+桜子
+「………」
+#meffect,flow,5
+$k
+
+&empty
+桜子も、横目にその様子をじっと見ていた。
+$k
+
+// YUKIHA_A401IK2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03050017
+雪華
+「……
+$nw,1300
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+#madd,うん」
+
+$k
+
+&empty
+雪華ちゃんが箸をのばす。
+$k
+
+&empty
+………よし。その調子だ。がんばれ雪華ちゃん！
+$k
+
+// KANAME_0403SN3
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03SN3.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,03020022
+要
+「桜子ちゃーん、私これきらーい。
+　あげるから食べてー？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「ああっ！？」
+#mlarge
+$k
+
+// 	SS( CENTER, YUKIHA_A401KS );
+
+// YUKIHA_A401KS
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KS.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,03050018
+雪華
+「……私もこれ苦手。
+$nw,2500
+
+#sp,se,S_Pon02
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+　お兄ちゃん食べて？」
+$k
+
+//$nw,500
+//$nw,2660
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+&empty
+台無しだよ！
+#mlarge
+$k
+
+// 	SS( CENTER, KANAME_A403NS );
+
+// KANAME_A401OD3
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03NS.png,(x),c,(s),80%
+#ig
+
+優
+「要さんっ！？」
+#mlarge
+$k
+
+// KANAME_A401OD3
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,03020023
+要
+「ええっ？」
+$k
+
+// 	CS_( CENTER, RIGHT );
+// 	SS( LEFT, SAKURAKO_A402IK3, MOVE_LEFT, NORMAL );
+
+// SAKURAKO_A402IK3
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+#sp,vo,03000175
+桜子
+「お姉、いい大人が好き嫌いしないのっ」
+$k
+
+// KANAME_A403GN2
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020024
+要
+「ええーっ！？」
+#mlarge
+$k
+
+// 	SetActionBuru( RIGHT );
+// SAKURAKO_A402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000176
+桜子
+「お姉は食べ物にだらしないんだから。
+$nw,2620
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),l,(s),80%
+#ig
+
+　それにさあ、自炊苦手なら
+　もう家に戻ってくればいいのに」
+$k
+
+// KANAME_A403GM
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GM.png,(x),r,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),630,(y),20,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,03020025
+要
+「違うの、違うのよ？
+$nw,2260
+
+　私はね、妹たちが心配で様子を見に来てる
+　だけなんだからねっ？」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+// SAKURAKO_A402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\ase.png,(x),350,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op3,(y+),100,(al),0%
+#ia,op3,al,(dl),500
+#ig
+
+#sp,vo,03000177
+桜子
+「ご飯粒、顔一杯に付けて言われても
+　全然説得力無いんだけど……」
+$k
+
+// KANAME_A403SN
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03SN.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020026
+要
+「むむむー」
+$k
+
+// 	CS( RIGHT, CENTER );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+#sp,se,S_Pon01
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#wait,500
+
+#ils
+
+// 	WaitSE( -1 );
+// 	CS( CENTER, RIGHT );
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000178
+桜子
+「あ、もうっ、
+　人のお皿に嫌いなもの入れないでよ。
+$nw,3750
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ig
+
+　そんなあからさまにー」
+$k
+
+// KANAME_A403EG
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020027
+要
+「まあまあー、そんなに怒らなくてもいいじゃなーい」
+$k
+
+&empty
+こんな事を言っても要さんが嫌に思えないのは、
+どこか優しい目つきで、桜子やみんなを見ている
+からだろうか…。
+$k
+
+// MII_0403NM
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NM.png,(x),c,(s),80%
+#ie,c1,c3
+#ig
+
+#sp,vo,03030026
+みい
+「こっくり、こっくり」
+#meffect,flow,5
+$k
+
+優
+「あーあ、みいちゃん寝ちゃったな」
+$k
+
+優
+「しょうがない、
+　俺がみいちゃんと雪華ちゃんの残りを
+　食べてやるよ」
+$k
+
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03EG.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+// 	SS( CENTER, KANAME_A403EG );
+
+// KANAME_A403EG
+#sp,vo,03020028
+要
+「私のも、おねがーい」
+$k
+
+優
+「要さんは雪華ちゃんの模範になるよう、
+　大人代表として全部食べて下さい」
+$k
+
+// KANAME_A401OD3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020029
+要
+「えええっ……
+$nw,1490
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK2.png,(x),c,(s),80%
+#ig
+
+　優君は、雪華ちゃんの事になると厳しいよね？」
+$k
+
+優
+「兄として当然です」
+$k
+
+// KANAME_A401NO4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03020030
+要
+「あ、今、凛々しいお兄ちゃんの顔した」
+$k
+
+優
+「兄ですからっ」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402EG );
+
+// SAKURAKO_A402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000179
+桜子
+「兄ならもうちょっと、
+　雪華ちゃんの模範となるようにしないとね～」
+$k
+
+&empty
+嫌味っぽくは言うが、
+その顔は普段じゃ見られないくらい優しい。
+$k
+
+
+#next,03sakurako05_01

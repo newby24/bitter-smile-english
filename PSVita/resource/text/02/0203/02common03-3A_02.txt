@@ -1,0 +1,674 @@
+﻿// 既読フラグ
+#read_flag,104
+
+優
+「なぜ？　今は流星群も何もないぞっ？
+　そんな事になぜ俺を巻き込む！？」
+$k
+
+&empty
+寝袋の中が身動きも取れないほど、
+他の荷物で溢れているのはその所為か。
+$k
+
+// SAKURAKO_A403NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000672
+桜子
+「なんとなく、
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),80%
+#ig
+
+　……一緒に連れて行ったら気が晴れるかなーって」
+$k
+
+優
+「おおーい！」
+$k
+
+// SAKURAKO_A402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000673
+桜子
+「ほら、受験勉強で疲れてるし？
+　田舎の澄んだ空気でも吸って、星でも見れば、
+　いいリフレッシュになると思ってさ」
+$k
+
+優
+「そんな理由で俺の安眠を妨害したのか！？」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000674
+桜子
+「なによ、あんたさっきまでぐっすり寝てたじゃない？
+$nw,3800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+
+　あ、目的地までまだあるから、寝てていいわよ？」
+$k
+
+優
+「ああーっくそっ！　……もう寝るっ！」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000675
+桜子
+「……おやすみ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+// 	SV( BG_MUJINEKI03A );
+
+#sp,env,S_Wheel02#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MUJINEKI03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「なんだ、なにも無い所だな？
+　まあ、星を見るには…」
+$k
+
+#ss,env,(dr),1000
+
+// SAKURAKO_A401TR
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000676
+桜子
+「寝過ごしたのよ…」
+#meffect,flow,5
+$k
+
+優
+「え、今なんて…」
+$k
+
+// SAKURAKO_A401KS2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000677
+桜子
+「まあ問題ないでしょ」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"プシューっ！" );
+#hide
+
+#sp,se,S_Train01
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SEStop( 0 );
+// 	SV( BG_DENSYA03A );
+
+//	SS( CENTER, ISAKI_0502OD );
+#ir,(dr),1000
+#ip,bg,(fi),BG_DENSYA03A.jpg,(s),100%
+#ig
+
+// 	SS_( CENTER, ISAKI_0502OD, MOVE_DOWN );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02OD.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(y+),-100
+#ig
+
+#show
+
+// ISAKI_0502OD
+#sp,vo,02010254
+勇樹
+「…はっ！？」
+$k
+
+// ISAKI_0502NO
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010255
+
+勇樹
+「いかん、寝ていた！
+$nw,1900
+
+　桜子達は……
+$nw,1400
+
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02KM.png,(x),c,(s),60%
+#ig
+
+#madd,居ない！？」
+
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がったん…ごとん。" );
+#sp,env,S_Train02
+
+// ISAKI_0501NR
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010256
+勇樹
+「あ、あれは桜子っどこへ……
+$nw,3500
+
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02KM.png,(x),c,(s),60%
+#ig
+
+　待て、開けろ！」
+
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がたたん。ごととん。" );
+// 	SetVisualObject( 0, BG_MUJINEKI03A, 0, 0, OBJATTR_TOP );
+
+// 	// 電車出発
+// 	LeaveTrain( OBJATTR_TOP );
+
+//	SM( CHAR_ETC,			-1,					"",				"どんどんどんっ！" );
+// 	SNLP( 1, "S_Knock06" );
+
+#sp,se,S_Knock06
+
+#ir
+#ip,bg,(fi),BG_MUJINEKI03B.jpg,(s),100%
+#ig
+
+#sp,vo,02010257
+勇樹
+「ああ――っ、降ろせ！　降ろしてくれっ！！」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_YAMAMICHI03A );
+
+#sp,bgm,BGM_SHIZUKA
+
+#sp,env,S_Wheel02#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_YAMAMICHI03A.jpg,(s),100%
+#ig
+
+//	SLP( 0, "S_Wheel01#" );
+
+#show
+
+優
+「こんなのでお前よく電車乗れたな…」
+$k
+
+#ss,env,(dr),1000
+
+&empty
+俺は寝袋に入ったまま、何か台車の様な物ごと、
+桜子に運ばれるままになっていた。
+$k
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000678
+桜子
+「ちゃんとお金は二人分払ったわよ？」
+$k
+
+優
+「そうじゃねえよ！
+　どう考えたって人一人担いで電車とかありえんだろ？
+　明らかに不審人物だろうよ！？」
+$k
+
+&empty
+死体袋だと思われても不思議はないはず。
+$k
+
+// SAKURAKOn_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000679
+桜子
+「え？
+$nw,1100
+
+　駅員さんあんたの安らかな寝顔みたら
+　快く通してくれたけど…？」
+$k
+
+優
+「ああっ、なんて平和で美しいこの世界っ！」
+$k
+
+// SAKURAKOn_A402NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000680
+桜子
+「？？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	Zoom( 0, 150, 150 );
+#sp,env,S_Wheel02#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_YAMAMICHI03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+疲れてるし楽チンだし、桜子も降りろと言わないので、
+そのままに任せていると…。
+$k
+
+// SAKURAKOn_A401TR4
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000681
+桜子
+「……ここらでいいかな？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がたん。" );
+// 	SEStop( 0 );
+
+// 	Blur( 0, 2 );
+// 	SV( BG_SKY03A );
+
+// 	SetObject( 0, "gradation.png", -150, 0, OBJATTR_TOP );
+// 	SetObject( 1, "gradation.png",  650, 0, OBJATTR_TOP, FILTER_MIRROR );
+// 	TileObject( 0, 0, 1 );
+// 	TileObject( 1, 0, 1 );
+
+#ss,env,(dr),0
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig,(se),S_Gatan03
+
+//	Rotate( FAST, -15 );
+&empty
+急に景色が傾いた。
+$k
+
+優
+「ちょおっ、ちょっとなんですかーっ？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ざざーっ。" );
+#sp,env,S_Wheel01#
+
+// 	Shake( 0, SHAKE_RANDOM | SHAKE_SCREEN, 4 );
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+優
+「おい、待て待てまて、怖い怖いこわいって！！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がらがらがらががっがららら！" );
+&empty
+寝袋に視界を阻まれているので地面は見えないが、
+上に見える空と、横にちらちらと見える木からして、
+斜面を落ちているのは分かるっ！
+$k
+
+優
+「おい桜子、返事しろよ！
+　お前ここで絶対こけるなよ？　フリじゃねえからな？」
+
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ざざーっ。" );
+// 	Blur();
+
+
+// 揺れ。パラメータは適宜。
+
+// 	SEStop( 0 );
+
+#ss,env,(dr),0
+
+#sp,se,S_Ton04
+
+// 	Rotate( FAST );
+
+// SAKURAKOn_A402NO3
+
+#sp,vo,02000682
+桜子
+「………着いたわよ」
+$k
+
+&empty
+言って、寝袋を起こしてクルッと回す。
+$k
+
+// 	SV( BG_DAMKOHAN03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DAMKOHAN03A.jpg,(s),100%
+#ig
+
+優
+「………湖か？」
+$k
+
+// SAKURAKOn_A402NO
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000683
+桜子
+「さあ？
+$nw,1400
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO4.png,(x),c,(s),80%
+#ig
+
+　でもキャンプとかできそうね。
+　ダム湖かなんかでしょ？」
+$k
+
+優
+「暗いし、水面暗くて怖いぞ。
+　変な仮面の男とか出てきそうだ…帰りてえーっ！」
+$k
+
+// SAKURAKOn_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000684
+桜子
+「あんた文句多いわね……
+$nw,2500
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02AK.png,(x),c,(s),80%
+#ig
+
+#madd,はい」
+
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,S_Chuck01
+
+#wait,1000
+
+#show
+
+// 	SS_( CENTER, SAKURAKOn_A402NO5, MOVE_DOWN, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「ああ、やっと解放された…」
+$k
+
+&empty
+のそのそと寝袋から抜け起きる。
+$k
+
+// SAKURAKOn_A402NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000685
+桜子
+「帰りたきゃ帰れば？」
+$k
+
+優
+「…なんだよ今更、ここまで連れて来といてよー」
+$k
+
+// SAKURAKOn_A402TR
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000686
+桜子
+「あーあー、っと…」
+$k
+
+優
+「………なんなんだ」
+$k
+
+// SAKURAKOn_A402KM
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000687
+桜子
+「………」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+#show
+
+// SAKURAKO_A402NO3
+
+#sp,vo,02000688
+桜子
+「ほら優、あれがオリオン座よ！」
+$k
+
+優
+「それくらい言われんでも知っとるわ！」
+$k
+
+// SAKURAKO_A402IK3
+
+#sp,vo,02000689
+桜子
+「何よ、せっかく親切に教えてあげたのに。
+$nw,3700
+
+　じゃあ、ぎょしゃ座は？」
+$k
+
+優
+「え？　………と、知らなくても生きていけるし！」
+$k
+
+&empty
+正直冬の星座はオリオンとこぐましか分からん。
+$k
+
+// SAKURAKO_A401TR4
+
+#sp,vo,02000690
+桜子
+「知ってた？　ぎょしゃがヤギを可愛がってたら、
+　嫉妬に狂った雄牛がぎょしゃを角で突き飛ばして、
+　その雄牛を退治しようとオリオンが戦うの」
+$k
+
+優
+「………」
+$k
+
+// SAKURAKO_A402EG
+
+
+#sp,vo,02000691
+桜子
+「で、それを横から見物して、きゃきゃっと
+　笑っているのがふたご座な訳よ。
+$nw,5900
+
+　ほら、オリオン座の斜め上に」
+$k
+
+優
+「おまえそれ、絶対適当言ってるだろ？」
+$k
+
+// SAKURAKO_A403NO2
+
+#sp,vo,02000692
+桜子
+「そういう楽しみ方もあるでしょー？
+$nw,2000
+
+　ほら、想像力は大事よ？　受験にも役立つし」
+$k
+
+優
+「リフレッシュじゃなかったのかよ？
+　それに、お前の楽しみ方はどこかおかしいぞ」
+$k
+
+&empty
+雄牛がヤギに嫉妬とか。
+$k
+
+// SAKURAKO_A402EG
+
+#sp,vo,02000693
+桜子
+「ちなみに子犬は双子の持つお弁当を、
+　虎視眈々と狙ってるんだけどね…」
+
+#mfuri,　　こ　し　たんたん
+
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"……" );
+// 	SV( BG_TD_IMA03F );
+
+// 	SS( LEFTLEFT, MII_0403KT );
+// 	SS( CENTERBOTTOM, KINO_0401NO2 );
+// 	SS( RIGHTRIGHT, KANAME_0401KM2 );
+
+#sp,env,S_Watch01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),r2,(s),60%
+#ip,c3,(fi),KINO_A401NO2.png,(x),c,(s),60%
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),l2,(s),60%
+#ig
+
+#next,02common03-3A_03

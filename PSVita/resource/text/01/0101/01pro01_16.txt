@@ -1,0 +1,700 @@
+﻿// 既読フラグ
+#read_flag,26
+
+// KANAME_0301KT
+#sp,vo,01020033
+要
+「……本当に…いいのそれで？」
+$k
+
+// ISAKI_0301NO
+#ir
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01010012
+勇樹
+「はい、では……」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SV( BG_SJ_YU03A );
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,01110003
+育美
+「で、どうなのよ、上手く行ってんのあんたたち」
+$k
+
+// SAKURAKO_0302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000253
+桜子
+「♪～」
+#msmall
+$k
+
+優
+「なんの事だよ！
+$nw,1000
+
+　っておい、お前も聞き耳立ててんじゃねえって」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000254
+桜子
+「むぅ」
+#msmall
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+桜子も人の会話風景、横から覗いてなにが楽しいんだ？
+いまさら珍しくもないだろう。
+$k
+
+&empty
+聞こえてはいないと思うが、
+こういう恥ずかしい会話を国際電話でさせるなよ。
+$k
+
+#sp,vo,01110004
+育美
+「母さん、あんたの世話とか、もうぜーんぶ桜子ちゃんに
+　任せてあるからさ。ファイトよ、ファイト！」
+$k
+
+優
+「おおーいっ！」
+$k
+
+&empty
+なんて余計なお世話を…。
+$k
+
+#sp,vo,01110005
+育美
+「大丈夫！　心配ないから。問題ないから。
+　それで必ず少しでも前進するのよ！
+　気合でなんとかなるから！」
+$k
+
+優
+「ならねえよ！　気合の問題じゃねえし！
+　むしろアレな感じだろ。
+　そういう変なアレをナニすんな、母上様よ？」　
+$k
+
+#sp,vo,01110006
+育美
+「大丈夫だってもう、照れちゃってーっ♪
+　分かってるから、母さん分かってるから。
+　通い妻作戦は実行不可能になっちゃったけど」
+$k
+
+優
+「母上っ、あんたナニ物騒な事考えてんのっ」
+$k
+
+#sp,vo,01110007
+育美
+「こんな状況なんて、そうそう無いんだから、
+　あとは自分でしっかりやるのよ！
+　ラブアンドピースで勝てるから！」
+$k
+
+優
+「もう全然ピースじゃないし」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000255
+桜子
+「あいかわらず、あんたんとこって変な会話するわよね」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+桜子に電話の声は聞こえてないと思うから、
+俺の言ってたアレとかナニとかを指しての事だろう。
+$k
+
+優
+「なあ、もしかしてそんだけか、この電話」
+$k
+
+#sp,vo,01110008
+育美
+「そうよ、それ以外どうでもいいでしょ！
+　あ、ついでに受験も出来るだけ頑張りなさい」
+$k
+
+優
+「ついでじゃマズイだろ、そこはっ」
+$k
+
+#sp,vo,01110009
+育美
+「ああーあーはいはい、もう言いたい事言ったから
+　桜子ちゃんに代わってくれるぅー？」
+$k
+
+優
+「ちっ、このクソババア。
+$nw,500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+　……ほれ桜子」
+$k
+
+// 	SS(CENTER, SAKURAKO_0302NO);
+
+// SAKURAKO_0301TR3
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000256
+桜子
+「あ、おば様？　あたしですけど、はい」
+$k
+
+#sp,env,sound\voice\01\010002\01000257,(lp),NO
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#sp,se,S_Door03c
+
+&empty
+あーあーあー、もうやれやれだ。
+色々と心配になって来たぞー。
+$k
+
+// 	SEPan(0, SLOWER, 60);
+
+#ss,env
+
+//	SM( CHAR_SAKURAKO,		SAKURAKO_0301NO,	"桜子",			"@v01000257「うん、うん、でね、うちのお姉がさー……」" );
+
+&empty
+はー、嵐は去った。
+$k
+
+&empty
+まったく、次から次へと悩みは尽きないものだ。
+$k
+
+&empty
+俺はこれからどうすればいいんだ。
+また眠れなくなるかも……。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+#sp,env,S_Bird01#
+
+// 	SV( BG_GK_KOMON01B );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_GK_KOMON01B.jpg,(s),100%
+#ig
+
+#wait,1000
+
+#ss,env,(dr),1000
+
+#sp,bgm,BGM_YASURAGI
+
+// 	SV( BG_GK_KYOSHITSU01G );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01G.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+朝、誰もいない教室に俺一人。
+$k
+
+&empty
+今日は早く起きてしまったから、
+こうしてかなり早い登校をした。
+$k
+
+&empty
+あまり眠れなかったというのもそうだが、
+今朝は轟木家の住人には顔を合わせたくない
+気分でもあったし。
+$k
+
+&empty
+いや、正確には『宮津橋には』だが。
+$k
+
+&empty
+ちょっと落ちついて状況を整理したかったし。
+どうなるものでもないけど、冷静になりたかった。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"………宮津橋の事だ。" );
+&empty
+俺はあいつを知っている。
+あいつも俺を知っている。
+$k
+
+&empty
+でも、俺の事はそしらぬ顔でいる。
+$k
+
+&empty
+興味がないのか、何かあるのか。
+三年の同じ時期に転入して来たのは、偶然なのか、
+別の理由があるのか。
+$k
+
+&empty
+知らないフリのままで良いのか。
+俺とのあの関係はどうなっているのか。
+$k
+
+&empty
+俺はどう動くのか。
+$k
+
+&empty
+色々考えても、どうすればいいのか、まったく見えない。
+$k
+
+&empty
+………………………。
+#meffect,flow,5
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"………。" );
+&empty
+しかし、朝早くから学園って開いてるもんなんだな。
+用務員さんなんて存在、俺は生まれて初めて見た気がする。
+$k
+
+&empty
+あ、今のこの状況の俺、
+他のクラスメイトから見たら……
+$k
+
+&empty
+転入後にうれしくて、
+浮かれて早起きして、みんなより早く来ちゃった！
+みたいな感じになっちゃうのかな？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+#wait,1000
+
+#sp,bgm,BGM_NONBIRI
+
+#sp,env,S_Gaya04#
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+// 	SS(CENTER, KOZUE_0102BS);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ip,c1,(fi),KOZUE_A102.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KOZUE_0102BS
+#sp,vo,01100004
+山之辺こずえ
+「はい、なんと今日も転入生の紹介です！
+$nw,4160
+
+　はいはい、静かにね」
+$k
+
+#ss,env,(dr),1000
+
+// KOZUE_0102EG
+#ir
+#ip,c1,(fi),KOZUE_A102.png,(psi),KOZUE_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01100005
+山之辺こずえ
+「特に沖奈さんは」
+$k
+
+// MEGUMI_0101KM2
+
+#sp,vo,01070027
+めぐみ
+「え～私だけぇ！？」
+$k
+
+// KOZUE_0102BS
+#ir
+#ip,c1,(fi),KOZUE_A102.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01100006
+山之辺こずえ
+「はい、静かに！
+$nw,2220
+
+#ir
+#ip,c1,(fi),KOZUE_A102.png,(psi),KOZUE_An01EG.png,(x),c,(s),60%
+#ig
+
+　じゃあ入ってきて？」
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+// 	SV( BG_GK_KYOSHITSU01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01B.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A102.png,(psi),ISAKI_An02NO.png,(x),r0,(s),60%,(al),0%
+#ig,(se),S_Door04o
+
+
+// ISAKI_0102NO
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,01010013
+勇樹
+「………はい」
+$k
+
+// 	SS(CENTER, ISAKI_0102NO, MOVE_RIGHT, SLOW);
+
+&empty
+そうだよな。
+単なる余りかもしれないけど、この教室
+入り口側に空き机もう一つ用意してあるもんな。
+$k
+
+// ISAKI_0102NO
+#sp,vo,01010014
+勇樹
+「宮津橋勇樹です、よろしく」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Chime01
+
+#sp,bgm,BGM_TANOSHII
+
+#sp,env,S_Gaya04#
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG2.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	SS(CENTER, MEGUMI_0101EG2, MOVE_LEFT, NORMAL);
+
+#show
+
+// MEGUMI_0101EG2
+
+#sp,vo,01070028
+めぐみ
+「優ちゃん、一緒にお弁当たべよ～？」
+$k
+
+優
+「ああ、俺は学食行くんだ。
+　悪いけど、宮津橋でも誘ってやってくれよ」
+$k
+
+// 	SEFade(1, SLOWER);
+
+// MEGUMI_0101KM
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070029
+めぐみ
+「そうしたいのはやまやまなんだけどさぁ。
+　ほらあれ」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+宮津橋は自分の机の周りを女子連中に囲まれている。
+今のとこ、毎休み時間ずっとだ。
+$k
+
+優
+「………ああ」
+$k
+
+// MEGUMI_0101KM2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070030
+めぐみ
+「んー、人気者だねぇ美人はお得だねぇ～」
+$k
+
+優
+「そうだなあ（…だといいんだけど）」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+俺は、あいつを知っている。
+でも、俺の知っているあいつは、今のあいつと同じだろう
+か。
+$k
+
+&empty
+もし違うんなら、俺はどうするんだろう？
+$k
+
+優
+「じゃあ、学食行くから」
+$k
+
+// MEGUMI_0101KM7
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070031
+めぐみ
+「……あ」
+$k
+
+#ss,bgm
+#ss,env
+
+優
+「ん？」
+$k
+
+#ir
+#ie,c1
+#ig
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A102.png,(psi),ISAKI_An02NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#sp,bgm,BGM_ISAKI
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+優
+「………あっ」
+#meffect,flow,5
+$k
+
+// 	SS(CENTER, ISAKI_0102NO, MOVE_STOP, NORMAL);
+
+&empty
+目の前に宮津橋が立っていた。
+$k
+
+// ISAKI_0102NO
+
+#sp,vo,01010015
+勇樹
+「………矢崎…久しぶりだな」
+$k
+
+優
+「え、ああ……そう、だな」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+
+// 	SS(CENTER, ISAKI_A101NO, MOVE_STOP, NORMAL);
+
+// ISAKI_A101NO
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01010016
+勇樹
+「……また、頼むからな」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+優
+「え…あっおい、宮津橋」
+$k
+
+&empty
+そっと耳元で囁くと宮津橋は去っていった。
+$k
+
+// 	SS(CENTER, MEGUMI_0101OD, MOVE_STOP, NORMAL);
+
+// MEGUMI_0101OD
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070032
+めぐみ
+「……なに、どういうことぉ？
+$nw,4790
+
+　優ちゃん、あの娘と知り合いっ？
+　つーか、また頼むってなにを～？」
+$k
+
+優
+「な…なんでもねーって。
+　さあ昼飯、昼飯」
+$k
+
+// MEGUMI_0101KM3
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070033
+めぐみ
+「あ、待ってよぅ。
+　私も学食一緒に行くからさ～？」
+$k
+
+優
+「っだよ、おまえ弁当あんだろー？」
+$k
+
+// MEGUMI_0101BS2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070034
+めぐみ
+「学食のテーブルで一緒に食べるのは別に構わないよね？」
+$k
+
+優
+「ち……まあいいけどさ、黙って食ってるだけならな」
+$k
+
+// MEGUMI_0101EG2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070035
+めぐみ
+「やぁ～ん、優ちゃんやっさし～い！」
+$k
+
+優
+「こんなんで、やさしい言われてもなあ」
+$k
+
+#hide
+
+#next,01pro01_17

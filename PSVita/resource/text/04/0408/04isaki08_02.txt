@@ -1,0 +1,758 @@
+﻿// 既読フラグ
+#read_flag,207
+
+#show
+
+&empty
+外に出ると、いきなり冷たい風が吹き付けてきた。
+$k
+
+優
+「うひょーっ、寒ぅーっっ！」
+$k
+
+// 	SS( CENTER, ISAKI_0401IK );
+
+// ISAKI_0401IK
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010187
+勇樹
+「騒ぐな、鬱陶しい」
+$k
+
+&empty
+店の外に出ると、宮津橋が近づいてきた。
+$k
+
+&empty
+なぜか、一瞬、ほっとしてしまう。
+$k
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010188
+勇樹
+「さて、帰るぞ」
+$k
+
+優
+「そうだな」
+$k
+
+&empty
+俺達は、すでにかなり日の傾いてきている
+商店街を並んで歩き出す。
+$k
+
+優
+「…本当に待っててくれたんだな」
+$k
+
+// ISAKI_0402KT
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010189
+勇樹
+「？　当たり前だろう？」
+$k
+
+優
+「いや、だって、外めちゃくちゃ寒いじゃん？
+　よくこんな中で待ってられたなって」
+$k
+
+// ISAKI_0402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010190
+勇樹
+「大騒ぎするほどじゃない。
+　それに、そんなに待たされたわけでもないからな」
+$k
+
+&empty
+けど、その宮津橋の頬も寒さで少し
+赤くなっている。
+$k
+
+#sp,se,S_Wind02
+
+// 	WaitSE();
+//	SetIconBikkuri( CENTER );
+
+// ISAKI_0402KM
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010191
+勇樹
+「っ！」
+$k
+
+優
+「うわっ！　寒っ！　寒ぅ～っ！！」
+$k
+
+&empty
+今のは宮津橋も縮み上がったな。
+$k
+
+優
+「ほら、やっぱ寒いのは本当だしっ。
+　ちょっとどっかに寄ってくか」
+$k
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010192
+勇樹
+「寄るってどこに？」
+$k
+
+優
+「喫茶店とか……温かいものでも飲んでから
+　帰ろうって」
+$k
+
+// ISAKI_0401NO
+#sp,vo,04010193
+勇樹
+「…………まるで、デートだな」
+$k
+
+&empty
+宮津橋の口から、その言葉が出た事に
+不覚にもときめいた。
+$k
+
+優
+「あ、あー……まあ、ほら、仮面だけど、
+　カップルだし、それくらい、いいじゃないか」
+$k
+
+&empty
+自分でも何を言っているのかわからない。
+$k
+
+// ISAKI_0401NO
+#sp,vo,04010194
+勇樹
+「……別にいいぞ」
+$k
+
+優
+「よし、じゃあ、
+　良さそうな店を見つけたら入ろうぜ」
+$k
+
+&empty
+宮津橋が俺の横にいてくれる。
+$k
+
+&empty
+だけど、それは、あくまでも仮面の姿
+だというのが少し切なかった。
+$k
+
+#hide
+
+#ss,bgm
+#ss,env,(dr),0
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO( SLOW );
+
+// 	SS( CENTER, ISAKI_A401NO );
+
+#sp,bgm,BGM_NONBIRI
+
+// 	CFI( SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMICHI02A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+&empty
+しばらく歩くと、懐かしい場所に出た。
+$k
+
+優
+「あ、ここって……懐かしいな、まだ残ってたのか」
+$k
+
+&empty
+古い民家のような店構え。
+$k
+
+&empty
+入り口にはびっしりと駄菓子が並んで、天井からは
+ブロマイドやベーゴマが吊されている。
+$k
+
+&empty
+昔ながらの駄菓子屋だ。
+$k
+
+// ISAKI_A402KT
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010195
+勇樹
+「まだあったんだな」
+$k
+
+&empty
+宮津橋も感心したように店を見ている。
+$k
+
+優
+「せっかくだし、ここに寄って行こうぜ。
+　確か店の奥で、甘酒とか飲めただろ？」
+$k
+
+// ISAKI_A402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010196
+勇樹
+「あ、ああ、そうだな」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_DAGASHIYA02A );
+
+//	SV( BG_MT_JINJYAMICHI02A );
+//	SetStandEx( CENTER, ISAKI_A402NO );
+//	FadeStand( CENTER, 0, FADE_ALPHA, 100 );
+//	MoveStand( CENTER, 0, 0, 100 );
+// 	CFI();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_DAGASHIYA02A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+奥に入れてもらうと、時が止まったかのように、
+俺たちが来ていた頃のままの状態だった。
+$k
+
+&empty
+おばちゃんは代替わりしてたけど、
+温かい甘酒を２つ、にこにこしながら
+持ってきてくれるところは変わらない。
+$k
+
+優
+「懐かしいなあ。
+　下町ってこういうところが残ってるから
+　いいよな」
+$k
+
+// ISAKI_A402MU
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010197
+勇樹
+「ああ……ずずっ」
+$k
+
+&empty
+火傷しそうに熱い甘酒をちびちび飲んでいると
+体が温まってきた。
+$k
+
+優
+「よく、ここで駄菓子とか、
+　オモチャとかを買ったよな」
+$k
+
+// ISAKI_A402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010198
+勇樹
+「そうだったな」
+$k
+
+優
+「水風船とかさー。桜子に水浸しにされて、
+　２人で泣いちゃって」
+$k
+
+// ISAKI_A401MU
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010199
+勇樹
+「…………む」
+$k
+
+&empty
+そういえば、あの頃の宮津橋は、
+今と違って、もっとこう大人しいというか、
+小さくて妹みたいな存在だった気がする。
+$k
+
+優
+「お前さ、子供の頃って……
+　もっとちっちゃかったよな」
+$k
+
+// ISAKI_A401KB
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010200
+勇樹
+「何を当たり前の事を言っている」
+$k
+
+優
+「いや、そうじゃなくてさー。
+　俺とか桜子の後をちょこちょこ
+　くっついて来てたじゃないか」
+$k
+
+// ISAKI_A401KB2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010201
+勇樹
+「……知らん。忘れた」
+$k
+
+&empty
+甘酒で温まったからか、
+宮津橋の頬がほんのりと赤い。
+$k
+
+&empty
+それとも、照れているのか？
+$k
+
+// ISAKI_A401IK2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010202
+勇樹
+「どうでもいいだろう、昔の話なんか」
+$k
+
+優
+「いや、あの頃は楽しかったなあって」
+$k
+
+// ISAKI_A402BS
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010203
+勇樹
+「…………そう、
+$nw,2960
+
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KS.png,(x),c,(s),80%
+#ig
+
+#madd,だな」
+
+$k
+
+&empty
+宮津橋の顔が少し和らいだ気がした。
+$k
+
+// 	SS( CENTER, ISAKI_A401NO, MOVE_DOWN, SLOW );
+
+#ir
+#ie,c1
+#ig
+
+&empty
+宮津橋も俺と同じように、
+ここで過ごした楽しい日々を
+思い出してくれているんだろうか。
+$k
+
+&empty
+そう思うと無性に嬉しくて、思わず頬が緩む。
+$k
+
+// ISAKI_A401IK
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010204
+勇樹
+「何をにやにやしている？」
+$k
+
+優
+「なんでもない」
+$k
+
+// ISAKI_A401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010205
+勇樹
+「変な奴だな」
+$k
+
+優
+「あ、そう言や、なんで宮津橋は、
+　桜子をチーちゃんって呼んでいたんだ？」
+$k
+
+&empty
+子供の頃からずっと疑問だった。
+$k
+
+&empty
+聞いても『２人だけの秘密ー』とか言われて、
+はぐらかされていたし。
+$k
+
+// ISAKI_A402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010206
+勇樹
+「ん？　ああ、単純な話だ。
+　さくらんぼはチェリーだろ？」
+$k
+
+// ISAKI_A402MU
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010207
+勇樹
+「その英語を知った桜子が、今日からは
+　チェリーと呼べと言ってきたんだが……」
+$k
+
+// ISAKI_A402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010208
+勇樹
+「あの頃は言いにくかったんだろうな。
+　いつの間にかチーちゃんになったんだ」
+$k
+
+優
+「チェリーのチーか」
+$k
+
+&empty
+よかったな、チーちゃんになって。
+$k
+
+&empty
+チェリーとか言われ続けてたら、
+そうとう恥ずかしいことになってたに違いない。
+$k
+
+&empty
+あ、それで雪華ちゃんも一時期、自分の事を
+スーちゃんって言ってたのか。
+$k
+
+&empty
+あれはスノーだったのな。
+$k
+
+// ISAKI_A402NO
+#sp,vo,04010209
+勇樹
+「……ところで、桜子はどこを受験するんだ？」
+$k
+
+優
+「へ？　いや、聞いてないけど」
+$k
+
+&empty
+珍しく、宮津橋から桜子のことを聞いてきた。
+$k
+
+優
+「あ、でも近くじゃないらしい。
+　家は出るって言ってたしな」
+$k
+
+&empty
+そう考えると、桜子との同居生活？も
+あとちょっとか。
+$k
+
+&empty
+まあ、どうせ、しょっちゅう帰ってくるだろうし
+それはあまり寂しくない。
+$k
+
+// ISAKI_A402NO
+#sp,vo,04010210
+勇樹
+「いいのか？」
+$k
+
+優
+「なにがだ？」
+$k
+
+// ISAKI_A402NO
+#sp,vo,04010211
+勇樹
+「お前は、桜子に会いに戻ってきたんだろう？」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ie,c1
+#ig
+
+優
+「ぶーっっ！！」
+#mlarge
+$k
+
+// 	Shake( SLOW, SHAKE_RANDOM, 8, 10 );
+// 	SS( CENTERLEFT, ISAKI_0401NR, MOVE_RIGHT );
+
+&empty
+残っていた甘酒を全部噴き出してしまった。
+$k
+
+// ISAKI_0401IK
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010212
+勇樹
+「汚いな」
+$k
+
+優
+「げほっ……ぶほっ、ごほっ……。
+　いや、ない。それはない」
+$k
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010213
+勇樹
+「ないのか？」
+$k
+
+&empty
+まったく無かったと言えば嘘になるけど、
+今となってはそれはない。
+$k
+
+&empty
+今は……桜子よりも、宮津橋との
+この関係が終わってしまう事の方が……。
+$k
+
+&empty
+そんな事を言ったって、
+一笑に付されるだけなんだろうけど。
+$k
+
+優
+「絶対ないって。
+　だいたい、お前、そう思ってたんだとしたら、
+　この状況はありえないだろ？」
+$k
+
+// ISAKI_0402NO
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010214
+勇樹
+「ふむ？」
+$k
+
+優
+「いきなり桜子の目の前でキスするとかさー。
+　どんだけ酷いヤツだよ」
+$k
+
+// ISAKI_0402BS
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010215
+勇樹
+「ふっ……それもそうだな」
+$k
+
+&empty
+自然に。
+本当にこぼれ出たように、
+宮津橋が俺の前で笑った。
+$k
+
+優
+「今の顔、いいな」
+$k
+
+// ISAKI_0402KT
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010216
+勇樹
+「は？」
+$k
+
+優
+「……あ、や、今みたいに自然に笑ってるのが
+　いいなって……」
+$k
+
+&empty
+改めて言うと猛烈に恥ずかしいな、このセリフ！
+$k
+
+// ISAKI_0401IK2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010217
+勇樹
+「何を馬鹿な事言っている。
+　飲み終わったんなら帰るぞ！」
+$k
+
+// 	CS( CENTERLEFT, CENTER );
+
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r0,(al),0
+#ig
+
+優
+「あ、ああ、そうだな」
+$k
+
+&empty
+出て行く瞬間、宮津橋の顔が赤く見えたのは
+気のせいだったんだろうか？
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,02common03-3_00

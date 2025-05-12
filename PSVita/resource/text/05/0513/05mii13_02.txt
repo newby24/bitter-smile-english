@@ -1,0 +1,701 @@
+﻿// 既読フラグ
+#read_flag,161
+
+優
+「えーと…」
+$k
+
+// CHISEKA_0401KN
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040091
+知世翔
+「手紙、読んでくれたんですね」
+$k
+
+#ss,bgm
+
+&empty
+……え？
+$k
+
+// 	RFO( RULE_LEFTRIGHT, NORMAL );
+// 特殊な画面変更。暫定的に。
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+#sp,se,S_Kusa01
+
+#sp,vo,05030743
+？？？
+#mstyle,(co),みい
+「………」
+$k
+
+#sp,vo,05030744
+？？？
+#mstyle,(co),みい
+「ふふ……」
+$k
+
+#sp,bgm,BGM_CHISEKA
+
+// 	SS( CENTER, CHISEKA_0401EG );
+// 	RFI( RULE_LEFTRIGHT, NORMAL );
+
+//	SetIconKyakya( CENTER );
+// CHISEKA_0401EG
+#ir
+#ip,bg,(fi),BG_MT_KOEN01A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040092
+知世翔
+「今日は来てくれましたねっ♪」
+$k
+
+&empty
+ちょっ……。
+$k
+
+// CHISEKA_0401TR2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040093
+知世翔
+「来てくれて良かったです。
+　何度も待つことになるかもとか思ってましたから」
+$k
+
+優
+「マジで有河が送り主なのかよっ！？」
+$k
+
+&empty
+信じられねぇ！？
+$k
+
+// CHISEKA_0401TR4
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040094
+知世翔
+「なんですかぁ、その反応は」
+$k
+
+優
+「す、すまん、まさか有河がくれた物だとは
+　微塵も……いや、なんでも…」
+
+#mfuri,　　　みじん
+
+$k
+
+// CHISEKA_0401AK
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040095
+知世翔
+「意外ですみませんねー」
+$k
+
+優
+「いやいや、そういう事じゃないんだけど…」
+$k
+
+&empty
+本当に有河なのか？
+$k
+
+&empty
+そりゃあ、有河みたいな子と付き合ったら、
+街中でデートした時、道行く男共に羨ましがられる事
+間違い無しだろうけど。
+$k
+
+&empty
+そんな様子、感じなかったけどなぁ。
+$k
+
+&empty
+それともめぐみが言ったとおり、
+俺が壮絶に鈍感なのか？
+$k
+
+// CHISEKA_0401TR2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040096
+知世翔
+「じゃあ、嬉しいですか？」
+$k
+
+優
+「お、おう…
+　そりゃ、まあ」
+$k
+
+// CHISEKA_0401EG3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040097
+知世翔
+「本当ですかっ！？」
+$k
+
+&empty
+正直、なんて言っていいのかわからないけど…。
+$k
+
+&empty
+嬉しくないってことはない。
+$k
+
+&empty
+それに…嬉しくないなんて言ったら、
+また喧嘩になりそうだしなぁ。
+$k
+
+#ss,bgm
+
+優
+「その…光栄だとは思うよ」
+$k
+
+// CHISEKA_0401NO2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040098
+知世翔
+「…」
+$k
+
+優
+「有河は、その…」
+$k
+
+&empty
+俺のどこが？
+というより、本当に俺の事を？
+$k
+
+&empty
+次々と疑問が湧いてくる。
+$k
+
+&empty
+愚問なのかもしれないけど、
+いきなりすぎて戸惑うよなぁ。
+$k
+
+優
+「こういう事を聞くのは、アレかなって
+　思うけど……マジで？」
+$k
+
+#sp,bgm,BGM_YASURAGI
+
+// CHISEKA_0401EG3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040099
+知世翔
+「はい、好きですよ、矢崎先輩の事っ」
+$k
+
+&empty
+直接言われると、さすがにドキッとする。
+$k
+
+&empty
+けど、胸を張って言う姿は、
+あまり繊細に見えないよなぁ。
+$k
+
+&empty
+そこんとこどうなんだ？桜子。
+$k
+
+&empty
+女の子が考えてる事は、ぜんぜん分からないぞ。
+$k
+
+優
+「…有河は桜子を慕ってて、それでてっきり
+　桜子と幼なじみの俺が気に入らないのかと思ってたよ」
+$k
+
+優
+「あれは、好きの裏返しだったって事なのか…？」
+$k
+
+// CHISEKA_0401TR2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040100
+知世翔
+「はい…実は……」
+$k
+
+// CHISEKA_0401TR2
+#sp,vo,05040101
+知世翔
+「…………んなわけないじゃん」
+#msmall
+$k
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+#sp,vo,05030745
+？？？
+#mstyle,(co),みい
+「ふふふ、戸惑っていますね、お兄様…」
+$k
+
+// MII_0901NS
+
+#sp,vo,05030746
+？？？
+#mstyle,(co),みい
+「名演技ですよ、知世翔さん」
+$k
+
+// MII_0901NS
+#sp,vo,05030747
+？？？
+#mstyle,(co),みい
+「騙されているとも知らずに…。
+#mfuri,　　だま
+　真実を知ったときのお兄様の顔が見物です」
+$k
+
+// CHISEKA_0401TR
+#ir
+#ip,bg,(fi),BG_MT_KOEN01A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040102
+知世翔
+「今まで素直になれなくて、すみませんでした」
+$k
+
+優
+「い、いや…俺の方こそ、有河の事を
+　生意気で口の悪い、好戦的な後輩だとか
+　思ってて悪かったな」
+$k
+
+// 	FadeVisual( 50, 50 );
+
+// CHISEKA_0401IK3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040103
+知世翔
+「（ムカ！）……
+#msmall
+$nw,2340
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),60%
+#ig
+
+　それは…今までの私の態度じゃ
+　仕方ないと思います」
+
+$k
+
+// 	FadeVisual( 50, 100 );
+
+優
+「そうだなー」
+$k
+
+// CHISEKA_0401IK3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040104
+知世翔
+「ムッカぁーっ！　何コイツ！
+#msmall
+　人が下手に出てると思ったらっ。
+#msmall
+　デリカシーが欠如してんじゃないの！」
+#msmall
+$k
+
+優
+「ん？　どうかしたのか？」
+$k
+
+// CHISEKA_0401TR6
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR6.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040105
+知世翔
+「い、いえ…その…
+　は…恥ずかしくなっちゃって……」
+$k
+
+優
+「そ、そうか…」
+$k
+
+&empty
+うつむき気味で顔を隠して、肩を震わせている。
+$k
+
+&empty
+有河みたいなヤツに、
+急にこういう態度に出られると…。
+$k
+
+&empty
+ちょっとヤバイな……こういうシチュエーション。
+$k
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+// MII_0901NI2
+
+#sp,vo,05030748
+？？？
+#mstyle,(co),みい
+「それにしても、見事な騙されっぷり。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　だま
+　……鈍感だから人の恋愛感情がわからないのです」
+$k
+
+// MII_0901NI
+
+#sp,vo,05030749
+？？？
+#mstyle,(co),みい
+「これも自業自得です。
+　少しは学習してください」
+$k
+
+// MII_0901NI2
+
+#sp,vo,05030750
+？？？
+#mstyle,(co),みい
+「あらあら、あんなに鼻の下を伸ばして、
+　全く、みっともないったらないですねえ……」
+$k
+
+// 	RFI( RULE_LEFTRIGHT, NORMAL );
+// 特殊な画面変更。暫定的に。
+
+#ir
+#ip,bg,(fi),BG_MT_KOEN01A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR6.png,(x),c,(s),60%
+#ig
+
+優
+「しかし、まさか有河がそんな風に俺のことを
+　想ってくれてたなんてな…」
+$k
+
+// CHISEKA_0401TR4
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040106
+知世翔
+「…本当はずっと好きでした」
+$k
+
+// CHISEKA_0401TR2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040107
+知世翔
+「桜子先輩と一緒にいる矢崎先輩を見てて、
+　一緒にいられたら楽しそうだと思いましたし」
+$k
+
+// CHISEKA_0401TR2
+#sp,vo,05040108
+知世翔
+「みいに優しくしてるところを見て、
+　お兄さんみたいでいいなって思って…」
+$k
+
+&empty
+そうだったのか。
+ちっとも気付かなかった。
+$k
+
+// CHISEKA_0401TR4
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040109
+知世翔
+「あと、たこ焼きを焼いてるところとかも、
+　ちょっと格好良かったりして……」
+$k
+
+優
+「そ、そうか？」
+$k
+
+&empty
+マジかよ！
+$k
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+// MII_0902SP
+
+
+#sp,vo,05030751
+？？？
+#mstyle,(co),みい
+「………」
+$k
+
+// MII_0902NM2
+
+#sp,vo,05030752
+？？？
+#mstyle,(co),みい
+「ちょっと……
+　デレデレしすぎじゃないですか、お兄様？」
+$k
+
+// 	RFI( RULE_LEFTRIGHT, NORMAL );
+// 特殊な画面変更。暫定的に。
+
+// CHISEKA_0401TR2
+#ir
+#ip,bg,(fi),BG_MT_KOEN01A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040110
+知世翔
+「もう少し…側に行っていいですか？」
+$k
+
+優
+「あ、有河……っ」
+$k
+
+&empty
+うおーっ！　辛抱溜まらん！
+$k
+
+&empty
+俺はどうすればいいんだ！？
+$k
+
+&empty
+有河の想いに応えるのか？
+$k
+
+#ss,bgm
+
+&empty
+………。
+$k
+
+&empty
+……でも……。
+$k
+
+&empty
+でも、なんだろ？
+もやもやっとした、違和感みたいなものがある。
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+何かが違う。
+それがなんだか、自分でもわからないけれど。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_10A_s.jpg,(s),100%,(x),l_s,(y),0
+#ig,(se),S_Flash01
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	Fade( 0, 0 );
+// 	SV( VISUAL_MII_10A, FILTER_SEPIA );
+// 	ZoomVisual( 0, 150, 150, 550, 0 );
+
+// 	FlashVisual( 0, 100 );
+// 	Fade( NORMAL );
+// 	FlashVisual( NORMAL, 0, 1 );
+
+#show
+
+優
+「…あ」
+$k
+
+// 	SV( BG_MT_KOEN01A );
+// 	SS( CENTER, CHISEKA_A401TR2 );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir
+#ip,bg,(fi),BG_MT_KOEN01A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR2.png,(x),c,(s),80%
+#ig
+
+&empty
+有河が俺の間近に立って、俺のことを見つめている。
+$k
+
+&empty
+もちろん、すげーかわいい。
+$k
+
+優
+「あのさ、有河…」
+$k
+
+// CHISEKA_A401NO2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040111
+知世翔
+「え？」
+$k
+
+&empty
+かわいい…けど…。
+$k
+
+優
+「………俺さ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir
+#ie,c1
+#ig
+
+#ir,(ef),off
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03IK5.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c3,(y+),100
+#ig
+
+#sp,se,S_Kusa01
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(y+),-100,(al),100%
+#ig
+
+// 	RFO( RULE_LEFTRIGHT, FAST );
+// 	BGMStop();
+// 	RFI( RULE_LEFTRIGHT | RULE_MIRROR, FAST );
+// 	SS( CENTER, MII_0903IK5, MOVE_DOWN );
+
+#show
+
+// MII_0903IK5
+
+#sp,vo,05030753
+みい
+「ち、知世翔さん！　それはやりすぎかとっ！！」
+$k
+
+優
+「え？」
+$k
+
+// CHISEKA_0401OD3
+
+#sp,vo,05040112
+知世翔
+「あ」
+$k
+
+優
+「みいちゃん？」
+$k
+
+// MII_0903KD2
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03KD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030754
+みい
+「っ！？」
+$k
+
+// CHISEKA_0401KM3
+
+#sp,vo,05040113
+知世翔
+「あちゃ…」
+$k
+
+&empty
+いきなりの声に振り返ると、みいちゃんが立っていた。
+$k
+
+&empty
+なんで、みいちゃんが…？
+$k
+
+
+#next,05mii13_03

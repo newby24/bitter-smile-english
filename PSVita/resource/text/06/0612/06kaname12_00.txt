@@ -1,0 +1,654 @@
+﻿// 既読フラグ
+#read_flag,378
+
+// セーブタイトル
+#flag,save_title,要　第１２話,0,0
+
+// 	SV( BG_TD_KITCHEN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_KITCHEN01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第１２話　逡巡
+$k
+#note,erase
+
+#show
+
+&empty
+１２月３１日、大晦日。
+$k
+
+&empty
+この日、轟木家では１年の垢を落とす
+大掃除が敢行されていた。
+$k
+
+優
+「……はぁ」
+#meffect,flow,5
+$k
+
+&empty
+うわべは頑固な油汚れと戦いながらも、心ここに在らず。
+
+$k
+
+&empty
+………。
+#meffect,flow,2
+$k
+
+// 	SV(BG_MT_TODOROKIMICHI03A, FILTER_SEPIA|FILTER_LINKSTAND);
+// 	ZoomVisual(FASTEST, 150, 150, 0, 600);
+// 	SS(CENTERLEFT, KANAME_A201KU);
+// 	ZoomStand(CENTERLEFT, FASTEST, 150, 150);
+// 	MoveStand(CENTERLEFT, FASTEST, 0, -50);
+// 	Zoom(FASTEST, 170, 170, 400-200, 300-180);
+
+#sp,bgm,BGM_SABISHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI03A_s.jpg,(s),100%
+#ip,c1,(fi),KANAMEs_A201.png,(psi),KANAMEs_An01KU.png,(x),c,(s),100%
+#ig
+
+&empty
+血迷った……。
+#meffect,flow,5
+$k
+
+&empty
+頑なに…無理やりってくらいに拒否されて、
+ムキになってしまったのかもしれない…。
+$k
+
+&empty
+後先考えないで勢いでやってしまったけど、
+それってどうなんだ？
+$k
+
+// 	DelStandAll();
+
+
+// 	Zoom(FASTEST, 100, 100);
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	// *-- TITLE TEMPLATE START --* //
+//
+//	SetSubTitleEx( 2 );
+//
+//	// *-- TITLE TEMPLATE END --* //
+#show
+
+&empty
+あれから顔も合わせづらくて、
+飯の時間もずらして逃げている。
+$k
+
+&empty
+少なくとも嫌われてはいなかったと思うのに、
+もうダメかも……。
+$k
+
+&empty
+………。
+#meffect,flow,2
+$k
+
+&empty
+でも……。
+#meffect,flow,5
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_KITCHEN01A.jpg,(s),100%
+#ig
+
+&empty
+でも、謝るってのは、それはそれでなんか違う気がする。
+$k
+
+// 	SV( BG_TD_KITCHEN01A );
+
+&empty
+俺は謝りたいんじゃなくて、
+要さんにわかってもらいたいんだから。
+$k
+
+&empty
+謝ったら、元に戻るだけ。
+$nw,1000
+
+…って、戻らないかもしれないけど。
+$k
+
+&empty
+……何にしても、逃げ回ってちゃしょうがないか。
+$k
+
+&empty
+やっぱり謝るしかないのかなぁ…。
+$k
+
+優
+「はぁ…」
+#meffect,flow,5
+$k
+
+// 	SS_( CENTER, YUKIHA_0401IK2, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// YUKIHA_0401IK2
+#sp,vo,06050032
+雪華
+「…そんなに大掃除するの嫌なの？」
+$k
+
+#sp,bgm,BGM_KEIKAI
+
+優
+「いや！　こいつがちょっとしつこい油汚れでさ！
+$nw,1000
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Kosuru01
+
+// 	Shake(NORMAL, SHAKE_DOWN|SHAKE_SCREEN, 4, 40);
+
+　このっ、この！」
+$k
+
+// 	SEStop();
+// 	Shake(NORMAL, SHAKE_DOWN|SHAKE_SCREEN, 4, 40);
+
+&empty
+いかん、協調性がない兄と思われる！
+$k
+
+// YUKIHA_0401IK2
+#sp,vo,06050033
+雪華
+「…それ、カビだと思うけど」
+#meffect,flow,5
+$k
+
+優
+「…おお」
+$k
+
+&empty
+油汚れとカビの区別もつかない兄と認識された。
+$k
+
+優
+「い、いつもは見間違えないんだよ？」
+$k
+
+// YUKIHA_0401IK
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06050034
+雪華
+「普通いつも見間違えないの。
+$nw,2850
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),c,(s),60%
+#ig
+
+　それよりお兄ちゃん、買い物お願いしていいかな」
+$k
+
+優
+「た、たった一度の過ちで…リストラを…」
+#meffect,flow,5
+$k
+
+// YUKIHA_0401KB3
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KB3.png,(x),c,(s),60%
+#ig
+
+// YUKIHA_0401MJ2
+#sp,vo,06050035
+雪華
+「一度でも、社会的責任を果たせなきゃ当然…
+$nw,4090
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),c,(s),60%
+#ig
+
+　って、そういうわけじゃなくて。
+　荷物が多くて力仕事なの。
+$nw,5460
+
+#sp,se,S_Paper02
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,はい、これリストね」
+
+$k
+
+// 	ZoomStand(CENTER, NORMAL|SPEED_DOWN, 110, 110);
+// ぴょん。パラメータは適宜。
+// 	ZoomStand(CENTER, NORMAL|SPEED_DOWN, 100, 100);
+
+優
+「米、酒、餅、トイレットペーパー…
+　なぜ今日まとめて買うんだってラインナップだな」
+$k
+
+// YUKIHA_0401BS2
+#sp,vo,06050036
+雪華
+「食料品は雪華とお婆ちゃんで行くから、
+　かさばるのよろしくね」
+$k
+
+優
+「それなら一緒に行けばいいじゃない」
+$k
+
+// YUKIHA_0401IK3
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06050037
+雪華
+「一緒に出かけてうわさされるとヤだもん」
+$k
+
+優
+「思春期が兄妹のメモリーを奪っていく…」
+#meffect,flow,5
+$k
+
+// YUKIHA_0401KM2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06050038
+雪華
+「…そういうとこもうざいよね」
+#meffect,flow,5
+$k
+
+&empty
+ぐうの音も出ない…。
+#meffect,flow,5
+$k
+
+優
+「けどこれ、ひとりじゃ辛い量なんだけど…。
+　重量的にはセーフでも、手が２本しかないから」
+$k
+
+// YUKIHA_0401BS2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06050039
+雪華
+「誰か誘えばいいでしょ。
+$nw,2290
+
+#ir,(un),NO
+#ip,c2,(fi),image\etc\kaname12_fakeselect.png,(x),c
+#ig
+
+　はい選択肢」
+$k
+
+// 	SetObject	( 0, "kaname12_fakeselect.png", 0, 0, OBJATTR_TOP );
+// 	FadeObject	( 0, 0, FADE_ALPHA, 0 );
+// 	FadeObject	( 0, FAST, FADE_ALPHA, 100 );
+
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ie,c2
+#ig
+
+優
+「バラエティ番組じゃないんだから、
+　プレゼントの宛て先はこちら！みたいに言われても」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	FadeObject	( 0, SLOW, FADE_ALPHA, 0 );
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+#sp,bgm,BGM_SAKURAKO
+
+// 	SV( BG_SJ_YU01A );
+// 	SS( CENTER, SAKURAKO_0402IK7 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「つ～わけで買い物についてきて…って、
+$nw,1000
+
+　なんで桜子が俺の部屋を掃除してんだよ？」
+$k
+
+// SAKURAKO_0402IK7
+#sp,vo,06000072
+桜子
+「あんたの部屋じゃなくて、あたしの別荘よ」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「住みはじめて４ヶ月も経つのに！」
+#mlarge
+$k
+
+// 	CS( CENTER, LEFT );
+
+#sp,se,S_Nuno06
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l
+#ig
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000073
+桜子
+「ここ何こぼしたのよ？
+$nw,2470
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),60%
+#ig
+
+　ほら、染みになってんじゃないのよ」
+$k
+
+&empty
+お姑さん！？
+$k
+
+#sp,se,S_Nuno06
+
+// 	SS( LEFT, SAKURAKO_0403IK3, MOVE_DOWN );
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000074
+桜子
+「あんま酷いと弁償させるからね。
+$nw,2660
+
+　それと買い物は無理。忙しいから」
+$k
+
+// 	CS( LEFT, CENTER );
+
+優
+「まだ物色されるおつもりですか！？」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000075
+桜子
+「違うわよ。
+$nw,1490
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+　今は休憩で、あたしは客席担当。
+　あそこ小物が多いからめんどいのよね～」
+$k
+
+優
+「手伝おうか？」
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000076
+桜子
+「あたしは手伝わないわよ」
+$k
+
+優
+「お互い頑張ることにしよう」
+$k
+
+// SAKURAKO_0403NS
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000077
+桜子
+「小物いじってる方がまだ楽そうだもんね～」
+$k
+
+優
+「くそう…」
+$k
+
+// SAKURAKO_0403NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000078
+桜子
+「どうせお姉が庭掃除さぼってるわよ」
+$k
+
+優
+「…わかった」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+#sp,bgm,BGM_MII
+
+// 	// 和田：背景が完成次第ここはこたつに変更。
+
+// 	SV( BG_TD_IMA01C );
+
+// 	SS( CENTER, MII_0401GM );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01C.jpg,(s),100%
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01GM.png,(x),c,(s),60%
+#ig
+
+#sp,env,W_Cleaner01
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r
+#ig
+
+// 	CS_( CENTER, RIGHT, SLOW );
+
+#show
+
+優
+「だーかーらー、買い物つきあってぇー！」
+$k
+
+// 	CS_( RIGHT, CENTER, SLOW );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+// MII_0401GM
+#sp,vo,06030060
+みい
+「………」
+#meffect,flow,5
+$k
+
+// 	CS_( CENTER, LEFT, SLOW );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l
+#ig
+
+優
+「みーいーちゃーん？」
+#meffect,flow,5
+$k
+
+// 	CS_( LEFT, CENTER, SLOW );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c
+#ig
+
+// MII_0401NO
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06030061
+みい
+「あらあら、すみません。
+　耳が遠くなってしまったのか声が聞こえにくくて」
+$k
+
+#ss,env,(dr),0
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),W_Cleaner02
+
+優
+「ていっ！」
+#mlarge
+$k
+
+// MII_0401BS
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06030062
+みい
+「まあ、コンセントを足で抜くとはワイルドな」
+$k
+
+優
+「改めて、荷物持ち手伝って欲しいんだけど」
+$k
+
+// MII_0401GM
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01GM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06030063
+みい
+「…なんでしょう、耳が遠くなってしまったみたいで」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「行きたくないなら最初から言って！？」
+#mlarge
+$k
+
+// MII_0401NO
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06030064
+みい
+「要お姉様なら、庭で焼き芋をしようと、
+　枯れ木を蹴ったりゴミをわざわざ増やしたりで、
+　お婆様に怒られる程度にはお手すきのようでしたが」
+$k
+
+優
+「要さんは、ちょっと…」
+#meffect,flow,5
+$k
+
+
+#next,06kaname12_01

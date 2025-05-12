@@ -1,0 +1,604 @@
+﻿// 既読フラグ
+#read_flag,98
+
+&empty
+輪ゴムをかけそこなって自分に飛ばしてしまった。
+$k
+
+// 	SV( BG_SJ_TENNAI03A );
+// 	SS( CENTERLEFT, YUKIHA_0401NO );
+// 	SS( CENTERRIGHT, MII_0403EG );
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r0,(s),60%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l0,(s),60%
+#ig
+
+// MII_0403EG
+#sp,vo,02030288
+みい
+「はい、好きですよ？」
+$k
+
+// 	SV( BG_SJ_COUNTERURA03A );
+// 	Zoom( 0, 160, 160, 400, 0 );
+
+#ir
+#ip,bg,(fi),BG_SJ_COUNTERURA03A.jpg,(s),100%
+#ig
+
+優
+「はい、お待たせしましたー。
+　九百円になりまーすっ！」
+$k
+
+// 	SV( BG_SJ_TENNAI03A );
+// 	SS( CENTERLEFT, YUKIHA_0401KT );
+// 	SS( CENTERRIGHT, MII_0403EG3 );
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG3.png,(x),r0,(s),60%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l0,(s),60%
+#ig
+
+// MII_0403EG3
+#sp,vo,02030289
+みい
+「むしろ愛で溢れています」
+$k
+
+// 	SV( BG_SJ_COUNTERURA03A );
+// 	Zoom( 0, 160, 160, 400, 0 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,bg,(fi),BG_SJ_COUNTERURA03A.jpg,(s),100%
+#ig
+
+// 	Shake( FAST, SHAKE_UP | SHAKE_WINDOW, 10, FAST );
+
+優
+「ひゃくえんのお返しですっ」
+$k
+
+&empty
+何が始まるんだ…。
+$k
+
+#sp,vo,02990204
+客
+「はい、ありがとう。
+　声うわずってたけど大丈夫？」
+$k
+
+優
+「も、問題ないですよー？」
+$k
+
+// 	SV( BG_SJ_TENNAI03A );
+// 	SS( CENTERLEFT, YUKIHA_0401KS );
+// 	SS( CENTERRIGHT, MII_0403KT );
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),r0,(s),60%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KS.png,(x),l0,(s),60%
+#ig
+
+// MII_0403KT
+#sp,vo,02030290
+みい
+「弄り甲斐のある兄として？」
+
+#mfuri,　　いじ
+
+$k
+
+// YUKIHA_0401NS3
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NS3.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02050066
+雪華
+「なあんだ、そっちかー。
+$nw,2900
+
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l0,(s),60%
+#ig
+
+　でもあんなお兄ちゃんのどこがいいのー？」
+$k
+
+// 	SV( BG_SJ_COUNTERURA03A );
+// 	Zoom( 0, 160, 160, 400, 0 );
+
+#ir
+#ip,bg,(fi),BG_SJ_COUNTERURA03A.jpg,(s),100%
+#ig
+
+優
+「ありがとやしたーっ、またどうぞー！」
+$k
+
+#hide
+
+#sp,se,S_Dash02i
+
+// 揺れ。パラメータは適宜。
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),r0,(s),60%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01OD2.png,(x),l0,(s),60%
+#ig
+
+// 	SV( BG_SJ_TENNAI03A );
+// 	SS( CENTERLEFT, YUKIHA_0401OD2 );
+// 	SS( CENTERRIGHT, MII_0403KD );
+
+
+// KINO_0401IK3
+
+#show
+
+#sp,vo,02060111
+紀乃
+「これ、狭いのに走りなや」
+$k
+
+// MII_0403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02030291
+みい
+「ほら、こんなにも私の事を思って
+　颯爽と駆けつけてくれますから」
+$k
+
+// YUKIHA_0401BS2
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS2.png,(x),l0,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,02050067
+雪華
+「あーなるほどー！
+$nw,2400
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS3.png,(x),l0,(s),60%
+#ig
+
+　聞こえてたんだね、さっきの」
+$k
+
+// MII_0403BS
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03BS.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02030292
+みい
+「どんな事でも過剰に拾ってくれますので。
+$nw,3700
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r0,(s),60%
+#ig
+
+　これは面白いですよね？」
+
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ie,c1,c3
+#ig
+
+#sp,vo,02000620
+桜子
+「………そうよねー」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW, 4 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「俺は団子が心配だっただけなんだからねっ！？」
+$k
+
+// KINO_0401AK
+#ir
+#ip,c3,(fi),KINO_A401AK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02060112
+紀乃
+「ほんまに少し減ったけどな」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「あーっ、本当に減ってるっ」
+#mlarge
+$k
+
+&empty
+犯人は誰だっ！？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+&empty
+…
+$k
+
+#hide
+
+// 	SV( BG_SJ_2FROKA01A );
+
+#sp,env,S_Bird01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA01A.jpg,(s),100%
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"こんこんこん。" ;
+
+#sp,se,T_Knock01
+
+#wait,500
+
+#show
+
+優
+「はーいなんだー、起きてるぞー？
+　あと三回ノックは便所だけだぞー？」
+$k
+
+&empty
+クリスマスの前々日の朝。
+朝食をとった後、俺は今日の労働に備えて、
+ぼけーっと過ごしていたのだが。
+$k
+
+// 	SV( BG_SJ_YU01A );
+
+#ir
+#ip,bg,(fi),BG_SJ_YU01A.jpg,(s),100%
+#ig
+
+// 	SEStop( 0 );
+
+#sp,vo,02060113
+？？？
+「あ・た・し。雪華よー？」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「ぶ――――っ！？」
+#mlarge
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"だだっ。" );
+//#sp,se,S_Dash01i
+
+//	SM( CHAR_ETC,			-1,					"",				"がちゃ！" );
+//#sp,se,S_Door03o
+
+優
+「雪華ちゃんの声は、そんなシワ枯れとらんわーっ！」
+$k
+
+// 	SS( CENTER, KINO_A501EG2, MOVE_STOP, 0 );
+// 	Zoom( 0, 200, 200, 400, 50 );
+// 	SK_( NORMAL, 4 );
+
+//	Blur( 0, 2 );
+//	Zoom( 40 | SPEED_DOWN, 100, 100, 400, 0 );
+// 	SV( BG_SJ_2FROKA01B );
+
+// 	Zoom();
+
+#ir
+#ip,bg,(fi),BG_SJ_2FROKA01B.jpg,(s),100%
+#ip,c1,(fi),KINO_A501EG2.png,(x),c,(s),80%,(y),0
+#ig
+
+// KINO_A501EG2
+
+#sp,vo,02060114
+紀乃
+「お兄はーん」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「ぶふぉっ！！」
+$k
+
+#sp,se,S_Door03c
+
+// 	SV( BG_SJ_YU01A );
+// 立ち絵消える。パラメータは適宜。
+
+#ir
+#ip,bg,(fi),BG_SJ_YU01A.jpg,(s),100%
+#ig
+
+優
+「一体なんの冗談だっ！？
+　すごいダメージ食らったぞ」
+$k
+
+#sp,vo,02060115
+紀乃
+「ひゃっひゃっ、まあまあの反応やな？」
+$k
+
+優
+「なんということを！？
+　っていうか何の用だよ、その面でっ！」
+$k
+
+// 	//今日の婆さんは、付け髭に付けっ鼻にメガネ。
+// 	//さらにパーティー三角帽と気合が入りすぎている。
+
+#sp,vo,02060116
+紀乃
+「この時期は出血大サービスデーやから、
+　色々やっとんねや。
+　いわゆるひとつのリフレーションやな？」
+$k
+
+優
+「一体何をサービスしたらそうなる？
+　いや、リフレーションて、何をばら撒くつもり？
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 ま
+
+　普通に値下げとかの方がまだ期待できるだろ」
+
+$k
+
+#sp,vo,02060117
+紀乃
+「そんな事したかて全然おもんないやろー。
+$nw,3000
+
+　で、これはこれとしてやな、
+　……あんたに国際電話きてるで？」
+$k
+
+優
+「ぐっ」
+$k
+
+&empty
+もういちどアレを見ろと？
+$k
+
+// 	SV( BG_SJ_2FROKA01B );
+// 	Zoom( 0, 200, 200, 800, 500 );
+
+#sp,se,S_Door03o
+
+#ir
+#ip,bg,(fi),BG_SJ_2FROKA01B.jpg,(s),100%
+#ig
+
+優
+「子機をよこせ」
+$k
+
+#sp,vo,02060118
+紀乃
+「大丈夫や、もうこっち向いてもええでー？」
+$k
+
+優
+「その手には乗らん」
+$k
+
+#sp,vo,02060119
+紀乃
+「ほれ、笑いたい時はわろといた方が健康にええのんに」
+$k
+
+// 	Shake( FAST, SHAKE_UP, 20, FAST * 2 );
+
+#sp,se,S_Touch01
+
+&empty
+婆さんを見ない様にして子機を受け取る。
+$k
+
+優
+「はいよ、代わりましたよ、母上ですかー？」
+$k
+
+#sp,vo,02060120
+紀乃
+「私雪華ちゃん、お電話してね？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「ぶはははははははっー！
+$nw,1000
+
+　やめろーやめてくれっ、雪華ちゃんを汚すなー」
+$k
+
+&empty
+不覚にもさっきの衝撃映像をリフレインしてしまった。
+…そんな自分が憎い！
+$k
+
+#sp,vo,02110000
+育美
+「…あんた楽しそうねー？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ぶふっ、げほ、げほっ。
+　どこがだ！　ちょっとした拷問だぞこれは」
+$k
+
+#sp,vo,02110001
+育美
+「ああー、母さんもそっち帰りたいわー。
+　どうせ紀乃さんが面白い事してるんでしょー？」
+$k
+
+優
+「違う、視覚聴覚的拷問だ。
+　モノマネも全く似せる気無しだぞ？」
+$k
+
+#sp,vo,02110002
+育美
+「それ見たいなー。
+　まあいいわ……で、首尾の方は？」
+$k
+
+優
+「……まあ合格出来るかどうかは時の運というか？」
+$k
+
+#sp,vo,02110003
+育美
+「ばーかばーか、ば――かっ！　このアホ息子っ！
+　誰も受験の事なんか聞いてないでしょーが。
+　桜子ちゃんとどうなったかを聞いてんのよ！」
+$k
+
+優
+「おいっ可愛い息子に対してそれはないだろっ。
+$nw,1000
+
+　つーか大事だろ受験」
+$k
+
+#sp,vo,02110004
+育美
+「ばかあほまぬけっスカタンっ！
+　お前の母ちゃんでーべそー！！」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW, 4 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「何を自分の恥部告白してんだよ！
+　アホなのはあんただろ！？」
+$k
+
+#sp,vo,02110005
+育美
+「あー、母ちゃんこんなごく潰しを生んだのかと思うと
+　悲しくって笑いながら吐きそうよ、
+　スプリンクラーの様にね！」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM | SHAKE_WINDOW, 4 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「どんだけ迷惑な吐き方すんだよ母上！」
+$k
+
+#sp,vo,02110006
+育美
+「はあー……あんた本当ーになんにもないのー？
+　みいちゃんも要ちゃんも？　あとなんか他にも女の子
+　周りにいっぱい居るんでしょーっ？」
+$k
+
+優
+「なにもねーよ、俺は受験でそれどころじゃねーのっ。
+　少しは息子の将来、憂いてみたらどうよ？」
+$k
+
+#sp,vo,02110007
+育美
+「だからこそ、もっとも大事な将来のお嫁さんの話を
+　してるんじゃない。
+　あんたホントに馬鹿な子ねっ！」
+$k
+
+優
+「いや、無理なもんは無理だろうっ？
+　だからこそ受験にかけてるんだろー？」
+$k
+
+#sp,vo,02110008
+育美
+「いやっ、言い訳なんか聞きたくないっ！
+　もうあんたなんか、納豆の角に頭ぶつけて
+　つるっとどっかに飛んで行ってしまえー！」
+$k
+
+#sp,se,S_Tel08
+
+優
+「ひでえよ！
+　あとそれ、角にぶつけるのは豆腐だから！」
+$k
+
+#sp,env,S_Tel11#
+
+優
+「…ってもう切れてるしっ」
+$k
+
+
+#next,02common03-3_04

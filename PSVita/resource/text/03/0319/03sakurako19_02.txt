@@ -1,0 +1,862 @@
+﻿// 既読フラグ
+#read_flag,329
+
+// 	SetActionBuru( RIGHT );
+// ISAKI_0402IK
+
+#sp,vo,03010128
+勇樹
+「いつまで止まっている気だ、轟木桜子っ」
+$k
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001328
+桜子
+「なにが！？」
+#mlarge
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+#sp,se,W_Bicycle01
+
+#wait,500
+
+// 	WaitSE( -1 );
+
+
+#sp,se,Ma_Break07
+
+#wait,500
+
+// 	WaitSE( -1 );
+
+// KINO_0901KT
+#ir
+#ip,c1,(fi),KINO_A901KT.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,03060043
+紀乃
+「…ん、なんや？」
+$k
+
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A101.png,(psi),KANAME_An01OD3.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+// 	WaitSE( -1 );
+// 	SS_( LEFT, KINO_0901KM2 );
+
+// 	SS( RIGHT, KANAME_0101OD3 );
+
+// KANAME_0101OD3
+
+#sp,vo,03020157
+要
+「桜子ちゃんは！？」
+#mlarge
+$k
+
+#ir
+#ip,c1,(fi),KINO_A901KM2.png,(x),l,(s),60%
+#ig
+
+// KINO_0901KM2
+#sp,vo,03060044
+紀乃
+「なんや要か、
+$nw,2000
+
+#ir
+#ip,c1,(fi),KINO_A901IK2.png,(x),l,(s),60%
+#ig
+
+　あんた店の表から
+　入って来たらあかんて、いつも言うて…」
+$k
+
+// KANAME_0101IK
+#ir,(dr),0
+#ip,c3,(fi),KANAME_A101.png,(psi),KANAME_An01IK.png,(x),r,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),c
+#ig
+
+#sp,vo,03020158
+要
+「お婆ちゃん、桜子ちゃんはどこ！？」
+#mlarge
+$k
+
+// 	CS( RIGHT, CENTER, FAST );
+
+// KINO_0901KT
+#ir
+#ip,c1,(fi),KINO_A901KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03060045
+紀乃
+「桜子か？
+$nw,1490
+
+　こっちには来てへんけど………
+$nw,3020
+
+#ir
+#ip,c1,(fi),KINO_A901AS.png,(x),l,(s),60%
+#ig
+
+　あんた会社は？」
+$k
+
+// KANAME_0102IK2
+#ir
+#ip,c3,(fi),KANAME_A102.png,(psi),KANAME_An02IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03020159
+要
+「じゃあ家の方ね！」
+#mlarge
+$k
+
+#sp,se,S_Hyun01
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+// 	WaitSE( -1 );
+
+// KINO_0901IK3
+#ir
+#ip,c1,(fi),KINO_A901IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03060046
+紀乃
+「これ要はん、店は通り道ちゃうていつも……
+$nw,5010
+
+#ir
+#ip,c1,(fi),KINO_A901AK2.png,(x),l,(s),60%
+#ig
+
+　行ってまいよった。
+$nw,2000
+
+　……あんな慌てて、一体なんやっちゅーねや？」
+
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Door04o
+
+// 	WaitSE( -1 );
+
+#show
+
+// KANAME_0101IK2
+
+#sp,vo,03020160
+要
+「桜子ちゃーん！」
+#mlarge
+$k
+
+#hide
+
+// 	SV( BG_TD_IMA03F );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ig
+
+// 	WaitSE( -1 );
+
+// 	SS( CENTER, KANAME_0101IK2, MOVE_RIGHT, NORMAL );
+
+#sp,se,S_Dash01i
+
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01IK2.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+// KANAME_0101IK2
+
+#show
+
+#sp,vo,03020161
+要
+「桜子ちゃん、私よ、お姉ちゃん来たよーっ！？」
+$k
+
+// MII_0401KY
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030186
+みい
+「おや、お姉様……
+$nw,1990
+
+　この時間まだ会社なのでは？」
+$k
+
+// KANAME_0101OD2
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01OD2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03020162
+要
+「あ、みいちゃん！
+$nw,1010
+
+#ir
+#ip,c1,(fi),KANAME_A102.png,(psi),KANAME_An02IK2.png,(x),r,(s),60%
+#ig
+
+　桜子ちゃんは上に居る？」
+$k
+
+// MII_0403KT
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030187
+みい
+「？
+$nw,990
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),l,(s),60%
+#ig
+
+　……いえ、
+　先程、勇樹お姉様とお出かけになられましたが…」
+$k
+
+// KANAME_0101OD5
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01OD5.png,(x),r,(s),60%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,03020163
+要
+「ええー、なんでっ！？」
+#mlarge
+$k
+
+// MII_0403KM
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030188
+みい
+「なんでと言われましても……
+$nw,2500
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),l,(s),60%
+#ig
+
+　その紙袋は？」
+$k
+
+// KANAME_0101OD3
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01OD3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03020164
+要
+「あわわっ、これは……、
+$nw,1630
+
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01IK.png,(x),r,(s),60%
+#ig
+
+　そんな事よりみいちゃん、
+　桜子ちゃんどこ行ったか分かる！？」
+$k
+
+// MII_0402SP2
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02SP2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030189
+みい
+「い、いえ？
+$nw,1110
+
+　勇樹お姉様はすぐに戻るとだけ…」
+$k
+
+// KANAME_0101OD5
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01OD5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03020165
+要
+「えー！？
+$nw,800
+
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01KM2.png,(x),r,(s),60%
+#ig
+
+　ああ、もうどうしようっ？」
+
+$k
+
+// MII_0402OD
+#ir
+#ip,c3,(fi),MII_A402.png,(psi),MII_An02OD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030190
+みい
+「…そんなに慌ててどうなさったんですか、お姉様」
+$k
+
+// KANAME_0101IK5
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01IK5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03020166
+要
+「あっそうだ、優君なら！」
+$k
+
+#sp,se,S_Tel05
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+// 	WaitSE( -1 );
+
+// MII_0403KT
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030191
+みい
+「お兄様？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_TENNAI01A );
+// 	SS( CENTER, MEGUMI_0901KM );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MEGUMI_0901KM
+#sp,vo,03070256
+めぐみ
+「勇樹ちゃん遅いなあ…、
+$nw,4000
+
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+　あっそうだ！
+　ねえ優ちゃん、もう帰ったら？」
+$k
+
+優
+「…めぐみお前、俺が居るから
+　宮津橋が帰ってこないとか思ってるだろ？」
+$k
+
+// MEGUMI_0901KT5
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070257
+めぐみ
+「うん、そうだけどぉ？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+#sp,env,S_Tel12#
+
+優
+「あ、俺の携帯……
+　…ん？　なんだ、要さんかあ。
+　またこんな時間に通話ってなんだろう？」
+$k
+
+#ss,env
+#sp,se,S_Tel05
+
+// 	WaitSE( -1 );
+
+優
+「はい、俺ですけどー、
+　もしかしてまた、お使いの途中で…」
+$k
+
+#sp,vo,03020167
+要
+「優君、緊急事態よ！
+$nw,2000
+
+　桜子ちゃんどこに居るか知らない？
+　そっち行ってない？　今どこ？」
+$k
+
+優
+「ちょ、どうしたんですか要さん？
+　俺は今シ～サ～で、桜子は来てませんけど…」
+$k
+
+優
+「桜子、家に居ないんですか？」
+$k
+
+#ss,bgm
+#sp,vo,03020168
+要
+「とにかく大変なのよ！
+　桜子ちゃんもしかしたら妊娠しててっ、
+$nw,4350
+
+　……ああっ！　今の聞かなかったことにしてっ！？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「ちょっ！　妊娠っ！？」
+#mlarge
+$k
+
+// 	SS( CENTER, MEGUMI_0901KT4 );
+
+// MEGUMI_0901KT4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070258
+めぐみ
+「え？
+$nw,500
+
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG5.png,(x),c,(s),60%
+#ig
+
+　…なになに、どうしたの優ちゃん？」
+$k
+
+優
+「いや、なんでもないって！」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+聞き耳立ててんなよ！
+$k
+
+#sp,vo,03020169
+要
+「そんな優君、何でもないってどういう事！？」
+$k
+
+優
+「ああ違うんです、こっちの話です！」
+$k
+
+#sp,bgm,BGM_FUAN
+
+優
+「で、桜子は今どこですか？」
+$k
+
+#sp,vo,03020170
+要
+「それをこっちが聞いてるんじゃなーい！
+$nw,2430
+　みいちゃんはさっき勇樹ちゃんと出掛けたって…
+$nw,2530
+　あ、みいちゃんっ、どこ行くの！？」
+$k
+
+優
+「え？宮津橋と！？　
+　みいちゃんがなに？」
+$k
+
+&empty
+なかなか帰ってこないと思ったら桜子と…
+$k
+
+#sp,vo,03020171
+要
+「みいちゃん桜子ちゃん探しに行くって…
+$nw,2200
+
+　どうしよう優君～！」
+$k
+
+優
+「ちょっと待った！
+　今桜子が宮津橋と一緒って言いましたよね！？」
+$k
+
+&empty
+今一つ状況が掴めないけど、
+桜子が妊娠してるらしくて、
+そんで今は宮津橋と出掛けてて。
+$k
+
+&empty
+その宮津橋は、
+仕事の休憩時間なんか気にはしてなくて。
+$k
+
+&empty
+……なんか嫌な予感が。
+$k
+
+優
+「と、とにかく俺今から探しに行きますから、
+　要さんもお願いします」
+$k
+
+#sp,se,S_Tel05
+
+// 	WaitSE( -1 );
+
+
+&empty
+とにかく二人を探さないとな。
+$k
+
+&empty
+宮津橋のやつ、変な事考えてなきゃいいけど…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ig
+
+#sp,se,Ma_Battle01short
+
+#wait,3000
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK.png,(x),r0,(s),60%,(al),0%
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK3.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ss,se
+
+#sp,se,S_Za01
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r,(al),100%
+#ip,c3,(x),l,(al),100%
+#ig
+
+// 	WaitSE( -1 );
+
+#sp,bgm,BGM_SYOSO
+
+// 	SS_( RIGHT, SAKURAKO_0403IK, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( LEFT, ISAKI_0401IK3, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// 	WaitSE( -1 );
+
+#show
+
+// SAKURAKO_0403IK
+#sp,vo,03001329
+桜子
+「なにすんのよサキちゃん！」
+$k
+
+// SAKURAKO_0403IK
+#sp,vo,03001330
+桜子
+「あんた本当にサキちゃんなの？
+　全然昔と違うじゃない」
+$k
+
+// ISAKI_0401IK3
+#sp,vo,03010129
+勇樹
+「当たり前だっ」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001331
+桜子
+「は、はあ？」
+$k
+
+// ISAKI_0402IK
+#ir
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010130
+勇樹
+「人間生きてりゃ多少は変わるだろうさ！
+$nw,3500
+
+　………お前もあいつもな！」
+$k
+
+// SAKURAKO_0403IK
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001332
+桜子
+「なんの話よ！？」
+$k
+
+// ISAKI_0401IK3
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010131
+勇樹
+「轟木桜子っ。
+　お前は矢崎優が好きなんだろう！」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Air03
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+// 	WaitSE( -1 );
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001333
+桜子
+「っ！
+$nw,340
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),r,(s),60%
+#ig
+
+　…ちょ～っとぉ！
+　やめなよ、あぶないでしょおっ！？」
+$k
+
+// 	SS_( RIGHT, SAKURAKO_0402IK3, MOVE_STOP, SLOW );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( LEFT, ISAKI_0401AZ, MOVE_STOP, SLOW );
+
+// ISAKI_0401AZ
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010132
+勇樹
+「思い出せ」
+$k
+
+// SAKURAKO_0403KT
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001334
+桜子
+「もしかしてサキちゃん、まだ優の事…」
+$k
+
+// ISAKI_0402IK
+#ir
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03010133
+勇樹
+「殺すぞっ。
+$nw,2510
+
+　私はあいつの事は何とも思ってはいない！」
+$k
+
+// SAKURAKO_0403KM
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001335
+桜子
+「じゃあなんで……
+$nw,1350
+
+#sp,se,S_Air04
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r2,(al),0%
+#ig
+
+　ちょ、だからサキちゃん！」
+
+$k
+
+// 	WaitSE( -1 );
+
+// 揺れ。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),l,(s),60%
+#ig
+
+// ISAKI_0402IK
+#sp,vo,03010134
+勇樹
+「うるさいっ！」
+#mlarge
+$k
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001336
+桜子
+「じゃあなんでよ！
+$nw,1500
+
+　なんであたしに食いつくわけ！？」
+$k
+
+#next,03sakurako19_03

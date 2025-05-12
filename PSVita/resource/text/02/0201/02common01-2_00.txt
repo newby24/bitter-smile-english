@@ -1,0 +1,811 @@
+﻿// 既読フラグ
+#read_flag,38
+
+// セーブタイトル
+#flag,save_title,Ａｃｔ１－２,0,0
+
+#sp,se,T_Bird
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01C.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,Ａｃｔ１－２　千里の道もたこ焼き屋から
+$k
+#note,erase
+
+// 	SV( BG_SJ_GAIKAN01C );
+
+#show
+
+#sp,vo,02000084
+桜子
+「なにあんた、エプロンも満足に着れないの？」
+$k
+
+#hide
+
+#ss,se
+
+// 	SV( BG_SJ_KYUKEISHITSU01A );
+
+// 	SS( CENTER, SAKURAKO_A702AK );
+
+#sp,env,S_Bird02#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KYUKEISHITSU01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#show
+
+優
+「え…どっか変なとこあるか？」
+$k
+
+// SAKURAKO_A702IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000085
+桜子
+「もう！　いったいどうしたら
+　上だけよれよれに着るとか出来る訳？
+$nw,5400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+　ほらぁ、リボンも適当だし」
+
+$k
+
+// 	MoveStand( CENTER, 50 | SPEED_DOWN, 0, 50 );
+
+#sp,se,K_Nuno09
+
+&empty
+言って桜子は俺のエプロンの裾を引っ張って伸ばす。
+ついでにリボン、というか腰の紐も直してくれる。
+$k
+
+// 	MoveStand( CENTER, 50 | SPEED_DOWN );
+
+&empty
+桜子も同じ様にエプロン装備だが、
+お前こそ胸の辺り弛ませて誤魔化した方が…
+$k
+
+// SAKURAKO_A702NR
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000086
+桜子
+「ん～、なによぉ？」
+$k
+
+優
+「…いや？」
+$k
+
+&empty
+なんて事は言わないでおいた。
+俺って賢明。
+$k
+
+// 	MoveStand( CENTER, 20, 0, 10, 1 );
+// 	MoveStand( CENTER, 20, 0,  0, 1 );
+
+// SAKURAKO_A702EG
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,02000087
+桜子
+「これでよしっと！」
+$k
+
+// 	MoveStand( CENTER );
+
+&empty
+これから何が行われるかというと、
+以前桜子が言っていた、対価労働の時間が
+やってきた訳で。
+$k
+
+// SAKURAKO_A701TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000088
+桜子
+「んじゃ、やりますかね…
+$nw,2500
+
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),80%
+#ig
+
+　ふわぁ」
+$k
+
+優
+「んあ…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS( LEFT, SAKURAKO_0702AK );
+// 	SS( RIGHT, KINO_0901MJ );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),KINO_A901MJ.png,(x),r,(s),60%
+#ip,c3,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),60%
+#ig
+
+#show
+
+&empty
+その手始め、というか研修として、
+一通りの事を教わるという事らしい。
+$k
+
+&empty
+つまるところの千寿でバイト、なんだが。
+$k
+
+// KINO_0901MJ2
+#ir
+#ip,c1,(fi),KINO_A901MJ2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060001
+紀乃
+「ほな、始めまっか」
+$k
+
+// SAKURAKO_0702IK4
+#ir
+#ip,c3,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000089
+桜子
+「てか、なんであたしまで付き合わせるわけ？
+　…こんな朝早くに！」
+$k
+
+優
+「………ふぁあーぁ」
+$k
+
+&empty
+思わず大きな欠伸も飛び出す事、ただいま午前六時。
+ちなみに日曜日。
+$k
+
+&empty
+バイト自体はまあいいのだが、
+日曜のこの時間はもっと惰眠を貪りたいのに。
+桜子もまだ眠そうだ。
+$k
+
+// KINO_0901BS3
+#ir
+#ip,c1,(fi),KINO_A901BS3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060002
+紀乃
+「あんたらの朝飯も兼ねてるさかいな。
+　それと桜子は午前中いっぱい優に付いてて
+　貰わなあかんし」
+$k
+
+// SAKURAKO_0702IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000090
+桜子
+「はあー？
+　そんなの聞いて無いよ、なによそれ！」
+$k
+
+// KINO_0901NI
+#ir
+#ip,c1,(fi),KINO_A901NI.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060003
+紀乃
+「あんた最近焼いてへんやろ。
+　たまには手伝いなはれ
+$nw,5100
+
+#ir
+#ip,c1,(fi),KINO_A901NS.png,(x),r,(s),60%
+#ig
+
+　…小遣い欲しいんやったらな？」
+$k
+
+// SAKURAKO_0703FK
+#ir
+#ip,c3,(fi),SAKURAKO_A703.png,(psi),SAKURAKO_An03FK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000091
+桜子
+「ち、くそばばあめ」
+#msmall
+$k
+
+// KINO_0901KS
+#ir
+#ip,c1,(fi),KINO_A901KS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060004
+紀乃
+「聞こえてるでー」
+$k
+
+優
+「うーふあぁ…眠い」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_CHUBO01A );
+
+#sp,bgm,BGM_SAKURAKO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO01A.jpg,(s),100%
+#ip,c1,(fi),KINO_A901NO2.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KINO_A901NO2
+
+#sp,vo,02060005
+紀乃
+「とまあ、説明はこんなもんで、
+　今度は手前でやってみよか」
+$k
+
+優
+「ふぁあ、…あいよ」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+基本中の基本。手洗いの指導から始まり、
+その後は材料のよく分からん説明を聞いて、
+婆さん指導の元、朝飯作りを兼ねた生地のタネ作り。
+$k
+
+&empty
+ボールにだし汁を用意し、
+そこへ粉を少しずつ加えながら、
+かき混ぜ、溶いていく。
+$k
+
+// KINO_A901IK2
+#ir
+#ip,c1,(fi),KINO_A901IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060006
+紀乃
+「ほれ、もっとちゃっちゃとしっかりな。
+　潰すように煉るように」
+$k
+
+優
+「うどんじゃあるまいし」
+$k
+
+// KINO_A901IK
+#ir
+#ip,c1,(fi),KINO_A901IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02060007
+紀乃
+「口はええから手ぇ動かしやー」
+$k
+
+優
+「へいへい」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+婆さんの説明どおりに牛乳、玉子他諸々を加え
+さらによく混ぜ合わせていく。
+$k
+
+優
+「………」
+$k
+
+&empty
+隣で俺と同じ作業をしているはずの、
+桜子の方をちらりと見やる。
+$k
+
+// 	SS( LEFTLEFT, SAKURAKO_0702NO4 );
+
+// SAKURAKO_0702NO4
+#ir
+#ip,c3,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO4.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02000092
+桜子
+「ふんふん、ふーん、ばばんばん、ぼぼーん」
+$k
+
+優
+「………」
+$k
+
+#ir
+#ie,c3
+#ig
+
+優
+「なあ、婆さんよ」
+$k
+
+// KINO_A901NO
+#ir
+#ip,c1,(fi),KINO_A901NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060008
+紀乃
+「なんね？」
+$k
+
+優
+「なんか凄い事になってねえか？　桜子の方。
+　さっき聞いたのと、
+　手順も材料も少々違って見えるんだが…」
+$k
+
+&empty
+桜子の前には小さいバケツや大きめのボールなど、
+いくつかの入れ物で同時に違う物を用意している様だ。
+$k
+
+&empty
+バケツで作業…はいいとしても、
+たまに味見をしては『よし』と言いつつ
+不味そうな表情を浮かべては作業を続ける桜子。
+$k
+
+// KINO_A901KM2
+#ir
+#ip,c1,(fi),KINO_A901KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060009
+紀乃
+「ええねん、あれのは参考にならへん。
+　お前はこっちで基本通りやったらええねん」
+$k
+
+優
+「…そうか、そうだよな」
+$k
+
+&empty
+基本は大事だ。たとえ隣で何が起ころうとも。
+バケツを抱える様がハチミツを舐る熊のようでも。
+
+#mfuri,　　　　　　　　　　　　　　さま　　　　　　　　　　　　ねぶ
+
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SS( LEFT, SAKURAKO_0702NO2 );
+// 	SS( RIGHT, KINO_0901BS2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO01A.jpg,(s),100%
+#ip,c1,(fi),KINO_A901BS2.png,(x),r,(s),60%
+#ip,c3,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO2.png,(x),l,(s),60%
+#ig
+
+#show
+
+// KINO_0901BS2
+#sp,vo,02060010
+紀乃
+「ほな、焼きいってみよか」
+$k
+
+&empty
+桜子の方はかなり前に作業を終えて、
+バケツやボールに蓋がされていた。
+#mfuri,　　　　　　　　　　　　　　　　ふた
+
+$k
+
+// KINO_0901KS
+#ir
+#ip,c1,(fi),KINO_A901KS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060011
+紀乃
+「桜子。分かりやすう手本みせたりや」
+$k
+
+// SAKURAKO_0702IK4
+#ir
+#ip,c3,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000093
+桜子
+「あたしがー？」
+$k
+
+// KINO_0901KD2
+#ir
+#ip,c1,(fi),KINO_A901KD2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060012
+紀乃
+「せや」
+$k
+
+// SAKURAKO_0702NO
+#ir
+#ip,c3,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000094
+桜子
+「優に分かりやすくー？」
+$k
+
+優
+「なんだよ？」
+$k
+
+// 	SS_( RIGHT, KINO_0901MJ );
+
+// SAKURAKO_0702IK7
+#ir
+//#ip,c1,(fi),KINO_A901MJ.png,(x),r,(s),60%
+#ip,c3,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000095
+桜子
+「………」
+$k
+
+// SAKURAKO_0702AK
+#ir
+#ip,c3,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000096
+桜子
+「いいけどさー。
+　あんた一回で理解してよ？」
+$k
+
+優
+「一応努力はするが期待もするな？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_COUNTERURA01A );
+
+// 	SS( CENTER, SAKURAKO_A702NO5 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+#show
+
+// SAKURAKO_A702NO5
+#sp,vo,02000097
+桜子
+「いい？　油は少なすぎず多すぎず。
+　多すぎると油で味が重くなっちゃうし、
+　少な過ぎても焦げ易くなっちゃうから」
+$k
+
+優
+「お、おう」
+$k
+
+// SAKURAKO_A702NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000098
+桜子
+「いい感じで湯気っぽい煙が出たら、
+$nw,2300
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+　すかさず躊躇せずに生地を大胆に入れていくの。
+#mfuri,　　　　　　　　　　ちゅうちょ
+//$nw,6000
+$nw,2700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+　ここはビビんないで、がーっ、と入れるのよ？」
+
+$k
+
+// 	MoveStand( CENTER, 50 | SPEED_UP,   -80, 20, 1 );
+// 	MoveStand( CENTER, 20,               80, 20, 1 );
+// 	MoveStand( CENTER, 50 | SPEED_DOWN,   0,  0, 1 );
+
+// 	MoveStand( CENTER );
+
+優
+「大胆に。わかった」
+$k
+
+// SAKURAKO_A702NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000099
+桜子
+「でね……、
+$nw,2400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#madd,………あ、
+　これくらいで、ざっ、ぱぱっ、と具を入れていく訳。
+//$nw,7700
+$nw,4000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+　そんで紅しょうがとかもばばっと撒く感じで」
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 ま
+
+$k
+
+// 	MoveStand( CENTER, 190,   0,  0, 1 );
+// 	MoveStand( CENTER,  20, -20, 10, 1 );
+// 	MoveStand( CENTER,  20,   0,  0, 1 );
+// 	MoveStand( CENTER,  30,   0,  0, 1 );
+// 	MoveStand( CENTER,  20,  15, 10, 1 );
+// 	MoveStand( CENTER,  20,   0,  0, 1 );
+
+優
+「『あ、』のタイミングがよく分からんぞ」
+$k
+
+&empty
+あと『ざっ』『ばばっ』とか。
+$k
+
+// KINO_0901AK2
+
+#sp,vo,02060013
+紀乃
+「そこは気にせんでええで」
+$k
+
+優
+「おう」
+$k
+
+// SAKURAKO_A702NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000100
+桜子
+「次に焼き加減ね。火の調節はいいから、
+　まずは表面と側面を見るの」
+$k
+
+// SAKURAKO_A702NO
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000101
+桜子
+「んで、端がふるふるっ、てなるかどうかで
+　国境を作ってってー。
+　ついでに内側に少し、ちょいっと、していってー」
+$k
+
+優
+「ううっ、専門用語が多いな…」
+$k
+
+// KINO_0901KS
+
+#sp,vo,02060014
+紀乃
+「あんま、考えすぎなや？　疲れまっせ」
+$k
+
+&empty
+感じろってか？
+$k
+
+// SAKURAKO_A702NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000102
+桜子
+「ここから大事なのは、ぱっと見より裏側とか生地の
+　中身が今どんな感じかなー？　って
+　イメージしていくのが大事なの」
+$k
+
+// SAKURAKO_A702EG
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000103
+桜子
+「ちゃんとイメージできれば季節時間も関係なく
+　火加減分かるようになるから。
+　あと色々な料理に応用できるし」
+$k
+
+優
+「そう、そうか…すごいなぁ」
+$k
+
+// KINO_0901KD2
+
+#sp,vo,02060015
+紀乃
+「……せやな」
+$k
+
+// SAKURAKO_A701AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000104
+桜子
+「で、しばらくイメージしながら適当に時間潰してー。
+　なるべくなら余所見をしながら一定時間ごと
+　視線戻した方が違いが分かるかな？」
+$k
+
+優
+「よそみ…ですか？」
+$k
+
+// KINO_0901AK
+
+#sp,vo,02060016
+紀乃
+「それで分かり易いんはあんただけやで、桜子」
+$k
+
+// SAKURAKO_A702NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000105
+桜子
+「そして、端のいい所を滑り込ませるように、
+　少しだけ入れて、
+$nw,6300
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,クイってしてクルっと回していくの。
+$nw,3000
+
+// $nw,9400
+// 	MoveStand( CENTER );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+　ほら綺麗にひっくり返るでしょ？」
+
+$k
+
+// 	MoveStand( CENTER,  20, -20, 5, 1 );
+// 	MoveStand( CENTER,  10,   0, 0, 1 );
+// 	MoveStand( CENTER, 100,   0, 0, 1 );
+// 	MoveStand( CENTER,  20,  15, 5, 1 );
+// 	MoveStand( CENTER,  10,   0, 0, 1 );
+
+#next,02common01-2_01

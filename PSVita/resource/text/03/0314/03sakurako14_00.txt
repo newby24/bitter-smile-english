@@ -1,0 +1,1004 @@
+﻿// 既読フラグ
+#read_flag,297
+
+// セーブタイトル
+#flag,save_title,桜子　第１４話,0,0
+
+// 	SV( VISUAL_SAKURAKO_10A );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第１４話　あたしの心がエマージェンシー
+$k
+#note,erase
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_SAKURAKO_10A.jpg,(s),75%
+#ig
+
+#show
+
+// SAKURAKO_A402NO
+
+#sp,vo,03000586
+桜子
+「ねえ優、この問題分かる？」
+$k
+
+優
+「数学なんて、わかんねえぞ…」
+$k
+
+// 	CFV( VISUAL_SAKURAKO_10I );
+
+// SAKURAKO_A402AK
+#ir
+#ip,bg,(fi),VISUAL_SAKURAKO_10I.jpg,(s),75%
+#ig
+
+#sp,vo,03000587
+桜子
+「もう、即答だし…」
+#meffect,flow,5
+$k
+
+優
+「……どうしたんだ？」
+$k
+
+// 	CFV( VISUAL_SAKURAKO_10C );
+
+
+// SAKURAKO_A402KM2
+#ir
+#ip,bg,(fi),VISUAL_SAKURAKO_10C.jpg,(s),75%
+#ig
+
+#sp,vo,03000588
+桜子
+「うん…やり方は合ってるはずなのに、
+　答えが合わないのよね…」
+$k
+
+// $nw,1090
+
+優
+「かけ算を間違ってるとか、
+　そういう凡ミスじゃねぇのか？」
+$k
+
+// SAKURAKO_A402KM2
+
+#sp,vo,03000589
+桜子
+「そんなはず………
+$nw,1500
+
+　あれ？　もしかして、これかなあ」
+$k
+
+// SAKURAKO_A401NO
+
+#sp,vo,03000590
+桜子
+「あ、答えが合っちゃった。
+$nw,3490
+
+　ここ何度も計算したのに、おっかしいなぁ」
+$k
+
+優
+「桜子にしちゃ珍しいな？
+　お前なら落ち着いてやれば大丈夫だろ」
+$k
+
+// SAKURAKO_A402NO5
+
+#sp,vo,03000591
+桜子
+「そうね、うん。
+
+$nw,2000
+
+#flag,cg,41,=,1
+
+#ir
+#ip,bg,(fi),VISUAL_SAKURAKO_10B.jpg,(s),75%
+#ig
+
+// 	CFV_( VISUAL_SAKURAKO_10B );
+
+　優、ありがとっ」
+$k
+
+優
+「あ、ああ…」
+#meffect,flow,5
+$k
+
+&empty
+俺に向けられる、溢れんばかりの桜子の笑顔。
+$k
+
+&empty
+嬉しい…。
+嬉しいけどさぁ～？
+$k
+
+#hide
+
+// 	ShowFace();
+
+//	SetSubTitle();		//章タイトル表示
+// 	SV( BG_HS_MAE02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Cowbell02
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+// 	SV( BG_HS_TENNAI01A );
+
+#show
+
+// CHISEKA_0401BS
+
+#sp,vo,03040122
+知世翔
+「こんにちはー」
+$k
+
+&empty
+有河まで来たか…。
+$k
+
+// 	LookCounter();
+
+// MII_0401NO
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030110
+みい
+「あ、遅かったですね、知世翔さん」
+$k
+
+// CHISEKA_0401OD3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03040123
+知世翔
+「あ……
+$nw,1770
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO2.png,(x),r2,(s),60%
+#ig
+
+　ホントに居るんだ、先輩達。
+$nw,3220
+
+　…声はかけないほうがいいよね？」
+$k
+
+// MII_0401KY2
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030111
+みい
+「別によろしいのでは？
+$nw,1990
+
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+　あ、知世翔さんは何食べますか？」
+$k
+
+// CHISEKA_0401TR3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03040124
+知世翔
+「…邪魔しちゃ悪いし。
+$nw,2500
+
+　みいも悪趣味ね、人をこんなところに呼び出して」
+$k
+
+// MII_0401NO
+#sp,vo,03030112
+みい
+「ふふ、知世翔さんこそ、
+　気になるから来たんですよね？」
+$k
+
+// CHISEKA_0401OD3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03040125
+知世翔
+「そ、それは、
+$nw,2210
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR3.png,(x),r2,(s),60%
+#ig
+
+　…先輩達うまくいってるか気になるし」
+$k
+
+// 	LookTable();
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r3,(al),0%
+#ip,c3,(x),r0,(al),0%
+#ig
+
+// ISAKI_0501NO
+#ir,(ef),off
+#ip,c2,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l,(al),100%
+#ig
+
+#sp,vo,03010066
+勇樹
+「……めぐみ、一番テーブルの
+　ブレンドとホットミルク」
+$k
+
+// MEGUMI_0901EG3
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#sp,vo,03070194
+めぐみ
+「は～い、はいはい」
+$k
+
+#ir
+#ie,c1,c2
+#ig
+
+&empty
+今日は俺達が付き合いだして、初めてのデート。
+$k
+
+&empty
+……だと思っていたんだが。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_TENNAI01A );
+// 	SS( CENTER, MEGUMI_A901NO );
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+// MEGUMI_A901NO
+#sp,vo,03070195
+めぐみ
+「ほい、ミルクとブレンドお待たせ～」
+$k
+
+// SAKURAKO_0401TR4
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+#sp,vo,03000592
+桜子
+「あ、ありがと」
+$k
+
+// MEGUMI_A901BS4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070196
+めぐみ
+「……ニヤニヤ」
+$k
+
+// SAKURAKO_0402AS
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000593
+桜子
+「っ！？
+$nw,990
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),80%
+#ig
+
+　……な、なによめぐ」
+$k
+
+// MEGUMI_A901TY2
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01TY2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070197
+めぐみ
+「ううんなんでも～？
+　受験勉強はかどってるかな～、ってね？」
+$k
+
+優
+「はあ…」
+#meffect,flow,5
+$k
+
+// MEGUMI_A901KT4
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070198
+めぐみ
+「で、なんで優ちゃんはそんなやる気なさそうなの？」
+$k
+
+// MEGUMI_A901KD
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KD.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070199
+めぐみ
+「せっかく両思いになれたのにさぁ～？」
+$k
+
+&empty
+そう、その日に、勢いでキスまでしましたとも。
+$k
+
+// SAKURAKO_0402IK3
+#sp,vo,03000594
+桜子
+「ちょっ、ちょっとめぐっ、あんたねえ！」
+$k
+
+// MEGUMI_A901EG2
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070200
+めぐみ
+「きゃはは、聞こえてた～？」
+$k
+
+優
+「………だからってよ？」
+$k
+
+// MEGUMI_A901KD
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KD.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070201
+めぐみ
+「うん？」
+$k
+
+優
+「初デートがここで勉強、は無いと思うんだよな？」
+$k
+
+// MEGUMI_A901BS
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070202
+めぐみ
+「ああ、そういうことぉ」
+$k
+
+// SAKURAKO_0402AS
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000595
+桜子
+「ななな、なにいってんのデートとか大声でっ！」
+$k
+
+優
+「でもよ…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000596
+桜子
+「もうっ、みんなこっち見てるじゃないっ」
+$k
+
+// 	LookCounter();
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),0%
+#ip,c1,(x),r0,(al),0%
+#ig
+
+// MII_0403EG
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03030113
+みい
+「お兄様～」
+$k
+
+&empty
+みいちゃんはこちらに手を振り。
+$k
+
+// CHISEKA_0401NR
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NR.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03040126
+知世翔
+「ふう…」
+#meffect,flow,5
+$k
+
+&empty
+有河は俺を睨んで……いる様な気がする。
+$k
+
+// 	LookTable();
+
+#ir
+#ie,c2
+#ig
+
+&empty
+たしかに…他の客はともかく、
+カウンターにはみいちゃんと有河が。
+$k
+
+// ISAKI_0502NO
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03010067
+勇樹
+「……ふむ」
+$k
+
+&empty
+なにげに宮津橋もこっちを見てたりして…。
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「なんだよ、いいじゃんよ？」
+$k
+
+&empty
+あれだけすったもんだした後だし、
+今更身内を気にしても。
+$k
+
+&empty
+いや、だからこそ他の場所にデートとかさ…。
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_0402IK3
+#sp,vo,03000597
+桜子
+「よ、よくないのっ！
+$nw,2300
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),80%
+#ig
+
+　それにねえ、あたし達は受験生なの！
+　大事な時期なの！」
+$k
+
+優
+「それさっきも聞いたよ…」
+$k
+
+&empty
+あれから、キスどころか手も繋いでない現実。
+$k
+
+// 	SS( CENTER, MEGUMI_A901EG3 );
+
+// MEGUMI_A901EG3
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ip,c3,(x),l
+#ig
+
+#sp,vo,03070203
+めぐみ
+「はははは、幸せだねえ、２人とも～♪」
+$k
+
+// SAKURAKO_A401TR
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000598
+桜子
+「なによもうっ、
+$nw,2110
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),80%
+#ig
+
+　めぐはあたし達の勉強の邪魔しに来たの？」
+$k
+
+// MEGUMI_A901TY2
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01TY2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070204
+めぐみ
+「ほほほ、とんでもございませんわ～」
+$k
+
+// SAKURAKO_A403NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000599
+桜子
+「むうっ」
+$k
+
+// MEGUMI_A901TR5
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01TR5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070205
+めぐみ
+「でも、優ちゃんの気持ちも分かるな～。
+$nw,3260
+
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01SP3.png,(x),r,(s),80%
+#ig
+
+　やっとの思いで両思いになったのに、
+　誘われたのが勉強会じゃあねぇ～？」
+$k
+
+&empty
+そんななか、桜子が一緒に出かけよう、
+って云うから、ちょっとは期待したのに…。
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000600
+桜子
+「そっ、それはそれ、これはこれっ。
+$nw,2930
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),80%
+#ig
+
+　あたし達は受験生なんだから勉強は必要でしょっ」
+$k
+
+// MEGUMI_A901KD
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KD.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070206
+めぐみ
+「でも少しくらいデート、
+　したかったよね、
+$nw,3750
+
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS.png,(x),r,(s),80%
+#ig
+
+　ねー優ちゃ～ん？」
+$k
+
+優
+「いや、……まあそれは」
+#meffect,flow,5
+$k
+
+&empty
+まあしかし、
+同じ勉強するのでも、これはこれで幸せではある。
+$k
+
+// SAKURAKO_0403NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000601
+桜子
+「……むぅー！」
+$k
+
+&empty
+桜子が隣にいるのには変わりないしな。
+俺の……彼女として、だから。
+$k
+
+// MEGUMI_A901KN3
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KN3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070207
+めぐみ
+「まあしっかし、桜子もなんでわざわざ
+　この店を選ぶかな～？」
+$k
+
+// SAKURAKO_0403KM
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000602
+桜子
+「そっそれは…」
+#meffect,flow,5
+$k
+
+// DAIGO_0301NO
+
+#sp,vo,03090034
+沖奈大吾
+「おいめぐみ、ちょっと来てくれないかー？」
+$k
+
+&empty
+おっちゃんが奥から顔を出してめぐみを呼んだ。
+$k
+
+// MEGUMI_A901KT6
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT6.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070208
+めぐみ
+「ん？
+$nw,990
+
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NO.png,(x),r,(s),80%
+#ig
+
+　はいは～い、いま行くよ～ん♪」
+$k
+
+// MEGUMI_A901EG6
+#ir
+#ip,c1,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG6.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070209
+めぐみ
+「じゃあ、お二人さん、ごゆっくり～」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),0%
+#ig
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000603
+桜子
+「もうっ」
+$k
+
+// 	LookCounter();
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),0%
+#ig
+
+// MII_0401KS
+#ir,(ef),off
+#ip,c2,(fi),MII_A401.png,(psi),MII_An01KS.png,(x),r,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r0,(al),100%
+#ig
+
+#sp,vo,03030114
+みい
+「しかし…、
+　姉上が珍しくテーブル席に座ったと思えば、
+　勉強会を始めてしまうとは思いませんでしたが」
+$k
+
+// CHISEKA_0401NO2
+#ir,(ef),off
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO2.png,(x),r4,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r3,(al),100%
+#ig
+
+#sp,vo,03040127
+知世翔
+「……受験生としては真っ当な行動じゃないの？」
+$k
+
+// MII_0403NO
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03070210
+みい
+「そうですが、
+　いえ、微笑ましいですねー、なんて思いまして。
+$nw,5480
+
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03EG3.png,(x),r0,(s),60%
+#ig
+
+　テーブル席に隣同士で座るところとか」
+$k
+
+// CHISEKA_0401OD3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,03040128
+知世翔
+「それは……
+$nw,2000
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR3.png,(x),r3,(s),60%
+#ig
+
+　隣の方が教えやすいからよ、きっと」
+$k
+
+// MII_0403EG
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03030115
+みい
+「まあそういう事にしておきましょうか」
+$k
+
+// CHISEKA_0401KM3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,03040129
+知世翔
+「…しっかし、先輩が、あんなやつと…」
+$k
+
+// MII_0403NO
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03030116
+みい
+「お兄様は素敵な人ですよ？」
+$k
+
+// CHISEKA_0401KM3
+#sp,vo,03040130
+知世翔
+「素敵……かなあ？
+$nw,3250
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB2.png,(x),r3,(s),60%
+#ig
+
+　轟木家の三姉妹は、きっと男を見る目がないのよ」
+$k
+
+// MII_0403FK
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03030117
+みい
+「うむむ…言い返したいところですが、
+　見る目にはちょっと自信がありませんね」
+$k
+
+// CHISEKA_0401KN
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,03040131
+知世翔
+「先輩のあんなにほころんだ顔なんて、初めて見た」
+$k
+
+// MII_0403EG
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03030118
+みい
+「ふふっ、良かったですねー、知世翔さん」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,03040132
+知世翔
+「なっ、何言ってんのよ、みいったら！？」
+$k
+
+// 	LookTable();
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r4,(al),0%
+#ip,c2,(x),r,(al),0%
+#ig
+
+&empty
+あっちはあっちで何を話しているのやら…。
+$k
+
+優
+「あ、俺、ちょっとトイレ行ってくる」
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000604
+桜子
+「あ、うん」
+$k
+
+&empty
+店は暖房が効いてるけど、その分喉が渇いて、
+飲み物とか飲んじゃうから、トイレが近くて困る。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_TENNAI01A );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02NO.png,(x),r,(s),80%
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, SAKURAKO_A401TR4, MOVE_STOP, NORMAL );
+
+#next,03sakurako14_01

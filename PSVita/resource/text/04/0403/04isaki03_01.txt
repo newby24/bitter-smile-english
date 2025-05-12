@@ -1,0 +1,529 @@
+﻿// 既読フラグ
+#read_flag,192
+
+#show
+
+&empty
+まるで毛虫でも見るかのような顔をされて
+宮津橋に教室を追い出された。
+$k
+
+#hide
+
+#sp,se,T_pinponpapon
+
+#wait,4000
+
+// 	WaitSE();
+
+#show
+
+#sp,vo,04990045
+アナウンス
+「以上をもちまして、学園祭を終了します。
+　お疲れ様でした！！」
+$k
+
+// 	SFP2( 1, "bell" );
+
+#sp,se,bell
+
+&empty
+お、もう終了時間か。
+と、いう事は後は片付けだけだな。
+$k
+
+#sp,env,S_Gaya05#
+
+&empty
+そう思っていると、教室から男子連中が
+ぞろぞろと出てきた。
+$k
+
+// 	SS( CENTER, ISAKI_0601NO, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A601.png,(psi),ISAKI_An01NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+&empty
+その中に、なぜか宮津橋も混ざっている。
+$k
+
+#ss,env,(dr),1000
+
+#sp,bgm,BGM_KEIKAI
+
+優
+「どうしたんだ、宮津橋。
+　今から片付けじゃないのか？」
+$k
+
+// ISAKI_0601KB
+#ir
+#ip,c1,(fi),ISAKI_A601.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010040
+勇樹
+「その前に女子の着替えだ。覗くなよ」
+$k
+
+// 	SK2();
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「誰が覗くか！！」
+$k
+
+&empty
+今日は他にもコスプレをしたり、
+制服以外の格好をしている学生が多いからな。
+更衣室が使えないらしい。
+$k
+
+&empty
+いくらなんでも、クラスの女子全員を
+敵に回して教室を覗く気はないぞ。
+$k
+
+&empty
+小林じゃあるまいし。
+$k
+
+優
+「あれ？　お前は？」
+$k
+
+// ISAKI_0601MU
+#ir
+#ip,c1,(fi),ISAKI_A601.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010041
+勇樹
+「着替えたいのは山々だが、めぐみがな……」
+$k
+
+&empty
+めぐみ？
+$k
+
+// ISAKI_0601NO
+#ir
+#ip,c1,(fi),ISAKI_A601.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010042
+勇樹
+「先に手を洗ってくるから、めぐみが来たら、
+　そう言っておいてくれ」
+$k
+
+優
+「わかった」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01C.jpg,(s),100%
+#ig
+
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM3.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+#show
+
+// 	SS_( CENTER, MEGUMI_0201KM3, MOVE_RIGHT );
+
+&empty
+それからしばらくすると、
+めぐみが紙袋を抱えて走ってきた。
+$k
+
+&empty
+教室に入ろうとする手前で呼び止める。
+$k
+
+優
+「あ、めぐみ。宮津橋なら教室にはいないぞ」
+$k
+
+// MEGUMI_0201KM8
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),330,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,04070015
+めぐみ
+「ええっ、どこに行ったの？」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「手を洗いに行くとか言ってたけど……」
+$k
+
+&empty
+めぐみは急いでいるのか、足踏みをしている。
+$k
+
+// MEGUMI_0201KM3
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070016
+めぐみ
+「あのね、私、ちょっと食べ損ねたプリンを
+　無理言って、とってもらってあるのよ。
+　だから……」
+$k
+
+優
+「だから？」
+$k
+
+// 	SS_( CENTER, MEGUMI_A201KM8 );
+
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),80%
+#ig
+
+// MEGUMI_A201KM8
+#sp,vo,04070017
+めぐみ
+「これ、勇樹ちゃんに返しておいて。
+　勇樹ちゃんの制服が入ってるから」
+$k
+
+&empty
+ああ、それで宮津橋が着替えたくても
+着替えられないって言っていたのか。
+$k
+
+優
+「わかった、渡しておくよ」
+$k
+
+// MEGUMI_A201EG3
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04070018
+めぐみ
+「ありがと。優ちゃん大好き、愛してる～っ！」
+$k
+
+//	ShakeStand( CENTER, 1, SHAKE_UP, 4, 20 );
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+&empty
+安い愛だな、おい！
+$k
+
+&empty
+とりあえず、紙袋を持って教室前に立っていると、
+入れ違いで宮津橋が戻ってきた。
+$k
+
+// 	SS( CENTER, ISAKI_0602NO, MOVE_RIGHT );
+
+// ISAKI_0602NO
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A602.png,(psi),ISAKI_An02NO.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,04010043
+勇樹
+「めぐみはまだか？」
+$k
+
+優
+「いや、さっき来たけど、用があるとか言って
+　俺にこれを預けてった」
+$k
+
+&empty
+俺は宮津橋に見えるように紙袋を掲げた。
+$k
+
+// ISAKI_0601NO
+#ir
+#ip,c1,(fi),ISAKI_A601.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010044
+勇樹
+「なら、よこせ」
+$k
+
+&empty
+そのまま渡そうと思ったところで、
+ふと宮津橋の姿が目に止まる。
+$k
+
+&empty
+宮津橋のコスチューム姿。
+うーん、やっぱり可愛いよなあ。
+$k
+
+&empty
+普段こういう格好は絶対しないから、
+良い意味でギャップがあるというか。
+$k
+
+&empty
+ここで俺が制服を返さなかったら、
+こいつはずっとこのままなんだよな。
+$k
+
+&empty
+……それも悪くないよな。
+$k
+
+// ISAKI_0601IK
+#ir
+#ip,c1,(fi),ISAKI_A601.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010045
+勇樹
+「何をにやにやしている？　早く渡せ」
+$k
+
+優
+「返してほしければ、条件がある！」
+$k
+
+// ISAKI_0601KB
+#ir
+#ip,c1,(fi),ISAKI_A601.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010046
+勇樹
+「ほう？」
+$k
+
+&empty
+聞こうじゃないか、と言うように、
+宮津橋が顎で俺を促した。
+$k
+
+優
+「まずはその格好で、
+　『お帰りなさいませ、ご主人様』と言ってもらおうか」
+
+$k
+
+// 	SS_( CENTER, ISAKI_0602KS );
+
+#ir
+#ip,c1,(fi),ISAKI_A602.png,(psi),ISAKI_An02KS.png,(x),c,(s),60%
+#ig
+
+&empty
+にやり、と不敵な笑みを浮かべる宮津橋。
+お、冗談で言ってみたけど……脈ありか？
+$k
+
+// ISAKI_0602NO
+#ir
+#ip,c1,(fi),ISAKI_A602.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010047
+勇樹
+「なるほど、いい度胸だな」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ちゃき。" );
+// 	BGMStop();
+
+#ss,bgm,(dr),0
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),T_Sword01
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+&empty
+って、目が笑ってない！！
+$k
+
+&empty
+どこからか取り出された木刀が
+目の前で構えられた。
+$k
+
+&empty
+着替え持ってないくせに
+なぜそれを持っている！？
+$k
+
+#sp,bgm,BGM_SYOSO
+
+優
+「あ、いや……今のは冗談で……」
+$k
+
+//	ZoomStand( CENTER, 80, 60, 60 );
+//	WaitZoomStand( CENTER );
+
+#sp,se,S_Don01
+
+&empty
+後ずさろうとした俺のかかとが、廊下の壁に当たる。
+$k
+
+&empty
+うお、すでにいつの間にか
+コーナーに追い詰められてる！？
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+#ir,(ef),off
+#ip,c2,(fi),ISAKI_A602.png,(psi),ISAKI_An02BS.png,(x),c,(s),80%,(al),0%
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),c,(y),0,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c2,(y+),100
+#ig
+
+#sp,env,S_Yure01#
+
+#ir,(dr),2000,(ef),move
+#ip,c2,(y+),-100,(al),100%
+#ip,c1,(al),70%
+#ig
+
+#sp,vo,04010048
+勇樹
+「『逝ってらっしゃいませ、ご主人様』？」
+$k
+
+&empty
+それ帰る時だから。
+てか、すげー不吉な意味合いが…。
+$k
+
+#hide
+
+#ss,bgm
+#ss,env,(dr),0
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	FadeVisual( 0 );
+
+#sp,se,T_Kenka2
+
+#wait,2000
+
+// 	SS( CENTER, ISAKI_0602NO );
+
+//	RuleFlashIn( NORMAL, RULE_LIGHT );
+// 	WaitSE();
+
+#sp,se,S_Dosa01
+
+#show
+
+優
+「…………ぱ、ぱたんきゅう」
+$k
+
+// 	Zoom( 50, 190, 190, 400, 500 );
+// 	MoveStand( CENTER, 0, 0, -280 );
+// 	SetObject( 0, "blackrain.png", 0, 0, OBJATTR_TOP );
+// 	WaitObject( 0 );
+
+// 	SK2();
+// 	Rotate( 20|SPEED_DOWN, 15 );
+
+#sp,se,S_Door04o
+
+// 	WaitSE();
+
+#sp,vo,04990046
+クラスメイト
+「え～、だって、それはないって……
+$nw,2890
+
+　っ！？」
+$k
+
+
+#sp,vo,04990047
+クラスメイト
+「ん？　どしたのマコ…
+$nw,3670
+
+#madd,って……」
+$k
+
+優
+「……あ」
+$k
+
+// ISAKI_0601NO
+
+#sp,vo,04010049
+勇樹
+「……」
+$k
+
+#sp,vo,04990048
+クラスメイト
+「あ、あははは……えっと、なにしてるの？」
+$k
+
+
+#next,04isaki03_02

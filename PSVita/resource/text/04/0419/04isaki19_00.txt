@@ -1,0 +1,688 @@
+﻿// 既読フラグ
+#read_flag,247
+
+// セーブタイトル
+#flag,save_title,勇樹　第１９話,0,0
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第１９話　１＋１＝２以上
+$k
+#note,erase
+
+#show
+
+&empty
+翌日。
+$k
+
+&empty
+相変わらず勇樹は学園には来ていない。
+$k
+
+&empty
+だけど、もうそれで悩む事はない。
+俺には決めた事があるから。
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_SYOKUINSHITSU01A );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_SYOKUINSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「先生、話があるんです。
+　実は…………」
+$k
+
+// 	SS( CENTER, KOZUE_0202AS );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+#ir
+#ip,c1,(fi),KOZUE_A202.png,(psi),KOZUE_An01AS.png,(x),c,(s),60%
+#ig
+
+// KOZUE_0202AS
+
+#sp,vo,04100003
+山之辺こずえ
+「ええっ？
+　矢崎君、いくらなんでもそれはちょっと…！？」
+$k
+
+&empty
+先生は、俺の話を聞いてかなり驚いていた。
+$k
+
+優
+「でも、今からでも間に合いますよね？」
+$k
+
+// KOZUE_0202KM2
+#ir
+#ip,c1,(fi),KOZUE_A202.png,(psi),KOZUE_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04100004
+山之辺こずえ
+「そ、それはそうだけど……でも、本当にいいの…？
+　それでもしダメだったら……」
+$k
+
+優
+「それは覚悟のうえですから」
+$k
+
+&empty
+そう決めたんだからな。
+$k
+
+// KOZUE_0202MJ
+#ir
+#ip,c1,(fi),KOZUE_A202.png,(psi),KOZUE_An01MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04100005
+山之辺こずえ
+「そうなんだ…う～ん…。無理かもしれないけど、
+　でも何とかならないでもないかもしれない…かなぁ？」
+$k
+
+// KOZUE_0202MJ2
+#ir
+#ip,c1,(fi),KOZUE_A202.png,(psi),KOZUE_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04100006
+山之辺こずえ
+「めちゃくちゃ頑張ればなんとかなるかも…？」
+$k
+
+優
+「希望は見えますよね？」
+$k
+
+// KOZUE_0202KM
+#ir
+#ip,c1,(fi),KOZUE_A202.png,(psi),KOZUE_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04100007
+山之辺こずえ
+「うぅ～～～～～～～～～～ん」
+$k
+
+優
+「……あんまりやる気を削がないでください」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03A );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ふ、あぁぁぁ～あ…………」
+$k
+
+&empty
+気がついたら、もう２時か。
+随分と長い間、集中して勉強してたみたいだ。
+$k
+
+優
+「とはいえ、まだ全然足りないよな」
+$k
+
+&empty
+元々、そんなに頭が良いわけでもないのに、
+昨日までほとんど勉強をサボっていた。
+$k
+
+&empty
+その分を取り戻すだけじゃなくて、
+もっともっと勉強しないと
+俺の欲しいものは手に入らない。
+$k
+
+優
+「よーっし、俺はやるぞーっ！！」
+$k
+
+#sp,se,K_Binta01
+
+&empty
+頬を叩いて、気合いを入れ直す。
+$k
+
+&empty
+目の前には、勇樹にもらった
+合格祈願のお守りがぶらさげてある。
+$k
+
+&empty
+俺は、１人じゃない。
+$k
+
+#hide
+
+#sp,se,S_Knock03
+
+#wait,1000
+
+// 	WaitSE();
+
+#show
+
+&empty
+ん？　誰だ？　こんな夜中に。
+$k
+
+優
+「入れよ」
+$k
+
+// SAKURAKO_0401EG
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01EG.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door03o
+
+// 	WaitSE();
+
+// 	SS( CENTER, SAKURAKO_0401EG, MOVE_LEFT );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,04000263
+桜子
+「ちーっす。頑張ってるみたいね」
+$k
+
+優
+「まあな、どうしたんだよ、こんな夜中に」
+$k
+
+// SAKURAKO_0402NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000264
+桜子
+「夜食の差し入れ。
+　あんた、まだ勉強してると思ったから」
+$k
+
+優
+「……サンキュ」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000265
+桜子
+「で、勝算はあるの？」
+$k
+
+優
+「なくても、やるしかないだろ」
+$k
+
+&empty
+夜食を頬張って、俺は単語帳に目を落とした。
+食べながらでもやれる事はある。
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000266
+桜子
+「ま、やる気になったみたいでよかったわ。
+　ｅｆｆｏｒｔの意味は？」
+$k
+
+優
+「努力、だろ。
+　別に手伝わなくていいんだぞ」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000267
+桜子
+「あたしも受験生だからね。確認してるだけよ」
+$k
+
+優
+「そっか」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+しばらく夜食に手を伸ばしながら、
+２人で単語帳を確認し合う。
+$k
+
+優
+「ありがとな」
+$k
+
+// 	SS( CENTER, SAKURAKO_A401NO );
+
+// SAKURAKO_A401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000268
+桜子
+「何がよ」
+$k
+
+優
+「俺の事、立ち直らせてくれて」
+$k
+
+&empty
+俺がそう言うと、桜子は憮然とした顔になった。
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000269
+桜子
+「別にぃ～。勇樹に頼まれただけだしね」
+$k
+
+優
+「それでもだって。
+　あのままじゃ、俺、きっとダメになってた」
+$k
+
+&empty
+１人で思い詰めて、勇樹からも桜子からも
+他のみんなからも逃げて。
+$k
+
+&empty
+１人になって生きていく事が強いんだと、
+それが勇樹の望みなんだと思おうとしていた。
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000270
+桜子
+「結局ねー、あんたたちって
+　変なとこばっかり似てるのよ」
+$k
+
+優
+「そうかもな」
+$k
+
+// SAKURAKO_A402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000271
+桜子
+「ま、あたしも意地になって、
+　助け船を出さなかった所があるのは認めるけど」
+$k
+
+&empty
+認めるのか。
+$k
+
+// SAKURAKO_A402NO5
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04000272
+桜子
+「でもさ、何かあったら手伝わせてよ。
+$nw,3920
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+　あたしたち……幼なじみなんだからさ」
+$k
+
+&empty
+そう言って、笑った桜子の笑顔は何かを
+吹っ切ったみたいにすっきりしてて、
+俺の心も少しだけ軽くなった。
+$k
+
+優
+「ああ、ありがとうな」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402NO4 );
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000273
+桜子
+「じゃ、あたしは戻るから。
+　程ほどにしなさいよ、根をつめ過ぎないようにね」
+$k
+
+優
+「もう少しやったら、休むよ」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000274
+桜子
+「じゃね」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#sp,se,S_Door03c
+
+// 	WaitSE();
+
+#show
+
+&empty
+桜子がいなくなってから、
+俺は改めて机に向かった。
+$k
+
+&empty
+少し眠かった頭がすっきりしている。
+大丈夫、まだまだ頑張れそうだ。
+$k
+
+優
+「もう一頑張りするか！」
+$k
+
+&empty
+結局、明け方まで、俺は勉強し続けた。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+次の日も、次の日も、俺は同じ勢いで
+受験勉強をしていた。
+$k
+
+&empty
+なにせ、時間が足りない。
+どれだけ勉強しても安心しきれない。
+$k
+
+&empty
+仮眠とカフェインで誤魔化してはいたが、
+さすがに少し辛くなってきた。
+$k
+
+&empty
+それでも、根性で過去問を開く。
+$k
+
+優
+「イギリスが結成させたインド国民会議は……」
+$k
+
+// 	SS( CENTER, MEGUMI_0201KM8, MOVE_RIGHT );
+
+// MEGUMI_0201KM8
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,04070128
+めぐみ
+「わっ、優ちゃん、すごいクマ！！」
+$k
+
+優
+「おー……めぐみかー……」
+$k
+
+// MEGUMI_0201AK2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070129
+めぐみ
+「聞いたよぉ～、無茶しすぎてんじゃない？
+　昨夜はいったい何時まで勉強してたの？」
+$k
+
+優
+「……学園に来るちょっと前までかな」
+$k
+
+// MEGUMI_0201IK4
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070130
+めぐみ
+「朝じゃない！！
+　徹夜って言うのよ、それ」
+$k
+
+優
+「おー、そうかぁ。
+　勉強になるよ」
+$k
+
+&empty
+あと少し、あと少しと思いながら
+問題を解いているうちに目覚ましが鳴ってしまった。
+$k
+
+// MEGUMI_0201SP
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070131
+めぐみ
+「ホントに大丈夫？」
+$k
+
+&empty
+めぐみの顔からすると、
+かなりひどい顔なんだろうな。
+$k
+
+&empty
+ちょっと教科書の文字が
+ぼやけ始めてきているし。
+$k
+
+優
+「さすがに限界かな…。
+　ちょっと寝るわ、俺」
+$k
+
+// MEGUMI_0201BS
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070132
+めぐみ
+「うん、その方がいいね」
+$k
+
+優
+「じゃあ、悪い。１０分したら、起こしてくれ……」
+$k
+
+// MEGUMI_0201OD2
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01OD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070133
+めぐみ
+「それだけでいいのぉ？
+　お昼休み、まだ３０分くらいあるよ？」
+$k
+
+優
+「ああ、大丈夫だ」
+$k
+
+// MEGUMI_0201EG3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070134
+めぐみ
+「ん、わかった。
+　じゃ、コーヒー、買ってきといてあげるね」
+$k
+
+優
+「サンキュー」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+
+&empty
+めぐみの足音が遠ざかるのを聞きながら、
+俺は束の間の眠りに落ちた。
+$k
+
+//	BFO();
+#hide
+
+#wait,1000
+
+// 	SV( BG_GK_ROKA01A );
+
+//	SS( RIGHT, ISAKI_0201MU );
+//	BFP( BGM_NICHIJYO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+// MEGUMI_0201BS3
+
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS3.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	SS( CENTER, MEGUMI_0201BS3, MOVE_LEFT );
+
+#next,04isaki19_01

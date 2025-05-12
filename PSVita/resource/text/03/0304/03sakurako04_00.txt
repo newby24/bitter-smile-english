@@ -1,0 +1,940 @@
+﻿// 既読フラグ
+#read_flag,264
+
+// セーブタイトル
+#flag,save_title,桜子　第４話,0,0
+
+// 桜子好感度＋１。
+#flag,per,1,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#sp,se,S_Chime01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第４話　先輩後輩
+$k
+#note,erase
+
+// 	WaitSE( -1 );
+
+#sp,bgm,BGM_KEIKAI
+
+// KOBAYASHI_0201EG
+#ir,(ef),off
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01EG.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#show
+
+#ir,(dr),500,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+#sp,vo,03080011
+小林
+「やっふぅーっ、授業終了ー！
+$nw,3500
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01KM.png,(x),c,(s),60%
+#ig
+
+　先生、もう行っていいですか？
+$nw,1760
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS3.png,(x),c,(s),60%
+#ig
+
+#madd,　いいですよねっ、
+$nw,1460
+
+// きらりアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kirari.png,(x),*550,(y),*145,(s),50%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,op1,(s),100%,(al),100%
+#ig,(se),K_Kyupin01
+
+　なんたって、俺達これから身体測定ですからー！」
+$k
+
+// 	SS_( CENTER, KOBAYASHI_0201EG, MOVE_DOWN );
+// KOBAYASHI_0201KM2
+
+&empty
+小林の奴、テンションたけぇ～っ。
+$k
+
+// 	SS_( LEFT, KOBAYASHI_0201BS3, MOVE_STOP, NORMAL );
+// 	SS( RIGHT, KOZUE_0201IK, MOVE_STOP, NORMAL );
+
+// KOZUE_0201IK
+#ir,(ef),off
+#ip,c3,(fi),KOZUE_A201.png,(psi),KOZUE_An01IK.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+#sp,vo,03100002
+山之辺こずえ
+「そんな事をあまり大声で言わないのっ」
+$k
+
+// KOBAYASHI_0201AY
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03080012
+小林
+「男子だけの教室には１秒も居たくありません！
+$nw,3800
+
+　今すぐ解放してください！
+$nw,2190
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01IK2.png,(x),l,(s),60%
+#ig
+
+　そして体育館に向かわせてください！」
+$k
+
+// KOZUE_0201KM2
+#ir
+#ip,c3,(fi),KOZUE_A201.png,(psi),KOZUE_An01KM2.png,(x),r,(s),60%
+#ig
+
+// KOZUE_0201NO
+#sp,vo,03100003
+山之辺こずえ
+「あなたは一体何を言って……。
+$nw,3500
+
+#ir
+#ip,c3,(fi),KOZUE_A201.png,(psi),KOZUE_An01NO.png,(x),r,(s),60%
+#ig
+
+　はあ、じゃあ授業を終わりましょうかー
+$nw,5010
+
+#ir
+#ip,c3,(fi),KOZUE_A201.png,(psi),KOZUE_An01BS2.png,(x),r,(s),60%
+#ig
+
+　ま、もう女子は終わってる頃だろうし…」
+#msmall
+
+$k
+
+// KOBAYASHI_0201EG
+#ir,(dr),0
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01EG.png,(x),l,(s),60%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,03080013
+小林
+「ヤッタ――！」
+#mlarge
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+#sp,env,S_Gaya05#
+
+&empty
+先生が教室を出ていくなり、男子達が浮き足立つ。
+$k
+
+// 	SS( CENTER, MEGUMI_0201NO );
+
+// MEGUMI_0201NO
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070009
+めぐみ
+「身体測定ってドキドキするわよねぇ」
+$k
+
+// KOBAYASHI_0201BS3
+#ir,(ef),off
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS3.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+#sp,vo,03080014
+小林
+「よーし、めぐみの体を余すところなく
+　見てやるからなー！」
+$k
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r3,(al),0%
+#ig
+
+#ss,env,(dr),1000
+
+// MEGUMI_0201IK3
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK3.png,(x),c,(s),60%
+#ig
+
+// MEGUMI_0201TR4
+#sp,vo,03070010
+めぐみ
+「誰が見せるかぁーっ！
+$nw,2240
+
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01TR4.png,(x),c,(s),60%
+#ig
+
+　ま～優ちゃんになら、心も体もオープンだけど～？
+$nw,5720
+
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01TY2.png,(x),c,(s),60%
+#ig
+
+　きゃっ、いや～ん♪」
+
+$k
+
+優
+「なんでめぐみまで小林のテンションに
+　つられてんだよ…」
+$k
+
+// MEGUMI_0201IK5
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070011
+めぐみ
+「ええ～、優ちゃんはドキドキしないのぉ？」
+$k
+
+&empty
+とはいえ、こんな日はしなければ男じゃないな。
+$k
+
+// MEGUMI_0201IK
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070012
+めぐみ
+「身体測定だよ？
+$nw,1990
+
+　あんなところからそんなところまで、
+　体を隅々まで調べるんだよ？」
+$k
+
+#sp,se,Ma_Foot01
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2
+#ig
+
+&empty
+めぐみの言葉だけで、
+足が勝手に教室を出て行こうとする。
+$k
+
+&empty
+やめろ……俺、誘惑には弱いんだ。
+$k
+
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01IK.png,(x),c,(s),60%
+#ig
+
+// MEGUMI_0201IK
+#sp,vo,03070013
+めぐみ
+「今体育館に行けば、女子の測定が見られるかもだよ？
+$nw,5500
+
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01AZ.png,(x),c,(s),60%
+#ig
+
+　下着なんて見放題？ポロリだってあるかも！」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「うおおおお――――っ！」
+#mlarge
+$k
+
+// MEGUMI_0201KS
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070014
+めぐみ
+「…だからってホントに行ったら最低だけどね～」
+$k
+
+&empty
+ですよね…。
+$k
+
+// 	SS( CENTER, KOBAYASHI_0201AS );
+
+// KOBAYASHI_0201AS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AS.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,03080015
+小林
+「もう我慢できん～。
+$nw,1990
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01EG.png,(x),c,(s),60%
+#ig
+
+　今すぐ体育館に行ってやる～！」
+$k
+
+#sp,se,S_Hyun01
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「あっ」
+$k
+
+&empty
+目を血走らせた小林が、教室を飛び出していった。
+$k
+
+&empty
+遅れてなるものかと、他の男子が彼を追いかける。
+$k
+
+&empty
+『待て、早まるな小林っ！』
+$nw,1000
+
+なんて言い訳っぽい言葉を投げかけながら。
+$k
+
+優
+「お、おい、お前ら…」
+$k
+
+#sp,se,S_Wind02
+
+// 	WaitSE( -1 );
+
+&empty
+気付けば教室はもぬけの殻。
+あっという間の出来事に、呆然とするしかない。
+$k
+
+優
+「完全に出遅れた…！」
+$k
+
+// MEGUMI_0201TR
+#ir,(ef),off
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01TR.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),c,(al),100%
+#ig
+
+#sp,vo,03070015
+めぐみ
+「２人きりになっちゃったね♪」
+$k
+
+// 	SS( CENTER, MEGUMI_0201TR, MOVE_LEFT, SLOW );
+
+優
+「って、めぐみは居たのか」
+$k
+
+// MEGUMI_0201SP3
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01SP3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070016
+めぐみ
+「いや、まあ…私は別の日に済ませたからねえ？
+$nw,4190
+
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op2,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op2,(al),0%
+#ig
+
+　今日は保健委員の私が優ちゃんをたっぷり
+　測定してあげるね？」
+$k
+
+優
+「ええー…」
+#meffect,flow,5
+$k
+
+// MEGUMI_0201BS
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070017
+めぐみ
+「…にしても、みんなお年頃よねぇ。
+$nw,3230
+
+　女子の着替えってだけで、獣になっちゃうんだね。
+$nw,3770
+
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KS2.png,(x),c,(s),60%
+#ig
+
+　どうせ見れやしないのにさ～」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2
+#ig
+
+&empty
+そんな事は分かっているんだ。
+$k
+
+&empty
+でも行かねばならぬ。
+男にはそんな時もあるのだよ。
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+&empty
+……そこに夢が在るならっ！
+#mlarge
+$k
+
+// 	SS( CENTER, MEGUMI_0201BS2 );
+
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KS2.png,(x),c,(s),60%
+#ig
+
+優
+「はは…」
+#meffect,flow,5
+$k
+
+&empty
+曖昧に笑っておいた。
+$k
+
+// MEGUMI_0201BS2
+
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070018
+めぐみ
+「ねえ、２人で身体測定ばっくれちゃおうか？」
+$k
+
+優
+「ばっくれてどうするんだよ。
+　後日１人で測定を受ける羽目になるだけだろ
+$nw,1500
+
+　ていうかお前保健委員だろ」
+$k
+
+// MEGUMI_0201KM2
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070019
+めぐみ
+「ええ～？
+$nw,1210
+
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+　好みじゃない男子のまで、裸見せられても、ねえ？」
+$k
+
+優
+「ねえ？　って言われてもな。
+　俺は先に行くぞー？」
+$k
+
+// MEGUMI_0201KM2
+#ir
+#ip,c2,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070020
+めぐみ
+「はいは～い…」
+#meffect,flow,5
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+廊下に出たとたん急ぎ足の男子連中がちらほらと。
+$k
+
+&empty
+微かな熱気が伝わってくる。
+$k
+
+&empty
+俺も体育館に急ごう。
+よもやのおこぼれに遭遇するかもしれないし。
+$k
+
+&empty
+………こればかりは仕方がない。男の性だ。
+分かってはいるんだ。そんな事はないってのは。
+$k
+
+// 	SS_( CENTERRIGHT, SAKURAKO_0203NO, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO.png,(x),r0,(s),60%
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),l0,(s),60%
+#ig
+
+// 	SS( CENTERLEFT, CHISEKA_0201NR, MOVE_STOP, NORMAL );
+
+// SAKURAKO_0203NO
+#sp,vo,03000151
+桜子
+「あら、優」
+$k
+
+// CHISEKA_0201NR
+
+#sp,vo,03040007
+知世翔
+「……こんにちはー」
+$k
+
+優
+「………………
+$nw,1000
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+#madd,お、おうっ！？」
+
+$k
+
+&empty
+女子の着替えに妄想ダイブしていたから、
+ちょっと焦った。
+$k
+
+&empty
+桜子と有河だ。
+$k
+
+&empty
+そういや最近、有河はよく桜子と一緒だなあ。
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03000152
+桜子
+「さっきから男子が猛牛のように
+　体育館に向かって走っていってるみたいだけど、
+$nw,5230
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),r0,(s),60%
+#ig
+
+　………アレは何よ？」
+$k
+
+&empty
+明らかに目が険しい。
+$k
+
+優
+「さ、さあなぁ…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03000153
+桜子
+「優も急いでるの？」
+$k
+
+優
+「まあ、ほどほどには…体育館集合だしな？」
+$k
+
+// CHISEKA_0201OD3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),l0,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\bikkuri.png,(x),420,(y),50
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,03040008
+知世翔
+「わ…。
+$nw,990
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB2.png,(x),l0,(s),60%
+#ig
+
+　いやらしいですねぇ」
+$k
+
+優
+「ち、違うぞ？　女子の着替え目的じゃないぞ？
+　身体測定なんて、早く終わらせるに限るからな。
+　毎年の事とはいえ、面倒だよなあ！」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),r0,(s),60%
+#ig
+
+
+#sp,vo,03990001
+桜子＆知世翔
+「………」
+#meffect,flow,5
+$k
+
+// 	SS( CENTERRIGHT, SAKURAKO_0202IK7 );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+&empty
+完全に疑われている！
+#mlarge
+$k
+
+&empty
+しかも疑惑が本当なだけに、言い訳しにくい！
+$k
+
+優
+「そ、そういや、みいちゃんは一緒じゃないのか？」
+$k
+
+&empty
+全学年合同で、
+女子と男子、入れ替わりに身体測定だから…。
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AS.png,(x),r0,(s),60%
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AS.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,03990002
+桜子＆知世翔
+「…っ！！」
+$k
+
+// 	SS_( CENTERRIGHT, SAKURAKO_0202AS );
+// 	SS_( CENTERLEFT, CHISEKA_0201AS );
+// 	SetActionBuru( CENTERRIGHT );
+// 	SetActionBuru( CENTERLEFT );
+
+優
+「あっ、あれっ？　なに、か…？」
+$k
+
+// SAKURAKO_0202IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03000154
+桜子
+「……くっ」
+$k
+
+// CHISEKA_0201IK
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,03040009
+知世翔
+「…うう～」
+$k
+
+&empty
+とても恨みがましい目でこちらを睨む二人。
+俺は何か、地雷を踏んでしまいましたか？
+$k
+
+// SAKURAKO_0203IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK3.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03000155
+桜子
+「あんたはほんと、神経を逆撫でするわね。
+　こんな日にみいと一緒にいるわけないでしょう」
+$k
+
+// CHISEKA_0201IK
+#sp,vo,03040010
+知世翔
+「そうですよ。
+　今日みいと一緒にいるなんて、自殺行為です。
+$nw,5230
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KN.png,(x),l0,(s),60%
+#ig
+
+　これ以上、虚しくなったりしたくないですから」
+$k
+
+&empty
+２人揃って胸元を押さえつつ。
+
+#mfuri,　　　　そろ
+
+$k
+
+&empty
+あー……そういう事ね。
+罪つくりだなあ。みいちゃんは結構あるからなぁ…。
+$k
+
+&empty
+特にこんな日は、意識して比較しちまうもんな。
+$k
+
+// SAKURAKO_0203NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03NO3.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03000156
+桜子
+「知世翔、行くわよ」
+$k
+
+// CHISEKA_0201NR
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),l0,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+#sp,vo,03040011
+知世翔
+「はいっ」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),0%
+#ip,c1,(x),r,(al),0%
+#ig
+
+&empty
+ぷりぷりしながら俺とすれ違い、立ち去る２人。
+$k
+
+// 	SS( CENTER, CHISEKA_0201IK, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+&empty
+なんとなく振り返ると、有河も振り返った。
+$k
+
+
+#sp,vo,03040012
+知世翔
+「………
+$nw,1090
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),60%
+#ig
+
+#madd,べーっ！！」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+&empty
+ぬおぅ…
+また有河を怒らせてしまったか。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KYOSHITSU01B );
+// 	SS( CENTER, MEGUMI_0201NO );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01B.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MEGUMI_0201NO
+#sp,vo,03070021
+めぐみ
+「優ちゃーん、一緒に帰ろー？」
+$k
+
+優
+「おう、めぐみ……まあいいか」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_LEFTRIGHT );
+// 	SV( BG_GK_KOMON01B );
+
+// 	RFI( RULE_LEFTRIGHT );
+
+#next,03sakurako04_01

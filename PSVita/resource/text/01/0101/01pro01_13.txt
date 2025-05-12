@@ -1,0 +1,770 @@
+﻿// 既読フラグ
+#read_flag,23
+
+#show
+
+#sp,vo,01990004
+現場作業員
+「待った、ちょっとストップ、ストーップ！」
+$k
+
+#sp,vo,01990005
+現場作業員
+「どうしたんすか急に？」
+$k
+
+#sp,vo,01990006
+現場作業員
+「一旦作業中止して！　ここに人が倒れてる」
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+#sp,env,S_Gaya04#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+ＳＨＲ後、学園長やなんやかんやの話を聞いたあと、
+再度のＨＲを経て２学期初日の今日はめでたく解放。
+$k
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+&empty
+さて帰ろうかと思っていると、
+自己紹介で俺を精神的につまずかせた奴に捕まった。
+$k
+
+#sp,bgm,BGM_TANOSHII
+
+// 	SS(CENTER, MEGUMI_0101BS2, MOVE_LEFT);
+
+// MEGUMI_0101BS2
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS2.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,01070003
+めぐみ
+「やっほ。元気ぃ？
+　昨日来てたんだってね、ウチんとこ～」
+$k
+
+優
+「あー、まあな」
+$k
+
+// MEGUMI_0101IK5
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01IK5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070004
+めぐみ
+「なあに～そのやる気のない返事は～？」
+$k
+
+// MEGUMI_0101IK
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070005
+めぐみ
+「せっかく可愛い幼なじみが寂しい想いをさせないため、
+　新しい環境に早く馴染めるように、
+　って声を掛けてあげたのにさあ～」
+$k
+
+優
+「お前のおかげで逆に環境に馴染めなくなりそうだよ」
+$k
+
+// MEGUMI_0101IK
+#sp,vo,01070006
+めぐみ
+「なんで～～？」
+$k
+
+優
+「あと、お前は幼なじみって言う程、
+　俺との歴史は長くないだろーが」
+$k
+
+// MEGUMI_0101IK
+#sp,vo,01070007
+めぐみ
+「つれないこと言わないのっ、も～う！」
+$k
+
+#hide
+
+#ir,(dr),1000,(un),NO
+#ip,c2,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS.png,(x),c,(s),100%
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),c,(al),50%
+#ig
+
+#show
+
+&empty
+この邪魔女。
+いや、この邪魔乙女は……。
+$k
+
+// 	SV( BG_GK_KYOSHITSU01A );
+// 	FadeVisual(FASTEST, 50);
+// 	DelStandAll();
+// 	SS(CENTER, MEGUMI_A101BS);
+
+&empty
+沖奈めぐみ。
+$k
+
+&empty
+クレープ屋『ハッピーシ～サ～』の店主、
+沖奈大吾の第一子にして看板娘。
+桜子の親友でもある。
+$k
+
+&empty
+そして……、
+俺が今、身につけているここの学園の制服の元の所有者。
+$k
+
+&empty
+俺は男子学園生用の制服を着ている。
+$k
+
+&empty
+とりあえず『心は乙女』とだけ伝えておきたい。
+$k
+
+&empty
+加えておくと、
+こいつの好みのタイプは俺ではないし、
+俺の好みのタイプもこいつではない。
+$k
+
+&empty
+こいつと知り合ったのは中学の入学式ん時から。
+色々あって、んでさらに同じクラスだった。
+そんだけ。
+$k
+
+&empty
+まあ、こいつの事は嫌いではないので
+未だに仲良く、こうして友人をやらせてもらっている。
+$k
+
+&empty
+たまにキャーキャーうるさい所なんぞは普通の女子と
+なんら変わりはない。
+$k
+
+// 	SV( BG_GK_KYOSHITSU01A );
+// 	DelStandAll();
+// 	SS(CENTER, MEGUMI_0101KT);
+
+#hide
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KT.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+#show
+
+優
+「ところでさぁ？」
+$k
+
+// MEGUMI_0101BS
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070008
+めぐみ
+「桜子ならＡ組だよ～？
+　あたし達とはクラスが違うのだな～」
+$k
+
+優
+「まだ何も聞いてねえよ」
+$k
+
+// MEGUMI_0101EG
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070009
+めぐみ
+「ま～ま、わかるわかる心配しなさんな」
+$k
+
+優
+「………あ～あもう」
+$k
+
+// MEGUMI_0101IK
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070010
+めぐみ
+「なによぉ～？」
+$k
+
+&empty
+やっぱ俺、こいつ嫌いかも。
+$k
+
+// MEGUMI_0101BS2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070011
+めぐみ
+「あ、ちなみにＡ組は一番端っこにあるから。
+　言うまでもないけど、ここ３－Ｃだから」
+$k
+
+優
+「だから聞いてねえっての」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"そうかい。" );
+優
+「じゃ、そろそろ帰るかな…」
+$k
+
+#hide
+
+//	SM( CHAR_ETC,			-1,					"",				"がららららっ" );
+#sp,se,S_Door04o
+
+#wait,1000
+
+// MEGUMI_0101NO
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,01070012
+めぐみ
+「おっ来たよ？」
+$k
+
+優
+「来たって…」
+$k
+
+// SAKURAKO_0103KT
+
+#sp,vo,01000220
+桜子
+「優ーまだ居るー？」
+$k
+
+// 	SetActionPyonpyon1( CENTER );
+
+// MEGUMI_0101EG3
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070013
+めぐみ
+「桜子～、こっちこっちぃ」
+$k
+
+// 	DelAction( CENTER );
+// 	CS_(CENTER, LEFT);
+// 	SS(RIGHT, SAKURAKO_0102NO4, MOVE_RIGHT);
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NR.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l
+#ip,c3,(x),r,(al),100%
+#ig
+
+優
+「なんだ桜子か」
+$k
+
+// SAKURAKO_0102NR
+
+#sp,vo,01000221
+桜子
+「なんだはないでしょ、なんだは。
+　まあいいわ、
+$nw,3600
+
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO4.png,(x),r,(s),60%
+#ig
+
+　よかったまだ居て、……は…ふぅ」
+$k
+
+&empty
+なんか息が荒いな。
+ダッシュでもして来たのか？
+廊下は走っちゃいけないんだぞ？
+$k
+
+#sp,se,S_Key02
+
+// SAKURAKO_0102NO5
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01000222
+桜子
+「はいこれ、今日お婆ちゃん急用が出来たって。
+　もしかしたら家に誰も居ないかも知れないから」
+$k
+
+優
+「カギ？　ああ、家の？」
+$k
+
+// MEGUMI_0101EG2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01070014
+めぐみ
+「うんうん」
+$k
+
+// SAKURAKO_0102NO5
+
+#sp,vo,01000223
+桜子
+「そうよ、こっちが家でこっちが千寿、覚えた？
+　またすぐに合鍵作っとくから、後で返してね」
+$k
+
+優
+「後でって、桜子はどうすんだ？」
+$k
+
+// 	SS(CENTERBOTTOM, KOBAYASHI_0101BS4);
+
+// KOBAYASHI_0101BS4
+#ir,(ef),off
+#ip,c2,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c2,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(y+),-100,(al),100%
+#ip,c1,(x),l2
+#ip,c3,(x),r2
+#ig
+
+#sp,vo,01080000
+男子Ａ
+「おーっ、お前達とうとう同棲始めたのか？
+　やったな、すっげーじゃん！」
+$k
+
+// 	SS_(LEFT, MEGUMI_0101IK4, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01IK4.png,(x),l2,(s),60%
+#ig
+
+// MEGUMI_0101IK4
+#sp,vo,01070015
+めぐみ
+「！」
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK7.png,(x),r2,(s),60%
+#ig
+
+// 	CS_(LEFT, LEFTLEFT);
+// 	CS(RIGHT, RIGHTRIGHT);
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\ikari.png,(x),*820,(y),*60
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op3,(s),120%
+#ig
+
+// SAKURAKO_0102IK7
+#sp,vo,01000224
+桜子
+「………………」
+#meffect,flow,5
+$k
+
+優
+「んだとぉ！　ああん？　いっぺん死んどくか～？」
+$k
+
+// 	SetIconAse( CENTERBOTTOM );
+
+// KOBAYASHI_0101AY
+#ir
+#ip,c2,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01AY.png,(x),c,(s),60%
+#ig
+
+#ir,(ef),off
+#ip,op2,(fi),image\icon\ase.png,(x),520,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op2,(y+),100,(al),0%
+#ia,op2,al,(dl),500
+#ig
+
+#sp,vo,01080001
+男子Ａ
+「うわっ怖っ、怖いってみんな！
+　オレは心から親友達を祝福してだな……」
+$k
+
+// MEGUMI_0101IK5
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01IK5.png,(x),l2,(s),60%
+#ie,op3
+#ig
+
+#sp,vo,01070016
+めぐみ
+「あ～んも～うっ！　小林は黙ってろぉ～」
+$k
+
+優
+「…やあ、久しぶりだね小林くん～♪」
+$k
+
+// KOBAYASHI_0101BS4
+#ir
+#ip,c2,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01080002
+小林
+「お？
+$nw,1370
+
+#ir
+#ip,c2,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01BS4.png,(x),c,(s),80%
+#ig
+
+　おお、友よ…」
+$k
+
+// 	SS(CENTER, KOBAYASHI_A101BS4, MOVE_STOP, NORMAL);
+
+優
+「とりあえずお前は沈んどけ」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch04
+
+#ir,(dr),500
+#ip,c2,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01AY.png,(x),c,(s),80%
+#ie,ov
+#ig
+
+#sp,se,S_Basa02
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(y+),100,(al),0%
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"ごっ！！！" );
+// 	SV( BG_GK_KYOSHITSU01A );
+// 	SS(CENTER, KOBAYASHI_A101AY);
+
+// MEGUMI_0101KM8
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM8.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,01070017
+めぐみ
+「うわあ、顔面グーパンとか！
+　相変わらず優ちゃんは小林だけには容赦ないね～！
+　うめき声すら無しだったよ～？」
+$k
+
+優
+「俺は、こいつを地獄に落とす権限を持っているからな」
+$k
+
+#ir
+#ie,c1,c2,c3
+#ig
+
+// 	Fade(SLOW, 50, 1);
+
+&empty
+今、沈んだ奴、本名は男子Ａ。
+$k
+
+&empty
+いや、ホントは小林策夜って偽名を持っているけどね。
+#mfuri,　　　　　　　　　　　　　　　　　　さくや
+
+男子Ａでいいよな。
+$k
+
+&empty
+こいつは昔、めぐみと知り合った頃、
+後から同じクラスに転校してきて知り合いになったが、
+めぐみに告白し振られた悲しい奴だ。…俺は止めたが。
+$k
+
+&empty
+その後は、なぜか俺と桜子の関係をやたらひやかす、
+という行為をライフワークにし始めたため、
+俺はこいつの生殺与奪権限を得たというワケだ。
+$k
+
+&empty
+そのせいか桜子は俺よりこいつが嫌いらしい。
+$k
+
+&empty
+紹介はもういいよな？
+$k
+
+// 	Fade(SLOW, 100);
+// 	SS_(LEFTLEFT, MEGUMI_0101KT4);
+
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KT4.png,(x),l,(s),60%
+#ip,c3,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),r,(s),60%
+#ig
+
+// 	CS_(LEFTLEFT, LEFT);
+// 	CS_(RIGHTRIGHT, RIGHT);
+// 	WaitFilter();
+
+// SAKURAKO_0103KT
+
+#sp,vo,01000225
+桜子
+「…ああ、そうそう、あたし今日は部活の
+　ミーティングに顔出さないといけないから
+　優は先にまっすぐ帰ってくれる？」
+$k
+
+優
+「まっすぐとは？」
+$k
+
+// SAKURAKO_0103NO
+#ir
+#ip,c3,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01000226
+桜子
+「一応、妹にも言ってあるけど、
+　雪華ちゃん待ってるかもしれないし」
+$k
+
+優
+「そうか、分かった」
+$k
+
+// SAKURAKO_0103NO
+#sp,vo,01000227
+桜子
+「お願いね、じゃああたし行くから。
+$nw,2850
+
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO4.png,(x),r,(s),60%
+#ig
+
+　めぐ、後はよろしくね？」
+$k
+
+&empty
+ん？　今……。
+$k
+
+// MEGUMI_0101EG5
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG5.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01070018
+めぐみ
+「ほ～い、じゃ～ねぇ～♪」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),0%
+#ig
+
+&empty
+桜子は教室を出て行った。
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// MEGUMI_0101BS3
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01070019
+めぐみ
+「じゃあ、いこっか？」
+$k
+
+優
+「は？」
+$k
+
+// MEGUMI_0101EG2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01070020
+めぐみ
+「まあまあ、途中まで一緒に帰るだけだよ～」
+$k
+
+優
+「どうだかな」
+$k
+
+// 	SS(RIGHT, KOBAYASHI_0101BS, MOVE_DOWN, NORMAL);
+
+// KOBAYASHI_0101BS
+#ir,(ef),off
+#ip,c3,(fi),KOBAYASHI_A101.png,(psi),KOBAYASHI_An01BS.png,(x),r,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c3,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(y+),-100,(al),100%
+#ig
+
+#sp,vo,01080003
+小林
+「あ、オレも一緒に帰ろうかな！」
+$k
+
+// 	SS(LEFT, MEGUMI_0101IK, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01IK.png,(x),l,(s),60%
+#ig
+
+&empty
+ちっ、もう生き返ったか。
+$k
+
+優
+「お前と積もる話はないぞ？」
+$k
+
+// MEGUMI_0101IK4
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01IK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01070021
+めぐみ
+「サブキャラは用が済んだら
+　とっとと退場しなさ～いっ！」
+$k
+
+#hide
+
+#ss,env
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SP("S_Punch04");
+// 揺れ。パラメータは適宜。
+
+// 	RuleFlashOut(NORMAL, RULE_LIGHT|RULE_NEGATIVE);
+// 	DelStandAll();
+
+// 	SV( VISUAL_WHITE );
+
+#sp,bgm,BGM_NICHIJYO
+
+// 	SV( BG_TD_GENKANMAE01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKANMAE01A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A101.png,(psi),YUKIHA_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// YUKIHA_0101NO
+
+#sp,vo,01050030
+雪華
+「あ、お兄ちゃん、お帰りなさい」
+$k
+
+
+#next,01pro01_14

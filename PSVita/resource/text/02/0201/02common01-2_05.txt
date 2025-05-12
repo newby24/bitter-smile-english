@@ -1,0 +1,586 @@
+﻿// 既読フラグ
+#read_flag,43
+
+#show
+
+// MII_0301NI2
+#sp,vo,02030084
+みい
+「というわけで、
+　私はもう疲れたのでお家で休んできます」
+$k
+
+優
+「はい、申し訳ありませんでした」
+$k
+
+// MII_0301KY
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KY.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02030085
+みい
+「もうすぐお婆様も戻って来るでしょうから、
+　あとの事はお任せします。
+$nw,6000
+
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+　では失礼…」
+
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r0,(al),0
+#ig
+
+優
+「ご苦労様でしたっ」
+$k
+
+&empty
+そしてあの客と俺とで二人きり。
+まだ新聞で顔隠してるし。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	//     田坂注：演出変更 -> ＢＧ：千寿厨房
+
+// 	SV( BG_SJ_CHUBO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO01A.jpg,(s),100%
+#ig
+
+// 	SWP( "W_TellVib01#" );
+
+#sp,se,W_TellVib01#
+
+#wait,2000
+
+#sp,se,S_Tel05
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_01.png,(x),c
+#ig
+
+$k
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_01 );
+
+#show
+
+&empty
+………。
+$k
+
+#hide
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_02 );
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_02.png,(x),c
+#ig
+
+$k
+
+#sp,se,S_Tel05
+
+#ir
+#ie,c1
+#ig
+
+// 	DEL_KEITAI_MESSAGE();
+
+#show
+
+&empty
+送信
+$k
+
+&empty
+………。
+$k
+
+#hide
+
+// 	SWP( "W_TellVib01#" );
+
+#sp,se,W_TellVib01#
+
+#wait,2000
+
+#sp,se,S_Tel05
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_03.png,(x),c
+#ig
+
+$k
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_03 );
+
+#show
+
+&empty
+…なんで？
+$k
+
+#hide
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_04.png,(x),c
+#ig
+
+$k
+
+#show
+
+#sp,vo,02990006
+８９３
+「おおーい、店の兄ちゃんよう！」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+&empty
+…う。
+$k
+
+// 	DEL_KEITAI_MESSAGE();
+
+#ir
+#ie,c1
+#ig
+
+優
+「あ、はーい！
+　ご注文お決まりになりましたー？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS( LEFT, CHINPIRA1_0301EG );
+// 	SS( RIGHT, CHINPIRA2_0301KD );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01KD.png,(x),r,(s),60%
+#ip,c3,(fi),CHINPIRA1_A301EG.png,(x),l,(s),75%
+#ig
+
+#show
+
+// CHINPIRA2_0301KD
+#sp,vo,02990007
+８９３
+「兄ぃ！　こいつ…」
+$k
+
+// CHINPIRA1_0301NI
+#ir
+#ip,c3,(fi),CHINPIRA1_A301NI.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990008
+８９３
+「お前はだぁーっとれ！」
+$k
+
+#sp,bgm,BGM_FUAN
+
+優
+（………何？　俺が何？）
+$k
+
+// CHINPIRA1_0301EG2
+#ir
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01NO.png,(x),r,(s),60%
+#ip,c3,(fi),CHINPIRA1_A301EG2.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990009
+８９３
+「おうすまんな兄ちゃん。
+　こいつ躾がなっとらんけえのう。
+$nw,5900
+
+#ir
+#ip,c3,(fi),CHINPIRA1_A301EG3.png,(x),l,(s),75%
+#ig
+
+　で、兄ちゃんが焼いたら半額なるんかいの？」
+$k
+
+&empty
+なんて分かりやすい上下関係だ。
+$k
+
+優
+「はい、そうです！　…正午までは」
+$k
+
+// CHINPIRA1_0301BS
+#ir
+#ip,c3,(fi),CHINPIRA1_A301BS.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990010
+８９３
+「そーか、そんならたこ焼き二船と
+　ビール一本貰おかいのぉ」
+$k
+
+優
+「は、はい。かしこまりましたっ！」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ip,c3,(x),l2,(al),0%
+#ig
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+// 	SV( BG_SJ_COUNTERURA01A );
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_05 );
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_05.png,(x),c
+#ig
+
+$k
+
+#sp,se,S_Tel05
+
+// 	DEL_KEITAI_MESSAGE();
+
+#ir
+#ie,c1
+#ig
+
+#show
+
+&empty
+送信。
+$k
+
+&empty
+………。
+$k
+
+&empty
+…。
+$k
+
+#hide
+
+#sp,se,W_TellVib01#
+
+#wait,2000
+
+#sp,se,S_Tel05
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_06.png,(x),c
+#ig
+
+$k
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_06 );
+
+#show
+
+&empty
+アホか、お前のが馬鹿だろ！
+$k
+
+#hide
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_07.png,(x),c
+#ig
+
+$k
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_07 );
+
+#show
+
+&empty
+さすがにここでみいちゃんに応援頼むのも
+アレだしなあ…。
+$k
+
+#sp,se,S_Tel05
+
+#ir
+#ie,c1
+#ig
+
+// 	DEL_KEITAI_MESSAGE();
+
+&empty
+送信っ！
+$k
+
+&empty
+………。
+$k
+
+#hide
+
+#sp,se,W_TellVib01#
+
+#wait,2000
+
+#sp,se,S_Tel05
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_08.png,(x),c
+#ig
+
+$k
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_08 );
+
+#show
+
+&empty
+ええ！？　そんだけ？
+変な感想だけとか、そんなのいらないからさ！
+$k
+
+&empty
+くそ、
+は・や・く・か・え・っ・て・こ…
+$k
+
+// 	SNLP( 0, "" );
+
+#sp,se,W_TellVib01#
+
+&empty
+うを！
+連続送信かよ。
+$k
+
+#hide
+
+// 	SEStop( 0 );
+
+#sp,se,S_Tel05
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_09.png,(x),c
+#ig
+
+$k
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_09 );
+
+#show
+
+&empty
+人相ですか？
+あー、えーっと、うーんと。
+$k
+
+// CHINPIRA2_0301KD
+
+#sp,vo,02990011
+８９３
+「にいちゃんよー、まだ出来ひんのんかいな！」
+$k
+
+優
+「すっ、すいません、もうすぐ焼きあがりますから！」
+$k
+
+&empty
+テンパらせるなよ、子分の方！
+焼きながら左手でメールなんて初めてなんだよ！
+$k
+
+#hide
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_10.png,(x),c
+#ig
+
+$k
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_10 );
+
+#sp,se,S_Tel05
+
+// 	DEL_KEITAI_MESSAGE();
+
+#ir
+#ie,c1
+#ig
+
+#show
+
+&empty
+はい、送信！
+そして焼き上がり。
+$k
+
+// 	SV( BG_SJ_TENNAI01A );
+// 	SS( LEFT, CHINPIRA1_0301EG );
+// 	SS( RIGHT, CHINPIRA2_0301NO );
+
+#ir
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01NO.png,(x),r,(s),60%
+#ip,c3,(fi),CHINPIRA1_A301EG.png,(x),l,(s),75%
+#ig
+
+優
+「すいません、お待たせしましたーっ！」
+$k
+
+// CHINPIRA1_0301EG
+
+#sp,vo,02990012
+８９３
+「おう、ご苦労さん、にいちゃんは元気もあって
+　真面目やのう、ビールもうまいで」
+$k
+
+優
+「はは、ありがとうございます。
+　…それでは失礼します」
+$k
+
+// CHINPIRA2_0301SN
+#ir
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01SN.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02990013
+８９３
+「兄ぃやっぱりあいつじゃ…」
+#msmall
+$k
+
+// CHINPIRA1_0301IK
+#ir
+#ip,c3,(fi),CHINPIRA1_A301IK.png,(x),l,(s),75%
+#ig
+
+#sp,vo,02990014
+８９３
+「ええけえ、とりあえず黙って食べーや」
+#msmall
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_CHUBO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_CHUBO01A.jpg,(s),100%
+#ig
+
+// 	SWP( "" );
+#sp,se,W_TellVib01#
+
+#wait,2000
+
+#sp,se,S_Tel05
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_KYOTSU1_2_11 );
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_kyotsu1-2_11.png,(x),c
+#ig
+
+$k
+
+#show
+
+&empty
+知ってんのか？
+てか、あれで理解出来たのか。
+$k
+
+&empty
+いやいや、問題起こってからじゃあ
+俺一人だと対処しきれんだろ？
+$k
+
+&empty
+鉄砲玉みたいな下っ端は頭に血が昇りやすいと
+相場は決まってるんだよ。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がしゃーん！" );
+
+#ss,bgm,(dr),0
+
+// 	BGMStop();
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ie,c1
+#ig,(se),S_Break01
+
+// 	DEL_KEITAI_MESSAGE( 0 );
+// 	Shake( FAST, SHAKE_RANDOM | SHAKE_WINDOW, 4 );
+
+優
+「っ！？」
+$k
+
+#sp,vo,02990015
+少年
+「わあっ！？」
+$k
+
+#sp,vo,02990016
+８９３
+「兄ぃ絶対こいつや、…アレで
+　やったに違いないで！」
+$k
+
+&empty
+ほらねーっ？
+$k
+
+#hide
+
+
+#next,02common01-2_06

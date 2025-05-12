@@ -1,0 +1,615 @@
+﻿// 既読フラグ
+#read_flag,34
+
+// 	DelAction( RIGHT );
+
+&empty
+有河もまさか自分にも拳が
+向けられるとは思ってなかったのか、
+一気に血の気が失せている。
+$k
+
+// ISAKI_0101KB
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01KB.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010040
+勇樹
+「邪魔をするな」
+$k
+
+&empty
+なんて冷たい顔をするんだ、宮津橋の奴…。
+$k
+
+優
+「お前なんでこんな事になってんだよ。
+　一体なにしてんだよ？
+　こいつらどうしたんだよ！」
+$k
+
+// ISAKI_0101KB
+#sp,vo,02010041
+勇樹
+「お前が居ないからこうなる訳だ。
+　口で言っても分からない様な、
+　しつこい奴らにはこうする方が早いだろ？」
+$k
+
+優
+「お前は何を言ってるんだよ」
+$k
+
+&empty
+想像はつく。
+つまり虫除けをしてるって事だろ、これ。
+そりゃあ、自業自得だと思うがね。
+$k
+
+&empty
+宮津橋にどういう迫り方をして
+こうなったかは知らんが。
+$k
+
+&empty
+余程しつこくしたんだろうか？
+$k
+
+// ISAKI_0101AZ
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010042
+勇樹
+「二度と私に構うのも嫌になるくらい
+　痛めつけておけば…」
+$k
+
+優
+「おい！」
+$k
+
+// CHISEKA_A101TR3
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01TR3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02040007
+知世翔
+「ど、どうするんですか、これ。
+　だれか呼んで来た方がいい…」
+$k
+
+// ISAKI_0101NR
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010043
+勇樹
+「私の邪魔はするな。お前も私に構うな。
+　こいつらと同じめに遭うぞ？
+　…そこの女もな」
+$k
+
+// CHISEKA_A101IK
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02040008
+知世翔
+「ちょっと…だからってやりすぎでしょあなた！」
+$k
+
+// CHISEKA_A101IK2
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02040009
+知世翔
+「いいわよ、邪魔してやるから。
+　やってやろうじゃない！
+$nw,3400
+
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),r0,(s),60%
+#ig
+
+#madd,　来い！！」
+
+$k
+
+優
+「ああもう、有河もやめとけって！」
+$k
+
+&empty
+煽るなよ！
+#mfuri,あお
+
+こういうところが桜子の後輩っぽいとでも？
+くそ。
+
+$k
+
+// ISAKI_0101AZ
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010044
+勇樹
+「………骨の一本でも貰っておくか」
+$k
+
+#sp,vo,02990001
+男子生徒
+「う……やめ…」
+$k
+
+優
+「おいおいおい、だから！」
+$k
+
+&empty
+宮津橋があの短い木刀を振り上げる。
+本気か？　止めないと。
+男の方はどうでもいいが宮津橋の今後はどうなる。
+$k
+
+優
+「お前も！　宮津橋、ここまでやりゃあ十分だろ？」
+$k
+
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+&empty
+木刀だけでも取り上げようと、俺は宮津橋に近づいた。
+$k
+
+優
+「だからもうやめろ…」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch01
+
+#ir,(dr),500
+#ip,bg,(y),d_s
+#ie,c3,ov
+#ig
+
+// 	Blur( 0, 1 );
+// 	Zoom( FAST | SPEED_UP, 200, 200, 400, 600 );
+// 	FL_( FAST | SPEED_UP, 100 );
+
+// 	//上の演出終了待機
+
+// 	//背景セット・立ちグラ削除・ズーム設定
+// 	Zoom( 0, 150, 150, 400, 600 );
+// 	//ズームアウト・フラッシュ解除・画面振動
+// 	Zoom( NORMAL | SPEED_DOWN, 140, 140, 400, 600 );
+// 	FL( NORMAL | SPEED_DOWN ); 
+// 	Shake( NORMAL );
+
+//	SM( CHAR_ETC,			-1,					"",				"どか！" );
+//#sp,se,S_Don01
+
+// 	Blur();
+
+// CHISEKA_A101OD3
+
+#sp,vo,02040010
+知世翔
+「あ、矢崎先輩！」
+$k
+
+&empty
+あっさり地面に転がっていた。
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,bg,(x),c
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01OD3.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),l0,(s),80%
+#ig,(se),S_Basa01
+
+優
+「痛って…えぇな、おい！」
+$k
+
+// 	SV( BG_GK_CHURIN02A );
+// 	Shake(FAST + NORMAL );
+// 	SS( LEFTBOTTOM, ISAKI_0101NO );
+// 	SS( RIGHT, CHISEKA_0101OD3 );
+
+&empty
+木刀をなんとか掴んだと思ったら、
+なぜか背中の方に衝撃が走った。
+$k
+
+&empty
+どういうこと？　回し蹴りかなんかか？
+$k
+
+// CHISEKA_0101IK
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02040011
+知世翔
+「ちょっと矢崎先輩なにやってんですか！」
+$k
+
+優
+「う、すまん」
+$k
+
+// ISAKI_0101IK
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK.png,(x),l0,(s),80%
+#ig
+
+#sp,vo,02010045
+勇樹
+「邪魔するなと言ったのにな…」
+$k
+
+優
+「いや、するだろ普通…
+$nw,1000
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0
+#ig
+
+　って待て！　こっち来んな！」
+$k
+
+// CHISEKA_0101AK
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01AK.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02040012
+知世翔
+（ああ、もーう！）
+$k
+
+#ir
+//#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01NR.png,(x),r0,(s),60%
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),r0,(s),60%
+#ig
+
+// 	MoveStand( RIGHT, 50, -50, 0 );
+
+優
+//「あ、やめとけ有河」
+「やめとけ、有河！」
+$k
+
+// 	MoveStand( RIGHT, 0, -50, 0 );
+
+// 	SS_( RIGHT, CHISEKA_0101OD3 );
+// 立ち絵移動。パラメータは適宜。
+
+
+// ISAKI_A101IK
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK.png,(x),l0,(s),80%
+#ig
+
+#sp,vo,02010046
+勇樹
+「っ！」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Air04
+
+#ir,(dr),500
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01OD.png,(x),r,(s),60%
+#ie,ov
+#ig
+
+// 	FL_( FASTEST | SPEED_DOWN, 80 );
+
+// 	SS_( RIGHT, CHISEKA_0101OD );
+// 立ち絵移動。パラメータは適宜。
+
+// 	MoveStand( RIGHT, 10, -25, -5, 1 );
+// 	MoveStand( RIGHT, 10,   0,  0, 1 );
+// 	ShakeStand( RIGHT, NORMAL, SHAKE_RANDOM, 4, 1, 1 );
+// 	FL_( FASTER | SPEED_UP );
+
+// CHISEKA_0101OD
+#sp,vo,02040013
+知世翔
+「きゃ」
+$k
+
+優
+「あ」
+$k
+
+// CHISEKA_0101IK4
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02040014
+知世翔
+「馬鹿、
+$nw,1300
+
+#ir
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),r,(s),60%
+#ig
+
+　なんで敵にこっちの事教えてんのよ！」
+
+$k
+
+&empty
+悪い。
+とりあえず宮津橋の動きを…。
+$k
+
+// 	SV( BG_GK_CHURIN02A );
+// 立ち絵消える。パラメータは適宜。
+
+// 	SS( CENTER, ISAKI_A101NO );
+
+// 	MoveStand( CENTER, 0, 0, -700 );
+// 	ZoomVisual( 0, 150, 150, 0, 600 );
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(fi),BG_GK_CHURIN02A.jpg,(s),100%,(y),d_s
+#ie,c1,c3
+#ig,(se),S_Dosa01
+
+// 	Shake( NORMAL, SHAKE_RIGHT, 4, 1, 1 );
+
+// ISAKI_A101NO
+#sp,vo,02010047
+勇樹
+「……なんのつもりだ」
+$k
+
+&empty
+俺は宮津橋の足にしがみついた。
+もうどうすりゃいいか、わからん。
+足止めにはこれが手っ取り早いとしか。
+$k
+
+// ISAKI_A101AZ
+
+#sp,vo,02010048
+勇樹
+「………」
+$k
+
+//	SS_( RIGHT, UMI_0102OO );
+//	SM( CHAR_ETC,			-1,					"",				"どす！　どすっ！！" );
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),S_Punch05
+
+// 	SK_();
+
+//#sp,se,S_Punch04
+
+// 	SK_( NORMAL, 12 );
+
+優
+「ぐ」
+$k
+
+&empty
+宮津橋は俺の腹を蹴りあげる。
+さっきから木刀自体使っていないのは
+おそらく本当の本気じゃあ無いから、だろうか。
+$k
+
+&empty
+俺はそう思っている。最低限の良識は残っている。
+そうでないと地面に転がってる奴らは呻いてすら
+いないかもしれないし。
+$k
+
+優
+「もういいだろ、もうやめとけよ、な？
+　こいつらもこんだけやられてたら、もう
+　お前に声掛けねえって！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ひゅっ、どす！" );
+// 	BF( 0, 0 );
+
+#hide
+
+// 	SEPlay( "S_Air02", 50, 100 );
+
+#ss,bgm,(dr),1000
+
+#sp,se,T_Swing
+
+#wait,1000
+
+#sp,se,S_Binta02
+
+#wait,1000
+
+// 	SK_( NORMAL, 4 );
+
+#show
+
+// ISAKI_A101AZ
+#sp,vo,02010049
+勇樹
+「つぅっ！！」
+$k
+
+優
+「！　………あれ？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ころころ…。" );
+
+#hide
+
+#sp,se,S_Catch02
+
+#wait,600
+
+#sp,se,S_Catch02
+
+#wait,300
+
+#sp,se,S_Catch02
+
+#show
+
+&empty
+もう一発殴られたと思って
+思わず身構えたが、なにも無かった。
+$k
+
+&empty
+あったのは地面に転がるボール。
+$k
+
+優
+「…軟球？」
+$k
+
+// SAKURAKO_0102AK
+#ir
+#ip,bg,(x),c
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000037
+桜子
+「ごめーん優、遅くなっちゃったー。
+$nw,2500
+
+#ir
+#ip,c3,(fi),SAKURAKO_A101.png,(psi),SAKURAKO_An01KS2.png,(x),r,(s),60%
+#ig
+
+　いや、追いついちゃったー？」
+$k
+
+// CHISEKA_0101OD3
+#ir
+#ip,c2,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01OD3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02040015
+知世翔
+「桜子先輩…」
+$k
+
+// ISAKI_A101NO
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),l,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,02010050
+勇樹
+「轟木、桜子か」
+$k
+
+// SAKURAKO_0103FK
+#ir
+#ip,c3,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03FK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000038
+桜子
+「まーたフルネーム。
+　轟木か桜子でお願いしたいんだけどね？」
+$k
+
+優
+「桜子…」
+$k
+
+// SAKURAKO_0103AK
+#ir
+#ip,c3,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000039
+桜子
+「あーあ、派手にやってるなあ。
+　あたしに言ってくれればもっとスマートに
+　こいつらぶちのめしてやるのに！」
+$k
+
+優
+「なぜそこでぶちのめすんだよ！」
+$k
+
+// SAKURAKO_0103NO2
+#ir
+#ip,c3,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000040
+桜子
+「だってあたしもこういう奴ら嫌いだしー」
+$k
+
+// CHISEKA_0101TR3
+
+#sp,vo,02040016
+知世翔
+「先輩まで…それはいくらなんでも」
+$k
+
+// SAKURAKO_0102IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK7.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000041
+桜子
+「ていうか、優こそなにエロい事してんのよ」
+$k
+
+優
+「いや、これは動きをね…」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"どかっ！" );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ie,c3
+#ig,(se),S_Punch05
+
+
+// 	SV( BG_GK_CHURIN02A );
+// 	SS( CENTERLEFT, ISAKI_0101NO );
+// 	SS( RIGHTTOP, SAKURAKO_A102IK7 );
+
+優
+「なんでお前が俺を蹴るっ？」
+$k
+
+
+#next,02common01-1_04

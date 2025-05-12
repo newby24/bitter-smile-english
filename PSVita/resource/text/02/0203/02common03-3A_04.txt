@@ -1,0 +1,77 @@
+﻿// 既読フラグ
+#read_flag,106
+
+&empty
+重い！　体が重い！
+$k
+
+#sp,vo,02000711
+桜子
+「こっち！　落ち着いてよっ！！」
+$k
+
+// 	SEFade( 0, 500, 60 );
+// 	SEFade( 1, 500, 60 );
+// 	ZoomObject(100, 500|SPEED_DOWN, 80, 80);
+
+&empty
+岸はどっちだ、水面は！？
+$k
+
+&empty
+手が足が思うように動かない！
+$k
+
+// 	ZoomObject(100, 500|SPEED_DOWN, 70, 70);
+
+&empty
+俺、泳ぎ、得意なはずなのに………あっ、服か。
+$k
+
+#sp,vo,02000712
+桜子
+「ぐっ！」
+#msmall
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ils
+
+#sp,se,S_Water14
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	SEPlay("S_Water14", 30, 60);
+
+// 	ZoomObject(100, 1000|SPEED_DOWN, 50, 50);
+// 	// フラッシュバック用にオブジェクト作成
+// 	if( IsEvt == 0 )
+// 	{
+// 	}
+// 	else
+// 	{
+// 	}
+
+#show
+
+&empty
+痛い、冷たい、嘘だろ？
+$k
+
+&empty
+息が、体が…桜子はどうなった？
+#meffect,flow,5
+$k
+
+#hide
+
+// 桜子ルートの場合。
+#next,02common03-3A_04_a:(if),per,5,==,1
+
+// 上記以外。
+#next,02common03-3A_04_b

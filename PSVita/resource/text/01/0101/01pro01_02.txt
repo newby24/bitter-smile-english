@@ -1,0 +1,798 @@
+﻿// 既読フラグ
+#read_flag,12
+
+// YUKIHA_0301EG
+
+#sp,vo,01050010
+雪華
+「まあ、私は前の日に聞いてたからダメージ無いけど。
+　私の方の引越し先は元々ここじゃないし」
+$k
+
+&empty
+しかしながら、我が妹は相変わらず淡白だった……。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),2000
+#ip,bg,(fi),white.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),2000
+#ip,bg,(fi),image\stitle\stitle_prologue_1.jpg
+#ig
+
+#wait,2000
+
+#ir,(dr),2000
+#ip,bg,(fi),image\stitle\stitle_prologue_2.jpg
+#ig
+
+#wait,2000
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SV( VISUAL_OPTEROP01 );
+// 	SetVisualObject(0, VISUAL_OPTEROP02, 0, 0, OBJATTR_NOFADE|OBJATTR_NOSCROLL|OBJATTR_TOP);
+
+// 	SV( BG_MT_ENKEI01A );
+// 	Scroll(FASTEST, 0, -378);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ENKEI01A.jpg,(x),c,(y),u_s
+#ig
+
+#wait,1000
+
+#ir,(dr),10000,(ef),move,(cv),linear
+#ip,bg,(y),d_s
+#ig
+
+// 	Scroll(1500|SPEED_DOWN, 0, 0);
+// 	ShowMenu();
+
+#flag,mode,novel,0,0
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+都心からは少し離れた場所にある下町、
+#malign,c
+#meffect,fade,500
+$nw,2000
+
+『盃町（さかずきちょう）』
+#malign,c
+#meffect,fade,500
+
+$k
+
+&empty
+&empty
+&empty
+&empty
+
+周辺の都市開発に取り残されたような
+#malign,c
+#meffect,fade,500
+$nw,2000
+
+少し古くささの残る町並みだが、
+#malign,c
+#meffect,fade,500
+$nw,2000
+
+だからといって田舎ってわけでもない。
+#malign,c
+#meffect,fade,500
+
+$k
+
+// 	WaitObject( 0 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO01A.jpg,(s),100%
+#ig
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+土手や河川敷、今も現役で煙をあげる銭湯の煙突。
+#malign,c
+#meffect,fade,500
+$k
+
+// 	SV( BG_MT_TEIBO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMICHI01A.jpg,(s),100%
+#ig
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+夕暮れ時には賑やかさの増す吹きっさらしの商店通り。
+#malign,c
+#meffect,fade,500
+
+//#mfuri,ふさら
+
+$k
+
+// 	SV( BG_MT_JINJYAMICHI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_OLDSYOTEN01A.jpg,(s),100%
+#ig
+
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+そこそこ賑わう駅前大通りと繁華街から商店通りを抜け、
+#malign,c
+#meffect,fade,500
+$nw,2000
+
+しばらく歩いて角を曲がって、そこにある。
+#malign,c
+#meffect,fade,500
+
+$k
+
+// 	SV( BG_MT_OLDSYOTEN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01A.jpg,(s),100%
+#ig
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+ここが……
+#malign,c
+#meffect,fade,500
+
+$k
+
+// 	SV( BG_SJ_GAIKAN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_MISEMAE01A.jpg,(s),100%
+#ig
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+『たこ焼き千寿（せんじゅ）』
+#malign,c
+#meffect,fade,500
+
+$k
+
+// 	SV( BG_SJ_MISEMAE01A );
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+轟木紀乃（６９）が道楽で経営している
+#malign,c
+#meffect,fade,500
+$nw,2000
+
+たこ焼き屋だ。
+#malign,c
+#meffect,fade,500
+
+$k
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+ご近所さんや帰宅途中の学園生その他常連達からは、
+#malign,c
+#meffect,fade,500
+$nw,2000
+
+『タコ千』などと略されている。
+#malign,c
+#meffect,fade,500
+
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN01B.jpg,(s),100%
+#ig
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+その店の裏手に桜子達、轟木家の住む家屋がある。
+#malign,c
+#meffect,fade,500
+
+$k
+
+// 	SV( BG_TD_GAIKAN01B );
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+そして、その向かい。
+#malign,c
+#meffect,fade,500
+$nw,2000
+
+少し離れた所には昔、俺の一家も住んでいた。
+#malign,c
+#meffect,fade,500
+
+$k
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+その場所で幼い頃に知り合って。
+#malign,c
+#meffect,fade,500
+
+$k
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+別れて。
+#malign,c
+#meffect,fade,500
+
+$k
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+また戻ってきた、この場所に。
+#malign,c
+#meffect,fade,500
+
+$k
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKANMAE01A.jpg,(s),100%
+#ig
+
+#flag,mode,adv,0,0
+
+#show
+
+&empty
+来て早々、住む場所がなくなった事を
+現地案内までされて告知された俺は、
+こうして桜子達の家に来ていた。
+$k
+
+// 	SV( BG_TD_GENKANMAE01A );
+
+#hide
+
+// 	SV( BG_TD_GENKAN01A );
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,bgm,BGM_NICHIJYO
+
+#show
+
+// SAKURAKO_0302AK
+
+#sp,vo,01000016
+桜子
+「ただいま～」
+$k
+
+// 	SS(LEFT, MII_0301KY);
+
+// MII_0301KY
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01030017
+みい
+「戻りました、お婆様ー。
+$nw,3100
+
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ig
+
+
+　ささ！　お二人とも、お上がりくださいな。
+　古くて物騒な家ですけど」
+$k
+
+// YUKIHA_0301BS2
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01BS2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01050011
+雪華
+「あ、おじゃましま～す。
+$nw,3310
+
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01AK3.png,(x),r,(s),60%
+#ig
+
+　……お兄ちゃん、大丈夫？」
+$k
+
+優
+「なんかもう突っ込む気力も無いよ……」
+#meffect,flow,5
+$k
+
+#hide
+
+// 	SV( BG_TD_IMA01B );
+// 	DelStandAll();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01B.jpg,(s),100%
+#ig
+
+// SAKURAKO_0301KS
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01KS.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,01000017
+桜子
+「ああー喉渇いたー。
+$nw,2150
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01EG.png,(x),c,(s),60%
+#ig
+
+　麦茶、麦茶」
+$k
+
+// 	SS(CENTER, KINO_A401BS2);
+
+// KINO_A401BS2
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01060000
+？？？
+「おう、戻ったかい。随分と遅かったねえ？
+　優も雪華ちゃんも久しぶりやな、元気しとったか」
+$k
+
+#hide
+
+#ir,(dr),1000,(un),NO
+#ip,c2,(fi),KINO_A401BS2.png,(x),c,(s),100%
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),c,(al),50%
+#ig
+
+#show
+
+&empty
+轟木家の居間に居座り茶をすすっているこの妖怪。
+$k
+
+// 	SV( BG_TD_IMA01B );
+// 	FadeVisual(FASTEST, 50);
+// 	DelStandAll();
+// 	SS(CENTER, KINO_A401BS2);
+
+&empty
+……いや、この初老のご婦人が、轟木紀乃。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 き　の
+
+轟木三姉妹の祖母にあたる人だ。
+$k
+
+&empty
+我が家の母上が
+仕事でしばらく海外に行く事になったため……
+$k
+
+&empty
+受験を控えた俺に婆さんの持っている不動産……
+つまり、あのアパートを格安で貸与してくれるという、
+昔からの付き合いとはいえ頼れる良い婆さんなのだ。
+$k
+
+&empty
+そして少し年の離れた妹は、この轟木家の方で
+世話になる、という手筈になっていた。
+$k
+
+// 	SV( BG_TD_IMA01B );
+// 	DelStandAll();
+
+#sp,se,S_Dosa01
+
+#ir,(dr),500
+#ip,bg,(fi),black.jpg
+#ig
+
+優
+「がは～～～っ」
+#mlarge
+$k
+
+// 	RotateFadeOut(FAST, 45);
+// 	Shake(NORMAL, SHAKE_DOWN, 16, 20);
+
+#sp,vo,01060001
+紀乃
+「どないした優、まだ夏バテか？」
+$k
+
+&empty
+俺は勝手知ったる轟木家に上がり込むなり、
+居間のテーブルに突っ伏していた。
+$k
+
+優
+「うう゛～」
+$k
+
+#sp,vo,01060002
+紀乃
+「大丈夫なんかいこの子は？
+　雪華ちゃんは元気そうやね。
+　まったく男の癖に情けない子やで優は」
+$k
+
+#sp,vo,01050012
+雪華
+「ははは……。
+#meffect,flow,5
+$nw,2170
+
+　こんにちわ、これからお世話になります、お婆ちゃん」
+$k
+
+優
+「………」
+$k
+
+// 	SV( BG_TD_IMA01B );
+
+// KINO_0401BS2
+#ir
+#ip,bg,(fi),BG_TD_IMA01B.jpg,(s),100%
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01060003
+紀乃
+「ああせやせや、雪華ちゃん、これからはここを
+　自分の家や思て気楽にやってくれてかまへんから。
+#mfuri,　　　　　　　　うち
+　家事手伝いくらいはしてもらうかもしれへんけどな？」
+
+$k
+
+//	SS(CENTER, KINO_A401KD2);
+//	FI();
+
+優
+「なあ、あんなの聞いてなかったぞぉ、婆さん」
+$k
+
+// KINO_A401IK5
+#ir
+#ip,c1,(fi),KINO_A401IK5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01060004
+紀乃
+「何がや？」
+$k
+
+優
+「アパートだよアパート。
+　あんなんなってるって、今日知ったぞ？
+　前もって知らせてくれてればこんなに疲れは……はぁ」
+
+$k
+
+// KINO_A401MJ
+#ir
+#ip,c1,(fi),KINO_A401MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01060005
+紀乃
+「ああ、それでかい。
+　事故やからいきなりやし、ばたばたしよったきに」
+$k
+
+// KINO_A401SP
+#ir
+#ip,c1,(fi),KINO_A401SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01060006
+紀乃
+「でも…あたしゃその事はたしか……桜子に。
+　優に伝えときやー言うといたんやけどな？
+$nw,7350
+
+#ir
+#ip,c1,(fi),KINO_A401IK4.png,(x),c,(s),60%
+#ig
+
+　なあおい、あんた～？　桜子ー？」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+台所の桜子に向かって婆さんが声をかける。
+$k
+
+//	SS(CENTER, KINO_A401NO, MOVE_STOP, NORMAL);
+//	SS_(RIGHTRIGHT, SAKURAKO_0301AK2, MOVE_RIGHT, SLOW);
+// SAKURAKO_0301AK2
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01AK2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000018
+桜子
+「んく、んく………
+$nw,2630
+
+#madd,ふうぅ。
+
+$nw,1520
+
+#ir
+#ip,c1,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01NO.png,(x),r2,(s),60%
+#ig
+
+　んー、あたしはみいに口止めされたから、
+　言わなかったんだけどさあ」
+$k
+
+//	WaitStand( RIGHTRIGHT );
+// 	SS(LEFT, MII_0301TR);
+
+#ir
+#ie,c1
+#ig
+
+&empty
+コップに注いだ麦茶を飲みながら桜子が答えた。
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01TR.png,(x),l,(s),60%
+#ig
+
+優
+「お前か！」
+#mlarge
+$k
+
+// MII_0301KS
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01KS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01030018
+みい
+「てへっ♪」
+$k
+
+&empty
+そこまでして俺をへこませたいのか、このお姫様は。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_MII
+
+// 	SV( BG_TD_IMA01B );
+
+// 	SS(CENTER, MII_0303NO);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01B.jpg,(s),100%
+#ip,c1,(fi),MII_A303.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0303NO
+#sp,vo,01030019
+みい
+「まあまあお兄様、機嫌を直してくださいまし。
+　色々あってお疲れでしょう、不祥この私、みいめが
+　肩でもお揉みして、癒して差し上げましょう」
+$k
+
+優
+「『不祥』という言葉に激しく不安を感じる気もするが、
+　まあ、手荷物も重かったから疲れてるし、
+　一つ頼んでみようかな…」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+昼飯にそうめん（夏の終わりの大セール中らしい）を
+ご馳走になってから一息ついて、
+婆さんが用事で出かける、と家を出た後。
+$k
+
+&empty
+桜子はテーブルの俺とは反対側に陣取り、
+麦茶片手にテレビ鑑賞中。
+$k
+
+&empty
+雪華ちゃんは初めての一人部屋に浮かれながら、
+荷物の整理をしている。
+（今まで兄妹同室だったからね）
+$k
+
+&empty
+そして、唐突に。
+みいちゃんが俺の機嫌を気にしだしたのだ。
+$k
+
+// MII_A301NO
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01030020
+みい
+「そうでしょう、そうでしょう。
+　天にも昇る気持ちにさせてあげますよ」
+$k
+
+優
+「やっぱり不安だ。頚動脈とか狙ってねえだろうな？」
+$k
+
+// MII_0301BS
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030021
+みい
+「いえいえ、めっそうもない…」
+$k
+
+#sp,se,S_Nuno05
+
+//	SM( CHAR_ETC,			-1,					"",				"きゅ、" );
+#ir,(sync),NO
+#ie,c1
+#ig
+
+#sp,env,S_Nuno09b
+
+// 	Shake(NORMAL, SHAKE_DOWN, 2, 20);
+
+優
+「おっ？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"もみもみ、もみもみ、もみっ。" );
+// MII_0301NO
+#ir
+#ip,c1,(fi),MII_A301.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01030022
+みい
+「純粋にお兄様を労わりたい。
+#mfuri,　　　　　　　　　　　　　　　　いた
+
+　それだけで御座いますよ？」
+$k
+
+優
+「おおお！　みいちゃん意外と上手いもんだな～」
+$k
+
+#ss,env,(dr),1000
+
+#ir
+#ie,c1
+#ig
+
+// 	SEFade(0, SLOWEST, 0);
+
+&empty
+肩が次第にほぐれていくこのまったりとした、
+しかし清涼とも言える開放感。
+$k
+
+#next,01pro01_03

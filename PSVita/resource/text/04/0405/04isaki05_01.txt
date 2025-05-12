@@ -1,0 +1,405 @@
+﻿// 既読フラグ
+#read_flag,198
+
+#show
+
+#sp,vo,04050005
+雪華
+「う～ん……どうしても上手くとれないよ」
+$k
+
+&empty
+見れば、雪華ちゃんの紙には
+すでに大きな穴が空いている。
+$k
+
+#ss,bgm
+
+&empty
+雪華ちゃんはこういうとこ、
+意外と不器用だからなぁ。
+$k
+
+#sp,bgm,BGM_SYOSO
+
+&empty
+ここは兄の威厳を見せるときが来たか！
+$k
+
+優
+「雪華ちゃんはどれが欲しいんだい？
+　お兄ちゃんがどれでも取ってあげるよ？」
+$k
+
+// YUKIHA_0901AK
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050006
+雪華
+「ん～、あんまり期待してないけど……
+　あのちっちゃくて、可愛いのがいいな」
+$k
+
+優
+「よーし、お兄ちゃん、張り切っちゃうぞー」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+構えて、慎重に水につける。
+$k
+
+&empty
+雪華ちゃんの欲しい金魚に狙いを絞り、
+大胆かつ繊細に、金魚の真下に紙を滑り込ませる。
+$k
+
+#sp,se,K_Flash03
+
+// 	BlurZoom( 100, 10, 10 );
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(s),120,(x),c,(y+),-10%
+#ig
+
+&empty
+そして触れるか触れないかの絶妙な力加減から
+一気に持ち上げっ……！
+$k
+
+#hide
+
+#ss,bgm
+
+#wait,1000
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A_h.jpg,(s),100%
+#ig,(se),S_Water06
+
+#wait,500
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01RK.png,(x),c,(s),60%
+#ig
+
+// 	WaitZoom();
+// 	SV( BG_MT_JINJYAKEIDAI03A, FILTER_NEGATIVE );
+// 	BGMStop();
+
+// 	WaitSE();
+
+#show
+
+// YUKIHA_0901RK
+
+#sp,vo,04050007
+雪華
+「あーあ。
+　まあ、お兄ちゃんには最初から
+　期待してなかったから」
+$k
+
+&empty
+うちの妹はどうしてこう淡泊なんでしょう。
+$k
+
+// 	SV( BG_MT_JINJYAKEIDAI03A );
+
+// 	BlurZoom( 0 );
+
+#sp,bgm,BGM_SYOSO
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000021
+桜子
+「ふんっ……ほっ……はっっ！」
+$k
+
+#sp,se,S_Water06
+
+// 	WaitSE();
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000022
+桜子
+「ちょっとぉ、これ、紙薄すぎじゃない！？」
+$k
+
+// MII_0403KT
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04030016
+みい
+「そうですか？」
+$k
+
+&empty
+きょとん、と小首をかしげるみいちゃんのお椀には
+大量の金魚が酸欠になって喘いでいた。
+$k
+
+優
+「すごいな」
+$k
+
+// MII_0403KM5
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM5.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04030017
+みい
+「自分、器用ですから」
+$k
+
+&empty
+いや、なんで、そんな妙に渋いの。
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000023
+桜子
+「ああっ、もうっ、おっちゃん、もう一枚っ！」
+$k
+
+// ISAKI_0701NO
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NO.png,(x),r2,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,04010079
+勇樹
+「何度やってもムダだと思うがな」
+$k
+
+// 	SS_( LEFT, SAKURAKO_0401TR2, MOVE_LEFT );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR2.png,(x),c,(s),60%
+#ig
+
+// 	SS( RIGHT, ISAKI_0C01NO, MOVE_RIGHT );
+
+// SAKURAKO_0401TR2
+#sp,vo,04000024
+桜子
+「なによ。
+　だったら、勇樹もやってみなさいよ。
+　けっこう難しいんだからねっ！」
+$k
+
+// ISAKI_0C01NS
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NS.png,(x),r2,(s),60%
+#ig
+
+&empty
+宮津橋が、不敵に笑った。
+$k
+
+#sp,vo,04010080
+勇樹
+「いいだろう、見ていろ」
+$k
+
+#hide
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2
+#ig
+
+//	ShakeObject( 4, 70, SHAKE_UP, 6, 15 );
+//	ShakeObject( 4, 70, SHAKE_UP, 6, 15, 1 );
+
+#sp,se,T_Water02,(lp),2
+
+#wait,1000
+
+// 	WaitObject( 4 );
+
+// MEGUMI_0401OD2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01OD2.png,(x),c,(s),60%
+#ig
+
+//	SS( LEFT, SAKURAKO_0402AD );	
+#show
+
+#sp,vo,04070045
+めぐみ
+「おおっ、すごいね、勇樹ちゃんっ」
+$k
+
+優
+「器用なもんだなー。
+　みいちゃんと同じくらい上手じゃないか？」
+$k
+
+&empty
+宮津橋が軽く水面にすくい紙を入れると、
+たちまち金魚がお椀に増えていく。
+$k
+
+// YUKIHA_0901NO
+#ir
+#ip,c1,(fi),YUKIHA_A901.png,(psi),YUKIHA_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050008
+雪華
+「あっ、あの、勇樹さんっ……
+　アレ、とってもらっちゃダメですか？」
+$k
+
+&empty
+雪華ちゃんが、さっき俺が取り損ねた金魚を
+指さす。
+$k
+
+// ISAKI_0C01NS2
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NS2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,04010081
+勇樹
+「お安い御用だ」
+$k
+
+#ir
+#ie,c1,c2
+#ig
+
+&empty
+水に濡れているのに、宮津橋のすくい紙は
+まったく破れていない。
+$k
+
+&empty
+うーん、不思議だ。
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04000025
+桜子
+「なんで、勇樹ばっかりとれるのよ！」
+$k
+
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NS2.png,(x),r,(s),60%
+#ig
+
+// ISAKI_0C01NS2
+#sp,vo,04010082
+勇樹
+「腕の差だろう」
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04000026
+桜子
+「むきーっ！」
+$k
+
+// 	SS( CENTER, MII_0401NO );
+
+// MII_0401NO
+#ir
+#ip,c3,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,04030018
+みい
+「勇樹さん、私と勝負いたしませんか？」
+$k
+
+// ISAKI_0C01NS
+#ir
+#ip,c2,(fi),ISAKI_AC01.png,(psi),ISAKI_An01NS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04010083
+勇樹
+「……受けて立つ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3,c2
+#ig
+
+&empty
+宮津橋は短くそう言うと
+不敵な笑みを浮かべる。
+$k
+
+&empty
+…結局、みいちゃんと宮津橋は店のおっちゃんの
+泣きが入るまで捕り続けたのだった。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+
+// 	ShowFace();
+//#sp,env,T_maturi#
+
+#sp,env,S_Gaya03#,(vl),3
+
+#sp,bgm,BGM_TANOSHII
+
+// 	SS( CENTER, SAKURAKO_0402EG );
+
+// 	CFI();
+
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+
+#next,04isaki05_02

@@ -1,0 +1,904 @@
+﻿// 既読フラグ
+#read_flag,413
+
+優
+「先生って呼ぶのをやめようっつー話から
+　激しく矛盾してるような…」
+$k
+
+// KOZUE_0401EG2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100075
+山之辺
+「物事には柔軟に対応しましょう」
+$k
+
+// KOZUE_0401BS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100076
+山之辺
+「で、はじめて会ったときに自己紹介したけど…。
+$nw,4700
+
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS2.png,(x),c,(s),60%
+#ig
+
+　私の名前、まだ覚えてる？」
+$k
+
+優
+「えっと…」
+#meffect,flow,5
+$k
+
+// KOZUE_0401IK2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100077
+山之辺
+「勉強以外の大切なことまで教えてあげようとする
+　恩師の名前がわからないの？」
+$k
+
+優
+「る、るな…？」
+#meffect,flow,2
+$k
+
+// KOZUE_0401IK
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100078
+山之辺
+「誰それ」
+$k
+
+&empty
+いかん…少し混乱しているみたいだ。
+$k
+
+優
+「いや、ちゃんと知ってますってば。
+　ここ数日は要さんが連呼してましたし」
+$k
+
+&empty
+先生のフルネームは山之辺こずえ。
+…いや、正直忘れかけていたが。
+$k
+
+// KOZUE_0401KS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100079
+こずえ
+「あ～どうせ文句ばっかだったでしょ。
+　デートの約束、邪魔しちゃったらしいし」
+$k
+
+優
+「最後には大人の余裕とやらで、
+　勝手に楽しんでくればーって言ってました」
+$k
+
+// KOZUE_0401BS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100080
+こずえ
+「その割に、しつこくその話題持ち出すでしょ」
+$k
+
+優
+「…確かに」
+$k
+
+// KOZUE_0401KS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100081
+こずえ
+「素直じゃないね。
+　私の前ではごねまくったのに」
+$k
+
+優
+「いや、俺の前でも最初はそうでしたよ」
+$k
+
+// KOZUE_0401AY
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01AY.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100082
+こずえ
+「今日もどこかで見てたりして」
+$k
+
+優
+「さすがにそんな暇じゃないでしょ。
+　昼過ぎからめぐみと出掛けるって言ってましたし」
+$k
+
+// KOZUE_0401KD
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100083
+こずえ
+「そっか…沖奈さんも轟木さんの幼なじみチームか」
+$k
+
+優
+「今の轟木さんは桜子ですよね」
+$k
+
+&empty
+微妙にややこしい。
+$k
+
+// KOZUE_0401BS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100084
+こずえ
+「でも沖奈さんや轟木さんは名前で呼べるんじゃない」
+$k
+
+優
+「片方はあだ名みたいなもんだし…。
+　桜子も同い年だからってのが大きいだけで」
+$k
+
+// KOZUE_0401BS2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100085
+こずえ
+「呼び捨てしたら喜ぶかもよ？」
+$k
+
+優
+「いや、要さんは怒りそうな気が。
+　なに勝手に生意気なーって」
+$k
+
+// KOZUE_0401EG2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100086
+こずえ
+「………」
+$k
+
+優
+「無言の肯定！？」
+$k
+
+// KOZUE_0401BS2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100087
+こずえ
+「ま、まあ、いつかそういう日も
+　くるかも～ってことで、
+$nw,4370
+
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01AY.png,(x),c,(s),60%
+#ig
+
+　ね？」
+$k
+
+優
+「別にいいですけど」
+$k
+
+&empty
+冷静になったら、なんかどうでもよくなってきた。
+$k
+
+優
+「じゃあ呼びますよ」
+$k
+
+// KOZUE_0401OD
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100088
+こずえ
+「～っ！
+$nw,830
+
+#ir,(dr),500
+#ip,c1,(s),80%,(x),c
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+　ちょっと待ってっ」
+$k
+
+// 	SS( CENTER, KOZUE_A401OD );
+
+優
+「なんです？」
+$k
+
+// KOZUE_A401AY
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01AY.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100089
+こずえ
+「い、いやね…考えたら男の子に名前で、
+　しかも呼び捨てで呼ばれるのってはじめてだから、
+　ちょっと緊張してきちゃって」
+$k
+
+優
+「そういうイベントは、
+　人生の後半戦のために取っといてください」
+$k
+
+&empty
+というか、これまでの人生が不憫すぎる…。
+$k
+
+// KOZUE_A401MJ
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01MJ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100090
+こずえ
+「い、いいわっ、ど～んときちゃって！」
+$k
+
+優
+「…予想外の方向で緊張感が高まってきました」
+$k
+
+// KOZUE_A401MJ
+#sp,vo,06100091
+こずえ
+「…………。
+$nw,1840
+
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01TR.png,(x),c,(s),80%
+#ig
+
+　な、なんか年下の男の子に無理やりって、
+　犯罪ちっくね」
+
+$k
+
+優
+「無理やり言わせようとしてるのはそっちですが」
+$k
+
+&empty
+というか変に照れられるので、
+こっちが悪いことをしてるみたいな気分になる。
+$k
+
+&empty
+考えたらこの人、先生だもんなあ…。
+$k
+
+&empty
+当然年上の女性…というか要さんと同い年で。
+$k
+
+// KOZUE_A401AS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100092
+こずえ
+「ど、どうぞ」
+#meffect,flow,2
+$k
+
+&empty
+よほど男に免疫がないのか、
+なんか変な雰囲気出ちゃってるし。
+$k
+
+&empty
+ま、まあ俺まで意識する必要はない…よな。
+$k
+
+優
+「いきますよ」
+$k
+
+// KOZUE_A401TR2
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01TR2.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,06100093
+こずえ
+「…っ」
+$k
+
+#ss,bgm
+
+優
+「こ、こず…」
+#meffect,flow,2
+
+$k
+
+// 	SS( RIGHTOUT, KANAME_0401RK2, MOVE_STOP, FASTEST );
+// 	ZoomStand(RIGHTOUT, FASTEST, 70, 70);
+// 	CS_(RIGHTOUT, LEFTOUT, 500);
+
+// KANAME_0401RK2
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK2.png,(x),r6,(s),60%
+#ig
+
+#sp,se,W_Train01
+
+#ir,(dr),5000,(ef),move,(cv),linear
+#ip,c1,(x),l6
+#ig
+
+#sp,vo,06021355
+要
+「はい電車、電車通りまーす」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01OD.png,(x),c,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op2,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op2,(al),0%
+#ig
+
+#wait,500
+
+// 	SS( CENTER, KOZUE_A401OD );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01AS.png,(x),c,(s),60%
+#ig
+
+優
+「さあどこに行きましょうか先生っ！？」
+#mlarge
+$k
+
+// 	SS( CENTER, KOZUE_0401AS );
+// KOZUE_0401AS
+
+#sp,vo,06100094
+こずえ
+「そ、そうねぇ～！？」
+#meffect,flow,5
+$k
+
+&empty
+ばっと反射的に先生との距離を空ける。
+$k
+
+#sp,se,W_Train02
+
+// 	SS( LEFTOUTBOTTOM, KANAME_0401RK2, MOVE_STOP, FASTEST );
+// 	ZoomStand(LEFTOUTBOTTOM, FASTEST, 70, 70);
+// 	CS_(LEFTOUTBOTTOM, RIGHTOUTBOTTOM, 500);
+
+// KANAME_0401RK2
+
+#ir,(dr),5000,(ef),move,(cv),linear
+#ip,c1,(x),r6
+#ig
+
+// KANAME_0401RK2
+#sp,vo,06021356
+要
+「白線の内側までお下がりください」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+要さんはそのままどこかに行ってしまった。
+$k
+
+// KOZUE_0401SN
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01SN.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,06100095
+こずえ
+「ほんとに来てたか…」
+#meffect,flow,5
+$k
+
+優
+「た、たまたま通りかかっただけなんじゃ」
+#meffect,flow,5
+$k
+
+// KOZUE_0401SN2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01SN2.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,06100096
+こずえ
+「…そう思う？」
+$k
+
+&empty
+いえ…そんなわけないですね。
+#meffect,flow,5
+$k
+
+&empty
+毒気を抜かれた…というか、なんとなく後ろめたい。
+$k
+
+優
+「とりあえず呼び方は今のままでいいです？」
+$k
+
+#ss,bgm
+
+// KOZUE_0401AY
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01AY.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100097
+こずえ
+「そうね、近くまでこなきゃ
+　会話も拾われないだろうし」
+$k
+
+&empty
+結局、そこに落ち着いた。
+$k
+
+#sp,bgm,BGM_KEIKAI
+
+// KOZUE_0401BS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100098
+こずえ
+「それで、どこに連れてってくれるのかな？」
+$k
+
+優
+「え…俺が決めるんですか？」
+$k
+
+// KOZUE_0401IK2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100099
+こずえ
+「矢崎くん男の子でしょ」
+$k
+
+優
+「先生のイベントじゃないですか」
+$k
+
+// KOZUE_0401BS
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100100
+こずえ
+「いつもはどうしてるの？」
+$k
+
+優
+「近所のおばさんですか」
+$k
+
+// KOZUE_0401KM
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100101
+こずえ
+「先生に対する尊敬の念が足りてないわ…」
+$k
+
+優
+「へっ、卒業しちまえば先生もただの女よ」
+$k
+
+// KOZUE_0401KF
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100102
+こずえ
+「いつまでもみんなに愛される恩師でいたいのに～」
+$k
+
+&empty
+ちなみに、いつもはだいたい要さんのリード…。
+というか主導権がなかなか握れない。
+$k
+
+&empty
+別に嫌じゃないし、
+向こうも機嫌良さげだからいいんだけど。
+$k
+
+// KOZUE_0401KM2
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100103
+こずえ
+「先生こういうの詳しくないし…」
+$k
+
+&empty
+やっぱ人それぞれ。
+年上の女性が、みんな同じわけじゃない。
+$k
+
+優
+「せっかくだから先生決めてみません？」
+$k
+
+// KOZUE_0401KM
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100104
+こずえ
+「ん～、
+$nw,1470
+
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01NO.png,(x),c,(s),60%
+#ig
+
+　定番どこだと映画とか…」
+
+$k
+
+優
+「それはパス」
+$k
+
+// KOZUE_0401KD
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100105
+こずえ
+「どうして？」
+$k
+
+優
+「まだ要さんと行ってないから」
+$k
+
+// KOZUE_0401KF
+#ir
+#ip,c1,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06100106
+こずえ
+「どこでもいいって言ったのに～」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_CAFE01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KD.png,(x),r,(s),80%
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01IK4.png,(x),l,(s),80%
+#ig
+
+#show
+
+// MEGUMI_A401KD
+
+#sp,vo,06070034
+めぐみ
+「要さんがお見合いから逃げようと、こずえ先生を
+　生け贄にして、今度はそのこずえ先生のため、
+　暇そうな優ちゃんをダシに…」
+$k
+
+// MEGUMI_A401KT4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070035
+めぐみ
+「あれ、要さんとこずえ先生の関係って？」
+$k
+
+// KANAME_A401IK
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021357
+要
+「その前に、こずえちゃんのお母さん、
+　どこで見てるかわからないから、
+　目立たないようお願いね」
+$k
+
+// MEGUMI_A401NO
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070036
+めぐみ
+「珍しく要さんからのお誘いだったから、
+　どうしたのかと思ったら」
+$k
+
+// KANAME_A403IT3
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03IT3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06021358
+要
+「ごめーん。
+$nw,1370
+
+#ir
+#ip,c3,(fi),KANAME_A403.png,(psi),KANAME_An03KM.png,(x),l,(s),80%
+#ig
+
+　その時はちゃんとそのつもりだったんだけど、
+　どうしても気になっちゃって」
+$k
+
+// MEGUMI_A401EG4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06070037
+めぐみ
+「いいですいいです、こっちのが面白そうだし」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// 	Zoom(SLOWER|SPEED_DOWN, 100, 100);
+// 	Scroll(SLOWER|SPEED_DOWN, 0, 0);
+// 	SS(CENTER, KOZUE_A401KS3, MOVE_STOP, SLOW);
+
+// 	WaitScroll();
+
+// KOZUE_A401KS3
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_CAFE01A.jpg,(s),100%
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KS3.png,(x),c,(s),80%
+#ig
+
+#show
+
+#sp,vo,06100107
+こずえ
+「やっぱりついてきてたのね」
+$k
+
+優
+「いつのまにか、めぐみまで合流してるし」
+$k
+
+&empty
+あいつに要さんを止めてくれと頼むのは…無理か。
+本人が一番こういうの好きそうだし。
+$k
+
+&empty
+ただ、めぐみなら桜子とのホットラインで、
+俺と要さんのことはある程度耳に入れてるはずなので、
+上手くなだめてくれるだろう。
+$k
+
+&empty
+その点では安心だ。
+$k
+
+// KOZUE_A401KF2
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100108
+こずえ
+「っ…
+$nw,1180
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KF.png,(x),c,(s),80%
+#ig
+
+　くしゅんっ」
+$k
+
+優
+「薬が切れましたか」
+$k
+
+// KOZUE_A401KM2
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100109
+こずえ
+「毎回効果時間が短くなってくような気が………
+$nw,5570
+
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KD.png,(x),c,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op2,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op2,(al),0%
+#ig
+
+　あ」
+$k
+
+優
+「どうしました？」
+$k
+
+//	SetIconTatesen( CENTER );
+// KOZUE_A401KM
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100110
+こずえ
+「薬…忘れちゃったみたい」
+#meffect,flow,2
+$k
+
+優
+「そんな死にそうな声出さなくても…」
+$k
+
+// KOZUE_A401AS
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100111
+こずえ
+「死ぬのよ」
+$k
+
+&empty
+目が真剣だ。
+#mfuri,　　　　　マジ
+
+$k
+
+// KOZUE_A401KM2
+#ir
+#ip,c2,(fi),KOZUE_A401.png,(psi),KOZUE_An01KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06100112
+こずえ
+「あぁぁ…矢崎くんどうしよぉ～」
+#meffect,flow,2
+$k
+
+優
+「市販の薬なら薬局行けば買えますけど」
+$k
+
+// KOZUE_A401KM2
+#sp,vo,06100113
+こずえ
+「ネット通販」
+#meffect,flow,5
+$k
+
+
+#next,06kaname20_02

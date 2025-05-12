@@ -1,0 +1,751 @@
+﻿// 既読フラグ
+#read_flag,357
+
+#show
+
+優
+「要さん、ストックが切れてきちゃいましたね」
+$k
+
+// KANAME_0401RK2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020178
+要
+「…そうやって、いいように使おうとするのね」
+$k
+
+優
+「は？」
+$k
+
+&empty
+視線は合わせないまま、
+ぽつり、こぼすように要さんが呟く。
+$k
+
+// KANAME_0401RK2
+#sp,vo,06020179
+要
+「わたしが困ってる時は助けてくれなかったのに…」
+$k
+
+優
+「え～っと」
+#meffect,flow,5
+$k
+
+&empty
+なんだ…このノリ？
+$k
+
+// KANAME_0401RK2
+#sp,vo,06020180
+要
+「舌噛んだり口の中の皮剥けちゃったんだから」
+$k
+
+優
+「…さっきのなら謝ったじゃないですか」
+$k
+
+// KANAME_0401RK2
+#sp,vo,06020181
+要
+「納得なんてしてない…」
+#meffect,flow,5
+$k
+
+#ss,bgm
+
+優
+「要さんのこと、大事に思ってます」
+$k
+
+// 	SS( CENTER, KANAME_A403KT );
+
+#sp,bgm,BGM_OMOIDE
+
+// KANAME_A403KT
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020182
+要
+「本当…？」
+$k
+
+&empty
+ようやくこちらを向いた要さんと目が合った。
+$k
+
+&empty
+俺は力強く頷く。
+$k
+
+優
+「何よりも誰よりも…」
+$k
+
+#ss,bgm
+
+// 	BGMStop();
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+#sp,vo,06990002
+お客さん
+「すみませーん」
+$k
+
+// 	Zoom(NORMAL, 130, 130, 400-200, 300-100);
+
+優
+「はいどうもー」
+#mlarge
+$k
+
+// KANAME_0403GN2
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020183
+要
+「わたしを置いて、素に戻らないでよぉー！」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+// 	Zoom(FASTEST, 100, 100);
+// 	CFI();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ありがとうございましたー」
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+// KANAME_0403SN
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03SN.png,(x),c,(s),60%
+#ig
+
+優
+「というわけで、またストックが減りました。
+　おふざけノリで遊んでる場合じゃないですよ」
+$k
+
+// 	SS(CENTER, KANAME_0403SN, MOVE_STOP, NORMAL);
+
+#sp,vo,06020184
+要
+「むぅ…確かにね」
+$k
+
+&empty
+ようやく要さんが元の調子に戻ってくれた。
+$k
+
+優
+「やっぱり焼くしかないか」
+$k
+
+// KANAME_0403KT2
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03KT2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020185
+要
+「…なんでこっちを見るわけ？」
+$k
+
+優
+「焼くしかないのか」
+$k
+
+// KANAME_0401IK4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020186
+要
+「えっと…
+　それって、もしかして…？」
+$k
+
+優
+「要さんがつまみ食いしなければ、
+　まだ４、５人前くらいは残ってたはずですから」
+$k
+
+// KANAME_0401OD4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020187
+要
+「そんなに食べてない～っ！」
+$k
+
+優
+「お願いしますよ要さ～ん。
+　俺しばらく焼いてないんですよー」
+$k
+
+// KANAME_0402BS
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020188
+要
+「ワンポイントアドバイス。
+$nw,1860
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),60%
+#ig
+
+　火が通れば、だいたいオッケーよ」
+$k
+
+優
+「原始人でも調理にもう少し工夫すると思います」
+$k
+
+&empty
+大雑把すぎ。
+$k
+
+優
+「……というか、要さん、たこ焼き焼けますよね？」
+$k
+
+// KANAME_0403GM
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020189
+要
+「えーっとね………」
+#meffect,flow,5
+$k
+
+優
+「え、だめでしたっけ？」
+$k
+
+&empty
+あれ、最近は記憶にないけど、
+子供の頃は作ってもらったことがあったような…。
+$k
+
+&empty
+いや、あれたこ焼きだったか…？
+あれ…あれぇ…？
+$k
+
+// KANAME_0401US4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01US4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020190
+要
+「はあ…気が進まないなぁー」
+#meffect,flow,5
+$k
+
+優
+「なんだ、やっぱり焼けるんじゃないですか」
+$k
+
+&empty
+そりゃそうか。
+世が世なら千寿の家督を継いでおられる方だ。
+$k
+
+// KANAME_0403IT3
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03IT3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020191
+要
+「まあ…やるしかないか」
+$k
+
+優
+「お願いします」
+$k
+
+// KANAME_0403BS
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020192
+要
+「ないなら足せばいいのですよ」
+$k
+
+優
+「さっきからそれをお願いしてたんです…」
+$k
+
+&empty
+なんだかよくわからないけど、
+やる気になってくれたらしい。
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020193
+要
+「生地はまだあるよね？」
+$k
+
+優
+「仕込みは十分みたいです」
+$k
+
+&empty
+その辺は抜かりないようだ。
+$k
+
+//#sp,env,W_Water01
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01SK.png,(x),c,(s),60%
+#ig
+
+//#ss,env
+
+&empty
+要さんは丁寧に手を洗い、
+その指で生地を軽くすくった。
+$k
+
+// KANAME_0402RK
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02RK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020194
+要
+「んちゅ…
+$nw,1470
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),60%
+#ig
+
+　ん、さすがはお婆ちゃんの配分」
+$k
+
+優
+「舐めただけでわかるんですか」
+$k
+
+// 	SS(CENTER, KANAME_0402NO, MOVE_DOWN);
+
+// KANAME_0402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020195
+要
+「ううん、雰囲気重視」
+$k
+
+優
+「かなめさ～ん」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+#sp,vo,06990003
+お客さん
+「すみませーん、たこ焼きひとつー」
+$k
+
+優
+「はい、ありがとうございます」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+
+#sp,env,W_Cook01#
+
+// 	CFI();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_COUNTERURA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+やり取りの間にもストックが減っていく。
+$k
+
+優
+「要さん、できれば急いでください」
+$k
+
+// 	SEFade(0, SLOW, 50);
+
+// 	SS( CENTER, KANAME_A601GB4, MOVE_STOP, NORMAL );
+
+// KANAME_A601GB4
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01GB4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020196
+要
+「この鉄板と油の匂い…
+　久しぶりだわー」
+$k
+
+&empty
+マイペースの要さんが、
+油敷きで鉄板を濡らしていく。
+$k
+
+// KANAME_A601NO
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020197
+要
+「優くん、油の量は？」
+$k
+
+優
+「えっと…
+　少なすぎず多すぎず、でしたっけ」
+$k
+
+// KANAME_A601NO2
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020198
+要
+「さすがは桜子ちゃん仕込み」
+$k
+
+優
+「感心してくれるなら、
+　もう少し難しいとこを問題にしてくださいよ」
+$k
+
+&empty
+適当に答えても当たりそうだ。
+$k
+
+// KANAME_A601NO5
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01NO5.png,(x),c,(s),80%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,06020199
+要
+「よ…っと」
+$k
+
+#ss,env
+#sp,env,W_Cook02#
+
+&empty
+鉄板から薄く煙が出てきたところで、
+要さんが生地を流し込む。
+$k
+
+&empty
+じゅ～っと控え目に音があがった。
+$k
+
+// KANAME_A601OD
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01OD.png,(x),c,(s),80%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,06020200
+要
+「ちゅう、
+$nw,690
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,ちゅう、
+//$nw,1360
+$nw,670
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,たこ、
+//$nw,2040
+$nw,680
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,ちゅう、
+//$nw,2710
+$nw,670
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,ちゅうっと」
+$k
+
+&empty
+ひょいひょいとタコを放り込み、
+鉄板全体に紅しょうがを振りかけた。
+$k
+
+&empty
+慣れた手つきだけど、豪快…
+というか大雑把に見えるのは人柄のせいか？
+$k
+
+&empty
+フリーダムというか無造作な感じも似合っている。
+$k
+
+// KANAME_A601NO
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020201
+要
+「見とれちゃった？」
+$k
+
+優
+「まあ…そういうことにしときます」
+$k
+
+// KANAME_A603BS
+#ir
+#ip,c1,(fi),KANAME_A603.png,(psi),KANAME_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020202
+要
+「ふふっ、ありがと」
+$k
+
+&empty
+素直に喜んでくれる。
+$k
+
+#ss,env
+#sp,env,W_Cook01#
+
+// KANAME_A603IT2
+#ir
+#ip,c1,(fi),KANAME_A603.png,(psi),KANAME_An03IT2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020203
+要
+「というわけで、後は任せた」
+$k
+
+優
+「って、もうひっくり返すだけじゃないですか。
+　最後までお願いしますよ」
+$k
+
+// KANAME_A601IK4
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020204
+要
+「う…」
+$k
+
+// KANAME_A601IK3
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020205
+要
+「…どうなっても知らないわよ」
+#msmall
+$k
+
+優
+「え…今なんて…？」
+$k
+
+&empty
+様子がおかしい？
+$k
+
+#ss,bgm
+
+// KANAME_A601IK3
+#sp,vo,06020206
+要
+「ごくっ…」
+$k
+
+&empty
+ピックを構えた要さんが息をのむ。
+$k
+
+// KANAME_A601IK2
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(s),100%,(x),c,(y),def
+#ig
+
+
+// きらりアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kirari.png,(x),*630,(y),*185,(s),50%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,op1,(s),100%,(al),100%
+//#ig,(se),K_Kyupin01
+#ig,(se),S_Pikon02
+
+#sp,vo,06020207
+要
+「…っ、今！」
+$k
+
+// 	SEFade(0, NORMAL, 0);
+// 	SV( BG_SJ_COUNTERURA01A );
+// 	DelStandAll();
+// 	SS(CENTER, KANAME_A601IK2);
+// 	Zoom(FASTEST, 250, 250, 400, 300-170);
+// 	BlurZoom(0, 5, 10);
+
+&empty
+そして、かっと目を見開いた。
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// 	SEFade(0, NORMAL, 50);
+// 	SV( BG_SJ_COUNTERURA01A );
+
+// 	DelStandAll();
+// 	BlurZoom(0, 0, 0);
+// 	SS(CENTER, KANAME_A601IK4);
+
+#ir
+#ip,c1,(fi),KANAME_A601.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ikari.png,(x),*520,(y),*50
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op1,(s),120%
+#ig
+
+#sp,se,S_Gan03
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+// KANAME_A601IK4
+#sp,vo,06020208
+要
+「このっ！
+$nw,570
+
+#sp,se,S_Gan03
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#madd,　このっ！」
+
+$k
+
+#next,06kaname05_02

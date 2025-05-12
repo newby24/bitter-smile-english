@@ -1,0 +1,784 @@
+﻿// 既読フラグ
+#read_flag,360
+
+#show
+
+// KANAME_A401TR2
+#sp,vo,06020250
+要
+「もう１１月かー。
+　布団から出たくない時期の到来ですよぉ？」
+$k
+
+//	SP( "W_Zuzu01" );
+
+優
+「あの羽毛布団で早寝早起きしてください」
+$k
+
+// KANAME_A402NA
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NA.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020251
+要
+「あんな包容力のある布団に抱かれたら、
+　もう会社に遅刻してもしょうがないよねー」
+$k
+
+優
+「クーリングオフしますか」
+$k
+
+// KANAME_A403GM2
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020252
+要
+「そうだ、鶴ヶ丘はもうすぐマラソン大会じゃない？」
+$k
+
+&empty
+話を露骨に逸らされた。
+$nw,1000
+
+…いいけど。
+$k
+
+優
+「まあ適当にこなしますよ」
+$k
+
+// KANAME_A403BS
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020253
+要
+「プラス思考プラス思考。
+　いいとこ見せて、女の子の視線を
+　ぜんぶ独り占めしちゃえばいいじゃない」
+$k
+
+優
+「この歳でそんな奴いるのかな…」
+$k
+
+// KANAME_A403GM3
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020254
+要
+「足を引きずりながら懸命にゴールを目指す優くん、
+　ゴールテープ前で祈るように手を組む桜子ちゃん」
+$k
+
+優
+「俺の足に何があったんですか！？」
+$k
+
+&empty
+そして何故、桜子が祈る。
+シチュエーションが理解できない。
+$k
+
+// KANAME_A403SN3
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03SN3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020255
+要
+「頑張ってる男の子はかっこいいよねーって話よ」
+$k
+
+優
+「そんな話だったんですか」
+$k
+
+&empty
+…と、もう２２時か。
+$k
+
+優
+「じゃあ、俺、そろそろ」
+$k
+
+// KANAME_A403KT
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020256
+要
+「あ、そう？
+$nw,1420
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+　じゃ送ってく」
+$k
+
+優
+「いや、それだとキリがないですから。
+　一応、男ですし」
+$k
+
+// KANAME_A402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020257
+要
+「男だからって安全とは限らないんじゃないかなー」
+$k
+
+優
+「大丈夫と思いますけど、
+　怖いこと想像させないでくださいよ」
+$k
+
+// KANAME_A402NO
+#sp,vo,06020258
+要
+「じゃあ最後にスープ飲んでいかない？
+$nw,3100
+
+　あったまって、身体ぽかぽかにしてきなよ」
+$k
+
+&empty
+それって、要さんの手作り…。
+$k
+
+// KANAME_A403IT5
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03IT5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020259
+要
+「おいしいの見つけたの。
+　５個３９８円でけっこう美味しいのよー」
+$k
+
+優
+「ですよねー」
+$k
+
+&empty
+期待した後の落差って悲しい。
+$k
+
+// KANAME_A403NO
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020260
+要
+「すぐ作るから」
+$k
+
+優
+「いや、別にそんな…」
+$k
+
+// KANAME_A403BS
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020261
+要
+「ちょっと待っててねー」
+$k
+
+// 	SS(CENTER, KANAME_0403BS, MOVE_STOP, NORMAL);
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+&empty
+言い残し、要さんが台所に向かう。
+$k
+
+// 	//和田：あとまわし
+
+#sp,vo,06020262
+要
+「あれ…どこにやったかな…？」
+$k
+
+&empty
+棚をごそごそ漁っているみたいだ。
+$k
+
+優
+「ほんと、無いなら無いでお構いなく」
+$k
+
+#sp,vo,06020263
+要
+「すぐだからー」
+$k
+
+&empty
+こういう時、すぐだったためしがあまりない。
+$k
+
+優
+「ふう…」
+$k
+
+&empty
+しかし…女の人の部屋にひとり残されると、
+やっぱちょっと目のやり場に困るな。
+$k
+
+&empty
+何をするでもなく、タンスとかクローゼットに
+視線が行ってしまったりして…
+$k
+
+#ss,bgm
+
+#sp,vo,06000020
+？？？
+#mstyle,(co),桜子
+「何きょろきょろしてんのよ。
+　エロいわねー」
+$k
+
+// SAKURAKO_0401AK2
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+優
+「のわぁお！？」
+#mlarge
+$k
+
+// 	SS(CENTER, SAKURAKO_0401NO, MOVE_RIGHT, NORMAL);
+
+#sp,bgm,BGM_COMICAL2
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000021
+桜子
+「まあ、しょうがないかもね。
+　こんなチャンスめったにないものねー」
+$k
+
+優
+「さ、桜子！？　お前なんで…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0401NO
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000022
+桜子
+「様子見に来たに決まってんでしょ」
+$k
+
+優
+「って、チャイムも何も鳴らしてねぇだろ、お前」
+$k
+
+// SAKURAKO_0401NO
+#sp,vo,06000023
+桜子
+「お姉の部屋なんて、いつも勝手に入ってるわよ？
+　問題ある？」
+$k
+
+&empty
+いや、まあ姉妹だし別に問題はない…のか？
+$k
+
+&empty
+突然現れた桜子は、さも当たり前のように
+要さんの部屋をうろつきだす。
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000024
+桜子
+「興味ある？」
+$k
+
+優
+「え？」
+$k
+
+&empty
+えーと、何がでしょうか？
+#meffect,flow,5
+$k
+
+// SAKURAKO_0403NS
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000025
+桜子
+「見てみるー？　せっかくだから」
+$k
+
+優
+「………はぇ？」
+#meffect,flow,5
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+// SAKURAKO_0403NS
+#sp,vo,06000026
+桜子
+「さてと…最近お姉は、
+　どんな下着をつけてるのかしら～？」
+$k
+
+#ss,bgm
+
+&empty
+お、おい…ちょっと、まさか…！？
+$k
+
+#sp,se,W_Hikidashi01o
+
+優
+「お、おい～～～っ！？」
+$k
+
+&empty
+躊躇なく引き出しを開けやがった！
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// 	SS( CENTER, SAKURAKO_A401NS );
+
+// SAKURAKO_A401NS
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000027
+桜子
+「うっわ…手抜きー。
+　なにこのババくさ色」
+$k
+
+優
+「お、おまっ…ちょっと待て！」
+$k
+
+&empty
+俺は思わず声を押し殺して、桜子に抗議する。
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000028
+桜子
+「なによ、いいじゃない別に。
+　減るもんじゃなし」
+$k
+
+&empty
+こんなとこ、要さんに見られでもしたら、
+確実に減るんですが。
+$k
+
+&empty
+俺の信用度が。
+$k
+
+#sp,se,S_Nuno05
+
+// SAKURAKO_A401NS
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000029
+桜子
+「あ、見なさいよ優。
+　奥から関ヶ原決戦用とおぼしき新品を発見。
+　かわいらしいレースに薄いピンクっ！」
+$k
+
+優
+「…………。
+$nw,1000
+
+　…っ、見せんな！！！」
+$k
+
+// SAKURAKO_A403NS
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000030
+桜子
+「反応遅かったわね。
+　想像した？」
+$k
+
+優
+「お前なーっ！？」
+$k
+
+&empty
+見破ってんじゃねぇ！
+$k
+
+#sp,se,S_Nuno05
+
+// SAKURAKO_A402AD
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000031
+桜子
+「うわ、出たシルク。
+$nw,2580
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),c,(s),80%
+#ig
+
+　なんか狙いすぎてがっついてるイメージよねー」
+$k
+
+&empty
+俺の声にならない声など無視して、
+桜子はさらに引き出しの中を漁っている。
+$k
+
+// SAKURAKO_A402NO
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000032
+桜子
+「お姉に青系はちょっと違う気がするわね～」
+$k
+
+#sp,se,S_Nuno05
+
+// SAKURAKO_A401NS
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000033
+桜子
+「ちょっとほら、ムラサキ、ムラサキが出てきたわよ。
+　どんな顔してレジに出したと思う？」
+$k
+
+優
+「俺に聞くなって！」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000034
+桜子
+「あんたさぁ、都合のいいときだけ…」
+$k
+
+// 	SS_( RIGHTRIGHT, KANAME_0401NO2 , MOVE_RIGHT, SLOW );
+
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),r4,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r3,(al),100%
+#ig
+
+//	ZoomStand(RIGHTRIGHT, FASTEST, 80, 80);
+
+
+// KANAME_0401OD3
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,06020264
+要
+「きゃあああああ～！？」
+#mlarge
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+// 	SS(CENTER, SAKURAKO_A402NO, MOVE_STOP, NORMAL);
+
+&empty
+はうっ！　要さん！？
+$k
+
+// KANAME_0402IK2
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02IK2.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,06020265
+要
+「さ、桜子ちゃん？
+　なんで？　なにしてるの！？」
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000035
+桜子
+「あ、お姉、見てるわよ」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「なんでお前はそんなに冷静なんだよ！？」
+#mlarge
+$k
+
+// SAKURAKO_A401NS
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000036
+桜子
+「鼻の下伸ばしてたくせに」
+$k
+
+// KANAME_0402KT
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02KT.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,06020266
+要
+「優くん！？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「伸ばしてません！！？」
+#mlarge
+$k
+
+// 	ZoomStand(CENTER, NORMAL|SPEED_DOWN, 110, 110);
+
+#sp,se,S_Nuno05
+
+// SAKURAKO_A401EG
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000037
+桜子
+「嘘つき賞に、お土産あげるわ」
+$k
+
+// 	ZoomStand(CENTER, FAST, 100, 100);
+
+優
+「ありが……
+#meffect,flow,5
+$nw,1000
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+　じゃねえ、ポケットに詰めるな！！！」
+
+$k
+
+// KANAME_0402IK2
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02IK2.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,06020267
+要
+「きゃっ、ちょっと優くん触らないでっ」
+$k
+
+優
+「しまった！　思わず出そうとして、
+　このいけない手が………」
+$k
+
+// KANAME_0403GN2
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06020268
+要
+「握り締めたまま凝視しないでぇ―――」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000038
+桜子
+「さて、次は冷蔵庫ね」
+$k
+
+// 	SS(CENTER, SAKURAKO_0402EG, MOVE_STOP, NORMAL);
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「帰れおまえはっ！！！」
+#mlarge
+$k
+
+//	SS(CENTER, SAKURAKO_0402NO, MOVE_STOP, NORMAL);
+
+// KANAME_0402IK2
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02IK2.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,06020269
+要
+「優くんも！」
+#mlarge
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+// 	FO_( SLOWER );
+
+&empty
+結局…要さんお薦めのスープにはありつけず、
+俺と桜子は寒空の下に放り出された。
+$k
+
+&empty
+後日、要さんはなぜか俺とだけ、
+しばらく口をきいてくれなかった…。
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリア後にジャンプ可能。
+#next,90jump07:(if),sys,0,==,1
+
+#next,02common02-4_00

@@ -1,0 +1,855 @@
+﻿// 既読フラグ
+#read_flag,28
+
+// SAKURAKO_A103IK3
+
+#sp,vo,01000271
+桜子
+「とても大事なことよ！」
+#mlarge
+$k
+
+// CHISEKA_A101IK
+
+#sp,vo,01040019
+知世翔
+「そうです、大事です！」
+#mlarge
+$k
+
+&empty
+すまん。
+$k
+
+// MEGUMI_A101KN
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KN.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01070047
+めぐみ
+「はいはい、興奮しないで」
+$k
+
+// SAKURAKO_A102NO
+
+#sp,vo,01000272
+桜子
+「あ……
+#msmall
+$nw,1230
+
+　優、ここ付いてるわよ？」
+#msmall
+
+$k
+
+優
+「ん？
+　なにが？　………え、どこ？」
+$k
+
+// MII_A101AK
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01AK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01030068
+みい
+「私は低脂肪で我慢して下さいと進言するものの、
+　姉上的にそこは譲れないところなので……」
+#mfuri,　　　　　　　　　　　　　　　　ゆず
+
+$k
+
+// SAKURAKO_A102KM
+
+#sp,vo,01000273
+桜子
+「ほら、こっちよこっち、
+#msmall
+$nw,3200
+
+　あーそこじゃなくって！」
+#msmall
+$k
+
+// MII_A101AK
+#sp,vo,01030069
+みい
+「そうこうしてる間に時間は過ぎていき、朝食だけでも
+　ということで泣く泣く食パンとインスタントの
+　豆腐味噌汁を食べ、今に至るという感じの流れです」
+$k
+
+優
+「ここ？　……あ、もっと下？」
+#msmall
+$k
+
+// CHISEKA_A101TR
+
+#sp,vo,01040020
+知世翔
+「それで親友だったら一緒に学食で食えって、
+　メールとか私に送ってきた訳ね……朝っぱらから」
+$k
+
+// MII_A101NS
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01NS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01030070
+みい
+「ちなみに姉上の牛乳を空にした犯人ですが、
+　おそらく、今窓際に座って顔面のお弁当を
+　捜索中の男性と思われます」
+$k
+
+// SAKURAKO_A103FK2
+
+#sp,vo,01000274
+桜子
+「あーもう、だからここだって」
+$k
+
+&empty
+桜子がテーブルの向いから手を伸ばして俺の口元から
+ご飯粒を回収、そして………。
+$k
+
+// SAKURAKO_A102NO2
+
+#sp,vo,01000275
+桜子
+「ぱく、もぐもぐ…
+#msmall
+$nw,2430
+
+　もう、本当だらしないわねあんたは」
+#msmall
+
+$k
+
+&empty
+食った。
+$k
+
+優
+「お、おい、桜子っ、そういうの恥ずかしいから
+　もういいかげんやめてくれよ」
+$k
+
+
+// CHISEKA_0101AS
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01AS.png,(x),c,(s),80%
+#ie,c3
+#ig,(se),S_Basa01
+
+#sp,vo,01040021
+知世翔
+「な―――っ！！　桜子先輩っ！？」
+#mlarge
+$k
+
+// 	SS(CENTER, CHISEKA_0101AS, MOVE_DOWN);
+// SAKURAKO_A103KT
+
+#sp,vo,01000276
+桜子
+「って、知世翔どうしたの？」
+$k
+
+// CHISEKA_0101AS
+#sp,vo,01040022
+知世翔
+「先輩！　今、あれ取って食べましたよね！？」
+$k
+
+// MEGUMI_A101KM
+
+#sp,vo,01070048
+めぐみ
+「……凄い反応するなぁ～」
+$k
+
+// SAKURAKO_A103KT
+#sp,vo,01000277
+桜子
+「アレって？」
+$k
+
+// MII_A101AK
+#sp,vo,01030071
+みい
+「知世翔さん、姉上はそういう人ですから
+　あまり気にしないほうが良いですよ？」
+$k
+
+&empty
+そうそう、全然気にせずにやってるからな。
+$k
+
+// MEGUMI_A101BS
+
+#sp,vo,01070049
+めぐみ
+「そうそう、昔からやってるみたいだし」
+$k
+
+// CHISEKA_0101AS
+#sp,vo,01040023
+知世翔
+「いやいやいや、家族でもない男相手にですよ？」
+$k
+
+// MEGUMI_A101EG4
+
+#sp,vo,01070050
+めぐみ
+「幼なじみっつったら
+　一緒に育った家族みたいなもんだからねぇ？」
+$k
+
+&empty
+どっちかっていうと、母親ノリだからな。
+そんだけ俺が情けないとも取れるけど。
+$k
+
+// 	SS(CENTER, MEGUMI_A101TY, MOVE_STOP, NORMAL);
+
+// MEGUMI_A101TY2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01TY2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01070051
+めぐみ
+「ところで優ちゃんさぁ～？
+　宮津橋さんとどういう関係なのかなぁ？」
+$k
+
+優
+「ちょ、なんで宮津橋の話がここで…」
+$k
+
+// MEGUMI_A101KT5
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KT5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01070052
+めぐみ
+「知り合いなんでしょ？」
+$k
+
+// SAKURAKO_A102NO
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000278
+桜子
+「あ、そうなの優？」
+$k
+
+優
+「う、それは……」
+#meffect,flow,5
+$k
+
+// MII_A101NS
+#ir
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01NS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01030072
+みい
+「それ、詳しく聞きたいですね」
+$k
+
+// MEGUMI_A101KT5
+
+#sp,vo,01070053
+めぐみ
+「なんかね～、髪の長い綺麗な娘がねぇ、
+　こっちに向って来てるんだけどさぁ～」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+優
+「はい？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,c1,(fi),ISAKI_A102.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Gatan02
+
+// 	SS(CENTER, ISAKI_0102NO, MOVE_STOP, NORMAL);
+
+#show
+
+優
+「うわ、宮津橋！？」
+#mlarge
+$k
+
+&empty
+食堂の人波をかき分け、やって来たらしい宮津橋は
+もう俺の傍に居た。
+
+#mfuri,　　　　　　　　そば
+
+$k
+
+// ISAKI_0102BS
+#ir
+#ip,c1,(fi),ISAKI_A102.png,(psi),ISAKI_An02BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01010017
+勇樹
+「こんにちは、いいかな、矢崎君」
+$k
+
+優
+「………なんだ、よ？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A102KM
+
+#sp,vo,01000279
+桜子
+「…優？」
+$k
+
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01KB.png,(x),c,(s),100%
+#ig
+
+&empty
+宮津橋は椅子に座ってる俺の方に屈みこみ、
+耳元で囁く。
+$k
+
+// 	SS_(CENTERLEFT, ISAKI_A101KB, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+// 	ZoomStand(CENTERLEFT, 0, 130, 130);
+// 	WaitStand( CENTERLEFT  );
+
+// ISAKI_A101KB
+#sp,vo,01010018
+勇樹
+「頼みたいのだがいいかな？」
+$k
+
+優
+「こ、断るよ。
+　俺さ、ああいうのはもう嫌なんだけどさ…」
+$k
+
+// ISAKI_A101MU
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),c,(s),100%
+#ig
+
+#sp,vo,01010019
+勇樹
+「そうか、それでは仕方がないか……」
+$k
+
+優
+「もっと違う形で、力になれる事だったらさ……」
+$k
+
+&empty
+てっきり諦めて立ち去るのかと思ってた。
+$k
+
+#hide
+
+#ss,bgm
+#ss,env
+
+// 	SetCGFlg( VISUAL_ISAKI_02A );
+// 	SetVisualObject(0, VISUAL_ISAKI_02A, 0, 0, OBJATTR_NOFADE|OBJATTR_TOP);
+
+// 	SS_(CENTER, ISAKI_A102NO, MOVE_STOP, SLOW);
+// 立ち絵移動。パラメータは適宜。
+
+// 	ZoomStand(CENTER, 0, 170, 170);
+// 	MoveStand(CENTER, 0, -50, 0);
+// 	WaitStand( CENTER );
+
+// 	SS_(CENTER, ISAKI_A102MU);
+// 立ち絵移動。パラメータは適宜。
+
+
+// 	ZoomStand(CENTER, NORMAL+NORMAL, 200, 200);
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_02A.jpg,(s),75%
+#ig
+
+#flag,cg,12,=,1
+
+#show
+
+優
+「…んんっ！？」
+$k
+
+// 	Shake(NORMAL, SHAKE_LEFT, 4, 20);
+// 	DelStandAll();
+
+#sp,vo,01010020
+勇樹
+「…うん……ん」
+#meffect,flow,5
+$k
+
+優
+「～～っ！」
+$k
+
+//#sp,vo,01010021
+//勇樹
+//「ん、あむ………ん～………」
+//#meffect,flow,5
+//$k
+
+//優
+//「……ひゅ…ほゃ！！！？？！！！！？！！！！？っ」
+//$k
+
+// MEGUMI_0101KM7
+
+#sp,vo,01070054
+めぐみ
+「わ～お、過激ぃ～い」
+$k
+
+// SAKURAKO_0102AS2
+
+#sp,vo,01000280
+桜子
+「………あらら」
+$k
+
+// MII_0103FK
+
+#sp,vo,01030073
+みい
+「あの……知世翔さん前が見えないんですけどね」
+#meffect,flow,2
+$k
+
+// CHISEKA_0101AS
+#sp,vo,01040024
+知世翔
+「～っダメだめ、見ちゃ駄目だからっ、
+　あなたには刺激が強いからぁ！」
+$k
+
+&empty
+突然過ぎて何が起こってるのか理解できなかった……。
+$k
+
+//#sp,vo,01010022
+//勇樹
+//「ん、ちゅぽっ！　………は……ふぅ」
+//$k
+//$nw,1310
+
+//優
+//「………は…ぁ……………………」
+//$k
+
+#hide
+
+// 	SS(CENTER, ISAKI_0102BS, MOVE_STOP, NORMAL);
+
+// ISAKI_0102BS
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_SYOKUDO01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A102.png,(psi),ISAKI_An02BS.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,01010023
+勇樹
+「ありがとう、矢崎君。愛してるよ」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// ISAKI_0102EG
+#ir
+#ip,c1,(fi),ISAKI_A102.png,(psi),ISAKI_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01010024
+勇樹
+「じゃあ、またあとでねっ♪」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+&empty
+………………………。
+#meffect,flow,5
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"………………。" );
+&empty
+あ、俺。キスされてた……。
+$k
+
+&empty
+あいつ？　どういうこと、だ？
+$k
+
+#sp,bgm,BGM_KEIKAI
+
+#sp,env,S_Gaya01#
+
+// #sp,env,S_Gaya05#
+
+// 	SS_(RIGHT, MEGUMI_A101KM7);
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM7.png,(x),r,(s),80%
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01AK.png,(x),l,(s),80%
+#ig
+
+// 	SS(LEFT, MII_A101AK);
+
+// MEGUMI_A101KM7
+#sp,vo,01070055
+めぐみ
+「うっわ～～！　凄かったね今の！　見たぁ？
+　こんな所で勇気あるぅ～。積極的～～っ」
+$k
+
+// MII_A101AK
+
+#sp,vo,01030074
+みい
+「えっと…結局なんだったんですか？
+　私は見てないんですが……さっきの音は？」
+$k
+
+// CHISEKA_A101AS
+#sp,vo,01040025
+知世翔
+「いっ、いいのあなたは！
+　まだ早いよっ、～～～～～もう恥ずっ！」
+$k
+
+// 	SS(CENTER, SAKURAKO_A102NO3, MOVE_STOP, NORMAL);
+
+#sp,se,S_Clap01#
+
+// SAKURAKO_A102NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,01000281
+桜子
+「凄いね、やるじゃない優？」
+$k
+
+優
+「えっ？　あい！？」
+$k
+
+//	SM( CHAR_MEGUMI,		MEGUMI_A101KT4,		"めぐみ",		"@v01070056（あらぁ？）" );
+//	SM( CHAR_CHISEKA,		CHISEKA_A101NO2,	"知世翔",		"@v01040026（あれ？）" );
+
+#sp,vo,01070056
+//めぐみ＆知世翔
+めぐみ知世翔
+「あれ？」
+$k
+
+// SAKURAKO_A102NO4
+#ir3
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000282
+桜子
+「知らなかった、ちゃんと彼女作ってたんだね」
+$k
+
+優
+「いや、えっと桜子、えっと…」
+$k
+
+// SAKURAKO_A102NO4
+#sp,vo,01000283
+桜子
+「言ってくれればいいのに。
+　なんかさ、いままでごめんね。
+$nw,6350
+
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+　蛆虫だうんこタレだ出来ない君だの言い続けてさ？」
+$k
+
+優
+「あの、これ………は、そのな？」
+$k
+
+// MEGUMI_A101KM
+
+#sp,vo,01070057
+めぐみ
+「うわ～そんな酷いこと言われ続けてたんだぁ…」
+$k
+
+// SAKURAKO_A102NO5
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000284
+桜子
+「ちょっと見直したわ。
+　あ、これおば様に報告しとかなきゃね？
+　でかした！　とか言って絶対喜ぶよ？」
+$k
+
+優
+「…いや、ちょっと？　……あれ？」
+#meffect,flow,5
+$k
+
+&empty
+なんで？
+$k
+
+// SAKURAKO_A101KS
+#ir
+#ip,c3,(fi),SAKURAKO_A101.png,(psi),SAKURAKO_An01KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000285
+桜子
+「照れない照れない、嬉しい事じゃないの」
+$k
+
+// CHISEKA_A101MJ
+
+#sp,vo,01040027
+知世翔
+「先輩……」
+#meffect,flow,5
+$k
+
+// MEGUMI_A101KT5
+
+#sp,vo,01070058
+めぐみ
+「あっれぇ～？」
+$k
+
+#hide
+
+#ir
+#ie,c3
+#ig
+
+#sp,se,S_Chime01
+
+// MII_0101GM
+#ir
+#ip,c1,(fi),MII_A101.png,(psi),MII_An01GM.png,(x),l,(s),80%
+#ig
+
+#show
+
+#sp,vo,01030075
+みい
+「時間ですね。
+　会話から、なんとなく何が起こったのかは
+　推理出来そうですが……」
+$k
+
+// CHISEKA_0101IK
+#ir
+#ip,c3,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01IK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01040028
+知世翔
+「しなくていいよ。ほら、もう行かないと。
+　先輩、お先に失礼しますね。
+　はいはーい、みい行くよ？」
+$k
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),l0,(al),0%
+#ip,c3,(x),r2,(al),0%
+#ig
+
+// SAKURAKO_A102NO4
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000286
+桜子
+「優ー、なにぼーっとしてんのぉ？
+$nw,2980
+
+　あ、そうそう………
+$nw,2000
+
+#sp,se,S_Catch01
+
+　はい、ほらっ！」
+$k
+
+
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱすっ！" );
+&empty
+テーブルの俺の前に投げられたのは
+朝から桜子が預かったままになっていた、俺の財布。
+$k
+
+// SAKURAKO_A102EG
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000287
+桜子
+「これからは、もっとしっかりしなきゃダメよ？
+　よかったじゃない。
+　あたし、あんたのこと応援するからさ！」
+$k
+
+// SAKURAKO_A102NO5
+#ir
+#ip,c3,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,01000288
+桜子
+「めぐみも。
+　じゃあ、あたし先行くよー？」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+優
+「……なん、だ」
+#meffect,flow,5
+$k
+
+// 	SS(CENTER, MEGUMI_0101KD);
+
+// MEGUMI_0101KD
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070059
+めぐみ
+「これはなんていうか、さすが桜子？
+　ちょっとだけ予想外だなぁ～。
+　結構、素で喜んでた様に見えたもんねぇ」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+忘れるのと誤解されるのとは違うんだよ。
+………なんでこうなった。
+$k
+
+// MEGUMI_0101KM7
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070060
+めぐみ
+「優ちゃん大丈夫～？
+　もう私達も行かないとさぁ」
+$k
+
+優
+「ああ」
+#meffect,flow,5
+$k
+
+// MEGUMI_0101EG
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070061
+めぐみ
+「なんならさぁ、私が慰めてあげるよぉ～？」
+$k
+
+優
+「……ああ…そうだなぁ」
+#meffect,flow,5
+$k
+
+// MEGUMI_0101KN
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KN.png,(x),c,(s),60%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ase.png,(x),520,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op1,(y+),100,(al),0%
+#ia,op1,al,(dl),500
+#ig
+
+#sp,vo,01070062
+めぐみ
+「……だ～めだねぇ、これは」
+#meffect,flow,5
+$k
+
+#next,01pro01_19

@@ -1,0 +1,702 @@
+﻿// 既読フラグ
+#read_flag,219
+
+優
+「じゃあ、帰るか」
+$k
+
+// 	SS( CENTER, ISAKI_A202NO );
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010338
+勇樹
+「ん」
+$k
+
+#sp,se,T_Nuno02
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+立ち上がると、宮津橋がまた俺の服の裾を
+きゅっと掴む。
+$k
+
+優
+「どうした？」
+$k
+
+// ISAKI_A202KT
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010339
+勇樹
+「なんでもない」
+$k
+
+優
+「そ、そうか」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+なんなんだろう？
+少し歩きにくい。
+$k
+
+&empty
+けど、宮津橋は無言で、裾を握った手に
+力を込めたり、緩めたりしている。
+$k
+
+&empty
+その横顔がなんとなく楽しそうに見えた。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TSUGAKURO01A );
+
+#sp,bgm,BGM_ISAKI
+
+// 	SS( CENTER, ISAKI_A201NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+&empty
+２人で並んで、無言で通学路を歩く。
+$k
+
+&empty
+毎日一緒に帰っているけれど、
+お互いに無言で、ただ並んで歩くだけ。
+$k
+
+&empty
+だって、俺から話しかけないと、
+宮津橋はなにも話そうとはしないし。
+$k
+
+&empty
+話しかけるにしてもな……。
+$k
+
+優
+「今日は、これからバイトなのか？」
+$k
+
+// ISAKI_A201NO
+#sp,vo,04010340
+勇樹
+「夜までバイトだな。
+　その後は勉強する予定だ」
+$k
+
+&empty
+って、こんな調子だからなぁ。
+$k
+
+&empty
+それにしても…。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010341
+勇樹
+「………………」
+$k
+
+&empty
+学園からここまで、
+宮津橋は俺の服の裾を握りっぱなしだ。
+$k
+
+&empty
+無言ではあるけど、一応以前のように
+人がいなくなったからって、突き放したり
+冷たくされたりはしない。
+$k
+
+&empty
+少し俯き加減の宮津橋の横顔を見てると、
+宮津橋が上目遣いに俺を見た。
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010342
+勇樹
+「なんだ？」
+$k
+
+優
+「いや、何考えてるのかなぁって」
+$k
+
+// ISAKI_A201NO
+#sp,vo,04010343
+勇樹
+「新作クレープの事を考えていた」
+$k
+
+優
+「新作クレープ？」
+$k
+
+&empty
+ハッピーシ～サ～でまた何かやるのかな。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010344
+勇樹
+「店長が……
+　勝負の時に作ったのが好評だったから
+　また何か考えてくれと言ってきてな」
+$k
+
+優
+「あー、あれ、美味いもんな」
+$k
+
+// ISAKI_A201IK
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010345
+勇樹
+「そうだ。矢崎、お前、モルモットになれ」
+$k
+
+優
+「モルモットぉ？」
+$k
+
+&empty
+宮津橋は俺に何をさせたいんだろう。
+仮面カップルの次は実験動物か。
+$k
+
+// ISAKI_A201IK2
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010346
+勇樹
+「新しいクレープを思いついたら、一番最初に
+　お前に食べさせる事にする」
+$k
+
+優
+「それは光栄だな」
+$k
+
+&empty
+要は試食要員ってことか。
+モルモットって言葉のチョイスはどうかと思うが、
+宮津橋の料理の腕はなかなかのものだしな。
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010347
+勇樹
+「じゃあ、出来たら持って行く」
+$k
+
+優
+「別に店に食べに行ってもいいけど」
+$k
+
+// ISAKI_A201NO
+#sp,vo,04010348
+勇樹
+「いや、お前の部屋の方が都合がいい」
+$k
+
+優
+「そ、そうか」
+$k
+
+&empty
+都合がいいって何が？
+聞きたいけれど、怖くて聞けないのはなぜだ。
+$k
+
+&empty
+もう少し笑顔で話してくれるといいんだが。
+$k
+
+優
+「…そういやさ、宮津橋は、どこ受験するんだ？」
+$k
+
+// ISAKI_A201NO
+#sp,vo,04010349
+勇樹
+「Ａ大の法学部だ」
+$k
+
+優
+「法学部？　お前、頭いいもんな」
+$k
+
+&empty
+なんだか意外だ。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010350
+勇樹
+「……弁護士になりたいと思ってる。
+　そうじゃなくても、法律関係の資格のある職業に」
+$k
+
+優
+「へぇ……しっかり将来の事、考えてるんだな」
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010351
+勇樹
+「資格のある職なら、食いっぱぐれないからな。
+　看護師もよかったんだが」
+$k
+
+&empty
+珍しく、宮津橋が饒舌だ。
+宮津橋が、こんな事を考えているなんて
+知らなかった。
+$k
+
+// ISAKI_A201KS
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01KS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010352
+勇樹
+「法律に詳しくなって、損はないからな。
+　誰かに頼らなくてもいい……」
+$k
+
+&empty
+そう呟いた宮津橋の横顔が、ひどく厳しく見えて
+どこか痛々しかった。
+$k
+
+&empty
+このまま誰にも頼らないで生きていくのかと
+思ったら、そのことがすごく寂しく見えた。
+$k
+
+優
+「俺としちゃ、頼ってほしいけどな」
+$k
+
+// ISAKI_A202KT
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010353
+勇樹
+「お前に？　なぜ？」
+$k
+
+優
+「なぜって……まあ、ほら、彼氏なわけだし」
+$k
+
+&empty
+宮津橋がきょとん、と目を見開く。
+$k
+
+&empty
+何を言ってるんだ、お前はと言われそうな気配に
+胸がきりりと痛む。
+$k
+
+// ISAKI_A202KT
+#sp,vo,04010354
+勇樹
+「そういうものなのか」
+$k
+
+優
+「えっと……違うのか？」
+$k
+
+&empty
+前みたいに露骨に避けられる事はなくなったけれど、
+こんなんで恋人同士と言えるのだろうか？
+$k
+
+&empty
+この感じ…。
+仮面カップルをやっていた時と、
+大して変わっていないような気がしてしまう。
+$k
+
+&empty
+じっと、宮津橋は俺を見つめてくる。
+無風の湖面のように静かで――
+どこまでも深い眼差しだ。
+$k
+
+&empty
+目を逸らしてはいけないような気がして、
+俺もじっと宮津橋を見つめ返した。
+$k
+
+&empty
+先に、宮津橋の方が目を逸らす。
+$k
+
+// ISAKI_A201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010355
+勇樹
+「…恋人同士とはそういうものか」
+$k
+
+&empty
+なにか考え込んでいるように俯いている。
+そしてまたまっすぐに俺の方に顔を上げた。
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010356
+勇樹
+「矢崎優」
+$k
+
+優
+「お、おう」
+$k
+
+// ISAKI_A201NO
+#sp,vo,04010357
+勇樹
+「私はお前に頼る気はない」
+$k
+
+&empty
+そうか…、
+こうもはっきり言われると傷つくな……。
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010358
+勇樹
+「でも……お前は私の恋人だ」
+$k
+
+優
+「へっ？」
+$k
+
+// 	ZoomStand( LEFTEDGE, 100, 100, 100 );
+// 	WALK_STAND( LEFTEDGE );
+// 	MoveStand( LEFTEDGE, 100, 100, -50 );
+
+// 	FadeStand( LEFTEDGE, 50, FADE_ALPHA, 0 );
+// 	WaitStand( LEFTEDGE );
+// 	WALK_STOP( LEFTEDGE );
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+そう言うと、俺の服の裾から手を離して、
+先に歩き出してしまった。
+$k
+
+&empty
+今、ニセのってつかなかったよな？
+恋人って言われたよな？
+$k
+
+&empty
+慌てて、遠ざかりそうになるその背中を追いかける。
+$k
+
+&empty
+手を掴むと、びっくりするほど冷たかった。
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_MT_JINJYAMICHI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMICHI01A.jpg,(s),100%
+#ig
+
+// 	CFI();
+
+#show
+
+優
+「なあ、宮津橋」
+$k
+
+// ISAKI_A201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010359
+勇樹
+「なんだ」
+$k
+
+優
+「今度、手袋を買ってやろうか？」
+$k
+
+// ISAKI_A202MU
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02MU.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010360
+勇樹
+「いらない」
+$k
+
+&empty
+しょんぼり。
+なにも、そんなばっさり斬らなくても
+いいじゃないか。
+$k
+
+&empty
+喜んだり落ち込んだり…。
+見えない宮津橋の心に振り回されてばかりだ…。
+$k
+
+&empty
+本当に宮津橋は
+俺を恋人と思ってくれているのだろうか？
+$k
+
+// ISAKI_A202NO
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010361
+勇樹
+「別に手袋なんかいらない」
+$k
+
+&empty
+だから、そんなに何度も言わなくても…。
+$k
+
+// ISAKI_A202BS
+#ir
+#ip,c1,(fi),ISAKI_A202.png,(psi),ISAKI_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010362
+勇樹
+「……これで十分、あったかいからな」
+$k
+
+&empty
+宮津橋は俺がつないだ手に、
+自分から指を絡めてきた。
+$k
+
+優
+「え？」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+&empty
+その言葉を聞き返そうとした時、宮津橋が
+足を止めた。
+$k
+
+// ISAKI_A202NO
+
+#sp,vo,04010363
+勇樹
+「じゃあ……ここで」
+$k
+
+// 	SV( BG_HS_MAE01A );
+// 	SS( CENTER, ISAKI_0201NO );
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir
+#ip,bg,(fi),BG_HS_MAE01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+優
+「あ、ああ」
+$k
+
+&empty
+気がついたら、ハッピーシ～サ～の前まで
+来てしまっていた。
+$k
+
+&empty
+名残惜しいと思いながらも、指を解く。
+$k
+
+優
+「じゃあな」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+店に入ろうとする宮津橋に別れを告げて、
+背を向けた。
+$k
+
+// 	CFO();
+
+#ir
+#ip,bg,(fi),BG_HS_MAE01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010364
+勇樹
+「矢崎優」
+$k
+
+優
+「え？」
+$k
+
+// 	CFI();
+
+// ISAKI_0201MU
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010365
+勇樹
+「なんでもない。呼んでみたかっただけだ」
+$k
+
+優
+「そ、そうか」
+$k
+
+// ISAKI_0201NO
+#ir
+#ip,c1,(fi),ISAKI_A201.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010366
+勇樹
+「それじゃ……またな」
+$k
+
+#sp,se,S_Cowbell02
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+//	SV( BG_HS_MAE01A );
+
+//	CF();
+//	MoveStand( LEFT, 50, 0, 80 );
+//	WALK_STAND( LEFT );
+//	FadeStand( LEFT, 50, FADE_ALPHA, 0 );
+//	WaitFadeStand( LEFT );
+
+//	SV( BG_HS_MAE01A );
+//	CF();
+
+#next,04isaki11_03

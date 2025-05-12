@@ -1,0 +1,297 @@
+﻿// 既読フラグ
+#read_flag,430
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01OD.png,(x),c,(s),80%
+#ig
+
+// 	SS(CENTER, KANAME_A501OD, MOVE_STOP, NORMAL);
+
+&empty
+そしたら、こうするしか今の俺にはなかったんだ。
+$k
+
+優
+「要さん、俺と結婚してください！」
+$k
+
+// KANAME_A501NO3
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021680
+要
+「あ………」
+#meffect,flow,5
+$k
+
+&empty
+頭を下げて、３ヶ月分のリングを差し出す。
+$k
+
+&empty
+要さん…受け取ってくれるかな…。
+$k
+
+// KANAME_A501KB
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021681
+要
+「優君……それ、カッコ悪いって……」
+#meffect,flow,2
+$k
+
+&empty
+そうだろうな。
+正直、俺もそう思う。
+$k
+
+// KANAME_A501MJ3
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01MJ3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021682
+要
+「でも……」
+#meffect,flow,5
+$k
+
+#sp,bgm,BGM_KANDO
+
+// KANAME_A501NO
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021683
+要
+「……ひょっとしたら最高にカッコいいかもね」
+#meffect,flow,5
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelStandAll();
+// 	SV( BG_TD_IMA03E );
+// 	SS( LEFT, CHISEKA_A401MJ );
+// 	SS( RIGHT, KINO_A401IK5 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ip,c1,(fi),KINO_A401IK5.png,(x),r,(s),80%
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01MJ.png,(x),l,(s),80%
+#ig
+
+#show
+
+// KINO_A401IK5
+#sp,vo,06060054
+紀乃
+「…あんたら、人聞き悪いなぁ。
+　あたしゃ、別に騙したりしとらへんで」
+#mfuri,　　　　　　　　　　　　　　　　だま
+
+$k
+
+// CHISEKA_A401OD3
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06040047
+知世翔
+「え？」
+$k
+
+// KINO_A401MJ
+#ir
+#ip,c1,(fi),KINO_A401MJ.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06060055
+紀乃
+「婿殿にはこの事は、
+　前からちゃーんと言うたってるんやで？」
+$k
+
+// 	SS_( LEFT, YUKIHA_A401NO );
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l,(s),80%
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT5.png,(x),r,(s),80%
+#ie,c3
+#ig
+
+// 	SS( RIGHT, MEGUMI_A401KT5 );
+
+// YUKIHA_A401NO
+#sp,vo,06050091
+雪華
+「婿殿って…お兄ちゃんのこと？」
+$k
+
+// MEGUMI_A401KT5
+
+#sp,vo,06070093
+めぐみ
+「言ってたって……。
+$nw,1480
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01OD2.png,(x),r,(s),80%
+#ig
+
+　え？　え？　じゃあ、優ちゃんって、
+　あの病院のこと知ってたの？」
+$k
+
+// KINO_A401MJ
+#sp,vo,06060056
+紀乃
+「要の見合い相手のこと、
+　えらい気にしとったさかいな」
+$k
+
+// 	SS_( LEFT, MII_A402MJ );
+
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),l,(s),80%
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),r,(s),80%
+#ie,c2
+#ig
+
+// 	SS( RIGHT, ISAKI_A401NO );
+
+// MII_A402MJ
+#sp,vo,06030162
+みい
+「……ということは、妊娠ではないということも
+　わかっておられたのでしょうか、お兄様は？」
+$k
+
+// ISAKI_A401MU
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06010031
+勇樹
+「しかし、それなら大騒ぎする必要なかっただろう。
+　私たちに袋にされてまでな」
+$k
+
+// CHISEKA_A401MJ
+
+#sp,vo,06040048
+知世翔
+「そうですよ。わざわざ皆に頭下げたり…」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402IK7 );
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,06000178
+桜子
+「違うでしょ」
+$k
+
+// MEGUMI_A401KT6
+
+#sp,vo,06070094
+めぐみ
+「え？」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000179
+桜子
+「はぁ……勘違いならＯＫ、ってか」
+$k
+
+// CHISEKA_A401MJ
+#sp,vo,06040049
+知世翔
+「どうしたんですか、先輩？」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000180
+桜子
+「あんにゃろう…あたしらを出しにしやがったわね」
+#msmall
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000181
+桜子
+「いい、みんな？
+　この事、お姉ぇには内緒ね」
+$k
+
+// MII_A401KY2
+
+#sp,vo,06030163
+みい
+「どういうことでしょうか？」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000182
+桜子
+「いいから、言う通りにすればいいのっ」
+$k
+
+#hide
+
+#wait,2000
+
+#ss,bgm,(dr),2000
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// スキップ停止。
+#flag,skip,NO,0,0
+
+// ムービー。
+#movie,Ending.mp4
+
+#wait,1000
+
+#next,06kaname25_00

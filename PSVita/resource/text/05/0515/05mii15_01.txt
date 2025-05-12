@@ -1,0 +1,471 @@
+﻿// 既読フラグ
+#read_flag,169
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Cowbell02
+
+#show
+
+#sp,vo,05990087
+店員
+「ありがとうございましたー」
+$k
+
+// 	SV( BG_MT_SHIGAICHI01A );
+
+#sp,bgm,BGM_TANOSHII
+
+// 	SS( CENTER, MII_A903EG );
+
+#ir
+#ip,bg,(fi),BG_MT_SHIGAICHI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+// MII_A903EG
+#sp,vo,05030954
+みい
+「あ、一つ思いつきました」
+$k
+
+優
+「え、何を？」
+$k
+
+// MII_A903NO
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030955
+みい
+「人の居ない静かな場所。
+　神社とかならどうですか？」
+$k
+
+優
+「あー、なるほど。確かに」
+$k
+
+&empty
+確かに神社だったら、お祭りとか正月とか、
+特別な時以外は人は居ないだろうな。
+$k
+
+優
+「…でも、神社でデートってのは、
+　ちょっと無い…かな？　どうだろ？」
+$k
+
+// MII_A903KT
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030956
+みい
+「そうですねー。構わないとは思いますが、
+　罰当たりではないですかね」
+$k
+
+優
+「罰当たりって、そうかな？」
+$k
+
+// MII_A903NS2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030957
+みい
+「そういう神聖な場所でやらしー事をするのは、
+　燃えるものなのかもしれませんが…」
+$k
+
+優
+「とりあえず、その目的は忘れてっ！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_EKI02A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_EKI02A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「あとは、あそこもあるか。
+　通学途中になるけど、休みの日なら
+　そんな人居ないよな」
+$k
+
+// 	SS( CENTER, MII_A903KT );
+
+// MII_A903KT
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030958
+みい
+「どこですか？」
+$k
+
+優
+「下に隠れたりしたら、
+　ちょっと人目を忍ぶ感じがして、
+　デートっぽいかもしれない」
+$k
+
+// MII_A903KM
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030959
+みい
+「人目を忍ぶって、どんな悲恋ですか。
+　というか、どこの事ですか？」
+$k
+
+優
+「まあ、今の表現はアレだけど、
+　のんびりお散歩デート、なんてのには
+　いいんじゃないかなー？」
+$k
+
+// MII_A902SP
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030960
+みい
+「ですから場所は…」
+$k
+
+優
+「いや、そんな大した場所じゃないよ。
+　いつも見てるところだから」
+$k
+
+&empty
+悩んでるみいちゃんが面白くて、
+つい答えをはぐらかしてしまう。
+$k
+
+// MII_A903FK
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030961
+みい
+「むう…もういいですっ。
+　考えますから！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+あらら、ふくれちゃった。
+ちょっと意地悪だったかな？
+$k
+
+&empty
+でも、本当になんでもない場所だからなー。
+$k
+
+&empty
+とか、思ってるうちにも、
+みいちゃんはトコトコ先に行ってしまう。
+$k
+
+&empty
+日が落ちてきているうえに人通りも多いから、
+時々人混みに紛れて見失いそうになる。
+$k
+
+優
+「みいちゃん、待って」
+$k
+
+// 	Shake( NORMAL, SHAKE_DOWN, 10, NORMAL );
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Pon02
+
+&empty
+俺は、みいちゃんを追いかけると、
+手を伸ばし、きゅっとその手を握る。
+$k
+
+// 	SS( CENTER, MII_A901TR, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01TR.png,(x),c,(s),80%
+#ig
+
+&empty
+ちっちゃくて、ふんわりとしていて温かい手。
+$k
+
+// MII_A903KD
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030962
+みい
+「あ……」
+$k
+
+&empty
+俺の手の平に、すっぽりと収まった手を見て
+みいちゃんが声を漏らした。
+$k
+
+// MII_A903EG2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030963
+みい
+「…お兄様」
+$k
+
+優
+「手を繋いでおかないと、
+　みいちゃん、見失っちゃいそうだもんな」
+$k
+
+#ss,bgm
+
+// MII_A903FK
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030964
+みい
+「……むぅぅっ」
+$k
+
+&empty
+何故か、みいちゃんの眉間に皺が寄っている。
+$k
+
+優
+「手を繋ぐの、嫌だった？」
+$k
+
+// MII_A903FK2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03FK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030965
+みい
+「手を繋ぐのは嫌ではありません」
+$k
+
+優
+「でも…なんか怒ってない？」
+$k
+
+// MII_A903IK
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030966
+みい
+「いいんです。
+　お兄様は何もわかってないだけですから」
+$k
+
+優
+「あの…さっきのなら謝るよ。
+　さっきの正解は…」
+$k
+
+// MII_A902IK
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030967
+みい
+「そんなのはどうでもいいんですっ！」
+$k
+
+優
+「うそぉ！？」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY02A.jpg,(s),100%
+#ig
+
+&empty
+……初めてのデートは、
+なんだか、とてもぎこちないものになってしまった。
+$k
+
+&empty
+なんでだかさっぱりわからないんだけど。
+$k
+
+&empty
+でも…みいちゃんとは
+これから仲良くなっていけりゃいいんじゃないかな。
+$k
+
+&empty
+みいちゃんと一緒にいられれば、
+それだけで楽しいのは事実だし、
+まだこれからも時間はたっぷりあるのだから。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Water11
+
+// 	SV( BG_TD_FURO03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_FURO03A.jpg,(s),100%
+#ig
+
+#sp,env,S_Water07#
+
+#show
+
+// MII_0A03AD2
+
+#sp,vo,05030968
+みい
+「はあああぁぁ～～～っ」
+$k
+
+// YUKIHA_0A01KT
+
+#sp,vo,05050068
+雪華
+「どうしたの、みいちゃん。
+　そんな大きなため息ついて？」
+$k
+
+// MII_0A03SN2
+
+#sp,vo,05030969
+みい
+「……どうせ妹ですからねっ」
+$k
+
+// YUKIHA_0A01OD3
+
+#sp,vo,05050069
+雪華
+「えぇっ？　私が何か！？」
+#mlarge
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_mii.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,env,(dr),1000
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,05mii16_00

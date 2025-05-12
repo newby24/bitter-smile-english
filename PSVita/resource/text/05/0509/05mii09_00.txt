@@ -1,0 +1,842 @@
+﻿// 既読フラグ
+#read_flag,143
+
+// セーブタイトル
+#flag,save_title,みい　第９話,0,0
+
+#sp,se,Title_Jingle02
+
+#ir,(dr),2000
+#ip,bg,(fi),image\stitle\stitle_rootstart_mi.jpg
+#ig
+
+$k
+
+#ss,se,(dr),1000
+
+// トロフィー。
+#trophy,2
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SetSubTitle( 2 );		//章タイトル表示
+
+// 	WaitSubTitle();
+// 	SV( BG_TD_1FROKA01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_1FROKA01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第９話　おかしい？
+$k
+#note,erase
+
+#show
+
+#sp,vo,05040022
+？？？
+#mstyle,(co),知世翔
+「ねえ、もう替えない？」
+$k
+
+#sp,vo,05030460
+？？？
+#mstyle,(co),みい
+「お待ちください。もうちょっとだけ…」
+$k
+
+&empty
+轟木家に上がりこむと、
+居間から話し声が聞こえてきた。
+$k
+
+&empty
+みいちゃんと桜子かな？
+$k
+
+#hide
+
+//	BGMFade(SLOWER, 0);
+//	SetSubTitle( 2 );		//章タイトル表示
+// 	SV( BG_TD_IMA01C );
+
+// 	SS( RIGHT, CHISEKA_0401NO );
+
+// 	SS( LEFT, MII_0401SN3 );
+
+//	FI( 0 );
+//	WaitSubTitle();
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01C.jpg,(s),100%
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01SN3.png,(x),l,(s),60%
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO.png,(x),r,(s),60%
+#ig
+
+//	BGMFade(SLOWER, 100);
+
+#show
+
+優
+「あれ？」
+$k
+
+// MII_0401AS
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AS.png,(x),l,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),400,(y),50
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030461
+みい
+「…っ」
+$k
+
+// CHISEKA_0401EG3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040023
+知世翔
+「あ、お邪魔してまーす」
+$k
+
+&empty
+こたつでテレビを見てるのは、
+ここでは珍しいコンビだった。
+$k
+
+#ss,bgm
+
+// CHISEKA_0401KB2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB2.png,(x),r,(s),60%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\tameiki.png,(x),540,(y),230,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op3,(x+),-30,(y+),30,(al),100%
+#ia,op3,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,05040024
+知世翔
+「…って、あなたに言う必要ないか」
+$k
+
+#sp,bgm,BGM_MII
+
+優
+「みいちゃん、なんでこの刺々しいのがいるのかな？」
+$k
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),170,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+// MII_0401AS
+#sp,vo,05030462
+みい
+「お、お兄様こそどうされたんですかっ？」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+// CHISEKA_0401IK
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040025
+知世翔
+「ちょっと、人に指さすなんて…
+$nw,3060
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),r,(s),60%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\hatena.png,(x),700,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op3,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+　どうしたのみい？」
+
+$k
+
+#ir,(ef),off
+#ie,op3
+#ig
+
+優
+「えと、俺が何？」
+$k
+
+// MII_0401KS
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030463
+みい
+「あ、いえ…すみません。
+　部屋で勉強されていると思ったもので」
+$k
+
+// CHISEKA_0401KB2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040026
+知世翔
+「そうね。なんでこっち来たんですか？
+$nw,3840
+
+　…来なくていいのに」
+#msmall
+
+$k
+
+//	SetIconIkari( RIGHT );
+
+優
+「聞こえてるぞ。
+　いいじゃん休憩くらい。俺もこたつに…
+$nw,1000
+
+#sp,se,S_Basa02
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+　って、お」
+
+$k
+
+// 	Shake( NORMAL, SHAKE_UP, 20, NORMAL );
+
+// 	SS_( RIGHT, CHISEKA_A401IK );
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),r,(s),80%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, MII_A403KM3 );
+
+// CHISEKA_A401IK
+#sp,vo,05040027
+知世翔
+「ちょっと、いきなり入ってこないでください！」
+$k
+
+優
+「いいだろ、俺、この番組好きなんだよ」
+$k
+
+&empty
+二人が見てたのは、
+タレントが街を散歩するだけの癒し系バラエティだった。
+$k
+
+&empty
+とくに何があるわけでもないんだけど、
+地方の知らない街並みや住んでいる人達との会話に
+なんとなく時間を忘れて見てしまう魅力がある。
+$k
+
+&empty
+俺の部屋にはテレビがないので、
+放送時間にたまたまここに居たら、
+よくだらだらと見てたりする。
+$k
+
+// CHISEKA_A401KM
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05040028
+知世翔
+「こら、新入りはもう少し遠慮しなさい」
+$k
+
+// MII_A403TR4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05030464
+みい
+「お兄様の足が…」
+$k
+
+優
+「いや～ぬくいぬくい。
+　しかし、いい若いもんが、
+　冬休み早々こたつでテレビとはけしからんな」
+$k
+
+// CHISEKA_A401KB2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05040029
+知世翔
+「だって、みいが見たいって言うんですもん」
+$k
+
+優
+「みいちゃんが？」
+$k
+
+// MII_A403SN
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),l,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),90,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05030465
+みい
+「べ、別に意味はありませんよ」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「じゃあなんで見てんの？」
+$k
+
+// MII_A403TR
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05030466
+みい
+「………」
+$k
+
+優
+「………」
+$k
+
+&empty
+…なんか変な沈黙の間が。聞いちゃいけなかった？
+$k
+
+&empty
+いや、俺はみいちゃんが時代劇以外を
+積極的に見てるのが珍しいと思っただけだけどさ。
+$k
+
+// CHISEKA_A401KM3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05040030
+知世翔
+「なんかずっとこんな感じなんですよ。
+　さっきだって…」
+$k
+
+//	SetIconBikkuri( LEFT );
+// MII_A403KD2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05030467
+みい
+「ち、知世翔さん」
+$k
+
+// CHISEKA_A401KB
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KB.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05040031
+知世翔
+「別にたいした話じゃないじゃない」
+$k
+
+// MII_A403TR
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR.png,(x),l,(s),80%
+#ig
+
+// MII_A403TR3
+#sp,vo,05030468
+みい
+「そうですけど…今はちょっと」
+$k
+
+優
+「ん？」
+$k
+
+&empty
+なんだ？
+ちらっとこっちを見た？
+$k
+
+&empty
+俺に聞かれたくない話でもあるとしたら…
+$k
+
+&empty
+余計知りたくなるのが人情ってもんだ。
+$k
+
+優
+「なにな…
+$nw,1000
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),l,(s),80%
+#ig,(se),S_Mugyu01
+
+#madd,痛あっ！？」
+
+$k
+
+// 	SS( LEFT, MII_A403FK );
+// 	SK2( SLOW, 6, 10 );
+
+// CHISEKA_A401OD3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),r,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\bikkuri.png,(x),720,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,05040032
+知世翔
+「え…なによいきなり？　どうしたの？」
+$k
+
+// MII_A403FK
+
+#sp,vo,05030469
+みい
+「………」
+$k
+
+優
+「いや…なんでもない」
+$k
+
+&empty
+っつ～…
+この反応を見るに、みいちゃんの仕業か。
+$k
+
+&empty
+こたつの中の…足つねられた。
+なんか意味がわからんが。
+$k
+
+&empty
+…まあいいや。
+これ以上首つっこまないで、テレビでも見てよっと。
+$k
+
+&empty
+目的があって見るような番組でもないしな。
+$k
+
+&empty
+こうやって何も考えずダラダラと…。
+$k
+
+優
+「………」
+$k
+
+//	SM( CHAR_MII,			MII_0101NO,			"みい",			"@v05030470「…（じーっ）」" );
+//	SM( CHAR_CHISEKA,		CHISEKA_0101NO,		"知世翔",		"@v05040033「…（じ～っ）」" );
+// 	SS_( LEFT, MII_A402MJ );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),l,(s),80%
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NR.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, CHISEKA_A401NR );
+
+#sp,vo,05030470a
+みい＆知世翔
+「…（じーっ）」
+$k
+
+優
+「………」
+$k
+
+&empty
+いや、え～っとさ…。
+$k
+
+優
+「君たちは、なぜテレビでなく俺を見る…？」
+$k
+
+// CHISEKA_A401KM3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),r,(s),80%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\hatena.png,(x),720,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op3,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,05040034
+知世翔
+「面白い？」
+$k
+
+優
+「でなきゃ見ないだろ」
+$k
+
+// CHISEKA_A401KM3
+#sp,vo,05040035
+知世翔
+「どの辺が？」
+$k
+
+優
+「は？」
+$k
+
+// 	DelIconAll();
+
+#ir,(ef),off
+#ie,op3
+#ig
+
+// CHISEKA_A401SN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01SN.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05040036
+知世翔
+「笑いどころって言うの？
+　なんかよくわかんなくて」
+$k
+
+優
+「めんどくさいことを…」
+$k
+
+&empty
+まあ、さっきの口ぶりだと、
+有河は付き合わされてるだけみたいだったしな。
+$k
+
+優
+「ちょっと教えてやってよ、みいちゃん」
+$k
+
+#ss,bgm
+
+// MII_A402SP
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02SP.png,(x),l,(s),80%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),320,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,05030471
+みい
+「…どこが面白いんでしょう？」
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+// 	SK2( SLOW );
+
+// 	SS_( LEFT, MII_0402SP );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( RIGHT, CHISEKA_0401SN );
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,c1,(x),l,(s),60%
+#ip,c3,(x),r,(s),60%
+#ie,op1
+#ig
+
+優
+「見なきゃいいじゃん！！！」
+$k
+
+// MII_0403KM2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030472
+みい
+「知世翔さんと一緒に検証してみたのですが、
+　何と言いますか判然としなくて」
+$k
+
+優
+「バラエティって、そういうもんじゃないだろ」
+$k
+
+// MII_0403KM4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030473
+みい
+「ドラマの類はけっこう見るのですが、
+　バラエティはどうも疎くて」
+
+#mfuri,　　　こっちほうめん
+
+$k
+
+// CHISEKA_0401TR
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040037
+知世翔
+「私はテレビ自体そんなにね」
+$k
+
+優
+「だからなんで見てたのさ？」
+$k
+
+// MII_0403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030474
+みい
+「えっと…この番組」
+$k
+
+優
+「うん」
+$k
+
+// MII_0403MU
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030475
+みい
+「全体にゆるい雰囲気で…、
+　見てると眠気を誘いますね」
+$k
+
+優
+「まあ、リラックスできるというか…」
+$k
+
+// MII_0403KM3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030476
+みい
+「知らない場所の食べ物はおいしそうですが、
+　食べにはいけないのが残念ですね」
+$k
+
+優
+「……そういう目的の番組じゃないからね」
+$k
+
+#ss,bgm
+
+// MII_0403KD2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030477
+みい
+「ああ、そうそう、この番組…」
+$k
+
+優
+「おっ」
+$k
+
+// MII_0403NO
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030478
+みい
+「ナレーションの声が変ですね」
+$k
+
+// 	SK2( NORMAL );
+
+#sp,bgm,BGM_COMICAL1
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「俺の好きなものを貶すために見てんのか！？」
+
+#mfuri,　　　　　　　　　　　　　　　　　　けな
+
+$k
+
+// MII_0401AS
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AS.png,(x),l,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),170,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05030479
+みい
+「あ、いえ、決してそういうわけでは…」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「鬼…！
+　鬼の子かこの娘は！」
+$k
+
+// MII_0401OD2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01OD2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030480
+みい
+「ですから…」
+$k
+
+優
+「ひ～っ、また俺を言葉で殺す気か！？」
+$k
+
+// CHISEKA_0401KM3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05040038
+知世翔
+「聞いてないみたいよ」
+$k
+
+// MII_0401SN3
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01SN3.png,(x),l,(s),60%
+#ig
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ikari.png,(x),*400,(y),*120
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op1,(s),120%
+#ig
+
+#sp,vo,05030481
+みい
+「………」
+$k
+
+#hide
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+#sp,se,T_Button01
+
+#wait,500
+
+// 	WaitSE();
+
+
+#next,05mii09_01

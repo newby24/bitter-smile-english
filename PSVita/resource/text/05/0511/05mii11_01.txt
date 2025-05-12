@@ -1,0 +1,830 @@
+﻿// 既読フラグ
+#read_flag,150
+
+// MII_A403TR4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030640
+みい
+「今日は…お渡ししたいものがありまして」
+$k
+
+優
+「っ！？」
+$k
+
+&empty
+その言葉に大歓迎で喜び…そうになるが、
+寸前で踏みとどまる。
+$k
+
+&empty
+なんせ、相手はあのみいちゃんだ。
+$k
+
+優
+「渡したいもの…トラバサミとか？」
+$k
+
+// MII_A403KB
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030641
+みい
+「…お兄様は私をどう認識されてるのです」
+$k
+
+優
+「浮かれて手を出したとこにガチーン！
+　で、ふははは！明日はペンが握れまい馬鹿め！と」
+$k
+
+//	BFP( BGM_COMICAL1 );
+// 	BF( NORMAL, 0 );
+
+#ss,bgm
+
+// MII_A401BS
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01BS.png,(x),c,(s),80%
+#ig
+
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kyakya.png,(x),620,(y),30
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),no_limit
+#ip,op1,(x+),10,(y+),10
+#ig
+
+#sp,vo,05030642
+みい
+「ふはははははは」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+// MII_A401SN2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01SN2.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#sp,vo,05030643
+みい
+「戻ります。
+　明日はお腹でもくだして、
+　地獄の苦しみを味わってください」
+$k
+
+優
+「うそうそっ嘘だから！」
+$k
+
+// 	SS( CENTER, MII_A403SN );
+// 	BF( SLOW );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),c,(s),80%
+#ig
+
+&empty
+踵を返すみいちゃんの行く手を遮るように回り込んだ。
+$k
+
+優
+「いやごめん。
+　嬉しくて、つい照れ隠しでさっ」
+$k
+
+// MII_A403SN2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030644
+みい
+「………」
+$k
+
+&empty
+半分は警戒心なんだけど、
+それは黙っておこう。
+$k
+
+&empty
+みいちゃんが俺の受験を応援してくれるというなら
+素直に嬉しいのは確かだし。
+$k
+
+// MII_A403KM3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030645
+みい
+「仕方ないかもしれませんね。
+　お兄様のためにここまでするボランティア、
+　私くらいなものでしょうし」
+$k
+
+優
+「あざーっす」
+$k
+
+&empty
+みいちゃんの機嫌がよくなるよう、
+とりあえず、元気に返事しておく。
+$k
+
+// MII_A402NO
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030646
+みい
+「本当は、こないだの初詣で買っていたものですが…」
+$k
+
+優
+「なら、その時渡してくれればよかったのに」
+$k
+
+// MII_A402KB
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030647
+みい
+「そうしたかったんですけどね。
+　主にお兄様のせいで機会を失ってしまいまして」
+$k
+
+優
+「え、俺のせい？」
+$k
+
+&empty
+俺なんか悪い事したっけ？
+$k
+
+// MII_A402SP
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030648
+みい
+「記憶にないという顔ですね」
+$k
+
+優
+「えっと…」
+$k
+
+// MII_A403AD3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),c,(s),80%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),230,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+
+#sp,vo,05030649
+みい
+「つまり、私とのことなどその程度だと」
+$k
+
+優
+「い、いや待って、なんとなく覚えてるような…！」
+$k
+
+&empty
+そういや、何かくれるとか言ってて、
+いきなり罵倒されたような覚えが…？
+$k
+
+// MII_A403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030650
+みい
+「まあ、別に差し上げるのは構いませんけど。
+　気まぐれで買ったものですし」
+$k
+
+優
+「そりゃそうだろうけど」
+$k
+
+// MII_A403SN
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030651
+みい
+「…全っ然わかってないですよねー」
+#msmall
+$k
+
+優
+「え、今なんて？」
+$k
+
+// MII_A403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030652
+みい
+「私が持っていても意味のないものですからと」
+$k
+
+&empty
+そんな感じだったっけ？
+…まあ、いいけど。
+$k
+
+優
+「でもほんと、ここまでしてくれるのは、
+　みいちゃんだけだなぁ」
+$k
+
+// MII_A403AD4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030653
+みい
+「仕方ないですねぇ、お兄様は」
+$k
+
+// 	SS( CENTER, MII_A403KD2 );
+
+&empty
+言いながら、みいちゃんはポケットから
+何かを取り出し…
+$k
+
+#hide
+
+#sp,se,S_Door03o
+
+#wait,500
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD2.png,(x),c,(s),80%
+#ig
+
+// 気づきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kiduki.png,(x),520,(y),30,(ag),-20d
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#wait,500
+
+#show
+
+優
+「…どうかした？」
+$k
+
+// MII_A403KD2
+
+#sp,vo,05030654
+みい
+「今、誰か来ませんでした？」
+$k
+
+&empty
+いや、何かを出す直前で動きを止めていた。
+$k
+
+// MII_A403KT
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030655
+みい
+「裏口が開いた音がしたような」
+$k
+
+優
+「いや、俺は全然そんなの…」
+$k
+
+#sp,se,T_Walk04i
+
+// MII_A401OD
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030656
+みい
+「っ！？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+優
+「お、階段の音。
+　みいちゃん耳いい…って、何してんの？」
+$k
+
+#sp,se,S_Husuma02o
+
+// 	SV( BG_SJ_YU03B );
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03B.jpg,(s),100%
+#ig
+
+&empty
+何故かみいちゃんは、
+押入れの中に退避しようとしていた。
+$k
+
+// MII_A401AS
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AS.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05030657
+みい
+「べ、別にお気になさらずに」
+$k
+
+優
+「気になるよ！？」
+$k
+
+// MII_A401KB
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KB.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05030658
+みい
+「しかし誰かに見つかっては…」
+$k
+
+優
+「いや、隠れる必要ないだろ。
+　やましいことなんてないんだから」
+$k
+
+// MII_A403KM3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05030659
+みい
+「お兄様はそうかもしれませんが…」
+$k
+
+優
+「なに？」
+$k
+
+// MII_A403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05030660
+みい
+「万が一でも、お兄様なんかと
+　変な誤解をされたくないんです」
+$k
+
+優
+「酷いし、それこそ誤解を呼ぶ行動だと…」
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,S_Knock03
+
+#wait,1000
+
+// 	WaitSE();
+
+#show
+
+#sp,vo,05020001
+要
+「優くん起きてるー？
+　かなさんだよー」
+$k
+
+優
+「え、要さん？」
+$k
+
+&empty
+要さんが、なんで俺の部屋なんかに…？
+$k
+
+// MII_A403IK2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05030661
+みい
+「…嬉しそうですね」
+$k
+
+優
+「そんなわけないだろ」
+$k
+
+// MII_A403KB2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KB2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05030662
+みい
+「顔、にやけてますよ」
+$k
+
+優
+「うそっ！？」
+$k
+
+// MII_A401SN2
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01SN2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05030663
+みい
+「ではごきげんよう…。ぷい」
+$k
+
+#ir,(sync),NO
+#ie,c1
+#ig
+
+#sp,se,S_Husuma02c
+
+// 	SV( BG_SJ_YU03A );
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+優
+「って、おいこら」
+$k
+
+&empty
+みいちゃんは押入れの二段目によじ登ると、
+言いたいことだけ言って
+岩戸のように押入れを閉めてしまった。
+$k
+
+優
+「なんなんだ…」
+$k
+
+#sp,vo,05020002
+要
+「なになにー？
+　誰かとやまちーことでもしてるのかなあ？」
+$k
+
+優
+「してないですよ！」
+$k
+
+&empty
+こうなった以上、
+みいちゃんの意思を尊重して隠し通すしかない…かあ？
+$k
+
+&empty
+いっか。ややこしいの面倒だし。
+$k
+
+優
+「ど、どうぞー」
+$k
+
+#hide
+
+#ss,bgm
+
+#sp,se,S_Door03o
+
+#wait,500
+
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),r0,(s),60%,(al),0%
+#ig
+
+// 	WaitSE();
+
+#sp,se,S_Door03c
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	WaitSE();
+
+// 	SS( CENTER, KANAME_0402EG, MOVE_RIGHT );
+
+#sp,bgm,BGM_KANAME
+
+#show
+
+// KANAME_0402EG
+
+#sp,vo,05020003
+要
+「おっじゃましまーす」
+$k
+
+&empty
+部屋に入ってくるなり、
+部屋中をきょろきょろ見回す要さん。
+$k
+
+// KANAME_0402KT
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02KT.png,(x),c,(s),60%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),480,(y),10,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,05020004
+要
+「あれ、ほんとにひとりだ」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+優
+「どういう意味ですか」
+$k
+
+// KANAME_0402MU
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020005
+要
+「裏口につっかけあったから。
+　誰か来てるのかなーって思って」
+$k
+
+優
+「ははっ、やだなー。
+　誰が来るっていうんですかー」
+$k
+
+&empty
+みいちゃんも、さすがにそこまで気が回らなかったか。
+$k
+
+// KANAME_0402RK
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02RK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020006
+要
+「でも、今誰かいたような気がしたんだけどなー」
+$k
+
+優
+「見てのとおりですよ。
+　どこにいるってんですか」
+$k
+
+// KANAME_0402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020007
+要
+「じゃあ、押入れで隠れてペット飼ってるとか。
+　優くんならやってそーじゃない？」
+$k
+
+#ir,(ef),beat,(q),2
+#ig,(se),W_Heart01#
+
+// 	SK2( NORMAL );
+
+
+// 	WaitSE();
+
+#wait,500
+
+優
+「あははははー。
+　そんなわけないじゃないですかあ。
+　子供じゃあるまいしー」
+$k
+
+&empty
+要さん、変なとこだけ鋭いな。
+$k
+
+&empty
+俺は心の中で、密かに警戒レベルを上げた。
+$k
+
+// KANAME_0401KM2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020008
+要
+「だったら何して…」
+$k
+
+// KANAME_0401KM
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),c,(s),60%
+#ig
+
+// 気づきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kiduki.png,(x),520,(y),30,(ag),-20d
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+// 	SS( CENTER, KANAME_0401KT );
+
+#wait,500
+
+// KANAME_0401KM
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM.png,(x),c,(s),60%
+#ig
+
+
+#sp,vo,05020009
+要
+「………」
+$k
+
+優
+「ちょっ、なに想像したんです…！」
+$k
+
+// KANAME_0401RK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020010
+要
+「べ、べっつに～？」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+優
+「何故さりげにゴミ箱の中確認するですか」
+$k
+
+// KANAME_0401US3
+
+#sp,vo,05020011
+要
+「…くんくんくん」
+$k
+
+優
+「なんの痕跡を探してんすか！？」
+$k
+
+// 	MoveStand( CENTER, 20, 0, 0 );
+// 	SS( CENTER, KANAME_0401KM );
+
+// KANAME_0401KM
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020012
+要
+「い、言わせたいわけ…？」
+$k
+
+優
+「聞きたくないですけどっ。
+　と、とりあえずお茶持ってきますね」
+$k
+
+// KANAME_0401KT2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KT2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020013
+要
+「あ、お構いなく。
+　一階まで汲みに行かなきゃいけないでしょ」
+$k
+
+優
+「でも寒い中来てもらったわけですし」
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020014
+要
+「たいしたことじゃないって」
+$k
+
+優
+「いえ、お客様にお茶も出さないとあっては、
+　雪華ちゃんに怒られますから」
+$k
+
+#sp,se,S_Tel15
+
+#wait,500
+
+//	SetIconExcl( CENTER );
+
+// KANAME_0401KT
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020015
+要
+「ん…なあに？」
+$k
+
+
+#next,05mii11_02

@@ -1,0 +1,413 @@
+﻿// 既読フラグ
+#read_flag,154
+
+優
+「いや、だから…あのね？」
+$k
+
+// MII_0403KM4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,05030667
+みい
+「お兄様…ごめんなさい…。
+　私が勝手にこんなことをしたばかりに…」
+$k
+
+優
+「ほらほら、みいちゃんもこう言ってるでしょ？」
+$k
+
+// MII_0403NK4
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NK4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,05030668
+みい
+「でも…私、本当に……」
+$k
+
+// YUKIHA_0401NK
+
+#sp,vo,05050039
+雪華
+「みいちゃん……」
+$k
+
+&empty
+雪華ちゃんまで！？
+なんか変な世界に誘導されてるっ。
+$k
+
+// MII_0403NK5
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NK5.png,(x),c,(s),100%
+#ig
+
+#sp,vo,05030669
+みい
+「……うぅ…」
+$k
+
+優
+「あれ…？」
+$k
+
+#ss,bgm
+
+&empty
+もしかして、みいちゃんホントに泣いて……。
+$k
+
+優
+「み、みいちゃん……あの……」
+$k
+
+// 	SV( BG_SJ_YU03B );
+// 	ShowFace();
+
+// 	SS( CENTER, MII_0401NO );
+
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),c,(s),100%
+#ig
+
+
+// MII_0401NO
+#sp,vo,05030670
+みい
+「…というわけで、さようなら…
+$nw,2350
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,bg,(fi),BG_SJ_YU03B.jpg,(s),100%
+#ig,(se),S_Binta01
+
+　ていっ」
+$k
+
+// 	SV( BG_SJ_YU03B );
+// 	SK2();
+
+優
+「あ痛たあ！？」
+#mlarge
+$k
+
+&empty
+や…やられたっ！
+$k
+
+#hide
+
+#sp,se,S_Door03o
+
+#wait,500
+
+// 	WaitSE();
+
+#sp,se,S_Door03c
+
+// 	WaitSE();
+
+#show
+
+&empty
+去り際に、なにかを顔にぶつけられ、
+みいちゃんはドラマのような勢いで去っていった。
+$k
+
+優
+「いつつつ…」
+$k
+
+// YUKIHA_0401KT
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05050040
+雪華
+「なにこれ…？」
+$k
+
+&empty
+雪華ちゃんが、俺の鼻にぶつかって床に落ちた、
+みいちゃんの投げたものを拾い上げる。
+$k
+
+// YUKIHA_0401NO
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05050041
+雪華
+「おまもりだ」
+$k
+
+優
+「あ…」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+これって…
+みいちゃんが俺に渡そうとしてくれてたもの？
+$k
+
+優
+「そうか…きっとみいちゃんも、
+　俺にお守りを渡そうとしてくれてたんだな」
+$k
+
+優
+「そして俺を驚かそうと押入れに隠れて…」
+$k
+
+// 	SS( CENTER, SAKURAKO_0402IK7 );
+//	SetIconIkari( CENTER );
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000069
+桜子
+「あんた、そんなおざなりな説明口調で、
+　誤魔化せると思わないでよ」
+$k
+
+#sp,bgm,BGM_SYOSO
+
+優
+「あーやっぱり？」
+$k
+
+// SAKURAKO_0402IK7
+#sp,vo,05000070
+桜子
+「とりあえず、みいが押入れに隠れてた経緯と、
+　どこまでがいたずらだったのか聞きましょうか」
+$k
+
+// 	SS( RIGHT, KANAME_0401NO2 );
+
+//	SetIconKyakya( RIGHT );
+// KANAME_0401NO2
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05020057
+要
+「うんうん、姉としてそこんとこ詳しく！
+　根掘り葉掘りお願いねっ」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000071
+桜子
+「話が終わるまで寝れないからね」
+$k
+
+優
+「俺、明日センターなんですけど」
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000072
+桜子
+「それは奇遇ね。あたしもよ」
+$k
+
+優
+「覚悟の上かよ…」
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05020058
+要
+「で？　で？
+　みいちゃんはここで何を？」
+$k
+
+優
+「それはむしろ俺が聞きたいところで…」
+$k
+
+// 	SS( LEFT, YUKIHA_0401OD, MOVE_LEFT, FAST );
+
+// YUKIHA_0401OD
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01OD.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,05050042
+雪華
+「お兄ちゃん、みいちゃんを泣かせたの！？」
+$k
+
+// SAKURAKO_0402IK8
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000073
+桜子
+「………」
+$k
+
+優
+「違うんだ。いつも泣かされてるのは、
+　俺の方なんだよ、雪華ちゃん…」
+$k
+
+// YUKIHA_0401NI
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NI.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,05050043
+雪華
+「酷い、そんな言い方。
+　お兄ちゃんサイテー！」
+$k
+
+優
+「ああぁ……」
+$k
+
+// 	BF( SLOW, 50 );
+
+&empty
+とりあえず明日のセンター…。
+$k
+
+// 	BF( SLOW, 25 );
+
+&empty
+途中で寝ないようにだけお守りに祈っておこう。
+$k
+
+&empty
+いや、その前にこの状況を打破…
+って、それは守備範囲外か。
+$k
+
+#ss,bgm
+
+#sp,se,T_ti-n01
+
+&empty
+家内安全のお守りとかなら良かったのだろうか…？
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03E );
+
+//	BFP( BGM_KANASHIMI );
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NK2.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0403NK2
+
+#sp,vo,05030671
+みい
+「お兄様の馬鹿…」
+$k
+
+// MII_0403KM3
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030672
+みい
+「…ダメですね。
+　もう少し、素直にならないと……」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+//	BFO();
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_mii.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,05mii12_00

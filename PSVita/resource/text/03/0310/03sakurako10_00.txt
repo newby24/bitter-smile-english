@@ -1,0 +1,910 @@
+﻿// 既読フラグ
+#read_flag,286
+
+// セーブタイトル
+#flag,save_title,桜子　第１０話,0,0
+
+// 	SV( BG_SKY03A );
+
+#sp,env,S_Gaya01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第１０話　三つ数えて
+$k
+#note,erase
+
+#show
+
+優
+「初詣は近所の神社かよ。つまんねえなー」
+$k
+
+// SAKURAKO_0402AK
+
+#sp,vo,03000415
+桜子
+「そんな事言うとバチが当たるわよ。
+$nw,2670
+
+　受験に落ちるとか」
+$k
+
+優
+「おまっ…こんなところで
+　縁起でもない事を、なんて怖い奴だ！」
+$k
+
+// 	SF( 0, SLOWEST );
+
+&empty
+年越し蕎麦を食い終えて、
+その足で初詣に向かう俺達。
+$k
+
+&empty
+絶対に寒いと思われた外は、
+気温が低いはずなのに、
+それほど寒さを感じる事はなかった。
+$k
+
+&empty
+それは…、
+みんなで一緒に歩いているせいかもしれない。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SEStop( 0 );
+//	SetSubTitle();		//章タイトル表示
+// 	SV( BG_MT_JINJYAMAE03A );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE03A.jpg,(s),100%
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02NO.png,(x),c,(s),60%
+#ig
+
+// 	SS( CENTER, KANAME_0202NO );
+
+#show
+
+// KANAME_0202NO
+
+#sp,vo,03020113
+要
+「おおっ？　結構人いるねー。
+$nw,3600
+
+#ir
+#ip,c1,(fi),KANAMEn_A202.png,(psi),KANAMEn_An02EG.png,(x),c,(s),60%
+#ig
+
+　みんな、早くお参りしよーっ、ほらほらっ」
+$k
+
+// KANAME_0203IT3
+#ir
+#ip,c1,(fi),KANAMEn_A203.png,(psi),KANAMEn_An03IT3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03020114
+要
+「うーん、今年は何をお願いしよっかなー。
+$nw,4860
+
+#ir
+#ip,c1,(fi),KANAMEn_A203.png,(psi),KANAMEn_An03AY2.png,(x),c,(s),60%
+#ig
+
+　美味しいお酒が、たくさん飲めますように、かな♪」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+なんて要さんらしい平和な願い事なんだ。
+$k
+
+&empty
+俺は桜子の暴力が減りますようにー、かな。
+$k
+
+// KINO_0401BS2
+#ir
+#ip,c3,(fi),KINOn_A401BS2.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,03060020
+紀乃
+「みい、雪華ちゃん、
+　足下暗いさかい、気い付けて歩きや」
+$k
+
+#sp,vo,03990028
+みい＆雪華
+「はい」
+$k
+
+&empty
+雪華ちゃんはもう完全に目が覚めたみたいだ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAKEIDAI03B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03B.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+なんとなく桜子の隣になるよう歩調を合わせつつ、
+人の波に乗りながら、賽銭箱の前までやってくる。
+$k
+
+優
+「えっと、作っておいた５円はどこだ…」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402IK4 );
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000416
+桜子
+「５円？
+$nw,1480
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+　お賽銭ならもっとはずみなさいよ。
+　あんたもう運か神頼みしかないんだから」
+$k
+
+優
+「これでも俺は頑張ってるんだよ」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000417
+桜子
+「じゃああたしは五百円を…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「マジかよ！？　
+　お前、金持ちだなっ」
+$k
+
+// SAKURAKO_A401AK
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000418
+桜子
+「ここでケチって痛い目に遭うのやだもの」
+$k
+
+優
+「いいや、神様は金額なんて気にしないはず」
+$k
+
+// SAKURAKO_A401AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000419
+桜子
+「ふうん、じゃあ好きにすればー？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+結局５０円を賽銭箱に入れて、二拝する。
+$k
+
+&empty
+お賽銭にそれだけ払ったのだから、
+いつもの１０倍は御利益が欲しい。
+$k
+
+&empty
+例えば桜子の暴力が減るどころか無くなるとか、
+勉強せずに超難関校に楽々合格できるぐらいの。
+$k
+
+#hide
+
+// 	SV( VISUAL_SAKURAKO_08A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_SAKURAKO_08A.jpg,(s),75%
+#ig
+
+#show
+
+#sp,vo,03000420
+桜子
+「………」
+#meffect,flow,5
+$k
+
+&empty
+ちらりと隣を見ると、
+桜子が目を閉じて何かを願っている。
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+優
+「…はあ」
+#meffect,flow,5
+$k
+
+&empty
+この寒い中、桜子はコートから自慢の髪を出し、
+なびかせながら、一生懸命何かをお願いしている。
+$k
+
+&empty
+そんなこいつの横顔も……。
+$k
+
+&empty
+………。
+$k
+
+&empty
+来年は、違う形で桜子と初詣ができたらな…。
+$k
+
+&empty
+違うだろ俺、そういう事は頭から消すんだ。
+$k
+
+#sp,vo,03030098
+みい
+「………」
+#meffect,flow,5
+$k
+
+#hide
+
+// 	SV( VISUAL_SAKURAKO_08B );
+
+#flag,cg,30,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_SAKURAKO_08B.jpg,(s),75%
+#ig
+
+#show
+
+#sp,vo,03000421
+桜子
+「…むぅ」
+$k
+
+&empty
+桜子は、ぱっと目を開けると、
+いきなり横を向いて俺を見た。
+$k
+
+優
+「う…」
+#meffect,flow,5
+$k
+
+#sp,vo,03000422
+桜子
+「…なに、あたしの顔になんか付いてる？」
+$k
+
+優
+「い、いや、なにも」
+$k
+
+#sp,vo,03000423
+桜子
+「もうお願い事したの？」
+$k
+
+優
+「あ…これから」
+#meffect,flow,5
+$k
+
+#sp,vo,03000424
+桜子
+「なにやってんのよ。
+　後がつかえてるんだから、早くしなさいよー」
+$k
+
+&empty
+軽く怒る桜子の頬はなんだか紅潮していた。
+寒いからだろう。
+$k
+
+// 	DelStandAll();
+
+// 	SV( BG_MT_JINJYAKEIDAI03B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03B.jpg,(s),100%
+#ig
+
+&empty
+ええと、願い事か…
+$k
+
+&empty
+兎にも角にも、まず始めは
+受験に合格しますように、だよな。
+$k
+
+&empty
+………。
+$k
+
+&empty
+轟木家と矢崎家のみんなが健康でありますように。
+それから、ええと……。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAKEIDAI03B );
+// 	SS( CENTER, SAKURAKO_A401KN );
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI03B.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),80%
+#ig
+
+#show
+
+// SAKURAKO_A401KN
+#sp,vo,03000425
+桜子
+「ふー、寒い寒い」
+$k
+
+&empty
+参拝を終えて寒い手を擦り合わせるみんな。
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000426
+桜子
+「なんか雪降りそうよねー」
+$k
+
+優
+「あれ…寒くないの、俺だけ？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000427
+桜子
+「あんただけよ」
+$k
+
+// SAKURAKO_A401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000428
+桜子
+「みんな揃ったー？」
+#mfuri,　　　　　　　　そろ
+
+$k
+
+優
+「要さんが居ないな…」
+$k
+
+// SAKURAKO_A402AD
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A402IK4
+#sp,vo,03000429
+桜子
+「え？　あれー？
+$nw,1990
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+　ついさっきまで一緒にいたはずなのに。
+$nw,2510
+
+　何処に行ったんだろう……」
+$k
+
+// SAKURAKO_A403NO
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),80%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03000430
+桜子
+「あ、いた、あんなところにいる。
+$nw,3750
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+　お姉――！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+// KANAME_0201PU
+#ir,(ef),off
+#ip,c3,(fi),KANAME_A201.png,(psi),KANAME_An01PU.png,(x),l3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),100%
+#ig
+
+#sp,vo,03020115
+要
+「おっ、ごめんごっめーん、甘酒もらってたー」
+$k
+
+&empty
+ここまで来てお酒ですか。
+$k
+
+// MEGUMI_0401NO
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01NO.png,(x),r,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,03070128
+めぐみ
+「明けましておめでとうみんなー！」
+$k
+
+// DAIGO_0301KD
+#ir
+#ip,c1,(fi),DAIGO_A301KD.png,(x),l,(s),75%
+#ig
+
+#sp,vo,03090025
+沖奈大吾
+「おー？
+$nw,1230
+
+#ir
+#ip,c1,(fi),DAIGO_A301EG.png,(x),l,(s),75%
+#ig
+
+　美人三姉妹が揃って初詣かい。いいねぇ」
+#mfuri,　　　　　　　　　　　　　　そろ
+
+$k
+
+// KINO_0401EG2
+#ir,(ef),off
+#ip,c3,(fi),KINO_A401EG2.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ip,c2,(x),r2,(al),0%
+#ig
+
+#sp,vo,03060021
+紀乃
+「四姉妹の間違いやろ」
+$k
+
+// DAIGO_0301KM2
+#ir
+#ip,c1,(fi),DAIGO_A301KM2.png,(x),r,(s),75%
+#ig
+
+#sp,vo,03090026
+沖奈大吾
+「紀乃さんも数に入れるのかい。きついなあ？」
+$k
+
+// KINO_0401KD
+#ir
+#ip,c3,(fi),KINO_A401KD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03060022
+紀乃
+「当たり前やろ。何処に目ー付けとんねや」
+$k
+
+// DAIGO_0301BS
+#ir
+#ip,c1,(fi),DAIGO_A301BS.png,(x),r,(s),75%
+#ig
+
+#sp,vo,03090027
+沖奈大吾
+「それはともかく、おめでとうございます」
+$k
+
+// KINO_0401BS2
+#ir
+#ip,c3,(fi),KINO_A401BS2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03060023
+紀乃
+「せやせや、本年もよろしゅう…」
+$k
+
+// 	SS( CENTER, ISAKI_0401MU );
+
+// ISAKI_0401MU
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ie,c2,c3
+#ig
+
+#sp,vo,03010022
+勇樹
+「………」
+#meffect,flow,5
+$k
+
+優
+「宮津橋も一緒だったんだな。
+　おめでとう、今年もよろしくな」
+$k
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010023
+勇樹
+「……おめでとう」
+$k
+
+優
+「もうお参りしたか？」
+$k
+
+// ISAKI_0401NO
+#sp,vo,03010024
+勇樹
+「ああ」
+$k
+
+優
+「そっか。俺なんて賽銭に５０円も出して、
+　奮発しちまったよ」
+$k
+
+// ISAKI_0401KB
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03010025
+勇樹
+「…男の癖に随分とケチだな」
+$k
+
+優
+「あれっ？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+５０円でも駄目ですか？
+あ、満点取れるように１００円、とかのが良かったか？
+$k
+
+// CHISEKA_0401EG2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG2.png,(x),r,(s),60%
+#ip,c3,(fi),CHISEKAPAPA_A301NO.png,(x),l,(s),75%
+#ig
+
+#sp,vo,03040066
+知世翔
+「あっ、せんぱーい！」
+$k
+
+&empty
+声の方に顔を向けると、有河と社長がいた。
+$k
+
+// 	SS_( RIGHT, CHISEKA_0401EG2, MOVE_LEFT, NORMAL );
+// 	SS( LEFT, SAKURAKO_0402NO5, MOVE_LEFT, NORMAL );
+
+#ir
+#ie,c1,c3
+#ig
+
+// CHISEKA_0401BS
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),r2,(s),60%,(al),0%
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+#sp,vo,03040067
+知世翔
+「あ、そうだ、
+$nw,1490
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG3.png,(x),r,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+　明けましておめでとうございます！」
+
+$k
+
+// SAKURAKO_0402NO5
+
+#sp,vo,03000431
+桜子
+「知世翔も、明けましておめでとう」
+$k
+
+// CHISEKA_A401EG
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG.png,(x),r,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,03040068
+知世翔
+「今年もよろしくお願いします！」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000432
+桜子
+「はい、よろしくお願いします、ふふ」
+$k
+
+// CHISEKA_0401EG
+
+#sp,vo,03040069
+知世翔
+「新年早々桜子先輩に会えるなんて、
+　今年は幸先いいなー」
+$k
+
+// 	SS( CENTER, CHISEKAPAPA_0301NO );
+// CHISEKAPAPA_0301NO
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NO.png,(x),c,(s),75%
+#ie,c2,c3
+#ig
+
+#sp,vo,03990029
+社長
+「やあ皆さん、お揃いで。
+#mfuri,　　　　　　　　　　　　　　　　そろ
+
+　新年おめでとうございます」
+$k
+
+優
+「ども、おめでとうございます社長」
+$k
+
+// CHISEKA_0401NR
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+優
+「有河も、おめで、とう…？」
+$k
+
+// 	SS( CENTER, CHISEKA_0401NR, MOVE_LEFT, NORMAL );
+
+#sp,vo,03040070
+知世翔
+「むう…」
+#meffect,flow,5
+$k
+
+優
+「あ、明けましておめでとう、有河」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040071
+知世翔
+「はい、明けましておめでとうございます。
+　今年もよろしくお願い致しますっ」
+$k
+
+優
+「年明けくらいさ、
+　そーいうのなんとかなんないか？」
+$k
+
+// CHISEKA_0401KN
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040072
+知世翔
+「こっちは仕方なく親と来たっていうのに、
+　矢崎先輩は桜子先輩と一緒って、世の中不公平…」
+$k
+
+優
+「そう言われてもな…」
+$k
+
+// CHISEKA_0401NR
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040073
+知世翔
+「矢崎先輩は自分の置かれた環境に、
+　もっと感謝するべきだと思いますね」
+$k
+
+&empty
+有河は新年早々怒りっぽいようだ。
+福が逃げるぞ？
+$k
+
+優
+「そういや、有河といえば、例の２人組は？」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040074
+知世翔
+「ちょっと、私といえばって…
+$nw,3180
+
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+　失礼ですね！」
+$k
+
+&empty
+失礼なのか。
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「いや待て、まさかそこら辺に隠れて…」
+$k
+
+#next,03sakurako10_01

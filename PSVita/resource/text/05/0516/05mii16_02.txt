@@ -1,0 +1,714 @@
+﻿// 既読フラグ
+#read_flag,172
+
+// MII_A202NK
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02NK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031055
+みい
+「今はその…」
+$k
+
+#sp,vo,05000121
+桜子
+「そっか……優を捜してんのね？
+　じゃあ、こっちでも見つけたら連絡するわ」
+$k
+
+// MII_A202MJ2
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02MJ2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031056
+みい
+「あ、はい、お願いしますっ」
+$k
+
+#sp,se,S_Tel05
+
+// MII_A203KM3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031057
+みい
+「あとは…
+$nw,1960
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#madd,そうだ知世翔さん！」
+
+$k
+
+#hide
+
+#sp,se,S_Tel05
+
+#wait,500
+
+#sp,env,S_Tel06#
+
+// MII_A203KM
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#show
+
+#sp,vo,05031058
+みい
+「………」
+$k
+
+// MII_A203KM
+#sp,vo,05031059
+みい
+「…ありえないとは思いますが…お兄様が
+　知世翔さんと一緒に居たらどうしましょう…」
+$k
+
+// MII_A203EG3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031060
+みい
+「いえ、まさかですよね、そんな………」
+$k
+
+// MII_A203KM3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031061
+みい
+「……………でも…」
+$k
+
+// 	SEStop( 0 );
+
+#ss,env
+#sp,se,S_Tel05
+
+#sp,vo,05040124
+知世翔
+「もしもし？」
+$k
+
+// MII_A203NK4
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031062
+みい
+「あわわわっ、ご、ごごめんなさいっ」
+$k
+
+#sp,vo,05040125
+知世翔
+「どうしたの、みい？」
+$k
+
+// MII_A203KM4
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031063
+みい
+「あっ、あ…えっと、いえっなんでもありませんっ」
+$k
+
+#sp,vo,05040126
+知世翔
+「？　なんでもないのに電話してきたの？」
+$k
+
+// MII_A203KD2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031064
+みい
+「あ、そうではなくてですねっ」
+$k
+
+#sp,vo,05040127
+知世翔
+「何か変よ…なんかあった？」
+$k
+
+// MII_A203KM3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031065
+みい
+「あの、お、お兄様を……
+　見かけませんでしたか？」
+$k
+
+#sp,vo,05040128
+知世翔
+「見てないけど…
+　て言うか、矢崎先輩が何かしたっ！？」
+$k
+
+// MII_A203EG3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031066
+みい
+「いえ、そのちょっと見失ってしまいまして…」
+$k
+
+#sp,vo,05040129
+知世翔
+「話がよく見えないんだけど…、
+　つまり一緒に居たのに、みいをほって
+　どっか行っちゃったって事？」
+$k
+
+// MII_A203KM2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031067
+みい
+「ええ、まあ…」
+$k
+
+#sp,vo,05040130
+知世翔
+「アイツぅぅぅぅぅ！
+　みいを泣かせたら承知しないって言ったのにっ」
+$k
+
+#sp,vo,05040131
+知世翔
+「いっぺん締めてやるぅぅぅ！」
+$k
+
+// MII_A203KD2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031068
+みい
+「あわわ……いえ、あの、平気です。
+　ちょっとはぐれてしまっただけですので」
+$k
+
+#sp,vo,05040132
+知世翔
+「ホントに？　酷いことされてんじゃないのね？
+　何かあったら私に言ってよ？」
+$k
+
+// MII_A202AS
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031069
+みい
+「大大大丈夫です。
+　とりあえずそちらには居ないんですねっ？」
+$k
+
+#sp,vo,05040133
+知世翔
+「うん、居ないのは居ないけど、ホントに…」
+$k
+
+// MII_A201OD
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031070
+みい
+「あっ、ああーっ！　すみません、
+　キャッチが入ったみたいなので、失礼しますっ」
+$k
+
+#sp,vo,05040134
+知世翔
+「みい？」
+$k
+
+#sp,se,S_Tel05
+
+//	SM( CHAR_ETC,			-1,					"",				"ぴっ。" );
+// MII_A202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031071
+みい
+「…ごめんなさい、知世翔さん」
+$k
+
+// MII_A203AD3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031072
+みい
+「はあ……」
+$k
+
+// MII_A203KM
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031073
+みい
+「本当にどうすれば…」
+$k
+
+// MII_A203NK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031074
+みい
+「いえ…わかってます。
+　お兄様に直接電話してしまえば……。
+　……でも、それでもし出なかったら…」
+$k
+
+// MII_A203NK4
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031075
+みい
+「うぅ…っ」
+$k
+
+#sp,se,S_Tel17
+
+// MII_A203KD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+// 	SS( CENTER, MII_A203KD, MOVE_DOWN );
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),280,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05031076
+みい
+「きゃわわぁぁぁ～～っ！？」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+// MII_A203KD
+#sp,vo,05031077
+みい
+「電話っ……じゃなくてメールっ？」
+$k
+
+// 	SEStop( 0 );
+
+#sp,se,S_Tel05
+
+//	SM( CHAR_ETC,			-1,					"",				"『件名：みいちゃんへ』" );
+// MII_A202OD3
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02OD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031078
+みい
+「お兄様からっ！？」
+$k
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_MII16_01 );
+
+#hide
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_mii16_01.png,(x),c
+#ig
+
+$k
+
+// MII_A203KD
+
+#show
+
+#sp,vo,05031079
+みい
+「へ……？」
+$k
+
+// MII_A201OD
+
+#sp,vo,05031080
+みい
+「え、え？
+　ちょっと、これだけですか？」
+$k
+
+// MII_A203NK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031081
+みい
+「彼女なんて名前ばっかりで、
+　それらしい事はしてないのに……」
+$k
+
+// MII_A203IK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031082
+みい
+「お兄様がどこにいるかなんて、
+　そんなの分かるわけないじゃないですかー」
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,T_pinponpapon
+
+#wait,5000
+
+// 	WaitSE();
+
+#show
+
+優
+「あー、テステス。本日は絶・の・・・よりなり」
+$k
+
+#ss,se
+#ss,bgm,(dr),1000
+
+//	SetIconBikkuri( CENTER );
+// 	BGMStop();
+
+// MII_A201OD
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031083
+みい
+「っ！？」
+$k
+
+#sp,vo,05990088
+？？？
+「あぁっ、そういうの要りませんからっ。
+　勝手に触らないで…」
+$k
+
+// MII_A201OD
+#sp,vo,05031084
+みい
+「さっきの声って…お兄様ですよね！？
+　放送室に？」
+$k
+
+#hide
+
+#sp,se,S_Za01
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	WaitSE();
+// 	CFO();
+
+#sp,bgm,BGM_SYOSO
+
+// 	SV( BG_GK_ROKA01B );
+
+// 	Shake( 0, SHAKE_UP|SHAKE_SCREEN, 3, 30 );
+// 	RadialLine( 30, 50, 400, 300, 300, 500, 10, 100, 80, 255, 255, 255 );
+// 	CFI();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01B.jpg,(s),100%
+#ig
+
+#sp,env,S_Dash10#
+
+#ir,(dr),500,(ef),move,(lt),over,(lc),no_limit
+#ip,bg,(y+),10
+#ig
+
+#show
+
+#sp,vo,05990089
+？？？
+「はい、どうぞ？」
+$k
+
+優
+「みいちゃん、聞いてるかい？」
+$k
+
+優
+「せっかく付き合いだしたってのに、
+　不満に思わせてゴメン」
+$k
+
+優
+「みいちゃんに言われたとおり、
+　俺はみいちゃんにどう接したらいいか、
+　よくわかってなかったと思う」
+$k
+
+// MII_A201AS
+
+#sp,vo,05031085
+みい
+「じ、実名入り…で…、
+　何放送しちゃって…るんですかっ！？」
+$k
+
+優
+「たぶん…みいちゃんは俺がみいちゃんの事を
+　妹扱いしてると思ってるんだよね？」
+$k
+
+// MII_A201OD
+
+#sp,vo,05031086
+みい
+「っ！？」
+$k
+
+優
+「今まで、みいちゃんがそれを嫌がってるって
+　気付かなかった」
+$k
+
+優
+「でも俺、みいちゃんのこと、本当に好きだから」
+$k
+
+優
+「俺も今のままじゃ、嫌なんだ」
+$k
+
+// MII_A201KD
+
+#sp,vo,05031087
+みい
+「お兄…様っ……」
+$k
+
+#hide
+
+#ils
+
+// 	SV( BG_GK_KAIDAN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KAIDAN01A.jpg,(s),100%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,bg,(y+),10
+#ig
+
+#show
+
+優
+「俺はね…みいちゃんも俺の事、
+　ちゃんと見てくれてないんじゃないかって思うんだ」
+$k
+
+優
+「みいちゃんが俺を見つける事が出来たら、
+　この続きを言おうと思う」
+$k
+
+優
+「以上、放送終了！」
+$k
+
+#sp,se,bell
+
+// MII_A201AS2
+
+#sp,vo,05031088
+みい
+「ちょ、ちょっと…はぁ…待って……はぁ…」
+$k
+
+#hide
+
+#ils
+
+#ss,se,(dr),1000
+
+// 	SV( BG_GK_ROKA01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01B.jpg,(s),100%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,bg,(y+),10
+#ig
+
+#show
+
+// MII_A202SP
+
+#sp,vo,05031089
+みい
+「はぁはぁはぁ……」
+$k
+
+// MII_A202NK
+
+#sp,vo,05031090
+みい
+「お…兄様…何勝手な…事……
+　言ってるんですか…っ！」
+$k
+
+#hide
+
+#ils
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RadialLine( 0 );
+// 	Shake( 10, SHAKE_UP|SHAKE_SCREEN, 3, 30 );
+// 	SV( BG_GK_HOSOSHITSU01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_HOSOSHITSU01A.jpg,(s),100%
+#ig
+
+// 	SS( CENTER, MII_A202IK, MOVE_RIGHT );
+
+// MII_A202IK
+#ir,(ef),off
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02IK.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#sp,se,W_Door01o
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,05031091
+みい
+「はぁ、はぁ……お兄様！」
+$k
+
+#sp,vo,05990090
+？？？
+「あ……」
+$k
+
+// MII_A202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031092
+みい
+「誰……？
+　お兄様は？」
+$k
+
+#sp,vo,05990091
+放送委員
+「ええと……あなた、みいさん…？
+　矢崎先輩ならもう出て行っちゃったわ」
+$k
+
+// MII_A201OD2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01OD2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031093
+みい
+「え……？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_CIRCLE, SLOWER );
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_GK_HOSOSHITSU01A, FILTER_SEPIA );
+
+#sp,bgm,BGM_OMOIDE
+
+// 	RFI( RULE_CIRCLE, SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_HOSOSHITSU01A_s.jpg,(s),100%
+#ig
+
+
+#next,05mii16_03

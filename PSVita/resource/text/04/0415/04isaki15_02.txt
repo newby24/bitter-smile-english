@@ -1,0 +1,372 @@
+﻿// 既読フラグ
+#read_flag,237
+
+//	RadialLine( 0 );
+//	WT( 10 );
+//	RadialLine( 1, 20, 800, 300, 400, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_UP, 140, 140, 800, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+// 	SS( LEFT, ISAKI_0201KN, MOVE_RIGHT );
+// ISAKI_0201KN
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l,(al),100%
+#ig
+
+#sp,vo,04010680
+勇樹
+「～～っ！！
+$nw,1110
+
+#ir
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK3.png,(x),l,(s),60%
+#ig
+
+　私は逃げてなんかいないっ！！」
+$k
+
+#hide
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ip,c1,(x),r0,(al),0%
+#ig
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),T_battle02
+
+#ir,(dr),500
+#ie,ov,c1,c3
+#ig
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+#wait,300
+
+//	RadialLine( 0 );
+//	Zoom( 10|SPEED_UP, 100, 100, 400, 300 );
+//	SV( BG_MT_KAWARA02A );
+//	ZoomCrossFade( NORMAL, 130, 130, 400, 300, 130, 130,400, 300 );
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01KN.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+#show
+
+// ISAKI_A201KN
+
+#sp,vo,04010681
+勇樹
+「私、はっ………！」
+$k
+
+//	RadialLine( 0 );
+//	WT( 20 );
+//	RadialLine( 1, 30, 0, 500, 600, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_DOWN, 130, 130, 0, 300 );
+//	WaitZoom();
+//	SK2( NORMAL, 7 );
+
+// 	SS( CENTER, SAKURAKO_A203IK2, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),r0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ip,c1,(x),c,(al),100%
+#ig
+
+// SAKURAKO_A203IK2
+#sp,vo,04000180
+桜子
+「どうしたらいいかわからない？
+　ふざけんじゃないわよ！」
+$k
+
+#hide
+
+#sp,se,S_Air03
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+#wait,500
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ig,(se),S_Punch05
+
+//	RadialLine( 0 );
+//	RadialLine( 1, 20, 800, 300, 400, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_UP, 140, 140, 800, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+#show
+
+// SAKURAKO_0203IK2
+
+#sp,vo,04000181
+桜子
+「好きなら好きって言いなさいよ！
+　勇樹が優のそばにいたいなら、
+　自分の意志でそうしたいって言え！　馬鹿！」
+$k
+
+// ISAKI_0201IK3
+
+#sp,vo,04010682
+勇樹
+「違う！　違う違う違う！
+　私は１人でも生きていけるんだ！
+　あいつが私を離さないから！　だから！」
+$k
+
+//	RadialLine( 0 );
+//	WT( 20 );
+//	RadialLine( 1, 30, 0, 500, 600, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_DOWN, 130, 130, 0, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+
+#hide
+
+//	RadialLine( 0 );
+//	SV( BG_MT_KAWARA02A );
+// 	ZoomCrossFade( NORMAL, 130, 130, 400, 300, 130, 130,400, 300 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),T_battle03
+
+#wait,100
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#wait,300
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+#wait,200
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig
+
+#wait,100
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A203.png,(psi),SAKURAKO_An03IK2.png,(x),l0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	SK2( NORMAL, 6, 4 );
+
+// 	SS( CENTER, SAKURAKO_A203IK2, MOVE_LEFT);
+
+#show
+
+// SAKURAKO_A203IK2
+#sp,vo,04000182
+桜子
+「その考えが逃げだって言ってんのよ！」
+$k
+
+//	RadialLine( 0 );
+//	WT( 10 );
+//	RadialLine( 1, 20, 800, 300, 400, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_UP, 140, 140, 800, 300 );
+//	WaitZoom();
+// 	SK2( NORMAL, 7 );
+
+// 	SS( CENTER, ISAKI_A201IK3, MOVE_RIGHT );
+
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A201.png,(psi),ISAKI_An01IK3.png,(x),l0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),c,(al),100%
+#ip,c1,(x),r0,(al),0%
+#ig
+
+// ISAKI_A201IK3
+#sp,vo,04010683
+勇樹
+「黙れぇぇぇぇぇぇぇっっ！！」
+#mlarge
+
+$k
+
+#hide
+
+#ss,bgm,(dr),2000
+
+#ir,(dr),2000
+#ip,bg,(fi),white.jpg
+#ig
+
+#wait,2000
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+//	RadialLine( 0 );
+//	WT( 20 );
+//	RadialLine( 1, 30, 0, 500, 600, 800, 20, 100, 100, 255, 255, 255 );
+//	Zoom( 10|SPEED_DOWN, 130, 130, 0, 300 );
+//	WaitZoom();
+//	SK2( NORMAL, 7 );
+//	Shake( 0, SHAKE_RANDOM|SHAKE_SCREEN, 10, 3 );
+// 	RuleFlashOut( SLOWER, RULE_LIGHT|RULE_NEGATIVE );
+
+//	RadialLine( 0 );
+// 	SV( VISUAL_WHITE );
+
+//	Shake( 1, SHAKE_RANDOM|SHAKE_SCREEN, 10, 3 );
+
+// 	SV( BG_GK_KYOSHITSU02A );
+
+#sp,bgm,BGM_NONBIRI
+
+//	ShowFace();
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU02A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+トイレから戻ってみると、
+なぜか勇樹は教室から消えていた。
+$k
+
+&empty
+先に帰ったってこともないだろうから、
+あいつもトイレにでも行ったのかな？
+$k
+
+&empty
+まあ、ちょっと待ってればいいかと思ったんだけど…。
+$k
+
+&empty
+一向に帰ってくる様子がない。
+$k
+
+優
+「おかしいなぁ……まさか本当に先に帰ったとか？」
+$k
+
+#hide
+
+#ss,bgm
+
+// 	SV( BG_GK_KYOSHITSU02B );
+
+#sp,se,T_Door01
+
+#ir,(dr),500
+#ip,bg,(fi),BG_GK_KYOSHITSU02B.jpg,(s),100%
+#ig
+
+// 	WaitSE();
+// 	SS( CENTER, CHISEKA_0201IK, MOVE_RIGHT );
+
+// CHISEKA_0201IK
+#ir,(ef),off
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,04040005
+知世翔
+「なにやってんですかっ、こんなところで！！」
+$k
+
+優
+「うわっ！　有河！？
+　何やってもなにも……、
+　どうしたんだ血相変えて？」
+$k
+
+// CHISEKA_0201KM
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04040006
+知世翔
+「は、話は後です！　とにかく早く来て！」
+$k
+
+&empty
+えらく興奮した様子の有河に手を引っ張られて、
+俺は廊下へと連れ出された。
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA02A.jpg,(s),100%
+#ig
+
+#sp,env,S_Dash10#
+
+// 	SV( BG_GK_ROKA02A );
+// 	Shake( 0,SHAKE_UP|SHAKE_SCREEN, 6, 20 );
+// 	RadialLine( 0, 10, 400, 300, 200, 500, 10, 100, 100,255, 255, 255 );
+
+#ir,(dr),500,(ef),move,(lt),over,(lc),no_limit
+#ip,bg,(y+),10
+#ig
+
+#next,04isaki15_03

@@ -1,0 +1,783 @@
+﻿// 既読フラグ
+#read_flag,146
+
+// セーブタイトル
+#flag,save_title,みい　第１０話,0,0
+
+#sp,env,S_Gaya05#
+
+#sp,se,T_Jinnja
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第１０話　悲しい初詣
+$k
+#note,erase
+
+#wait,2000
+
+// 	WaitSE();
+
+#show
+
+優
+「神様、どうかお願いします」
+$k
+
+// 	FO_( SLOW );
+
+#ss,se
+
+#sp,vo,05030510
+みい
+「………」
+$k
+
+#sp,vo,05030511
+みい
+「…ちらっ」
+#msmall
+$k
+
+優
+「雪華ちゃんの幸せを最優先に、
+　あと母親と、ついでに俺の受験も…むにゃむにゃ」
+$k
+
+#sp,vo,05030512
+みい
+「………」
+$k
+
+&empty
+………
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+#sp,bgm,BGM_MII
+
+// 	SS( CENTER, MII_0903KM3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KM3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MII_0903KM3
+#sp,vo,05030513
+みい
+「おや、また中吉。
+　代わり映えない運勢もつまらないものですね」
+$k
+
+優
+「………」
+$k
+
+// MII_0903NO
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030514
+みい
+「お兄様はいかがでした？」
+$k
+
+優
+「…おみくじは内容じゃないよな」
+$k
+
+// MII_0903KD2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030515
+みい
+「ほう？」
+$k
+
+優
+「そうさ、平凡な結果を引くより価値のある…」
+$k
+
+// MII_0903EG
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030516
+みい
+「凶でしたね？」
+$k
+
+優
+「う…」
+$k
+
+// MII_0903BS
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030517
+みい
+「………」
+$k
+
+優
+「ナンバー１じゃなくていいと思うんだ。
+　だって元々特別な…」
+$k
+
+// MII_0903EG
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030518
+みい
+「御託はともかく凶でしたね？」
+#mfuri,　　　ごたく
+
+$k
+
+優
+「うぅ…」
+$k
+
+// MII_0903NS
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030519
+みい
+「………」
+$k
+
+優
+「あの…」
+$k
+
+// MII_0903EG2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030520
+みい
+「よりにもよって受験生の今年に凶を引いてしまい
+　平凡より面白いからいいかとか後はもう上るだけさと
+　新年早々自分を騙し騙して不安を打ち消すんですね」
+#mfuri,　　　　　　　　　　　　　　　　だま　　だま
+
+$k
+
+優
+「ううぅ～」
+$k
+
+&empty
+容赦なく逃げ道をふさがれた。
+$k
+
+// MII_0903AD3
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030521
+みい
+「ご苦労様です」
+$k
+
+優
+「くっ…」
+$k
+
+// MII_0903KD
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030522
+みい
+「泣きたい時は泣いてもいいんですよ？」
+$k
+
+優
+「みいちゃんの前でだけは泣かない！」
+$k
+
+// MII_0903NO2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030523
+みい
+「お兄様お兄様」
+$k
+
+優
+「…なに？」
+$k
+
+// MII_0903EG2
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG2.png,(x),c,(s),60%
+#ig
+
+// 気づきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kiduki.png,(x),520,(y),30,(ag),-20d
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030524
+みい
+「おいしいですね。
+$nw,1150
+
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KS.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#madd,やったあ♪」
+
+$k
+
+// 	ShakeStand( CENTER, 30, SHAKE_UP|SPEED_DOWN, 50, 30*2 );
+
+優
+「泣きたくなってきたよ、早くも…」
+$k
+
+&empty
+みいちゃんの前なのに。
+$k
+
+&empty
+むしろみいちゃんの前だからこそ
+泣きそうになってるのかもしれない…。
+$k
+
+&empty
+と、とりあえず、
+この悪しきくじを早く結んでしまおう。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SetSubTitle();		//章タイトル表示
+//	SetSubTitleEx( 2 );
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+#sp,env,S_Gaya05#,(vl),3
+
+//	BFP( BGM_MII );
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+つ～わけで、あっという間に年が明けた。
+$k
+
+&empty
+余裕のない受験生には、盆暮れ正月関係ない…
+かも知れないが、運試しも兼ねて、
+初詣くらい行っておくのが、日本人の美学というもの。
+$k
+
+&empty
+…と桜子に言われ、俺もこうして馳せ参じたのだった。
+$k
+
+&empty
+つか、行く時誘えよ桜子さんよぅ。
+$k
+
+&empty
+旬（？）を逃したせいで、
+ひとりさみしい参拝旅だったはずが、
+お守りを買い忘れたと言うみいちゃんも同行してくれ…。
+
+$k
+
+優
+「よし、結べた」
+$k
+
+// 	SS( CENTER, MII_0901KB, MOVE_RIGHT );
+
+// MII_0901KB
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030525
+みい
+「きっと神様も凶のおみくじなんか結ばれて、
+　勘弁してくれと思ってるでしょうね」
+$k
+
+優
+「…なんかごめんな、神」
+$k
+
+&empty
+そしてありがとう、みいちゃん。
+$k
+
+&empty
+キミのおかげで、さみしい参拝旅は
+悲しい参拝旅に変わった。
+$k
+
+// MII_0901BS
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030526
+みい
+「次は絵馬でも書きますか？」
+$k
+
+優
+「いや、それはいいだろ。
+　書いたことないし」
+$k
+
+// MII_0901KY2
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030527
+みい
+「受験生の一大イベントではないのですか」
+$k
+
+優
+「イベントとか言ってる時点で、
+　ご利益があるとは思えないけど」
+$k
+
+優
+「あ、でも奉納されてるのを見に行こうか。
+　めぐみとか小林辺り、嬉々としてやってそうだし」
+$k
+
+// MII_0902NO
+#ir
+#ip,c1,(fi),MII_A902.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030528
+みい
+「私もやりたいことがあるんですよね」
+$k
+
+優
+「みいちゃんも絵馬書くの？」
+$k
+
+// MII_0903NO
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030529
+みい
+「空手家の方が、持ってもらった木の板を正拳突きや
+　踵落しで割るパフォーマンスがあるじゃないですか」
+$k
+
+優
+「空手のパフォーマンスと絵馬の関係性がわからないな」
+
+$k
+
+// MII_0903KT
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030530
+みい
+「ちょうど手ごろな感じじゃないですか？」
+$k
+
+優
+「何がかな？　いや、説明しないで。
+　それ考えただけで、こっちにまで罰が及びそうだ」
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　バチ
+
+$k
+
+// MII_0903EG3
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030531
+みい
+「大丈夫ですよ。
+　お兄様の書かれたものの奉納前でしたら
+　ただの板ですから」
+$k
+
+優
+「なら書く前のただの板にしてくれるかなあ？
+　ってか、書かないから」
+$k
+
+// MII_0903KM3
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030532
+みい
+「残念…
+　では来年ですね。
+$nw,3550
+
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+　来年、もう一度トライしましょう」
+$k
+
+優
+「来年とかないからっ」
+$k
+
+&empty
+みいちゃん…さらっと言ったけど、
+おそろしく不吉な台詞だぞ、それ。
+$k
+
+優
+「じゃあお守りを買いに行こうか」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+さっさと、話題を切り替えることにした。
+$k
+
+優
+「しかし、お守りを買うには、
+　またあの人ごみに飛び込まにゃならんのか」
+$k
+
+&empty
+視線の先は…売り場に群がる人、人、人。
+$k
+
+&empty
+さすがは下町の神社。
+活気がある上に、列整理すらしていない。
+$k
+
+&empty
+正直、見ているだけでめんどくさいけど、
+そうも言ってられない。
+$k
+
+優
+「覚悟はいいか、みいちゃん」
+$k
+
+// 	SS( CENTER, MII_0903EG );
+
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+// MII_0903EG
+#sp,vo,05030533
+みい
+「頑張ってください健闘を祈りますー」
+$k
+
+優
+「いや、みいちゃんはお守り買い忘れたから、
+　わざわざ来たんでしょ？」
+$k
+
+// MII_0903KT
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030534
+みい
+「………」
+$k
+
+優
+「…え、なにその顔？」
+$k
+
+// MII_0903KM5
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KM5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030535
+みい
+「あ～、そんな嘘をついた過去もあったかもですねー」
+#msmall
+$k
+
+優
+「嘘なの！？」
+$k
+
+// MII_0901GM
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01GM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030536
+みい
+「いえいえー、では突入しましょうかー」
+$k
+
+&empty
+本当に嘘なのか、忘れてたのを誤魔化したのか…。
+判断の難しいところだ。
+$k
+
+&empty
+て言うか、嘘だったとしたら、
+何のための嘘なのかわからないんだけど。
+$k
+
+#hide
+
+#ss,bgm
+#ss,env
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A_Z.jpg,(s),100%,(y),0
+#ig
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+#sp,env,S_Gaya05#
+
+// 	Zoom( 0, 200, 200, 40, 330 );
+//	BFP( BGM_COMICAL2 );
+
+#show
+
+&empty
+………
+$k
+
+優
+「…っつ～」
+$k
+
+&empty
+お守り、破魔矢に絵馬、達磨を求める阿鼻叫喚。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　だるま
+$k
+
+&empty
+わかっちゃいたけど、売り場に続く道は、
+外から見た以上にしんどかった。
+$k
+
+&empty
+立ってるだけで、ぎゅうぎゅうの窮屈。
+さらに人ごみに揉まれるわ、みんな殺気立ってるわで。
+$k
+
+&empty
+俺でさえこんななのに…。
+$k
+
+優
+「みいちゃん、大丈夫か…？」
+$k
+
+// MII_0901NI
+
+#sp,vo,05030537
+みい
+「子供じゃないんですから…
+$nw,1790
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+#madd,きゃっ？」
+$k
+
+&empty
+言ってるそばから、みいちゃんが、
+うねるような人ごみに飲まれて流されそうになる…！
+$k
+
+優
+「…っ！　みいちゃん！」
+$k
+
+#sp,se,S_Catch02
+
+// MII_0901TR
+
+#sp,vo,05030538
+みい
+「あっ…」
+$k
+
+優
+「間一髪…っと。
+　もうちょいこっちこれる…？」
+$k
+
+// MII_0903TR2
+
+#sp,vo,05030539
+みい
+「あ、あの、手…」
+$k
+
+優
+「いいから離さないで。
+　お、押すな、痛ててっ…
+　ゆっくりでいいからこっちに」
+$k
+
+// MII_0903KM6
+
+#sp,vo,05030540
+みい
+「は、はい…」
+$k
+
+&empty
+ちょっと強引にみいちゃんを引き寄せて、
+壁になるように回り込む。
+$k
+
+&empty
+しっかし容赦なくどんどん人にぶつかってくるな～。
+ちいさい女の子もいるんだぞ。
+$k
+
+&empty
+…つか、俺が代わりに買ってくりゃよかったのか。
+$k
+
+優
+「もうちょいだから、しばらく我慢して」
+$k
+
+// MII_0903TR4
+
+#sp,vo,05030541
+みい
+「…こくん」
+#msmall
+$k
+
+&empty
+気が利かないな、俺…。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SF( 0, SLOW, 30 );
+
+// 	SV( BG_MT_JINJYAKEIDAI01A );
+
+//	SS( CENTER, MII_A903TR2 );
+#sp,bgm,BGM_YASURAGI
+
+// 	ShowFace();
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+//	SetIconChinmoku( CENTER );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A.jpg,(s),100%
+#ig
+
+#next,05mii10_01

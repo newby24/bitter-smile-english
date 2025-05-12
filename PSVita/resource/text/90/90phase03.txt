@@ -1,0 +1,29 @@
+// 選択肢。
+#read_flag,503
+
+// セーブタイトル
+#flag,save_title,イベント選択　０３,0,0
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),image\select\select_background.jpg
+#ig
+
+// 選択肢ボタン画像の読み込み。
+#ir,(ef),load
+//#ip,c1,(fi),image\select\select_phase02_sakurako.png,(al),0
+#ip,c2,(fi),image\select\select_phase03_isaki.png,(al),0
+#ip,c3,(fi),image\select\select_phase03_mii.png,(al),0
+#ip,c4,(fi),image\select\select_phase03_kaname.png,(al),0
+#ig
+
+// みい、要はそれぞれ好感度が２の場合に可能。
+// 桜子はなし。
+
+#selp,(ef),fade,(dr),500
+//#seli,　鶴ヶ丘学園・教室,03sakurako02_00,(lay),c1,(ali),l,(sta),1
+#seli,　鶴ヶ丘学園・教室,04isaki03_00,(lay),c2,(ali),l,(sta),1
+#seli,　鶴ヶ丘学園・廊下,05mii03B_00,(lay),c3,(ali),l,(sta),1:(if),per,3,==,2
+#seli,　鶴ヶ丘学園・テニスコート,06kaname03_00,(lay),c4,(ali),l,(sta),1:(if),per,4,==,2
+$k

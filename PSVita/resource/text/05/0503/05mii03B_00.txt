@@ -1,0 +1,689 @@
+﻿// 既読フラグ
+#read_flag,130
+
+// セーブタイトル
+#flag,save_title,みい　第３話,0,0
+
+// みい好感度＋１。
+#flag,per,3,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KYOSHITSU01E );
+
+#sp,bgm,BGM_TANOSHII
+
+#sp,env,S_Gaya01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01E.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,みい　第３話　学園祭は眠いよ
+$k
+#note,erase
+
+#show
+
+優
+「ふあああ～」
+$k
+
+// 	SS( CENTER, KOBAYASHI_0201AY, MOVE_RIGHT );
+
+// KOBAYASHI_0201AY
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AY.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05080000
+小林
+「な～に大あくびかましてんだお前は」
+$k
+
+優
+「いやちょっとな…」
+$k
+
+#ss,env,(dr),1000
+
+&empty
+結局、行動する前に玉砕した小林と
+学園祭を回ってはいるんだが…。
+$k
+
+// KOBAYASHI_0201BS3
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01BS3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05080001
+小林
+「な、次は２－Ａの大正野球喫茶に行ってみようぜ」
+$k
+
+優
+「何を提供する店なんだそこは…？」
+$k
+
+// KOBAYASHI_0201KK
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01KK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05080002
+小林
+「思い出と…もしかしたら未来を」
+$k
+
+優
+「女の子に手当たり次第に声掛けるのやめろって」
+$k
+
+&empty
+顔はいいから黙ってりゃ寄ってくるだろうに…
+口を開くから自滅する。
+$k
+
+// KOBAYASHI_0201IK2
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05080003
+小林
+「けど、最後の学園祭だぞ？
+　最後の思い出、最後のチャンス！
+　それを男二人で過ごすのはあまりにしょっぱく…」
+$k
+
+優
+「ふああああ～」
+$k
+
+// KOBAYASHI_0201AS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05080004
+小林
+「聞けよ！？」
+$k
+
+優
+「気が張ってる時は大丈夫だったけど、
+　あふ…気が緩んだらどっときたな……」
+$k
+
+// 	SS( CENTER, KOBAYASHI_A201KK );
+
+// KOBAYASHI_A201KK
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01KK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05080005
+小林
+「オレがいるぜ？」
+$k
+
+優
+「いや、だっておまえ勝手についてきてるだけじゃん。
+　どんだけ友だちいないんだよ」
+$k
+
+// 	SS( CENTER, KOBAYASHI_0201RK );
+
+// KOBAYASHI_0201RK
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01RK.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),300,(y),0,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05080006
+小林
+「お、おおおお前に言われたくない！」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「動揺しすぎだろ」
+$k
+
+&empty
+人の気持ちを察せないこと以外はいい奴なんだけどな。
+それって致命的だけど。
+$k
+
+優
+「ふあああああ…っ」
+$k
+
+&empty
+もうダメ、限界、眠すぎる。
+$k
+
+&empty
+どっかで適当に寝るとしよう。
+$k
+
+優
+「じゃあ俺行くから」
+$k
+
+// KOBAYASHI_0201AS
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05080007
+小林
+「一緒に行くんだろ？」
+$k
+
+優
+「今度おまえにはオンラインゲームを紹介してやるから」
+$k
+
+//	SetIconHeart( CENTER );
+// KOBAYASHI_0201NS2
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01NS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05080008
+小林
+「で、出会い系はまずいだろう？
+　オレは甘言には弄されんぞ」
+$k
+
+&empty
+だったら嬉しそうな顔すんな。
+$k
+
+優
+「いや、どっちかっつーと引きこもり系だ。
+　でもそこに行けば友だちいっぱいうっはうは」
+$k
+
+// 	SS( CENTER, KOBAYASHI_A201KK );
+
+//	SetIconExcl( CENTER );
+// KOBAYASHI_A201KK
+#ir
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01KK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05080009
+小林
+「行ってこい矢崎。
+　未来の出会いのため、今はあえてお前を見送ろう」
+$k
+
+優
+「じゃあな」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+…仕方ない。
+$k
+
+&empty
+なるべく長いお付き合いができるよう、
+廃人率の高いゲームをピックアップしといてやるか。
+$k
+
+//&empty
+//………
+//$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// /*	SV( VISUAL_BLACK );
+
+//	SetSubTitle();		//章タイトル表示
+// 	SetSubTitle( 1 );
+// */
+
+// 	SV( BG_GK_ROKA01C );
+
+#sp,bgm,BGM_MII
+
+#sp,env,S_Gaya01#
+
+// 	SS( CENTER, MII_0203KD );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01C.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),60%
+#ig
+
+// 	WaitSubTitle();
+
+#show
+
+// MII_0203KD
+#sp,vo,05030146
+みい
+「あら」
+$k
+
+優
+「おお」
+$k
+
+&empty
+保健室の前で、ばったりみいちゃんと鉢合わせた。
+$k
+
+優
+「はじめての学園祭はどう？」
+$k
+
+#ss,env,(dr),1000
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030147
+みい
+「お兄様こそ、最初で最後の学園祭の感想は？」
+$k
+
+優
+「まあ…どこも一緒だよね」
+$k
+
+// MII_0203AD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD.png,(x),c,(s),60%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),200,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,05030148
+みい
+「味気ない感想ですね。
+　そんなものかもしれませんけど」
+$k
+
+// MII_0203NM
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030149
+みい
+「ふぁ…」
+$k
+
+優
+「ん？」
+$k
+
+// MII_0203KD2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030150
+みい
+「それより、お兄様は保健室になにかご用ですか？
+　もしかして怪我をされたとか」
+$k
+
+優
+「いや、そんなことはないけど、ちょっと…」
+$k
+
+// MII_0202OD3
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030151
+みい
+「…もしかして、昨夜寝不足がたたり、
+　睡魔に襲われていらっしゃるのでは？」
+$k
+
+優
+「え？」
+$k
+
+// MII_0202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030152
+みい
+「ああ、なんということでしょう。
+　私のせいで、お兄様の最後の学園祭がそんなことに…」
+$k
+
+優
+「えっと…」
+$k
+
+&empty
+わざとか？
+わざとからかっているだけなのか？
+$k
+
+&empty
+みいちゃんの言葉は判別つけにくい。
+$k
+
+&empty
+わざとだとしたらツッコミたいところだけど、
+本当に気遣ってくれているのだとしたら…。
+$k
+
+&empty
+…いや、たぶんわざとなんだろうと思うけど。
+$k
+
+&empty
+どちらにしても、ここはさりげなく立ち去った方が
+賢明かもしれない。
+$k
+
+// MII_0203NM
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030153
+みい
+「ふぁ…」
+$k
+
+優
+「え？」
+$k
+
+// MII_0203IK2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030154
+みい
+「………なにか？」
+$k
+
+優
+「というか、みいちゃんの方が眠いんじゃ…」
+$k
+
+// MII_0203NM2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030155
+みい
+「そんなことはありません。
+　お兄様と一緒にしないでください」
+$k
+
+優
+「ならいいんだけどさ」
+$k
+
+// MII_0203NO
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030156
+みい
+「では、お互い自慢できる思い出を作ってきましょう」
+$k
+
+優
+「そうだな。みいちゃんには負けないぞ」
+$k
+
+// MII_0203EG
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),c,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,05030157
+みい
+「それでは」
+$k
+
+優
+「じゃあね」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+// 	SF( NORMAL, 50 );
+
+&empty
+みいちゃんと別れ、行き違った。
+$k
+
+優
+「と見せかけて…」
+$k
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+// 	SF( NORMAL, 100 );
+
+#hide
+
+// 	SS( CENTER, MII_A203KD2 );
+
+// MII_A203KD2
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01C.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD2.png,(x),c,(s),80%
+#ig
+
+#show
+
+#sp,vo,05030158
+みい
+「………」
+$k
+
+優
+「………」
+$k
+
+// MII_A203SN2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03SN2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030159
+みい
+「…勘違いしていました。
+　用事があったのは反対方向で」
+$k
+
+優
+「奇遇だなあ俺もだよ！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+// 立ち絵消える。パラメータは適宜。
+
+// 	SF( NORMAL, 50 );
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// 	SV( BG_GK_ROKA01C );
+
+#sp,bgm,BGM_TANOSHII
+
+// 	SF( NORMAL, 100 );
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01C.jpg,(s),100%
+#ig
+
+#show
+
+優
+「どこか寝れそうな場所は…」
+$k
+
+&empty
+保健室はまたみいちゃんと鉢合わせしたら気まずいし…。
+$k
+
+優
+「そういや使ってない教室があったっけ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#show
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+&empty
+そうそう、ここなら落ち着いて…。
+$k
+
+#hide
+
+#sp,se,S_Door04o
+
+// 	WaitSE();
+// 	SV( BG_GK_KYOSHITSU01A );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#wait,500
+
+#sp,bgm,BGM_COMICAL1
+
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03EG3.png,(x),c,(s),80%
+#ig
+
+// 	SS( CENTER, MII_A203EG3 );
+
+#show
+
+// MII_A203EG3
+
+#sp,vo,05030160
+みい
+「ここは、なにもありませんよ」
+$k
+
+優
+「どうりで看板とか出てないなぁと思ったんだよねー」
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+#show
+
+優
+「普段でもよく寝られるところがあるよな」
+$k
+
+#hide
+
+// 	SV( BG_GK_TOSYOSHITSU01A );
+// 	SS( CENTER, MII_A203AD );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_TOSYOSHITSU01A.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD.png,(x),c,(s),80%
+#ig
+
+
+#next,05mii03B_01

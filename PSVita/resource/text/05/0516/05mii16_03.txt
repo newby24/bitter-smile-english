@@ -1,0 +1,570 @@
+﻿// 既読フラグ
+#read_flag,173
+
+#show
+
+#sp,vo,05990092
+放送委員
+「え、そんな急に言われても…」
+$k
+
+優
+「頼むよ。
+　無茶言ってるのはわかってる」
+$k
+
+#sp,vo,05990093
+放送委員
+「うーん…」
+$k
+
+優
+「今日は卒業式なんだしさ、餞別だと思ってっ！」
+$k
+
+#sp,vo,05990094
+放送委員
+「私、餞別を贈るほど、
+　先輩のことよく知らないんですけど…」
+$k
+
+優
+「まあ、そりゃそうだけどさ…」
+$k
+
+#sp,vo,05990095
+放送委員
+「……」
+$k
+
+#sp,vo,05990096
+放送委員
+「…ちなみに、何を放送したいんですか？」
+$k
+
+優
+「聞いてくれる！？
+　俺さ、付き合ってる後輩がいるんだけど……」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_CIRCLE, SLOWER );
+// 	SV( BG_GK_HOSOSHITSU01A, );
+
+#sp,bgm,BGM_SYOSO
+
+// 	SS( CENTER, MII_A202IK );
+
+// 	RFI( RULE_CIRCLE, SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_HOSOSHITSU01A.jpg,(s),100%
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02IK.png,(x),c,(s),80%
+#ig
+
+#show
+
+// MII_A202IK
+
+#sp,vo,05031094
+みい
+「そ、それで…こんなものを公共の学内放送で
+　学園中に…」
+$k
+
+#sp,vo,05990097
+放送委員
+「それについてはごめんなさい。
+　でも先輩、本当に真剣だったから」
+$k
+
+#sp,vo,05990098
+放送委員
+「それにちょっとロマンチックじゃない？
+　こういうの」
+$k
+
+#sp,vo,05990099
+放送委員
+「これがきっかけで、あなた達がうまくいったら
+　放送委員冥利に尽きるというかー」
+$k
+
+#sp,vo,05990100
+放送委員
+「まあ、あとで怒られるかもしれないけど…」
+$k
+
+// MII_A202KB
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031095
+みい
+「今、私が怒っていいですか？
+　…それにうまくいくかどうかもわかりませんねっ」
+$k
+
+#sp,vo,05990101
+放送委員
+「あ………ごめんなさい…」
+$k
+
+// MII_A203AD3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03AD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031096
+みい
+「あなたに当たっても仕方ありません…。
+　それよりお兄様は何処へ…」
+$k
+
+#sp,vo,05990102
+放送委員
+「あの…伝言を頼まれてるんだけど…」
+$k
+
+// MII_A203KT
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031097
+みい
+「伝言…？」
+$k
+
+#sp,vo,05990103
+放送委員
+「ここに辿りついた時には、俺は学園にはいない。
+　ですって」
+$k
+
+// MII_A201AS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031098
+みい
+「えええー……？」
+$k
+
+#sp,vo,05990104
+放送委員
+「捜すなら、学園の外がいいみたいね」
+$k
+
+// MII_A203KM2
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031099
+みい
+「そんなの…どこにいるかなんて、分かりませんよぉ」
+$k
+
+#sp,vo,05990105
+放送委員
+「まったく分からない場所に行くかしら？」
+$k
+
+#sp,vo,05990106
+放送委員
+「矢崎先輩は、本当にあなたを想っているわ」
+$k
+
+#sp,vo,05990107
+放送委員
+「でなければ、学内放送で告白なんてできないもの」
+$k
+
+#sp,vo,05990108
+放送委員
+「頑張って、みいさん。
+　きっと見つかるわ」
+$k
+
+// MII_A203NK
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03NK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031100
+みい
+「……うぅ」
+$k
+
+// MII_A203KM3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031101
+みい
+「ありがとうございます…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_KOMON01C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KOMON01C.jpg,(s),100%
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#show
+
+// MII_A203KM
+
+#sp,vo,05031102
+みい
+「学園の外なんて、捜せる訳ないじゃないですか…」
+$k
+
+// MII_A203IK6
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03IK6.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031103
+みい
+「もー、お兄様の居場所なんて、
+　ゼッタイ分かりませんってば！」
+$k
+
+// MII_A203KM3
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031104
+みい
+「………」
+$k
+
+// MII_A202MJ2
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02MJ2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031105
+みい
+「ハッピーシ～サ～か……、
+　…ひょっとしてお姉さまのアパートかも」
+$k
+
+// MII_A202SP
+#ir
+#ip,c1,(fi),MII_A202.png,(psi),MII_An02SP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031106
+みい
+「…居場所が分からないのにまだ捜すなんて、
+　私も諦めが悪いですね」
+$k
+
+// MII_A202SP
+#sp,vo,05031107
+みい
+「とりあえず千寿に帰ってみましょうか…」
+$k
+
+#sp,se,S_Tel17
+
+// MII_A201AS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031108
+みい
+「わわわっ」
+$k
+
+// MII_A201AS
+#sp,vo,05031109
+みい
+「ま、ま、またメールですか？」
+$k
+
+// 	SEStop( 0 );
+
+#hide
+
+#sp,se,S_Tel05
+
+//	SM( CHAR_ETC,			-1,					"",				"『件名：みいちゃんへ２』" );
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_MII16_02 );
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_mii16_02.png,(x),c
+#ig
+
+$k
+
+#show
+
+// MII_A201AS3
+
+#sp,vo,05031110
+みい
+「はあ？」
+$k
+
+// 	DEL_KEITAI_MESSAGE();
+// 	SS( CENTER, MII_A203KM );
+
+// MII_A203KM
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031111
+みい
+「これはヒントなんでしょうか？
+　こんなこと言われても…」
+$k
+
+// MII_A203KD
+#ir
+#ip,c1,(fi),MII_A203.png,(psi),MII_An03KD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05031112
+みい
+「あ。…静かな、二人きりになれる場所…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_MT_JINJYAKEIDAI01B );
+
+#sp,env,S_Rain01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01B.jpg,(s),100%
+#ig
+
+#show
+
+// MII_A202IK
+
+#sp,vo,05031113
+みい
+「お兄様ー！」
+$k
+
+// MII_A202IK
+#sp,vo,05031114
+みい
+「ここじゃないんですかーっ？」
+$k
+
+#hide
+
+// 	SV( VISUAL_MII_02A );
+
+#sp,bgm,BGM_KANASHIMI
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_02A.jpg,(s),75%
+#ig
+
+#show
+
+// MII_0101NO
+
+#sp,vo,05031115
+みい
+「雨まで降ってきたし…」
+$k
+
+// MII_0101NO
+#sp,vo,05031116
+みい
+「ここに居なかったらどこだって言うんですか……」
+$k
+
+// 	SV( VISUAL_MII_02A );
+// MII_0101NO
+
+#sp,vo,05031117
+みい
+「お兄様ー、本当に居ないんですかーっ！？」
+$k
+
+// 	SV( VISUAL_MII_02C );
+
+#ir
+#ip,bg,(fi),VISUAL_MII_02C.jpg,(s),75%
+#ig
+
+// MII_0101NO
+
+#sp,vo,05031118
+みい
+「お兄様の馬鹿―――っ！」
+$k
+
+// MII_0101NO
+#sp,vo,05031119
+みい
+「どれだけ私の気持ちを弄んだら
+　気が済むんですかーっ！！」
+$k
+
+// 	SV( VISUAL_MII_02D );
+
+#ir
+#ip,bg,(fi),VISUAL_MII_02D.jpg,(s),75%
+#ig
+
+// MII_0101NO
+
+#sp,vo,05031120
+みい
+「………」
+$k
+
+// 	SV( VISUAL_MII_02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_02A.jpg,(s),75%
+#ig
+
+// MII_0101NO
+
+#sp,vo,05031121
+みい
+「…私がお兄様を見てないって……」
+$k
+
+// MII_0101NO
+#sp,vo,05031122
+みい
+「何言ってんですか…」
+$k
+
+// 	SV( VISUAL_MII_02B );
+
+#flag,cg,52,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_02B.jpg,(s),75%
+#ig
+
+// MII_0101NO
+
+#sp,vo,05031123
+みい
+「くじけちゃいますよ………」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_KAWARA01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KAWARA01B.jpg,(s),100%
+#ig
+
+#show
+
+優
+「雨は…誤算だよな……」
+$k
+
+&empty
+そんな気はなかったんだけど、
+ちょっと、やりすぎたかもしれない…。
+$k
+
+優
+「…どこに行っちゃったかな、みいちゃん…」
+$k
+
+&empty
+あの放送のあと、まっすぐにここに向かえば、
+もうとっくに着いているはずだ。
+$k
+
+&empty
+ということはこの場所がわからずに、
+どこか他を捜しに行ってるってことで…。
+$k
+
+優
+「…とは限らないか」
+$k
+
+&empty
+怒って、とっくに家に帰っちゃったかもしれないよな。
+$k
+
+&empty
+むしろ、この雨じゃその可能性の方が高いかも…。
+$k
+
+優
+「しかし、なんでこのタイミングだよ」
+$k
+
+&empty
+携帯をもう一度開いてみるが、
+なんど開いても真っ暗のままなのは変わらない。
+$k
+
+&empty
+『みいちゃんへ３』を送ろうかと思ったら
+いつの間にか電池が切れてた…。
+$k
+
+&empty
+残量とか気にしてなかった俺も悪いけど。
+$k
+
+
+#next,05mii16_04

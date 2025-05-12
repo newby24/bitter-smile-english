@@ -1,0 +1,735 @@
+﻿// 既読フラグ
+#read_flag,83
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_KOEN03A );
+// 	SS( CENTER, ISAKI_0401NO );
+
+#sp,bgm,BGM_ISAKI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KOEN03A.jpg,(s),100%
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+// ISAKI_0401NO
+#sp,vo,02010178
+勇樹
+「本当にこんな所で要が？
+$nw,3300
+
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01IK.png,(x),c,(s),60%
+#ig
+
+　矢崎お前、私を騙してないだろうな」
+#mfuri,　　　　　　　　　　　　　　　　だま
+
+$k
+
+優
+「えーっと要さん、なんか缶ビール飲んで
+　待ってるからって言ってたんだけどね…」
+$k
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010179
+勇樹
+「ではなぜ私に直接連絡してこない？」
+$k
+
+優
+「えーっと…酔っぱらって、俺の携帯にかけてきてさー、
+　なんかついでに頼まれて……、
+　俺もそのバイト興味あったし？」
+$k
+
+// ISAKI_0401KB
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010180
+勇樹
+「………」
+$k
+
+&empty
+すげー警戒してるな、宮津橋のやつ。
+さっきからずっとキョロキョロしてるぞ？
+$k
+
+優
+「ほら、あそこのベンチに寝てるの要さんじゃないか？」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+…ちょーっと苦しいか？
+$k
+
+&empty
+『いいバイトの話があるんだけど』
+$k
+
+&empty
+って事でとりあえず話をする状況を作ったはいいが
+指定の場所に連れ出すのに困った俺。
+$k
+
+&empty
+『要さんの紹介で良いバイトがあるらしいんだ』
+$k
+
+&empty
+そこで苦し紛れに要さんの名前を出してみたら、
+それがみごと成功。
+$k
+
+&empty
+しかし公園につくまでにボロが出ないかひやひやした。
+今宮津橋は、居るはずのない要さんと会うために
+公園まで来たって訳だが。
+$k
+
+&empty
+……こんな所で桜子は一体何をする気なんだろう？
+$k
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010181
+勇樹
+「来たぞ、要」
+$k
+
+#ir
+#ip,c3,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO4.png,(x),r,(s),60%
+#ig
+
+// KANAME_0201NO4
+#sp,vo,02020113
+要
+「あ、勇樹ちゃん、こんばんは」
+$k
+
+優
+「ええっ、要さん？　…なんでここに！？
+$nw,1000
+
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+　……あっ」
+$k
+
+&empty
+本当に要さんがベンチで待っていた。
+$k
+
+// ISAKI_0401IK
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02010182
+勇樹
+「『なんで？』
+$nw,1900
+
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NR.png,(x),l,(s),60%
+#ig
+
+　……どういうことだ矢崎。
+　話が噛み合っていない様だな？」
+$k
+
+優
+「え、いや…それはだな」
+$k
+
+// KANAME_0201KM2
+#ir
+#ip,c3,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02020114
+要
+「あー、えーっと勇樹ちゃん、あのね…？」
+$k
+
+// ISAKI_0401AZ
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01AZ.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),l2,(al),0%
+#ig
+
+#sp,vo,02010183
+勇樹
+「…ちっ！」
+$k
+
+// 	SS_( LEFTLEFT, SAKURAKO_0402IK3, MOVE_LEFT );
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02IK3.png,(x),l,(s),60%
+#ig
+
+// SAKURAKO_0402IK3
+#sp,vo,02000474
+桜子
+「馬鹿っ！　早く捕まえてっ！」
+$k
+
+優
+「ええっ！？
+$nw,1000
+
+#ir
+#ie,c1,c3
+#ig
+
+　ああーもうっ！」
+$k
+
+&empty
+すでに走り出そうとしていた宮津橋だったが、
+運良く俺の手が先に届いた。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がばっ！" );
+// 	SV( BG_MT_KOEN03A );
+
+// 	SS( CENTER, ISAKIn_A402IK );
+
+// 	RFI( RULE_RYUUSEN | RULE_MIRROR, FAST );
+
+// ISAKIn_A402IK
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),ISAKIn_A402.png,(psi),ISAKIn_An02IK.png,(x),c,(s),80%
+#ig,(se),T_tukamu
+
+#sp,vo,02010184
+勇樹
+「何のつもりだ矢崎、離せっ！」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がす！がすっ！" );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Punch04
+
+// 揺れ。パラメータは適宜。
+
+&empty
+痛い、痛い！　…今日こんなのばっかだよ！
+$k
+
+// SAKURAKO_0401NS
+
+#sp,vo,02000475
+桜子
+「よしよし、そのまま捕まえててよ！」
+$k
+
+// ISAKIn_A401NR
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02010185
+勇樹
+「は、離せっ！！」
+$k
+
+&empty
+おいおい桜子、こんなことしてて大丈夫なのか？
+近所迷惑っつーか、誤解されて通報されねーか、これ？
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KOEN03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「おいおい？　ちゃんと説明してくれよ桜子」
+$k
+
+// ISAKIn_A401NR
+#sp,vo,02010186
+勇樹
+「……くそ」
+$k
+
+&empty
+潜んでいた桜子は宮津橋をビニールひもでぐるぐるに
+拘束したあと、公園の木にも、そのひもを繋ぐ。
+$k
+
+&empty
+宮津橋を犬扱いか？
+$k
+
+// SAKURAKO_0403KT
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000476
+桜子
+「あー、もう出てきてもいいわよー？」
+$k
+
+// ISAKIn_A402OD
+
+#ir
+#ie,c3
+#ig
+
+#sp,vo,02010187
+勇樹
+「……っ！」
+$k
+
+// 	SS_( CENTERBOTTOM, ISAKIPAPA_0301NO, MOVE_STOP, SLOW );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c2,(fi),ISAKIPAPAn_A301NO.png,(x),r0,(s),75%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),c,(al),100%
+#ig
+
+&empty
+桜子同様、どこかに潜んでいたらしい何者かが、
+公園の暗がりから街灯の下に姿を現す。
+$k
+
+優
+「…って誰だよ、この人？」
+$k
+
+// ISAKIn_A401KB
+
+#sp,vo,02010188
+勇樹
+「………ふん」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),2
+#ig
+
+優
+「………ああっ！　この作業着っ！？」
+$k
+
+// ISAKIn_A401IK
+
+#sp,vo,02010189
+勇樹
+「そう、制服泥棒だ」
+$k
+
+優
+「そうだ、そうだよ、この作業着」
+$k
+
+// KANAME_0201MJ
+
+#sp,vo,02020115
+要
+「お父さん、でしょー？」
+$k
+
+#sp,bgm,BGM_KANASHIMI
+
+// ISAKIPAPA_0301KM
+#ir
+#ip,c2,(fi),ISAKIPAPAn_A301KM.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990178
+？？？
+「勇樹…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「ええっそうなの！？」
+$k
+
+&empty
+この制服泥棒がか？　宮津橋の親父さん？
+$k
+
+// ISAKIn_A402MU
+
+#sp,vo,02010190
+勇樹
+「知らんな。
+$nw,1000
+
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO2.png,(x),l,(s),60%
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01MJ.png,(x),r,(s),60%
+#ie,c2
+#ig
+
+　なんのつもりだ桜子……要も」
+
+$k
+
+// 	SS_( RIGHT, KANAME_0201MJ, MOVE_STOP, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+// SAKURAKO_0402NR
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000477
+桜子
+「少しはちゃんと話し合いしたら？」
+$k
+
+// ISAKIn_A401KB
+
+#sp,vo,02010191
+勇樹
+「今更、何を話す事があるというんだ？」
+$k
+
+// KANAME_0201MJ2
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01MJ2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02020116
+要
+「色々聞いたよ、おじさんから。
+$nw,2700
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NK4.png,(x),r,(s),60%
+#ig
+
+　ねえ、もう許してあげたら？」
+$k
+
+// ISAKIn_A401MU
+
+#sp,vo,02010192
+勇樹
+「……知らん、
+　私に親父など居ないからな、
+　許すも何もないだろう？」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000478
+桜子
+「…優は知ってるでしょ、
+　小さい頃会った事あるはずよ？」
+$k
+
+優
+「いや、そんなのもう覚えてないって」
+$k
+
+&empty
+会った事あるのってたしか一回か二回くらいだぞ？
+$k
+
+// 	SS_( CENTER, ISAKIPAPA_0301KN, MOVE_STOP, NORMAL );
+#ir
+#ip,c2,(fi),ISAKIPAPAn_A301KN.png,(x),c,(s),75%
+#ie,c1,c3
+#ig
+
+&empty
+宮津橋……サキちゃんの誕生日にたまたま。
+スーツ姿の普通なおじさんなんだな、
+位の印象しかなかった。
+$k
+
+// ISAKIPAPA_0301KN
+#sp,vo,02990179
+勇樹の父
+「探したんだぞ、勇樹、どうして…」
+$k
+
+// ISAKIn_A402MU
+
+#sp,vo,02010193
+勇樹
+「余計な事はして欲しくないな、
+$nw,3100
+
+　消えろ」
+$k
+
+// KANAME_0201IK
+
+#sp,vo,02020117
+要
+「お父さんにそんな事…
+　言っちゃ駄目だよ、勇樹ちゃん」
+$k
+
+// ISAKIPAPA_0301KS2
+#ir
+#ip,c2,(fi),ISAKIPAPAn_A301KS2.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990180
+勇樹の父
+「い、いいんですよ。悪いのは私ですからね…」
+$k
+
+// SAKURAKO_0402IK8
+
+#sp,vo,02000479
+桜子
+（………イライラ）
+$k
+
+&empty
+桜子が凄く怒っている様に感じる。
+それは何に対してだろうか。
+$k
+
+// ISAKIPAPA_0301KM
+#ir
+#ip,c2,(fi),ISAKIPAPAn_A301KM.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990181
+勇樹の父
+「でもな、勇樹、父さんは勇樹の事はずっとずっと…」
+$k
+
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02IK7.png,(x),l,(s),80%
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO3.png,(x),r,(s),80%
+#ie,c2
+#ig
+
+// 	SS_( RIGHT, KANAMEn_A201NO3, MOVE_STOP, NORMAL )
+
+// SAKURAKOn_A402IK7
+#sp,vo,02000480
+桜子
+「あー、あたしらちょっと向こう行ってるからさー？
+　勇樹もおじさんも、とりあえず言いたい事
+　言い合えばいいんじゃない？」
+$k
+
+優
+「お、おい桜子、いいのか？　こんな…」
+$k
+
+// KANAMEn_A201KM2
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01KM2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02020118
+要
+「そ、そうだねー？
+　ここは親子水入らず、腹を割って、ね？
+$nw,5800
+
+#ir
+#ip,c1,(fi),KANAMEn_A201.png,(psi),KANAMEn_An01NO4.png,(x),r,(s),80%
+#ig
+
+　ほら行こうか、優君も」
+$k
+
+優
+「要さん…いや、でも」
+$k
+
+#ir
+#ip,c2,(fi),ISAKIPAPAn_A301KM.png,(x),c,(s),75%
+#ie,c1,c3
+#ig
+
+&empty
+何も聞いてない俺に、事情はよく分からんが。
+何も解決する気がしないぞ、この空気は。
+$k
+
+// ISAKIn_A401IK
+
+#sp,vo,02010194
+勇樹
+「私は、こいつとは何も話す気はないぞ。
+　こんなものは余計な世話だ、轟木桜子」
+$k
+
+&empty
+ほら、宮津橋に話を聞く気がないんだから。
+$k
+
+// ISAKIPAPA_0301AY
+#ir
+#ip,c2,(fi),ISAKIPAPAn_A301AY.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990182
+勇樹の父
+「い、勇樹っ、父さん許してくれとは言わない、
+　でも…」
+$k
+
+// ISAKIn_A401MU
+
+#sp,vo,02010195
+勇樹
+「……ふん」
+$k
+
+// SAKURAKO_0403AK
+
+#sp,vo,02000481
+桜子
+「ああーいいわよ、わかった、もう…」
+$k
+
+// 	SS_( LEFTLEFTTOP, SAKURAKOn_A402IK8, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(sync),NO
+#ip,c2,(fi),ISAKIPAPAn_A301KT.png,(x),r,(s),100%
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02IK8.png,(x),l,(s),80%
+#ig
+
+#sp,se,T_tukamu
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c2,(y+),10
+#ig
+
+&empty
+桜子が俺の手を引っ張って行って、
+親父さんの肩を掴ませる。
+$k
+
+// 	Zoom( NORMAL, 110, 110 );
+// 	SS_( RIGHT, ISAKIPAPAn_A301KT, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+// 	ShakeStand( RIGHT, FAST, SHAKE_DOWN, 20, FAST * 2 );
+// 	Zoom( NORMAL );
+
+優
+「おい、なんだよ桜子？」
+$k
+
+// SAKURAKOn_A402NO
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02000482
+桜子
+「優、簡単に説明するわね？」
+$k
+
+優
+「は？」
+$k
+
+// ISAKIn_A401NO
+
+#sp,vo,02010196
+勇樹
+「………」
+$k
+
+// KANAME_0201KT2
+
+#sp,vo,02020119
+要
+「…桜子ちゃん？」
+$k
+
+// ISAKIPAPAn_A301KT
+#sp,vo,02990183
+勇樹の父
+「……え」
+$k
+
+// SAKURAKOn_A402NR
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,02000483
+桜子
+「この方、中井誠一さん、勇樹のお父さんね？」
+$k
+
+#ir,(sync),NO
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03FK.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c3,(y+),10
+#ig,(se),T_tukamu
+
+// 	SS_( CENTER, SAKURAKO_0403FK, MOVE_LEFT, NORMAL );
+
+&empty
+言うと桜子は宮津橋の方へ寄って行き、
+俺がしているように宮津橋の肩を掴む。
+$k
+
+#next,02common02-4_10

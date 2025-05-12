@@ -1,0 +1,649 @@
+﻿// 既読フラグ
+#read_flag,75
+
+// 	SF( 0, NORMAL, 25 )
+// 	SF( 1, NORMAL, 25 );
+// 	SF( 2, NORMAL, 25 );
+
+// 	SS_( CENTER, KOBAYASHI_0801BS3, MOVE_RIGHT );
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A801.png,(psi),KOBAYASHI_An01BS3.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),500
+#ip,c1,(x),c,(al),100
+#ig
+
+// KOBAYASHI_0801BS3
+#sp,vo,02080032
+小林
+「おらおらー、どけどけーっ、小童ども！」
+$k
+
+&empty
+小林め、どうやら本気らしいな！
+$k
+
+&empty
+まずは校庭のトラックを回る。
+ここで大体のグループが出来上がるのだが…。
+$k
+
+&empty
+そのグループの一つにウサギ型、というのがある。
+別にぴょんぴょん跳ねるわけではないが。
+$k
+
+// 	SS_( RIGHT, KOBAYASHI_A801BS4, MOVE_LEFT );
+
+#sp,se,S_Dash06o
+
+優
+「じゃあ小林、お先にー」
+$k
+
+// KOBAYASHI_0801OD
+#ir
+#ip,c1,(fi),KOBAYASHI_A801.png,(psi),KOBAYASHI_An01OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02080033
+小林
+「なにっ！？
+　ずるいぞお前っ！」
+$k
+
+#ss,env
+
+// 	SV( BG_GK_KOTEI01A );
+
+// 	ZoomVisual( 0, 200, 200, 560, 360 );
+// 	SS( CENTERLEFT, MII_0801KY );
+// 	SS( CENTERRIGHT, CHISEKA_0801NO2 );
+
+#ir
+#ip,bg,(fi),BG_GK_KOTEI01A_Z.jpg,(s),100%,(y),0
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01NO2.png,(x),r,(s),60%
+#ip,c3,(fi),MII_A801.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+// MII_0801KY
+
+#sp,vo,02030210
+みい
+「結構飛ばしてますねー、お兄様」
+$k
+
+// CHISEKA_0801OD3
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01OD3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02040178
+知世翔
+「あ、トップ組なんだ？
+$nw,3900
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01BS.png,(x),r,(s),60%
+#ig
+
+　………なによ、案外やるんじゃない」
+$k
+
+// 	SV( BG_GK_KOTEI01A );
+// 立ち絵消える。パラメータは適宜。
+
+#ir
+#ip,bg,(fi),BG_GK_KOTEI01A.jpg,(s),100%
+#ig
+
+// 	Shake( NORMAL * 2, SHAKE_UP, 10, NORMAL );
+
+優
+「はっ、ふ…」
+$k
+
+&empty
+トップ集団についていく俺。
+$k
+
+// 	SS_( RIGHT, KOBAYASHI_A801IK2, MOVE_RIGHT );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A801.png,(psi),KOBAYASHI_An01IK2.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r,(al),100
+#ig
+
+// KOBAYASHI_A801IK2
+#sp,vo,02080034
+小林
+「ぐおおおおおおーっ！」
+$k
+
+&empty
+すごい形相でついてくる小林。
+$k
+
+// KOBAYASHI_A801AS
+#ir
+#ip,c1,(fi),KOBAYASHI_A801.png,(psi),KOBAYASHI_An01AS.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02080035
+小林
+「待て！　待ちたまえ君達ぃー！」
+$k
+
+&empty
+小林うるせえなあ…。
+$k
+
+&empty
+声出しながら走るとバテるぞ？
+……気合いは買うがね。
+$k
+
+// 	SV( BG_GK_KOTEI01A );
+// 	ZoomVisual( 0, 200, 200, 560, 360 );
+
+// 	SS( CENTERLEFT, MII_0801KY2 );
+// 	SS( CENTERRIGHT, CHISEKA_0801NO );
+
+#ir
+#ip,bg,(fi),BG_GK_KOTEI01A_Z.jpg,(s),100%,(y),0
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01NO.png,(x),r,(s),60%
+#ip,c3,(fi),MII_A801.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ig
+
+// MII_0801KY2
+
+#sp,vo,02030211
+みい
+「ああ、行ってしまいましたね」
+$k
+
+// CHISEKA_0801EG3
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02040179
+知世翔
+「よーし、私達も気合い入れて走るのよ、みい！」
+$k
+
+// MII_0801KS
+#ir
+#ip,c3,(fi),MII_A801.png,(psi),MII_An01KS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030212
+みい
+「………はい？
+$nw,2300
+
+#ir
+#ip,c3,(fi),MII_A801.png,(psi),MII_An01GM.png,(x),l,(s),60%
+#ig
+
+　いえ、私はちょっと……
+$nw,3200
+
+// 	MoveStand( CENTERLEFT, SLOW | SPEED_DOWN, 0, 100 );
+// 	ShakeStand( CENTERLEFT, SLOW, SHAKE_LEFT, 10, FAST );
+
+#ir
+#ip,c3,(fi),MII_A802.png,(psi),MII_An02AS.png,(x),l,(s),60%
+#ig
+
+#ir,(dr),2000,(ef),move
+#ip,c3,(x+),30,(y+),100,(al),0%
+#ia,c3,x,(dr),1000,(lt),over,(lc),2
+#ig
+
+　ああ、持病の癪が」
+
+$k
+
+// 	ShakeStand( CENTERLEFT, 0, SHAKE_LEFT, 0 );
+// 	MoveStand( CENTERLEFT, 0, 0, 100 );
+
+// CHISEKA_0801IK
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02040180
+知世翔
+「ほら、準備運動するの！
+　あんなのに負けてられないし」
+$k
+
+// 	MoveStand( CENTERLEFT, NORMAL );
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(y+),-100,(al),100%
+#ig
+
+// MII_0803KM3
+#ir
+#ip,c3,(fi),MII_A803.png,(psi),MII_An03KM3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030213
+みい
+「なにも張り合う必要は…。
+$nw,3200
+
+#ir
+#ip,c3,(fi),MII_A803.png,(psi),MII_An03AD3.png,(x),l,(s),60%
+#ig
+
+　私はほどほどに走るのが好みなんですけど」
+
+$k
+
+// 	MoveStand( CENTERLEFT );
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TEIBO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO01A.jpg,(s),100%
+#ig
+
+#sp,env,S_Dash10#
+
+#ir,(dr),500,(ef),move,(lt),over,(lc),reverse
+#ip,bg,(y+),-10
+#ig
+
+// 	Zoom( 0, 110, 110 );
+// 	Shake( 0, SHAKE_UP | SHAKE_SCREEN, 7, FAST );
+
+#show
+
+優
+「はあ、はあ、もういいかな～？」
+$k
+
+#ss,env,(dr),1000
+
+#ils
+
+#sp,bgm,BGM_COMICAL2
+
+優
+「…ふうーっ！」
+$k
+
+// 	Zoom( SLOWER );
+// 	Shake( SLOWER | SPEED_DOWN, SHAKE_UP | SHAKE_SCREEN, 7, FAST );
+
+&empty
+二～三キロは走ったか…。
+$k
+
+&empty
+小林の姿は割と早い内に後ろに見えなくなり、
+走っていくうちに先頭集団からは
+徐々に差を付けられて…。
+$k
+
+&empty
+もうすでに惰性で走っているだけだ。
+長距離苦手だしなー、俺…。
+さすがに、なまった体でこれはきついし。
+$k
+
+&empty
+そんな俺と同じ気持ちなのだろうか、
+周りにはぼちぼちとペースを落とすお仲間がちらほら。
+$k
+
+&empty
+まあ、始めにがんばって、後はぼちぼち行こうよ、
+という集団。
+$k
+
+#sp,vo,02990138
+クラスメイト
+「おう、矢崎ー、お前もか」
+$k
+
+優
+「おーう、元気かー？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱしっ。" );
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Touch01
+
+&empty
+ほぼ歩きながら、お互いの健闘を称えつつ、
+手を合わせたりなんかして。
+$k
+
+#sp,vo,02990139
+クラスメイト
+「お、脇道に自販機発見！」
+$k
+
+優
+「じゃあコーヒータイムでも」
+$k
+
+&empty
+この辺りは教師も立ってない区画なので堂々と
+サボれてしまう。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+ここらでこっそり休みつつ後は気楽に楽しもう。
+走るのはそんな嫌いじゃないしな。
+$k
+
+&empty
+なんて思ってると……。
+$k
+
+#sp,se,S_Walk06i
+
+#sp,vo,02990140
+クラスメイト
+「おい、もうすぐ小林来るぞ。
+　今年は気合い入ってるらしい、結構本気っぽいぞ」
+$k
+
+&empty
+後から来た男子が情報をくれる。
+$k
+
+優
+「もう？　…早いなー」
+$k
+
+#sp,vo,02990141
+クラスメイト
+「やべえ、俺そろそろ行くわ」
+$k
+
+優
+「おう」
+$k
+
+#sp,se,S_Walk06o
+
+&empty
+小林はなにか別の意味でのペースメーカーというか。
+$k
+
+&empty
+じゃあ俺もそろそろ復帰しますかね。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+道の向こうの歩道にちらほらと女子の姿が見える。
+たまに女子とコースが一緒になったり、
+ならなかったりする様だ。
+$k
+
+&empty
+コースもそこそこ考えてあるんだな。
+見張りの教師も大変だろうに。
+$k
+
+// 	SS_( CENTER, KOBAYASHI_0801NM, MOVE_STOP, SLOWER );
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A801.png,(psi),KOBAYASHI_An01NM.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),over,(lc),no_limit
+#ip,c1,(x+),30
+#ig
+
+// 	SetActionFurafura1( CENTER );
+
+// KOBAYASHI_0801NM
+#sp,vo,02080036
+小林
+「はふ、はふ、はっ…ふ、、はあ」
+#meffect,flow,5
+$k
+
+#ils
+
+// 	DelAction( CENTER );
+
+優
+「よう！　元気かー？
+　あ、しゃべんなくてもいいぞ？」
+$k
+
+&empty
+小林はかなりへばっているらしく、
+手で合図をするのが精一杯といった感じだ。
+$k
+
+// 	SS_( CENTER, KOBAYASHI_A801NM, MOVE_STOP, SLOW );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「結構頑張るんだな？」
+$k
+
+#ir
+#ip,c1,(fi),KOBAYASHI_A801.png,(psi),KOBAYASHI_An01NM.png,(x),c,(s),80%
+#ig
+
+// KOBAYASHI_A801NM
+#sp,vo,02080037
+小林
+「は………は、………本気でやれ…るとこまで
+#meffect,flow,5
+
+　ふ、やってみようかと？」
+#meffect,flow,5
+$k
+
+優
+「しかしまだ半分ちょ…
+$nw,1000
+
+　……なんでもない、がんばれよ！
+　あまり飛ばしすぎて倒れないようになー？」
+$k
+
+// KOBAYASHI_A801BS
+#ir
+#ip,c1,(fi),KOBAYASHI_A801.png,(psi),KOBAYASHI_An01BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02080038
+小林
+「……おお、サンキュ」
+#meffect,flow,5
+$k
+
+// 	MoveStand( CENTER, SLOWER, 50, 0 );
+// 	FadeStand( CENTER, SLOWER, FADE_ALPHA, 0 );
+
+#ir,(dr),2000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+&empty
+手をふりふり、小林がじわじわと遠ざかっていく。
+トップはもう無理だろうけど、
+いつもより少しは上位に届くんじゃないか？
+$k
+
+&empty
+しかしあいつ、本当にめぐみにアタックすんのか？
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_JINJYAMAE01A );
+
+#sp,env,S_Dash10#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAMAE01A.jpg,(s),100%
+#ig
+
+#show
+
+//	SS_( CENTERRIGHT, CHISEKA_0801MJ, MOVE_STOP, NORMAL );
+// CHISEKA_0801MJ
+
+#sp,vo,02040181
+知世翔
+「はあ、はあ、
+$nw,2000
+
+#madd,……っ！！」
+
+$k
+
+//	SetIconHirameki( CENTERRIGHT );
+
+優
+「はっ、は…ん？」
+$k
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+&empty
+遅めのジョギングペースで流していたら、
+横で有河が睨みながら併走していた。
+$k
+
+//	DS_( CENTERRIGHT, MOVE_LEFT, NORMAL );
+//	SS_( CENTER, CHISEKA_A801NR, MOVE_RIGHT, NORMAL );
+
+// CHISEKA_A801IK
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040182
+知世翔
+「あ、あなた、こんな所でなに…やってんですか！」
+$k
+
+優
+「おう有河か。
+$nw,1000
+
+　あれ、なに？　…俺怒られてる？」
+$k
+
+// CHISEKA_A801AS
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01AS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040183
+知世翔
+「は…当たり前です、よ！」
+$k
+
+優
+「あ、おいペース落としていいのか？
+　どんどん抜かれてるぞ？」
+$k
+
+&empty
+どうやら一年のトップらしき集団を走っていた有河。
+俺を見つけて、なにか言いたくなったらしい。
+$k
+
+優
+「そっちはまだ序盤だろ、いいのか？」
+$k
+
+// CHISEKA_A801IK2
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02040184
+知世翔
+「…いいんですっ、
+$nw,2100
+
+#ss,env,(dr),1000,(cl),NO
+
+#ir
+#ip,c1,(fi),CHISEKA_A801.png,(psi),CHISEKA_An01NR.png,(x),c,(s),80%
+#ig
+
+　そんなことよりっ！」
+
+$k
+
+// 	SEStop( 0 );
+// 	SS_( CENTER, CHISEKA_A801NR, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+//	ShakeStand( CENTER, 30, SHAKE_DOWN, 20, 30 * 2 );
+
+#next,02common02-4_02

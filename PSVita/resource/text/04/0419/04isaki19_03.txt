@@ -1,0 +1,240 @@
+﻿// 既読フラグ
+#read_flag,250
+
+優
+「お、お前なぁ！　誰のために
+　俺があんなに頑張ったと思ってるんだ！？」
+$k
+
+// ISAKI_A402BS2
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS2.png,(x),c,(s),80%
+#ig
+
+&empty
+すると、勇樹は折り曲げていた体を起こし、
+正面から俺を見た。
+$k
+
+#sp,vo,04010788
+勇樹
+「私のため…なんだな。
+　嬉しいよ、凄く」
+$k
+
+// ISAKI_A402EG2
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010789
+勇樹
+「そうか…
+$nw,1730
+
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02TR.png,(x),c,(s),80%
+#ig
+
+　ずっと側にいていいんだな。
+　甘え続けてもいいんだな」
+$k
+
+優
+「もちろんだ。
+　…この１年はちょっと会いづらくなっちゃうけどな」
+$k
+
+優
+「でも、いつでもすぐに会いに来る。
+　なぁに、大学生は暇だっていうから大丈夫さ」
+$k
+
+// ISAKI_A401NS2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010790
+勇樹
+「それはどうかな？
+　優の成績じゃ、わからないな」
+$k
+
+優
+「そ…そうか、ヤバイな……。
+　あ、でも１年留年したら、
+　お前と一緒になれるじゃん？」
+$k
+
+// ISAKI_A401IK2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010791
+勇樹
+「馬鹿。そんな軟弱な事を私が許すと思うか？」
+$k
+
+優
+「そりゃそうだな」
+$k
+
+優
+「…とにかく……ずっと一緒だ。
+　それで俺はお前に頼られるように
+　もっと強くなるからさ」
+$k
+
+// ISAKI_A401EG2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010792
+勇樹
+「……ああ」
+$k
+
+&empty
+勇樹が、まるで花の蕾がほころぶように
+にっこりと笑った。
+$k
+
+// ISAKI_A402BS2
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010793
+勇樹
+「お前がそう言ってくれるなら、
+　私も強くなれる。
+　もう自分からもお前からも逃げない」
+$k
+
+// 	ZoomStand( CENTER, 60|SPEED_DOWN, 140, 140 );
+// 	FadeStand( CENTER, 60|SPEED_DOWN, FADE_ALPHA, 0 );
+// 	Shake( NORMAL, SHAKE_UP|SHAKE_SCREEN, 10, 50 );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+#sp,se,S_Don01
+
+&empty
+勇樹が、俺の腕の中へ飛び込んでくる。
+$k
+
+// ISAKI_A402BS2
+#sp,vo,04010794
+勇樹
+「好きだ、優。
+　今度こそ、ずっとそばにいる。
+　お前が離さないからじゃない、私の意志だ」
+$k
+
+&empty
+俺は、勇樹を抱きしめた。
+$k
+
+&empty
+勇樹も怪我していない方の手に力を込めてくる。
+$k
+
+// ここで終了。
+
+// ISAKI_A401EG2
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01EG2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,04010904
+勇樹
+「私が入るまで待っていてくれるんだろう？」
+$k
+
+優
+「ああ、それは約束する」
+$k
+
+// ISAKI_A402BS
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS.png,(x),c,(s),100%
+#ig
+
+#sp,vo,04010905
+勇樹
+「なら、私はお前のために頑張れる」
+$k
+
+&empty
+勇樹が、俺の事をじっと見つめてくる。
+$k
+
+// ISAKI_A402BS2
+#ir
+#ip,c1,(fi),ISAKI_A402.png,(psi),ISAKI_An02BS2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,04010906
+勇樹
+「だから、お前は私のために強くなってくれ」
+$k
+
+優
+「ああ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+#sp,se,S_Don01
+
+//&empty
+//力強く頷いて、勇樹を抱きしめる。
+//$k
+
+&empty
+力強く頷いて、もう一度勇樹を抱きしめる。
+$k
+
+&empty
+これから先、どんな困難が待っていたとしても
+２人なら頑張れる気がした。
+$k
+
+&empty
+いや、きっと頑張れる。
+$k
+
+&empty
+なぜなら、勇樹と……最愛の相手と
+一緒に進んでいくのだから。
+$k
+
+#hide
+
+#wait,2000
+
+#ss,bgm,(dr),2000
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// スキップ停止。
+#flag,skip,NO,0,0
+
+// ムービー。
+#movie,Ending.mp4
+
+#wait,1000
+
+#next,04isaki20_00

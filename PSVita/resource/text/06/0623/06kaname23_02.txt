@@ -1,0 +1,678 @@
+﻿// 既読フラグ
+#read_flag,426
+
+// 	SV( BG_TD_SAKURAKO01A );
+// 	SS( CENTER, YUKIHA_0401MJ );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_SAKURAKO01A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01MJ.png,(x),c,(s),60%
+#ig
+
+#show
+
+// YUKIHA_0401MJ
+#sp,vo,06050080
+雪華
+「お昼の少し前、お兄ちゃんの布団を干そうと思って、
+　部屋まで行ったんです」
+$k
+
+優
+「………」
+$k
+
+// YUKIHA_0401IK7
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06050081
+雪華
+「いちいち喜ばないで…
+$nw,2140
+
+　うざいから」
+
+$k
+
+// YUKIHA_0401IK2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06050082
+雪華
+「だいたい、これから本気で
+　軽蔑するかもしれないのに…」
+$k
+
+優
+「………」
+#meffect,flow,2
+$k
+
+// SAKURAKO_0403IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06000166
+桜子
+「そこでいちいちしょぼくれるな、話が進まない。
+$nw,4060
+
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),r2,(s),60%
+#ig
+
+　雪華ちゃん、それで？」
+$k
+
+#hide
+
+// 	SV( BG_SJ_YU01F, FILTER_SEPIA|FILTER_LINKSTAND );
+// 	SetObject( 0, "SpotB.png", 0, 0, OBJATTR_TOP );
+
+//	SS( CENTER, KANAME_A402MU );
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01F_s.jpg,(s),100%
+#ig
+
+#show
+
+// YUKIHA_0401MJ2
+
+#sp,vo,06050083
+雪華
+「要お姉ちゃんが、お兄ちゃんの布団に寝てて…
+$nw,3930
+
+　責任がどうとかって…」
+$k
+
+&empty
+責任…か。
+#meffect,flow,5
+$k
+
+#hide
+
+// 	SV( BG_TD_SAKURAKO01A );
+// 	SS( LEFT, ISAKI_0401IK );
+// 	SS( RIGHT, CHISEKA_0401MJ );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_SAKURAKO01A.jpg,(s),100%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01MJ.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l,(s),60%
+#ig
+
+#show
+
+// ISAKI_0401IK
+
+#sp,vo,06010025
+勇樹
+「責任と言うなら矢崎、
+　貴様、バイトをはじめたのもこれが原因では」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ん～！」
+$k
+
+&empty
+いや、それは穿ちすぎ。
+$k
+
+// CHISEKA_0401MJ
+#sp,vo,06040035
+知世翔
+「そういえばこないだもお給料の使い道で、
+　男がうんちゃら言ってたわね」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「ん～、ん～！」
+$k
+
+&empty
+だから考えすぎだっつの。
+$k
+
+&empty
+だいたい俺、今の今まで知らなかったんだって。
+$k
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),60%
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK.png,(x),r,(s),60%
+#ie,c3
+#ig
+
+// 	SS( RIGHT, MEGUMI_0401IK );
+
+// SAKURAKO_0402IK7
+#sp,vo,06000167
+桜子
+「体調や気分が悪い、
+$nw,2060
+
+#madd,吐き気がする、
+$nw,1360
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),l,(s),60%
+#ig
+
+　すっぱいものが欲しいの代表的初期症状」
+$k
+
+// MEGUMI_0401MJ
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01MJ.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070086
+めぐみ
+「それに責任発言と、
+　産婦人科から出てきたところを
+　３人も見てたら見間違いもないでしょ」
+$k
+
+// ISAKI_0401IK
+#sp,vo,06010026
+勇樹
+「決定的か」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「ん～、ん～、ん～っ！」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000168
+桜子
+「めぐ、優の猿ぐつわ外してやってくれる？」
+$k
+
+// MEGUMI_0401BS2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070087
+めぐみ
+「了解。
+$nw,560
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS3.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+　はい優ちゃん、じっとしててね～」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+#sp,se,S_Nuno08
+
+#ir
+#ie,c1
+#ig
+
+&empty
+俺の後ろに回っためぐみが、
+手早く俺に噛ませられていたタオルを外してくれる。
+$k
+
+&empty
+さらに俺は口の中に詰め込まれていた、
+涎まみれのハンカチを自分で引っ張り出した。
+$k
+
+優
+「はぁはぁ…死ぬかと思った」
+#meffect,flow,5
+$k
+
+&empty
+ふんじばられたついでに、結構ボコボコにされたし。
+身体中痛いぞこん畜生。
+$k
+
+// 	SS_( LEFTLEFT, ISAKI_0401KB );
+
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01KB.png,(x),l2,(s),60%
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),c,(s),60%
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02KB2.png,(x),r2,(s),60%
+#ig
+
+// 	SS_( CENTER, SAKURAKO_0402IK8 );
+// 	SS( RIGHTRIGHT, MII_0402KB2 );
+
+// SAKURAKO_0402IK8
+#sp,vo,06000169
+桜子
+「まあ瞬間的には真剣に殺す気だったし」
+$k
+
+// MII_0402KB2
+
+#sp,vo,06030153
+みい
+「ですね」
+$k
+
+// ISAKI_0401KB
+#sp,vo,06010027
+勇樹
+「実際、思い当たる節はあるのか」
+$k
+
+優
+「後生ですから妹の前でそういう話題はやめて…」
+$k
+
+// ISAKI_0401IK
+#ir
+#ip,c3,(fi),ISAKI_A401.png,(psi),ISAKI_An01IK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,06010028
+勇樹
+「…肯定か」
+$k
+
+// 	SS( CENTER, YUKIHA_0401MJ2 );
+// YUKIHA_0401MJ2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01MJ2.png,(x),c,(s),60%
+#ie,c2,c3
+#ig
+
+#sp,vo,06050084
+雪華
+「最近はそんなの小学生でも知ってるよ」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「雪華ちゃんの口からそんな話聞きたくなかった！」
+$k
+
+// YUKIHA_0401KM4
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06050085
+雪華
+「お兄ちゃん…
+$nw,1770
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM2.png,(x),c,(s),60%
+#ig
+
+　雪華が信じてたコウノトリさんは、
+　どこにもいなかったんだ…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「その悟った口調をやめてー！」
+#mlarge
+$k
+
+// 	SS_( LEFT, MEGUMI_0401KS );
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KS.png,(x),l,(s),60%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KB.png,(x),r,(s),60%
+#ig
+
+// 	SS( RIGHT, MII_0403KB );
+
+// MEGUMI_0401KS
+#sp,vo,06070088
+めぐみ
+「妹が兄に性教育してるわ」
+$k
+
+// MII_0403KB
+
+#sp,vo,06030154
+みい
+「もっと早くから始めていれば、
+　過ちも未然に防げたかもしれませんが」
+$k
+
+// MEGUMI_0401KS2
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KS2.png,(x),l,(s),60%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\ase.png,(x),320,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op3,(y+),100,(al),0%
+#ia,op3,al,(dl),500
+#ig
+
+#sp,vo,06070089
+めぐみ
+「そんな酷な話もないんじゃない…？」
+$k
+
+// 	SS( CENTER, CHISEKA_0401SN );
+// CHISEKA_0401SN
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01SN.png,(x),c,(s),60%
+#ie,c2,c3
+#ig
+
+#sp,vo,06040036
+知世翔
+「………」
+#meffect,flow,5
+$k
+
+// MII_0402MJ
+
+#sp,vo,06030155
+みい
+「知世翔さんもそうは思われませんか？」
+$k
+
+// CHISEKA_0401SN
+
+#sp,vo,06040037
+知世翔
+「…どうして」
+$k
+
+// MEGUMI_0401MJ2
+
+#sp,vo,06070090
+めぐみ
+「あれ？」
+$k
+
+// SAKURAKO_0402NO
+
+#sp,vo,06000170
+桜子
+「知世翔…？」
+$k
+
+#ss,bgm
+
+// CHISEKA_0401IK
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06040038
+知世翔
+「どうして皆さん、そんなにのんきなんですか！」
+$k
+
+優
+「有河…」
+#meffect,flow,2
+$k
+
+// CHISEKA_0401IK
+#sp,vo,06040039
+知世翔
+「妊娠ですよ！　一大事ですよ！？
+　そんな時なのに、どうしてのんきなんです！？」
+$k
+
+&empty
+真面目で融通の効かない有河が糾弾する。
+$k
+
+// SAKURAKO_0401TR2
+#ir,(ef),off
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR2.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+#sp,vo,06000171
+桜子
+「いや、でもしょせんは他人事だし…」
+#meffect,flow,5
+$k
+
+// CHISEKA_0401AK2
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06040040
+知世翔
+「そんな…」
+#meffect,flow,5
+$k
+
+優
+「桜子は俺に決めろって言ってくれてんだよ」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06000172
+桜子
+「いいように取りすぎ。
+$nw,1980
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),60%
+#ig
+
+　…まぁ、別にいいけどね」
+$k
+
+#sp,bgm,BGM_SABISHII
+
+優
+「ああ……ありがとな有河」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06040041
+知世翔
+「なにがよ」
+$k
+
+優
+「他人事なのに、真剣に怒ってくれて」
+$k
+
+// CHISEKA_0401IK
+#sp,vo,06040042
+知世翔
+「な、なによ他人事って」
+$k
+
+優
+「いや、別に突き放してるわけじゃなくて、
+　他にいい言葉が見つからないだけ」
+$k
+
+#ir
+#ie,c1,c2
+#ig
+
+優
+「みんなも…ごめん。
+　でもって、ありがとう。首突っ込んでくれて」
+$k
+
+&empty
+みんなが関わってくれたことに感謝する。
+$k
+
+// SAKURAKO_0402IK8
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK8.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06000173
+桜子
+「少しは頭冷えたか」
+$k
+
+優
+「そうだな！　おまえもふんじばって、
+　ボコボコにしてくれてありがとな！」
+$k
+
+&empty
+憎まれ口だけど感謝はしてる。
+$k
+
+&empty
+おかげで何も考えずに飛び出そうとしていた
+熱い頭は、なんとかクールダウンできた。
+$k
+
+// MII_0402MJ
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),c,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,06030156
+みい
+「それで、どうするんです？」
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「その前に」
+$k
+
+#sp,se,S_Nuno08
+
+&empty
+俺は携帯を取り出す。
+$k
+
+#hide
+
+#sp,se,S_Tel05
+
+#wait,1000
+
+#sp,env,S_Tel06#
+
+#wait,2000
+
+// 	SEStop( 0 );
+
+#ss,env,(dr),0
+#sp,se,S_Tel08
+
+#show
+
+#sp,vo,06021600
+要
+「優くん…？」
+$k
+
+優
+「うん、こないだはごめん」
+$k
+
+優
+「……それで要さん、俺になにか隠してないですか？」
+$k
+
+#sp,vo,06021601
+要
+「え…それは…」
+#meffect,flow,5
+$k
+
+#sp,vo,06021602
+要
+「っ…なんでもないから」
+$k
+
+優
+「じゃあ今からそっちに…」
+$k
+
+#sp,vo,06021603
+要
+「来なくていいから！」
+$k
+
+優
+「ちょっ、要さん…」
+$k
+
+#sp,se,S_Tel09
+
+#wait,500
+
+// 	SS_(CENTER, YUKIHA_0401KM, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM.png,(x),c,(s),60%
+#ig
+
+// 	ZoomStand(CENTER, FASTEST, 80, 80);
+
+#sp,vo,06050086
+雪華
+「どうなの？」
+$k
+
+
+#next,06kaname23_03

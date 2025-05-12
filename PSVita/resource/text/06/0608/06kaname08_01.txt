@@ -1,0 +1,550 @@
+﻿// 既読フラグ
+#read_flag,364
+
+// 	Zoom(SLOW|SPEED_DOWN, 110, 110, 400-400, 300-200);
+
+優
+「いや、だってそれ食べかけですし」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(s),100%,(x),c,(y),0
+#ig
+
+#sp,vo,06020300
+要
+「あーん」
+#mlarge
+$k
+
+// 	Zoom(SLOW|SPEED_DOWN, 150, 150, 400-250, 300-200);
+
+優
+「………」
+#meffect,flow,5
+$k
+
+&empty
+からかわれているのか、
+//酒の席で気が緩んでいるのか。
+こういう席で気が緩んでいるのか。
+$k
+
+&empty
+そもそもこんなこと意識しているのが、
+我ながら、ちっちぇー気もするけど。
+$k
+
+&empty
+たぶん、相手が要さんだってのが大きいんだろう。
+$k
+
+//&empty
+//憧れもあった、近所のお姉さんと、
+//こうして二人並んで酒を飲む奇妙な現実感。
+//$k
+
+&empty
+憧れもあった、近所のお姉さんと、
+こうして屋台に二人で並ぶ奇妙な現実感。
+$k
+
+&empty
+…ま、変に気にするもんでもないか。
+$k
+
+優
+「あ、あ～ん」
+#meffect,flow,2
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4, 40);
+
+//#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+//#ip,bg,(y+),20
+//#ig
+
+#sp,vo,06020301
+要
+「ほい、ぱくっと」
+$k
+
+優
+「んむ…！」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(s),75%,(x),c,(y),def
+#ig
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06A.jpg,(s),75%
+#ig
+
+#sp,vo,06020302
+要
+「ね、おいしいでしょ？」
+$k
+
+// 	SV( VISUAL_KANAME_06A );
+
+#ir
+#ip,bg,(fi),BG_MT_YATAI03A.jpg,(s),100%
+#ig
+
+優
+「んぐんぐ…」
+#meffect,flow,5
+$k
+
+// 	SV( BG_MT_YATAI03A );
+
+&empty
+微妙に混乱して味がよくわからない。
+$k
+
+#ss,bgm
+
+優
+「ん、ぐ………
+$nw,1000
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,bg,(fi),BG_MT_YATAI03A_r.jpg
+#ig,(se),S_Hipparu01
+
+　んんん！？」
+$k
+
+// 	SV(BG_MT_YATAI03A, FILTER_NEGATIVE);
+
+#sp,bgm,BGM_COMICAL1
+
+#ir
+#ip,bg,(fi),BG_MT_YATAI03A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+// 	SV( BG_MT_YATAI03A );
+
+// KANAME_A101OD3
+
+#sp,vo,06020303
+要
+「わわっ、大変っ！
+　はい！」
+$k
+
+// 	SS_(CENTER, KANAME_A101OD3);
+// 	WaitStand( CENTER );
+// 揺れ。パラメータは適宜。
+
+優
+「んん～！」
+#mlarge
+$k
+
+//&empty
+//いや、それ要さんのグラス…！
+//$k
+
+&empty
+のどにつかえて危機的状況の俺の前に、
+要さんはとっさにウーロン茶を差し出した。
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+// KANAME_A102IK2
+#ir
+#ip,c1,(fi),KANAME_A102.png,(psi),KANAME_An02IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020304
+要
+「ほら、早く飲んで！
+$nw,1360
+
+　背中叩いてあげるから」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Punch03
+
+#wait,100
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Punch03
+
+#wait,500
+
+優
+「んんんんん～～～！！？」
+#mlarge
+$k
+
+// 	FO_( SLOWER );
+
+&empty
+俺、意識しすぎ…。
+#meffect,flow,5
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+#sp,bgm,BGM_KANAME
+
+// 	SV( VISUAL_KANAME_06E );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_KANAME_06E.jpg,(s),75%
+#ig
+
+#show
+
+#sp,vo,06020305
+要
+「だいじょうぶ？」
+$k
+
+優
+「はい…ご面倒をお掛けしまして」
+$k
+
+// 	SV( VISUAL_KANAME_06A );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06A.jpg,(s),75%
+#ig
+
+#sp,vo,06020306
+要
+「そんなことないけどねー」
+$k
+
+&empty
+要さんは、俺が落ち着くまで、
+背中を優しくさすってくれた。
+$k
+
+&empty
+酔っ払いの介抱みたいになっていたのはさておき。
+$k
+
+// 	SV( VISUAL_KANAME_06B );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06B.jpg,(s),75%
+#ig
+
+#sp,vo,06020307
+要
+「おじさん、もう一杯ちょーだい」
+$k
+
+優
+「要さん、適度に控えてくださいよ。
+　そんなに強くないんでしょ？」
+$k
+
+#sp,vo,06020308
+要
+「こっちにも」
+$k
+
+優
+//「俺はもういりませんよ！？」
+「俺はいりませんよ！？」
+$k
+
+// 	SV( VISUAL_KANAME_06D );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06D.jpg,(s),75%
+#ig
+
+#sp,vo,06020309
+要
+「わたしのお酒が飲めないってのぉー？」
+$k
+
+優
+「しらふで言われましても…」
+$k
+
+// 	SV( BG_MT_YATAI03A );
+
+#ir
+#ip,bg,(fi),BG_MT_YATAI03A.jpg,(s),100%
+#ig
+
+#sp,vo,06990005
+親父
+「………」
+#meffect,flow,5
+$k
+
+#sp,se,Ma_Cop01
+
+&empty
+親父さんもしっかり承知しているようで、
+要さんの前には日本酒、俺の前にはウーロン茶が
+置かれる。
+$k
+
+&empty
+そういえば桜子も、
+未成年と思しき客には絶対アルコールを出すな、
+って言ってたっけ。
+$k
+
+&empty
+この屋台も、その鉄則は心得ているというわけか。
+$k
+
+//優
+//「………」
+//#meffect,flow,5
+//$k
+
+//&empty
+//グラス２つ出てくるし。
+//$k
+
+// 	SS(CENTER, KANAME_A101GB6, MOVE_STOP, NORMAL);
+
+// KANAME_A101GB6
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01GB6.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020310
+要
+「今度の乾杯はなんにするー？」
+$k
+
+優
+「…人の話を聞かない酔っ払いもどきに」
+$k
+
+// KANAME_A101PU4
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01PU4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020311
+要
+「優くんの大学合格を祈ってっ」
+$k
+
+#sp,se,W_Drink01
+
+// 	Shake(NORMAL, SHAKE_LEFT, 2);
+// 	SS(CENTER, KANAME_A101GB3, MOVE_STOP, NORMAL);
+
+&empty
+グラスが重なる。
+$k
+
+// KANAME_A101PU5
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01PU5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020312
+要
+「ぷはぁー、
+$nw,1410
+
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01GB5.png,(x),c,(s),80%
+#ig
+
+　やっぱ最初のひとくちは最高ねー」
+$k
+
+優
+「なんて既視感」
+$k
+
+// KANAME_A101YP
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01YP.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020313
+要
+「うそうそ、ちょっと回ってきたかも」
+$k
+
+// 	ZoomStand(CENTER, SLOWER|SPEED_DOWN, 120, 120);
+
+#ir
+#ip,c1,(fi),KANAME_A102.png,(psi),KANAME_An02RK.png,(x),c,(s),100%,(rx),480,(ry),544
+#ig
+
+// 	RotateStand(CENTER, NORMAL, -5);
+
+// 	Shake(NORMAL, SHAKE_LEFT, 16, 40);
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(ag),10d,(al),0%
+#ig
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig,(se),S_Dotadotan01
+
+優
+「うわ！？」
+#mlarge
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 16);
+
+&empty
+横からもたれかかってきた要さんを
+反射的にスウェーする。
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+// 	SS(CENTER, KANAME_A101IK, MOVE_DOWN);
+
+// KANAME_A101IK
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01IK.png,(x),c,(s),80%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#sp,se,S_Basa02
+
+#ir,(dr),500,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+#sp,vo,06020314
+要
+「よけるとはなにごと！？」
+#mlarge
+$k
+
+優
+「すみません…つい」
+#meffect,flow,5
+$k
+
+// KANAME_A101IK4
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020315
+要
+「電車の中で、うたた寝した
+　隣の女子●生にそんなことしたら、
+　非人道的行為で、訴えられちゃうわよ」
+$k
+
+優
+「何故ですか」
+$k
+
+// KANAME_A101IK5
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01IK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020316
+要
+「ワシントン条約」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「絶滅危惧種！？」
+#mlarge
+$k
+
+// KANAME_A101US4
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01US4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020317
+要
+「知らなかった？
+　天然ものはレッドリスト入りしてるのよ」
+$k
+
+優
+「そんなご無体な…」
+$k
+
+&empty
+しかし気付いているのか、微妙に自虐スパイス入り。
+$k
+
+// KANAME_A102BS
+#ir
+#ip,c1,(fi),KANAME_A102.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020318
+要
+「とっ、いうわけでー」
+$k
+
+// 	ZoomStand(CENTER, SLOWER|SPEED_DOWN, 120, 120);
+
+// 	RotateStand(CENTER, NORMAL, -5);
+// 	FadeStand(CENTER, NORMAL, FADE_ALPHA, 0);
+// 	SV( BG_MT_YATAI03A );
+
+// 	DelStandAll();
+// 	PinbokeVisual(FASTEST, PINBOKE_NORMAL);
+// 	ZoomVisual(FASTEST, 130, 130, 400, 300-200);
+
+// 	Scroll(FASTEST, -75, 0);
+// 	SS(CENTER, KANAME_A102EG);
+
+// 	ZoomStand(CENTER, FASTEST, 180, 180);
+// 	Shake(NORMAL, SHAKE_DOWN, 4, 40);
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,bg,(fi),BG_MT_YATAI03A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A102.png,(psi),KANAME_An02EG.png,(x),c,(s),100%
+#ig,(se),S_Don01
+
+優
+「うあ」
+$k
+
+&empty
+半身に要さんの重みがかかる。
+$k
+
+
+#next,06kaname08_02

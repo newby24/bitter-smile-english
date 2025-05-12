@@ -1,0 +1,553 @@
+﻿// 既読フラグ
+#read_flag,151
+
+優
+「あ、すみません。メールだ」
+$k
+
+&empty
+要さんがいるし本来は後回しにするところだが、
+要さんがいるからこそ悪い予感がする。
+$k
+
+// 	SEStop( 0 );
+
+#ir
+#ie,c1
+#ig
+
+#sp,se,S_Tel09
+
+&empty
+差出人は…やっぱりか。
+$k
+
+#hide
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_mii11_01.png,(x),c
+#ig
+
+$k
+
+#show
+
+// 	SET_KEITAI_MESSAGE( KEITAI_MSG_MII11_01 );
+
+&empty
+押入れの中から嫌がらせが込められていた。
+$k
+
+&empty
+そりゃ当然様子を伺ってるわな。
+$k
+
+// 	DEL_KEITAI_MESSAGE();
+
+// KANAME_0401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020016
+要
+「誰？」
+$k
+
+優
+「スパムです」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0,(sync),NO
+#ig,(se),S_Door07c
+
+// 	SK2();
+
+// KANAME_0401OD3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020017
+要
+「きゃっ！？」
+$k
+
+優
+「っ！？」
+$k
+
+// KANAME_0401RK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),c,(s),60%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ase.png,(x),520,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op1,(y+),100,(al),0%
+#ia,op1,al,(dl),500
+#ig
+
+#sp,vo,05020018
+要
+「な、なに今の…押入れ…？」
+$k
+
+優
+「不服か…」
+$k
+
+// KANAME_0401KB2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KB2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020019
+要
+「ふふく？」
+$k
+
+優
+「あ…」
+$k
+
+優
+「いや、ふ、服がですね？
+　適当に押し込んだ夏物が崩れたんじゃないかと」
+$k
+
+// KANAME_0402KT
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020020
+要
+「そんな音だったかなあ？」
+$k
+
+//	DS( CENTER );
+優
+「こ、怖いし開けなくていいですから！」
+$k
+
+// KANAME_0401MJ2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020021
+要
+「でも中、確認した方がよくない？」
+$k
+
+優
+「危ないんで、きっと！」
+$k
+
+// KANAME_0401RK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),c,(s),60%
+#ig
+
+// 	SS( CENTER, KANAME_0401RK );
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05020022
+要
+「雪崩クラス？」
+$k
+
+優
+「おそらく襲い掛かられるレベルじゃないかと」
+$k
+
+&empty
+俺がな。
+$k
+
+// KANAME_0401NO5
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020022x
+要
+「ふーん…優君も大変ねぇ……」
+$k
+
+&empty
+納得したようなしてないような要さん。
+$k
+
+優
+「やっぱお茶、持ってこないでもいいですか？」
+$k
+
+&empty
+この場を離れるのがちょっと怖い。
+$k
+
+// KANAME_0401KT3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KT3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020023
+要
+「心配しなくてもダメって言われたとこは見ないよ？」
+$k
+
+優
+「………」
+$k
+
+// KANAME_0401TR4
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020024
+要
+「そう言っといて見ちゃうのが粋なんだけどねっ」
+$k
+
+&empty
+ヤバイヤバイこの人。
+$k
+
+優
+「それで、本日の御用向きは」
+$k
+
+// KANAME_0401IK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020025
+要
+「ぶーぶー、冷たいなー。
+　そんなに早く追い返したいんだ」
+$k
+
+優
+「いや、その、なんと言いますか…」
+$k
+
+&empty
+俺だって、今日じゃなければ大歓迎です。
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020026
+要
+「うそうそ。明日は大切な日だもんね。
+$nw,3620
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),c,(s),60%
+#ig
+
+　集中して、もにょもにょしたいんでしょう」
+$k
+
+優
+「その何か引っ掛かる言い回しはやめてください」
+$k
+
+// KANAME_0401NO2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020027
+要
+「まあ、いじめるのはやめにして…。
+$nw,3420
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01GB.png,(x),c,(s),60%
+#ig
+
+
+　お代官様、山吹色のお菓子にございます」
+$k
+
+優
+「なんの袖の下ですか越後屋さん。
+　って、これ…？」
+$k
+
+// KANAME_0401NO
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020028
+要
+「合格祈願。わたしとお婆ちゃんからね」
+$k
+
+優
+「うあ…」
+$k
+
+// KANAME_0402BS
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020029
+要
+「短大卒と最終学歴寺子屋の情念が詰まったお守りよ」
+$k
+
+優
+「本当だったら婆さん妖怪なんすけど、その学歴」
+$k
+
+// KANAME_0401RK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020030
+要
+「まあ、妖怪なんだけどねー」
+$k
+
+優
+「俺もそうじゃないかと…
+　ってか、ほんとにもらっちゃっていいんですか？」
+$k
+
+// KANAME_0401TR2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020031
+要
+「そんなにかしこまらないでよ。
+　みんなから、たーくさんもらってるくせにー」
+$k
+
+優
+「いや、それが全然。
+　こういうのって普通に人から貰えるものなんですか」
+$k
+
+//	SetIconAse( CENTER );
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ase.png,(x),520,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op1,(y+),100,(al),0%
+#ia,op1,al,(dl),500
+#ig
+
+// KANAME_0401TR2
+#sp,vo,05020032
+要
+「えーっと…
+　質問がリアルすぎて回答に困るなー」
+$k
+
+優
+「あ、すみません、舞い上がっちゃって。
+　なんせはじめてなもんで…」
+$k
+
+&empty
+あれ？
+$k
+
+&empty
+なんか今、頭に引っ掛かったような…。
+$k
+
+#sp,se,S_Tel15
+
+// 	SS( CENTER, KANAME_0401OD );
+//	SetIconExcl( CENTER );
+
+優
+「わっと！？」
+$k
+
+// KANAME_0401KM2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020033
+要
+「またスパム？　しつっこいねー」
+$k
+
+// 	SEStop( 0 );
+
+#sp,se,S_Tel09
+
+#ir
+#ip,c1,(fi),image\keitai\keitai_mii11_02.png,(x),c
+#ig
+
+// 	SET_KEITAI_MESSAGE( -1 );
+
+優
+「…えっと、空メールですね」
+$k
+
+&empty
+みいちゃん…？
+$k
+
+&empty
+本文のないメールの真意を探るが、
+閉まったままの押入れは、何も答えちゃくれない。
+$k
+
+&empty
+ただの操作ミスか、それとも何か意味があるのか。
+$k
+
+&empty
+なんにせよ、申し訳ないけど要さんには、
+早いとこご退場願った方がよさそうだ。
+$k
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),c,(s),60%
+#ig
+
+優
+「それじゃ、お言葉に甘えてお守りはいただきま…」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),1,(sync),NO
+#ig,(se),S_Door07c
+
+// 	SK2();
+
+// KANAME_0401OD3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020034
+要
+「きゃっ！？」
+$k
+
+優
+「うわ！？」
+$k
+
+&empty
+って、どうして欲しいんだよみいちゃんはー！？
+$k
+
+// KANAME_0401RK
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01RK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020035
+要
+「もしかして…ほんとに中になんかいる…？」
+$k
+
+&empty
+と、考える暇もなくヤバいことに。
+$k
+
+優
+「お守り、どうもありがとうございました！
+　ほんと嬉しかったです！」
+$k
+
+// KANAME_0401OD2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020036
+要
+「いや、まだ渡してないし。それより…」
+$k
+
+優
+「じゃあ俺、明日の準備があるんで！」
+$k
+
+// KANAME_0401OD
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05020037
+要
+「だから、そうじゃなくて押入れ…」
+$k
+
+優
+「お礼は後日！　後日必ずしますから！」
+$k
+
+// KANAME_A401OD3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+// 	SS( CENTER, KANAME_A401OD3 );
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),550,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05020038
+要
+「あ、ちょっとこら、優くん…！」
+$k
+
+// 	MoveStand( CENTER, NORMAL|SPEED_DOWN, 50, 0, 1 );
+// 	MoveStand( CENTER, NORMAL|SPEED_DOWN, 80, 0, 1 );
+// 	MoveStand( CENTER, SLOW|SPEED_UP, 300, 0, 1 );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r
+#ig
+
+&empty
+いまだかつてなかった強引さと大胆さで、
+やんわりと確実に、要さんを廊下へと押し戻していく。
+$k
+
+
+#next,05mii11_03

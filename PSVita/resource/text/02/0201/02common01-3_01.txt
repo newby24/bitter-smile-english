@@ -1,0 +1,846 @@
+﻿// 既読フラグ
+#read_flag,47
+
+優
+「みいちゃん、ヤル気だな！」
+$k
+
+&empty
+いつの間にか俺の立場が上に。
+$k
+
+// CHISEKAPAPA_A301KM2
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KM2.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990043
+社長
+「ええ？　またみいちゃんが焼くの？
+　おじさん、たまには刺激が欲しいんだけどなー」
+$k
+
+// MII_A603NO
+#ir
+#ip,c3,(fi),MII_A603.png,(psi),MII_An03NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02030102
+みい
+「ええ、差し上げますとも。刺激という名のスパイスを。
+$nw,5200
+
+#ir
+#ip,c3,(fi),MII_A603.png,(psi),MII_An03BS.png,(x),r2,(s),60%
+#ig
+　ふふふ…」
+$k
+
+// CHISEKAPAPA_A301KS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KS.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990044
+社長
+「しょうがないなー、
+　じゃあ今日も相手してあげちゃおっかなあ？」
+$k
+
+優
+「さすが社長。無駄に偉そうだ」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SS( RIGHTRIGHT, MII_A603NO );
+// 	SS( LEFT, CHISEKAPAPA_0301BS2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ip,c1,(fi),CHISEKAPAPA_A301BS2.png,(x),l,(s),75%
+#ip,c3,(fi),MII_A603.png,(psi),MII_An03NO.png,(x),r2,(s),80%
+#ig
+
+#show
+
+// CHISEKAPAPA_0301BS2
+#sp,vo,02990045
+社長
+「うん！　ぴりっと辛くてとってもビールに合うねー。
+　その工夫は認めよう。
+　でもまだまだかなー？」
+$k
+
+// MII_A603BS
+#ir
+#ip,c3,(fi),MII_A603.png,(psi),MII_An03BS.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030103
+みい
+（…ふふ、そんな口が聞けるのも
+　今のうちだけですのに）
+$k
+
+優
+「？」
+$k
+
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NO.png,(x),l,(s),100%
+#ie,c3
+#ig
+
+// CHISEKAPAPA_A301NO
+#sp,vo,02990046
+社長
+「あー桜子ちゃん、ビールもう一杯ねー」
+$k
+
+// 	SS_( RIGHT, SAKURAKO_A703AK, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A703.png,(psi),SAKURAKO_An03AK.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),r,(al),100
+#ig
+
+// SAKURAKO_A703AK
+#sp,vo,02000157
+桜子
+「はいどうぞ…
+$nw,1000
+
+#sp,se,Ma_Cop01
+
+　たこ焼きつまみに何杯飲む気なんだか。
+$nw,4400
+
+#ir
+#ip,c3,(fi),SAKURAKO_A703.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),80%
+#ig
+
+　あとさあ、たまにはみいの事褒めてあげたら？」
+#msmall
+
+$k
+
+// 	MoveStand( RIGHT, 10, 0, 10, 1 );
+// 	MoveStand( RIGHT, 10, 0,  0, 1 );
+
+// CHISEKAPAPA_A301NS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NS.png,(x),l,(s),100%
+#ig
+
+#sp,vo,02990047
+社長
+「いやいや、
+#msmall
+　この険悪な雰囲気が楽しいんじゃないかあ」
+#msmall
+$k
+
+// SAKURAKO_A701AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AK2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,02000158
+桜子
+「ま、ほどほどにねー」
+$k
+
+// CHISEKAPAPA_A301BS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301BS.png,(x),l,(s),100%
+#ig
+
+#sp,vo,02990048
+社長
+「そういえば要ちゃんの事なんだけどね。
+$nw,3700
+
+#ss,bgm,(dr),1000,(cl),NO
+
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NO.png,(x),l,(s),100%
+#ig
+
+　…あの彼氏とはもう長いのかい？」
+$k
+
+// 	BGMStop();
+
+#ir
+#ip,c1,(x),c,(s),75%
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01OD.png,(x),l2,(s),60%
+#ip,c2,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02AS.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02990049
+桜子＆みい
+「お姉に彼氏？」
+「今なんと？」
+$k
+
+#sp,bgm,BGM_FUAN
+
+優
+「え、なんだって？」
+$k
+
+// CHISEKAPAPA_0301KS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KS.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990050
+社長
+「いやー、要ちゃんも付き合ってる男、居たんだねえ。
+　おじさんびっくりしちゃったよ」
+$k
+
+// MII_0601KD
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01KD.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030104
+みい
+「どういう事でしょうか。私、初耳なのですけど」
+$k
+
+// SAKURAKO_0703KT
+#ir
+#ip,c2,(fi),SAKURAKO_A703.png,(psi),SAKURAKO_An03KT.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000159
+桜子
+「あたしも聞いて無いわね。
+　まあ、あたしらに言う必要もないけどさ？」
+$k
+
+// MII_0601NO
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01NO.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030105
+みい
+「で、お相手はどの様な方なのでしょうか。
+　詳しく白状なさってください」
+$k
+
+// CHISEKAPAPA_0301AS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301AS.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990051
+社長
+「あ？　ああ、昨日いつもの所で飲もうと思って
+　店に行ったらね？」
+$k
+
+// MII_0601KY
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01KY.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030106
+みい
+「行ったら？」
+$k
+
+// CHISEKAPAPA_0301KM
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KM.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990052
+社長
+「えーとねえ、こうハンチングみたいなの被っててねえ。
+　それで、上着の襟を立てて、すらりとした顔立ちの
+　横顔の男とね、一緒に飲んでたんだよ、要ちゃんが」
+$k
+
+// SAKURAKO_0703NO
+#ir
+#ip,c2,(fi),SAKURAKO_A703.png,(psi),SAKURAKO_An03NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000160
+桜子
+「それだけじゃ、よく分かんないわね。
+$nw,2400
+
+#ir
+#ip,c2,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AK2.png,(x),r2,(s),60%
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01NI.png,(x),l2,(s),60%
+#ig
+
+　どうせ駅のトンネルの飲み屋でしょ。
+　その男ってのも会社の人ってオチじゃないのぉ？」
+
+$k
+
+優
+「ああ、ありうるありうる！」
+$k
+
+&empty
+なんとなく、俺はそう信じたいね。
+$k
+
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01KY.png,(x),l2,(s),60%
+#ip,c2,(fi),SAKURAKO_A703.png,(psi),SAKURAKO_An03NO.png,(x),r2,(s),60%
+#ip,c1,(fi),CHISEKAPAPA_A301MJ.png,(x),c,(s),75%
+#ig
+
+// CHISEKAPAPA_0301MJ
+
+#sp,vo,02990053
+社長
+「いやそれがねえ、なんだか神妙な顔してて、
+　その彼にプレゼント入ってますよっ、て感じの
+　紙袋を渡してたんだよねー？」
+$k
+
+// MII_0601KY2
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01KY2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030107
+みい
+「神妙に紙袋を。
+$nw,3100
+
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01NI2.png,(x),l2,(s),60%
+#ig
+
+　それは本当に彼氏なのですか？
+$nw,2700
+
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01SN.png,(x),l2,(s),60%
+#ig
+
+　実は非合法物品の秘密取引とか…」
+
+$k
+
+優
+「みいちゃんは要さんに
+　一体何を期待してるんだ」
+$k
+
+// CHISEKAPAPA_0301KM2
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KM2.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990054
+社長
+「うーん近くで確認したわけじゃないけど、
+　なんか別れ話をしてるようにも見えたというか、
+　親しい人と何かあった様な雰囲気というか…」
+$k
+
+// MII_0601OD2
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01OD2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030108
+みい
+「もうそんな段階に」
+$k
+
+// SAKURAKO_0702NO
+#ir
+#ip,c2,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000161
+桜子
+「へー、まったく気付かなかったわ。
+$nw,3900
+
+#ir
+#ip,c2,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01NO.png,(x),r2,(s),60%
+#ig
+
+　お姉にそんな相手が居たなんて…」
+$k
+
+&empty
+地味にショックだ。
+$k
+
+// MII_0601NI2
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01NI2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030109
+みい
+「しかし、神妙な顔してプレゼントで別れ話となると、
+　もうかなり爛れた関係ですねえ。
+#mfuri,　　　　　　　　　　　　ただ
+　紙袋もプレゼントではなく別のものなのかも…」
+$k
+
+// CHISEKAPAPA_0301NS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NS.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990055
+社長
+「あ、もしかしたら
+　もう通い妻とかやってるのかもね？」
+$k
+
+// SAKURAKO_0701AK
+#ir
+#ip,c2,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000162
+桜子
+「屋台の飲み屋でねぇ。
+$nw,2600
+
+#ir
+#ip,c2,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02KM4.png,(x),r2,(s),60%
+#ig
+
+　それっぽいといえば、なくもない…か？」
+$k
+
+// CHISEKAPAPA_0301EG2
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301EG2.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990056
+社長
+「まーしかしね、
+　おじさんはその時、もうかなり酔っ払ってたから、
+　自信は無いんだけどもね！」
+$k
+
+// 	SS_( LEFTLEFT, MII_0601KB );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01KB.png,(x),l2,(s),60%
+#ip,c2,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02AK.png,(x),r2,(s),60%
+#ig
+
+// SAKURAKO_0702AK
+
+#sp,vo,02000163
+桜子
+「……それはまた一気に信憑性が無くなったわね。
+$nw,4300
+
+#ir
+#ip,c2,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02KB.png,(x),r2,(s),60%
+#ig
+
+　酔っ払いの戯言の線が濃くなったわ」
+$k
+
+// MII_0601SN2
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01SN2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030110
+みい
+「そうですね。
+　所詮、窓際係長代理補佐見習いの言う事ですから、
+　もとより信用できないですね」
+$k
+
+// CHISEKAPAPA_0301BS2
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301BS2.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990057
+社長
+「でももしかしたらって事あるじゃないかね。
+　禁断の恋かもしれない。上司と部下で不倫、とか？
+　男と飲んでたのは確かだし」
+$k
+
+優
+「駅前の飲み屋でだろ？
+　酔っ払って見間違えたんじゃねえの？」
+$k
+
+// SAKURAKO_0701AK2
+#ir
+#ip,c2,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AK2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000164
+桜子
+「まー、可能性はまったく無いとは言い切れないけど、
+$nw,3200
+
+#ir
+#ip,c2,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO5.png,(x),r2,(s),60%
+#ig
+
+　お姉の事だから、それは無さそうー」
+$k
+
+// 	SS_( LEFTLEFT, MII_0601NO );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「なぜ？」
+$k
+
+// SAKURAKO_0701AZ
+#ir
+#ip,c2,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AZ.png,(x),r2,(s),60%
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01NO.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02000165
+桜子
+「時代劇マニアでしょっちゅう家に帰ってくるし。
+　お姉に男の痕跡を隠せるような器用さは無いし」
+$k
+
+// CHISEKAPAPA_0301KS
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301KS.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990058
+社長
+「要ちゃんも年頃なん…
+//$nw,2100
+$nw,1500
+
+#ss,bgm,(cl),NO
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01KD.png,(x),l2,(s),60%
+#ip,c2,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02AD.png,(x),r2,(s),60%
+#ip,c1,(fi),CHISEKAPAPA_A301OD2.png,(x),c,(s),75%
+#ig
+
+　っぺへっけほげほ！」
+
+$k
+
+// 	BGMStop();
+// 	Shake( NORMAL, SHAKE_RANDOM, 2 );
+
+// 	SS_( LEFTLEFT, MII_0601KD );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( RIGHTRIGHT, SAKURAKO_0702AD );
+// 立ち絵移動。パラメータは適宜。
+
+優
+「それは言いすぎじゃ…ってどうしたおっちゃん！？」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// MII_0601BS
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01BS.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030111
+みい
+「ああ、やっと引き当てましたか」
+$k
+
+優
+「え、何の事？」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM, 4 );
+
+
+// CHISEKAPAPA_0301NK
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),CHISEKAPAPA_A301NK.png,(x),c,(s),75%
+#ig
+
+#sp,vo,02990059
+社長
+「かはっ！　はひ、はあぁっ、水っ！
+　水くらはい！　からひっ。ほれなにほほれはっ！？」
+$k
+
+// SAKURAKO_0702NR
+#ir
+#ip,c2,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NR.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000166
+桜子
+「みい、あんた一体、何仕込んだのよ？」
+$k
+
+// MII_0601NS
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01NS.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030112
+みい
+「スパイスという名の刺激を少々？」
+$k
+
+// SAKURAKO_0702AK
+#ir
+#ip,c2,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02AK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,02000167
+桜子
+「あー」
+$k
+
+// MII_0601NO
+#ir
+#ip,c3,(fi),MII_A601.png,(psi),MII_An01NO.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,02030113
+みい
+「辛いものはアルコールによく合うと
+　聞いた事がありましたので、
+　少量でも効くモノを厳選しておきました」
+$k
+
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NK.png,(x),c,(s),100%
+#ie,c2,c3
+#ig
+
+// 	SS( CENTER, CHISEKAPAPA_A301NK, MOVE_STOP, NORMAL );
+
+#sp,se,Ma_Cop01
+
+優
+「はいはい、水ですよ係長」
+$k
+
+// CHISEKAPAPA_A301NK2
+#ir
+#ip,c1,(fi),CHISEKAPAPA_A301NK2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,02990060
+社長
+「しっ、舌ら焼けるようらろっ」
+$k
+
+// MII_0603MU
+#ir
+#ip,c3,(fi),MII_A603.png,(psi),MII_An03MU.png,(x),l2,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,02030114
+みい
+「復讐の後はいつも虚しい…」
+$k
+
+&empty
+そうして要さんの恋人疑惑はうやむやになった…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GAIKAN03A );
+
+#sp,env,S_Mushi01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+夜の部が長引いた為、今日は少し遅い晩飯になった。
+$k
+
+&empty
+閉店後、桜子から連絡を貰い、
+俺は晩飯の匂いに釣られるまま、千寿から轟木家に
+移動する最中。
+$k
+
+#sp,vo,02140007
+男
+「…………！」
+$k
+
+#sp,vo,02130009
+女
+「……………！」
+$k
+
+#hide
+
+// 	SV( BG_MT_TODOROKIMICHI03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「……ん、なんだ？」
+$k
+
+&empty
+向こうの方からか？
+近所からわめき声らしき音が聞こえてくる。
+$k
+
+&empty
+しかしあっちといえば…。
+$k
+
+#hide
+
+// 	SV( BG_MT_BOROAPARTGAIKAN03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_BOROAPARTGAIKAN03A.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,02140008
+男
+「……やって……よ、……まだかよ……！」
+$k
+
+優
+「………」
+$k
+
+#sp,vo,02130010
+女
+「…………わね！　…して…………ってるじゃないっ！」
+
+$k
+
+優
+「はあ…。こんな時間に近所迷惑だなあ…」
+$k
+
+&empty
+轟木家から斜め向かいにあるちょっとボロめの借家。
+昔俺の一家もそこに住んでいた。
+$k
+
+&empty
+今はもう他の人間が住んで居るらしく、男と女の声がする。
+どうやら夫婦喧嘩の真っ最中の様だ。
+$k
+
+&empty
+実際に夫婦かどうかは知らないが、
+外にまで聞こえてくると、
+まあ、あまり気分の良いものではないな…。
+$k
+
+#sp,vo,02140009
+男
+「………あ？　人が…手に出てりゃあいい気に…」
+$k
+
+#sp,vo,02130011
+女
+「………手なのよ、いいかげんにし…」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"すぱん、すぱーん！" );
+// 	SEPlay( "S_Bashi02.wav", 50, -75 );
+
+#ss,env,(dr),0
+
+#ir,(ef),quake,(qx),2,(qy),0,(sync),NO
+#ig,(se),S_Bashi02
+
+// 	SEPlay( "S_Bashi02.wav", 50, -75, 100, 1 );
+// 	SEFadeOut( -1);
+// 	Shake( FAST, SHAKE_UP, 20, FAST * 2 );
+
+優
+「っ！？」
+$k
+
+&empty
+なんだ、今の音は？
+$k
+
+&empty
+とたんに、辺りが静かになる。
+おいおい、大丈夫か？
+$k
+
+&empty
+…ちょっと気になる。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,env,S_Mushi01#
+
+// 	SP ( "S_Door04o" );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_BOROAPARTGAIKAN03A.jpg,(s),100%
+#ig
+
+#sp,se,S_Door04o
+
+#next,02common01-3_02

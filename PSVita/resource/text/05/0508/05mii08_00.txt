@@ -1,0 +1,794 @@
+﻿// 既読フラグ
+#read_flag,140
+
+// セーブタイトル
+#flag,save_title,みい　第８話,0,0
+
+// みい好感度＋１。
+#flag,per,3,+,1
+
+// みいルート決定。
+#flag,per,5,=,3
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// エピソードタイトルの表示
+#note,みい　第８話　カランコロンにご用心
+$k
+#note,erase
+
+#sp,se,S_Knock03
+
+#wait,1000
+
+// 	WaitSE();
+
+#show
+
+優
+「雪華ちゃんならフリーパス、それ以外なら名を…」
+$k
+
+// 	SV( BG_SJ_YU03A );
+
+#sp,se,S_Door03o
+
+// 	SS( CENTER, MII_0901NO );
+
+#ir
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01NO.png,(x),c,(s),60%
+#ig
+
+// MII_0901NO
+#sp,vo,05030389
+みい
+「失礼します」
+$k
+
+#sp,bgm,BGM_MII
+
+優
+「雪華ちゃんじゃないのに！」
+$k
+
+//	SetIconQues( CENTER );
+// MII_0901KY2
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030390
+みい
+「おや、なにか仰ってらしたのですか？」
+$k
+
+優
+「俺の声が聞こえてないのに入ってきたなら、
+　ただの不法侵入なんですけど…」
+$k
+
+// MII_0903AD3
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030391
+みい
+「はいはい、そんなことはいいですから、
+　さっさと準備してください」
+$k
+
+優
+「準備？　なんの？」
+$k
+
+// MII_0903KT
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030392
+みい
+「銭湯に行くからに決まってるじゃないですか」
+$k
+
+優
+「いや、こないだ行ったばっかじゃ…」
+$k
+
+// MII_0903MJ
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030393
+みい
+「今日も行くんです」
+$k
+
+優
+「はあ」
+$k
+
+&empty
+いつもながら唐突な娘だ。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SetSubTitleEx( 1 );
+//	SetSubTitle();		//章タイトル表示
+// 	//三木：どこ！？(ﾟ⊿ﾟ;)　とりあえず堤防沿いでも入れておこう
+
+// 	SV( BG_MT_TEIBO03A );
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS( CENTER, MII_0903EG );
+
+#sp,env,T_Pokkuri
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO03A.jpg,(s),100%
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03EG.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「なるほど。
+　目的の本題は銭湯じゃなくて、そっちか」
+$k
+
+// MII_0903EG
+#sp,vo,05030394
+みい
+「どうですか、これ？」
+$k
+
+&empty
+みいちゃんの足元にはカコンガコンと
+あまり軽やかじゃない音を立てる
+やたらと背が高くて巨大な下駄。
+$k
+
+優
+「急に銭湯にハマりだしたのかと思いきや、
+　そんなモノにハマってたとはね」
+$k
+
+// MII_0903AK
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03AK.png,(x),c,(s),60%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),220,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,05030395
+みい
+「風情のないお兄様らしい物言いですね」
+$k
+
+優
+「風情ねぇ…？」
+$k
+
+&empty
+教えてもらったところによると、
+正しくは三枚歯下駄と呼ぶ、
+花魁や舞妓さんの履き物らしい。
+$k
+
+&empty
+とは言え、時代劇に興味のある
+みいちゃんや要さんならともかく、
+俺にしてみればどうでもいい。
+$k
+
+優
+「そんなことよりさ、裸足で寒くない？」
+$k
+
+// MII_0903KM5
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030396
+みい
+「寒いし重いし痛いし歩きにくいし」
+$k
+
+// 	SK2( NORMAL );
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「なんで履いてきたんだよ！？」
+$k
+
+&empty
+俺なら風情より暖や楽を取る。
+$k
+
+// MII_0903FK
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030397
+みい
+「履きたかったからに決まってるじゃないですか」
+$k
+
+優
+「やけに歩くの遅いと思ったら…。
+　…下世話なこと聞くけど、高かった？」
+$k
+
+// MII_0903KM3
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030398
+みい
+「クリックした時も
+　清水の舞台から飛び降りたつもりでしたが…
+　怖いですね、衝動買い」
+$k
+
+優
+「ネットを駆使して衝動買いって」
+$k
+
+&empty
+いいけどさ、別に。
+$k
+
+&empty
+それだけの買い物をして
+使いどころがなかったんじゃ辛いよな。
+$k
+
+// MII_0903KD
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030399
+みい
+「よ…っと」
+$k
+
+// 	SF( 0, NORMAL, 30 );
+
+優
+「履いたら履いたで辛そうではあるけど」
+$k
+
+#so,env,(vl),3
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+&empty
+歩き方も色々あって、
+花魁でもきちんと歩けるようになるには、
+三年かかったとか？
+$k
+
+&empty
+イメージ的には２個分くらい高さのある
+豆腐パック型の積み木の上に乗っている感じだ。
+$k
+
+#sp,vo,05030400
+みい
+「お兄様、私を見てペースを考えてください。
+　かよわき婦女子に夜道の一人歩きをさせる気ですか」
+$k
+
+#ir
+#ip,bg,(fi),BG_MT_TEIBO03A.jpg,(s),100%
+#ig
+
+&empty
+気がつくと、みいちゃんの姿が隣から居なくなってる。
+$k
+
+優
+「もし変なのがいたとしても、
+　ごっつい足元見て逃げるんじゃないか」
+$k
+
+&empty
+かかとを落とされたら痛そうだと思いつつ、
+スピードの方を落とす。
+$k
+
+// 	SS( CENTER, MII_0903MJ );
+// 	SF( 0, 50, 100 );
+
+#so,env,(vl),def
+
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03MJ.png,(x),c,(s),60%
+#ig
+
+優
+「俺を誘ったのもこういう理由か」
+$k
+
+//	SetIconQues( CENTER );
+
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KD.png,(x),c,(s),60%
+#ig
+
+// MII_0903KD
+#sp,vo,05030401
+みい
+「どういう意味でしょう？」
+$k
+
+優
+「俺ならこんなの履いてきても文句言わないから。
+　どうせ皆には断られたんだろ？」
+$k
+
+&empty
+てっきりみんな一緒に行くもんだと思ってたけど。
+$k
+
+// MII_0903IK2
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030402
+みい
+「別に…他の人は誘ってませんよ」
+$k
+
+優
+「じゃあ最初から目星をつけられてたわけか」
+$k
+
+// MII_0903FK
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030403
+みい
+「どうでしょう。
+　これを履くのが目的だったわけじゃないかも
+　しれませんよ？」
+$k
+
+優
+「だとしたら、相当な失敗だと思うけど」
+$k
+
+// MII_0903NO2
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030404
+みい
+「さあ、失敗かどうかはわかりません」
+$k
+
+優
+「まあ本人が気に入ってるならいいけどさ」
+$k
+
+// MII_0903FK
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03FK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030405
+みい
+「とりあえず肩につかまらせてください」
+$k
+
+優
+「…もういっそ裸足で歩いたら？」
+$k
+
+&empty
+やっぱり失敗だろ、それ…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ss,env
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+// 	SV( BG_MT_SENTO03A );
+
+#sp,bgm,BGM_COMICAL2
+
+// 	SS( CENTER, MII_0903KM4 );
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SENTO03A.jpg,(s),100%,(y),d_s
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM4.png,(x),c,(s),60%
+#ig
+
+//#sp,se,T_Pokkuri02
+
+#show
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),220,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+// MII_0903KM4
+
+#sp,vo,05030406
+みい
+「………」
+$k
+
+優
+「大丈夫…？
+　だいぶ疲れてるみたいだけど」
+$k
+
+// MII_0903KM3
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030407
+みい
+「予想以上の重労働でしたが、
+　お風呂に入る前にいい汗をかいたと思えば」
+$k
+
+優
+「前向きだな…帰りもあるのに」
+$k
+
+// MII_0903TR4
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030408
+みい
+「お兄様、私、今夜は帰りたくありません」
+$k
+
+優
+「俺は帰るけどね」
+$k
+
+// MII_0902IK
+#ir
+#ip,c1,(fi),MIIn_A902.png,(psi),MIIn_An02IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030409
+みい
+「人力車を用意するくらいの甲斐性はないんですか」
+$k
+
+優
+「ないない、んなもん」
+$k
+
+// MII_0903KB2
+#ir
+#ip,c1,(fi),MIIn_A903.png,(psi),MIIn_An03KB2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030410
+みい
+「そうですか、
+　やはりお兄様に甲斐性はありませんでしたか…」
+$k
+
+優
+「やはりって何！？
+　てかそっちじゃなくて人力車の方っ」
+$k
+
+&empty
+まあ、軽口が叩ける余裕があるなら、
+とりあえず大丈夫だろ。
+$k
+
+//	SetIconHirameki( CENTER );
+// MII_0901BS
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030411
+みい
+「出るときの合図だけ決めておきましょうか」
+$k
+
+優
+「普通に声かけりゃいいんじゃないの？」
+$k
+
+// MII_0901SN3
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01SN3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030412
+みい
+「それでお兄様が気づけるとでも」
+$k
+
+優
+「気づくよ。
+　むしろそれ以外でどうやって気づけと」
+$k
+
+// MII_0901AS2
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01AS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030413
+みい
+「私が出るときに『火事だー！』と叫びますので…」
+$k
+
+優
+「大ごとになるわ！」
+$k
+
+&empty
+みんな裸で外に飛び出すぞ。
+$k
+
+// MII_0902IK
+#ir
+#ip,c1,(fi),MIIn_A902.png,(psi),MIIn_An02IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030414
+みい
+「では『討ち入りだー！』と」
+$k
+
+優
+「普通に呼ぶということで」
+$k
+
+// MII_0901BS
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030415
+みい
+「まあ何らかの方法で呼びますので、
+　楽しみに待っていていただければと」
+$k
+
+優
+「そこははっきりさせといて欲しいなあ…」
+$k
+
+&empty
+落ち着いて入ってられないから。
+$k
+
+#sp,vo,05000024
+？？？
+#mstyle,(co),桜子
+「あれ、優…？」
+$k
+
+優
+「え？」
+$k
+
+// MII_0901KY2
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01KY2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030416
+みい
+「あ…」
+$k
+
+// 	SS_( RIGHT, SAKURAKO_0401NO, MOVE_RIGHT );
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01NO.png,(x),r2,(s),60%,(al),0%
+#ig
+
+// 	CS( CENTER, LEFT );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l
+#ip,c3,(x),r,(al),100%
+#ig
+
+// SAKURAKO_0401NO
+#sp,vo,05000025
+桜子
+「あんたも来てたんだ」
+$k
+
+優
+「あ、桜子？
+　おまえなんでここに…？」
+$k
+
+// SAKURAKO_0402NO
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000026
+桜子
+「いやね、お婆ちゃんから
+　みいが一人で銭湯行ったって聞いたからさ。
+　でもなんだ、優も一緒だったんだ」
+$k
+
+// MII_0901NO
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030417
+みい
+「偶然にもお兄様とお会いして、
+　同じ銭湯好きとして意気投合しまして」
+$k
+
+優
+「いや、偶然じゃなくて誘いに来たろ」
+$k
+
+// MII_0901NI2
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01NI2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030418
+みい
+「お兄様は別次元の言葉を口走っておられますが、
+　お気になさらないでください」
+$k
+
+優
+「え、俺の記憶違い？」
+$k
+
+// SAKURAKO_0402KM2
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02KM2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000027
+桜子
+「なんでもいいけど…とっとと入ろ？
+　ここで話し込んでても寒いだけだし」
+$k
+
+優
+「おう。じゃ、みいちゃんまたあとで」
+$k
+
+// MII_0901BS
+#ir
+#ip,c1,(fi),MIIn_A901.png,(psi),MIIn_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030419
+みい
+「はい、それでは」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#sp,se,S_Door04o
+
+#wait,500
+
+#show
+
+// 	//三木：真ん中あたりの「って」の前のやつがいらなさそうなので削除
+
+
+#sp,vo,05000028
+桜子
+「みい、銭湯気に入ったんだ。
+$nw,2830
+
+　って何その足！？」
+
+$k
+
+// 	Shake( SLOW, SHAKE_RANDOM|SHAKE_WINDOW, 10, 20 );
+
+&empty
+まあ、正しい反応だな……。
+$k
+
+#hide
+
+// 	SetObject( 0, "huromoya.png", 0, 0, OBJATTR_TOP );
+// 	SV( BG_MT_SENTOOTOKO03A );
+
+#sp,bgm,BGM_YASURAGI
+
+#sp,se,S_Water11
+
+// 	BlinkObject( 0, 200, 100, 80 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_SENTOOTOKO03A.jpg,(s),100%
+#ig
+
+#sp,env,S_Water07#
+
+#next,05mii08_01

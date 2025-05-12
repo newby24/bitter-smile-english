@@ -1,0 +1,425 @@
+﻿// 既読フラグ
+#read_flag,145
+
+優
+「ん？　どうかしたか？」
+$k
+
+// 	SS( CENTER, CHISEKA_A401NR );
+
+#sp,bgm,BGM_CHISEKA
+
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NR.png,(x),c,(s),80%
+#ig
+
+// CHISEKA_A401NR
+#sp,vo,05040072
+知世翔
+「…ねえ」
+#msmall
+$k
+
+優
+「…なんで微妙に声抑えてんだ」
+$k
+
+// CHISEKA_A401KM3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040073
+知世翔
+「みいに何かしました？」
+#msmall
+$k
+
+優
+「はあ！？」
+#mlarge
+$k
+
+// CHISEKA_A401IK
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040074
+知世翔
+「声が大きいっ」
+$k
+
+優
+「あ…いや、すまん」
+$k
+
+// CHISEKA_A401NR
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040075
+知世翔
+「で？」
+#msmall
+$k
+
+優
+「その前に意味がわからんのだが…」
+$k
+
+// CHISEKA_A401NR
+#sp,vo,05040076
+知世翔
+「事実だけを可及的速やかにお願いします」
+$k
+
+優
+「………」
+$k
+
+&empty
+なんて自分勝手な奴だ。
+$k
+
+優
+「記憶にない…
+　つか、本当に何かしてたら、
+　今頃五体満足じゃいられないと思うぞ」
+$k
+
+// CHISEKA_A401NO
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040077
+知世翔
+「それもそうか」
+#msmall
+$k
+
+優
+「どういうことだ？」
+$k
+
+// CHISEKA_A401KN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040078
+知世翔
+「みい、どこかおかしくありません？」
+#msmall
+$k
+
+優
+「…いつも通りじゃないか？」
+$k
+
+&empty
+というか、どこかおかしいのがいつも通りだ。
+$k
+
+// CHISEKA_A401KN
+#sp,vo,05040079
+知世翔
+「今日も…なにか相談があったみたいなんですけど、
+　いざとなると、はぐらかすばかりで」
+$k
+
+優
+「俺は別に違和感なかったけどな」
+$k
+
+// CHISEKA_A401NO2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040080
+知世翔
+「…以前、先輩が私にずっと突っ掛かってきて、
+#msmall
+　みいが間に入ってくれてた時あったじゃないですか」
+#msmall
+$k
+
+優
+「おかしいな。
+　俺の記憶では突っ掛かってきたのはそっちだが」
+$k
+
+// CHISEKA_A401KN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040081
+知世翔
+「私、みいと立場が入れ替わったら、
+#msmall
+　同じようにしてあげたいと思うんですよね」
+#msmall
+$k
+
+&empty
+聞いちゃいねえ。
+$k
+
+優
+「それ以前に、俺とみいちゃんは喧嘩してないぞ」
+$k
+
+// CHISEKA_A401SN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01SN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040082
+知世翔
+「喧嘩ってわけじゃないんですけど…」
+#msmall
+$k
+
+優
+「じゃあ、なんだよ？」
+$k
+
+//	SM( CHAR_CHISEKA,		CHISEKA_A401KM3,	"知世翔",		"@v05040083@s0001「ん～（じーっ）」" );
+// CHISEKA_A401KM3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05040083
+知世翔
+「ん～」
+#msmall
+$k
+
+優
+「いや、そんなに見られても何も出てこんぞ？」
+$k
+
+#ss,bgm
+
+// 	SetStandEx( LEFTEDGE, MII_0402KB2 );
+
+
+// 	MoveStand( LEFTEDGE, 100, 50, 0 );
+
+
+// 	FadeStand( LEFTEDGE, 50, FADE_ALPHA, 100 );
+
+// MII_0402KB2
+#ir,(ef),off
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02KB2.png,(x),l3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l2,(al),100%
+#ig
+
+#sp,vo,05030504
+みい
+「………なにお二人で見つめ合われてるのでしょう」
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM.png,(x),c,(s),60%
+#ig
+
+// 	SK2();
+//	ZoomStand( CENTER, 20, 100, 100 );
+
+//	SM( CHAR_YUU,			-1,					"優",			"「…っ！？」" );
+//	SM( CHAR_CHISEKA,		CHISEKA_0401KM,		"知世翔",		"@v05040084「…っ！？」" );
+
+#sp,vo,05040084
+優＆知世翔
+「…っ！？」
+$k
+
+// MII_0402KB
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02KB.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,05030505
+みい
+「お二人でいる間に、どんなドラマチックな
+　急展開があったのかは、あえて問いませんが」
+$k
+
+優
+「み、みいちゃん！？」
+$k
+
+// CHISEKA_0401AS
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AS.png,(x),c,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\bikkuri.png,(x),550,(y),50
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,05040085
+知世翔
+「ち、違うのよ、これはね…」
+$k
+
+// MII_0403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,05030506
+みい
+「別に言ってくだされば、私はお邪魔しませんけどね」
+$k
+
+// 	CS_( LEFTEDGE, LEFT );
+// 	CS( CENTER, RIGHT );
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+// 	SS( CENTER, MII_A403FK );
+
+優
+「と言いつつ、こたつに座り込むのは…」
+$k
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+// MII_A403FK
+#sp,vo,05030507
+みい
+「はむっ」
+$k
+
+優
+「ああっ、俺のタルト！？」
+$k
+
+// MII_A403FK
+#sp,vo,05030508
+みい
+「んむんむ………
+$nw,2770
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK2.png,(x),c,(s),80%
+#ig
+
+　なにか？」
+$k
+
+優
+「だってそれ俺の…」
+$k
+
+// MII_A403IK5
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030509
+みい
+「な　に　か？」
+$k
+
+優
+「いいえなんでもございません…」
+$k
+
+// CHISEKA_0401AK2
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK2.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,05040086
+知世翔
+「………まさかねぇ」
+#msmall
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+有河のタルトは予想以上に美味かった。
+$k
+
+&empty
+そりゃもう、一口サイズしかなかったのが残念なくらい。
+
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_mii.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,05mii10_00

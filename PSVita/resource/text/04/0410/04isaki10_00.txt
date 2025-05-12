@@ -1,0 +1,659 @@
+﻿// 既読フラグ
+#read_flag,212
+
+// セーブタイトル
+#flag,save_title,勇樹　第１０話,0,0
+
+// 	SV( BG_SJ_TENNAI03A );
+
+#sp,bgm,BGM_NONBIRI
+
+#sp,env,W_Cook01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI03A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第１０話　言わないお願い
+$k
+#note,erase
+
+#show
+
+&empty
+大晦日。
+千寿は婆さんの道楽でやってるだけあって、
+とっくに店じまいをしていた。
+$k
+
+&empty
+だが今、俺と桜子はひたすらたこ焼きを
+焼いている。
+$k
+
+&empty
+なぜか。
+$k
+
+#ss,env,(dr),1000
+
+// 	SS( CENTER, SAKURAKO_0601AZ );
+
+// SAKURAKO_0601AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A601.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000061
+桜子
+「やっぱり、年越しと言ったら、たこ焼きよね～」
+$k
+
+&empty
+ふんふんと鼻歌を歌いながら、
+桜子が目にも止まらぬスピードで、
+たこ焼きをひっくり返していく。
+$k
+
+優
+「そこは蕎麦じゃねえのか？」
+$k
+
+&empty
+地方によっては
+うどんだったりもするらしい。
+$k
+
+&empty
+俺は桜子が焼いたたこ焼きを、
+舟に盛りながらそう聞き返した。
+$k
+
+// SAKURAKO_0601NS
+#ir
+#ip,c1,(fi),SAKURAKO_A601.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000062
+桜子
+「ちっちっち、わかってないわねぇ～」
+$k
+
+優
+「なにがだよ」
+$k
+
+// SAKURAKO_0601TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A601.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000063
+桜子
+「蕎麦の上にたこ焼きを乗せる。
+　これがウチ流の年越し蕎麦なのよ、わかった？
+　ドゥーユーアンダースタン？」
+$k
+
+優
+「は？　蕎麦にたこ焼き？
+　うえ…なんだよ、その組み合わせ」
+$k
+
+// SAKURAKO_0602IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000064
+桜子
+「バッカねー。
+　美味しいのに」
+$k
+
+&empty
+まあソースも何もかかってないたこ焼きなら…？
+って、やっぱりそれは無い。
+$k
+
+// SAKURAKO_0601AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A601.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000065
+桜子
+「あんた、あたしがまた嘘ついてると
+　思ってんでしょ」
+$k
+
+優
+「いや、たこ焼き蕎麦はないだろよ」
+$k
+
+// SAKURAKO_0602NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000066
+桜子
+「普通のでも、お蕎麦に天カス入れたりするでしょ？
+　あんな感じよ」
+$k
+
+&empty
+…なるほど。
+確かに蕎麦には天カス入れるな。
+$k
+
+// SAKURAKO_0602NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000067
+桜子
+「なんなら１個食べてみなさいよ。
+　今日はお蕎麦に入れる用に
+　合わせて作ってあるんだから」
+$k
+
+優
+「どれどれ……」
+$k
+
+&empty
+まだ湯気の上がっているたこ焼きを
+１つ摘んでみる。
+$k
+
+優
+「はふっ……もぐ、もぐっ……これはっ」
+$k
+
+&empty
+いつもより卵が多めなのか、
+中がしっとりしている気がする。
+明石焼きに似ているかもしれない。
+$k
+
+&empty
+かつ表面はカリカリに焼き上げられていて、
+まさに天カスのような…。
+$k
+
+&empty
+確かに、これを蕎麦つゆで食べたら、
+美味そうだ。
+$k
+
+// SAKURAKO_0601NS
+#ir
+#ip,c1,(fi),SAKURAKO_A601.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000068
+桜子
+「どうよっ？」
+$k
+
+優
+「悪い、普通に食ってみたくなった。
+　これが入った蕎麦」
+$k
+
+// SAKURAKO_0602EG
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000069
+桜子
+「でっしょ～？」
+$k
+
+&empty
+そう言いながら、桜子はさらに生地を鉄板の上に
+流し込んでいく。
+$k
+
+// SAKURAKO_0602NO
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000070
+桜子
+「ところでさ、あんた、こんなところで、
+　悠長にたこ焼きなんか焼いてていいの？」
+$k
+
+優
+「は？
+　たこ焼きを作るから手伝えって、
+　連れてきたのは桜子だろ」
+$k
+
+&empty
+部屋で勉強をしていたら、後ろからどつかれた上に
+襟首を引っ掴まれて、有無も言わさずに
+ここまで連れてこられたんだが。
+$k
+
+&empty
+で、今に至る。
+$k
+
+// SAKURAKO_0601AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A601.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000071
+桜子
+「そりゃ、あんたが大晦日だってのに、１人寂しく
+　部屋にいるからでしょーが」
+$k
+
+優
+「受験生なんだからしょーがねえだろ」
+$k
+
+// SAKURAKO_0602IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000072
+桜子
+「そうじゃなくて」
+$k
+
+&empty
+生地をじっと見ている桜子の表情は、
+えらく真面目な顔つきだ。
+$k
+
+// SAKURAKO_0602NO
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000073
+桜子
+「勇樹とデートとかしなくていいの？」
+$k
+
+// 	SK2();
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「ぶふーっっ！！」
+$k
+
+// SAKURAKO_0602IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000074
+桜子
+「ちょ、きったないわねぇ！
+　生地につば、とばさないでよ！」
+$k
+
+優
+「悪い、悪い。でも、いきなり、なんで、
+　そんな」
+$k
+
+// SAKURAKO_0602NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000075
+桜子
+「仮面じゃなくて、ちゃんと
+　つきあい始めたんでしょ、あんたたち。
+　年越しくらい一緒にしたら？」
+$k
+
+優
+「……いや、俺もそう思ったんだけど」
+$k
+
+&empty
+一緒に受験勉強するなり、
+ちょっと遊びに行くなりして、
+年越したら初詣にいかないかって。
+$k
+
+&empty
+誘ってはみたものの、宮津橋のヤツに
+すげなく断られてしまって、
+１人寂しく部屋で受験勉強をしていたわけだ。
+$k
+
+優
+「なんかおっちゃん今日も店開けてるらしくてさ」
+$k
+
+// SAKURAKO_0602NR
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000076
+桜子
+「あっきれた。
+　それですごすご引き下がったっての？」
+$k
+
+優
+「しかたないだろ」
+$k
+
+// SAKURAKO_0602AK
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000077
+桜子
+「はぁ……そんなんでつきあってるって
+　言えるのかしらね。ったく……」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig,(se),K_Shock01
+
+// 	SK2();
+
+//	SM( CHAR_ETC,			-1,					"",				"ぐさぁっ！" );
+&empty
+桜子の一言が胸に刺さるがどうしようもない。
+$k
+
+&empty
+一応、年を越す瞬間に電話くらいはしようと
+思っているのだけれど。
+$k
+
+// SAKURAKO_0602NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000078
+桜子
+「ま、そんなこったろうと思って、
+　手を打っておいてよかったわ」
+$k
+
+優
+「え？」
+$k
+
+// SAKURAKO_0602KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A602.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04000079
+桜子
+「気にしない、気にしない。
+　こっちの話だから」
+$k
+
+&empty
+また、何か企んでるんじゃないだろうな？
+$k
+
+&empty
+まったく轟木家の面々ときたら……。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY03C );
+
+// 	SNLP( 0, "T_Dog02" );
+
+#sp,se,T_Dog02
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03C.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GAIKAN03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN03A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SEStop( 0 );
+
+// 	SV( BG_TD_IMA03F );
+
+#sp,env,S_Watch01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+午後１１時。
+$k
+
+&empty
+東西歌合戦も見終わって、みんなは
+こたつで良い気分になってくつろいでいた。
+$k
+
+#ss,env,(dr),1000
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SS( CENTER, KANAME_A402EG );
+
+// KANAME_A402EG
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04020000
+要
+「はふ～、やっぱり日本の冬はおこたに
+　限るよね～」
+$k
+
+#sp,vo,04060000
+紀乃
+「要、あんた、ごろごろしてんと、
+　ちっとは手伝ったらどないや」
+$k
+
+// KANAME_A402IK
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04020001
+要
+「え～、でも、あとはもうお蕎麦
+　茹でるだけでしょ？」
+$k
+
+#sp,vo,04060001
+紀乃
+「働かへんもんに、食べさせるお蕎麦は
+　あらへんで」
+$k
+
+// KANAME_A403SN
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03SN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04020002
+要
+「そんなっ！
+　わかった、わかった、手伝いますよ～っ」
+$k
+
+// 	MoveStand( CENTER, 50, 0, 0 );
+// 	ShakeStand( CENTER, SLOW, SHAKE_UP, 4, 20 );
+// 	MoveStand( CENTER, 200, 400, 0 );
+
+// 	FadeStand( CENTER, 50, FADE_ALPHA, 0 );
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),r0,(al),0
+#ig
+
+// 	SS( CENTER, KANAME_0403SN, MOVE_DOWN, NORMAL );
+
+#sp,vo,04060002
+紀乃
+「ほな、ネギでも切ってもらおかね」
+$k
+
+//	SS( RIGHT, YUKIHA_0401NO );
+// YUKIHA_0401NO
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04050014
+雪華
+「お婆ちゃん、私もなにかお手伝いする事ある？」
+$k
+
+// KINO_0401BS2
+
+#sp,vo,04060003
+紀乃
+「ええ、ええ、あんたらはそこで座っとり」
+$k
+
+//	MoveStand( RIGHT, 80, 0, 150 );
+
+#ir
+#ie,c3
+#ig
+
+&empty
+台所からは出汁のいい匂いがしてくる。
+$k
+
+&empty
+楽しみだなあ、あれにたこ焼きをつけて、
+食べるのか。
+$k
+
+// 	SS_( CENTER, MII_A403EG );
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),c,(s),80%
+#ig
+
+// MII_A403EG
+#sp,vo,04030048
+みい
+「では、お蕎麦ができるまでの間に、
+　姉上の焼いてくれたたこ焼きでも食べて
+　待っていましょうか」
+$k
+
+&empty
+えっ？
+$k
+
+優
+「みいちゃん、先に食べちゃうの？」
+$k
+
+// MII_A403KT
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04030049
+みい
+「なにか問題でも？」
+$k
+
+優
+「いや、このたこ焼き、お蕎麦に入れて
+　食べるんじゃ……」
+$k
+
+// 	CCFL( SAKURAKO_0403NS, SLOW );
+
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NS.png,(x),l2,(s),60%
+#ie,c1
+#ig
+
+&empty
+そこまで言って気がついた。
+桜子の肩が震えてやがる。
+$k
+
+//	ShakeStand( CENTER, 0, SHAKE_LEFT, 2, 20 );
+// SAKURAKO_0403NS
+
+#sp,vo,04000080
+桜子
+「ぷっ……く、くくくっっ！」
+$k
+
+優
+「てんめ、桜子っ、まただましたな！」
+$k
+
+// 	SS_( LEFT, YUKIHA_A401KS );
+
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KS.png,(x),l,(s),80%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),80%
+#ig
+
+// 	SS( RIGHT, MII_A403EG );
+
+// MII_A403EG
+
+#sp,vo,04030050
+みい
+「関西でも、普通はお蕎麦にたこ焼きは
+　入れませんよ、お兄様？」
+$k
+
+
+#next,04isaki10_01

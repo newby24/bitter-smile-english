@@ -1,0 +1,527 @@
+﻿// 既読フラグ
+#read_flag,139
+
+優
+「ほらほら、聞いたか？
+　あー、みいちゃんは優しいよなあ、
+　誰かさんと違って」
+$k
+
+//	SS( RIGHTOUT, SAKURAKO_0502KB );
+//	CS_( CENTER, LEFTOUT );
+//	CS( RIGHTOUT, CENTER );
+//	SetIconIkari( CENTER );
+// SAKURAKO_0502KB
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02KB.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000010
+桜子
+「ったく、あんたが勝ち誇るとこじゃないでしょ。
+$nw,3920
+
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02EG2.png,(x),r,(s),60%
+#ig
+
+　…あら、みい、おじや作ったんだ。
+　おいしそ～じゃない」
+$k
+
+//	SetIconHirameki( CENTER );
+優
+「よし、その言葉もう一度言え。
+　携帯で録音するから」
+$k
+
+// SAKURAKO_0502IK4
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000011
+桜子
+「は？
+$nw,1250
+
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),60%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\tameiki.png,(x),540,(y),210,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op3,(x+),-30,(y+),30,(al),100%
+#ia,op3,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+　あ～なんだ…どうりで見栄えがちょっとね。
+　具も入ってないし」
+$k
+
+優
+「人の反応だけで全てを悟って意見を翻すな！」
+$k
+
+// SAKURAKO_0502NO
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000012
+桜子
+「んー、それ、あたしの分もある？」
+$k
+
+//	SS( LEFTOUT, MII_0501OD );
+//	CS_( CENTER, RIGHTOUT );
+//	CS( LEFTOUT, CENTER );
+//	SetIconHirameki( CENTER );
+// MII_0501OD
+#ir
+#ip,c1,(fi),MII_A501.png,(psi),MII_An01OD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05030381
+みい
+「食べるんですか、姉上？」
+$k
+
+優
+「誰がお前にやると言った」
+$k
+
+//	SS( RIGHTOUT, SAKURAKO_0502NR );
+//	CS_( CENTER, LEFTOUT );
+//	CS( RIGHTOUT, CENTER );
+//	SetIconIkari( CENTER );
+// SAKURAKO_0502NR
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02NR.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05000013
+桜子
+「いいじゃない。見た感じ結構量あるみたいだし、
+　食べ過ぎると眠くなるわよ。まだ勉強するんでしょ？」
+
+$k
+
+優
+「く……まあな」
+$k
+
+&empty
+夜中に押しかけて、ただ飯を食って寝るだけと
+いうのではカッコがつかん。
+建て前だけでもそういうことに…。
+$k
+
+&empty
+いや、少しは勉強する気だったけど。
+$k
+
+優
+「ま、どうしても俺の料理が食いたいってんなら、
+　食わしてやらんでもない」
+$k
+
+// SAKURAKO_0501EG
+#ir
+#ip,c3,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01EG.png,(x),r,(s),60%
+#ig
+
+#ir,(ef),off
+#ip,op3,(fi),image\icon\kyakya.png,(x),700,(y),30
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),no_limit
+#ip,op3,(x+),10,(y+),10
+#ig
+
+#sp,vo,05000014
+桜子
+「サンキュー♪」
+$k
+
+#ir,(ef),off
+#ie,op3
+#ig
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+そういうと桜子は台所から自分の茶碗を持ってきて、
+おじやをよそう。
+$k
+
+#ir
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02NO3.png,(x),r,(s),80%
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03KT.png,(x),l,(s),80%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),3
+#ip,c3,(y+),10
+#ig
+
+// 	SS( LEFT, MII_A503KT  );
+// 	CFI();
+
+// 	MoveStand( RIGHT, 15, 0, 10 );
+// 	MoveStand( RIGHT, 15, 0, 1, 1 );
+// 	MoveStand( RIGHT, 15, 0, 10, 1 );
+// 	MoveStand( RIGHT, 15, 0, 1, 1 );
+// 	MoveStand( RIGHT, 15, 0, 0, 1 );
+
+//	SetIconExcl( RIGHT );
+// SAKURAKO_A502NO3
+#sp,vo,05000015
+桜子
+「あ、意外とイケるじゃない、これ。
+　ちょっと焦げてるっぽいけど」
+$k
+
+// MII_A503KT
+
+#sp,vo,05030382
+みい
+「…そうなんですか？」
+$k
+
+優
+「意外は余計だ。
+　って、待て待て、さらにこのラー油をだな…」
+$k
+
+&empty
+横から桜子の茶碗の中にラー油を垂らしてやる。
+$k
+
+// SAKURAKO_A502AS
+#ir,(dr),0
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02AS.png,(x),r,(s),80%
+#ig
+
+#ir,(dr),200,(ef),move,(lt),over,(lc),3
+#ip,c3,(x+),-5
+#ig
+
+#sp,vo,05000016
+桜子
+「え、ちょっと、やめてよ？」
+$k
+
+// 	ShakeStand( RIGHT, NORMAL, SHAKE_LEFT, 5, 20 );
+
+優
+「いいから、全体をガーッとかき混ぜて食ってみろって」
+$k
+
+//	SetIconChinmoku( LEFT );
+// MII_A503NO2
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03NO2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05030383
+みい
+「……」
+$k
+
+// SAKURAKO_A502KM
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05000017
+桜子
+「うわ……。まあ悪くは無い…かな？
+　焦げ臭いのがちょっとマシになったわ」
+$k
+
+優
+「だろー？」
+$k
+
+// SAKURAKO_A502IK3
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02IK3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05000018
+桜子
+「自慢するところじゃないんだけど。
+$nw,2620
+
+#ir
+#ip,c3,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01AZ.png,(x),r,(s),80%
+#ig
+
+　まあ、あんたにしてはよく出来た方よねぇ…」
+$k
+
+// MII_A503MJ
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03MJ.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05030384
+みい
+「（ごくっ）」
+#msmall
+$k
+
+// SAKURAKO_A501EG
+#ir
+#ip,c3,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01EG.png,(x),r,(s),80%
+#ig
+
+// 	FadeVisual( 50, 100 );
+// 	FadeStand( RIGHT, 50, FADE_FADE, 100 );
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\hirameki.png,(x),720,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,05000019
+桜子
+「あ、これに納豆とかと一緒に食べたいな」
+$k
+
+優
+「あ、いいなそれ！　…納豆ってあったっけ？」
+$k
+
+// SAKURAKO_A501NO
+#ir
+#ip,c3,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05000020
+桜子
+「確かあったと思うけど。
+$nw,2150
+
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02KM.png,(x),r,(s),80%
+#ig
+
+　…みいは食べないの？」
+$k
+
+優
+「んー、あんまりお気に召さなかったようだ」
+$k
+
+// SAKURAKO_A502NO
+#ir
+#ip,c3,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,05000021
+桜子
+「ふーん…。
+　じゃあ、もうちょっと貰おうかなー？」
+$k
+
+// MII_A502IK
+#ir
+#ip,c1,(fi),MII_A502.png,(psi),MII_An02IK.png,(x),l,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),320,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05030385
+みい
+「ちょ、ちょっと待ってください！
+　私もいただきますっ」
+$k
+
+優
+「あ、そう？」
+$k
+
+// MII_A503FK
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03FK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05030386
+みい
+「このおじやは、お兄様が私のために
+　作ってくださったものですからね」
+$k
+
+優
+「まあ、そうだね。
+　せっかくだからみいちゃんにも食べてもらった方が
+　俺としても…」
+$k
+
+// MII_A503IK
+#ir
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03IK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,05030387
+みい
+「ですから、残りは全て私がいただきますっ」
+$k
+
+#ss,bgm
+
+優
+「……え？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_KITCHEN03A );
+
+#sp,env,T_cook02
+
+#sp,bgm,BGM_COMICAL1
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_KITCHEN03A.jpg,(s),100%
+#ig
+
+#sp,se,S_Onaka02
+
+// 	WaitSE();
+
+#show
+
+優
+「しくしくしくしく……」
+$k
+
+// SAKURAKO_0502AK
+#ir
+#ip,c1,(fi),SAKURAKO_A502.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000022
+桜子
+「残ってたご飯は全部使っちゃったのねー。
+　なんなら今から炊く？」
+$k
+
+優
+「もういいよ…」
+$k
+
+#ss,env,(dr),1000
+
+&empty
+洗い物をしている桜子の後ろで、
+寂しく納豆だけをかき混ぜる。
+$k
+
+// SAKURAKO_0501TR2
+#ir
+#ip,c1,(fi),SAKURAKO_A501.png,(psi),SAKURAKO_An01TR2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000023
+桜子
+「どうしたのかしらねー、みい。
+　夜食なんていつも食べないのに」
+$k
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_TD_IMA03F );
+// 	CFI();
+
+// MII_0503SN
+#ir
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ip,c1,(fi),MII_A503.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030388
+みい
+「うぷ……お腹重い……」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// イベント選択９回目。
+#next,90phase09

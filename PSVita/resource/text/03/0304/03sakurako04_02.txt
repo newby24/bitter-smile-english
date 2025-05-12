@@ -1,0 +1,584 @@
+﻿// 既読フラグ
+#read_flag,266
+
+優
+「い、いや…なんでもない、忘れてくれ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+&empty
+危ない危ない。
+俺の想像がビンゴだったらアレだしな。
+$k
+
+&empty
+自ら井戸に落ちる事も無いだろう…。
+$k
+
+// 	SS( CENTER, CHISEKA_A201NR );
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),80%
+#ig
+
+優
+「あー…秋祭り、楽しかったか？」
+#meffect,flow,5
+$k
+
+&empty
+無理矢理話題を変えてみる。
+$k
+
+// CHISEKA_A201NO2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040036
+知世翔
+「？
+$nw,750
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR3.png,(x),c,(s),80%
+#ig
+
+　…ええ、まあ、そこそこ」
+$k
+
+&empty
+……だが、そこで行き着く先の話題は、
+有河があの強面さん達と話をしていた事だ。
+$k
+
+// CHISEKA_A201TR
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040037
+知世翔
+「………楽しかったですよ」
+$k
+
+&empty
+言葉とは裏腹に
+あまり楽しそうな顔はしてないのだが？
+$k
+
+優
+「…あーっと………」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+&empty
+なんて話題を出してしまったんだ。
+俺は馬鹿だな。
+$k
+
+// MEGUMI_0201EG4
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG4.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,03070031
+めぐみ
+「～♪」
+$k
+
+// 	SS( CENTER, MEGUMI_0201EG4, MOVE_RIGHT, SLOW );
+
+&empty
+自販機から戻ってきためぐみは鼻歌混じりに、
+ビタミンＣ入りのジュースを飲んでいる。
+$k
+
+// MEGUMI_0201KT
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070032
+めぐみ
+「ん～……
+$nw,1490
+
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT2.png,(x),c,(s),60%
+#ig
+
+　どうしたのぉ？」
+$k
+
+&empty
+こいつは知ってるんだろうか？
+$k
+
+優
+「あー…いや、なんでも…」
+$k
+
+// MEGUMI_0201KT4
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070033
+めぐみ
+「うん？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+秋祭りで有河があの二人組と親しくしていた話題は
+ここでは避けた方が良さそうだな…。
+$k
+
+&empty
+それこそ、有河自身気にしてるのかも知れないし。
+$k
+
+&empty
+でもしかし、真相はちょっと気になる俺…。
+だって有河の事、怒らせてばかりだし。
+$k
+
+&empty
+…まさか、一人の夜道が怖い、なんてことには…。
+$k
+
+// 	SS( CENTER, SAKURAKO_0201EG, MOVE_LEFT );
+
+// SAKURAKO_0201EG
+#ir,(ef),off
+#ip,c2,(fi),SAKURAKO_A201.png,(psi),SAKURAKO_An01EG.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l,(al),100%
+#ig
+
+#sp,vo,03000157
+桜子
+「おまたせー！」
+$k
+
+// MEGUMI_0201NO
+
+#sp,vo,03070034
+めぐみ
+「お、やっと来たね」
+$k
+
+&empty
+色々微妙な思考をめぐらせていると、
+やっとこさ、桜子がやってきた。
+$k
+
+// CHISEKA_0201EG3
+#ir,(ef),off
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG3.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+#sp,vo,03040038
+知世翔
+「あ、せんぱーい！」
+$k
+
+優
+「なんだ後輩？」
+$k
+
+// CHISEKA_0201IK
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03040039
+知世翔
+「くっ」
+$k
+
+// 	CS_( CENTER, LEFT );
+// 	SS( RIGHT, CHISEKA_0201IK, MOVE_RIGHT, NORMAL );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0
+#ig
+
+&empty
+俺を睨み付けて、桜子の方に駆けていく。
+$k
+
+優
+「あれ？　俺じゃないのか」
+$k
+
+// 怒りアイコン。位置（中心合わせ）とレイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\ikari.png,(x),*600,(y),*100
+#ig
+
+#ir,(ef),move,(dr),1000,(lt),reverse,(lc),no_limit
+#ip,op3,(s),120%
+#ig
+
+// CHISEKA_0201IK
+#sp,vo,03040040
+知世翔
+「桜子先輩、やっぱりあいつを殺しましょうっ！」
+$k
+
+#ir,(ef),off
+#ie,op3
+#ig
+
+// SAKURAKO_0202AS
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000158
+桜子
+「なに？　一体どうしたの？」
+$k
+
+// CHISEKA_0201IK
+#sp,vo,03040041
+知世翔
+「矢崎さんがいじめるんです」
+$k
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「ええっ！？」
+#mlarge
+$k
+
+// SAKURAKO_0202IK7
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000159
+桜子
+「……ゆーうー？」
+$k
+
+優
+「軽い齟齬があっただけで、
+#mfuri,　　　　　　　そご
+
+　女の子をいじめるなんて絶対にしていないぞ！？」
+$k
+
+// SAKURAKO_0202IK3
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000160
+桜子
+「知世翔に何かあったら許さないわよ」
+$k
+
+// CHISEKA_0201KN
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KN.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03040042
+知世翔
+「既に何かありました……
+$nw,1990
+
+　くすん」
+$k
+
+// 	SetIconGogogo( LEFT );
+
+// SAKURAKO_0202IK5
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK5.png,(x),l,(s),60%
+#ig
+
+#sp,env,S_Yure01#
+
+#ir,(ef),off
+#ip,op2,(fi),image\icon\gogogo.png,(x),70,(y),50,(s),300%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,op2,(x+),10
+#ig
+
+#sp,vo,03000161
+桜子
+「ゆ～う～？」
+#mlarge
+$k
+
+#ss,env,(dr),0
+
+#ir,(ef),off
+#ie,op2
+#ig
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ないって！」
+#mlarge
+$k
+
+// SAKURAKO_0202IK3
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000162
+桜子
+「まったく………」
+$k
+
+// SAKURAKO_0202KM2
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000163
+桜子
+「知世翔、遅くなってごめんね」
+$k
+
+// CHISEKA_0201EG2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG2.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03040043
+知世翔
+「いえ、先輩のためならいつまでも待ちますから！」
+$k
+
+// SAKURAKO_0202EG
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000164
+桜子
+「ありがと。
+$nw,1190
+
+#sp,se,S_Pon02
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+　知世翔はいい子ね～、よしよし♪」
+
+$k
+
+// 	CS_( LEFT, CENTERLEFT, SLOW );
+// 	CS( RIGHT, CENTERRIGHT, SLOW );
+
+// CHISEKA_0201EG3
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG3.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03040044
+知世翔
+「えへへっ」
+$k
+
+&empty
+ちっ、仲睦まじい２人だ。
+$k
+
+&empty
+俺もその中に入りたい。
+控えめな胸でもいいから、その間に挟まれたい。
+$k
+
+// MEGUMI_0201KT4
+
+#sp,vo,03070035
+めぐみ
+「映画に行くって聞いたけど、急がなくていいの？」
+$k
+
+// 	SS( CENTERLEFT, SAKURAKO_0202NO );
+
+// CHISEKA_0201NO2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),r0,(s),60%
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03040045
+知世翔
+「ええと……
+$nw,1270
+
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),r0,(s),60%
+#ig
+
+　あ、急がないと。
+　次の上映、もうすぐですよ」
+$k
+
+// SAKURAKO_0202NO5
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO5.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000165
+桜子
+「よし走ろう！」
+$k
+
+// CHISEKA_0201EG3
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG3.png,(x),r0,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,03040046
+知世翔
+「はい、先輩っ」
+$k
+
+// SAKURAKO_0202NO4
+#ir
+#ip,c2,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000166
+桜子
+「じゃあね、２人ともっ」
+$k
+
+// CHISEKA_0201EG2
+#ir
+#ip,c1,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG2.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,03040047
+知世翔
+「行ってきまーす」
+$k
+
+//#sp,se,S_Walk09o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),0%
+#ip,c2,(x),l2,(al),0%
+#ig
+
+// MEGUMI_0201NO
+
+#sp,vo,03070036
+めぐみ
+「ばいばーい」
+$k
+
+優
+「お、おう……」
+#meffect,flow,5
+$k
+
+// 	WaitSE( -1 );
+
+&empty
+早い、あっという間にもう見えなくなったぞ…。
+$k
+
+&empty
+二人とも、そこまでしてあんな映画が見たいのか。
+$k
+
+#hide
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリア後にジャンプ可能。
+#next,90jump06:(if),sys,0,==,1
+
+#next,02common02-3_00

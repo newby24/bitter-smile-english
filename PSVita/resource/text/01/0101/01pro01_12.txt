@@ -1,0 +1,645 @@
+﻿// 既読フラグ
+#read_flag,22
+
+// SAKURAKO_0302KM
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02KM.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000199
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「ええ、まさか本当に……」
+$k
+
+// KANAMEn_A301PU4
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01PU4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01020020
+要
+「なーんてね！
+　ただのイメチェンよ？」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01EG.png,(x),l,(s),80%
+#ig
+
+// 	SS(RIGHT, KANAME_0301KT);
+
+// SAKURAKO_0301EG
+#sp,vo,01000200
+桜子
+「切ったの、もうかなり前だしね。
+　優って実はホントに馬鹿なんじゃないの？
+　失恋＝髪切る、とかさぁ」
+$k
+
+優
+「可能性だよ、一つの可能性の話！」
+$k
+
+// SAKURAKO_0301KN
+#ir
+#ip,c1,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01KN.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000201
+桜子
+「まーね、失恋して髪切るとかっての、
+　そういう気持ち分からなくないわよ？」
+$k
+
+優
+「え？」
+$k
+
+// KANAME_0301KT
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01KT.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01020021
+要
+「桜子ちゃん？」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02NR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000202
+桜子
+「失恋する、やけ食いする。
+　で、やけ食いしてラーメン食べるとき邪魔、
+　うざい。イライラする！」
+$k
+
+// SAKURAKO_0303NS
+#ir
+#ip,c1,(fi),SAKURAKOn_A303.png,(psi),SAKURAKOn_An03NS.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000203
+桜子
+「そんで、もうどうでもよくなって切る。とか？」
+$k
+
+// KANAME_0301NO
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01020022
+要
+「ふふっ、あるある邪魔よねぇ～」
+$k
+
+優
+「え、じゃあお前失恋したのか？
+　それでイライラと…」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK7.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000204
+桜子
+「あほか！　今まで何を聞いてたのよあんたはっ？」
+$k
+
+// SAKURAKO_0302IK3
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000205
+桜子
+「どこをどう見たら
+　あたしが失恋して髪切ったように見えるっての？
+　どうなのよ、
+$nw,5840
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A301.png,(psi),SAKURAKOn_An01AZ.png,(x),l,(s),80%
+#ig
+
+#madd,ほらこの流線美！」
+$k
+
+
+優
+「それはね、くせっ毛っていうんだよ、桜子」
+$k
+
+// 	SS(LEFT, SAKURAKOn_A302IK);
+
+// SAKURAKOn_A302IK
+#ir
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02IK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000206
+桜子
+「なんだとぉ！」
+#mlarge
+$k
+
+// KANAME_0301NO
+#sp,vo,01020023
+要
+「くすくす、相変わらず仲良いのね～二人とも」
+$k
+
+// 	SS(LEFT, SAKURAKOn_A302AS2);
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,c1,(fi),SAKURAKOn_A302.png,(psi),SAKURAKOn_An02AS2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000207
+桜子＆優
+「どこがよ！？」
+「どこがっ！？」
+$k
+
+// KANAME_0301PU4
+#ir
+#ip,c3,(fi),KANAMEn_A301.png,(psi),KANAMEn_An01PU4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01020024
+要
+「あははははっ、そーゆーところとかっ」
+$k
+
+// 	SV( BG_SKY03B );
+// 	DelStandAll();
+
+#ir
+#ip,bg,(fi),BG_SKY03B.jpg,(s),100%
+#ig
+
+// SAKURAKO_0302IK7
+
+#sp,vo,01000208
+桜子
+「なにいっ！
+　あんたのせいよ、優」
+$k
+
+優
+「俺か！？」
+$k
+
+// KANAME_0301PU4
+
+#sp,vo,01020025
+要
+「うんうん。よきかな、よきかな～♪」
+$k
+
+&empty
+やっぱり桜子が眠れないのは、
+ただの喰いすぎじゃないかと思うんだ、俺。
+$k
+
+#hide
+
+#ss,bgm
+#ss,env
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+#sp,bgm,BGM_OMOIDE
+
+#ir,(dr),2000
+#ip,bg,(fi),white.jpg
+#ig
+
+// 	SV( VISUAL_WHITE );
+
+// 	RFI_(RULE_CIRCLE, SLOWER);
+
+//※※音声加工：回想
+#show
+
+#sp,vo,01000209
+さくらこ
+#mstyle,(co),桜子
+「………ゆ…う？
+　ゆう………、………てるぅ～？」
+$k
+
+&empty
+なに？
+$k
+
+#sp,vo,01000210
+さくらこ
+#mstyle,(co),桜子
+「………が……きくなって……
+　……ったらね、お………になって………ようか？」
+$k
+
+&empty
+まって、よくきこえなかった。
+$k
+
+#sp,vo,01000211
+さくらこ
+#mstyle,(co),桜子
+「だ…ら、あん…………およめさんにしてあげる」
+$k
+
+&empty
+それはいやだよ。
+$k
+
+#sp,vo,01000212
+さくらこ
+#mstyle,(co),桜子
+「それか…ね、……んも……のおむこさんだからね」
+$k
+
+&empty
+いみわかんないよ。
+$k
+
+#sp,vo,01010005
+？？？
+#mstyle,(co),勇樹
+「……たしは、………のおよめさ……がいい」
+$k
+
+#hide
+
+// 	SV(BG_MT_JINJYAKEIDAI01A, FILTER_SEPIA|FILTER_LINKSTAND);
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01A_s.jpg,(s),100%
+#ig
+
+#show
+
+#sp,vo,01000213
+桜子
+「なによ？　こんなとこに呼び出して」
+$k
+
+&empty
+え………えーと
+#meffect,flow,5
+$k
+
+&empty
+そ、そうじゃなくて
+$k
+
+#sp,vo,01000214
+桜子
+「早く言いなさいよ大事な話って何？
+　くっだらないことだったらぶっ飛ばすからね！」
+$k
+
+#hide
+
+#ir,(dr),500
+#ip,ov,(fi),sysc_white.jpg
+#ig
+
+#ir,(dr),2000
+#ie,ov
+#ig
+
+// 	RuleFlashOut(SLOW, RULE_LIGHT|RULE_NEGATIVE);
+
+// 	Fade( NORMAL, 90 );
+
+#show
+
+#sp,vo,01000215
+桜子
+「は？　もしかしてそんだけなの？」
+$k
+
+&empty
+……いや…その
+#meffect,flow,5
+$k
+
+// 	Fade( NORMAL, 75 );
+
+#sp,vo,01000216
+桜子
+「………あたしさー」
+$k
+
+&empty
+え！？　ちょっと……ま、待って
+$k
+
+// 	Fade( FAST );
+
+#sp,vo,01000217
+桜子
+「嫌なのそういうの」
+$k
+
+#hide
+
+#ir,(dr),500
+#ip,ov,(fi),sysc_white.jpg
+#ig
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_SKY02A_s.jpg,(s),100%
+#ie,ov
+#ig
+
+// 	RuleFlashOut(SLOW, RULE_LIGHT|RULE_NEGATIVE);
+// 	SV( BG_SKY02A, FILTER_SEPIA|FILTER_LINKSTAND );
+
+#show
+
+#sp,vo,01000218
+桜子
+「……うん、あたしも好きだけど？」
+$k
+
+#hide
+
+#ir,(dr),500
+#ip,ov,(fi),sysc_white.jpg
+#ig
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_SKY01A_s.jpg,(s),100%
+#ie,ov
+#ig
+
+// 	RuleFlashOut(SLOW, RULE_LIGHT|RULE_NEGATIVE);
+// 	SV( BG_SKY01A, FILTER_SEPIA|FILTER_LINKSTAND );
+
+#show
+
+#sp,vo,01010006
+？？？
+#mstyle,(co),勇樹
+「………冗談だよ…の恋人としては好きだがな」
+$k
+
+&empty
+俺、桜子の事さ……
+#meffect,flow,5
+$k
+
+#sp,vo,01000219
+桜子
+「あたしは嫌よ！？」
+$k
+
+#hide
+
+#ss,bgm,(dr),2000
+
+#ir,(dr),2000
+#ip,ov,(fi),sysc_white.jpg
+#ig
+
+#wait,1000
+
+// 	RuleFlashOut(SLOWER, RULE_CIRCLE|RULE_NEGATIVE);
+
+
+// 	DelStandAll();
+
+//	SM( CHAR_ETC,			-1,					"",				"…。" );
+//	SM( CHAR_ETC,			-1,					"",				"……。" );
+
+#sp,env,S_Bird01#
+
+// 	SV( BG_SJ_YU03N );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_SJ_YU03N.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+ん……朝…………ああ。
+$k
+
+&empty
+なんか嫌な夢…見た気がするな……。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SV( BG_GK_ROKA01A );
+
+// 	SS(CENTER, KOZUE_0102BS);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01A.jpg,(s),100%
+#ip,c1,(fi),KOZUE_A102.png,(psi),KOZUE_An01BS.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KOZUE_0102BS
+#sp,vo,01100000
+山之辺こずえ
+「じゃあ、ここでしばらく待っててね？」
+$k
+
+優
+「はい」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+転入は二度目だがこれは一年生４月の
+新学期自己紹介より緊張する……。
+$k
+
+&empty
+だって、自己紹介するのは自分ひとりだけだから。
+$k
+
+&empty
+失敗すると、その後一人浮いた感じになるんじゃないか、
+とか色々考えちゃうからだ。
+$k
+
+&empty
+馴染みのある土地といっても
+今、クラスにいるのは顔馴染みばかりではないはずだし。
+まあ、ぐちゃぐちゃ考えてもしょうがないけど。
+$k
+
+#sp,vo,01100001
+山之辺こずえ
+「はーい、じゃ入ってきてー」
+$k
+
+優
+「は、はい！」
+$k
+
+#hide
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SEFadePlay(0, "S_Gaya04#", SLOW, 30);
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ip,c1,(fi),KOZUE_A102.png,(psi),KOZUE_An01EG.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KOZUE_0102EG
+
+#sp,vo,01100002
+山之辺こずえ
+「では、元気よく自己紹介、よろしくっ」
+$k
+
+&empty
+元気よく、ですか？
+$k
+
+#ir
+#ie,c1
+#ig
+
+優
+「みなさん、はじめまして、
+　今日からお世話になります矢崎…」
+$k
+
+#sp,vo,01070000
+？？？
+#mstyle,(co),めぐみ
+「きゃ～っ優ちゃ～ん！！」
+#mlarge
+$k
+
+優
+「！？」
+$k
+
+&empty
+この声。
+$k
+
+// 	SS(CENTER, MEGUMI_0101NO);
+// 	SetActionPyonpyon1( CENTER );
+
+// MEGUMI_0101NO
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070001
+？？？
+#mstyle,(co),めぐみ
+「こっちこっち、ほらっここだよ、優ちゃ～ん！」
+$k
+
+// 	DelAction( CENTER );
+
+優
+「う、めぐみ……」
+#meffect,flow,5
+$k
+
+// KOZUE_0102TR
+
+#sp,vo,01100003
+山之辺こずえ
+「はいはい、沖奈さん、まだ自己紹介の途中ですからね、
+　静かにしてあげて下さいねー？」
+$k
+
+// MEGUMI_0101KM3
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01070002
+めぐみ
+「はぁ～い、すいませんでしたぁ～」
+$k
+
+&empty
+俺の出鼻は見事に粉砕された。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+
+//	SFP(0, "S_Town01#", SLOW, 50);
+#sp,env,S_Gears01#
+
+//#sp,env,S_Gears03#
+
+// 	SV( BG_MT_OLDAPART01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_OLDAPART01B.jpg,(s),100%
+#ig
+
+#sp,se,S_Whistle02
+
+#next,01pro01_13

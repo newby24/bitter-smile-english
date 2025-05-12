@@ -1,0 +1,868 @@
+﻿// 既読フラグ
+#read_flag,265
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KOMON01B.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「その前に俺、自販機で飲み物買っていくわ」
+$k
+
+// MEGUMI_0201BS
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070022
+めぐみ
+「あ、うん」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+………あれ？
+$k
+
+// 	SS_( LEFT, CHINPIRA1_0301NO, MOVE_LEFT, SLOW );
+
+#ir,(ef),off
+#ip,c3,(fi),CHINPIRA1_A301NO.png,(x),l2,(s),75%,(al),0%
+#ip,c1,(fi),CHINPIRA2_A301.png,(psi),CHINPIRA2_An01NO.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r,(al),100%
+#ig
+
+// 	SS( RIGHT, CHINPIRA2_0301NO, MOVE_LEFT, SLOW );
+
+&empty
+校門に居るの、例の強面の二人組じゃないか？
+なんでこんなところにいるんだよ。
+$k
+
+&empty
+まあ、いいや。触らぬ神に祟り無し。
+$k
+
+&empty
+自販機で飲み物買う間に、
+早く立ち去って欲しいもんだね。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+……それより今俺が欲しているのは、
+喉を潤すコーヒー飲料だよ！
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_CHURIN01A );
+// 	SS( CENTER, MEGUMI_0201AK3, MOVE_STOP, NORMAL );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_CHURIN01A.jpg,(s),100%
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01AK3.png,(x),c,(s),60%
+#ig
+
+#show
+
+// MEGUMI_0201AK3
+#sp,vo,03070023
+めぐみ
+「家に帰ってから飲めばいいのに～」
+$k
+
+優
+「俺は今飲みたいんだよ。
+　喉からからなんだよ」
+$k
+
+// MEGUMI_0201AK
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070024
+めぐみ
+「ふ～ん、
+$nw,1220
+
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KD2.png,(x),c,(s),60%
+#ig
+
+#madd,…で、なに飲むの～？」
+
+$k
+
+優
+「コーヒー」
+$k
+
+#ss,bgm
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+#sp,vo,03040013
+？？？
+#mstyle,(co),知世翔
+「せんぱ～い！」
+$k
+
+&empty
+今の、有河の声だよな？
+$k
+
+#sp,vo,03040014
+知世翔
+「せんぱ～い！」
+$k
+
+&empty
+走って近づいてくるのは、紛れもなく有河の声だ。
+$k
+
+&empty
+おお……遂に俺を先輩と呼んでくれる日が。
+#meffect,flow,5
+$k
+
+#sp,se,S_Nuno02
+
+&empty
+ようやく心を開いてくれた後輩を
+全身で抱き留めるべく、両腕を広げる。
+$k
+
+#sp,vo,03040015
+知世翔
+「待ってくださーい、せんぱー…」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(s),140%,(x),l_s,(y+),-20%
+#ig
+
+&empty
+有河の声が近づいてきたところで、俺は角を曲がった。
+$k
+
+// 	Zoom( NORMAL, 150, 150, 200, 300 );
+// 	WaitZoom();
+
+// 	SS( CENTERLEFT, CHISEKA_0201EG3, MOVE_LEFT );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「俺はここに居るぞ、こうはーいっ！」
+#mlarge
+$k
+
+// CHISEKA_0201OD3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040016
+知世翔
+「あれっ？
+$nw,1490
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK4.png,(x),c,(s),80%
+#ig
+
+#madd,　………ちっがーう！！」
+
+$k
+
+&empty
+手にパック牛乳という名の凶器を持っていた有河は、
+銃口を俺に向け、パックを握りつぶして、
+#mfuri,ストロー
+
+一気に射出してきた。
+
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Water06
+
+#ir,(dr),500
+#ie,ov,c3
+#ig
+
+#sp,bgm,BGM_COMICAL1
+
+// 立ち絵消える。パラメータは適宜。
+// 	RuleFlashIn( SLOW, RULE_BLOOD|RULE_NEGATIVE );
+// 	Zoom( 1, 100, 100, 400, 300 );
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,bg,(s),100%,(x),c,(y),def
+#ig
+
+優
+「うぎゃああああっ！」
+#mlarge
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM, 20, 2 );
+
+// MEGUMI_0201OD3
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01OD3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070025
+めぐみ
+「おっとっと～…」
+#meffect,flow,5
+$k
+
+// CHISEKA_0201OD3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03040017
+知世翔
+「あ………
+$nw,1500
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KM3.png,(x),l,(s),60%
+#ig
+
+　思いの外、命中してしまいましたね」
+
+$k
+
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「うおお、目がっ！　太腿がっ！」
+#mlarge
+$k
+
+&empty
+どういうこと？　わざとかっ？
+変な所に嫌なシミができちまうだろっ。
+$k
+
+// MEGUMI_0201KM
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070026
+めぐみ
+「うわぁ…
+$nw,1110
+
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KM3.png,(x),r,(s),60%
+#ig
+
+#madd,有河ちゃんてば、
+　いつぞや以来、箍が外れたみたいに
+　優ちゃんに遠慮無くなったねぇ」
+$k
+
+優
+「あっぷ…なんてことをするんだ、後輩………」
+$k
+
+// 	SS( CENTER, CHISEKA_0201NR, MOVE_STOP, NORMAL );
+
+// CHISEKA_0201NR
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,03040018
+知世翔
+「矢崎さん風情が、私を後輩とか言わないで下さい」
+$k
+
+優
+「さっきは先輩って言ってくれたじゃないか」
+$k
+
+// CHISEKA_0201IK2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040019
+知世翔
+「めぐみ先輩の声がしたから、
+　桜子先輩がいると思っただけですよ！
+$nw,4980
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+　矢崎さんの事を呼んだ訳じゃないですから」
+$k
+
+&empty
+そういう事なのか……先輩はガッカリだよ。
+$k
+
+優
+「とりあえず、急いで牛乳を拭かないと」
+$k
+
+// CHISEKA_0201TR3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01TR3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040020
+知世翔
+「…ハンカチぐらいなら貸しますよ」
+$k
+
+優
+「ああ、さんきゅ」
+$k
+
+#ss,bgm
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+#sp,se,S_Nuno09
+
+// 	WaitSE( -1 );
+
+&empty
+ひとまず顔と太股の牛乳を拭き、
+ようやく念願のコーヒー飲料を手に入れた。
+$k
+
+#ss,se
+
+#sp,bgm,BGM_CHISEKA
+
+&empty
+めぐみと有河と３人でベンチに座り、
+ズボンが乾くまで、なんとなく一緒にいる。
+$k
+
+&empty
+有河の手には、ほとんど残っていないパック牛乳。
+$k
+
+&empty
+果たしてその白い液体は、希望通りの場所に、
+栄養が行くものなんだろうか。
+$k
+
+&empty
+そんな疑問が湧いたが、学習能力のある俺は、
+もう牛乳で地雷を踏んだりはしない。
+$k
+
+優
+「ちゅるるるー……コーヒーうめえ」
+$k
+
+// 	SS( CENTER, CHISEKA_A201KB );
+
+// CHISEKA_A201KB
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040021
+知世翔
+「私もそのコーヒー牛乳は、なかなかだと思います」
+$k
+
+&empty
+………。
+$k
+
+優
+「…そうか？」
+#meffect,flow,5
+$k
+
+// CHISEKA_A201NR
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040022
+知世翔
+「牛乳の成分が入っているところは、
+　評価してもいいと思います……
+$nw,4720
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB.png,(x),c,(s),80%
+#ig
+
+　ちゅる、ずずーっ」
+
+$k
+
+&empty
+最後の一滴まで牛乳を飲もうとする有河。
+$k
+
+// CHISEKA_A201KB
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040023
+知世翔
+「…ぷは」
+$k
+
+// 	SS( CENTER, CHISEKA_A201KB );
+
+優
+「満足したか？」
+$k
+
+// CHISEKA_A201IK2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040024
+知世翔
+「大半を怒りで消失してしまったので、
+　あまり満足はしていませんけど」
+$k
+
+優
+「そ、そっか…」
+$k
+
+&empty
+桜子同様、いつも飲んでいるところをみると、
+こいつらの精神安定剤にしか見えん…。
+$k
+
+// CHISEKA_A201IK2
+#sp,vo,03040025
+知世翔
+「そうですよ」
+$k
+
+#sp,se,S_Vinyl01
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+// 	WaitSE( -1 );
+
+#ir,(ef),off
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+// 	SS( CENTER, CHISEKA_0201NO, MOVE_RIGHT, NORMAL );
+
+#sp,se,S_Land01
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+&empty
+飲み終わったパックを器用に折り畳んで、
+ゴミ箱に入れる。
+$k
+
+優
+「お、帰るのか？」
+$k
+
+// CHISEKA_0201EG2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040026
+知世翔
+「いーえ、これから桜子先輩とデートなんです」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「ぶっ……デートだとぉぉ？」
+$k
+
+// CHISEKA_0201BS
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040027
+知世翔
+「映画を見に行くので、
+　ここで待ち合わせをしてるんです」
+$k
+
+優
+「映画……桜子が有河とねえ？
+　まさかあの、全米で～、って映画って訳じゃないよな」
+
+$k
+
+&empty
+有河は桜子と趣味が合うのか…。
+$k
+
+// CHISEKA_0201OD3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040028
+知世翔
+「先輩の趣味、知ってるんだ？　まあ幼なじみだし…」
+#msmall
+$k
+
+// CHISEKA_0201NR
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040029
+知世翔
+「そうですね。他の人を誘ったけど、
+　趣味が合わないとかで断られたそうですよ」
+$k
+
+優
+「巡り巡って、有河と一緒に行く事になったのか」
+$k
+
+// CHISEKA_0201NO2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040030
+知世翔
+「まあ……そんな感じですね。
+$nw,3990
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+　デートと言っても、差し支えないと思いますけど？」
+$k
+
+優
+「俺は認めねえぞー」
+$k
+
+// MEGUMI_0201KD
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KD.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03070027
+めぐみ
+「しっかし、桜子が好きな映画ってさあ…」
+$k
+
+優
+「任侠映画だよなぁ？
+$nw,1000
+
+　……桜子らしいけど」
+$k
+
+// CHISEKA_0201OD3
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040031
+知世翔
+「……はあ？」
+$k
+
+// MEGUMI_0201OD
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01OD.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03070028
+めぐみ
+「…えっ？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+たしか今話題の映画と言えば、
+一つが全米Ｎｏ．１ヒットなわりに、甘々すぎて、
+やや客に引かれ気味と噂の恋愛映画と…、
+$k
+
+&empty
+そしてもう一つが、
+全米超Ｄ級Ｎｏ．１ヒットで有名な、
+$k
+
+&empty
+　　　　 怒りの国際二丁拳銃ギャング６
+　　～桜吹雪のララバイ～オジキの仇じゃあ！～
+$k
+
+&empty
+……だったっけ。
+$k
+
+&empty
+上映してる所、あるんだな…。
+$k
+
+// MEGUMI_0201KD
+#ir
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070029
+めぐみ
+「いや、たしか今日言ってたのは…」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+そう。
+$k
+
+&empty
+桜子は昔から、あの手の映画が大好きで、
+俺はそれにずっと付き合わされていたんだ。
+$k
+
+&empty
+改めて思うと、年頃の女の子の趣味じゃないんだが、
+桜子の場合、それが妙に合っているとも云える。
+$k
+
+&empty
+たまに暴力的なところとか、な。
+$k
+
+&empty
+しかし有河も、桜子の趣味に合わせて、
+俺でももうお腹一杯な、そんなマイナー映画を…
+$k
+
+&empty
+やっぱ有河ってそっち系の…。
+$k
+
+// 	SS( CENTER, CHISEKA_0201NR );
+
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),c,(s),60%
+#ig
+
+優
+「けど、一緒に見に行くなんて、仲がいいんだな。
+　部活も同じだし………あれ、そういや部活って
+　何に入ってるんだ？」
+$k
+
+&empty
+と、さりげなく情報収集を試みてみたりする。
+$k
+
+// CHISEKA_0201IK
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040032
+知世翔
+「秘密です。
+　先輩に教えるなって言われてますから」
+$k
+
+優
+「ちっ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+&empty
+既にここにも情報規制がかかっていたか。
+なんだかんだでみんな教えてくれないんだよな…。
+$k
+
+&empty
+なかなか２人の秘密には踏み込めないものだ。
+$k
+
+// 	SS( CENTER, MEGUMI_0201BS, MOVE_DOWN, NORMAL );
+
+// MEGUMI_0201BS
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#sp,se,S_Land02
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+#sp,vo,03070030
+めぐみ
+「さて、私もなんか飲もうかなー？」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+&empty
+すっくと立ち上がり、自販機へ向かうめぐみ。
+$k
+
+// CHISEKA_0201KN
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040033
+知世翔
+「はー、先輩遅いなー…」
+$k
+
+&empty
+…仕方ない、話題を変えるか。
+$k
+
+&empty
+身体測定と牛乳以外の話題で、
+何か新鮮な話題は………
+$k
+
+// 	SS( CENTER, CHISEKA_A201KN );
+
+優
+「あ、さっきさあ、ちょっと強面の二人組が
+　校門のところにいたんだが…」
+$k
+
+// CHISEKA_A201OD2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD2.png,(x),c,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\bikkuri.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op3,(al),0%
+#ig
+
+#sp,vo,03040034
+知世翔
+「っ！？」
+$k
+
+// 	SetActionBuru( CENTER );
+優
+「そういえばお前ん家ってさ、
+　……もしかして…そっち系の…」
+$k
+
+// CHISEKA_A201IK
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),c,(s),80%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,03040035
+知世翔
+「な、なな、なによっ！」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+&empty
+睨まれてしまった…。
+$k
+
+
+#next,03sakurako04_02

@@ -1,0 +1,719 @@
+﻿// 既読フラグ
+#read_flag,14
+
+&empty
+ぐー。
+$k
+
+#hide
+
+//	SM( CHAR_ETC,			-1,					"",				"みし、みし。" );
+// 	SP_("S_Kishimu04");
+
+#sp,se,S_Kishimu04
+
+#wait,2000
+
+// 	SP_("S_Kishimu04");
+
+#sp,se,S_Kishimu04
+
+#wait,2000
+
+#show
+
+&empty
+んー？
+#meffect,flow,5
+$k
+
+&empty
+そろそろ起きたほうがいいかな……。
+$k
+
+&empty
+桜子も起こしてやらないと、
+また機嫌を損ねるかもしれんしなぁ。
+$k
+
+#hide
+
+#ir,(ef),off
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AS2.png,(x),c,(s),100%
+#ip,c2,(fi),image\sysc\sysc_mabuta_1.png,(x),c,(y),u_s
+#ip,c3,(fi),image\sysc\sysc_mabuta_2.png,(x),c,(y),d_s
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,c2,(y),o_u,(al),0
+#ip,c3,(y),o_d,(al),0
+#ia,c2,al,(dr),1000,(dl),1000
+#ia,c3,al,(dr),1000,(dl),1000
+#ig
+
+#show
+
+&empty
+ぐずぐずと目を開けた俺の目の前には……。
+$k
+
+// 	SV( BG_TD_IMA01A );
+// 	SS(CENTER, SAKURAKO_A302NO);
+// 	ZoomStand(CENTER, 0, 150, 150);
+
+// 	RFI(RULE_CIRCLE, SLOWER);
+// 特殊な画面変更。暫定的に。
+
+// SAKURAKO_A302AS2
+
+#sp,vo,01000030
+桜子
+「あっ」
+$k
+
+優
+「ん～？」
+#meffect,flow,5
+$k
+
+&empty
+え、夢かな？
+桜子が目の前にいて俺の方に……もしかして？
+$k
+
+&empty
+目を閉じたほうがいいとか。
+$k
+
+// YUKIHA_0301IK
+
+#sp,vo,01050013
+雪華
+「お兄ちゃん、ちょっとじっとしててっ！」
+$k
+
+優
+「……はい？　あれ、雪華……ちゃん？」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ie,c1
+#ig,(se),S_Binta03
+
+#ir
+#ie,ov
+#ig
+
+//	SM( CHAR_ETC,			-1,					"",				"すぱこ@g－@g－ん！！" );
+優
+「いだぁっ！？」
+#mlarge
+$k
+
+// 揺れ。パラメータは適宜。
+// 	SV( BG_TD_IMA01A );
+// 立ち絵消える。パラメータは適宜。
+
+#sp,bgm,BGM_COMICAL1
+
+優
+「ああれれれっ？　何事ぉですかっ！？」
+$k
+
+&empty
+何が起きている！？
+$k
+
+// 	SS_(LEFT, SAKURAKO_0302IK3);
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),60%
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01KM5.png,(x),r,(s),60%
+#ig
+
+// 	SS(RIGHT, YUKIHA_0301KM5);
+
+// SAKURAKO_0302IK3
+#sp,vo,01000031
+桜子
+「逃がしたっ？　どいて邪魔！」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Basa02
+
+優
+「？？　おっ？」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4, 20);
+
+&empty
+起き上がろうとした俺を畳に転がす桜子。
+寝起きで状況がよくわからん。
+$k
+
+// SAKURAKO_0303IK
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000032
+桜子
+「あいつは！？」
+$k
+
+// YUKIHA_0301KM5
+
+#sp,vo,01050014
+雪華
+「あれ、どこにも居ないよ！」
+$k
+
+優
+「ちょ、ちょっとキミ達ぃ、
+　これは一体何事ですか？」
+$k
+
+&empty
+桜子も雪華ちゃんも手には丸めた雑誌を手に……。
+二人とも必死の形相で。
+$k
+
+// YUKIHA_0301IK3
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01050015
+雪華
+「お兄ちゃんも手伝って！」
+$k
+
+優
+「え、何のゲームですか？」
+$k
+
+// SAKURAKO_0303IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000033
+桜子
+「ばっか、ムカデよムカデっ！！
+　さっきあんたの横に居たの！
+　今、仕留めとかないと、夜とか大変なんだから」
+$k
+
+優
+「ムカデ？　あの黒くて足のいっぱいある奴？」
+$k
+
+// SAKURAKO_0303IK3
+#sp,vo,01000034
+桜子
+「そうよ、のんびり惚けてないで、
+　あんたもとっとと探しなさい！」
+$k
+
+優
+「っ！」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig,(se),S_Basa01
+
+優
+「ひょ、ひょおおおおおおっ！！
+　ちょ、ちょっと！？　ひょわああああぁ！」
+$k
+
+// 	SS(RIGHT, YUKIHA_0301NK5, MOVE_STOP, NORMAL);
+
+// SAKURAKO_0302AD
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AD.png,(x),l,(s),60%
+
+#ig
+
+#sp,vo,01000035
+桜子
+「！？」
+$k
+
+// YUKIHA_0301NK5
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NK5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01050016
+雪華
+「やだ、もしかして！」
+$k
+
+優
+「とって！　取ってくれ桜子雪華ちゃん！
+　居る居る居るっ！」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「俺の服の中～～～～っ！！！」
+#mlarge
+$k
+
+// SAKURAKO_0302AS2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02AS2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,01000036
+桜子
+「早く脱ぎなさい、服！
+　ほらっ暴れないで、万歳して、ばんざいっっ！」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ie,c1,c3
+#ig,(se),S_Basa01
+
+優
+「はひゃあああ」
+#mlarge
+$k
+
+// YUKIHA_0301IK3
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01IK3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,01050017
+雪華
+「お兄ちゃん落ち着いて！」
+$k
+
+// SAKURAKO_A303IK3
+#ir
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000037
+桜子
+「あ、落ちた！
+　雪華ちゃんそっち行った！」
+$k
+
+// 	SS(RIGHT, YUKIHA_0301NK6);
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NK6.png,(x),r,(s),60%
+#ig
+
+// YUKIHA_0301NK6
+
+#sp,vo,01050018
+雪華
+「きゃああああ、こっち来た！
+　どうしよ、どうしたらいい！？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK.png,(x),l,(s),60%
+#ig,(se),S_Binta01
+
+// SAKURAKO_0303IK
+
+#sp,vo,01000038
+桜子
+「仕留めてっ、叩いて叩いて！」
+$k
+
+優
+「おおおおおぉぉぉ…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0303IK2
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c2,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03IK2.png,(x),l,(s),60%
+#ig,(se),S_Binta01
+
+#sp,vo,01000039
+桜子
+「優そこどいて～っ、あいつを仕留められない！」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SM( CHAR_YUU,			-1,					"優",			"@m04「ぜーぜーっ…」" );
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+//	SM( CHAR_ETC,			-1,					"",				"…" );
+// 	WaitBGM();
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+俺はまたもや居間のテーブルに突っ伏し、
+疲れ切っていた。
+$k
+
+// 	SV( BG_TD_IMA01A );
+
+&empty
+隣には桜子も同じように突っ伏している。
+$k
+
+// 	SS(CENTER, YUKIHA_0301BS, MOVE_RIGHT, NORMAL);
+
+// YUKIHA_0301BS
+#ir,(ef),off
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01BS.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,01050019
+雪華
+「はい桜子ちゃん、麦茶だよ、
+$nw,3110
+
+#sp,se,S_Kon01
+
+#ir
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01SN.png,(x),c,(s),60%
+#ig
+
+　あ、ついでにお兄ちゃんのも、はい」
+
+$k
+
+// SAKURAKO_0302EG
+
+#ir
+#ip,c3,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG.png,(x),l2,(s),60%
+#ip,c1,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000040
+桜子
+「ありがとー、雪華ちゃんは気が利くなぁ～。
+　いいこ、いいこ」
+$k
+
+// 	SS(CENTER, YUKIHA_0301BS, MOVE_STOP, NORMAL);
+
+優
+「だろー？　そう、雪華ちゃんは気が利くんだよ。
+　みじめなお兄ちゃんの分でさえお茶を持ってきて
+　くれるんだよ。良い子なんだ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+
+// 	SS_(RIGHT, YUKIHA_A301EG, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO5.png,(x),l,(s),80%
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01EG.png,(x),r,(s),80%
+#ig
+
+// 	SS(LEFT, SAKURAKO_A302NO5, MOVE_STOP, NORMAL);
+
+// YUKIHA_A301EG
+
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01EG.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01050020
+雪華
+「はは、
+$nw,1380
+
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01SP.png,(x),r,(s),80%
+#ig
+
+　でもさっきのお兄ちゃんの悲鳴、すごかったね。
+　……ちょっと思い出して引いちゃった」
+
+$k
+
+優
+「うう…」
+$k
+
+&empty
+結局ムカデは撃退したものの精神的ダメージが
+尋常じゃなかった。
+$k
+
+// SAKURAKO_A302NO5
+
+#sp,vo,01000041
+桜子
+「それは仕方ないよ雪華ちゃん。
+　寝起きにアレはかなりのトラウマものだからね～。
+　『天井よりの使者Ｇ』と同じくらいショックだよ？」
+$k
+
+// YUKIHA_A301SP3
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01SP3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01050021
+雪華
+「はは、そうだねぇ、私もかなり動揺したもんね。
+　足も、うじゃうじゃ付いてたし、思ったより硬いし、
+　色もなんか気持ち悪かったし」
+$k
+
+// SAKURAKO_A302NR
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000042
+桜子
+「ここ数年見なかったから油断してたわ。
+　また虫除け対策しないとな～。
+　もう夏も終わりなのに」
+$k
+
+優
+「死ぬかと思った……」
+$k
+
+// SAKURAKO_A302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000043
+桜子
+「まあよかったじゃない刺されなくて。
+　アレ、刺されるとすっごい痛いし、
+　すっごい腫れるのよね～」
+$k
+
+// YUKIHA_A301OD2
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01OD2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01050022
+雪華
+「あれって噛むんじゃないんだ？」
+$k
+
+// SAKURAKO_A302KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02KM2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000044
+桜子
+「さ～？　実際は噛んでるのかもしれないけど、
+　ぐさっと刺されたような激しい痛みなのよね、
+　大きな蜂に刺されるのと変わんないかも？」
+$k
+
+// YUKIHA_A301SP4
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01SP4.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01050023
+雪華
+「へーそっか～。痛そぉー」
+$k
+
+優
+「あまり思い出させないでくれ。
+　まだあの気持ち悪い感触が背中に………」
+$k
+
+// 	SV(BG_SKY01A, FILTER_SEPIA|FILTER_LINKSTAND);
+// 	DelStandAll();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A_s.jpg,(s),100%
+#ig
+
+&empty
+俺も桜子も小さい時にアレに刺されたことがある。
+丁度この家の向かいにあった俺んちで。
+一緒に昼寝してた時だったか。
+$k
+
+&empty
+俺は足を。桜子は腹を。
+$k
+
+&empty
+あの時は玄関とか窓とか開けっ放しだったからな。
+夏真っ最中だったし。
+$k
+
+&empty
+俺はたいした事無かったけど、
+桜子の方は熱が出て大変だったとか。
+……もうよく覚えてないけど。
+$k
+
+&empty
+雪華ちゃんはまだまだ小さかったし
+母親と出掛けてたんだっけな、たしか……。
+$k
+
+#hide
+
+// 	SV( BG_TD_IMA01A );
+// 	SS(LEFT, SAKURAKO_A302NR);
+// 	SS(RIGHT, YUKIHA_A301NO);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),80%
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01KT2.png,(x),r,(s),80%
+#ig
+
+#show
+
+// SAKURAKO_A302NR
+#sp,vo,01000045
+桜子
+「それより、あんたいいかげん服着なさいよね。
+　まったく、だらしないんだから」
+$k
+
+// 	SS(RIGHT, YUKIHA_A301KT2, MOVE_STOP, NORMAL);
+
+優
+「けちけちすんなよ、これくらい。
+　上半身だけだし、まだいいだろー？　暑いしさー」
+$k
+
+// SAKURAKO_A302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000046
+桜子
+「よくないっつーの。
+　そもそもこの家は女所帯なの、自重しなさい。
+　それにあんたは、これからお出かけするんだし」
+$k
+
+優
+「は？　どこに？」
+$k
+
+// SAKURAKO_A302IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000047
+桜子
+「もうっ。
+　昼寝する前にあたし言ったでしょ？
+　起きたら学園の案内するからって」
+$k
+
+優
+「ああ、言ってたような、ないような……」
+$k
+
+// SAKURAKO_A302NR
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000048
+桜子
+「ほら、分かったらさっさと用意しなさいよ」
+$k
+
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NO.png,(x),r,(s),80%
+#ig
+
+// YUKIHA_A301NO
+#sp,vo,01050024
+雪華
+「あ、じゃあ私はお留守番してればいいかな？」
+$k
+
+// SAKURAKO_A302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,01000049
+桜子
+「そうねー、どうせ暫くすれば、
+　みいも戻ってくるだろうしお願いね？
+　雪華ちゃんの方の案内はみいに言ってあるから」
+$k
+
+// YUKIHA_A301EG2
+#ir
+#ip,c3,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01EG2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,01050025
+雪華
+「うん、わかった」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,env,S_Gaya02#
+
+// 	SV( BG_GK_KOMON01B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KOMON01B.jpg,(s),100%
+#ig
+
+#next,01pro01_05

@@ -1,0 +1,985 @@
+﻿// 既読フラグ
+#read_flag,270
+
+// セーブタイトル
+#flag,save_title,桜子　第６話,0,0
+
+// 桜子好感度＋１。
+#flag,per,1,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_HS_TENNAI02A );
+// 	SS( CENTER, DAIGO_0301KM3 );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI02A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,桜子　第６話　無自覚？
+$k
+#note,erase
+
+#ir
+#ip,c1,(fi),DAIGO_A301KM3.png,(x),c,(s),75%
+#ig
+
+#show
+
+// DAIGO_0301KM3
+#sp,vo,03090000
+沖奈大吾
+「街はもうクリスマス一色だし、
+　うちも何かやるつもりだけど、
+　どうしたものか…」
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03000196
+桜子
+「………」
+#meffect,flow,5
+$k
+
+// DAIGO_0301NO
+#ir
+#ip,c1,(fi),DAIGO_A301NO.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090001
+沖奈大吾
+「優君、早く来ないかねえ」
+$k
+
+// MEGUMI_0901KN3
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KN3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03070051
+めぐみ
+「………」
+#meffect,flow,5
+$k
+
+// DAIGO_0301MJ
+#ir
+#ip,c1,(fi),DAIGO_A301MJ.png,(x),c,(s),75%
+#ie,c2,c3
+#ig
+
+#sp,vo,03090002
+沖奈大吾
+「一応、ある程度は考えてあるんだ。
+$nw,2490
+
+#ir
+#ip,c1,(fi),DAIGO_A301BS2.png,(x),c,(s),75%
+#ig
+
+　店の前は電飾でイルミネーションにして…」
+$k
+
+// ISAKI_0501MU
+#ir
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03010000
+勇樹
+「………」
+#meffect,flow,5
+$k
+
+#ir
+#ip,c1,(fi),DAIGO_A301EG.png,(x),c,(s),75%
+#ie,c3
+#ig
+
+// DAIGO_0301BS2
+#sp,vo,03090003
+沖奈大吾
+「あとは内装を少し変える、と。
+$nw,3000
+
+// 電球アイコン。レイヤーと位置は適宜。
+#ir,(ef),off,(sync),NO
+#ip,op1,(fi),image\icon\denkyuu.png,(x),530,(y),20,(ckc),2,(cki),200,(clc),1
+#ig
+
+　置物で飾るのもいいなあ」
+
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),10
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+// DAIGO_0301EG
+#sp,vo,03090004
+沖奈大吾
+「まずはシーサーだろ？
+$nw,1510
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),10
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+　で、シーサーと、シーサー。
+// $nw,4240
+$nw,2500
+
+#ir
+#ip,c1,(fi),DAIGO_A301EG2.png,(x),c,(s),75%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),10
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+　あとはシーサー。
+//$nw,5740
+$nw,1500
+
+#ir
+#ip,c1,(fi),DAIGO_A301EG3.png,(x),c,(s),75%
+#ig
+
+// 気づきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kiduki.png,(x),520,(y),10,(ag),-20d
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#madd,それとシーサー」
+
+$k
+
+// 	SS_( CENTER, ISAKI_0501KB );
+
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\ase.png,(x),540,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op1,(y+),100,(al),0%
+#ia,op1,al,(dl),500
+#ig
+
+// ISAKI_0501KB
+#sp,vo,03010001
+勇樹
+「店長……
+$nw,1240
+
+　シーサーとしか言ってないな…」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+// 	SS_( RIGHT, MEGUMI_A901NK );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NK.png,(x),r,(s),80%
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),l,(s),80%
+#ie,c1
+#ig
+
+// 	SS( LEFT, SAKURAKO_A401KS2 );
+
+// MEGUMI_A901NK
+#sp,vo,03070052
+めぐみ
+「ううっ…親父の奴、きっとここを
+　シーサーの呪い屋敷にでもする気なんだわっ…」
+$k
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\ase.png,(x),360,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op3,(y+),100,(al),0%
+#ia,op3,al,(dl),500
+#ig
+
+// SAKURAKO_A401KS2
+
+#sp,vo,03000197
+桜子
+「あはは、めぐも大変ねえ…」
+$k
+
+// MEGUMI_A901NK
+#sp,vo,03070053
+めぐみ
+「えぐえぐ…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000198
+桜子
+「……そろそろ街も
+　イルミネーションになってるのかしらねー」
+$k
+
+// MEGUMI_A901EG3
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070054
+めぐみ
+「あっ、クリスマスツリーなら見たよ～。
+$nw,2490
+
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG8.png,(x),r,(s),80%
+#ig
+
+　赤と白のポインセチアが並べてあって、
+　綺麗だったわ～」
+$k
+
+// SAKURAKO_A401TR4
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000199
+桜子
+「ケーキどこかで予約した？」
+$k
+
+// MEGUMI_A901KD
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KD.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070055
+めぐみ
+「ううん。ケーキは何処でも売ってるし、
+　予約しなくても買えるんじゃないかしら」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000200
+桜子
+「うち、今年は人数多いからな～。
+$nw,2990
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),l,(s),80%
+#ig
+
+　……作ってみるのも手かなーって」
+$k
+
+// MEGUMI_A901NO
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070056
+めぐみ
+「男の子はケーキより
+　チキンの方が喜ぶかもしれないよぉ？」
+$k
+
+// SAKURAKO_A402NO
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000201
+桜子
+「ああ、七面鳥の日だしね。
+　ゆ……
+$nw,2990
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02TR.png,(x),l,(s),80%
+#ig
+
+#madd,こほん…」
+
+$k
+
+// SAKURAKO_A402KM3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000202
+桜子
+「…それよりめぐ、
+　さっきから店の奥が気になってるんだけどさ…」
+$k
+
+// MEGUMI_A901KS2
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KS2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070057
+めぐみ
+「あ～ダメダメ、あんまり見ちゃダメよ」
+$k
+
+// SAKURAKO_A402IK7
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK7.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000203
+桜子
+「だって気になるじゃない。
+$nw,2500
+
+　いるだけで目が行っちゃうっていうか、
+　この季節は特に目障りっていうか…」
+$k
+
+// MEGUMI_A901KM
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070058
+めぐみ
+「あの二人も一応お客さんだしぃ、
+　来てくれるだけでも嬉しいんだけどねぇ…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_RYUUSEN );
+// 	Zoom( 0, 200, 200, 30, 300 );
+// 	RFI( RULE_RYUUSEN );
+
+#sp,bgm,BGM_COMICAL2
+
+#ir,(dr),1000
+#ip,bg,(fi),image\etc\bacouple_background.jpg,(s),100%,(y),0
+#ip,c1,(fi),MICHY_A201NO.png,(x),l,(s),75%
+#ip,c3,(fi),SACHY_A201TR.png,(x),r,(s),75%
+#ig
+
+#show
+
+// MICHY_0201NO
+
+#sp,vo,03990003
+充
+「さっちー」
+$k
+
+// SACHY_0201TR
+
+#sp,vo,03990004
+幸枝
+「みっちー」
+$k
+
+// MICHY_0201KM2
+#ir
+#ip,c1,(fi),MICHY_A201KM2.png,(x),l,(s),75%
+#ig
+
+#sp,vo,03990005
+充
+「…あっ、ごめん」
+#meffect,flow,5
+$k
+
+// SACHY_0201TR4
+#ir
+#ip,c3,(fi),SACHY_A201TR4.png,(x),r,(s),75%
+#ig
+
+#sp,vo,03990006
+幸枝
+「きゃ、恥ずかしぃ…」
+#meffect,flow,5
+$k
+
+#hide
+
+// 	RFO( RULE_RYUUSEN );
+// 特殊な画面変更。暫定的に。
+
+// 	Zoom();
+// 	SS_( RIGHT, MEGUMI_A901KM3 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI02A.jpg,(s),100%
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM3.png,(x),r,(s),80%
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, SAKURAKO_A402AK );
+// 	RFI( RULE_RYUUSEN );
+
+
+#show
+
+// SAKURAKO_A402AK
+
+#sp,vo,03000204
+桜子
+「指がぶつかった位で…」
+$k
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op2,(fi),image\icon\ase.png,(x),720,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op2,(y+),100,(al),0%
+#ia,op2,al,(dl),500
+#ig
+
+// MEGUMI_A901KM3
+#sp,vo,03070059
+めぐみ
+「だよねぇ～…」
+#meffect,flow,5
+$k
+
+#hide
+
+// 	RFO( RULE_RYUUSEN );
+// 	Zoom( 0, 200, 200, 30, 300 );
+// 	RFI( RULE_RYUUSEN );
+
+#ir,(dr),1000
+#ip,bg,(fi),image\etc\bacouple_background.jpg,(s),100%,(y),0
+#ip,c1,(fi),MICHY_A201NO.png,(x),l,(s),75%
+#ip,c3,(fi),SACHY_A201TR2.png,(x),r,(s),75%
+#ig
+
+#show
+
+// MICHY_0201NO
+
+
+#sp,vo,03990007
+充
+「…うん」
+#meffect,flow,5
+$k
+
+// SACHY_0201TR2
+
+#sp,vo,03990008
+幸枝
+「あの……」
+#meffect,flow,5
+$k
+
+// MICHY_0201SN2
+#ir
+#ip,c1,(fi),MICHY_A201SN2.png,(x),l,(s),75%
+#ig
+
+#sp,vo,03990009
+充
+「…なに？」
+#meffect,flow,5
+$k
+
+// SACHY_0201TR7
+#ir
+#ip,c3,(fi),SACHY_A201TR7.png,(x),r,(s),75%
+#ig
+
+#sp,vo,03990010
+幸枝
+「ううん……なんでもない♪」
+#meffect,flow,5
+$k
+
+// MICHY_0201KS
+#ir
+#ip,c1,(fi),MICHY_A201KS.png,(x),l,(s),75%
+#ig
+
+#sp,vo,03990011
+充
+「なんだよぉ、さっちー♪」
+$k
+
+#hide
+
+// 	RFO( RULE_RYUUSEN );
+// 	SS_( RIGHT, MEGUMI_A901KS );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI02A.jpg,(s),100%
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KS.png,(x),r,(s),80%
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, SAKURAKO_A402IK );
+
+// 	RFI( RULE_RYUUSEN );
+// 特殊な画面変更。暫定的に。
+
+#show
+
+// SAKURAKO_A402IK
+
+#sp,vo,03000205
+桜子
+「………殴ってやりたい。家でやれっての」
+$k
+
+// 	SS( LEFT, SAKURAKO_A402AK );
+
+// MEGUMI_A901KS
+#sp,vo,03070060
+めぐみ
+「まあまあ。
+　あんなんでも二人は頑張ってるんだし。
+$nw,3750
+
+　可哀想じゃな～い？」
+$k
+
+// MEGUMI_A901KM8
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM8.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070061
+めぐみ
+「ま～、とってもとーっても、もどかしいけどぉ…」
+$k
+
+#hide
+
+// 	RFO( RULE_RYUUSEN );
+// 	Zoom( 0, 200, 200, 30, 300 );
+// 	RFI( RULE_RYUUSEN );
+
+#ir,(dr),1000
+#ip,bg,(fi),image\etc\bacouple_background.jpg,(s),100%,(y),0
+#ip,c1,(fi),MICHY_A201SN2.png,(x),l,(s),75%
+#ip,c3,(fi),SACHY_A201TR8.png,(x),r,(s),75%
+#ig
+
+#show
+
+// MICHY_0201SN2
+
+#sp,vo,03990012
+充
+「さっちー、一緒に逃げてくれるよね」
+$k
+
+// SACHY_0201TR8
+
+#sp,vo,03990013
+幸枝
+「もちろんよ、みっちー。
+$nw,2000
+
+#ir
+#ip,c3,(fi),SACHY_A201TR.png,(x),r,(s),75%
+#ig
+
+　いつでも準備は出来てるから…」
+$k
+
+// MICHY_0201SN
+#ir
+#ip,c1,(fi),MICHY_A201SN.png,(x),l,(s),75%
+#ig
+
+#sp,vo,03990014
+充
+「近いうち、必ずさっちーを迎えに行くから…」
+$k
+
+// SACHY_0201TR4
+#ir
+#ip,c3,(fi),SACHY_A201TR4.png,(x),r,(s),75%
+#ig
+
+#sp,vo,03990015
+幸枝
+「うん、待ってる…」
+$k
+
+// MICHY_0201NO
+#ir
+#ip,c1,(fi),MICHY_A201NO.png,(x),l,(s),75%
+#ig
+
+#sp,vo,03990016
+充
+「さっちー……」
+#meffect,flow,5
+$k
+
+// SACHY_0201TR
+#ir
+#ip,c3,(fi),SACHY_A201TR.png,(x),r,(s),75%
+#ig
+
+#sp,vo,03990017
+幸枝
+「みっちー……」
+#meffect,flow,5
+$k
+
+#hide
+
+// 	RFO( RULE_RYUUSEN );
+// 	Zoom();
+// 	SS_( RIGHT, MEGUMI_A901AK2 );
+
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI02A.jpg,(s),100%
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01AK2.png,(x),r,(s),80%
+#ig
+
+// 	SS( LEFT, SAKURAKO_A402KM3 );
+// 	RFI( RULE_RYUUSEN );
+
+#show
+
+// SAKURAKO_A402KM3
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\ase.png,(x),360,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op3,(y+),100,(al),0%
+#ia,op3,al,(dl),500
+#ig
+
+#sp,vo,03000206
+桜子
+「なんか物騒ね…」
+$k
+
+// MEGUMI_A901AK2
+#sp,vo,03070062
+めぐみ
+「なんなんだろうね、あの二人。
+$nw,2500
+
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT4.png,(x),r,(s),80%
+#ig
+
+　障害がある方が燃えるの～、ってやつ？」
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000207
+桜子
+「ふーむ…」
+$k
+
+// MEGUMI_A901KD
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KD.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070063
+めぐみ
+「んでさぁ～、そういう桜子の方は…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_MAE02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE02A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+#sp,se,S_Cowbell02
+
+// 	SV( BG_HS_TENNAI02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI02A.jpg,(s),100%
+#ig
+
+#sp,bgm,BGM_KEIKAI
+
+#show
+
+優
+「ちわ～っす」
+$k
+
+// ISAKI_0502MU
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02MU.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03010002
+勇樹
+「…いらっしゃいませ」
+$k
+
+&empty
+カウンター越しに
+出迎えてくれたのは宮津橋だった。
+$k
+
+&empty
+向こうから声を掛けてくれるなんて、
+なんかちょっと新鮮かも…
+$k
+
+優
+「そっちに居るってことは、
+　今日は宮津橋がクレープ焼くのか？
+　だったら俺も食わせてもらっていいかな？」
+$k
+
+// ISAKI_0502NO
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03010003
+勇樹
+「…注文すればいい」
+$k
+
+優
+「や、そうなんだけど…」
+$k
+
+&empty
+やっぱりいつも通りだよ。
+$k
+
+// 	SS( CENTER, MEGUMI_0901EG3, MOVE_LEFT );
+
+// MEGUMI_0901EG3
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,03070064
+めぐみ
+「あ、優ちゃ～ん、いらっしゃ～い♪」
+$k
+
+優
+「あー、なんかクリスマス？　の相談とかで、
+　おっちゃんに呼ばれて来たんだけど、居るか？」
+$k
+
+// MEGUMI_0901KD
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070065
+めぐみ
+「て～んちょ～、優ちゃん来たわよ～」
+$k
+
+#ir
+#ie,c3
+#ig
+
+// DAIGO_0301EG2
+
+
+#sp,vo,03090005
+沖奈大吾
+「おー、よく来てくれたね。待ってたよ！」
+$k
+
+// 	SS( CENTER, DAIGO_0301EG2, MOVE_LEFT, NORMAL );
+
+#ir,(ef),off
+#ip,c2,(fi),DAIGO_A301EG2.png,(x),l0,(s),75%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),c,(al),100%
+#ig
+
+&empty
+めぐみに呼ばれて、
+店の奥から大吾のおっちゃんが顔を見せる。
+$k
+
+優
+「よく分からないで来たんだけど、
+　俺に出来ることって、なんかあんの？」
+$k
+
+// DAIGO_0301EG
+#ir
+#ip,c2,(fi),DAIGO_A301EG.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090006
+沖奈大吾
+「勿論あるさ。やっぱこういう事は
+　男同士じゃないと、分からないんでね」
+$k
+
+優
+「？　……えーと、お宅のお嬢さんは…」
+$k
+
+// DAIGO_0301KS2
+#ir
+#ip,c2,(fi),DAIGO_A301KS2.png,(x),c,(s),75%
+#ig
+
+// 汗たらしアイコン。読み込みタイミングと位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op2,(fi),image\icon\ase.png,(x),520,(y),50
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,op2,(y+),100,(al),0%
+#ia,op2,al,(dl),500
+#ig
+
+#sp,vo,03090007
+沖奈大吾
+「うちのお嬢さんは、
+　シーサーを飾りたがらないからなぁ」
+$k
+
+優
+「は？」
+$k
+
+&empty
+え、シーサー？
+クリスマスに、シーサー飾り？
+$k
+
+// DAIGO_0301KM
+#ir
+#ip,c2,(fi),DAIGO_A301KM.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090008
+沖奈大吾
+「めぐみとは方向性が違うんだよ。
+$nw,2780
+
+#ir
+#ip,c2,(fi),DAIGO_A301EG2.png,(x),c,(s),75%
+#ig
+
+　だから優君を呼んだんだ！」
+$k
+
+優
+「はあ、なるほど…」
+#meffect,flow,5
+$k
+
+// DAIGO_0301EG
+#ir
+#ip,c2,(fi),DAIGO_A301EG.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090009
+沖奈大吾
+「おじさんはまず、店の外観をイルミネーションで
+　飾ってさ、店内をシーサーで埋め尽くそうと
+　思ってるんだよ」
+$k
+
+
+#next,03sakurako06_01

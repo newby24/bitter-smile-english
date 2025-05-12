@@ -1,0 +1,800 @@
+﻿// 既読フラグ
+#read_flag,272
+
+// SAKURAKO_0402NO4
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l,(al),100%
+#ip,c3,(x),r
+#ig
+
+#sp,vo,03000230
+桜子
+「華やかな感じがあれば、それでいいんじゃない？」
+$k
+
+// MEGUMI_0901KM5
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070098
+めぐみ
+「それなら絶対にツリーなのにぃ～」
+$k
+
+優
+「この店らしくていいじゃないか？」
+$k
+
+// MEGUMI_0901NK
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070099
+めぐみ
+「シーサーなんかじゃ、
+　ロマンチックな気分にならないも～んっ！」
+$k
+
+// 	SV( BG_HS_TENNAI02A );
+
+// 	Zoom( 0, 200, 200, 30, 300 );
+
+優
+「あいつらはそうでもないみたいだけどな？」
+$k
+
+#ir,(dr),1000
+#ip,bg,(fi),image\etc\bacouple_background.jpg,(s),100%,(y),0
+#ip,c1,(fi),MICHY_A201NO.png,(x),l,(s),75%
+#ip,c3,(fi),SACHY_A201TR.png,(x),r,(s),75%
+#ig
+
+&empty
+ひとつの飲み物にストローを２つ挿して、
+ちゅるちゅる飲んでる奥の２人を見やる。
+$k
+
+&empty
+あれは相当恥ずかしくないか…？
+$k
+
+// MEGUMI_0901AK3
+
+#sp,vo,03070100
+めぐみ
+「あの子達は季節ガン無視だから別よ…」
+$k
+
+優
+「…そうか」
+#meffect,flow,5
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NONBIRI
+
+// 	SV( BG_HS_TENNAI03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「まあ、こんなもんかな？」
+$k
+
+&empty
+カウンターも引き立つよう、シーサーを一つおきに、
+頭へ足へと、波打つ様に電飾を配置してみた。
+$k
+
+// DAIGO_0301EG
+#ir
+#ip,c1,(fi),DAIGO_A301EG.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090019
+沖奈大吾
+「おっ、いいね、いいねー！
+$nw,2220
+
+#ir
+#ip,c1,(fi),DAIGO_A301EG2.png,(x),c,(s),75%
+#ig
+
+　やっぱり優君に来てもらってよかったよ！」
+$k
+
+優
+「おっちゃんの方は終わった？」
+$k
+
+// DAIGO_0301EG
+#ir
+#ip,c1,(fi),DAIGO_A301EG.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090020
+沖奈大吾
+「おう、完成だ。
+$nw,1240
+
+#ir
+#ip,c1,(fi),DAIGO_A301EG2.png,(x),c,(s),75%
+#ig
+
+　見てくれよほら。
+　一気にクリスマスっぽくなっただろ？」
+$k
+
+// 	SS_( RIGHT, MEGUMI_0901KN3 );
+
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KN3.png,(x),r,(s),60%
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS.png,(x),l,(s),60%
+#ie,c1
+#ig
+
+// 	SS( LEFT, SAKURAKO_0401KS );
+
+// MEGUMI_0901KN3
+#sp,vo,03070101
+めぐみ
+「はああ～、終わったよ…
+　こんなのクリスマスじゃないよぉ～」
+$k
+
+// SAKURAKO_0401KS
+
+#sp,vo,03000231
+桜子
+「諦めなさい」
+$k
+
+// MEGUMI_0901KM5
+#ir
+#ip,c3,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070102
+めぐみ
+「う～っ」
+#meffect,flow,5
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03000232
+桜子
+「じゃあ優、あたしはそろそろ帰るわよ？」
+$k
+
+優
+「あ、なら俺も…」
+#meffect,flow,5
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2,c3
+#ig
+
+&empty
+いいかげん外も暗いし一緒に…。
+$k
+
+// 	SS( CENTER, DAIGO_0301NO );
+
+// DAIGO_0301NO
+#ir
+#ip,c1,(fi),DAIGO_A301NO.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090021
+沖奈大吾
+「お、じゃあ、お土産持ってってくれよ優君。
+$nw,2990
+
+#ir
+#ip,c1,(fi),DAIGO_A301EG.png,(x),c,(s),75%
+#ig
+
+　シーサーとクレープ。手伝ってくれたお礼に」
+$k
+
+優
+「ああ、ありがとうおっちゃん」
+$k
+
+// DAIGO_0301NO
+#ir
+#ip,c1,(fi),DAIGO_A301NO.png,(x),c,(s),75%
+#ig
+
+#sp,vo,03090022
+沖奈大吾
+「勇樹ちゃん、悪いけど優君と桜子ちゃんに
+　クレープ作ってあげてくれるかい？」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_LEFTRIGHT );
+
+// 	SV( BG_HS_TENNAI03A );
+
+// 	RFI( RULE_LEFTRIGHT );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+俺と桜子が宮津橋からクレープを貰うと、
+おっちゃんからシーサーも受け取る。
+$k
+
+// 	SS_( CENTER, DAIGO_A301NS );
+
+#ir
+#ip,c1,(fi),DAIGO_A301NS.png,(x),c,(s),100%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+// DAIGO_A301NS
+#sp,vo,03090023
+沖奈大吾
+「シーサー、大盛りサービスしといたからね！」
+$k
+
+&empty
+クレープじゃなくてシーサーが大盛りなのか。
+$k
+
+優
+「ども、ありがたく」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+けど、シーサーを抱えたままだと、
+クレープが食べられん。
+$k
+
+// 	SS( CENTER, SAKURAKO_0402NO5 );
+
+// SAKURAKO_0402NO5
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000233
+桜子
+「ほらほら、クレープ持ってあげるからさ。
+$nw,3160
+
+　それせっかく貰ったんだから落としちゃだめよ？」
+$k
+
+優
+「言っておくけど、１個は俺のだからな？」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000234
+桜子
+「そんな大人げないことしないわよ。
+$nw,3240
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+　さ、ご飯作らなきゃなんないし、家に帰るわよ」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r0,(al),0%
+#ig
+
+// MEGUMI_0901IK2
+#ir,(ef),off
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01IK2.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),c,(al),100%
+#ig
+
+#sp,vo,03070103
+めぐみ
+「む～ん……
+$nw,1500
+
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01IK3.png,(x),c,(s),60%
+#ig
+
+　実際のところ、どうなのかな～」
+
+$k
+
+// 	SS( CENTER, MEGUMI_0901IK3, MOVE_LEFT, SLOW );
+
+// MEGUMI_0901MJ2
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070104
+めぐみ
+「あれがただの幼なじみの世話焼きでしかないのか、
+　無自覚の行為なのか…」
+$k
+
+// MEGUMI_0901KM
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03070105
+めぐみ
+「ふう…」
+$k
+
+// 	CS_( CENTER, LEFT );
+// 	SS( RIGHT, SAKURAKO_0402NO4, MOVE_RIGHT, NORMAL );
+
+// SAKURAKO_0402NO4
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c2,(x),l
+#ig
+
+#sp,vo,03000235
+桜子
+「めぐ、おっちゃん、またね」
+$k
+
+// MEGUMI_0901BS3
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03070106
+めぐみ
+「あ、うん」
+$k
+
+// DAIGO_0301EG2
+
+#sp,vo,03090024
+沖奈大吾
+「気をつけて帰りなよー」
+$k
+
+// MEGUMI_0901NO
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03070107
+めぐみ
+「またね～」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,se,S_Door03o
+
+// 	SV( BG_HS_MAE03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_MAE03A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,bgm,BGM_YASURAGI
+
+// 	WaitSE( -1 );
+
+
+// 	SS( CENTER, SAKURAKO_0402NO, MOVE_STOP, NORMAL );
+
+#show
+
+// SAKURAKO_0402NO
+
+#sp,vo,03000236
+桜子
+「すっかり遅くなっちゃったね」
+$k
+
+優
+「そうだなー」
+$k
+
+&empty
+シーサーに入れ込んでいた所為で時間も忘れていた。
+$k
+
+// SAKURAKO_0402NO4
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03000237
+桜子
+「さ、帰ろ？」
+$k
+
+優
+「ああ、でもとりあえずクレープ食わせ…」
+$k
+
+#ir,(ef),off
+#ip,c3,(fi),MEGUMIn_A901.png,(psi),MEGUMIn_An01KT4.png,(x),l3,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door03o
+
+// 	SS_(LEFTLEFT, MEGUMI_0901KT4, MOVE_STOP, NORMAL);
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),100%
+#ip,c1,(x),r
+#ig
+
+// 	ZoomStand(LEFTLEFT, FASTEST, 65, 65);
+// 	MoveStand(LEFTLEFT, FASTEST, 40+50, 0);
+// 	MoveStand(LEFTLEFT, NORMAL, 40, 0);
+// 	WaitStand( LEFTLEFT );
+
+// MEGUMI_0901KT4
+#sp,vo,03070108
+めぐみ
+「お、っと。
+$nw,1760
+
+#ir
+#ip,c3,(fi),MEGUMIn_A901.png,(psi),MEGUMIn_An01NO.png,(x),l2,(s),60%
+#ig
+
+　優ちゃん、桜子～」
+
+$k
+
+// 	SS_(CENTER, SAKURAKO_0403KM, MOVE_STOP, NORMAL);
+
+優
+「おう？」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03KM.png,(x),r,(s),60%
+#ig
+
+&empty
+さっき、またね～、と言ったはずのめぐみが
+店のドアから顔を出す。
+$k
+
+&empty
+…忘れ物でもしたっけ？
+$k
+
+// MEGUMI_0901BS
+#ir
+#ip,c3,(fi),MEGUMIn_A901.png,(psi),MEGUMIn_An01BS.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03070109
+めぐみ
+「あんたたちさ～っ、
+　そろそろはっきりしてみるのも
+　いいんじゃないのぉ～！」
+$k
+
+優
+「うんん？」
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000238
+桜子
+「……はいはい、またね」
+$k
+
+// MEGUMI_0901NO
+#ir
+#ip,c3,(fi),MEGUMIn_A901.png,(psi),MEGUMIn_An01NO.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03070110
+めぐみ
+「そんだけ、じゃあ気を付けて帰ってねー！」
+$k
+
+#sp,se,S_Door03c
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l3,(al),0%
+#ig
+
+&empty
+そう言ってから、めぐみはまた店に引っ込んだ。
+$k
+
+優
+「なんなんだ、あれ？」
+$k
+
+// SAKURAKO_0402AK
+#sp,vo,03000239
+桜子
+「さあね？
+$nw,1490
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO5.png,(x),r,(s),60%
+#ig
+
+　優は知らなくていいわよ。
+　忘れていいから」
+$k
+
+優
+「なんだよ。気になるな、その言い方」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000240
+桜子
+「いいのいいの。さ、帰るわよ」
+$k
+
+&empty
+気になるなあ。
+$k
+
+優
+「とりあえず、クレープひとくち
+　食べさせてくれないか？」
+$k
+
+// 	SS_(CENTER, SAKURAKOn_A402NO4, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO4.png,(x),c,(s),80%
+#ig
+
+// SAKURAKOn_A402NO4
+#sp,vo,03000241
+桜子
+「いいわよ。
+$nw,990
+
+　はい、あーん」
+$k
+
+優
+「はむ……うん、美味い」
+$k
+
+// SAKURAKOn_A401TR2
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000242
+桜子
+「そりゃ、サ……
+$nw,1920
+
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR4.png,(x),c,(s),80%
+#ig
+
+　勇樹が丹誠込めて
+　作ってくれたからじゃないの～？」
+$k
+
+優
+「ああ………そうかあ？」
+$k
+
+&empty
+普段は客にしかいい顔をしない奴が
+丹精込めたかなー？
+$k
+
+// SAKURAKOn_A402NR
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000243
+桜子
+「あたしのたこ焼きと、どっちが美味しい？」
+$k
+
+優
+「えっ…」
+#meffect,flow,5
+$k
+
+// SAKURAKOn_A402EG
+#ir
+#ip,c1,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000244
+桜子
+「じょーだんよっ。間抜けな顔しちゃって」
+$k
+
+優
+「あのなあ…」
+#meffect,flow,5
+$k
+
+// SAKURAKOn_A401EG
+#ir
+#ip,c1,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000245
+桜子
+「よーし、家まで競争ー！」
+#mlarge
+$k
+
+#sp,se,S_Dash02o
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+// 	WaitSE( -1 );
+
+優
+「あ、おい、ちょっと待てよっ」
+$k
+
+// SAKURAKOn_A402EG
+
+#sp,vo,03000246
+桜子
+「ほらほら、置いてくわよー？」
+$k
+
+優
+「なに？　待てってー！
+　うおおおおっ、
+　まだクレープ残ってるだろーが――っ！」
+$k
+
+#sp,vo,03000247
+桜子
+「あははっ！」
+$k
+
+#hide
+
+#wait,1000
+
+
+//	BFO();
+//	FO( SLOW );
+//	SetEndTitleEx();
+//	WT( 100 );
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),30%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// イベント選択９回目。
+#next,90phase09

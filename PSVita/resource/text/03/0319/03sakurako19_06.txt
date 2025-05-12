@@ -1,0 +1,719 @@
+﻿// 既読フラグ
+#read_flag,333
+
+#show
+
+&empty
+桜子は持っていた鞄の中から
+マフラーを取り出し、俺の首に巻き付けた。
+$k
+
+#sp,vo,03001381
+桜子
+「遅くなっちゃったかもしれないけど。
+$nw,2000
+
+　ハッピーバレンタイン！　かな？
+$nw,3000
+
+　もしかしたらメリークリスマス！」
+
+$k
+
+優
+「え……どういうことだ？」
+$k
+
+#sp,vo,03001382
+桜子
+「相変わらず、ばっかねー、優は」
+$k
+
+#sp,vo,03001383
+桜子
+「これはね………」
+$k
+
+優
+「うん？」
+$k
+
+#sp,vo,03001384
+桜子
+「これはね？
+　あたしの知らないもうひとりのあたしと、
+　今のあたしからのプレゼントなのよ。
+$nw,8490
+
+#madd,わかる？」
+$k
+
+優
+「えっと………？」
+#meffect,flow,5
+$k
+
+#sp,vo,03001385
+桜子
+「はあ、まあいいけどー」
+$k
+
+#sp,vo,03001386
+桜子
+「あたしの部屋でね？
+　あたしの知らないあたしが作りかけてた物よ」
+$k
+
+優
+「…あっ」
+#meffect,flow,5
+$k
+
+#sp,vo,03001387
+桜子
+「もう一回言うね？」
+$k
+
+#sp,bgm,BGM_KANDO
+
+#sp,vo,03001388
+桜子
+「これは記憶を失う前のあたしが、
+　あんたに渡せなかったプレゼント」
+$k
+
+#sp,vo,03001389
+桜子
+「もしかしたら、なんだけどね？」
+$k
+
+#sp,vo,03001390
+桜子
+「それをあたしが引き継いで、
+　あんたに渡したのよ」
+$k
+
+優
+「………あ、ああ。そうか。そういう事か」
+$k
+
+#sp,vo,03001391
+桜子
+「…感謝しなさい？」
+$k
+
+&empty
+桜子はそう言って、
+俺に掛けたマフラーと俺自身を
+満足げに見ている。
+$k
+
+&empty
+にこにこと吸い込まれそうな笑顔で。
+$k
+
+#sp,vo,03001392
+桜子
+「優は幸せ者だね。
+$nw,2000
+
+　二人のあたしから
+　手作りのプレゼントを貰えるんだからさ！」
+$k
+
+&empty
+桜子………そうか、やっぱりそうなんだ。
+#meffect,flow,5
+$k
+
+優
+「ありがとう桜子」
+$k
+
+#sp,vo,03001393
+桜子
+「うん？　それだけなの？」
+$k
+
+優
+「そんなわけない！」
+$k
+
+#sp,vo,03001394
+桜子
+「そう、あたしに言う事あるんだよね、優」
+$k
+
+優
+「ああ、そうなんだ……俺、桜子にさ、
+　絶対に言わないといけない事があるんだ」
+$k
+
+#sp,vo,03001395
+桜子
+「うん。
+　今度は大丈夫。
+$nw,2500
+
+　逃げたりしないし。ちゃんと聞くから」
+$k
+
+#sp,vo,03001396
+桜子
+「だから優も逃げないでね…？」
+$k
+
+優
+「ああ。わかってる」
+$k
+
+優
+「俺、桜子の事が好きだ。
+　前からずっと、本当に大好きなんだ」
+$k
+
+#sp,vo,03001397
+桜子
+「うん」
+$k
+
+優
+「それで俺と……付き合って欲しいんだ。
+$nw,1000
+
+　できれば一生？」
+$k
+
+#sp,vo,03001398
+桜子
+「もう！　なんでそこで疑問系なのよ！
+$nw,3170
+
+　台無しじゃないのー」
+$k
+
+優
+「ああーっ、すまん！　緊張しちゃってさ」
+$k
+
+優
+「……怒ったか？」
+#meffect,flow,5
+$k
+
+#sp,vo,03001399
+桜子
+「………そんなわけないよ」
+$k
+
+優
+「じゃあ…」
+#meffect,flow,5
+$k
+
+#sp,vo,03001400
+桜子
+「うん、あたしも好き」
+$k
+
+#sp,vo,03001401
+桜子
+「それから…」
+#meffect,flow,5
+$k
+
+#sp,vo,03001402
+桜子
+「最初の返事、
+　ちゃんとしてないんだよね、あたし」
+$k
+
+優
+「最初…の？」
+#meffect,flow,5
+$k
+
+#sp,vo,03001403
+桜子
+「たぶん、最初優が逃げた時の」
+$k
+
+#sp,vo,03001404
+桜子
+「あたしにとってはついこの間だけど…」
+$k
+
+優
+「…うん」
+#meffect,flow,5
+$k
+
+#sp,vo,03001405
+桜子
+「あの時はさ、あたし優の事そんな風に
+　考えたこともなかったんだけど…」
+$k
+
+#sp,vo,03001406
+桜子
+「それでも付き合ってあげようかなって、
+　思ってたの」
+$k
+
+#sp,vo,03001407
+桜子
+「でもね………あんな事あったから…」
+$k
+
+優
+「っ！？」
+$k
+
+&empty
+俺を気にしたのか、
+桜子はぎゅっとマフラーを掴んだまま。
+$k
+
+// 	Fade( SLOW, 0 );
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#sp,vo,03001408
+桜子
+「…じゃなくてね？
+　その時からずっと考えてたのよ」
+$k
+
+&empty
+じゃああの時の俺はどっちにしろ、
+……これで良かったってこと、か？
+$k
+
+#sp,vo,03001409
+桜子
+「よくよく考えたらさ、あたしね…」
+$k
+
+#sp,vo,03001410
+桜子
+「あたしね…？」
+#meffect,flow,5
+$k
+
+優
+「…うん」
+#meffect,flow,5
+$k
+
+#hide
+
+// 	SV( BG_MT_JINJYAKEIDAI01D );
+
+// 	SS( CENTER, SAKURAKO_A402NO5 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_JINJYAKEIDAI01D.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+// 	Fade( NORMAL );
+
+#show
+
+// SAKURAKO_A402NO5
+#sp,vo,03001411
+桜子
+「ずーっと前からね？
+$nw,3490
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG2.png,(x),c,(s),80%
+#ig
+
+　……大好きだよ、優の事っ」
+$k
+
+優
+「桜子」
+$k
+
+// SAKURAKO_A402EG2
+#sp,vo,03001412
+桜子
+「ふふふ」
+$k
+
+優
+「………あっ」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001413
+桜子
+「…？
+$nw,1490
+
+　どうしたの？」
+$k
+
+優
+「なあ、もしかしてお前さ、
+　……記憶が、もどっ…」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001414
+桜子
+「違うの、ごめんね？」
+$k
+
+&empty
+俺の言葉を遮る様に、
+桜子は首を横に振った。
+$k
+
+&empty
+そんな申し訳なさそうな顔で謝らないでくれよ？
+$k
+
+// SAKURAKO_A402KM
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001415
+桜子
+「だから、今のあたしは優の知ってる
+　あたしじゃないかもしれないけど…」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001416
+桜子
+「優はそれでもいいかな？
+　そんなあたしでも、好きでいてくれる？」
+$k
+
+優
+「…関係ないよ。そんなの。
+　桜子は桜子だ、今も昔も変わってない」
+$k
+
+優
+「………大好きだ！」
+$k
+
+// 	Pinboke( SLOW, PINBOKE_NORMAL, 10, 4, 1 );
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001417
+桜子
+「ほんとに？
+$nw,1990
+
+　……ほんとうに？」
+$k
+
+&empty
+なんて不安そうな顔してやがるんだ。
+$k
+
+&empty
+お前の方こそ、ばっかだなぁ…。
+$k
+
+優
+「ああ、好きだ」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001418
+桜子
+「じゃあなんで？　泣かないで？」
+$k
+
+&empty
+知らないうちに、俺………
+これはきっと嬉しい時の涙だ。
+$k
+
+// 	Shake( SLOW, SHAKE_LEFT, 20, 20 );
+// 	Pinboke( FAST, PINBOKE_NORMAL, 0 );
+// 	WaitSE( -1 );
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Nuno05
+
+優
+「悪い、これはさ、そうじゃないって。
+　そういうんじゃなくってな？」
+$k
+
+// SAKURAKO_A402KM2
+#sp,vo,03001419
+桜子
+「？」
+$k
+
+優
+「俺は二人の桜子に、同じように
+　好きになって貰ったんだなって…」
+$k
+
+優
+「……そう思ったら、うれしくてさ。
+　桜子を好きで良かったなって」
+$k
+
+// SAKURAKO_A402NO
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001420
+桜子
+「優…」
+#meffect,flow,5
+$k
+
+優
+「だから桜子は桜子だよ。
+　どっちも変わらないくらい大好きだ」
+$k
+
+優
+「もしもう一度記憶がなくなったって、
+　俺がお前を好きなのは変わらねっ……
+$nw,1000
+
+#ir
+#ie,c1
+#ig
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Ton03
+
+　痛え！？」
+
+$k
+
+// 	WaitSE( -1 );
+
+// 	SS( CENTER, SAKURAKO_A402IK4 );
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001421
+桜子
+「…あんたねえ、あたしを殺したいの？
+$nw,2990
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+　そうそう記憶なくす様な事してたまるかっ！」
+$k
+
+優
+「いててっ、足踏むなよぅ～！」
+$k
+
+// SAKURAKO_A402IK3
+#sp,vo,03001422
+桜子
+「ほんと、
+$nw,950
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG2.png,(x),c,(s),80%
+#ig
+
+#madd,ばかっ！」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c,(al),0%
+#ig
+
+// 	ZoomStand( CENTER, NORMAL, 130, 130 );
+
+&empty
+あっ………
+#meffect,flow,5
+$k
+
+&empty
+桜子の顔が近づいてくる。
+ちょっと足りない身長を埋める、背伸びをして。
+$k
+
+// 	SetCGFlg( VISUAL_ETC_04A );
+// 	SetVisualObject( 0, VISUAL_ETC_04A, -80, -60 );
+// 	ZoomObject( 0, 0, 120, 120 );
+
+#sp,se,S_Za01
+
+#ir,(dr),1000
+#ip,bg,(fi),white.jpg
+#ip,c1,(fi),image\ev\VISUAL_E\VISUAL_ETC_04A.jpg,(s),100%,(x),c,(y),d_s
+#ig
+
+// 	WaitSE( -1 );
+
+#sp,vo,03001423
+桜子
+「はい、良くできました。ご褒美…よ？」
+$k
+
+// 	MoveObject( 0, SLOW, -80, 0 );
+
+// 	SV( VISUAL_WHITE );
+
+#ir,(dr),2000,(ef),move,(cv),linear
+#ip,c1,(y),u_s,(al),0%
+#ig
+
+&empty
+桜子の瞳も涙で濡れていた。
+$k
+
+&empty
+なんでお前まで泣いてるんだよ？
+$k
+
+#sp,vo,03001424
+桜子
+「んむっ、ちゅっ♪」
+$k
+
+&empty
+桜子からのキスをされ…、
+$k
+
+&empty
+俺からは……愛しく、抱きしめ返す。
+$k
+
+優
+「桜子……もう、離さないからな？」
+#meffect,flow,5
+$k
+
+#sp,vo,03001425
+桜子
+「優だって、もう無かった事になんて
+　しなくていいんだから、ね？」
+$k
+
+優
+「好きだ、桜子」
+$k
+
+#sp,vo,03001426
+桜子
+「あたしも、好きよ優」
+$k
+
+&empty
+俺はもっともっと桜子を強く抱きしめた。
+$k
+
+&empty
+俺たちは、またここから始まるんだ。
+$k
+
+&empty
+俺達はまた、恋人として。
+スタートラインに立つ事が出来た。
+$k
+
+&empty
+二人の人生が。
+……もしかしたら、三人分の想い出とともに。
+$k
+
+&empty
+新しい季節の訪れとともに。
+$k
+
+#hide
+
+// ここで終了。次のファイルへ。
+
+#wait,1000
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_sakurako.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+#next,03sakurako20_00
+

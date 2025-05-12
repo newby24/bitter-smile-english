@@ -1,0 +1,720 @@
+﻿// 既読フラグ
+#read_flag,382
+
+// 	SESpeed(0, FASTEST, 150);
+// 	Shake(20, SHAKE_DOWN|SHAKE_SCREEN, 3, 20);
+// 	SV( VISUAL_KANAME_05F );
+
+#sp,vo,06020621
+要
+「わ！　優くん！？」
+$k
+
+#sp,vo,06020622
+要
+「ちょ、スピードあげすぎ…
+　しかもコンビニこっちじゃないよっ」
+$k
+
+&empty
+あ～俺ってもうほんと馬鹿。
+$k
+
+#ir
+#ip,bg,(fi),BG_MT_TEIBO03A.jpg,(s),100%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),no_limit
+#ip,bg,(y+),10
+#ig
+
+&empty
+勝手に勘違いして…。
+$k
+
+// 	Shake(0, SHAKE_DOWN|SHAKE_SCREEN, 3, 20);
+// 	SV( BG_MT_TEIBO03A );
+
+&empty
+しかもまた勘違いかもしれないのに。
+$k
+
+&empty
+この人の、あんなどうとでも取れる言葉ひとつで
+勘違いが止まらなくなってる。
+$k
+
+&empty
+全然疲れない、むしろまだまだ力が湧いてくる。
+$k
+
+&empty
+土手だってほら軽々と、
+$k
+
+優
+「はっ…はっ…はぁぁぁ…」
+$k
+
+&empty
+いや、ちょっと疲れたけど。
+$k
+
+// KANAME_0201KU4
+
+#sp,vo,06020623
+要
+「ほんと危ないってば～。
+　怖い怖い怖い～！」
+$k
+
+優
+「もっかいキスさせてくれたら、
+　止まってあげてもいいですけどね～」
+$k
+
+// KANAME_0201KT2
+
+#sp,vo,06020624
+要
+「っ！？
+$nw,900
+
+　そ、それ…それって…！」
+$k
+
+優
+「もしくは答えてくれればいいですよ。
+　俺が要さんを好きだってことに対して」
+$k
+
+// KANAME_0201OD3
+#sp,vo,06020625
+要
+「だ、だって何もなかった、大丈夫って…」
+#meffect,flow,5
+$k
+
+優
+「でもちょっとは覚えてるんじゃないですか？
+　なのに誤魔化そうなんて、
+　要さんは自分に甘えすぎですよ」
+$k
+
+// KANAME_0202IK2
+
+#sp,vo,06020626
+要
+「なんでわたし逆ギレされてんの！」
+$k
+
+#sp,se,S_Nuno04
+
+// KANAME_0202IK2
+#sp,vo,06020627
+要
+「下りる、下りる下りる～！」
+$k
+
+優
+「ちょっと暴れないでください。
+　どうせスピード出してて降りれないんだからっ」
+$k
+
+優
+「もう逃がす気ないですからね！
+　大人しく観念して…」
+$k
+
+#sp,se,S_Nuno04
+
+// KANAME_0201IK
+
+#sp,vo,06020628
+要
+「絶対下りてやる～！！！」
+$k
+
+#ss,bgm,(dr),1000
+#ss,env
+
+#ils
+
+#sp,se,W_Bicycle01
+
+#ir,(dr),500,(ef),move
+#ip,bg,(s),150%,(x+),-25%,(y+),-30%
+#ig
+
+// 	Shake(0, SHAKE_LEFT|SHAKE_SCREEN, 16, 70);
+
+優
+「ぬあっ…！？」
+$k
+
+#ir,(ef),off
+#ip,bg,(rx),480,(ry),272
+#ig
+
+#sp,se,S_Break05
+
+#ir,(dr),500,(ef),move
+#ip,bg,(ag),90d
+#ig
+
+#sp,se,S_Break06
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+#sp,vo,06020629
+優＆要
+「うわあああああああ～！！」
+#mlarge
+$k
+
+// 	Rotate(NORMAL, 240);
+
+// 	Fade(FAST, 0);
+
+#hide
+
+#wait,1000
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_MT_KAWARA01D.jpg,(s),100%
+#ig
+
+#wait,500
+
+#show
+
+優
+「いててて…」
+#meffect,flow,2
+$k
+
+//	SFP(0, "S_River03#", SLOWER, 100);
+// 	SV( BG_MT_KAWARA01D );
+
+// 	Fade(SLOWER, 100);
+
+&empty
+少しかすり傷ができてるけど…
+この程度で済んだのは不幸中の幸いだった。
+$k
+
+&empty
+斜面の陰で溶け残ってた雪のおかげか。
+$k
+
+&empty
+すぐ側で、横倒しになった自転車の
+後輪だけがからからと音を立てて空転している。
+$k
+
+優
+「カゴは……
+$nw,1000
+
+　あ～あ」
+
+$k
+
+優
+「そりゃ、あんなところから落ちたら当然か…」
+$k
+
+&empty
+こちらは無事とはいかなかったらしい。
+$k
+
+優
+「さて…」
+$k
+
+&empty
+頭も冷えた。
+$k
+
+&empty
+調子に乗っていたけれど、
+そろそろ現実に目を向ける時間だ。
+$k
+
+優
+「大丈夫ですか？」
+$k
+
+#sp,bgm,BGM_KANASHIMI
+
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK5.png,(x),c,(s),80%
+#ig
+
+&empty
+目を向けた先…すぐ近くに、
+鬼の形相の要さんが座っていた。
+$k
+
+// 	SS_(CENTER, KANAME_A201IK5, MOVE_STOP, SLOW);
+
+//	SetIconIkari( CENTER );
+// 	WaitStand( CENTER );
+
+// KANAME_A201IK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020630
+要
+「あいにく全身打って痛いわよっ」
+#meffect,flow,5
+$k
+
+優
+「むしろそれだけですか…？」
+$k
+
+&empty
+頑丈すぎる。すごい。
+$k
+
+// KANAME_A201IK
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020631
+要
+「なんなの…なんであんなことしたのよ」
+$k
+
+優
+「どれのことでしょう？」
+$k
+
+&empty
+心当たりがありすぎる。
+$k
+
+// KANAME_A201IK2
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020632
+要
+「全部よ全部！」
+#mlarge
+$k
+
+優
+「全部ですか…」
+$k
+
+&empty
+そりゃそうだよな。
+$k
+
+// KANAME_A201IK5
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020633
+要
+「～っ」
+$k
+
+//#ir,(ef),quake,(qx),0,(qy),1
+//#ig,(se),S_Air01
+
+#sp,se,S_Air01
+#wait,300
+
+// 	Shake(NORMAL, SHAKE_DOWN, 8);
+//	SP( "W_Doro01" );
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_black.jpg
+#ig,(se),T_Ton01
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+優
+「ぶっ」
+$k
+
+//	RFO( RULE_BLOOD | FILTER_NEGATIVE );
+
+// KANAME_A201IK2
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020634
+要
+「ふざけないでよ、なんなのよぉ」
+$k
+
+&empty
+要さんは行き場のない怒りをぶつけるように…
+いやその通りだろうけど、つかんだ泥を俺にぶつけた。
+$k
+
+// KANAME_A201IK2
+#sp,vo,06020635
+要
+「あんなことしといて放っておくなんて、
+　何それ馬鹿にしてるのっ」
+$k
+
+// KANAME_A201IK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020636
+要
+「はっきり覚えてないし、
+　そんなはずないって思って…」
+$k
+
+// KANAME_A201FK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01FK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020637
+要
+「でも、ぼんやりだけど記憶に残ってて…」
+$k
+
+// KANAME_A203TR2
+#ir
+#ip,c1,(fi),KANAME_A203.png,(psi),KANAME_An03TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020638
+要
+「ひょっとしてそれって、
+　わたしの願望なのかもって思ったら、
+　ものすっごく恥ずかしくなって」
+$k
+
+// KANAME_A203TR
+#ir
+#ip,c1,(fi),KANAME_A203.png,(psi),KANAME_An03TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020639
+要
+「そしたらお見合いする前の後ろめたさとか
+　お見合いばれた時の後ろめたさとか…、
+　分かった気がして」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_A203TR2
+#ir
+#ip,c1,(fi),KANAME_A203.png,(psi),KANAME_An03TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020640
+要
+「……でもしょうがないじゃない。
+　桜子ちゃんとか年齢差とか気にすることばっか
+　いっぱいあったんだもん」
+$k
+
+優
+「わかりましたよ要さん」
+$k
+
+// KANAME_A201IK2
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020641
+要
+「なにがよ、全然わかってないわよ」
+$k
+
+優
+「俺はやっぱ要さんのことが好きだって」
+$k
+
+// KANAME_A201IK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020642
+要
+「………」
+#meffect,flow,5
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_A201IK
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020643
+要
+「い、今更言ったって～！」
+$k
+
+優
+「前にも言ったじゃないですか。
+　だからもう一度よく考えてください」
+$k
+
+// KANAME_A201IK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020644
+要
+「こんな時にそんなこと言われて
+　受け入れられる人間なんていないわよ」
+$k
+
+優
+「俺は返事待ってますよ？」
+$k
+
+// KANAME_A201IK2
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020645
+要
+「卑怯者！」
+#mlarge
+$k
+
+優
+「それはもう…」
+$k
+
+&empty
+徹頭徹尾自覚しております。
+$k
+
+// KANAME_A201NK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01NK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020646
+要
+「卑怯よぅ…」
+#meffect,flow,5
+$k
+
+優
+「いや、要さんもなかなか酷かったし」
+$k
+
+// KANAME_A201IK2
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020647
+要
+「絶対そっち！
+　優くんがそんな人だなんて思わなかったっ」
+$k
+
+優
+「だって、そうしなきゃ
+　見て見ぬふりしようとする人がいたんです」
+$k
+
+// KANAME_A201IK
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020648
+要
+「いつからそんな顔をするようになったの」
+$k
+
+優
+「見直しました？」
+$k
+
+// KANAME_A201IK5
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020649
+要
+「できれば見たくなかった」
+$k
+
+優
+「見ちゃったものはしょうがないでしょ」
+$k
+
+// KANAME_A201IK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020650
+要
+「～～～っ！」
+$k
+
+優
+「で、答えは？」
+$k
+
+// KANAME_A201FK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01FK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020651
+要
+「…前に言った覚えがあるんだけど」
+$k
+
+優
+「覚えてないなぁ。
+　記憶違いじゃないですか？」
+$k
+
+&empty
+もう記憶なんか都合よく改ざんしてやる。
+$k
+
+// KANAME_A201FK3
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01FK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020652
+要
+「………」
+#meffect,flow,5
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_A201FK2
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01FK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020653
+要
+「はぁ…」
+#meffect,flow,5
+$k
+
+// KANAME_A201FK4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01FK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020654
+要
+「ひとつ、条件があるんだけど」
+$k
+
+優
+「なんですか？」
+$k
+
+// KANAME_A201KM2
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020655
+要
+「あの、もし…
+$nw,3370
+
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01KM.png,(x),c,(s),80%
+#ig
+
+　もしそうなったらだけど」
+
+$k
+
+優
+「…はい」
+$k
+
+// KANAME_A202AM
+#ir
+#ip,c1,(fi),KANAME_A202.png,(psi),KANAME_An02AM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020656
+要
+「わたし、最初のが、その、
+$nw,4050
+
+　ディープだったんだけど…
+$nw,2480
+
+　しかも吐き気しかしなかったし」
+$k
+
+// 	Zoom(SLOW|SPEED_DOWN, 120, 120);
+
+#ss,bgm
+
+優
+「わかった、すぐしましょう」
+$k
+
+// 	SS(CENTER, KANAME_A201OD3);
+
+// KANAME_A201OD4
+#ir
+#ip,c1,(fi),KANAME_A201.png,(psi),KANAME_An01OD4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020657
+要
+「ストーップ」
+#mlarge
+$k
+
+優
+「え？」
+$k
+
+#next,06kaname13_03

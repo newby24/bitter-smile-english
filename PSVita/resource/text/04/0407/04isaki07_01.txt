@@ -1,0 +1,332 @@
+﻿// 既読フラグ
+#read_flag,204
+
+優
+「いってぇぇっ！」
+$k
+
+#sp,vo,04010150
+勇樹
+「いい加減にしろっ、この馬鹿！」
+$k
+
+#sp,se,S_Dash04o
+
+// 	WaitSE();
+//	DS( CENTER );
+//	FI();
+//	Zoom();
+//	Fade( NORMAL );
+
+&empty
+地面に這いつくばった俺に向かって罵声を浴びせると、
+そのまま宮津橋は走り去ってしまった。
+$k
+
+&empty
+宮津橋が、肩に置いた俺の腕を取ったと思った次の瞬間、
+俺の体は宙に舞い、腰をかがめた宮津橋の体の上を
+一回転するように飛び越えていた。
+$k
+
+&empty
+要するに……
+なんて見事な背負い投げ。
+$k
+
+&empty
+むしろあまりに奇麗に投げられたので、
+言うほど痛くなかった。
+$k
+
+// 	SV( BG_GK_ROKA01A );
+
+#hide
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(y),def
+#ig
+
+#show
+
+優
+「あちゃあ…」
+$k
+
+&empty
+ちょっと調子に乗りすぎたかな…。
+$k
+
+&empty
+…でも、『何が欲しい？』と聞いてみた時のあの反応。
+宮津橋だって本当はプレゼントくらい
+欲しいんじゃないかと思うんだよなぁ。
+$k
+
+&empty
+なんで、あんなに頑ななんだろう…。
+$k
+
+&empty
+欲しいものが聞き出せたら良かったんだけど、
+アプローチの仕方がまずかっただろうか？
+$k
+
+#sp,bgm,BGM_COMICAL1
+
+// 	SS_( LEFT, MII_0201NI2 );
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NI2.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l,(al),100%
+#ig
+
+// MII_0201NI2
+#sp,vo,04030028
+みい
+「お兄様は本当に女心がわかってませんね～」
+$k
+
+// 	SS_( RIGHT, CHISEKA_0201IK );
+
+#ir,(ef),off
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01IK.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),r,(al),100
+#ig
+
+// CHISEKA_0201IK
+#sp,vo,04040000
+知世翔
+「昼日中から女のコを追いかけ回すなんて、
+　やっぱり私、貴方とは仲良くできそうに
+　ありません」
+$k
+
+優
+「わっっ！
+　みいちゃんたち、どこから沸いてきたっ！」
+$k
+
+// MII_0201KY
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030029
+みい
+「触るな、の辺りでしょうか」
+$k
+
+// CHISEKA_0201KB2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01KB2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04040001
+知世翔
+「で、私は先ほどのセクハラ現場を
+　風紀指導にでも報告すればいいですか？」
+$k
+
+優
+「セクハラって……
+　誤解だ！」
+$k
+
+&empty
+最後のとこしか聞いてないじゃん、それ。
+俺は宮津橋にプレゼントをと思って。
+$k
+
+// MII_0201BS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030030
+みい
+「いずれにせよ、お兄様が意気地なしだと
+　よくわかるシーンでしたね」
+$k
+
+優
+「なんで、そうなるの！？」
+$k
+
+// MII_0201KY2
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030031
+みい
+「さっきみたいな時は、
+　男なら追いかけるべきでしょう」
+$k
+
+&empty
+やっぱり、その方が良かったのか。
+だけど……。
+$k
+
+優
+「本人が嫌がってるのに、あれ以上
+　無理強いするのもどうかと思ったんだよ」
+$k
+
+// CHISEKA_0201NO2
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04040002
+知世翔
+「意外とちゃんと考えてたんですね」
+$k
+
+優
+「ちゃんと考えてるんだよ、俺は！」
+$k
+
+// MII_0201NO
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030032
+みい
+「お兄様、下手の考え休むに似たりって、
+　ご存じですか？」
+$k
+
+優
+「俺の考え、全否定っ！？」
+$k
+
+// CHISEKA_0201AK
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AK.png,(x),r,(s),60%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op3,(fi),image\icon\tameiki.png,(x),520,(y),230,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op3,(x+),-30,(y+),30,(al),100%
+#ia,op3,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+#sp,vo,04040003
+知世翔
+「はぁ……」
+$k
+
+優
+「なんで、有河にまでため息つかれるんだ？
+　俺、そんなに悪い事したか？」
+$k
+
+// CHISEKA_0201NR
+#ir
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01NR.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04040004
+知世翔
+「別に、どうなろうと知りませんけど、
+　もう少し女心とかを勉強した方がいいですよ」
+$k
+
+// MII_0201KS
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01KS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04030033
+みい
+「まあ、でも、お兄様ですからね……」
+$k
+
+// 	SS_( LEFT, MII_0201AK );
+
+#ir
+#ip,c1,(fi),MII_A201.png,(psi),MII_An01AK.png,(x),l,(s),60%
+#ip,c3,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01AK.png,(x),r,(s),60%
+#ig
+
+// 	SS_( RIGHT, CHISEKA_0201AK );
+
+#sp,vo,04990071
+知世翔＆みい
+「はぁぁぁぁぁぁぁ～……」
+$k
+
+&empty
+ふたりして深々とため息をつくんじゃない！
+余計に俺が追い詰められるだろうがっ！
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1,c3
+#ig
+
+#wait,500
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリア後にジャンプ可能。
+#next,90jump08:(if),sys,0,==,1
+
+#next,02common03-2_00

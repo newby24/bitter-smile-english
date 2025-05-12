@@ -1,0 +1,343 @@
+﻿// 既読フラグ
+#read_flag,107
+
+#ir
+#ie,c3
+#ig
+
+&empty
+どうやら俺は桜子が入水自殺でもすると
+勘違いした様で。
+$k
+
+&empty
+桜子は落ちた携帯を取ろうとしていただけとか。
+桟橋の近くはまだ浅い部分があったらしいのに、
+俺ときたら…。
+$k
+
+&empty
+……とんでもない失態を犯してしまった。
+$k
+
+&empty
+当然、その場にいた、死ぬ気の無い桜子が、
+死ぬ気の覚悟で俺を助けてくれたらしい。
+$k
+
+&empty
+しかし下手したら二人とも死んでたかもしれない。
+ホント、助かって良かった…。
+$k
+
+&empty
+本当、無事で良かった。
+$k
+
+// SAKURAKO_A401NK3
+#ir
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01NK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000727
+桜子
+「ずずーっ。じゃあ…大化の改新は？」
+$k
+
+優
+「いい国作ろう蒲鉾幕府っ！」
+
+#mfuri,　　　　　　　　　　　　　　かまぼこ
+
+$k
+
+// SAKURAKOn_A401NK2
+#ir
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01NK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000728
+桜子
+「ばかよあんたは、死ねばいいのにっ！」
+$k
+
+優
+「せっかく助かったのに！？」
+$k
+
+#ir
+#ie,c3
+#ig
+
+&empty
+とかいいながら体をせっせと擦って、
+俺を暖めようとしてくれる桜子。
+$k
+
+// 	SS_( CENTER, ISAKI_0501NO, MOVE_LEFT, NORMAL );
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKIn_A501.png,(psi),ISAKIn_An01NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),c,(al),100
+#ig
+
+// ISAKI_0501NO
+#sp,vo,02010273
+勇樹
+「……桜子」
+$k
+
+// SAKURAKOn_A403KT
+
+#sp,vo,02000729
+桜子
+「あ、点いた？」
+$k
+
+// ISAKI_0501KN
+#ir
+#ip,c1,(fi),ISAKIn_A501.png,(psi),ISAKIn_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010274
+勇樹
+「いや、落ち葉が思ったより燃えない。
+$nw,3500
+
+#ir
+#ip,c1,(fi),ISAKIn_A501.png,(psi),ISAKIn_An01NR.png,(x),c,(s),60%
+#ig
+
+　火の点きが悪いのでこれを使いたいのだが…」
+$k
+
+// SAKURAKOn_A401NO
+
+#sp,vo,02000730
+桜子
+「…参考書？」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKIn_A501.png,(psi),ISAKIn_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010275
+勇樹
+「お前が店に忘れた物だ。…燃やしてもいいか？」
+$k
+
+// SAKURAKOn_A402IK4
+
+#sp,vo,02000731
+桜子
+「そりゃ、いいに決まってんじゃない。
+$nw,1900
+
+　早くしてくれないと、あたしも凍え死ぬわよ」
+$k
+
+// ISAKI_0501NO
+#sp,vo,02010276
+勇樹
+「…わかった、待っていろ」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_DAMKOHAN03C );
+
+#sp,env,S_Fire03#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DAMKOHAN03C.jpg,(s),100%
+#ig
+
+#show
+
+// SAKURAKOn_A401AK
+
+#sp,vo,02000732
+桜子
+「はあーだいぶ暖まってきたわねー」
+$k
+
+優
+「そ、そうかー？
+　まあ大分マシにはなったが…」
+$k
+
+// SAKURAKOn_A401TR
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000733
+桜子
+「それよりあんた、あんまりくっつかないでくれる？」
+$k
+
+&empty
+俺と桜子は服が乾くまで…。
+$k
+
+優
+「そんな事言っても、この毛布はそんなデカくな…」
+$k
+
+#ir
+#ie,c1
+#ig
+
+// 	SS_( CENTER, ISAKI_0501NO, MOVE_LEFT, NORMAL );
+
+#ir,(ef),off
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Ton04
+
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),c,(al),100
+#ig
+
+// SAKURAKO_A403NO
+
+#sp,vo,02000734
+桜子
+「あ、おかえり。どうだった？」
+$k
+
+// ISAKI_0501KN
+#ir
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01KN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010277
+勇樹
+「だめだ、明かりは駅ひとつしか見当たらんな。
+　公衆電話も無いようだった」
+$k
+
+// SAKURAKO_A402NO
+
+#sp,vo,02000735
+桜子
+「そっか、わざわざごめんね」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010278
+勇樹
+「非常時だ、気にするな」
+$k
+
+// SAKURAKO_A403NO
+
+#sp,vo,02000736
+桜子
+「でも、勇樹は携帯持ってないの？」
+$k
+
+// ISAKI_0501MU
+#ir
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02010279
+勇樹
+「持ってはいるが勤務中携帯は部屋に置いてある。
+$nw,4100
+
+#ir
+#ip,c3,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+　財布は持っていたから、
+$nw,1900
+
+//#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+//#ip,c3,(y+),-10
+//#ig
+
+#sp,se,S_Touch01
+
+#madd,ほら…」
+
+$k
+
+// 	SetActionPyon( CENTER );
+// 	DelAction( CENTER );
+
+// 	Shake( FAST, SHAKE_UP, 20, FAST * 2 );
+
+// SAKURAKO_A401EG
+
+#sp,vo,02000737
+桜子
+「あ、助かるー。ありがとう」
+$k
+
+優
+「おお、缶コーヒーか、ありがたい」
+$k
+
+&empty
+ちなみに桜子は水に入る前に脱いでいた服を
+しっかり着込んでいるので、肌と肌の温もりとかは
+ほとんど無い。
+$k
+
+&empty
+非常に残念だ。
+$k
+
+#hide
+
+#ss,bgm
+#ss,env
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_DENSYA01A );
+
+#sp,env,S_Train01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_DENSYA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+夜が明けて、今は始発電車の中。
+$k
+
+&empty
+始発といっても、無人駅から乗れる電車は
+なかなか来なくて、俺達はかなり待たされたが。
+$k
+
+// 桜子ルートの場合。
+#next,02common03-3A_05_a:(if),per,5,==,1
+
+// 上記以外。
+#next,02common03-3A_05_b

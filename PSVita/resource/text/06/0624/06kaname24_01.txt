@@ -1,0 +1,893 @@
+﻿// 既読フラグ
+#read_flag,429
+
+優
+「婆さんのとこ行って、
+　実家に電話して、みんなに頭下げて」
+$k
+
+// KANAME_A501NO3
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021655
+要
+「え？」
+$k
+
+#sp,se,S_Nuno08
+
+優
+「で、あとこれ」
+$k
+
+&empty
+ポケットから小さな箱を取り出す。
+$k
+
+#sp,se,W_RingBox01
+
+優
+「そんなにないですけど…、
+　一応、３ヶ月分です」
+$k
+
+// 	SS_(CENTER, KANAME_A501KT2, MOVE_STOP, NORMAL);
+// 立ち絵移動。パラメータは適宜。
+
+//優
+//「時期が時期ですからね、
+//　シロツメクサの冠より簡単な方で
+//　申し訳ありませんけど」
+//$k
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KT2.png,(x),c,(s),80%
+#ig
+
+// KANAME_A501KT2
+#sp,vo,06021656
+要
+「そ、それって…」
+#meffect,flow,2
+$k
+
+優
+「…要さん」
+#meffect,flow,5
+$k
+
+#ss,bgm
+
+&empty
+大きく息を吸って一呼吸。
+$k
+
+&empty
+そして上ずりそうになる声を懸命に抑えて
+言いたかった言葉を続ける。
+$k
+
+優
+「俺と…
+$nw,1000
+
+#sp,bgm,BGM_KANDO
+
+　結婚してください」
+$k
+
+// KANAME_A501OD3
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021657
+要
+「えぇ～～～～っ、
+$nw,1420
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KU3.png,(x),c,(s),80%
+#ig
+
+　げほっごほっごほっ！！」
+
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 4);
+// 	Shake(NORMAL, SHAKE_DOWN, 4);
+// 	Shake(NORMAL, SHAKE_DOWN, 4);
+// 	Shake(NORMAL, SHAKE_DOWN, 4);
+
+優
+「だ、大丈夫ですかっ、要さん！？」
+$k
+
+// KANAME_A501KU3
+#sp,vo,06021658
+要
+「えほっ、えほっ……
+$nw,1950
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+　だ、大丈夫ですか、じゃないわよっ！
+　ちょっと、優君どういうつもり！？」
+
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 2);
+// 	Shake(NORMAL, SHAKE_DOWN, 2);
+
+優
+「どうもこうも…考えた末の事です。
+$nw,1000
+
+　…要さん、喜んでくれるかと思ったのに」
+$k
+
+// KANAME_A501KM
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021659
+要
+「そ、そりゃうれしいけど……。
+$nw,3330
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+　…じゃなくて、なんでいきなり結婚！？
+　同棲とかじゃないの！？」
+
+$k
+
+優
+「え、でも今更、同棲とか言ってる
+　場合じゃないでしょ？」
+$k
+
+// KANAME_A501KM2
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021660
+要
+「だ、だって…
+$nw,1620
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01MJ2.png,(x),c,(s),80%
+#ig
+
+#madd,そりゃお見合いとかはしたけど、
+　このあいだは、ちゃんと
+　こずえちゃんに押し付けたしっ」
+
+$k
+
+優
+「それを、ちゃんと、って言うのも
+　どうかと思いますけど」
+$k
+
+// KANAME_A501FK5
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01FK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021661
+要
+「だからぁ！　優君、そんな早まる事ないのよ！？」
+$k
+
+優
+「そこは早くしないとマズイのでは？
+　産まれちゃってからじゃあ…」
+$k
+
+// KANAME_A501KM2
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021662
+要
+「そ、そんな事言っても、私も心の準備が…
+$nw,4880
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KU3.png,(x),c,(s),80%
+#ig
+
+　ごほっごほっ」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 2);
+// 	Shake(NORMAL, SHAKE_DOWN, 2);
+
+優
+「まだまだ俺じゃ頼りないのはわかってます。
+　これだって皆にお金借りてようやくだし…」
+$k
+
+優
+「でも、俺…」
+$k
+
+// KANAME_A501KM
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021663
+要
+「ううん、そんなことはいいんだけど…。
+$nw,4640
+
+#ss,bgm,(cl),NO
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KB2.png,(x),c,(s),80%
+#ig
+
+　………………ちょっと、今なんて言ったの？」
+$k
+
+優
+「え？　…と、皆にお金借りて…？」
+#meffect,flow,5
+$k
+
+// KANAME_A501IK
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021664
+要
+「じゃなくって、その前！！」
+#mlarge
+$k
+
+&empty
+…その前って、俺なに言ったっけ？
+$k
+
+優
+「あー、『早くしないとマズイ。産まれてからじゃ…』」
+
+$k
+
+// KANAME_A501OD3
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+// KANAME_A501OD
+// KANAME_A501OD3
+#sp,vo,06021665
+要
+「そ、それっ！
+$nw,2000
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01OD.png,(x),c,(s),80%
+#ig
+
+#madd,　『うまれて』って
+$nw,2080
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+#madd,『産まれて』？
+$nw,1260
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01OD2.png,(x),c,(s),80%
+#ig
+
+　それ何っ！？　一体どういう事！？」
+$k
+
+優
+「……はい？
+$nw,1000
+
+　いや、だから要さん妊娠してるんだから、
+　早くしないとダメでしょ？　って」
+$k
+
+// KANAME_A501OD
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021666
+要
+「え？　え？
+$nw,1830
+
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01OD3.png,(x),c,(s),80%
+#ig
+
+　ええぇ～～～～～～っ！！
+$nw,1000
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KU3.png,(x),c,(s),80%
+#ig
+
+　げほっごほっがほっ！！」
+
+$k
+
+#hide
+
+// 	SS(CENTER, KANAME_A501KU3, MOVE_STOP, FASTEST);
+// 	FO_( SLOWER );
+// 	Shake(NORMAL, SHAKE_DOWN, 2);
+
+// 	Shake(NORMAL, SHAKE_DOWN, 2);
+// 	Shake(NORMAL, SHAKE_DOWN, 2);
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_COMICAL2
+
+// 	SV( BG_TD_IMA03E );
+
+// 	SS( CENTER, KINO_A401NO );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ip,c1,(fi),KINO_A401NO.png,(x),r,(s),80%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),l,(s),80%
+#ig
+
+#show
+
+// YUKIHA_A401NO
+
+#sp,vo,06050088
+雪華
+「え、じゃあ産婦人科って…」
+$k
+
+// KINO_A401NO
+#sp,vo,06060049
+紀乃
+「そりゃ、前に言うとった見合い相手の家やて。
+　なんや、要と約束しとったらしゅうてな」
+$k
+
+// MII_0403KD
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03KD.png,(x),l,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,06030158
+みい
+「約束ですか？」
+$k
+
+// KINO_A401MJ2
+#ir
+#ip,c1,(fi),KINO_A401MJ2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06060050
+紀乃
+「要に時代劇のビデオを貸すとかなんとか」
+$k
+
+// 	SS_( LEFT, SAKURAKO_A402AS2 );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS2.png,(x),l,(s),80%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),r,(s),80%
+#ie,c2
+#ig
+
+// 	SS( RIGHT, YUKIHA_A401NO );
+
+// SAKURAKO_A402AS2
+#sp,vo,06000175
+桜子
+「うわ、しょうもな」
+$k
+
+// YUKIHA_A401NO
+#sp,vo,06050089
+雪華
+「そう言えば、趣味が合うとか言ってたよね、確か」
+$k
+
+// KINO_A401AK
+
+#sp,vo,06060051
+紀乃
+「よう覚えとんな」
+$k
+
+// 	SS_( LEFT, MII_A403NO2 );
+
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),l,(s),80%
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK.png,(x),r,(s),80%
+#ie,c3
+#ig
+
+// 	SS( RIGHT, CHISEKA_A401AK );
+
+// MII_A403NO2
+#sp,vo,06030159
+みい
+「…それでずっと彼の方は要お姉様に
+　連絡を取ろうとなさっていたのですか？」
+$k
+
+// KINO_A401NO
+
+#sp,vo,06060052
+紀乃
+「要をそないに気に入るなんて
+　おかしいとは思ってたんやけどな」
+$k
+
+// CHISEKA_A401AK
+
+#sp,vo,06040045
+知世翔
+「実の孫にそこまで言いますか」
+$k
+
+// MEGUMI_A401KM7
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM7.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06070092
+めぐみ
+「じゃあ、要さんがあの病院から出てきたのも、
+　そういうことだったんだぁ～。
+$nw,6080
+
+#ir
+#ip,c2,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM.png,(x),l,(s),80%
+#ig
+
+　…でも、こりゃ優ちゃん先走っちゃったというか…」
+$k
+
+// CHISEKA_A401KM3
+#ir
+#ip,c1,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,06040046
+知世翔
+「みんなに借金までして」
+$k
+
+// MII_A403KB
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03KB.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06030160
+みい
+「周到な罠にはまってしまったかのようですね。
+　つくづくお兄様は…」
+$k
+
+// 	SS( CENTER, KINO_A401NO );
+
+// SAKURAKO_A402NO
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),l,(s),80%
+#ip,c1,(fi),KINO_A401AK.png,(x),r,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,06000176
+桜子
+「お婆ちゃん、優とお姉ぇのこと知ってたの？」
+$k
+
+// KINO_A401AK
+
+#sp,vo,06060053
+紀乃
+「まあ、見とったら何となくわかるやろ」
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,06000177
+桜子
+「まあね～」
+$k
+
+#ir
+#ip,c1,(fi),ISAKI_A401.png,(psi),ISAKI_An01NO.png,(x),l2,(s),80%
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),r2,(s),80%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01NO.png,(x),c,(s),80%
+#ig
+
+// 	SS_( CENTER, YUKIHA_A401NO );
+// 	SS( RIGHTRIGHT, MII_A403NO2 );
+
+// ISAKI_A401NO
+#sp,vo,06010030
+勇樹
+「ふむ…すると紀乃さんはそれを知りながら
+　黙っていたのか？」
+$k
+
+// MII_A403SN
+
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06030161
+みい
+「これはしてやられましたね。
+　さすがはお婆様、私よりも数段上手のようです」
+$k
+
+// YUKIHA_A401RK
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01RK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06050090
+雪華
+「お婆ちゃん、人が悪いね」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelStandAll();
+// 	SV( BG_MT_KANAME03A );
+// 	SS( CENTER, KANAME_A501IK );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_KANAME03A.jpg,(s),100%
+#ig
+
+#show
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「騙された～っ！！」
+#mlarge
+$k
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+// KANAME_A501IK
+#sp,vo,06021667
+要
+「だ、騙されたってなによ！
+#mfuri,　　　　　　だま
+
+　わたし、妊娠なんて一言も言ってないでしょ」
+$k
+
+優
+「だって、状況的にはそうとしか思えなかったですよ！？
+　皆だってそう思い込んでたし」
+$k
+
+// KANAME_A501IK4
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021668
+要
+「ただの風邪だったのに～っ。
+$nw,2580
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+　それだって、たぶん優君にうつされたんだしぃ」
+$k
+
+優
+「それはすみません……」
+#meffect,flow,5
+$k
+
+//&empty
+//……当然、あの日だよな。
+//$k
+
+// KANAME_A501KB2
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KB2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021669
+要
+「でも、それじゃなに？
+　その勘違いがなければ、
+　そういうこと言ってくれないってこと」
+$k
+
+優
+「そりゃまあ…今の俺の立場では
+　結婚とか言いづらいですし…」
+$k
+
+// KANAME_A501IK2
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021670
+要
+「すべてを跳ねのけてまで立ち向かおうって
+　気概はないの！？」
+$k
+
+優
+「だからって、無責任に
+　向こう見ずなこと言えません！」
+$k
+
+&empty
+どんなに言いたくても。
+$k
+
+&empty
+どんなに伝えたくても。
+$k
+
+&empty
+真剣だからこそ、責任のある言葉を
+軽々しく口にするのは難しくて。
+$k
+
+// KANAME_A501KB
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KB.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021671
+要
+「ちっきーん」
+$k
+
+優
+「チキンでけっこう。
+　それだけ要さんとの事を大事に考えてるんです」
+$k
+
+// 	Shake(NORMAL, SHAKE_DOWN, 2);
+
+
+// KANAME_A501NK3
+#ir,(ef),quake,(qx),0,(qy),1
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01NK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021672
+要
+「こほっ…、
+$nw,2030
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ig
+
+　でも、勘違いだとわかったんだから、
+　とりあえず元通りだよね」
+$k
+
+// KANAME_A501NO5
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021673
+要
+「その指輪…どうしようか。取り消せるのかなぁ？
+　クーリングオフとかって違うよねぇ…」
+$k
+
+#ss,bgm
+
+優
+「いや、俺、取り消すつもりないですよ？」
+$k
+
+#sp,bgm,BGM_YASURAGI
+
+// KANAME_A501OD
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01OD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021674
+要
+「え？
+$nw,1590
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KM.png,(x),c,(s),80%
+#ig
+
+　だって…」
+$k
+
+優
+「たとえ勘違いでも、言っちゃった以上
+　撤回する気はありませんから」
+$k
+
+// KANAME_A501IK
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021675
+要
+「ちょっと優君、だって、
+　さっき無責任なこと言えないって…！」
+$k
+
+優
+「無責任かもしれませんけど、これから
+　要さんを支えていけるように頑張ります」
+$k
+
+優
+「それに、これで撤回しちゃう方が
+　無責任だと思いません？」
+$k
+
+// KANAME_A501KM
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021676
+要
+「そ、それはそうかもしれないけど…、
+$nw,4770
+
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK3.png,(x),c,(s),80%
+#ig
+
+　なんか納得できない～っ！
+　そんな成り行きみたいなの！」
+$k
+
+優
+「成り行きじゃないですって！」
+#mlarge
+$k
+
+優
+「ずっとこのことは考えてたんですから。
+　それが早くなっただけです！」
+$k
+
+// KANAME_A501MJ
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01MJ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021677
+要
+「………」
+#meffect,flow,5
+$k
+
+優
+「そのために準備してて…、要さんに寂しい思い
+　させちゃってたのもそのせいで…」
+$k
+
+&empty
+何度も迷走しちゃったけど…。
+$k
+
+優
+「俺にとっては、これがきっかけだったんです」
+$k
+
+&empty
+……あの時。
+要さんは冗談で言ったのかもしれないけど…。
+$k
+
+優
+「無責任でも、向こう見ずでも、
+　やっちゃえって…そう、思える
+　最高の機会だったんです」
+$k
+
+// KANAME_A501IK
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021678
+要
+「そ、そんなの…そんなの子供の言い訳じゃない。
+　それでダメだったらどうする気よ」
+$k
+
+優
+「結果はあとからでも出して見せます！
+　だから一番近くで見ててください」
+$k
+
+&empty
+要さんが望んだ初プレゼントは
+そうなんだって思ったから…。
+$k
+
+優
+「なんなら返事は何年後かでも構いません。
+　でも、撤回はしません」
+$k
+
+&empty
+勝手に思っちゃったんだから仕方ないよな。
+$k
+
+// KANAME_A501IK3
+#ir
+#ip,c1,(fi),KANAME_A501.png,(psi),KANAME_An01IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021679
+要
+「優君、言ってる事めちゃくちゃ…」
+$k
+
+#ss,bgm
+
+優
+「あらためて言います」
+$k
+
+#next,06kaname24_02

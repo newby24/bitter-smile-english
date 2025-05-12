@@ -1,0 +1,593 @@
+﻿// 既読フラグ
+#read_flag,35
+
+// 	//勇樹に近づく桜子
+
+// 	SS_( CENTERRIGHT, SAKURAKO_0103FK, MOVE_RIGHT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,bg,(x),c,(y),def
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03FK.png,(x),r0,(s),60%
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),l0,(s),60%
+#ig
+
+&empty
+桜子は宮津橋に近づきあっさりと木刀を掴む。
+$k
+
+// 	BF( SLOWER );
+
+#sp,bgm,BGM_SYOSO
+
+// SAKURAKO_0103FK2
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03FK2.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02000042
+桜子
+「それはそうとさ…、
+　あんたあたしの後輩と幼なじみに
+　何してくれてんのよ！」
+$k
+
+&empty
+それ、蹴っておいて言う台詞か？
+$k
+
+// ISAKI_0101AZ
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01AZ.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02010051
+勇樹
+「…邪魔をするな轟木桜子」
+$k
+
+// CHISEKA_0101TR3
+#sp,vo,02040017
+知世翔
+「先輩ちょっと…やめてくださいよ」
+$k
+
+// SAKURAKO_0103FK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03FK.png,(x),r0,(s),60%
+#ig
+
+#sp,vo,02000043
+桜子
+「あんたさ、なに当り散らしてんの。
+　これ、本当はもしかして八つ当たりでしょ」
+$k
+
+// ISAKI_0101MU
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02010052
+勇樹
+「お前には関係ないだろう」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱし。" );
+// 	SS_( CENTERRIGHT, SAKURAKO_0103FK2 );
+// 立ち絵移動。パラメータは適宜。
+
+#sp,se,S_Air02
+
+#ir,(ef),move,(dr),500
+#ip,c1,(x),r,(al),100
+#ig
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03FK2.png,(x),r,(s),60%
+#ig
+
+// 	MoveStand( CENTERLEFT,  10,  0, 10, 1 );
+// 	MoveStand( CENTERLEFT,  10,  0,  0, 1 );
+// 	MoveStand( CENTERRIGHT, 10, 20, 10, 2 );
+// 	MoveStand( CENTERRIGHT, 10, 40,  0, 2 );
+
+&empty
+木刀を捻って桜子の手を振り払う。
+$k
+
+// SAKURAKO_0103IK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000044
+桜子
+「関係あるよ。居候が問題起こしたら、
+　大家の娘としちゃ気になるでしょうが」
+$k
+
+// SAKURAKO_0103NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000045
+桜子
+「相談のひとつもしてくれればいいのにさ。
+　ねえ、勇樹ちゃん」
+$k
+
+// ISAKI_0101AZ
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01AZ.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02010053
+勇樹
+「っ、これは私の問題だ。
+$nw,3600
+
+#madd,お前になんの、関係も、
+$nw,3400
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02NR.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK3.png,(x),l0,(s),60%
+#ig,(se),S_Air04
+
+　無いっっ！！」
+
+$k
+
+
+
+
+// 	FL( 0, 100 );
+// 	FL( FAST );
+
+// 	SS_( CENTERRIGHT, SAKURAKO_0102NR );
+// 立ち絵移動。パラメータは適宜。
+
+// 	MoveStand( CENTERRIGHT, 10,  80, -15, 2 );
+// 	MoveStand( CENTERRIGHT, 10, 120,   0, 2 );
+
+// SAKURAKO_0102IK2
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02IK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000046
+桜子
+「っ！！　…っとぉっと」
+$k
+
+// SAKURAKO_0103IK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000047
+桜子
+「なんだやんのかコラ。
+$nw,2000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK2.png,(x),r,(s),60%
+#ig
+
+　上等だぁっ！」
+$k
+
+// ISAKI_0101AZ
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01AZ.png,(x),l0,(s),60%
+#ig
+
+#sp,vo,02010054
+勇樹
+「相手になってやるよ」
+$k
+
+優
+「おい、またかよぉっ！？」
+$k
+
+// 	SV( BG_GK_CHURIN02A );
+
+// 	ZoomVisual( 0, 150, 150, 0, 200 );
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+// 	SS( CENTER, ISAKI_A101IK3 );
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK3.png,(x),l,(s),100%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// ISAKI_A101IK3
+#sp,vo,02010055
+勇樹
+「っらぁあーっ！」
+#mlarge
+$k
+
+// 	SV( BG_GK_CHURIN02A );
+
+// 	ZoomVisual( 0, 150, 150, 800, 200 );
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+// 	SS( CENTER, SAKURAKO_A103IK2 );
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK2.png,(x),r,(s),100%,(al),0%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),c,(al),100%
+#ig
+
+// SAKURAKO_A103IK2
+#sp,vo,02000048
+桜子
+「どあぁーっ！！」
+#mlarge
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"どん。@nどぎゅる！！" );
+// 	BGMStop();
+
+#ss,bgm,(dr),0
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch03
+
+#ir,(dr),500
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01NR.png,(x),l2,(s),80%
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK3.png,(x),r2,(s),80%
+#ie,ov
+#ig
+
+// 	Blur( 0, 2 );
+// 	FL_( 20, 100 );
+
+// 	ZoomVisual( 0, 100, 100 );
+// 	Shake( 20, SHAKE_LEFT, 12 );
+
+// 	SS_( LEFTLEFT, ISAKI_A101NR );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( RIGHTRIGHT, SAKURAKO_A103IK3 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	FL( 20 );
+//#sp,se,S_Punch02
+
+// 	Shake( 20, SHAKE_RIGHT, 12 );
+// 	Blur();
+
+// SAKURAKO_A103IK3
+#sp,vo,02000049
+桜子
+「！！」
+$k
+
+// ISAKI_A101AZ
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01AZ.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02010056
+勇樹
+「ちっ」
+$k
+
+優
+「ぐ、ぐふぅ…」
+$k
+
+&empty
+思わず殴りあおうとする二人の間に割り込んでいた。
+$k
+
+// CHISEKA_0101OD3
+
+#sp,vo,02040018
+知世翔
+「なっ、矢崎…先輩…」
+$k
+
+&empty
+宮津橋の左拳が俺の腹にめりこみ、
+桜子の右拳は俺の脇をかすめて。
+$k
+
+&empty
+桜子は寸止めにこそならなかったが、
+桜子本人は俺にタックル。
+$k
+
+&empty
+宮津橋の方も本気ではなかったのか、
+木刀ではなく拳。すんげーめりこんでるけど。
+$k
+
+&empty
+い、痛い。
+$k
+
+// SAKURAKO_A103IK3
+#sp,vo,02000050
+桜子
+「優、あんた何しゃしゃり出て来てんの、
+　危ないでしょ…
+$nw,3400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03KT.png,(x),r2,(s),80%
+#ig
+
+　って大丈夫？」
+
+$k
+
+優
+「ああ、なんと、か…」
+$k
+
+// 	MoveStand( LEFTLEFT,  10,  0, 5, 1 );
+// 	MoveStand( LEFTLEFT,  10,  0, 0, 1 );
+// 	MoveStand( RIGHTRIGHT, 40, 0, 0, 2 );
+// 	MoveStand( RIGHTRIGHT, 10, 0, 5, 2 );
+// 	MoveStand( RIGHTRIGHT, 10, 0, 0, 2 );
+
+&empty
+双方また殴りかからないよう、
+それぞれの腕を掴む。
+$k
+
+// SAKURAKO_A103IK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000051
+桜子
+「…ってんめえー勇樹っ！」
+$k
+
+優
+「やめろやめろ！　桜子っ」
+$k
+
+// SAKURAKO_A103IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000052
+桜子
+「馬鹿野郎、止めんな阿呆っ、
+　こういう奴はいっぺんシバキ倒して根性入れ直して
+　やらないと、いつかエライ目に遭っちまう！」
+$k
+
+// ISAKI_A101NR
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01NR.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02010057
+勇樹
+「この手を放せ、折られたいのか」
+$k
+
+// 	Shake();
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「お前ら―――――――っ！！」
+#mlarge
+$k
+
+#sp,vo,02030003
+みい
+「知世翔さーん、お待たせしまし…
+　何事ですかこれは！？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がっ。" );
+優
+「もっと仲良く…しろ…
+$nw,1000
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch04
+
+#ir,(dr),500
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK.png,(x),l0,(s),60%
+#ie,ov
+#ig
+
+　っ痛えぇ！」
+$k
+
+&empty
+俺の手をこじ開ける為、
+初めて宮津橋が木刀を使った。
+$k
+
+&empty
+柄を手の甲に当てやがった。
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+// ISAKI_0101AZ
+#ir
+#ip,c3,(fi),ISAKI_A101.png,(psi),ISAKI_An01AZ.png,(x),l0,(s),60%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),c,(al),0
+#ig
+
+#sp,vo,02010058
+勇樹
+「……っ…」
+$k
+
+//	SS_( CENTERLEFTBOTTOM, MII_0103KD, MOVE_RIGHT, NORMAL );
+// SAKURAKO_A103IK
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000053
+桜子
+「あ！　待て勇樹っ、話はまだ…」
+$k
+
+&empty
+宮津橋がみいちゃんと入れ替わりに去っていく。
+$k
+
+// MII_0102OD
+#ir
+#ip,c3,(fi),MII_A102.png,(psi),MII_An02OD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030004
+みい
+「お兄様…宮津橋さん…姉上、も。
+$nw,4500
+
+#ir
+#ip,c3,(fi),MII_A102.png,(psi),MII_An02MJ2.png,(x),l,(s),60%
+#ig
+
+　一体何が起こっているのですか？」
+$k
+
+// SAKURAKO_A103FK2
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03FK2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000054
+桜子
+「ちっ、逃がしたか」
+$k
+
+優
+「お前家に帰ってもあいつとやりあうなよ？」
+$k
+
+// SAKURAKO_A103IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A103.png,(psi),SAKURAKO_An03IK3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000055
+桜子
+「…判ってるわよ。
+　いいよ、もう放しても。別に追いかけないし」
+$k
+
+優
+「ああ」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A102.png,(psi),SAKURAKO_An02KM2.png,(x),r2,(s),80%
+#ig
+
+// 	Blur( 0, 2 );
+
+// 	SK_( NORMAL, 4 );
+
+// SAKURAKO_0102KM2
+#sp,vo,02000056
+桜子
+「あんた大丈夫？　足元フラついてるわよ」
+$k
+
+// 	Blur();
+
+&empty
+うわ、カッコわるっ。足がガクガクいってる。
+どのダメージが効いているんだろう？
+$k
+
+#ir
+#ip,c2,(fi),CHISEKA_A101.png,(psi),CHISEKA_An01TR3.png,(x),c,(s),100%
+#ie,c1,c3
+#ig
+
+// CHISEKA_A101TR3
+#sp,vo,02040019
+知世翔
+「あ、ちょっと、大丈夫ですか矢崎先輩！」
+$k
+
+優
+「あ、大丈夫大丈夫。ホント大丈夫だから……っ！？」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"がくっ。" );
+//	SM( CHAR_YUU,			-1,					"優",			"「っ！？」" );
+
+#sp,se,S_Nuno03
+
+#ir,(dr),500
+#ip,bg,(fi),black.jpg
+#ig
+
+#sp,se,S_Punch01
+
+// 	BlurScroll( NORMAL | SPEED_UP, 2, 270, 10 );
+// 	Zoom( FAST | SPEED_UP, 110, 110, 400, 600 );
+// CHISEKA_A101OD3
+
+#sp,vo,02040020
+知世翔
+「きゃ」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"びりりっ！！" );
+
+優
+「あぐっ」
+$k
+
+#hide
+
+// 	SV( VISUAL_CHISEKA_01A );
+
+#sp,bgm,BGM_COMICAL1
+
+// SAKURAKO_0102AS
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_CHISEKA_01A.jpg,(s),100%,(y),0
+#ig
+
+#flag,cg,1,=,1
+
+
+#next,02common01-1_05

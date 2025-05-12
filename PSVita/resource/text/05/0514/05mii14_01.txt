@@ -1,0 +1,764 @@
+﻿// 既読フラグ
+#read_flag,166
+
+//	DelIconAll();
+// MII_0401SN3
+#sp,vo,05030866
+みい
+「はあ………ありがとうございました」
+$k
+
+#sp,se,S_Door04c
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r3,(al),0%
+#ig
+
+優
+「ありがとうございましたー。
+　ってか、持ち帰るんならパックに詰めたのに」
+$k
+
+&empty
+舟皿で持ってっちゃったよ。
+歩きながら食う気か、あの人。
+$k
+
+優
+「しかし、みいちゃんがお姫様か」
+$k
+
+優
+「みいちゃんの可愛さは、全世代共通なんだな」
+$k
+
+// 	SS( CENTER, MII_A403TR2 );
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03TR2.png,(x),c,(s),80%
+#ig
+
+&empty
+なでなで。
+$k
+
+// MII_A403TR2
+
+#sp,vo,05030867
+みい
+「う……」
+$k
+
+&empty
+ちょうどいい高さにある頭を、つい撫でてしまう。
+$k
+
+//	SetIconChinmoku( CENTER );
+// MII_A403KM2
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030868
+みい
+「………」
+$k
+
+// MII_A403KM2
+#sp,vo,05030869
+みい
+「あの……撫でられるのはいいんですけど……」
+$k
+
+優
+「ん？　何？」
+$k
+
+// MII_A403KM3
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030870
+みい
+「なんか、これは違うような……」
+$k
+
+優
+「そう？」
+$k
+
+&empty
+なでなでなでなで。
+$k
+
+//	SetIconIkari( CENTER );
+// MII_A403FK
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030871
+みい
+「…いつまで撫でてるんですか？」
+$k
+
+優
+「俺が飽きるまでかなー」
+$k
+
+// MII_A403NI
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NI.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030872
+みい
+「早く飽きてください…」
+$k
+
+優
+「そんなに嫌？」
+$k
+
+// MII_A403KM3
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030873
+みい
+「いえ、その…もう十分かなぁと。
+　あんまりされても……」
+$k
+
+// MII_A403SN
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030874
+みい
+「なんでしょう…？
+　なんかちょっと……うざいです」
+$k
+
+優
+「うおっ？　そ、そうか、残念…」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	DelStandAll()
+//	SetSubTitle();		//章タイトル表示
+//	SetSubTitleEx( 1 );
+// 	SV( BG_TD_IMA03F );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+みいちゃんと付き合えるようになったはいいけど、
+なんだかしっくりこないなぁ。
+$k
+
+&empty
+こんな感じでいいんだろうか？
+$k
+
+&empty
+みいちゃんが恋人になるなんてこと、
+考えてもみなかったからなあ。
+$k
+
+&empty
+みいちゃんと言えば、まぁかわいい妹分で…。
+$k
+
+// 	SS( CENTER, SAKURAKO_0402IK3 );
+
+// SAKURAKO_0402IK3
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,05000113
+桜子
+「何ぼんやりしてんのよ、優。
+　暇だったら手伝って」
+$k
+
+&empty
+桜子が食器を持って、居間に入ってくる。
+$k
+
+優
+「俺は考え事で忙しいんだよ」
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000114
+桜子
+「どうせ、碌なこと考えてないんでしょ？
+　あんたは頭なんか使わなくていいから、
+　お皿持ってきて」
+$k
+
+優
+「お前なー。俺だって人生について思い悩んだり、
+　崇高な思想に身をゆだねたりすることがだなぁ……」
+$k
+
+// 	SS( RIGHT, YUKIHA_0401AK4, MOVE_RIGHT );
+
+// YUKIHA_0401AK4
+#ir,(ef),off
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK4.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ig
+
+#sp,vo,05050064
+雪華
+「あ、いいよ桜子ちゃん。
+　怠け者のお兄ちゃんは放っておいて。
+　私手伝うー」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),520,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,05000115
+桜子
+「あ、ほんとにー？
+　ありがとー、雪華ちゃん」
+$k
+
+優
+「なんと！？
+　雪華ちゃんの手を借りようなどと、お前は馬鹿か！？」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000116
+桜子
+「何よ、あんたが動かないからでしょ」
+$k
+
+優
+「雪華ちゃんは座ってていいからねー？
+　お兄ちゃんが代わりに働くよー」
+$k
+
+// YUKIHA_0401IK7
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK7.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05050065
+雪華
+「いいよ、別に」
+$k
+
+優
+「ま、ま。そう言わずに。
+　ほら、桜子。何運べばいいんだよ？」
+$k
+
+// YUKIHA_0401KB
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KB.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05050066
+雪華
+「もう…なんでお兄ちゃん、そんななの？」
+$k
+
+優
+「そんなって何が？
+　俺は雪華ちゃんの事を……
+$nw,1000
+
+// MII_0402KB
+#ir,(ef),off
+#ip,c2,(fi),MII_A402.png,(psi),MII_An02KB.png,(x),l4,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c2,(x),l3,(al),100%
+#ig
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+　は、はうっ！？」
+
+$k
+
+// 	SS( LEFTEDGE, MII_0402KB );
+// 	MoveStand( LEFTEDGE, 30, 30, 0 );
+// 	SK2();
+
+#sp,vo,05030875
+みい
+「……じーっ」
+#msmall
+$k
+
+&empty
+いつの間にか現れたみいちゃんが、じっとこちらを！？
+$k
+
+// SAKURAKO_0402NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05000117
+桜子
+「あら、みい。
+　もう出来るから座ってて。
+$nw,3020
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+　優、あんたはこっち来なさい」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ip,c3,(x),r3,(al),0%
+#ig
+
+優
+「ちょ、ちょっとだけ待ってくれ。
+$nw,1000
+
+#ir,(dr),2000,(ef),move
+#ip,c2,(x),c
+#ig
+
+　みいちゃん、あのね？
+　これは兄妹のコミュニケーションというヤツで…」
+$k
+
+// 	CS( LEFTEDGE, CENTER, SLOW );
+
+// MII_0403SN
+#ir
+#ip,c2,(fi),MII_A403.png,(psi),MII_An03SN.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030876
+みい
+「お兄様…姉上がお呼びですよ」
+$k
+
+優
+「は、はい…」
+$k
+
+#ss,bgm
+
+// YUKIHA_0401AS2
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AS2.png,(x),r3,(s),60%
+#ig
+
+#sp,vo,05050067
+雪華
+「…お兄ちゃんのばか」
+#msmall
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03A );
+
+//	BFP( BGM_SHIZUKA );
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+結局、夕飯の間中、みいちゃんはほとんど無言で
+俺と目を合わせてくれなかった。
+$k
+
+&empty
+俺が雪華ちゃんに構ってたから、
+怒らせちゃったかなぁ…。
+$k
+
+&empty
+謝っておいた方がいいんだろうけど、
+タイミングを逃してしまった。
+$k
+
+#hide
+
+#sp,se,S_Walk04o
+
+#wait,1000
+
+// 	WaitSE();
+
+#show
+
+優
+「ん？」
+$k
+
+&empty
+考えながら、ぼうっと漫画を読んでいると、
+階段を上がってくる足音に気がついた。
+$k
+
+&empty
+ふと窓の外に目をやると、
+桜子の部屋はカーテンが閉まり、
+電気が点いている。
+$k
+
+&empty
+桜子が来たんじゃないのか。
+$k
+
+#hide
+
+#sp,se,S_Knock03
+
+#wait,500
+
+// 	WaitSE();
+
+#show
+
+#sp,vo,05030877
+みい
+「お兄様、お暇ですか？」
+$k
+
+&empty
+ドア越しに、愛くるしい声が聞こえてきた。
+$k
+
+優
+「あ！　みいちゃんか、どうぞっ」
+$k
+
+#hide
+
+#sp,se,S_Door03o
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#wait,500
+
+#sp,se,S_Door03c
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	WaitSE();
+// 	WaitSE();
+
+// 	SS( CENTER, MII_0403NO, MOVE_LEFT );
+
+#sp,bgm,BGM_MII
+
+#show
+
+// MII_0403NO
+
+#sp,vo,05030878
+みい
+「お邪魔します」
+$k
+
+優
+「みいちゃん、あの…さっきはごめん」
+$k
+
+// MII_0403KT
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),c,(s),60%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),500,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,05030879
+みい
+「？　なんのことでしょう？」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+優
+「だから…俺がいつもみたいに雪華ちゃんに
+　構ってたから……。みいちゃん、怒ってるよね？」
+$k
+
+// MII_0403KD2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030880
+みい
+「ああ、そういうことですか」
+$k
+
+優
+「……違うの？」
+$k
+
+// MII_0403NO2
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030881
+みい
+「別に怒ってたわけではありませんよ」
+$k
+
+優
+「あ、そうなんだ？
+　でも機嫌悪かったっぽかったけど…」
+$k
+
+// MII_0403NO
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030882
+みい
+「ちょっと考え事をしていましたもので」
+$k
+
+&empty
+そっか、それなら良かった。
+$k
+
+// MII_0402MJ
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030883
+みい
+「それはそうと…」
+$k
+
+// 	SS( CENTER, MII_A402MJ, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(x),c,(s),80%
+#ig
+
+&empty
+座ってる俺の前にてこてこ歩いてくると、
+じっと俺の方を凝視する。
+$k
+
+優
+「？」
+$k
+
+&empty
+ふと見ると、みいちゃんは手に雑誌を持っている。
+$k
+
+// MII_A402IK
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030884
+みい
+「ここを私の椅子にします」
+$k
+
+&empty
+と、雑誌を持った手で指さしたのは、
+俺の膝の上だった。
+$k
+
+優
+「……お、おう？」
+$k
+
+// MII_A402MJ
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,05030885
+みい
+「腰掛けても構いませんよね？」
+$k
+
+優
+「も、もちろんだとも！」
+$k
+
+&empty
+断る理由なんて、ひとつもない。
+$k
+
+&empty
+胡坐をかいている俺の膝の上に、
+軽い体が、ふわりとのし掛かってくる。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( VISUAL_MII_03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_MII_03A.jpg,(s),75%,(y),0
+#ig
+
+#show
+
+&empty
+みいちゃんの髪、シャンプーのいい香りがする。
+$k
+
+優
+「それ、なんの雑誌なんだ？」
+$k
+
+// MII_0101NO
+
+#sp,vo,05030886
+みい
+「科学技術系の雑誌です」
+$k
+
+優
+「科学…へえ、みいちゃん凄いの読んでるんだなぁ。
+　偉い、偉い」
+$k
+
+// MII_0101NO
+#sp,vo,05030887
+みい
+「別に、普通です。それよりお兄様？」
+$k
+
+優
+「なんだい？」
+$k
+
+#ir
+#ip,bg,(fi),VISUAL_MII_03B.jpg,(s),75%
+#ig
+
+// MII_0101NO
+#sp,vo,05030888
+みい
+「私はこれから読書をしますから…」
+$k
+
+// 	SV( VISUAL_MII_03B );
+
+優
+「うん」
+$k
+
+// MII_0101NO
+
+#sp,vo,05030889
+みい
+「…例え若くて可愛い彼女が
+　自分の膝の上に乗ってるからといっても、
+　変な気は起こさないで下さいね？」
+$k
+
+優
+「あぁ、そういうこと？
+　はいはい、わかった。大丈夫だよ」
+$k
+
+// MII_0101NO
+#sp,vo,05030890
+みい
+「………そうですか」
+$k
+
+&empty
+……？
+$k
+
+
+#next,05mii14_02

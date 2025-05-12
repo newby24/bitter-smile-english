@@ -1,0 +1,562 @@
+﻿// 既読フラグ
+#read_flag,102
+
+// セーブタイトル
+#flag,save_title,Ａｃｔ３－３Ａ,0,0
+
+// 	SV( BG_MT_ENKEI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ENKEI01A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_COMICAL2
+
+#sp,env,W_Bicycle01#
+
+// 	SV( BG_MT_OLDSYOTEN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_OLDSYOTEN01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,Ａｃｔ３－３Ａ　聖なる夜なのに…（桜子・勇樹）
+$k
+#note,erase
+
+#show
+
+優
+「うおおおおお――――っ！！」
+$k
+
+&empty
+俺は自転車のペダルを力一杯踏んでいた。
+$k
+
+&empty
+しかしそんなにスピードは出ていない。
+なぜなら………。
+$k
+
+&empty
+脳も体も疲れ果て、今は猛烈に眠いからだ。
+しかも買い物籠には二十キロの米が乗っている。
+$k
+
+&empty
+まだ意識が保てるうちに部屋に辿り着いて、
+兎にも角にも寝てしまいたい。
+$k
+
+&empty
+ただその為だけに自転車を漕いでいた。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01D, FILTER_SEPIA | FILTER_LINKSTAND );
+// 	SS( CENTER, SAKURAKO_0401TR4 );
+// 	RFI( RULE_CIRCLE );
+// 特殊な画面変更。暫定的に。
+
+// SAKURAKO_0401TR4
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01D_s.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOs_A401.png,(psi),SAKURAKOs_An01TR4.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,02000644
+桜子
+「あ、そろそろお婆ちゃんのお昼だから
+　優店番交代してあげてよ？」
+$k
+
+&empty
+昼飯を食った後の事だ。
+$k
+
+&empty
+午前中の荷物運びに疲れた俺は、
+食後のごろ寝を満喫していた。
+$k
+
+&empty
+そんな俺に桜子は非情にも、
+婆さんの交代要員を押し付けた。
+$k
+
+優
+「え、俺が？」
+$k
+
+// SAKURAKO_0401AK2
+#ir
+#ip,c1,(fi),SAKURAKOs_A401.png,(psi),SAKURAKOs_An01AK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000645
+桜子
+「だって他は今、あんた以外出払ってて居ないし。
+$nw,3500
+
+#ir
+#ip,c1,(fi),SAKURAKOs_A401.png,(psi),SAKURAKOs_An01NO.png,(x),c,(s),60%
+#ig
+
+　嫌なら別にいいけど、
+$nw,1300
+
+#ir
+#ip,c1,(fi),SAKURAKOs_A401.png,(psi),SAKURAKOs_An01NS.png,(x),c,(s),60%
+#ig
+
+#madd,その代わり、
+　明日の仕込みと台所の洗い物、代わってくれる？」
+
+$k
+
+優
+「ぐむむ………しょうがねえ、じゃあ店の方を」
+$k
+
+&empty
+…まあ仕方が無いよな。
+$k
+
+// SAKURAKO_0401AZ
+#ir
+#ip,c1,(fi),SAKURAKOs_A401.png,(psi),SAKURAKOs_An01AZ.png,(x),c,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,02000646
+桜子
+「ありがと、じゃあよろしく」
+$k
+
+// 	DelAction( CENTER );
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TEIBO01A );
+
+#sp,env,T_Bicycle01#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ぐわああああ――っ！」
+$k
+
+&empty
+さらには……。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU01A, FILTER_SEPIA | FILTER_LINKSTAND );
+// 	SS( CENTER, SAKURAKO_A402IK4 );
+
+// 	RFI( RULE_CIRCLE );
+
+// SAKURAKO_A402IK4
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01A_s.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOs_A402.png,(psi),SAKURAKOs_An02IK4.png,(x),c,(s),80%
+#ig
+
+#show
+
+#sp,vo,02000647
+桜子
+「あんた今日も少しは勉強しときなさいよ？
+$nw,2800
+
+#ir
+#ip,c1,(fi),SAKURAKOs_A402.png,(psi),SAKURAKOs_An02NO3.png,(x),c,(s),80%
+#ig
+
+　あたしも付き合うから、昨日やった所の復習ね」
+$k
+
+優
+「えええー」
+$k
+
+&empty
+婆さんの居ない間、結構繁盛してたから
+少し休憩したかったのに。
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKOs_A402.png,(psi),SAKURAKOs_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000648
+桜子
+「ほら、暇なんでしょ？
+　一時間でもやっとこうよ？」
+$k
+
+// SAKURAKO_A402EG
+#ir
+#ip,c1,(fi),SAKURAKOs_A402.png,(psi),SAKURAKOs_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000649
+桜子
+「終わったらコーヒーゼリー作ってあげるから」
+$k
+
+&empty
+最近見ない、生クリームだのなんだのの
+のっかっていない、ストレートなコーヒーゼリー。
+$k
+
+&empty
+その時はとてもコーヒーゼリーが魅力的に思えた。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_CIRCLE );
+// 特殊な画面変更。暫定的に。
+
+// 	SV( BG_MT_TODOROKIMICHI01A );
+
+// 立ち絵消える。パラメータは適宜。
+
+#sp,env,Ma_Kishimu01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TODOROKIMICHI01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「はひい、はひい、ふひいーっ…」
+$k
+
+&empty
+まだもう一つある。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01D, FILTER_SEPIA | FILTER_LINKSTAND );
+// 	SS( CENTER, SAKURAKO_0401TR4 );
+
+// 	RFI( RULE_CIRCLE );
+// 特殊な画面変更。暫定的に。
+
+// SAKURAKO_0401TR4
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01D_s.jpg,(s),100%
+#ip,c1,(fi),SAKURAKOs_A401.png,(psi),SAKURAKOs_An01TR4.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,02000650
+桜子
+「ねえ優…」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「今度はなんだ！？」
+#mlarge
+$k
+
+// SAKURAKO_0402AS2
+#ir
+#ip,c1,(fi),SAKURAKOs_A402.png,(psi),SAKURAKOs_An02AS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000651
+桜子
+「っ？
+$nw,1000
+
+#ir
+#ip,c1,(fi),SAKURAKOs_A402.png,(psi),SAKURAKOs_An02KM2.png,(x),c,(s),60%
+#ig
+
+#madd,　えーと、お米切らしてるからちょっと…」
+$k
+
+優
+「なんで俺なの？」
+$k
+
+// SAKURAKO_0402IK7
+#ir
+#ip,c1,(fi),SAKURAKOs_A402.png,(psi),SAKURAKOs_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000652
+桜子
+「え？　まー雪華ちゃんにひもじい思い
+　させていいんなら…」
+$k
+
+優
+「わかったよっ！」
+$k
+
+&empty
+今思えば、桜子に行かせればよかったんじゃないか。
+特に自分の用事は主張してなかったし。
+$k
+
+&empty
+雪華ちゃんをダシにされて我を失っていた俺が
+馬鹿なのか…。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_CIRCLE );
+// 特殊な画面変更。暫定的に。
+
+// 	ShowFace();
+// 	SV( BG_TD_GAIKAN01B );
+
+#sp,se,W_Bicycle01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN01B.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+そして今に至る。
+$k
+
+優
+「はあ…はあ…。や、やっと着いた…」
+#meffect,flow,5
+$k
+
+// 	SV( BG_TD_GENKAN01C );
+
+#sp,se,S_Door04o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN01C.jpg,(s),100%
+#ig
+
+&empty
+あとは米を届けて終わりだ。
+それでぐっすりと…。
+$k
+
+// 	SV( BG_TD_KITCHEN01A );
+// 	SS( CENTER, SAKURAKO_0402EG );
+
+#ir
+#ip,bg,(fi),BG_TD_KITCHEN01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0402EG
+#sp,vo,02000653
+桜子
+「あ、優おかえり。
+$nw,1800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+　丁度お婆ちゃん、お店閉めた所だからさ、
+　夕飯もあたし当番じゃないから…」
+$k
+
+&empty
+もう何も聞かねえぞー。
+$k
+
+// 	Shake( NORMAL, SHAKE_UP, 30, NORMAL * 2 );
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Don01
+
+優
+「よっこいしょ、任務完了、じゃあなー」
+$k
+
+// SAKURAKO_0401NK4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000654
+桜子
+「あ、ちょっと優ー？」
+$k
+
+優
+「あーあー、あああ゛――～っ」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02000655
+桜子
+「久しぶりにさあ…」
+$k
+
+// 	//     田坂注：『玄関前：昼：扉開き』に変更
+// 	SV( BG_TD_GENKANMAE01B );
+
+#ir
+#ip,bg,(fi),BG_TD_GENKANMAE01B.jpg,(s),100%
+#ig
+
+優
+「あーうー、聞こえないぞー！」
+$k
+
+// SAKURAKO_0402IK4
+
+#sp,vo,02000656
+桜子
+「ねえ、キャッチボール…」
+$k
+
+// 	//     田坂注：『厨房：昼：裏口扉開き』に変更
+// 	SV( BG_SJ_CHUBO01B );
+
+#ir
+#ip,bg,(fi),BG_SJ_CHUBO01B.jpg,(s),100%
+#ig
+
+優
+「俺晩飯まで寝るんでよろしくー」
+$k
+
+// 	SV( BG_SJ_CHUBO01A );
+
+#hide
+
+#ss,bgm
+
+#sp,se,S_Door01c
+
+#ir
+#ip,bg,(fi),BG_SJ_CHUBO01A.jpg,(s),100%
+#ig
+
+#wait,500
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+// SAKURAKO_0401KN
+
+#show
+
+#sp,vo,02000657
+桜子
+「やろぅょ………もう、何なのよ…」
+$k
+
+// 	SV( BG_SJ_YU01F );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU01F.jpg,(s),100%
+#ig
+
+&empty
+ああ、布団だ。
+やっと解放される…。
+$k
+
+&empty
+じゃあ、おやすみなさい！
+$k
+
+#sp,se,S_Don01
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+// 	Zoom(    0, 100, 100, 550, 300 );
+// 	Zoom( FAST, 300, 300, 550, 300, 1 );
+// 	Shake( NORMAL, SHAKE_UP, 50, NORMAL * 2 );
+// 	Fade( NORMAL / 2, 0 );
+
+&empty
+ぐぅ～っ…。
+$k
+
+
+#next,02common03-3A_01

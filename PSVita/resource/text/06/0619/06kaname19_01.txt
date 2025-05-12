@@ -1,0 +1,802 @@
+﻿// 既読フラグ
+#read_flag,410
+
+#ir
+#ie,c1
+#ig
+
+&empty
+とりあえず言い訳を考える時間を…。
+$k
+
+#sp,vo,06021302
+要
+「こっちを向きなさい」
+$k
+
+// 	SS_( CENTER, KANAME_A901FK3 );
+
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01FK3.png,(x),c,(s),80%
+#ig
+
+優
+「はい…」
+$k
+
+&empty
+はかない抵抗だった。
+$k
+
+// KANAME_A901FK5
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01FK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021303
+要
+「バイトをはじめるとき、かなさんを
+　ないがしろにしないって言ったのは誰だったかなー」
+$k
+
+優
+「そ、それは…」
+#meffect,flow,5
+$k
+
+// KANAME_A903IT4
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03IT4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021304
+要
+「仕事とわたし、どっちが大事とか、
+　鬱陶しいこと言うつもりはないんだけどー」
+$k
+
+優
+「すみません、ほんっとすみません」
+$k
+
+// KANAME_A903SN
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03SN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021305
+要
+「仕事が大変なのもわかるさ。
+　段々と楽しくなってきてるみたいだし」
+$k
+
+優
+「そうなんですよ！
+　班長が休憩に誘ってくれるようになって！」
+$k
+
+// KANAME_A903GN2
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03GN2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021306
+要
+「仕事とわたし、どっちが大事なのーっ」
+#mlarge
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「それさっき言うつもりないって言ったのに！？」
+$k
+
+// 縦線アイコン。レイヤー番号と位置は適宜。
+#ir
+#ip,op1,(fi),image\icon\tatesen.png,(x),620,(y),50
+#ig
+
+// KANAME_A903GN2
+#sp,vo,06021307
+要
+「しかも職場のおじさんらしき人に心奪われてる！」
+$k
+
+優
+「ごめんなさい！
+　不覚にもはじめて名前で呼ばれたときは、
+　心にきゅんってきました！」
+$k
+
+// KANAME_A903GN3
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03GN3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021308
+要
+「浮気告白された！」
+$k
+
+&empty
+ほんと、５０過ぎの
+むっすーとしたおっさん相手なのにね…。
+$k
+
+#ss,bgm
+
+// KANAME_A903BS
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021309
+要
+「まあ冗談はいいとして」
+$k
+
+優
+「わかってもらえてよかったです」
+$k
+
+&empty
+本気にされたら目も当てられなかった。
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+// KANAME_A903SN4
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03SN4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021310
+要
+「別に本当に怒ってるとか、
+　そんなんじゃないんだけどねー」
+$k
+
+優
+「ごめんなさい」
+$k
+
+// KANAME_A902IK
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021311
+要
+「というか、わたしがこんなになってるのに、
+　そっちが平気そうなのがむかつきます」
+$k
+
+優
+「いや、平気じゃないですよ」
+$k
+
+// KANAME_A902IK2
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021312
+要
+「じゃあどう思ってた？」
+$k
+
+優
+「どうって…」
+#meffect,flow,5
+$k
+
+// KANAME_A902NO
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021313
+要
+「いっせーので」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「言わせる気ですか！？」
+#mlarge
+$k
+
+// KANAME_A902EG2
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021314
+要
+「２人同時で」
+$k
+
+優
+「いやそれ要さんだけ言わないパターンですから」
+$k
+
+// KANAME_A903IT2
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03IT2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021315
+要
+「いっ」
+$k
+
+優
+「ちょ！？」
+$k
+
+// KANAME_A903IT
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03IT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021316
+要
+「せーの、
+$nw,1350
+
+#ss,bgm,(cl),NO
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03BS.png,(x),c,(s),80%
+#ig
+
+　でっ」
+$k
+
+// 	BGMFade(NORMAL, 0);
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_A903SN
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03SN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021317
+要
+「………」
+#meffect,flow,5
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+優
+「………さみしかったです」
+#meffect,flow,5
+$k
+
+// 	BGMFade(SLOW, 100);
+
+#sp,bgm,BGM_COMICAL2
+
+// KANAME_A903NO
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021318
+要
+「よしっ」
+$k
+
+&empty
+拗ねていたような表情から一転、破顔する。
+
+#mfuri, す
+
+$k
+
+&empty
+この辺の力関係は、ほんと変えられないな…。
+$k
+
+// KANAME_A901NO2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021319
+要
+「今週の予定は？」
+$k
+
+優
+「忙しい…です。
+　でもなんとか時間を作って…」
+$k
+
+// カットあり。
+
+// KANAME_A902BS
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021324
+要
+「今週末」
+$k
+
+優
+「え？」
+$k
+
+// KANAME_A902EG2
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021325
+要
+「今週末、どこに連れてってくれるのかなー」
+$k
+
+&empty
+いたずらっぽい挑戦的な目で見上げられる。
+$k
+
+&empty
+つまりはどこかに連れてけということらしい。
+$k
+
+優
+「任せといてください」
+$k
+
+// KANAME_A901BS2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01BS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021326
+要
+「ほほう？」
+$k
+
+&empty
+断るはずのない俺の返答に、要さんが笑う。
+$k
+
+// KANAME_A903IT5
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03IT5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021327
+要
+「いいのかなー、お姉さんを期待させて。
+$nw,3800
+
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02YP3.png,(x),c,(s),80%
+#ig
+
+　ぜんぶ私に任せて、大人の遊びを
+　手取り足取り教えてあげてもいいんだよ？」
+$k
+
+優
+「もうパチンコ行ってないんでしょ」
+$k
+
+// KANAME_A902YP3
+#sp,vo,06021328
+要
+「独身女だけに伝わる都市伝説に
+　カップルシートってのがあってね…」
+$k
+
+優
+「行きませんから」
+$k
+
+// KANAME_A902RK
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02RK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021329
+要
+「はあ…こうして男に合わせて、
+　趣味嗜好が変わっていくのね…」
+$k
+
+優
+「合わせてって、他に何か変わりました？」
+$k
+
+// KANAME_A902EG2
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021330
+要
+「梅干し食べれるようになったのー。
+　最近ハマってるかも♪」
+$k
+
+優
+「それ俺のせいかなあ…」
+$k
+
+// KANAME_A902NO
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021331
+要
+「優くんたまにものすごく欲しがるでしょ」
+$k
+
+優
+「そうですけど…大人になって、
+　味の嗜好が変わっただけなんじゃ」
+$k
+
+// KANAME_A902EG2
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021332
+要
+「優くん色に染め上げられるぅー」
+$k
+
+優
+「それどんな色ですか…」
+$k
+
+// KANAME_A902AM
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02AM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021333
+要
+「玉虫色に近いかも」
+$k
+
+優
+「印象悪っ」
+$k
+
+&empty
+それは曖昧なものの例えでは？
+$k
+
+// KANAME_A902EG
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021334
+要
+「優くんも年上の魅力に目覚めたでしょ」
+$k
+
+// KANAME_A901BS2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01BS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021335
+要
+「ははっ馬鹿な、俺は要さんひと筋ですよ」
+$k
+
+優
+「………なんですか今の」
+$k
+
+// KANAME_A903NO
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021336
+要
+「言いそうだったから、先回り」
+$k
+
+優
+「いや…さすがにそんなこっ恥ずかしいこと、
+　なかなか言えませんけど」
+$k
+
+// KANAME_A903KT2
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03KT2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021337
+要
+「そうなの？」
+$k
+
+優
+「そうですよ」
+$k
+
+// KANAME_A903KT2
+#sp,vo,06021338
+要
+「………」
+#meffect,flow,5
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// 	Zoom(FAST, 120, 120);
+// 	BlurZoom(0, 5, 10);
+// 	BlurZoom(SLOWER, 0, 0);
+
+// KANAME_A901IK2
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01IK2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06021339
+要
+「今だ！」
+#mlarge
+$k
+
+優
+「言いませんて」
+#mlarge
+$k
+
+&empty
+くわっ！て感じで言われても。
+$k
+
+// 	Zoom(NORMAL|SPEED_DOWN, 100, 100);
+
+// KANAME_A903GN
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03GN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021340
+要
+「つっれなーい。つまんなーい」
+$k
+
+優
+「それより週末行く場所ですけど」
+$k
+
+// KANAME_A901US2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01US2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021341
+要
+「んーじゃあねぇ…」
+#meffect,flow,5
+$k
+
+優
+「えっ、結局要さんが決めるんですか？」
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+いや、まあいつものことだけど…。
+$k
+
+&empty
+そんなこんなで、結局要さん主導で
+週末の約束を取り交わす。
+$k
+
+優
+「じゃ、まあそういうことで週末に」
+$k
+
+// 	SS( CENTER, KANAME_A901US3 );
+
+// KANAME_A901US3
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01US3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021347
+要
+「それで、あと１０分切ったんだけど…」
+#meffect,flow,5
+$k
+
+優
+「あ、食う時間が」
+$k
+
+&empty
+せっかくの弁当にまだ全然箸をつけてない。
+$k
+
+優
+「じゃあ急いで詰め込まないと」
+$k
+
+&empty
+というより、俺まだ箸すら持ってない。
+$k
+
+// KANAME_A901NO
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06021348
+要
+「というわけで…
+$nw,1300
+
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+　あーん」
+$k
+
+優
+「え？」
+$k
+
+// 	ZoomStand( CENTER, NORMAL, 120, 120 );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(s),100%,(x),c
+#ig
+
+// KANAME_A902NO
+#sp,vo,06021349
+要
+「あーん」
+$k
+
+優
+「要さん…」
+#meffect,flow,5
+$k
+
+// 	ZoomStand( CENTER, NORMAL, 130, 130 );
+
+// KANAME_A902IK
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02IK.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06021350
+要
+「あ―――ん」
+#meffect,flow,5
+$k
+
+優
+「いや、だから急がないと時間がですね」
+$k
+
+// 	ZoomStand( CENTER, SLOW, 150, 150 );
+
+// KANAME_A902IK2
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02IK2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,06021351
+要
+「あ――――――ん」
+#meffect,flow,2
+$k
+
+優
+「…あ～ん」
+#meffect,flow,2
+$k
+
+&empty
+口の中にふんわりと甘い玉子焼きの味が広がる。
+$k
+
+// 	DelStandAll();
+
+&empty
+完食とは違うものが求められたこの時間、
+結局俺は一度も箸を持つことが許されなかった…。
+$k
+
+&empty
+ま、週末に約束が取れたからいいか。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_COMICAL1
+
+// 	SV( BG_SJ_YU03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+と、思っていたのに…。
+$k
+
+優
+「え、ちょっと、待ってください。
+　どうして週末だめになっちゃったんですか」
+$k
+
+#sp,vo,06021352
+要
+「ごめん…ごめんねぇー！
+　わたしのせいで、優くんは売られちゃったのー」
+$k
+
+優
+「だから全然状況がわかりませんって！」
+$k
+
+#sp,vo,06021353
+要
+「あぁもうどうしてこんなことに…
+$nw,3410
+
+　あ、ちょっと、電話取らないで………」
+$k
+
+優
+「もしもし…？」
+$k
+
+優
+「ちょ…もしもし要さんっ！？」
+$k
+
+
+#next,06kaname19_02

@@ -1,0 +1,110 @@
+﻿// 既読フラグ
+#read_flag,101
+
+&empty
+軽いのは初めだけで距離を歩くと、結構腕にくる。
+$k
+
+// SAKURAKO_0401EG
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000640
+桜子
+「まーいいじゃない、
+　持ち帰りだと安くしてくれるっていうからさ。
+　ついでよ、ついで。
+$nw,5700
+
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),r,(s),60%
+#ig
+
+#madd,あ、ツリーだとか思った？」
+
+$k
+
+優
+「あー思ったさ、ちくしょーっ」
+$k
+
+// MII_0901BS
+#ir
+#ip,c1,(fi),MII_A901.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030338
+みい
+「で、これから、どうしますか？」
+$k
+
+// SAKURAKO_0403NO
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000641
+桜子
+「そうね、実際の飾りつけは明日にやるし、
+　後は買って来て貰った食材の仕込みくらいだから、
+　もう解散だけど…」
+$k
+
+// MII_0903EG
+#ir
+#ip,c1,(fi),MII_A903.png,(psi),MII_An03EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02030339
+みい
+「では私もそちらのお手伝いを…」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000642
+桜子
+「うん、ありがとう。
+$nw,1700
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),r,(s),60%
+#ig
+
+　でもとりあえずお昼にしようか？」
+$k
+
+優
+「やっと飯かー。
+　で、もう用意してあるんだろうな？」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02000643
+桜子
+「もうちょっとよ、お茶でも飲んで待っててよ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+// みい、要の場合。
+#next,02common03-3B_00:(if),per,5,>=,3
+
+// 上記以外。
+#next,02common03-3A_00

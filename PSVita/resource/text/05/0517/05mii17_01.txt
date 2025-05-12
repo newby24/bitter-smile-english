@@ -1,0 +1,410 @@
+﻿// 既読フラグ
+#read_flag,184
+
+&empty
+思い出しもしなかったし、
+どうでもいい事なのに、
+色鮮やかに思い出してくる。
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),60%
+#ig
+
+#sp,vo,05000131
+桜子
+「懐かしいわねぇ」
+$k
+
+// KANAME_0401KT
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05020067
+要
+「なーに言ってるの。
+　私にしてみれば、桜子ちゃんも優くんも、
+　昨日卒業したようなものよ」
+$k
+
+優
+「そんな年寄りみたいなことを…。
+　要さんもそんなに変わらないじゃないですか」
+$k
+
+// KANAME_0401NO2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05020068
+要
+「でも、私の頃からだと、
+　だいぶ補修されて、見違えちゃったけどね」
+$k
+
+優
+「あ、確かに良く見ると、俺達の時からも
+　少しだけど変わってますね」
+$k
+
+&empty
+長いのか短いのか、
+微妙な月日だけど確実に時は過ぎていくんだな。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_GAIKAN01A );
+
+//	SLP( 0, "S_Gaya01#" );
+// 	SS_( LEFT, SAKURAKO_0401TR4 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_GAIKAN01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),60%
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO2.png,(x),r,(s),60%
+#ig
+
+// 	SS( RIGHT, KANAME_0401NO2 );
+
+#show
+
+&empty
+学園の中に入ると、
+在学生や家族が体育館に流れていく。
+$k
+
+&empty
+俺たちもその波に流されるように、
+体育館へ向かった。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+体育館では、つつがなく式が執り行われた。
+$k
+
+&empty
+桜子や要さんは、みいちゃんの様子を
+ビデオやカメラに撮ったりと、忙しそうだった。
+$k
+
+&empty
+俺は、自分の卒業式だって緊張しなかったのに、
+無駄に緊張してしまった。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_GK_GAIKAN01A );
+// 	SS( CENTER, KOZUE_0201EG2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_GAIKAN01A.jpg,(s),100%
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01EG2.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KOZUE_0201EG2
+#sp,vo,05100007
+山之辺こずえ
+「あらぁ、矢崎君も轟木さんも久しぶり～。
+　ちょっと見ない間に見違えちゃって～」
+$k
+
+優
+「あ、先生、ご無沙汰してます」
+$k
+
+// 	SS_( LEFT, SAKURAKO_0401EG, MOVE_LEFT );
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01EG.png,(x),l3,(s),60%,(al),0%
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l2,(al),100%
+#ip,c2,(x),r2,(al),100%
+#ig
+
+// 	SS( RIGHT, KANAME_0401NO, MOVE_RIGHT );
+
+// SAKURAKO_0401EG
+#sp,vo,05000132
+桜子
+「先生お元気でしたか？」
+$k
+
+// KOZUE_0201EG2
+#sp,vo,05100008
+山之辺こずえ
+「すっごく元気っ」
+$k
+
+// KOZUE_0201KD
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100009
+山之辺こずえ
+「みんな、妹さんの卒業式に来たの？」
+$k
+
+// SAKURAKO_0401EG
+#sp,vo,05000133
+桜子
+「はい」
+$k
+
+// KOZUE_0201EG
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100010
+山之辺こずえ
+「そう～、卒業おめでとうございます。
+　晴れて良かったわね～」
+$k
+
+// SAKURAKO_0401EG
+#sp,vo,05000134
+桜子
+「ありがとうございます」
+$k
+
+// KOZUE_0201KD
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01KD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100011
+山之辺こずえ
+「確か、受験も合格したのよね。
+　矢崎君と同じところだっけ？」
+$k
+
+優
+「ええ、そうです」
+$k
+
+// KANAME_0401NO5
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01NO5.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05020069
+要
+「相変わらず仲がいいわよねー」
+$k
+
+// KOZUE_0201NO
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100012
+山之辺こずえ
+「あら、ひょっとして付き合ってたの？」
+$k
+
+優
+「ええ、まあ…」
+$k
+
+// KOZUE_0201EG
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100013
+山之辺こずえ
+「へぇー、へぇー、そうなんだーっ！？
+　いいわねー」
+$k
+
+// KANAME_0401GB4
+#ir
+#ip,c2,(fi),KANAME_A401.png,(psi),KANAME_An01GB4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,05020070
+要
+「私達の前ではあまり見せないけど、
+　すっごいラブラブなのよねー？」
+$k
+
+// KOZUE_0201EG
+#sp,vo,05100014
+山之辺こずえ
+「へぇー！　へぇー！！」
+$k
+
+優
+「は、はは……」
+$k
+
+#sp,vo,05040135
+知世翔
+「あーっ！？
+　桜子せんぱーい！！」
+$k
+
+#sp,vo,05031508
+みい
+「あ……」
+$k
+
+// KOZUE_0201NO
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100015
+山之辺こずえ
+「噂をすれば」
+$k
+
+// KOZUE_0201EG2
+#ir
+#ip,c1,(fi),KOZUE_A201.png,(psi),KOZUE_An01EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05100016
+山之辺こずえ
+「それでは、後は皆さんでごゆっくり」
+$k
+
+#ss,bgm
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+ぺこりと頭を下げて、去っていく先生。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+//	SS_( LEFT, MII_0201NO, MOVE_LEFT );
+// 	SS( CENTER, CHISEKA_0201EG3, MOVE_RIGHT );
+
+#sp,bgm,BGM_MII
+
+// CHISEKA_0201EG3
+#ir,(ef),off
+#ip,c2,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG3.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),c,(al),100%
+#ig
+
+#sp,vo,05040136
+知世翔
+「先輩、来てくれたんですねー♪」
+$k
+
+&empty
+入れ替わりに有河が駆け寄ってきて、
+その後ろからみいちゃんがトコトコと歩いてくる。
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,05000135
+桜子
+「みいの卒業式でもあるからね。
+　会社の人達は来てないの？」
+$k
+
+// CHISEKA_0201EG
+#ir
+#ip,c2,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05040137
+知世翔
+「来ないでって言いました」
+$k
+
+// CHISEKAPAPA_0301BS2
+#ir,(ef),off
+#ip,c1,(fi),CHISEKAPAPA_A301BS2.png,(x),r3,(s),75%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+#sp,vo,05990112
+社長
+「私だけは来たけどねー」
+$k
+
+// CHISEKA_0201OD
+#ir,(dr),0
+#ip,c2,(fi),CHISEKA_A201.png,(psi),CHISEKA_An01OD.png,(x),c,(s),60%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c2,(y+),-5
+#ig
+
+#sp,vo,05040138
+知世翔
+「きゃあ！？　いつの間にっ！」
+$k
+
+#hide
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+#sp,se,S_Pon02,(lp),1
+
+
+#next,05mii17_02

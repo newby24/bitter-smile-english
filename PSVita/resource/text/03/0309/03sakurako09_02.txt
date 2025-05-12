@@ -1,0 +1,570 @@
+﻿// 既読フラグ
+#read_flag,285
+
+&empty
+そんな真面目な答えをご所望でしたか。
+$k
+
+優
+「…そんな事もあったな」
+$k
+
+// SAKURAKO_A401AZ
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000397
+桜子
+「優の抱負は受験に合格する事。決まりねっ」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「なんで勝手に決めんだよ！？」
+#mlarge
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000398
+桜子
+「他にあるの？」
+$k
+
+優
+「え―――と…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A401AK
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000399
+桜子
+「…ないんでしょ？」
+$k
+
+優
+「…ありませんな」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000400
+桜子
+「しっかり勉強して、頑張りなさいよね」
+$k
+
+優
+「桜子こそ、不合格になってゲンナリさせんなよ？」
+$k
+
+// SAKURAKO_A403BS
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000401
+桜子
+「させないわよ、あんたじゃあるまいし。
+$nw,3170
+
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NS.png,(x),c,(s),80%
+#ig
+
+　優は部屋で遊んでるみたいだから、危ないかもね～」
+$k
+
+優
+「桜子だって勉強してるの見た事ねぇぞ」
+$k
+
+// SAKURAKO_A403IK3
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000402
+桜子
+「してるわよ……
+$nw,1340
+
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+　むぅぅ」
+$k
+
+優
+「ぬぅぅ～～」
+$k
+
+// 	SS_( RIGHT, MII_A403AD3, MOVE_STOP, NORMAL );
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),r,(s),80%
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM.png,(x),l,(s),80%
+#ie,c2
+#ig
+
+// 	SS( LEFT, YUKIHA_A401KM, MOVE_STOP, NORMAL );
+// YUKIHA_A401KM
+
+#sp,vo,03050032
+雪華
+「新年早々、喧嘩はよくないよぉ？」
+$k
+
+// MII_A403AD3
+
+#sp,vo,03030092
+みい
+「私も雪華さんと同意見ですね。
+　大変見苦しいと思うのですよ。
+$nw,5720
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03IK2.png,(x),r,(s),80%
+#ig
+
+　一年の初めですよ？」
+$k
+
+// SAKURAKO_0402KM2
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),l,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,03000403
+桜子
+「う…」
+#meffect,flow,5
+$k
+
+優
+「おう…」
+#meffect,flow,5
+$k
+
+&empty
+みいちゃんがいつになく真面目な事を言っている。
+$k
+
+// SAKURAKO_0401KS2
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000404
+桜子
+「そ、そんな事ないわよ？
+$nw,2740
+
+　ねえ、優？」
+$k
+
+優
+「そ、そうだよ。
+　これはお互いを奮起させてるんだ」
+$k
+
+// MII_A403KM
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030093
+みい
+「そうでしょうか…」
+$k
+
+// YUKIHA_A401AK
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AK.png,(x),l,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,03050033
+雪華
+「とてもそんなふうには見えなかったけどなぁ」
+$k
+
+&empty
+年下の前では、つい、いい人になってしまうな。
+$k
+
+// MII_A403FK
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03FK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030094
+みい
+「ふむ…
+$nw,750
+
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r,(s),80%
+#ig
+
+　では、仲がいいなら、
+　握手ぐらいできますね？」
+
+$k
+
+// SAKURAKO_0402AD
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),80%
+#ie,c1,c3
+#ig
+
+#sp,vo,03000405
+桜子
+「えっ？」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402AS );
+
+優
+「も、もちろんだ。
+　桜子、そうだよな？」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000406
+桜子
+「え、うん…」
+#meffect,flow,5
+$k
+
+#sp,se,S_Touch01
+
+// 	WaitSE( -1 );
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c2,(y+),20
+#ig
+
+&empty
+桜子の手を掴んで握手をする。
+$k
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000407
+桜子
+「ち、ちょっとっ。
+$nw,2000
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+　……ったく、今回だけよ」
+$k
+
+// MII_0402NO
+#ir,(ef),off
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ip,c2,(x),l
+#ig
+
+#sp,vo,03030095
+みい
+「なるほど。では、お互いの良いところも
+　言えてしまいますね。最低三つは」
+$k
+
+// SAKURAKO_A402AS2
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS2.png,(x),l,(s),80%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op2,(fi),image\icon\bikkuri.png,(x),320,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op2,(al),0%
+#ig
+
+#sp,vo,03000408
+桜子
+「えええっ？」
+#mlarge
+$k
+
+優
+「も、もちろんだよ。なあ？」
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000409
+桜子
+「そ、そうねえ…」
+#meffect,flow,5
+$k
+
+// MII_0401NO
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01NO.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030096
+みい
+「では、お兄様からどうぞ」
+$k
+
+優
+「お、俺からかよっ」
+$k
+
+// SAKURAKO_A402TR
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02TR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000410
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「そうだな……桜子は、えーと」
+$k
+
+優
+「ええと………」
+$k
+
+優
+「えーっとぉ～……………」
+$k
+
+// SAKURAKO_A402IK3
+#ir,(ef),quake,(qx),0,(qy),2
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),80%
+#ig,(se),S_Punch01
+
+#sp,vo,03000411
+桜子
+「悩むな―――！」
+#mlarge
+$k
+
+優
+「いってーっ！？
+　あー痛ってっ、なにすんの君ぃー」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402IK3, MOVE_STOP, NORMAL );
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000412
+桜子
+「そこ、ぜんっぜん悩むところじゃないわよね？
+　一つくらいは、ぱっと思い浮かぶものよね？
+　何も思いつかないとか、あり得なくない？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c2,c1
+#ig
+
+&empty
+実は、良いところも悪いところも、
+両方ありすぎて迷った、とは言えないし。
+$k
+
+// KANAME_0401PU2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01PU2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020111
+要
+「あはははっ」
+$k
+
+// SAKURAKO_0402IK3
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000413
+桜子
+「お姉、笑い事じゃないからねっ？」
+$k
+
+// KANAME_0401PU5
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01PU5.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03020112
+要
+「だって～、あははっ」
+$k
+
+// 	SS( CENTER, MII_A403EG );
+
+// MII_A403EG
+#ir
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03030097
+みい
+「まあ…ここは元旦の福笑いって事でいいですか？」
+$k
+
+優
+「そこは初笑いだろ？」
+$k
+
+&empty
+みいちゃん、それはもっと殴られろって事か？
+$k
+
+// 	SS( CENTER, SAKURAKO_A402IK5 );
+
+// SAKURAKO_A402IK5
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK5.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000414
+桜子
+「そうよね、喜びなさい優、
+　あんたの顔、福笑いみたいにしてあげるわ」
+$k
+
+優
+「初殴りはもう済ませたろ？　もう十分だろ！？」
+$k
+
+// KINO_0401NO
+#ir
+#ip,c3,(fi),KINO_A401NO.png,(x),l,(s),80%
+#ie,c1,c2
+#ig
+
+#sp,vo,03060019
+紀乃
+「今年は一段と騒がしくなりそうやの」
+$k
+
+// YUKIHA_0401BS3
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01BS3.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03050034
+雪華
+「ちゅるるっ……
+$nw,1490
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01EG.png,(x),r,(s),80%
+#ig
+
+　はふー、お蕎麦おいしいー…」
+
+$k
+
+&empty
+こうやって俺は、今年も痛い一年を送るのか！？
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c1,c3
+#ig
+
+#wait,500
+
+
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_rootend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_rootend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_rootend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_rootend6_sakurako.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#next,03sakurako10_00

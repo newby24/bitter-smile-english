@@ -1,0 +1,1105 @@
+﻿// 既読フラグ
+#read_flag,109
+
+&empty
+これ明日とか雪降るんじゃねえの？
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"きい～～かしゃん。" );
+#hide
+
+#sp,se,S_Door10o
+
+#wait,1000
+
+#sp,se,S_Door10c
+
+#show
+
+&empty
+結局俺は、要さんが自分の部屋の玄関に
+無事辿り着くのを外から確認してから帰った。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#flag,mode,novel,0,0
+
+&empty
+&empty
+&empty
+&empty
+&empty
+
+翌日――
+#malign,c
+#meffect,fade,500
+$k
+
+#flag,mode,adv,0,0
+
+// 	SV( BG_TD_IMA03H );
+
+#sp,bgm,BGM_YASURAGI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03H.jpg,(s),100%
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+// 	SS( LEFT, SAKURAKO_A402EG, MOVE_STOP, NORMAL );
+
+#show
+
+// SAKURAKO_A402EG
+
+#sp,vo,02000776
+桜子
+「じゃあそろそろプレゼント交換の時間かなー？
+$nw,3400
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+　ケーキはその後ね？」
+$k
+
+#ir
+#ie,c3
+#ig
+
+&empty
+今日はクリスマス………イブ。
+まあ正確にはなんだっていいけど。
+$k
+
+//チキンなんぞを貪り偽物のシャンパンで
+//落ち着いたところで、デザートにケーキ、
+//…の前にプレゼント。
+
+&empty
+チキンなんぞを貪り、ジュース（要さんは当然アルコール）
+で落ち着いたところで、デザートにケーキ、
+…の前にプレゼント。
+$k
+
+&empty
+轟木家はこういう順番なんだな。
+$k
+
+&empty
+矢崎家では先にプレゼント、
+次はケーキだけ出してきて盛り上がった後に、
+一旦置いといて、飯の後にケーキって感じだ。
+$k
+
+&empty
+ちなみに小林家では、
+ケーキから始まり、プレゼントで締めるらしい。
+どうでもいいんだけど。
+$k
+
+// SAKURAKO_A401TR4
+#ir
+#ip,c3,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000777
+桜子
+「じゃあまずジャンケンする？」
+$k
+
+// MII_A401KY
+#ir
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01KY.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,02030341
+みい
+「あ、お兄様、そろそろ…」
+$k
+
+優
+「ああ、そっか……」
+$k
+
+// 	SS_( CENTER, YUKIHA_A401KT, MOVE_RIGHT, NORMAL );
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+優
+「ごめんね雪華ちゃん、
+　ちょっとお兄ちゃんと向こうに行ってようか？」
+$k
+
+// YUKIHA_A401IK3
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02050069
+雪華
+「ええー、なんで？　どうしてー？
+$nw,4000
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT2.png,(x),c,(s),80%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l0,(al),0%
+#ig
+
+　あー押さないで、お兄ちゃん」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+
+優
+「まあまあ、いいからー」
+$k
+
+// SAKURAKO_A403KT
+#ir
+#ip,c3,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KT.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000778
+桜子
+「何？　急にどうしたの？」
+$k
+
+// MII_A402MJ
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02030342
+みい
+「すいません皆様。これから私、
+　轟木みいから重大なお知らせがあります…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_KYUKEISHITSU01A );
+// 	SS( CENTER, YUKIHA_A401IK3 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KYUKEISHITSU01A.jpg,(s),100%
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01IK3.png,(x),c,(s),80%
+#ig
+
+#show
+
+// YUKIHA_A401IK3
+#sp,vo,02050070
+雪華
+「なんで、なんで？　まだケーキも食べてないよー？」
+$k
+
+優
+「ごめん雪華ちゃん、すぐ戻れるから。
+　たぶん五分か十分位だと思うし…」
+$k
+
+&empty
+協力して欲しい。
+$k
+
+&empty
+昨日みいちゃんに言われていたのは、
+『少しだけ轟木家の人間だけの時間を作って欲しい』
+それだけだった。
+$k
+
+&empty
+俺達を気にするのは多分、ただの照れなのか、
+家族にだけ伝えたい事なのか。
+$k
+
+// YUKIHA_A401SN3
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01SN3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02050071
+雪華
+「ねえ、向こうで何があるの？」
+$k
+
+優
+「うーん、もしかしたら雪華ちゃんも昔気付いた事？
+　それをみいちゃんは今やっと言うんじゃないかな？」
+$k
+
+// YUKIHA_A401KT2
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02050072
+雪華
+「えっ？　ええっ？　なんの事っ？」
+$k
+
+&empty
+まあ、想像だけど。
+$k
+
+優
+「まあとにかく少しだけみいちゃんに
+　時間をあげてやってよ？」
+$k
+
+// YUKIHA_A401KM3
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02050073
+雪華
+「う、うーん？
+$nw,2400
+
+#ir
+#ip,c1,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM.png,(x),c,(s),80%
+#ig
+
+　いいけど、なんなのかなー？」
+$k
+
+&empty
+たぶん後で教えてくれると思うし。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03H );
+// 	SS( RIGHTRIGHT, KANAME_A401KT );
+// 	SS( CENTERBOTTOM, SAKURAKO_A402NO );
+// 	SS( LEFTLEFT, KINO_A401KM );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03H.jpg,(s),100%
+#ip,c1,(fi),KINO_A401KM.png,(x),l2,(s),80%
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),r2,(s),80%
+#ig
+
+#show
+
+// KINO_A401KM
+#sp,vo,02060126
+紀乃
+「なんや、どないしたんや？」
+$k
+
+// MII_0403NO
+
+#sp,vo,02030343
+みい
+「どうもみなさま。ぺこり」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000779
+桜子
+「えっと……みい？」
+#meffect,flow,5
+$k
+
+// KANAME_A401KM2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020206
+要
+「えっ、えっ、なにが始まるの？」
+$k
+
+// MII_0403EG
+
+#sp,vo,02030344
+みい
+「お婆さま、お姉様、そして姉上、
+$nw,4500
+
+　今までとてもありがとうございました」
+$k
+
+// SAKURAKO_A401NK4
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000780
+桜子
+「ど、どうしたの？　大丈夫？
+$nw,3800
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+　お姉もしかしてお酒とか飲ませた？」
+$k
+
+// KANAME_A401OD3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020207
+要
+「（ふるふるっ）まさかー、飲ませてないよっ？」
+$k
+
+#sp,bgm,BGM_OMOIDE
+
+// MII_0403EG4
+
+#sp,vo,02030345
+みい
+「私はクリスマスの真実に気付きましたので、
+　その報告と感謝を伝えたいだけです」
+$k
+
+// KINO_A401KD2
+#ir
+#ip,c1,(fi),KINO_A401KD2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02060127
+紀乃
+「……ああ」
+#meffect,flow,5
+$k
+
+// KANAME_A401KM2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020208
+要
+「えっと…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A402AD
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AD.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000781
+桜子
+「な、
+$nw,1000
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG2.png,(x),c,(s),80%
+#ig
+
+#madd,……何のことー？
+　別にケーキの作り方くらいならいつでもー…」
+$k
+
+// MII_0403EG
+
+#sp,vo,02030346
+みい
+「大丈夫です姉上。
+　私は少し大人になってしまっただけですから。
+$nw,7100
+
+　……サンタが誰なのか分かる位には成長しました」
+$k
+
+// SAKURAKO_A401NK4
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000782
+桜子
+「そ、
+$nw,1200
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR2.png,(x),c,(s),80%
+#ig
+
+#madd,……………そっかぁー。
+　残念ね、もっと記録更新できるかと思ったのに？」
+$k
+
+// KINO_A401AK
+#ir
+#ip,c1,(fi),KINO_A401AK.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02060128
+紀乃
+「…まあしゃあないな」
+$k
+
+// KANAME_A401NK4
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NK4.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020209
+要
+「うう、とうとう来ちゃったかあ…」
+$k
+
+// MII_0401BS
+
+#sp,vo,02030347
+みい
+「進学するのに迷いは無いほうがと思いまして。
+　これで心置きなく…」
+$k
+
+// SAKURAKO_A401KN
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000783
+桜子
+「………ふう、ばっかねー。
+$nw,3100
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),80%
+#ig
+
+　別に居なくなるわけじゃないし。帰ってくるし。
+$nw,3700
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+　…で、いつから気付いてたの？」
+$k
+
+// MII_0403NO
+
+#sp,vo,02030348
+みい
+「ああ、やはり姉上。
+$nw,4300
+
+　……はい、七年目…位からです」
+$k
+
+// SAKURAKO_A402EG2
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000784
+桜子
+「あ、思ったより最近…」
+$k
+
+// KANAME_A401TR4
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01TR4.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020210
+要
+「ひゅー…可愛いとこあるー」
+$k
+
+// KINO_A401BS3
+#ir
+#ip,c1,(fi),KINO_A401BS3.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02060129
+紀乃
+「意外と騙されてたんやな」
+
+#mfuri,　　　　　　　　だま
+
+$k
+
+// MII_0401TR
+
+#sp,vo,02030349
+みい
+「不覚にも…」
+$k
+
+// MII_0401TR2
+
+#sp,vo,02030350
+みい
+「だから…ありがとうございました。
+　それと向こうに行っても頑張ってください」
+$k
+
+// SAKURAKO_A402AS
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000785
+桜子
+「ちょっ…
+
+$nw,800
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#madd,やーねー、もう。
+　別にまだ受験したわけでも、受かった訳でも
+　無いのにさー」
+$k
+
+// KANAME_A401NO3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020211
+要
+「いやーでも滑り止め以外はここから遠いんでしょ？」
+$k
+
+// SAKURAKO_A401AK
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000786
+桜子
+「みんな気が早いし。
+$nw,1900
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+　それにたぶん、お姉みたいに、
+　しょっちゅう帰ってくると思うわよ？」
+$k
+
+// MII_0403EG2
+
+#sp,vo,02030351
+みい
+「ふふふっ、そうですね」
+$k
+
+// SAKURAKO_A403NO2
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000787
+桜子
+「まあいいわ、こちらこそ。
+$nw,2800
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG2.png,(x),c,(s),80%
+#ig
+
+　いままで有難う。いい夢見れたわ」
+$k
+
+// KINO_A401BS
+#ir
+#ip,c1,(fi),KINO_A401BS.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02060130
+紀乃
+「せやな、
+$nw,1000
+
+#ir
+#ip,c1,(fi),KINO_A401NS.png,(x),l2,(s),80%
+#ig
+
+　でもサービスデーはこれからも続くでー？」
+$k
+
+// KANAME_A401KM
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KM.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020212
+要
+「いやあ、それはどうなのかなー。お腹に悪いよアレ」
+$k
+
+// SAKURAKO_A401TR4
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000788
+桜子
+「今までごめんね？
+$nw,1900
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),80%
+#ig
+
+　もしかして、みいだけ仲間はずれみたいに
+　なってなかった？」
+$k
+
+// MII_0403NO
+
+#sp,vo,02030352
+みい
+「いえ、そんな事は……
+$nw,2500
+
+　むしろ楽しかったです」
+$k
+
+// KANAME_A401NK4
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NK4.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020213
+要
+「………おお越後屋、
+$nw,2200
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KU4.png,(x),r2,(s),80%
+#ig
+
+　…そちも悪よのう？」
+$k
+
+// MII_0403NK2
+
+#sp,vo,02030353
+みい
+「お代官さまこそ…」
+$k
+
+// SAKURAKO_A403NO
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000789
+桜子
+「あ……
+$nw,1600
+
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),80%
+#ig
+
+　じゃあ今年の分どうしよっか？」
+$k
+
+// KINO_A401AK
+#ir
+#ip,c1,(fi),KINO_A401AK.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02060131
+紀乃
+「そらあもう、」
+$k
+
+// MII_0401NO
+
+#sp,vo,02030354
+みい
+「折角なので頂きますとも」
+$k
+
+// SAKURAKO_A402EG2
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000790
+桜子
+「だよね！
+$nw,1200
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR3.png,(x),c,(s),80%
+#ig
+
+　今あげてもいいかな？
+$nw,1600
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS.png,(x),c,(s),80%
+#ig
+
+　ほらお姉も泣いてないでよ？」
+
+$k
+
+// KANAME_A401NK2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NK2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020214
+要
+「…う、うん」
+$k
+
+// 	SS( RIGHTRIGHT, KANAME_A401NO );
+// 	SS( CENTERBOTTOM, SAKURAKO_A402EG );
+// 	SS( LEFTLEFT, KINO_A401BS2 );
+
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),l2,(s),80%
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),r2,(s),80%
+#ig
+
+// SAKURAKO_A402EG
+#sp,vo,02000791
+桜子
+「はいこれ」
+$k
+
+// MII_0401KY2
+
+#sp,vo,02030355
+みい
+「………ノート、ですか？」
+$k
+
+// SAKURAKO_A401NO
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000792
+桜子
+「あ、これはプレゼントとは別の物だけどね。
+　もういいかなって……
+$nw,6000
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR3.png,(x),c,(s),80%
+#ig
+
+　お母さんの料理ノート。よかったら貰ってよ？」
+$k
+
+// KANAME_A401KT
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020215
+要
+「あ、それまだ持ってたんだ？」
+$k
+
+// KINO_A401KD2
+#ir
+#ip,c1,(fi),KINO_A401KD2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02060132
+紀乃
+「物持ちええなあ、あんた」
+$k
+
+// SAKURAKO_A401TR4
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000793
+桜子
+「と、その手書きコピー。
+$nw,2500
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR2.png,(x),c,(s),80%
+#ig
+
+　もうぼろぼろでさ、ごめんね？
+$nw,2500
+
+　小さい頃、みいに見せるかどうかで悩んでたんだ…」
+$k
+
+// MII_0402OD
+
+#sp,vo,02030356
+みい
+「いいんですか？　母上…のノート。
+$nw,3700
+
+　姉上の宝物では？」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000794
+桜子
+「ううん、あたしはもう十分。
+$nw,3200
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+　貰ってくれる？」
+$k
+
+// MII_0403NK3
+
+#sp,vo,02030357
+みい
+「大事に、しますね。
+$nw,2800
+
+#madd,………両方とも」
+
+$k
+
+// KANAME_A402EG
+#ir
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020216
+要
+「はいこっちが、みんなからの今年のプレゼントよ？
+$nw,4000
+
+#ir
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),r2,(s),80%
+#ig
+
+　ほらほら開けてみてー？」
+$k
+
+//#sp,env,S_Nuno05
+#sp,se,S_Nuno05
+
+// MII_0403EG
+
+#sp,vo,02030358
+みい
+「はい…………………
+$nw,5400
+
+　あ……こ、これは！」
+
+$k
+
+// KINO_A401EG2
+#ir
+#ip,c1,(fi),KINO_A401EG2.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,02060133
+紀乃
+「近くでも綺麗やなあ」
+$k
+
+// MII_0401OD
+
+#sp,vo,02030359
+みい
+「デパートの大きなツリーのてっぺんの星っ！！」
+$k
+
+// KANAME_A401TR
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01TR.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020217
+要
+「いやあー、案外手に入るもんだねー？」
+$k
+
+// MII_0402KB2
+
+#sp,vo,02030360
+みい
+「まっ、まさか勝手に…」
+$k
+
+// KANAME_A401OD3
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020218
+要
+「ととと、とんでもない！
+$nw,1600
+
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01NO.png,(x),r2,(s),80%
+#ig
+
+　ちゃんと正規ルートよ？」
+$k
+
+// SAKURAKO_A401AK2
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000795
+桜子
+「少々お高くつくみたいだけど？」
+$k
+
+// KANAME_A401TR2
+#ir
+#ip,c3,(fi),KANAME_A401.png,(psi),KANAME_An01TR2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020219
+要
+「そうそう、思ったより大きいし、案外迷惑かも？」
+$k
+
+// MII_0403TR3
+
+#sp,vo,02030361
+みい
+「いえ、そんなことはないです。
+$nw,2800
+
+　こんなに素晴らしい物ですよ？
+$nw,2400
+
+　ささっ、さっそく我が家のツリーに飾りましょう！」
+$k
+
+// SAKURAKO_A401KS2
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KS2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000796
+桜子
+「それはちょっと無理あるんじゃない？
+　てっぺんに乗せたらツリー折れちゃうかも」
+$k
+
+// KANAME_A402NO
+#ir
+#ip,c3,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02020220
+要
+「じゃあケーキの上とか！」
+$k
+
+// MII_0403IK6
+
+#sp,vo,02030362
+みい
+「それではケーキが台無しです。
+　雪華さんが悲しみますよ？」
+$k
+
+#ss,bgm
+
+// SAKURAKO_A402AS
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000797
+桜子
+「あーそうよ、忘れてたわ！
+$nw,2600
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+　いいかげん優達待ちくたびれてんじゃないの？」
+$k
+
+// MII_0401OD
+
+#sp,vo,02030363
+みい
+「ああっ！」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SS( RIGHT, MII_0403NO );
+
+#sp,bgm,BGM_TANOSHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03H.jpg,(s),100%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),r,(s),60%
+#ig
+
+#next,02common03-3B_02

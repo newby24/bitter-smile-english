@@ -1,0 +1,961 @@
+﻿// 既読フラグ
+#read_flag,323
+
+// MEGUMI_0401KT4
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KT4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070226
+めぐみ
+「そうよ～？」
+$k
+
+優
+「…知らなかった」
+$k
+
+// MEGUMI_0401TH
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01TH.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070227
+めぐみ
+「まあ、言ってなかったし？」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03001219
+桜子
+「あははっ」
+$k
+
+// MII_0903AD
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03AD.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03030166
+みい
+「明るい受験生ですねぇ」
+$k
+
+// 	SS_( RIGHT, CHISEKA_0401KN );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),r,(s),60%
+#ie,c3
+#ig
+
+// 	SS( LEFT, SAKURAKO_0401TR4 );
+
+// CHISEKA_0401KN
+#sp,vo,03040174
+知世翔
+「私達の応援、必要なかったかも…」
+$k
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),60%
+#ig
+
+// SAKURAKO_0402KM4
+#sp,vo,03001220
+桜子
+「そんな事ないわ、知世翔ちゃ……
+$nw,2190
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),l,(s),60%
+#ig
+
+　じゃなくて、
+$nw,1000
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),l,(s),60%
+#ig
+
+　知世翔」
+$k
+
+// CHISEKA_0401BS
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03040175
+知世翔
+「そうですか…良かったです。
+$nw,3500
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l2,(al),0%
+#ip,c2,(x),c
+#ig
+
+　じゃあ先輩っ、いっぱい応援しますねっ！
+$nw,3500
+
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG.png,(x),c,(s),60%
+#ig
+
+　フレーっ、
+$nw,1000
+
+#madd,フレーっ、
+$nw,1000
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c2,(y+),-10
+#ig
+
+#madd,セ、
+$nw,500
+
+#ir,(ef),move,(dr),200,(lt),over,(lc),2
+#ip,c2,(x+),-10
+#ig
+
+#madd,ン、
+$nw,500
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c2,(y+),-10
+#ig
+
+#madd,パ、
+$nw,500
+
+// 気づきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op2,(fi),image\icon\kiduki.png,(x),520,(y),30,(ag),-20d
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op2,(al),0%
+#ig
+
+#madd,イっ！！」
+
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+// 	CS( RIGHT, CENTER )
+// 	SS_( CENTER, CHISEKA_0401EG );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( CENTER, CHISEKA_0401IK );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( CENTER, CHISEKA_0401EG3 );
+// 立ち絵移動。パラメータは適宜。
+
+&empty
+古い応援、というか、恥ずかしい応援の仕方だ。
+公衆の面前でフレー、フレー、とか。
+$k
+
+// 	SS_( RIGHT, CHISEKA_0401EG );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( LEFT, MII_0901NO );
+
+// MII_0901NO
+#ir,(ef),off
+#ip,c3,(fi),MII_A901.png,(psi),MII_An01NO.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c2,(x),r
+#ig
+
+#sp,vo,03030167
+みい
+「３人とも、せいぜい頑張って下さい」
+$k
+
+優
+「おう」
+$k
+
+// CHISEKA_0401KM3
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03040176
+知世翔
+「せいぜいは余計なんじゃ…」
+$k
+
+// 	SS_( RIGHT, MEGUMI_0401BS );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS.png,(x),r,(s),60%
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),l,(s),60%
+#ie,c2
+#ig
+
+// 	SS( LEFT, SAKURAKO_0402NO4 );
+// SAKURAKO_0402NO4
+
+#sp,vo,03001221
+桜子
+「時間に余裕を持たせたいし、そろそろ行こうか？」
+$k
+
+// MEGUMI_0401BS
+#sp,vo,03070228
+めぐみ
+「そうだね」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ip,c3,(x),l2,(al),0%
+#ig
+
+優
+「それじゃあ、みいちゃんに有河、行ってくるぜ！」
+$k
+
+// 	SS_( RIGHT, CHISEKA_0401BS );
+
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01BS.png,(x),r,(s),60%
+#ip,c3,(fi),MII_A901.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+// 	SS( LEFT, MII_0901NO );
+// MII_0901BS
+
+#sp,vo,03030168
+みい
+「ええ、お気を付けて」
+$k
+
+// CHISEKA_0401EG
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03040177
+知世翔
+「落ち着けば大丈夫ですからねー。
+$nw,2110
+
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01EG3.png,(x),r,(s),60%
+#ig
+
+　最後まで頑張ってきてください」
+$k
+
+優
+「はは、ありがとう」
+$k
+
+// SAKURAKO_0402EG
+
+#sp,vo,03001222
+桜子
+「行ってきまーす！」
+$k
+
+// MEGUMI_0401EG3
+
+#sp,vo,03070229
+めぐみ
+「じゃあね～ん♪」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+駅に向かって歩き出す俺たちを、
+みいちゃんと有河が笑顔で見送る。
+$k
+
+&empty
+二人は俺たちが見えなくなるまで、
+ずっと寒空の下、手を振って見送ってくれた。
+$k
+
+// MII_0901KY2
+#ir
+#ip,c3,(fi),MII_A901.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030169
+みい
+「…行きましたね」
+$k
+
+// CHISEKA_0401KN
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03040178
+知世翔
+「うん、
+　３人とも受かるといいなぁ。
+$nw,3990
+
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01TR3.png,(x),r,(s),60%
+#ig
+
+　……特に桜子先輩」
+$k
+
+// MII_0902NO
+#ir
+#ip,c3,(fi),MII_A902.png,(psi),MII_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030170
+みい
+「ふふ、そうですね」
+$k
+
+// MII_0903NO
+#ir
+#ip,c3,(fi),MII_A903.png,(psi),MII_An03NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03030171
+みい
+「……で、私達はこれからどうしますか？」
+$k
+
+// CHISEKA_0401NR
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01NR.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03040179
+知世翔
+「じゃあ、次は神社でお参りね」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+// 	SV( BG_HS_TENNAI01A, FILTER_SEPIA|FILTER_LINKSTAND );
+// 	SS_( RIGHT, MEGUMI_A901IK5 );
+
+#sp,bgm,BGM_OMOIDE
+
+#ir,(dr),2000
+#ip,bg,(fi),BG_HS_TENNAI01A_s.jpg,(s),100%
+#ip,c1,(fi),MEGUMIs_A901.png,(psi),MEGUMIs_An01IK5.png,(x),r,(s),80%
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01KN.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, CHISEKA_A401KN );
+
+// 	RFI( RULE_CIRCLE );
+
+#show
+
+// MEGUMI_A901IK5
+
+#sp,vo,03070230
+めぐみ
+「優ちゃんが言いたい事は分かったけど」
+$k
+
+// CHISEKA_A401KN
+
+#sp,vo,03040180
+知世翔
+「うん…」
+$k
+
+// ISAKI_A501NO
+
+#sp,vo,03010097
+勇樹
+「………」
+$k
+
+// MEGUMI_A901IK5
+#sp,vo,03070231
+めぐみ
+「でも、なんで優ちゃんは
+　桜子に付き合ってた事を言わないの？」
+$k
+
+優
+「それは今の桜子に失礼、だろ？」
+$k
+
+// CHISEKA_A401KN
+
+#sp,vo,03040181
+知世翔
+「………」
+#meffect,flow,5
+$k
+
+優
+「振ったはずの俺がまた近くに住んでいて、
+　ただでさえ混乱気味なのに……」
+$k
+
+優
+「俺と付き合ってたって言われても、
+　だから？　って事になるだろ？」
+$k
+
+優
+「そもそもそういうのってなんか卑怯だろ？
+　今の桜子の気持ちとは、関係ない情報なんだしさ」
+$k
+
+// MEGUMI_A901IK
+#ir
+#ip,c1,(fi),MEGUMIs_A901.png,(psi),MEGUMIs_An01IK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070232
+めぐみ
+「そんな事ないよ～」
+$k
+
+// CHISEKA_A401KN
+
+#sp,vo,03040182
+知世翔
+「私も……
+$nw,1990
+
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01TR3.png,(x),l,(s),80%
+#ig
+
+　めぐみ先輩と同じ意見です」
+$k
+
+// CHISEKA_A401MJ
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01MJ.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040183
+知世翔
+「桜子先輩が昔荒れてたって話、矢崎先輩は？」
+$k
+
+優
+「ああ……まあ、それなりには」
+#meffect,flow,5
+$k
+
+// CHISEKA_A401MJ
+#sp,vo,03040184
+知世翔
+「先輩がそうなったのは、
+　あんたが引っ越した後っていうのも？」
+$k
+
+// CHISEKA_A401NR
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01NR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040185
+知世翔
+「それって、あなたが好きだからって
+　事じゃないんですか？
+$nw,4490
+
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01KN.png,(x),l,(s),80%
+#ig
+
+　まあ、自覚してたかどうかは知りませんけど」
+$k
+
+// MEGUMI_A901SP2
+#ir
+#ip,c1,(fi),MEGUMIs_A901.png,(psi),MEGUMIs_An01SP2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070233
+めぐみ
+「してたと思うよ？」
+$k
+
+// CHISEKA_A401KN
+
+#sp,vo,03040186
+知世翔
+「そうなんですかね…」
+$k
+
+// MEGUMI_A901MJ2
+#ir
+#ip,c1,(fi),MEGUMIs_A901.png,(psi),MEGUMIs_An01MJ2.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070234
+めぐみ
+「桜子なりに、悩んでたんでしょうけど」
+$k
+
+// CHISEKA_A401TR3
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01TR3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040187
+知世翔
+「まあ、とにかく、そういうわけです」
+$k
+
+// CHISEKA_A401TR3
+#sp,vo,03040188
+知世翔
+「ですから桜子先輩の事を、
+　しっかり何とかしてみせて下さい」
+$k
+
+// CHISEKA_A401IK
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01IK.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040189
+知世翔
+「桜子先輩は昔からあなたの事を、
+　好きだったはずなんですっ」
+$k
+
+優
+「でも振られたし。
+　今はその状態のままなんだぞ？」
+$k
+
+// CHISEKA_A401TR3
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01TR3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040190
+知世翔
+「で、でも」
+#meffect,flow,5
+$k
+
+優
+「告白した日だって。
+　仕方なく付き合ってあげる、
+　ってのが決め言葉だったしな…」
+$k
+
+// CHISEKA_A401SN
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01SN.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040191
+知世翔
+「えーと…」
+#meffect,flow,5
+$k
+
+// MEGUMI_A901KM
+#ir
+#ip,c1,(fi),MEGUMIs_A901.png,(psi),MEGUMIs_An01KM.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070235
+めぐみ
+「………」
+$k
+
+優
+「付き合ってからだって、
+　……桜子からは、好きって言葉、
+　あまり聞いた事が無いような…」
+$k
+
+// CHISEKA_A401TR3
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01TR3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03040192
+知世翔
+「………まさか、そんな事ないですよ。
+$nw,4500
+
+#ir
+#ip,c2,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01NR.png,(x),l,(s),80%
+#ig
+
+　ただ言葉がなかったってだけでしょ？」
+$k
+
+// MEGUMI_A901BS
+#ir
+#ip,c1,(fi),MEGUMIs_A901.png,(psi),MEGUMIs_An01BS.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070236
+めぐみ
+「そうだよぉ、ホントに好きじゃなかったら、
+　そもそも付き合いもしてないと思うしねぇ」
+$k
+
+優
+「それは……桜子だしなあ」
+$k
+
+// MEGUMI_A901IK
+#ir
+#ip,c1,(fi),MEGUMIs_A901.png,(psi),MEGUMIs_An01IK.png,(x),r,(s),80%
+#ig
+
+#sp,vo,03070237
+めぐみ
+「桜子がお情けで、優ちゃんと付き合うと思う？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2
+#ig
+
+&empty
+まあ、それは考えにくいんだけど。
+$k
+
+&empty
+……それでも、
+以前振られた理由がわからないしな。
+$k
+
+&empty
+今はまさに、その時の桜子なわけだし…。
+$k
+
+// 	SS_( CENTER, CHISEKA_A401IK4 );
+
+#ir,(dr),0
+#ip,c1,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01IK4.png,(x),c,(s),80%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+// CHISEKA_A401IK4
+
+#sp,vo,03040193
+知世翔
+「ああーもう！」
+$k
+
+// 	DelAction( CENTER );
+
+
+// CHISEKA_A401IK
+#ir
+#ip,c1,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03040194
+知世翔
+「あんたなんかまだマシじゃない。
+$nw,2320
+
+　あたしや宮津橋先輩は、
+　存在すら忘れられてるのよ！？」
+$k
+
+優
+「な、なんかわりぃな…」
+#meffect,flow,5
+$k
+
+// CHISEKA_A401IK
+#sp,vo,03040195
+知世翔
+「しっかりしてくださいよっ！
+$nw,1990
+
+　ほんとにだらしないんだから。
+$nw,2000
+
+#ir
+#ip,c1,(fi),CHISEKAs_A401.png,(psi),CHISEKAs_An01IK2.png,(x),c,(s),80%
+#ig
+
+　そりゃ先輩が振るかもね！」
+
+$k
+
+優
+「う…」
+#meffect,flow,5
+$k
+
+// 	SS( CENTER, MEGUMI_A901IK5 );
+
+// MEGUMI_A901IK5
+#ir
+#ip,c1,(fi),MEGUMIs_A901.png,(psi),MEGUMIs_An01IK5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03070238
+めぐみ
+「でも記憶がそんな状態なら、
+　まだやり直しも早く済む可能性もあると思うのよ」
+$k
+
+// MEGUMI_A901IK5
+#sp,vo,03070239
+めぐみ
+「むしろ早い方がいいと思うなぁ」
+$k
+
+// 	CS_( CENTER, LEFT );
+
+
+// 	SS( RIGHT, ISAKI_A501IK, MOVE_RIGHT, RIGHT );
+
+// ISAKI_A501IK
+#ir,(ef),off
+#ip,c3,(fi),ISAKIs_A501.png,(psi),ISAKIs_An01IK.png,(x),r2,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+#sp,vo,03010098
+勇樹
+「こうなったら力ずくで…」
+$k
+
+// MEGUMI_A901KN3
+#ir
+#ip,c1,(fi),MEGUMIs_A901.png,(psi),MEGUMIs_An01KN3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03070240
+めぐみ
+「いや、勇樹ちゃんは変な事考えないようにね？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),2000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+// 	RFO( RULE_CIRCLE );
+// 特殊な画面変更。暫定的に。
+
+// 	ShowFace();
+// 	SV( BG_MT_EKI01A );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_EKI01A.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),60%
+#ig
+
+#show
+
+// SAKURAKO_0402AK
+
+#sp,vo,03001223
+桜子
+「んーっ、試験疲れたーっ」
+$k
+
+優
+「ううー寒っ。早くコタツに入りてぇ…」
+$k
+
+// 	SS_( RIGHT, SAKURAKO_0402NO5 );
+
+// 	SS( LEFT, MEGUMI_0401BS );
+
+// MEGUMI_0401BS
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS.png,(x),l2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l,(al),100%
+#ip,c1,(x),r
+#ig
+
+#sp,vo,03070241
+めぐみ
+「二人とも試験どうだった～？」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),r,(s),60%
+#ig
+
+// SAKURAKO_0402NO5
+#sp,vo,03001224
+桜子
+「んー、案外なんとかなっちゃうものね。
+　意外と思ってたより、できたかも。
+$nw,6150
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NS.png,(x),r,(s),60%
+#ig
+
+　こういうのって日頃の蓄積がものを言うのねー？」
+$k
+
+// 	CS( RIGHT, CENTER, SLOW );
+
+優
+「俺を見て言うなよ…」
+$k
+
+&empty
+なんで記憶喪失の桜子より、
+俺の方が不安なんだ。
+$k
+
+優
+「そ、そうか。
+　まあ結果出るまではわからんぞ？」
+$k
+
+// SAKURAKO_0402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001225
+桜子
+「なんで否定的なのよあんた」
+$k
+
+優
+「だってお前はもう本命は済ませてるからな。
+　今回が駄目でも、なんとかなってそうだし。
+　元々滑り止めなんだろ？　ここはよ」
+$k
+
+&empty
+それ以前に記憶喪失の奴が果たしてどこまで…。
+$k
+
+// SAKURAKO_0402KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001226
+桜子
+「あー、そういや、そうだっけ」
+$k
+
+優
+「そういや出がけに、
+　滑る、とか言ってなかったか？」
+$k
+
+優
+「…やっぱりあれは不吉な言葉だったんだよ！
+　だから俺は今、こんなに不安なんだ。うおぉ…」
+$k
+
+// SAKURAKO_0402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001227
+桜子
+「ばっかみたい。
+$nw,1490
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),r,(s),60%
+#ig
+
+　めぐはどうだった？」
+$k
+
+// 	SS_( LEFT, MEGUMI_0401KD, MOVE_LEFT, NORMAL );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KD.png,(x),l,(s),60%
+#ig
+
+// 	CS( CENTER, RIGHT );
+
+
+// MEGUMI_0401KD
+#sp,vo,03070242
+めぐみ
+「どうだろ～？
+$nw,1170
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS3.png,(x),l,(s),60%
+#ig
+
+　回答欄は全部埋めたけどね」
+$k
+
+優
+「お、俺だって一応埋めたぞ？」
+$k
+
+// SAKURAKO_0402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03001228
+桜子
+「一応ってのが怪しいんだけど」
+$k
+
+
+#next,03sakurako18_06

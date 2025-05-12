@@ -1,0 +1,609 @@
+﻿// 既読フラグ
+#read_flag,187
+
+#show
+
+&empty
+くそっ、どこだ、宮津橋。
+$k
+
+&empty
+あいつ、足速すぎだろ……。
+$k
+
+// 	SS( CENTER, ISAKI_0101NO );
+
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+&empty
+あっ、いた！！
+$k
+
+優
+「待てよ、宮津橋！」
+$k
+
+// ISAKI_0101KB
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010003
+勇樹
+「……！！」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+&empty
+睨まれた上に、
+宮津橋はさっさと走って行ってしまった。
+$k
+
+&empty
+もしかして、俺、相当あいつに嫌われてないか？
+$k
+
+&empty
+でも、授業も始まるし、
+このままって訳にはいかないよな。
+$k
+
+&empty
+それに……さっき、教室を出て行く直前の
+宮津橋の顔。
+$k
+
+&empty
+あんな顔を見ておいて、放っておけるか！
+$k
+
+#hide
+
+#ir,(dr),1000,(ef),stretch_lr
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+// 	SV( BG_GK_KAIDAN01A );
+
+// 	CFI();
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KAIDAN01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「おい、待てって！」
+$k
+
+//	SS( CENTER, ISAKI_0101NO );
+// ISAKI_0101IK
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010004
+勇樹
+「さっきからうるさいな。
+　私になにか用でもあるのか」
+$k
+
+優
+「あるから呼び止めてるんだろ」
+$k
+
+// ISAKI_0101MU
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010005
+勇樹
+「そうか。私にはない」
+$k
+
+優
+「だから、待てって！」
+$k
+
+// 	SS_( CENTER, ISAKI_0101IK );
+
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+&empty
+宮津橋は嫌そうな顔をしながらも、
+足を止めてはくれた。
+$k
+
+優
+「なあ、教室に戻ろうぜ。
+　授業も始まっちゃうしさ」
+$k
+
+// ISAKI_0101MU
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010006
+勇樹
+「……私がいると、迷惑だろう」
+$k
+
+&empty
+あぁ、まただ。
+$k
+
+&empty
+どこか、遠くを見てるような……、
+ひどく寂しそうな目。
+$k
+
+// ISAKI_0101KB
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010007
+勇樹
+「だから教室を出てきたまでだ。
+　おまえにどうこう言われる筋合いはない」
+$k
+
+優
+「そんな事言ってないでさ、戻ろうって。
+　授業サボったりしてると、よけい教室に
+　入りづらくなるぞ？」
+$k
+
+&empty
+サボリなんかしていたら、
+余計に不良ってイメージがついてしまう。
+$k
+
+// ISAKI_0101MU
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010008
+勇樹
+「別にいい。私に構うな。鬱陶しい」
+$k
+
+// ISAKI_0101KB
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010009
+勇樹
+「他に用がないなら行くぞ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+//	SS_( CENTER, ISAKI_0101MU );
+&empty
+そのまま、宮津橋は屋上へ上がっていこうとする。
+$k
+
+// 	SS_( CENTER, ISAKI_A101MU, MOVE_STOP, NORMAL );
+// 	SV( BG_GK_KAIDAN01A );
+// 	ZoomVisual( 0, 150, 150, 100, 0 );
+
+優
+「だから、待ってくれって！」
+$k
+
+&empty
+俺は、その手を掴もうと……
+$k
+
+// ISAKI_A102IK
+#ir
+#ip,c1,(fi),ISAKI_A102.png,(psi),ISAKI_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04010010
+勇樹
+「邪魔をするなっ！」
+$k
+
+#ss,bgm
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),K_Binta01
+
+#ir,(dr),500
+#ie,c1
+#ie,ov
+#ig
+
+// 	Blur( 0, 10 );
+// 	SK2();
+// 	BGMStop();
+
+優
+「うわっっ！」
+$k
+
+// 	BlurZoom( 100, 5, 10 );
+// ISAKI_0102IK
+
+#sp,vo,04010011
+勇樹
+「！！」
+$k
+
+#hide
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Dotadotan01
+
+#ir,(dr),500
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	Fade( FAST, 0 );
+//#sp,se,S_Dotadotan01
+//#sp,se,S_Gatan01
+
+// 	WaitSE();
+
+// 	Blur();
+// 	Fade();
+
+// 	SV( BG_GK_KAIDAN01A );
+// 	SS( CENTER, ISAKI_A102KM );
+// 	ZoomVisual( 0, 150, 150, 400, 500 );
+// 	ZoomStand( CENTER, 0, 250, 250 );
+
+// 	MoveStand( CENTER, 0, 0, -400 );
+// 	Pinboke();
+
+
+// 	RFI( RULE_EYE, SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KAIDAN01A.jpg,(s),100%,(y),d_s
+#ip,c1,(fi),ISAKI_A102.png,(psi),ISAKI_An02KM.png,(x),c,(s),100%,(y),d_s
+#ig
+
+#show
+
+優
+「いててて……」
+$k
+
+&empty
+目を開けると、体の上に柔らかい重みがあった。
+$k
+
+#sp,se,S_Pon02,(lp),1
+
+&empty
+なんだ、これ、ふにふにして、あったか……
+$k
+
+// 	Pinboke( 0, PINBOKE_NORMAL, 0 );
+
+優
+「って、宮津橋？」
+$k
+
+&empty
+あ、あー、そうか。俺、宮津橋もろとも、
+階段から落ちて……下敷きになったのか。
+$k
+
+#sp,vo,04070000
+？？？
+#mstyle,(co),めぐみ
+「ちょっとー、なにやってるのよ、優ちゃん」
+$k
+
+優
+「あ、めぐみ」
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(y),def
+#ig
+
+// 	CFO();
+// 特殊な画面変更。暫定的に。
+// 	SS( CENTER, MEGUMI_0101AK3 )
+// 	MveStand( CENTER, 0, 0, -200 );
+// 	Zoom( 0, 150, 150, 400, 500 );
+
+// 	CFI();
+
+// 	Scroll( 100|SPEED_DOWN, 0, -300 );
+// 	WaitScroll();
+// 	Scroll( 100|SPEED_DOWN, 0, 0 );
+// 	WaitScroll();
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01AK3.png,(x),c,(s),60%
+#ig
+
+#show
+
+&empty
+いつの間に来たのか、めぐみが俺の顔を上から
+のぞき込んでいた。
+$k
+
+&empty
+スカートをきっちりと押さえながら。
+$k
+
+// MEGUMI_0101AK
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01AK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070001
+めぐみ
+「ほら、立って！」
+$k
+
+優
+「お、おう」
+$k
+
+#ir
+#ie,c1
+#ig
+
+// 	SV( BG_GK_KAIDAN01A );
+// 	MoveStand( CENTER, 0, 0, 0 );
+
+&empty
+めぐみに手を引っ張られて、なんとか身を起こす。
+$k
+
+&empty
+腰が痛い。
+かなり強く打ってしまったみたいだ。
+$k
+
+&empty
+って、そうだ、宮津橋！
+$k
+
+// 	CFO();
+// 	CFI();
+
+優
+「わ、悪い。立てるか、宮津橋」
+$k
+
+&empty
+恐る恐る手を差し伸べてみる。
+$k
+
+// ISAKI_0101IK
+
+#sp,vo,04010012
+勇樹
+「…………ふん」
+$k
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#sp,se,S_Nuno05
+
+// 	SS( CENTER, ISAKI_0101IK, MOVE_DOWN,NORMAL );
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+&empty
+今度は振り払われなかった。
+$k
+
+&empty
+けれど、立ち上がった宮津橋は
+すぐにそっぽを向いてしまう。
+$k
+
+優
+「な、なあ、怪我とかないか？
+　どこか打ったり……ほんと、ごめん、俺……」
+$k
+
+// ISAKI_0101MU
+#ir
+#ip,c1,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010013
+勇樹
+「余計な事をするな」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+優
+「あっ……」
+$k
+
+&empty
+あっという間に宮津橋は屋上の方へ
+すたすたと歩き去ってしまった。
+$k
+
+優
+「どうしようか……」
+$k
+
+&empty
+追いかけるべきか、それとも放っておくべきか。
+$k
+
+// 	SS( CENTER, MEGUMI_0101IK2, MOVE_RIGHT );
+
+// MEGUMI_0101IK2
+#ir
+#ip,c3,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01IK2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070002
+めぐみ
+「って、優ちゃんには授業があるでしょ！」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig,(se),S_Hipparu01
+
+優
+「痛っ、痛てっ！　耳を引っ張るなって！」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM, 6, 6, 1 );
+// 	WaitShake();
+// 	Shake( SLOW, SHAKE_RANDOM, 6, 6 );
+
+
+// MEGUMI_0101SP
+#ir
+#ip,c3,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01SP.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070003
+めぐみ
+「あの分なら怪我はなさそうだし……今は、
+　放っておいてあげた方がいいんじゃない？」
+$k
+
+優
+「そうかもな……」
+$k
+
+&empty
+居心地の悪い教室に無理に連れ戻す事が、
+宮津橋にとって本当にいい事なのかわからない。
+$k
+
+&empty
+もしかしたら、ただの俺のエゴかもしれない。
+$k
+
+// MEGUMI_0101NO
+#ir
+#ip,c3,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070004
+めぐみ
+「じゃ、優ちゃんは、私と教室に戻るよ～」
+$k
+
+優
+「お、おう」
+$k
+
+&empty
+後ろ髪を引かれるような気分になりながらも、
+俺はめぐみと一緒に教室へ戻った。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ie,c3
+#ig
+
+#wait,500
+
+
+//	BFO();
+//	FO( SLOW );
+//	SetEndTitleEx();
+//	WT( 100 );
+// エピソードエンド。使用ファイルは共通と個別で異なるが、位置は同じ。
+#ir,(ef),off
+#ip,c1,(fi),image\sysc\sysc_black.jpg,(x),0,(y),0,(al),0%
+#ip,op1,(fi),image\stitle\stitle_epend1.png,(x),816,(y),405,(s),100%,(al),0%,(ag),-10d
+#ip,op2,(fi),image\stitle\stitle_epend1.png,(x),738,(y),392,(s),40%,(al),0%,(ag),-20d
+#ip,op3,(fi),image\stitle\stitle_epend1.png,(x),576,(y),468,(s),60%,(al),0%,(ag),-30d
+#ip,c4,(fi),image\stitle\stitle_epend5.png,(x),0,(y),0,(al),0%
+#ip,ov,(fi),sysc_black.jpg,(al),0%
+#ig
+
+#ir,(dr),2000,(ef),move,(lt),straight,(lc),no_limit,(cv),linear
+#ip,c1,(al),70%
+#ip,op1,(ag),-100d,(rx+),60,(ry+),60,(al),80%
+#ip,op2,(ag),70d,(rx+),24,(ry+),24,(al),80%
+#ip,op3,(ag),-120d,(rx+),36,(ry+),36,(al),80%
+#ip,c4,(al),100%
+#ia,c1,al,(lt),straight,(lc),0
+#ia,op1,al,(lt),straight,(lc),0
+#ia,op1,ag,(dr),4000
+#ia,op2,al,(lt),straight,(lc),0,(dl),500
+#ia,op2,ag,(dr),5000
+#ia,op3,al,(lt),straight,(lc),0,(dl),500
+#ia,op3,ag,(dr),6000
+#ia,c4,al,(lt),straight,(lc),0,(dl),1000
+#ig
+
+$k
+
+#ss,bgm
+
+#ir,(dr),2000,(ef),move
+#ip,ov,(al),100%
+#ig
+
+#ir,(ef),off
+#ie,c1,op1,op2,op3,c4
+#ig
+
+#ir,(ef),off
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 一度クリアしていれば、ジャンプ可能。
+#next,90jump02:(if),sys,0,==,1
+
+#next,02common01-3_00

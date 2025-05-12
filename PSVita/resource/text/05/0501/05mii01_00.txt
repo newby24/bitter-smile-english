@@ -1,0 +1,789 @@
+﻿// 既読フラグ
+#read_flag,120
+
+// セーブタイトル
+#flag,save_title,みい　第１話,0,0
+
+// みい好感度＋１。
+#flag,per,3,+,1
+
+// 	SV( BG_SJ_2FROKA01A );
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_2FROKA01A.jpg,(s),100%
+#ig
+
+#sp,env,S_Gatagata02#
+
+// エピソードタイトルの表示
+#note,みい　第１話　隠しきれない隠し事
+$k
+#note,erase
+
+#show
+
+優
+「ん？　もう仕込みか？」
+$k
+
+&empty
+朝っぱらから、階下から物音がする。
+$k
+
+&empty
+婆さん、今朝はやけに早いな。
+$k
+
+&empty
+千寿の開店まではまだ間があるから、
+いつもなら、朝飯を食って一息ついてから
+準備を始めるのだが。
+$k
+
+#hide
+
+#ss,env,(dr),1000
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#ss,bgm
+
+//#sp,se,S_Walk04i
+
+// 	WaitSE();
+
+#show
+
+#sp,vo,05030000
+？？？
+#mstyle,(co),みい
+「っ！　お待ちくださいお兄様っ」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_WINDOW, 10, 4 );
+
+
+優
+「え？」
+$k
+
+#hide
+
+// 	SV( BG_SJ_KAIDAN01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KAIDAN01A.jpg,(s),100%
+#ig
+
+#sp,se,S_Gatan01
+
+// 	//三木：SEで処理
+
+//	SM( CHAR_ETC,			-1,					"",				"がーっ、がたがたたっ。" );
+#show
+
+#sp,vo,05030001
+？？？
+#mstyle,(co),みい
+「そこでしばし、しばしのお待ちを！」
+$k
+
+&empty
+何だ、みいちゃんか？
+$k
+
+&empty
+何やら慌しいけど、
+店の仕込じゃなかったのか？
+$k
+
+// 	SS( CENTER, MII_0103EG, MOVE_RIGHT );
+
+// MII_0103EG
+#ir,(ef),off
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03EG.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,05030002
+みい
+「はい。よろしいですよお兄様」
+$k
+
+#hide
+
+// 	SV( BG_SJ_TENNAI01A );
+
+#sp,bgm,BGM_MII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_TENNAI01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「………」
+$k
+
+// 	SS( CENTER, MII_0103EG3, MOVE_RIGHT );
+
+// MII_0103EG3
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03EG3.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),300,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,05030003
+みい
+「…ど、どうかなさいましたか？　お兄様」
+$k
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+優
+「どうかなさってるのは、そっちだと思うんだが…」
+$k
+
+&empty
+息ちょっと荒いし、
+汗ばんでるし。
+$k
+
+// MII_0103TR4
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030004
+みい
+「お兄様…朝からそんな目で見つめられると、
+　困ってしまいます…」
+$k
+
+優
+「いや、別に変な目で見てないから」
+$k
+
+// MII_0103NO2
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030005
+みい
+「そうですか。それは残念」
+$k
+
+優
+「どっちだよっ。
+　てか、朝からそういうノリに付き合うのは
+　ツライからやめて」
+$k
+
+&empty
+それにしても。
+$k
+
+優
+「それはそうと、何してたのみいちゃん？」
+$k
+
+&empty
+見たとこ店の中はとくに変わった様子はないけど…。
+$k
+
+// MII_0102NO
+#ir
+#ip,c1,(fi),MII_A102.png,(psi),MII_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030006
+みい
+「いえ、別に。
+　お兄様を起こしにきて差し上げただけです」
+$k
+
+優
+「むしろ起きてくるのを止められた感じだったけど？
+　何か騒がしかったし」
+$k
+
+// MII_0101KS
+#ir
+#ip,c1,(fi),MII_A101.png,(psi),MII_An01KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030007
+みい
+「あー、ちょっと椅子を引っ掛けてしまいましてね」
+$k
+
+優
+「それだけ？」
+$k
+
+// MII_0103MJ
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03MJ.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030008
+みい
+「それだけですとも」
+$k
+
+優
+「なら別に俺が降りてきても問題なかったのでは？」
+$k
+
+// MII_0103AD3
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03AD3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030009
+みい
+「いえ、そこは。
+　お兄様の前で醜態を曝け出すのは忍びないですから」
+$k
+
+優
+「そんなもんかな？」
+$k
+
+// MII_0103TR4
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030010
+みい
+「痴態ならいいんですけどね」
+$k
+
+優
+「その違いが俺にはわからないよ」
+$k
+
+&empty
+どちらかと言うと、そっちのが恥ずかしい気がする。
+$k
+
+// MII_0103NO2
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05030011
+みい
+「そこは意図的かどうかというところが重要で。
+$nw,3780
+
+#ir
+#ip,c1,(fi),MII_A103.png,(psi),MII_An03NO.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),100,(al),0%
+#ig
+
+　では、実践してみましょうか」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「だから、そういうノリはいいから！」
+$k
+
+// 	Shake( NORMAL, SHAKE_RANDOM|SHAKE_SCREEN, 10, 4 );
+
+&empty
+スカートに手をかけるみいちゃん。
+何をする気だっ。
+$k
+
+優
+「まあ、わかったから、
+　とりあえず朝飯にしよう」
+$k
+
+// 	SS( CENTER, MII_0101BS, MOVE_DOWN );
+
+// MII_0101BS
+#ir,(ef),off
+#ip,c1,(fi),MII_A101.png,(psi),MII_An01BS.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(ef),off
+#ip,c1,(y+),100
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(y+),-100,(al),100%
+#ig
+
+#sp,vo,05030012
+みい
+「そうですね。では参りましょうか」
+$k
+
+&empty
+何か企んでるんじゃないかとなんとなく気になるけど、
+この子の場合、あまり突っ込むとドツボにはまるからな。
+
+$k
+
+&empty
+今は深く考えないようにしよう。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,2000
+
+//	SetSubTitle();		//章タイトル表示
+//	SetSubTitleEx( 1 );
+// 	
+
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#sp,bgm,BGM_TANOSHII
+
+#sp,se,S_Chime01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ふう、終わった終わった」
+$k
+
+&empty
+今日も一日、滞りなく授業が終了する。
+$k
+
+// 	SS( CENTER, MEGUMI_0101BS2, MOVE_RIGHT );
+
+// MEGUMI_0101BS2
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,05070000
+めぐみ
+「優ちゃん、今日はこの後どうする～？
+　どっか寄ってく？」
+$k
+
+優
+「いや、今日は千寿のバイト。
+　とっとと帰らないとな」
+$k
+
+// MEGUMI_0101EG4
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070001
+めぐみ
+「そっか、そうなんだあ。
+　頑張ってね」
+$k
+
+優
+「おう」
+$k
+
+// MEGUMI_0101SP2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01SP2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070002
+めぐみ
+「あれ？　そう言えば今日ってさあ、
+　確か…」
+$k
+
+優
+「ん、なんだ？
+　何かあったっけ、今日？」
+$k
+
+// MEGUMI_0101KM8
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KM8.png,(x),c,(s),60%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),520,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+#sp,vo,05070003
+めぐみ
+「あれ、違ったかな？」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+&empty
+首を捻るめぐみ。
+今日…そういや、何か忘れてるような気がする…？
+$k
+
+#ss,bgm,(dr),1000
+
+// MEGUMI_0101KD2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070004
+めぐみ
+「今日って確か、優ちゃん…」
+$k
+
+// 	//★これも立ちグラの向き次第かなぁ
+
+//	SS( RIGHTOUT, MII_0101NO );
+// MII_0101AS3
+#ir,(ef),off
+#ip,c3,(fi),MII_A101.png,(psi),MII_An01AS3.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#sp,bgm,BGM_COMICAL1
+
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01OD.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r,(al),100%
+#ig
+
+#sp,vo,05030013
+みい
+「うわーお！　わーお、わ、わおぉー！！」
+$k
+
+// 	SK2( SLOW, 10, 5 );
+//	CS_( RIGHTOUT, CENTERRIGHT );
+// 	SetStandEx( CENTERRIGHT, MII_0101AS3 );
+// 	ZoomStand( CENTERRIGHT, 20, 140, 140 );
+// 	FadeStand( CENTERRIGHT, 10, FADE_ALPHA, 100 );
+// 	SS_(CENTER, MEGUMI_0101OD);
+
+// 	CS(CENTER, LEFT);
+// 	ZoomStand( CENTERRIGHT, 20, 100, 100 );
+
+優
+「みいちゃん？」
+$k
+
+&empty
+いきなりみいちゃんが、獣に育てられた少年のような
+声を上げながら現れた。
+$k
+
+// MII_0103SN
+#ir
+#ip,c3,(fi),MII_A103.png,(psi),MII_An03SN.png,(x),r,(s),60%
+#ig
+
+#sp,vo,05030014
+みい
+「めぐみお姉様、ちょっとこちらへ。
+$nw,2400
+
+#ir
+#ip,c3,(fi),MII_A103.png,(psi),MII_An03EG.png,(x),r,(s),60%
+#ig
+
+　あ、お兄様はそちらで」
+$k
+
+// 	MoveStand( CENTERRIGHT, NORMAL, -200, 0 );
+
+#ir,(dr),500,(ef),move
+#ip,c3,(x),r2,(al),0%
+#ip,c1,(x),r0,(al),0%
+#ig
+
+&empty
+そう言うと、引ったくりのような勢いで
+めぐみの手をとり廊下へ出て行く。
+$k
+
+// 	ShakeStand( LEFT, SLOW, SHAKE_LEFT, 10, 8, 0, 1 );
+// 	MoveStand( CENTERRIGHT, NORMAL|SPEED_DOWN, 100, 0, 0, 0 );
+// 	MoveStand( LEFT, NORMAL|SPEED_DOWN, 400, 0, 0, 1 );
+// 	MoveStand( CENTERRIGHT, NORMAL|SPEED_UP, 400, 0, 0, 0 );
+
+// 	MoveStand( LEFT, NORMAL|SPEED_UP, 800, 0, 0, 1 );
+// 	//三木：引っ張られていくようフェードアウト加工済み
+
+// MEGUMI_0101NO
+
+#sp,vo,05070005
+めぐみ
+「あ、あれー？　みいちゃんどうしたのー？」
+$k
+
+&empty
+取り残される俺。
+$k
+
+// 	SS( CENTER, ISAKI_0101NO, MOVE_LEFT );
+
+// ISAKI_0101NO
+#ir
+#ip,c2,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05010000
+勇樹
+「…何の騒ぎだ？」
+$k
+
+優
+「ああ。いや、なんかみいちゃんが
+　急にめぐみを連れ出してってな」
+$k
+
+// ISAKI_0101NO
+// ISAKI_0101MU
+#sp,vo,05010001
+勇樹
+「轟木妹が？
+$nw,1190
+
+#ir
+#ip,c2,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+　…………………
+$nw,1520
+
+#ir
+#ip,c2,(fi),ISAKI_A101.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c2,(y+),10
+#ig
+
+#madd,あぁ」
+
+$k
+
+優
+「ん？　何か知ってるのか、宮津橋？」
+$k
+
+// ISAKI_0101KB
+#ir
+#ip,c2,(fi),ISAKI_A101.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05010002
+勇樹
+「別に何も」
+$k
+
+優
+「いや、今お前なんか思い出したろ？
+　なんなんだよ？」
+$k
+
+// ISAKI_0101MU
+#ir
+#ip,c2,(fi),ISAKI_A101.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05010003
+勇樹
+「知らん。興味ない」
+$k
+
+優
+「俺の興味は！？」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r0,(al),0%
+#ig
+
+&empty
+そっけなくすたすたと行ってしまう宮津橋。
+$k
+
+// 	SS( CENTER, MEGUMI_0101BS2, MOVE_RIGHT );
+
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+&empty
+と、入れ違いにめぐみが戻ってくる。
+$k
+
+// MEGUMI_0101EG4
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070006
+めぐみ
+「ごめーん、優ちゃん、何でもなかった」
+$k
+
+優
+「何でもないって…あれ？　みいちゃんは？」
+$k
+
+// MEGUMI_0101BS
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070007
+めぐみ
+「今日、優ちゃんの代わりに自分がバイトするからって
+　先帰ったよ」
+$k
+
+優
+「今顔合わせたのに、わざわざ伝言か？
+　つーか、バイト代わるってなんで…」
+$k
+
+// MEGUMI_0101KD2
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01KD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070008
+めぐみ
+「んー……
+$nw,2720
+
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01BS4.png,(x),c,(s),60%
+#ig
+
+　とりあえず、ゆっくり時間潰して
+　帰ってこいってさ。それじゃ、レッツゴー！」
+$k
+
+// 	SS( CENTER, MEGUMI_A101EG4, MOVE_STOP, NORMAL );
+
+優
+「時間潰すって、おい！」
+$k
+
+// MEGUMI_A101NO
+#ir
+#ip,c1,(fi),MEGUMI_A101.png,(psi),MEGUMI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,05070009
+めぐみ
+「いいからいいから」
+$k
+
+&empty
+怪しすぎる！
+みいちゃん、何企んでるんだ。
+$k
+
+//	WALK_STAND( CENTER, 0, 10, 20 );
+//	WT( 200 );
+//	WALK_STOP( CENTER );
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//----このイベント終わるまでオブジェクトがあるから修正時注意。
+//	SetAnimeObject( 0, "batuzirusi.spm", 0, 650, 450, OBJATTR_TOP );
+// 	SetAnimeObject( 1, "batuzirusi.spm", 1, 450, 380, OBJATTR_TOP );
+// 	SetAnimeObject( 2, "batuzirusi.spm", 2, 800, 350, OBJATTR_TOP );
+// 	SetAnimeObject( 3, "batuzirusi.spm", 3, 750, 350, OBJATTR_TOP );
+// 	SV( BG_SJ_GAIKAN02A );
+
+#sp,se,T_karasu01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN02A.jpg,(s),100%
+#ig
+
+// 	WaitSE();
+
+#wait,2000
+
+// 	SV( BG_SJ_GAIKAN03C );
+
+#sp,env,T_yoru01
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN03C.jpg,(s),100%
+#ig
+
+#next,05mii01_01

@@ -1,0 +1,815 @@
+﻿// 既読フラグ
+#read_flag,294
+
+#sp,vo,03000528
+桜子
+「一体なんの事よ！」
+$k
+
+#sp,vo,03040101
+知世翔
+「桜子先輩は、あのだらしないのが
+　好きなんじゃないですか！」
+$k
+
+#sp,vo,03000529
+桜子
+「ちっ…違うわよ！」
+#mlarge
+$k
+
+#sp,vo,03040102
+知世翔
+「じゃあ、その目は何ですか！？」
+#mlarge
+$k
+
+#sp,vo,03000530
+桜子
+「これはっ…」
+$k
+
+#sp,vo,03040103
+知世翔
+「そんな目を赤くするほど…」
+$k
+
+#sp,vo,03040104
+知世翔
+「桜子先輩はあのウジ虫野郎が好きなんです。
+　あいつも桜子先輩が好きだって、
+　分かってますよね！？」
+$k
+
+#sp,vo,03040105
+知世翔
+「なのに、なにをそんなに…」
+$k
+
+#sp,vo,03000531
+桜子
+「………」
+$k
+
+#sp,vo,03040106
+知世翔
+「桜子先輩っ…」
+$k
+
+#sp,vo,03000532
+桜子
+「知世翔…」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_RYUUSEN );
+// 	SV( BG_MT_TEIBO01A );
+
+// 	RFI( RULE_RYUUSEN );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「……はあっ、…はっ……あ…桜子っ」
+#meffect,flow,5
+$k
+
+&empty
+ようやく桜子の近くまで追いついた。
+$k
+
+#flag,cg,4,=,1
+
+// SAKURAKO_0402AS
+#ir
+#ip,bg,(fi),VISUAL_CHISEKA_04A.jpg,(s),75%
+#ig
+
+#sp,vo,03000533
+桜子
+「優っ！？」
+#mlarge
+$k
+
+優
+「助かったよ有河…」
+$k
+
+&empty
+お前、逃げ足速過ぎだよ…。
+$k
+
+// SAKURAKO_0403IK
+
+#sp,vo,03000534
+桜子
+「っ！！」
+#mlarge
+$k
+
+// CHISEKA_0401IK
+
+#sp,vo,03040107
+知世翔
+「あっ、逃げないでくださいっ」
+$k
+
+// SAKURAKO_0403IK
+#sp,vo,03000535
+桜子
+「知世翔っ、放してっ！」
+$k
+
+// CHISEKA_0401OD3
+
+#sp,vo,03040108
+知世翔
+「先輩、
+$nw,1100
+
+　きゃ、暴れないでっくださいっ！」
+
+$k
+
+#sp,se,Ma_Nuno02
+
+// SAKURAKO_0403IK
+#sp,vo,03000536
+桜子
+「知世翔が羽交い締めにするからでしょ！？
+$nw,2640
+
+　放して、
+$nw,950
+
+　は、な……せー～っ」
+
+$k
+
+#sp,se,Ma_Nuno01
+
+// CHISEKA_0401IK4
+
+#sp,vo,03040109
+知世翔
+「絶対、放しませんっ！」
+$k
+
+優
+「はぁっ、はぁっ…あのな、桜子…」
+#meffect,flow,5
+$k
+
+// ISAKI_0402IK
+
+#sp,vo,03010058
+勇樹
+「矢崎……
+$nw,1200
+
+#madd,伝えろ」
+
+$k
+
+// SAKURAKO_0402IK3
+
+#sp,vo,03000537
+桜子
+「ちょっ、なんで勇樹、あんたまでっ…！」
+$k
+
+#hide
+
+// 	SV( BG_MT_TEIBO01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TEIBO01A.jpg,(s),100%
+#ig
+
+#show
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「桜子ぉ――――っ！！」
+#mlarge
+$k
+
+// SAKURAKO_0402AS
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000538
+桜子
+「っ！？」
+$k
+
+// CHISEKA_0401NR
+
+#sp,vo,03040110
+知世翔
+「………」
+$k
+
+// ISAKI_0402MU
+
+#sp,vo,03010059
+勇樹
+「………」
+$k
+
+#sp,se,S_Wind02
+
+// 	WaitSE( -1 );
+
+&empty
+今度こそ、告白するんだ。
+$k
+
+// SAKURAKO_0403KM
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000539
+桜子
+「………」
+#meffect,flow,5
+$k
+
+&empty
+桜子に、想いを伝えるんだ。
+$k
+
+&empty
+あの頃も今も、俺はずっとずっと、
+桜子だけを…、
+$k
+
+優
+「桜子っ、好きだっ」
+$k
+
+// SAKURAKO_0402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000540
+桜子
+「優………っ」
+#meffect,flow,5
+$k
+
+#ir
+#ie,c1
+#ig
+
+&empty
+あのときの気持ち…
+$k
+
+&empty
+桜子が大好きで、振られたのが悲しくて、
+何年も経った今でも、やっぱり俺には桜子しか
+居なくて。
+$k
+
+&empty
+忘れる事はやっぱり無理で…。
+$k
+
+優
+「俺と…」
+#meffect,flow,5
+
+$k
+
+// 	Pinboke( 100, PINBOKE_DETAIL );
+
+&empty
+想いが涙になって溢れてくる。
+$k
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000541
+桜子
+「…なっ」
+$k
+
+// ISAKI_0401MU
+
+#sp,vo,03010060
+勇樹
+「………」
+$k
+
+// SAKURAKO_A402KM2
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000542
+桜子
+「みんな…なんでっ…」
+$k
+
+// ISAKI_0401NO
+
+#sp,vo,03010061
+勇樹
+「…最後まで聞いてやれ」
+$k
+
+// SAKURAKO_A403KM
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000543
+桜子
+「っ…」
+#meffect,flow,5
+$k
+
+// 	Pinboke( 100, PINBOKE_NORMAL, 0 );
+
+&empty
+深呼吸をして俺は更に続ける。
+$k
+
+#ss,bgm
+
+優
+「桜子が好きなんだっ、俺と付き合ってくれ！」
+$k
+
+// SAKURAKO_A403KM
+#sp,vo,03000544
+桜子
+「………」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A403NK2
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NK2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000545
+桜子
+「……っ」
+$k
+
+// CHISEKA_0401MJ
+
+#sp,vo,03040111
+知世翔
+「…先輩？」
+$k
+
+// SAKURAKO_A403NK
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NK.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000546
+桜子
+「だ…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A401KN
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000547
+桜子
+「だ、だ、だっ………」
+$k
+
+&empty
+桜子の視線が、ちらりと泳ぐ。
+$k
+
+// ISAKI_0401NO
+#sp,vo,03010062
+勇樹
+「………」
+#meffect,flow,5
+$k
+
+優
+「…だ？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A401NK3
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK3.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03000548
+桜子
+「……大嫌いっ！！」
+#mlarge
+$k
+
+#sp,se,S_Basa01
+
+#ir
+#ie,c1
+#ig
+
+// 	WaitSE( -1 );
+// CHISEKA_0401OD
+
+#sp,vo,03040112
+知世翔
+「あっ！？」
+$k
+
+&empty
+桜子が有河の腕からするりと抜け出した。
+$k
+
+// 	SS( CENTER, SAKURAKO_0401NK3 );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK3.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0401NK3
+#sp,vo,03000549
+桜子
+「大嫌いっ！　ばかあっ！」
+#mlarge
+$k
+
+#sp,se,S_Dash08o
+
+#ir,(dr),500,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「あっ、桜子…」
+$k
+
+#sp,bgm,BGM_KANASHIMI
+
+&empty
+桜子は泣いていた。
+$k
+
+// CHISEKA_0401KM
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KM.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040113
+知世翔
+「せんぱいっ」
+$k
+
+#ir
+#ie,c3
+#ig
+
+&empty
+大嫌い。
+$k
+
+&empty
+そう言って、桜子がまた走って行ってしまう…。
+$k
+
+// 	SS( CENTER, CHISEKA_0401IK );
+
+// CHISEKA_0401IK
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03040114
+知世翔
+「追いかけないとっ」
+$k
+
+// 	CS_( CENTER, LEFT );
+// 	SS( RIGHT, MEGUMI_0401IK3, MOVE_RIGHT, NORMAL );
+
+// MEGUMI_0401IK3
+#ir,(ef),off
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK3.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ip,c3,(x),l
+#ig
+
+#sp,vo,03070180
+めぐみ
+「…待って」
+$k
+
+// CHISEKA_0401OD3
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01OD3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03040115
+知世翔
+「めぐみ先輩っ？」
+$k
+
+&empty
+泣くほど大嫌い…なのか。
+$k
+
+// MEGUMI_0401IK2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03070181
+めぐみ
+「有河ちゃんは行かなくてもいいよ。
+$nw,2490
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK3.png,(x),r,(s),60%
+#ig
+
+　追いかけるのは……
+$nw,1760
+
+　有河ちゃんじゃないの」
+$k
+
+// CHISEKA_0401IK
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03040116
+知世翔
+「でもっ、桜子先輩が行っちゃいますよっ？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+桜子は、泣いてた…。
+$k
+
+&empty
+それは……どういう意味の涙なのか。
+$k
+
+&empty
+………大嫌いって言ってた。
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig,(se),S_Punch01
+
+// 	WaitSE( -1 );
+
+優
+「っ！？」
+$k
+
+// 	SS( CENTER, ISAKI_A402IK );
+
+// ISAKI_A402IK
+#ir
+#ip,c2,(fi),ISAKI_A402.png,(psi),ISAKI_An02IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03010063
+勇樹
+「矢崎、しっかりしろ！」
+#mlarge
+$k
+
+// CHISEKA_0401OD3
+
+#sp,vo,03040117
+知世翔
+「宮津橋先輩っ！？」
+$k
+
+// MEGUMI_0401IK2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK2.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+#sp,vo,03070182
+めぐみ
+「そうよ。
+$nw,990
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK3.png,(x),c,(s),80%
+#ig
+
+　ほら、優ちゃんが追いかけなきゃ！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+優
+「でも…」
+#meffect,flow,5
+$k
+
+&empty
+今は確信も自信も何もないが……
+$k
+
+&empty
+でも。
+$k
+
+// MEGUMI_0401IK2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03070183
+めぐみ
+「後はね、今一番頑張らなきゃいけない人が
+　全力で追いかけないと…」
+$k
+
+// CHISEKA_0401KN
+#ir
+#ip,c3,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01KN.png,(x),l2,(s),80%
+#ig
+
+#sp,vo,03040118
+知世翔
+「…そうですよね」
+$k
+
+優
+「………」
+$k
+
+// 	SS( CENTER, MEGUMI_A401BS );
+
+// MEGUMI_A401BS
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS.png,(x),c,(s),100%
+#ie,c3
+#ig
+
+#sp,vo,03070184
+めぐみ
+「優ちゃん………
+$nw,1280
+
+　絶対、大丈夫だから。
+$nw,2420
+
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01EG3.png,(x),c,(s),100%
+#ig
+
+　本当は分かってるよね？」
+$k
+
+優
+「めぐみ…」
+#meffect,flow,5
+$k
+
+// MEGUMI_A401IK4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03070185
+めぐみ
+「分かったら、さっさと追いかけるっ！」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig,(se),S_Punch03
+
+// 	WaitSE( -1 );
+
+優
+「うわ！
+　…っと、分かってるって」
+$k
+
+// 	SS( CENTER, MEGUMI_A401IK2, MOVE_STOP, NORMAL );
+
+// MEGUMI_A401IK2
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01IK2.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03070186
+めぐみ
+「あとは優ちゃん一人でしっかりやりなさいよ？」
+$k
+
+優
+「ああ……
+$nw,1000
+
+　俺、ちょっと行ってくるわ」
+$k
+
+// MEGUMI_A401BS4
+#ir
+#ip,c1,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS4.png,(x),c,(s),100%
+#ig
+
+#sp,vo,03070187
+めぐみ
+「……うん、がんばってっ」
+$k
+
+#hide
+
+#sp,se,S_Dash03o
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+みんなを背に、走り出す。
+$k
+
+&empty
+桜子の姿はもう見えない。
+$k
+
+&empty
+けど、追いついてやる。
+$k
+
+&empty
+今度は俺１人で、意地でも捕まえてやる。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_TSUGAKURO01A );
+
+#sp,bgm,BGM_SYOSO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_TSUGAKURO01A.jpg,(s),100%
+#ig
+
+
+
+
+#next,03sakurako13_03

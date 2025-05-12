@@ -1,0 +1,843 @@
+﻿// 既読フラグ
+#read_flag,25
+
+// SAKURAKO_0302NO5
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000233
+桜子
+「よね、だからおっちゃんのお古とか
+　あたしや妹の服で男モノっぽいのを、サイズの
+　デカイ奴とか見繕ってきたの。数はないけどさ」
+$k
+
+優
+「おお、すまんな。
+$nw,1000
+
+　って、お前とみいちゃんのお古……」
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000234
+桜子
+「嫌なら着なきゃいいだけでしょうが。
+$nw,2800
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),60%
+#ig
+
+
+　それより……」
+$k
+
+優
+「いやいやいや、ありがとうございます！
+　ありがたく頂戴します」
+$k
+
+// SAKURAKO_0302NR
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000235
+桜子
+「ふん、いいけど。
+　下着とかは明日にでも買いに行くとして…」
+$k
+
+&empty
+よく考えたら、俺ってここに来てから
+何にもしてない様な……
+$k
+
+優
+「なんか俺の為に至れり尽くせり、じゃね？」
+$k
+
+// SAKURAKO_0303NS
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000236
+桜子
+「………にや」
+#msmall
+$k
+
+優
+「え…」
+$k
+
+&empty
+今、こいつ嫌な笑い方した！
+$k
+
+// SAKURAKO_0302EG
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000237
+桜子
+「心配しないでいいのよ、優」
+$k
+
+// SAKURAKO_0302EG
+#sp,vo,01000238
+桜子
+「あんたの良心を痛めないようにって、
+　ちゃんと『労働』という対価を用意してあるから」
+$k
+
+優
+「だいたい何をさせられるかは想像つくが、
+　お前らどんだけ俺をこき使う予定なんだ…」
+$k
+
+// SAKURAKO_0302EG
+#sp,vo,01000239
+桜子
+「大丈夫よ、受験勉強に支障ない程度に。
+　幼なじみのために大特価サービス割引してある」
+$k
+
+&empty
+信用できん。
+$k
+
+// SAKURAKO_0302NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000240
+桜子
+「そーんな事より」
+$k
+
+// SAKURAKO_0302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01000241
+桜子
+「もうすぐお婆ちゃんが新しい子連れて帰ってくるから
+　居間に集合だってさ」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+夕食の仕度まで、まだ間のあるこの時間、
+婆さんが連れてきたのは……。
+$k
+
+// KINO_0401BS2
+#ir
+#ip,c1,(fi),KINO_A401BS2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,01060013
+紀乃
+「紹介しようかね。
+　新しくウチで暮らす事になってしもた…」
+$k
+
+#hide
+
+#ir
+#ie,c1
+#ig
+
+// 	SS(CENTER, ISAKI_0302NO, MOVE_STOP, NORMAL);
+
+#sp,bgm,BGM_ISAKI
+
+#ir,(dr),1000
+#ip,c2,(fi),ISAKI_A302.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#show
+
+優
+「！！！」
+#mlarge
+$k
+
+// SAKURAKO_0301NO
+
+#sp,vo,01000242
+桜子
+「どうしたの、あんた顔色悪いわよ？」
+$k
+
+// KINO_0401BS2
+#sp,vo,01060014
+紀乃
+「宮津橋さんや、仲ようしたってな」
+#mfuri,　　みやつ　ばし
+
+$k
+
+優
+「宮津……なんで！？　………お前が…」
+$k
+
+// SAKURAKO_0301NO
+#sp,vo,01000243
+桜子
+「優、この娘の事知ってんの？」
+$k
+
+// ISAKI_0302NO
+
+#sp,vo,01010007
+勇樹
+「みなさん初めまして。
+　宮津橋勇樹です、よろしくお願いします」
+#mfuri,　　みやつ　ばしいさき
+
+$k
+
+// SAKURAKO_0302NO
+
+#sp,vo,01000244
+桜子
+「優？」
+$k
+
+優
+「いや、なんでもない…」
+#meffect,flow,5
+$k
+
+// ISAKI_0302NO
+#sp,vo,01010008
+勇樹
+「……これからお世話になります」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+
+#show
+
+&empty
+夕食をみんなで食べたあと、
+俺は今日も疲れてるからと早々に部屋へ戻った。
+$k
+
+// 	SV( BG_SJ_YU03A );
+
+&empty
+夕食の間、宮津橋はほとんど喋らなかった。
+$nw,1000
+
+俺とは……。
+$k
+
+&empty
+その後、部屋の話になったが、
+他人の家は居づらいだとかで、彼女も千寿の二階に
+住む事になったとか。
+$k
+
+&empty
+桜子は反対したみたいだが
+元々事情のある住人の為のようなアパートだったし、
+そういう事で落ち着いた。
+$k
+
+&empty
+たぶん……昨日のアレは見間違えじゃなかったんだな。
+$k
+
+&empty
+俺は、あいつとまた会うなんて思ってもいなかった。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(ef),off
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KT.png,(x),r3,(s),60%,(al),0%
+#ig
+
+#sp,se,S_Door03o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r2,(al),100%
+#ig
+
+// 	SS(RIGHT, SAKURAKO_0303KT, MOVE_RIGHT, NORMAL);
+
+#show
+
+// SAKURAKO_0303KT
+
+#sp,vo,01000245
+桜子
+「優、入るわよ」
+$k
+
+// SAKURAKO_0303KM
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03KM.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000246
+桜子
+「ねえ、あんた本当に大丈夫なの？」
+$k
+
+優
+「……心配するなら、まずはノックくらいしろよな」
+$k
+
+// SAKURAKO_0303NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A303.png,(psi),SAKURAKO_An03NO3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000247
+桜子
+「………」
+#meffect,flow,5
+$k
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),r3
+#ig
+
+// 	CS(RIGHT, RIGHTRIGHT, NORMAL);
+
+#sp,se,S_Knock01
+
+#wait,500
+
+優
+「だから遅えって」
+$k
+
+#ir,(dr),1000,(ef),move,(sync),NO
+#ip,c1,(x),r2
+#ig
+
+#sp,bgm,BGM_SAKURAKO
+
+// 	CS(RIGHTRIGHT, RIGHT, NORMAL);
+
+// SAKURAKO_0302NO
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000248
+桜子
+「なーんだ、顔色いいじゃない、
+　ホントに心配したのよ？」
+$k
+
+優
+「どーだか、
+　あの時の俺は腹へって気を失いそうだっただけだよ」
+$k
+
+// SAKURAKO_0302NO2
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO2.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000249
+桜子
+「ふーん、あっそ」
+$k
+
+優
+「ん、それおまえなに持ってんだ？」
+$k
+
+// SAKURAKO_0302NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000250
+桜子
+「ああ、これ？
+　おば様からあんたに国際電話」
+$k
+
+優
+「まさか…」
+$k
+
+// SAKURAKO_0302NO4
+#sp,vo,01000251
+桜子
+「うん？　ああ、繋がりっぱなしだけど。
+$nw,3560
+
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02NO3.png,(x),r2,(s),60%
+#ig
+
+　はい、どうぞ」
+$k
+
+優
+「お前、そういうことは早く言えよっ！」
+$k
+
+&empty
+幸い、いま桜子とは変な会話してなかったと
+思うけど……。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_GENKAN01A );
+
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN01A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01PU5.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+// 	SS(RIGHT, KANAME_0301PU5, MOVE_RIGHT, NORMAL);
+
+#show
+
+// KANAME_0301PU5
+
+#sp,vo,01020026
+要
+「たっだいまー！」
+$k
+
+#hide
+
+// 	SV( BG_TD_GENKAN03B );
+
+#sp,se,S_Husuma01o
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKAN03B.jpg,(s),100%,(er),NO
+#ig
+
+// 	SS(LEFT, MII_0301KY, MOVE_STOP, NORMAL);
+
+// MII_0301KY
+#ir
+#ip,c3,(fi),MII_A301.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#show
+
+#sp,vo,01030054
+みい
+「おや、いい所にいらっしゃいましたお姉様」
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03B );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03B.jpg,(s),100%
+#ip,c1,(fi),KANAME_A302.png,(psi),KANAME_An02KT.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r,(al),100%
+#ig
+
+// 	SS(RIGHT, KANAME_0302KT, MOVE_RIGHT, NORMAL);
+
+// KANAME_0302KT
+
+//$nw,670
+
+#show
+
+#sp,vo,01020027
+要
+「あれえ優くんは～？
+$nw,2110
+
+#ir
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01NO3.png,(x),r,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),720,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+　えっ、もしかしてもう御飯終わっちゃった？」
+$k
+
+
+
+// 	SS(LEFT, MII_0301BS, MOVE_STOP, NORMAL);
+
+// MII_0301BS
+#ir
+#ip,c3,(fi),MII_A301.png,(psi),MII_An01BS.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,01030055
+みい
+「こっちにきて後片付けを……
+$nw,2460
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000,(sync),NO
+#ip,c1,(x),r2,(al),0
+#ig
+
+#ir
+#ip,c3,(fi),MII_A301.png,(psi),MII_An01KB.png,(x),l2,(s),60%
+#ig
+
+　無視ですか」
+
+$k
+
+// 	WaitStand( RIGHT );
+
+// YUKIHA_0301NO
+#ir
+#ip,c2,(fi),YUKIHA_A301.png,(psi),YUKIHA_An01NO.png,(x),c,(s),60%
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01NO3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01050038
+雪華
+「お兄ちゃんなら千寿の方の部屋に……」
+$k
+
+// 	SS(RIGHT, KANAME_0301KT, MOVE_RIGHT, NORMAL);
+
+// MII_0301NI2
+#ir
+#ip,c3,(fi),MII_A301.png,(psi),MII_An01NI2.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,01030056
+みい
+「これはただいまではなく、ただのこんばんはですね。
+　もうお姉様はこの家の住人ではないのですし」
+$k
+
+// KANAME_0301FK4
+#ir
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01FK4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01020028
+要
+「もぉー冷たい子ねー！　お姉ちゃんが心配して
+　様子を見に来てあげたというのに」
+$k
+
+// MII_0301BS
+#ir
+#ip,c3,(fi),MII_A301.png,(psi),MII_An01BS.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,01030057
+みい
+「では、お言葉に甘えまして、洗い物の手伝いを……」
+$k
+
+// KANAME_0301KT
+#ir
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01KT.png,(x),r2,(s),60%
+#ig
+
+// ひらめきアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hirameki.png,(x),780,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,01020029
+要
+「おや、この子は？」
+$k
+
+// MII_0301KB
+#ir
+#ip,c3,(fi),MII_A301.png,(psi),MII_An01KB.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,01030058
+みい
+「聞く気無しですね」
+$k
+
+// 	SS(LEFT, ISAKI_0302NO, MOVE_STOP, NORMAL);
+
+// ISAKI_0302NO
+#ir
+#ip,c3,(fi),ISAKI_A302.png,(psi),ISAKI_An02NO.png,(x),l,(s),60%
+#ie,c2
+#ig
+
+#sp,vo,01010009
+勇樹
+「こんばんは、今日からお世話になっています、
+　宮津橋です」
+$k
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\hatena.png,(x),770,(y),0,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op1,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+// KANAME_0301KT
+#sp,vo,01020030
+要
+「あれ………うーん？」
+#meffect,flow,5
+$k
+
+// ISAKI_0302NO
+#sp,vo,01010010
+勇樹
+「……なにか？」
+$k
+
+#ir,(ef),off
+#ie,op1
+#ig
+
+// KANAME_0301KT
+#sp,vo,01020031
+要
+「もしかして、あなた……」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03A );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「お久しぶりです、母上っ」
+$k
+
+#sp,vo,01110000
+育美
+「あんたはもう、ほんっと愛想のない子ね――！」
+$k
+
+優
+「なにがだよ、いいだろ」
+$k
+
+&empty
+桜子が電話してる横で膝に顎を乗せて
+俺の方をじーっと見ている。
+$k
+
+優
+（しっしっ！）
+#msmall
+$k
+
+&empty
+俺は手で出て行けと促す。
+$k
+
+&empty
+なんか母親と話すところって異性には
+あまり見られたくないし、落ちつかねえし。
+$k
+
+&empty
+たとえ電話越しの会話でも。
+$k
+
+// SAKURAKO_0302IK7
+#ir
+#ip,c1,(fi),SAKURAKO_A302.png,(psi),SAKURAKO_An02IK7.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,01000252
+桜子
+「むーっ」
+#msmall
+$k
+
+#ir
+#ie,c1
+#ig
+
+#sp,vo,01110001
+育美
+「聞こえてるわよ、
+　あんた、桜子ちゃんもっと大事にしてあげなさいよ」
+$k
+
+優
+「なんで、そんな話になるんだよ」
+$k
+
+#sp,vo,01110002
+育美
+「あんた、もっと頑張りなさいよ。ゲットよゲット！
+　母さんはあんたの事応援してるからね」
+$k
+
+優
+「いや、いらないんだけどね、そういうの」
+$k
+
+&empty
+そういうのがウザいって分からんのかね。
+いや、俺も雪華ちゃんの事とかあるし
+あんま強くいえないけどさ。
+$k
+
+&empty
+親ほど余計な気を使って
+雰囲気ぶち壊したりとかするしな！
+$k
+
+&empty
+悪い気はしないのも確かなんだけど、
+恥ずかしさ気マズさをやたら煽るからなあ。
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　　　あお
+この手の輩は。
+
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_1FROKA03A );
+// 	SS(LEFT, ISAKI_0301MU);
+// 	SS(RIGHT, KANAME_0301KT);
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_1FROKA03A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A301.png,(psi),KANAME_An01KT.png,(x),r,(s),60%
+#ip,c3,(fi),ISAKI_A301.png,(psi),ISAKI_An01MU.png,(x),l,(s),60%
+#ig
+
+#show
+
+// KANAME_0301KT
+#sp,vo,01020032
+要
+「………どうして？」
+$k
+
+// ISAKI_0301MU
+
+#sp,vo,01010011
+勇樹
+「…そういう事で、お願いしますね」
+$k
+
+
+#next,01pro01_16

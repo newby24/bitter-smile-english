@@ -1,0 +1,681 @@
+﻿// 既読フラグ
+#read_flag,194
+
+// セーブタイトル
+#flag,save_title,勇樹　第４話,0,0
+
+// 勇樹好感度＋１。
+#flag,per,2,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_GK_KYOSHITSU01A );
+
+#sp,bgm,BGM_ISAKI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_KYOSHITSU01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,勇樹　第４話　クレープの王子様
+$k
+#note,erase
+
+#show
+
+&empty
+今日こそ、宮津橋とちゃんと話をしよう。
+$k
+
+&empty
+そう意気込んでいた俺だったが、
+宮津橋は授業が終わるやいなや、
+姿を消してしまった。
+$k
+
+&empty
+……いったいどうすればいいんだ。
+$k
+
+優
+「と、いうか、前より冷たくなってないか？」
+$k
+
+&empty
+ニセの恋人をやっていた時だって、
+よく話をしていたわけではないが、
+せめて一緒に帰る事はしていた。
+$k
+
+&empty
+その頃よりも
+接点がなくなっているような気がする。
+$k
+
+優
+「だからって……またつきあおうって言う気も
+　ないわけだしなあ」
+$k
+
+// 	SS( CENTER, KOBAYASHI_0201EG, MOVE_RIGHT );
+
+// KOBAYASHI_0201EG
+#ir,(ef),off
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01EG.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,04080002
+小林
+「そうだそうだ！　二股はいか……」
+$k
+
+#ir,(dr),200
+#ip,ov,(fi),sysc_white.jpg
+#ig,(se),S_Punch01
+
+#ir,(dr),500
+#ip,c1,(fi),KOBAYASHI_A201.png,(psi),KOBAYASHI_An01AY.png,(x),c,(s),60%
+#ie,ov
+#ig
+
+// 	SS_( CENTER, KOBAYASHI_0201AY, MOVE_STOP, 0 );
+// 立ち絵移動。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(y+),100,(al),0%
+#ig
+
+優
+「またつまらぬものを殴ってしまった……」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),S_Nuno02
+
+// 	Shake( SLOW, SHAKE_UP|SHAKE_SCREEN, 10, 40 );
+
+&empty
+ふっ、と拳を振ると、いきなり背中に温かくて
+重たいものが覆い被さってきた。
+$k
+
+優
+「うおっ……！」
+$k
+
+//	SetStandPosEx( LEFT, MEGUMI_0201BS4, 500, 0, 100 );
+//	FadeStand( LEFT, 50, FADE_ALPHA, 100 );
+// MEGUMI_0201BS4
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070022
+めぐみ
+「なにため息ついてるの？」
+$k
+
+優
+「ああ、ちょっとな。
+　宮津橋と話したいんだけど、あいつ、最近、
+　すぐに帰っちゃうだろ？」
+$k
+
+// MEGUMI_0201KT4
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070023
+めぐみ
+「なに？　勇樹ちゃんと話したいの？
+　なら、うちに来ればいいじゃない」
+$k
+
+優
+「なんで？」
+$k
+
+// MEGUMI_0201KT2
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070024
+めぐみ
+「だって、あのコ、うちでバイトしてるもの」
+$k
+
+優
+「あーっっっ！」
+$k
+
+&empty
+そういえばそうだ！！
+そこに気づかないなんて、俺は阿呆か！
+$k
+
+// MEGUMI_0201EG4
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04070025
+めぐみ
+「うち、寄ってく？」
+$k
+
+優
+「そうする……」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_HS_TENNAI01A );
+
+#sp,bgm,BGM_COMICAL2
+
+#sp,se,S_Cowbell02
+
+// 	SS( CENTER , ISAKI_0501NO);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_HS_TENNAI01A.jpg,(s),100%
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+// 	WaitSE();
+
+#show
+
+// ISAKI_0501NO
+#sp,vo,04010051
+勇樹
+「いらっしゃいま……」
+$k
+
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01IK.png,(x),c,(s),60%
+#ig
+
+&empty
+店に入った瞬間、宮津橋に睨まれた。
+$k
+
+// ISAKI_0501MU
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01MU.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010052
+勇樹
+「なんだ、お前か」
+$k
+
+優
+「なんだ、って……」
+$k
+
+// ISAKI_0501KB
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01KB.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010053
+勇樹
+「帰れ」
+$k
+
+優
+「おいおい、そりゃないだろっ」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010054
+勇樹
+「目障りだ」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+優
+「ちょっ、おっちゃん！
+　こいつ、厨房に入れておいた方がよくないか？」
+$k
+
+//	SS( CENTER, DAIGO_0301NO );
+
+&empty
+思わず、奥でクレープを焼いているおっちゃんに
+そう忠告したくもなる。
+$k
+
+&empty
+顔を見た瞬間に、帰れはないだろう、普通。
+$k
+
+// DAIGO_0301BS
+#ir
+#ip,c3,(fi),DAIGO_A301BS.png,(x),r,(s),75%
+#ig
+
+#sp,vo,04090000
+沖奈大吾
+「ま、いいから、いいから」
+$k
+
+優
+「いや、よくないだろ！」
+$k
+
+// 	SS_( LEFT, DAIGO_0301BS );
+
+// 	SS( RIGHT, MEGUMI_0901KT4 );
+
+// MEGUMI_0901KT4
+#ir,(ef),off
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT4.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l
+#ip,c2,(x),r,(al),100%
+#ig
+
+#sp,vo,04070026
+めぐみ
+「いつもは普通に接客してくれてるよ？」
+$k
+
+優
+「って事は俺にだけこの対応！？」
+$k
+
+&empty
+なんだろう、この妙な寂しさは。
+$k
+
+// DAIGO_0301EG2
+#ir
+#ip,c3,(fi),DAIGO_A301EG2.png,(x),l,(s),75%
+#ig
+
+#sp,vo,04090001
+沖奈大吾
+「まあ、優君、とりあえずこっちに座りなって。
+　秋祭りの事で話があるんだろ？」
+$k
+
+優
+「へ？　秋祭り？」
+$k
+
+// MEGUMI_0901IK4
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01IK4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070027
+めぐみ
+「やだ。聞いてないの？
+　うちと千寿の屋台、隣同士で出す事に
+　決まったじゃない」
+$k
+
+優
+「いや、決まったじゃないって言われても。
+　俺はまったくもって聞いてないんだが」
+$k
+
+// MEGUMI_0901IK
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01IK.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070028
+めぐみ
+「ちゃんと桜子に伝えといてって
+　言っておいたのにな～」
+$k
+
+優
+「あいつに言ったら、俺に伝わらないんだってば！」
+$k
+
+&empty
+本当、もういい加減にしてください。
+$k
+
+&empty
+何で、俺の周りだけ『ほうれんそう』って言葉が
+ないんだろう。
+$k
+
+// DAIGO_0301BS
+#ir
+#ip,c3,(fi),DAIGO_A301BS.png,(x),l,(s),75%
+#ig
+
+#sp,vo,04090002
+沖奈大吾
+「まあまあ、優君も焼くんだろ、たこ焼き」
+$k
+
+優
+「まあ、その流れだと、そうなるんかなぁ」
+$k
+
+// MEGUMI_0901EG3
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070029
+めぐみ
+「仲良くしようねっ」
+$k
+
+優
+「おう」
+$k
+
+// MEGUMI_0901BS3
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070030
+めぐみ
+「勇樹ちゃんも、ほら」
+$k
+
+&empty
+あ、そうか。
+$k
+
+&empty
+宮津橋がここでバイトしているって事は、
+秋祭りで宮津橋とも隣同士って事だよな。
+$k
+
+//	DW();
+//	CFO( FAST );
+//	DS( -1 );
+//	SS( CENTER, ISAKI_0501AZ );
+//	CFI( FAST );
+//	SW();
+// ISAKI_0501AZ
+
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01AZ.png,(x),l3,(s),60%
+#ig
+
+#sp,vo,04010055
+勇樹
+「…………ちっ！」
+$k
+
+//	CFO( FAST );
+//	DS( -1 );
+//	SS( RIGHT, MEGUMI_0901EG4 );
+//	SS( LEFT, DAIGO_0301EG );
+//	CFI( FAST );
+
+#ir
+#ie,c1
+#ig
+
+&empty
+ちょっ、お聞きになられました？
+$k
+
+&empty
+今、あからさまに舌打ちされたんだが。
+$k
+
+&empty
+俺、そんなに嫌われるような事、したか？
+$k
+
+&empty
+それより……宮津橋はあんな調子で
+本当にちゃんと接客とか出来てるのか？
+$k
+
+優
+「なあなあ」
+$k
+
+// MEGUMI_0901KT2
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01KT2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070031
+めぐみ
+「なーに？」
+$k
+
+優
+「さっきから見てると、あいつにちゃんと客の相手が
+　出来てるとは思えないんだが」
+$k
+
+// MEGUMI_0901EG2
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070032
+めぐみ
+「だーいじょうぶよぅ」
+$k
+
+// DAIGO_0301BS
+#sp,vo,04090003
+沖奈大吾
+「そうそう。今じゃ、勇樹ちゃん目当てに来る
+　お客さんだって多いんだから」
+$k
+
+優
+「ウソだろ！！」
+$k
+
+// DAIGO_0301MJ
+#ir
+#ip,c3,(fi),DAIGO_A301MJ.png,(x),l,(s),75%
+#ig
+
+#sp,vo,04090004
+沖奈大吾
+「ウソじゃないって。
+　おじさんが優君を担ごうとした事が
+　あったかい？」
+$k
+
+優
+「何度もあっただろっ！」
+$k
+
+&empty
+再会した直後から出前の件で担がれたし。
+$k
+
+&empty
+俺は誰を信じて生きればいいんだろう。
+$k
+
+// MEGUMI_0901EG3
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070033
+めぐみ
+「まあまあ、そんなに疑わないで。
+　本当なんだからー」
+$k
+
+#ss,bgm
+
+#ir
+#ie,c2,c3
+#ig
+
+優
+「どうだか……」
+$k
+
+#sp,bgm,BGM_KEIKAI
+
+// 	SS_( CENTER, ISAKI_0501NO );
+
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+&empty
+疑いながら、ちらりと宮津橋の方に目をやる。
+$k
+
+&empty
+そうこうしているうちに、お客さんが来た。
+俺と同い年くらいの女の子が２人。
+$k
+
+&empty
+いいなあ、クレープ屋さん。
+女の子がお客さんにいると、華があるよな。
+$k
+
+&empty
+たこ焼き屋はどっちかというと、
+やっぱり男の客の方が多いし。
+$k
+
+// ISAKI_0502KS
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02KS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010056
+勇樹
+「……いらっしゃいませ」
+$k
+
+&empty
+お、なんだ。
+ちゃんと笑顔で応対できるんじゃないか。
+$k
+
+&empty
+若干、引きつってるような気もするが。
+$k
+
+#sp,vo,04990050
+女のコ
+「えっとぉ、いちごミックス一つかな」
+$k
+
+#sp,vo,04990051
+女のコ
+「あたしは、バナナスペシャルでっ」
+$k
+
+// ISAKI_0502NO
+#ir
+#ip,c1,(fi),ISAKI_A502.png,(psi),ISAKI_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010057
+勇樹
+「はい、いちごミックスとバナナスペシャルを
+　１つずつですね。
+　少々、お待ち下さい」
+$k
+
+// ISAKI_0501NO
+#ir
+#ip,c1,(fi),ISAKI_A501.png,(psi),ISAKI_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,04010058
+勇樹
+「店長、いちごミックスワン、
+　バナナスペシャルワンです」
+$k
+
+// DAIGO_0301EG3
+
+#sp,vo,04090005
+沖奈大吾
+「あいよっ！！」
+$k
+
+&empty
+おっちゃんが手際よくクレープを焼いていく。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+//	Scroll( NORMAL, 90, 0 );
+優
+「ん？　宮津橋は作らないのか？」
+$k
+
+// 	SS( CENTER, MEGUMI_A901BS3 );
+
+// MEGUMI_A901BS3
+#ir
+#ip,c2,(fi),MEGUMI_A901.png,(psi),MEGUMI_An01BS3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,04070034
+めぐみ
+「忙しい時とかは作ってもらうけど、
+　今はほら……ね？」
+$k
+
+#hide
+
+//	SS( CENTER, ISAKI_0502NO );
+// 	SV( VISUAL_ISAKI_06A );
+
+#flag,cg,15,=,1
+
+#ir,(dr),1000
+#ip,bg,(fi),VISUAL_ISAKI_06A.jpg,(s),75%
+#ig
+
+#next,04isaki04_01

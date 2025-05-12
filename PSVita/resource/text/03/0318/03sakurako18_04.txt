@@ -1,0 +1,764 @@
+﻿// 既読フラグ
+#read_flag,322
+
+#show
+
+優
+「…あ、おい？」
+$k
+
+// SAKURAKO_A402IK4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001197
+桜子
+「え？　あれ？
+$nw,2000
+
+　………優はなんで千寿にいるんだっけ？」
+$k
+
+優
+「む、無理すんな。
+　あんま一気に考えすぎんなよ？」
+$k
+
+// SAKURAKO_A403KM
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001198
+桜子
+「………」
+#meffect,flow,5
+$k
+
+優
+「桜子…大丈夫か？」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A403KM
+#sp,vo,03001199
+桜子
+「あ…うん………
+$nw,4000
+
+　ねえ優」
+
+$k
+
+優
+「どうした？」
+$k
+
+// SAKURAKO_A403NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001200
+桜子
+「やっぱりあたし、優の側にいない方が
+　いいんじゃないかな？」
+$k
+
+優
+「いきなり何言ってんだよお前…」
+$k
+
+// SAKURAKO_A403KM
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001201
+桜子
+「優は大丈夫って言ってたけどさ、
+　あたしの事でさ…
+$nw,4980
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM2.png,(x),c,(s),80%
+#ig
+
+　……受験の邪魔だと思うんだよね、あたし」
+$k
+
+優
+「桜子…」
+#meffect,flow,5
+$k
+
+// SAKURAKO_A401TR2
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001202
+桜子
+「じゃ、あたし上に行くから、
+$nw,2750
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01KN.png,(x),c,(s),80%
+#ig
+
+　ありがとうね、アルバムとか…」
+$k
+
+#sp,se,S_Walk13o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),r0,(al),0%
+#ig
+
+優
+「あ、おい……」
+$k
+
+#hide
+
+#ss,se,(dr),1000
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	WaitSE( -1 );
+// 	SV( BG_SJ_YU02A );
+
+#sp,bgm,BGM_SABISHII
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU02A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+桜子が事故に遭ってからというもの、
+あれほど二人でしていた受験勉強を、
+俺一人でするようになっていた。
+$k
+
+&empty
+しかし桜子の記憶喪失で落ち着かず、
+あまり集中できていない。
+$k
+
+&empty
+けど、そんな理由で数日後に迫った受験を、
+失敗している場合ではない。
+$k
+
+&empty
+そんなんじゃ、以前の桜子に怒られてしまう。
+$k
+
+&empty
+でも………以前の桜子は戻ってこない。
+俺の事を、好きになってくれた桜子は…。
+$k
+
+&empty
+でも。
+$k
+
+&empty
+助かっただけでいい。
+命があっただけで幸せなんだ。
+きっと、そういう風に納得しないといけないんだ。
+$k
+
+&empty
+俺がやるべき事を、
+ちゃんと優先しないと……。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA03G );
+// 	SS( CENTER, SAKURAKO_A402NO4 );
+
+#sp,bgm,BGM_NONBIRI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03G.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#show
+
+// SAKURAKO_A402NO4
+#sp,vo,03001203
+桜子
+「受験、頑張る事にしようと思うんだけど」
+$k
+
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「げっほ！ごほっ！
+　……けふ、ごはん喉に引っ掛かっだっ…」
+$k
+
+// SAKURAKO_A402AS
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001204
+桜子
+「やだ、汚いわね、ご飯飛ばさないでよ」
+$k
+
+// KINO_0401OD
+
+#sp,vo,03060038
+紀乃
+「……なんやて？」
+$k
+
+// MII_0401OD2
+
+#sp,vo,03030162
+みい
+「姉上……
+$nw,1500
+
+　今、なんと？」
+$k
+
+// SAKURAKO_A402KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001205
+桜子
+「いや、だから。
+$nw,1240
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+　あたしも受験しようかなー？って」
+$k
+
+// KANAME_0402KT
+
+#sp,vo,03020129
+要
+「………えっ？
+$nw,990
+
+　桜子ちゃんってたしか、
+　学園に入ってからの記憶、ないんだよね？」
+$k
+
+優
+「そ、そうだよっ、
+　ブランクどころな騒ぎじゃねえだろ」
+$k
+
+// SAKURAKO_A402NO4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001206
+桜子
+「大丈夫よ、願書出してんでしょ？」
+$k
+
+// 	SS_( LEFTLEFT, KINO_A401KM2 );
+
+#ir
+#ip,c3,(fi),KINO_A401KM2.png,(x),l2,(s),80%
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KT.png,(x),c,(s),80%
+#ip,c2,(fi),MII_A402.png,(psi),MII_An02NO.png,(x),r2,(s),80%
+#ig
+
+// 	SS_( CENTER, KANAME_A401KT );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( RIGHTRIGHT, MII_A402NO );
+
+// KINO_A401KM2
+#sp,vo,03060039
+紀乃
+「………なにを言いだすか思たら」
+$k
+
+// KANAME_A401KT
+#sp,vo,03020130
+要
+「でも一つ目受かってるのよね、桜子ちゃん？
+$nw,3500
+
+　そんな無理して受けなくてもいいんじゃ…」
+$k
+
+// MII_A402NO
+
+#sp,vo,03030163
+みい
+「二つ目ももうすぐ発表でしたっけ」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402KM4 );
+
+// SAKURAKO_A402KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),80%
+#ie,c2,c3
+#ig
+
+#sp,vo,03001207
+桜子
+「だからって受験した覚えの無いところ通っても
+　なんか訳分かんないだろうしさ？
+$nw,5710
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+　受けるだけ受けてみようかなって思うのよ」
+$k
+
+// SAKURAKO_A401AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001208
+桜子
+「ほら、優が受けるぐらいだから、
+　今のあたしでもいける気がするし」
+$k
+
+優
+「おいこらお前っ」
+$k
+
+// 	SS_( RIGHT, MII_A402SP );
+
+#ir
+#ip,c2,(fi),MII_A402.png,(psi),MII_An02SP.png,(x),r,(s),80%
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK2.png,(x),l,(s),80%
+#ie,c3
+#ig
+
+// 	SS( LEFT, KANAME_A401IK2 );
+// KANAME_A401IK2
+
+#sp,vo,03020131
+要
+「桜子ちゃんそれ、
+　わたしが落ちた事あるの知ってての狼藉！？」
+$k
+
+// MII_A402SP
+#sp,vo,03030164
+みい
+「お姉様は一夜漬けだったと聞きましたが…」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),c,(s),80%
+#ie,c2
+#ig
+
+// 	SS( CENTER, SAKURAKO_A402NO2 );
+
+優
+「何言ってんだ桜子、お前馬鹿なのかっ？」
+$k
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001209
+桜子
+「うっさいわねぇ。
+$nw,1220
+
+　為せば成る、何事も、よ！」
+$k
+
+// SAKURAKO_A402NO5
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001210
+桜子
+「せっかくあたしも勉強、
+　頑張ってきたみたいなのにさ、
+　受けなきゃ勿体無いでしょ？」
+#mfuri,　　　　　　　　　　　　もったい
+
+$k
+
+優
+「いや、そういうもんじゃないだろ…」
+$k
+
+// 	SS( CENTER, KINO_A401NO );
+
+// KINO_A401NO
+#ir
+#ip,c3,(fi),KINO_A401NO.png,(x),c,(s),80%
+#ie,c1
+#ig
+
+#sp,vo,03060040
+紀乃
+「まあ、ええけどな…」
+$k
+
+// KANAME_0401OD3
+
+#sp,vo,03020132
+要
+「ええーっ、お婆ちゃん！？」
+$k
+
+優
+「おいおい、婆さん？」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO5.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+// 	SS( CENTER, SAKURAKO_A402NO5 );
+
+// SAKURAKO_A402NO5
+#sp,vo,03001211
+桜子
+「元は滑り止めみたいなものだろうけど、
+　今のあたしにとってはやり甲斐あるし、
+　受ける意味はあると思うのよね…」
+$k
+
+優
+「けど、どう考えたって、
+　今からじゃ大変だぞ？」
+$k
+
+// SAKURAKO_A402NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001212
+桜子
+「そうね、だから猛勉強しなきゃね？」
+$k
+
+優
+「………そ、そうだな」
+$k
+
+&empty
+いまいち桜子の意図するところが分からんが…。
+$k
+
+// SAKURAKO_A402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03001213
+桜子
+「よーし優。
+　お互いに頑張ろう！」
+$k
+
+優
+「…ああ」
+#meffect,flow,5
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+お互いに、か…。
+$k
+
+&empty
+その台詞は何故か、
+桜子がどんどん、俺から離れていくような、
+…そんな気がした。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_ENKEI03A, SLOW );
+
+#sp,bgm,BGM_SHIZUKA
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ENKEI03A.jpg,(s),100%,(y),d_s
+#ig
+
+#show
+
+&empty
+一人きりの勉強は、受験の前日まで続いていた。
+$k
+
+// 	SV( BG_MT_ENKEI01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ENKEI01A.jpg,(s),100%,(y),d_s
+#ig
+
+&empty
+桜子と顔を合わせるのも飯の時くらい。
+$k
+
+&empty
+桜子は桜子で、飯が終わると食器を洗い、
+そそくさと部屋に戻ってしまう。
+$k
+
+&empty
+かなり本気らしい…。
+$k
+
+// 	SV( BG_MT_ENKEI02A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ENKEI02A.jpg,(s),100%,(y),d_s
+#ig
+
+優
+「はあ…」
+#meffect,flow,5
+$k
+
+&empty
+何だか二人の時間の溝は深い気がする。
+$k
+
+// 	SV( BG_MT_ENKEI03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_ENKEI03A.jpg,(s),100%,(y),d_s
+#ig
+
+&empty
+桜子と付き合っていたあの頃は、
+もう戻ってはこないのか…。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SKY01A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY01A.jpg,(s),100%
+#ig
+
+#show
+
+&empty
+そして………。
+$k
+
+&empty
+遂に、受験の日がやってきた。
+$k
+
+#hide
+
+// 	SV( BG_TD_GAIKAN01B );
+
+#sp,bgm,BGM_NICHIJYO
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GAIKAN01B.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NK.png,(x),c,(s),60%
+#ig
+
+// SAKURAKO_0401NK
+
+#show
+
+#sp,vo,03001214
+桜子
+「さっぶーいっ。
+$nw,2000
+
+　寒すぎて耳がしもやけになりそう」
+$k
+
+// MII_0902NK
+#ir
+#ip,c3,(fi),MII_A902.png,(psi),MII_An02NK.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03030165
+みい
+「姉上、耳が寒いと言っておきながら、
+　私の首に手を当てないで下さい」
+$k
+
+// 	SS( CENTER, SAKURAKO_0401TR4 );
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001215
+桜子
+「でも雪が降ったりしなくて良かったわねー。
+$nw,2780
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01AK.png,(x),c,(s),60%
+#ig
+
+　滑るし、転ぶし、危ないし」
+$k
+
+優
+「てめぇ、受験生の禁句を…」
+$k
+
+// SAKURAKO_0402EG
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03001216
+桜子
+「あははっ、大丈夫だってー。
+$nw,2810
+
+　そんな言葉くらいで結果に影響しないってば」
+$k
+
+// CHISEKA_0401AK
+#ir
+#ip,c2,(fi),CHISEKA_A401.png,(psi),CHISEKA_An01AK.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03040173
+知世翔
+「そうですよ、
+　矢崎先輩は相変わらずチキンですね」
+$k
+
+優
+「え、縁起は大事だぞ？」
+$k
+
+// SAKURAKO_0402EG
+#sp,vo,03001217
+桜子
+「だーいじょーぶだーって！」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+#sp,se,S_Dash08i
+
+// MEGUMI_0401NO
+
+#sp,vo,03070224
+めぐみ
+「お～い優ちゃ～ん、桜子ぉ～！」
+$k
+
+// 	WaitSE( -1 );
+
+// SAKURAKO_0401NO
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03001218
+桜子
+「あ、めぐだ」
+$k
+
+優
+「………めぐみ？」
+$k
+
+// 	SS( CENTER, MEGUMI_0401KM, MOVE_RIGHT, NORMAL );
+
+// MEGUMI_0401KM
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01KM.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ig
+
+#sp,vo,03070225
+めぐみ
+「…ふう～。
+$nw,1000
+
+#ir
+#ip,c3,(fi),MEGUMI_A401.png,(psi),MEGUMI_An01BS4.png,(x),r,(s),60%
+#ig
+
+　良かったぁ、ちょうどだったね～」
+$k
+
+優
+「もしかしてお前も同じとこ受けんのか？」
+$k
+
+#next,03sakurako18_05

@@ -1,0 +1,654 @@
+﻿// 既読フラグ
+#read_flag,363
+
+// セーブタイトル
+#flag,save_title,要　第８話,0,0
+
+// 要好感度＋１。
+#flag,per,4,+,1
+
+// 要ルート決定。
+#flag,per,5,=,4
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_MT_NEWSYOTEN03B );
+
+// 	// 和田：パルフェで使っていたBGMを使い回すのは雰囲気的にアレなので適当に作ってみました。
+
+#sp,bgm,W_Jingle01#
+
+#sp,env,S_Gaya03#
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_NEWSYOTEN03B.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第８話　行きつけの名店
+$k
+#note,erase
+
+
+#show
+
+優
+「はあ…っ」
+$k
+
+&empty
+吐く息の白ささえ、
+再来週に控えたクリスマスを彩って見える、
+きらびやかな商店街。
+$k
+
+&empty
+まだ時期の早い白々しさも、
+行き交ういくつかの表情を鵜呑みにするなら、
+誰かの清涼剤程度にはなっているのかもしれない。
+$k
+
+優
+「…なんてなー」
+$k
+
+&empty
+余裕のない受験生には、そんな事は関係ない。
+$k
+
+優
+「さてと…」
+$k
+
+#sp,se,S_Wind02
+
+優
+「うぅ～寒っ！？」
+$k
+
+&empty
+この時期に、まかり間違って
+風邪でも引いたら洒落にならん。
+とっとと帰ろう。
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig,(se),W_Bicycle01
+
+#sp,vo,06020272
+自転車の人
+#mstyle,(co),要
+「きゃっ！？」
+#mlarge
+$k
+
+//	WT( 20 );
+// 	Zoom(FASTEST, 100, 100);
+// 	Shake(NORMAL, SHAKE_LEFT, 16);
+
+#sp,se,S_Basa02
+
+優
+「うわ！？」
+#mlarge
+$k
+
+&empty
+危険予測ゼロ。
+ふらっと動き出してしまったからだろう。
+$k
+
+&empty
+通り過ぎようとした自転車に気づかず、
+ぶつかりそうになってしまった。
+$k
+
+優
+「すっ、すみませ…！
+$nw,1000
+
+　って……要さん…？」
+$k
+
+&empty
+よろめきながら自転車を降りた人物が
+驚いたようにこちらを見る。
+$k
+
+// KANAME_0102KT
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A102.png,(psi),KANAME_An02KT.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#sp,vo,06020273
+要
+「…優くん？」
+#meffect,flow,5
+$k
+
+// 	SS(CENTER, KANAME_0102KT, MOVE_RIGHT, NORMAL);
+
+優
+「すみません、大丈夫ですか？
+　怪我は…？」
+$k
+
+// KANAME_0102KT
+#sp,vo,06020274
+要
+「あ…うん、だいじょうぶ。
+　ぴんぴんしてる」
+$k
+
+優
+「ほんと、すみません」
+$k
+
+// KANAME_0102BS
+#ir
+#ip,c1,(fi),KANAME_A102.png,(psi),KANAME_An02BS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020275
+要
+「いいってば。
+　わたしもちょっとぼーっとしてたから」
+$k
+
+&empty
+事も無げに、そんなことを言ってくれる。
+$k
+
+// KANAME_0101NO5
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01NO5.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020276
+要
+「でもびっくりしたー。
+$nw,2460
+
+　優くん、なんでこんなとこに？」
+$k
+
+優
+「金をおろしたついでに本屋に寄ったんで。
+　要さんは会社帰りですか？」
+$k
+
+// KANAME_0101NO
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020277
+要
+「そうそう、寒いからって急ぎすぎちゃったかな」
+$k
+
+優
+「お互い気をつけなきゃですね」
+$k
+
+// KANAME_0101NO4
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01NO4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020279
+要
+「そうだ。
+　優くん、お腹空いてない？」
+$k
+
+優
+「まあ空いてますけど」
+$k
+
+&empty
+もういい時間だし。
+$k
+
+// KANAME_0101NO2
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01NO2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020280
+要
+「なら今からご飯食べに行かない？」
+$k
+
+優
+「あ、いいですね～」
+$k
+
+&empty
+帰ったら晩ご飯の準備をしているだろうけど、
+２食くらいぺろっといけるだろう。
+育ち盛りだからな。
+$k
+
+優
+「なに食べましょうか？」
+$k
+
+// KANAME_0101GB4
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01GB4.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020281
+要
+「任せて。
+　おいしいとこ知ってるから」
+$k
+
+優
+「お、そんな事言うと期待しちゃいますよ？」
+$k
+
+// KANAME_0103KT
+#ir
+#ip,c1,(fi),KANAME_A103.png,(psi),KANAME_An03KT.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020282
+要
+「コートの下、制服じゃないよね？
+$nw,3450
+
+#ir
+#ip,c1,(fi),KANAME_A103.png,(psi),KANAME_An03BS.png,(x),c,(s),60%
+#ig
+
+　…うん、なら問題なし」
+$k
+
+優
+「え、服を気にするような
+　お洒落な店なんですか…？」
+$k
+
+&empty
+まさか高級フレンチとか？
+$k
+
+&empty
+そういえば、こう見えて要さんもＯＬ、
+立派な社会人だもんな。
+そういう店の一つや二つ知っててもおかしくない。
+$k
+
+&empty
+…でも俺、マナー知らないし金もないんだけど…。
+$k
+
+// 	SS_( CENTER, KANAME_A102NO );
+
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A102.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,se,S_Basa02
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+// KANAME_A102NO
+#sp,vo,06020283
+要
+「よし、じゃあ行こっか！」
+$k
+
+優
+「いや、そんな強引に手を引かなくても…
+$nw,1000
+
+　ってか、要さん自転車忘れてますってっ！？」
+$k
+
+// 	FO_( SLOWER );
+
+#hide
+
+#ss,env,(dr),0
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SetSubTitleEx();		//章タイトル表示
+#sp,env,S_Town01#
+
+//#sp,env,S_Gaya01#
+
+// 	SV( BG_SKY03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SKY03A.jpg,(s),100%
+#ig
+
+#wait,1000
+
+// 	SEFade(0, SLOW, 80);
+// 	SEFade(1, SLOW, 40);
+
+// 	SV( BG_MT_YATAI03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_MT_YATAI03A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A102.png,(psi),KANAME_An02NO.png,(x),c,(s),80%
+#ig
+
+#show
+
+// KANAME_A102NO
+
+#sp,vo,06020284
+要
+「それじゃ、乾杯ねっ」
+$k
+
+優
+「乾杯って…
+#meffect,flow,5
+　いや、そもそも服って…」
+#meffect,flow,5
+$k
+
+#ss,env,(dr),1000
+
+#sp,bgm,BGM_KANAME
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06B.jpg,(s),75%
+#ig
+
+優
+「こういう意味だったんですか」
+$k
+
+// 	SV(VISUAL_KANAME_06B );
+
+#sp,vo,06020285
+要
+「うん、おいしいとこ」
+$k
+
+&empty
+繁華街を離れて、裏道に入り、
+人の気配が減っていく時点で気づくべきだった。
+$k
+
+&empty
+やってきたのは高架下。
+『赤ちょうちん』の出ている屋台だった。
+$k
+
+&empty
+…そりゃ制服じゃまずいよな。
+$k
+
+#sp,vo,06020286
+要
+「ほらほら、乾杯、乾杯」
+$k
+
+優
+「はいはい」
+$k
+
+// 追加。
+&empty
+要さんのコップには日本酒が、
+俺のコップにはウーロン茶がなみなみと
+注がれている。
+$k
+
+// 	SV( VISUAL_KANAME_06B );
+
+#sp,vo,06020287
+要
+「おいしいご飯と、わたしのハタチの誕生日に！」
+
+$k
+
+#sp,se,W_Drink01
+#wait,500
+
+// 	Shake(NORMAL, SHAKE_LEFT, 2);
+
+優
+「…合法的な図々しさだ」
+#meffect,flow,5
+$k
+
+// 	SV( BG_MT_YATAI03A );
+// 	SS(CENTER, KANAME_A101GB2);
+
+#ir
+#ip,bg,(fi),BG_MT_YATAI03A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01GB2.png,(x),c,(s),80%
+#ig
+
+// KANAME_A101GB2
+// KANAME_A101PU
+#sp,vo,06020288
+要
+「ん、んっ…
+$nw,1560
+
+#ir
+#ip,c1,(fi),KANAME_A101.png,(psi),KANAME_An01TR4.png,(x),c,(s),80%
+#ig
+
+#madd,はぁー。
+$nw,1470
+
+　やっぱ最初のひとくちは最高ねー」
+$k
+
+優
+「ハタチはどこへ」
+$k
+
+&empty
+明らかに味を占めた人の発言だ。
+$k
+
+// KANAME_A103NO
+#ir
+#ip,c1,(fi),KANAME_A103.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020289
+要
+「おじさん、わたし、玉子と大根と厚揚げとー」
+$k
+
+#sp,vo,06990004
+親父
+「………」
+#meffect,flow,5
+$k
+
+&empty
+ご主人は多くを語らない人らしく、
+黙々と注文されたものを用意してくれる。
+$k
+
+// 	SV( VISUAL_KANAME_06A );
+// 	DelStandAll();
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06A.jpg,(s),75%
+#ig
+
+#sp,vo,06020290
+要
+「優くんは？」
+$k
+
+優
+「あ、えっと…ちょっと待ってくださいね」
+$k
+
+&empty
+メニュー、メニューは…。
+$k
+
+&empty
+要さんは慣れた雰囲気でも、
+こっちはそう簡単にいかない。
+$k
+
+#sp,vo,06020291
+要
+「この手のお店、はじめてか。
+　そりゃそうだよね」
+$k
+
+優
+「健全なもので」
+$k
+
+#sp,vo,06020292
+要
+「じゃあ最初はわたしのお勧めにしとく？」
+$k
+
+優
+「あ、じゃあそれで」
+$k
+
+// 	SV( VISUAL_KANAME_06B );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06B.jpg,(s),75%
+#ig
+
+#sp,vo,06020293
+要
+「おじさん、こっちにねー」
+$k
+
+&empty
+要さんが、俺の分まで頼んでくれる。
+$k
+
+// 	SV( VISUAL_KANAME_06D );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06D.jpg,(s),75%
+#ig
+
+#sp,vo,06020294
+要
+「ん？　優くん、なんか嬉しそう？」
+$k
+
+優
+「そうですか…？
+$nw,1000
+
+　まあ、こういうとこ初めてなんで、
+　ちょっとわくわくしてるかも」
+$k
+
+// 	SV( VISUAL_KANAME_06B );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06B.jpg,(s),75%
+#ig
+
+#sp,vo,06020295
+要
+「やーん、初々しー」
+$k
+
+優
+「そりゃそうですよ」
+$k
+
+優
+「なんか年の差っていうか、
+　見てるものが違うんだなーって感じで…」
+$k
+
+// 	SV( VISUAL_KANAME_06C );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06C.jpg,(s),75%
+#ig
+
+#sp,vo,06020296
+要
+「屋台くらいでそんなこと言わないの、もう」
+$k
+
+優
+「でも仕事帰りにこういうとこに入るって、
+　すごく社会人っぽいじゃないですか。
+　ちょっと憧れるなぁ」
+$k
+
+// 	SV( VISUAL_KANAME_06A );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06A.jpg,(s),75%
+#ig
+
+#sp,vo,06020297
+要
+「隣の芝生はーってやつかもね。
+　そんないいことばっかでもないよぉ？」
+$k
+
+優
+「まぁ、いろいろ大変なんでしょうけどね」
+$k
+
+// 	SV( VISUAL_KANAME_06B );
+
+#ir
+#ip,bg,(fi),VISUAL_KANAME_06B.jpg,(s),75%
+#ig
+
+#sp,vo,06020298
+要
+「あ、ちょっと優くん、これおいしー」
+$k
+
+優
+「え、じゃあ俺も頼もうかな…」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,bg,(s),88%,(x),c,(y),0
+#ig
+
+#sp,vo,06020299
+要
+「はい、あーん」
+$k
+
+#next,06kaname08_01

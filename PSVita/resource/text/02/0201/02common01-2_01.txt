@@ -1,0 +1,832 @@
+﻿// 既読フラグ
+#read_flag,39
+
+優
+「おおおー、すげー！
+　つーか早過ぎて分かりづれぇー！」
+$k
+
+&empty
+桜子の持つピックは、
+さほど触れて無い様に見えるのに手品のように
+どんどん生地が裏返されていく。
+$k
+
+&empty
+さすがはたこ焼き屋の孫！
+$k
+
+// KINO_0901NS
+
+#sp,vo,02060017
+紀乃
+「それは優には時間掛かるやろなぁ」
+$k
+
+優
+「しかもなんて好い色なのか！」
+$k
+
+&empty
+すげー腹減ってきた。
+$k
+
+// SAKURAKO_A702NR
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000106
+桜子
+「ほら優、油断しないで。
+　こっからが一番難しいの」
+$k
+
+// SAKURAKO_A702NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000107
+桜子
+「ひっくり返す前の生地表面の状態からイメージを
+　膨らませていくのよ。
+$nw,5400
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+　ほら、イメージ、イメージ…」
+$k
+
+優
+「い、いめーじな！」
+$k
+
+// SAKURAKO_A701EG
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000108
+桜子
+「ほらほら、生地が熱でほっこりしていって…
+　タコも熱々のぷっりぷりになってくるのよー」
+$k
+
+優
+「おおう！」
+$k
+
+&empty
+イメージだ。イメ――ジ！
+$k
+
+// SAKURAKO_A701TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000109
+桜子
+「ほらほら、見えない裏側もサクサクって感じに
+　なってくるのよ！」
+$k
+
+// SAKURAKO_A702EG
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000110
+桜子
+「ふんふん、ふん、
+$nw,2700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+　そしてお皿を用意してー、
+$nw,2100
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO4.png,(x),c,(s),80%
+#ig
+
+　１・２・３で救出！」
+$k
+
+// 	MoveStand( CENTER, 170, 0,  0, 1 );
+// 	MoveStand( CENTER,  20, 0, 20, 1 );
+// 	MoveStand( CENTER,  10, 0,  0, 1 );
+
+優
+「うおお！」
+$k
+
+&empty
+桜子が引っくり返す時の要領で丸い物体を次々と
+皿に盛っていく。
+$k
+
+&empty
+丸い。なぜか継ぎ目も見えない丸さ。
+$k
+
+// SAKURAKO_A701TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000111
+桜子
+「そして…」
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"ぱん！" );
+#hide
+
+#sp,se,T_Clap
+
+#wait,500
+
+#show
+
+&empty
+桜子が一つ手を鳴らす。
+$k
+
+// SAKURAKO_A701AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000112
+桜子
+「ふんふん、ふーん、ばばんばん、ぼぼーん♪
+$nw,4700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01EG.png,(x),c,(s),80%
+#ig
+
+　はい、ここで一拍置いて自家製ソースをこう、
+　しゃーしゃしゃしゃって振舞うわけです」
+$k
+
+&empty
+ハケでソースをさらっと塗る。
+本当にさらっとだけ。
+$k
+
+// SAKURAKO_A701TR4
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000113
+桜子
+「さらにお好みで青海苔、お客さんの要望次第で
+　マヨネーズも少々」
+$k
+
+// SAKURAKO_A702EG
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,02000114
+桜子
+「はい、出来上がりぃ～♪」
+$k
+
+// 	DelAction( CENTER );
+
+優
+「おおっ！　…って『ぼぼーん』とかも
+　覚えた方がいいのか？」
+$k
+
+// KINO_0901NO
+
+#sp,vo,02060018
+紀乃
+「そこは好きずきでええから」
+$k
+
+// SAKURAKO_A701AK2
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AK2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000115
+桜子
+「ふー、ふぅーっ」
+$k
+
+優
+「つーか分からん事、結構多かったぞ！？」
+$k
+
+&empty
+専門用語というより擬音の方が多かった気がする。
+$k
+
+// SAKURAKO_A702NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000116
+桜子
+「はい、あーん！」
+$k
+
+優
+「え…ええっ？」
+$k
+
+// KINO_0901KD
+
+#sp,vo,02060019
+紀乃
+「…とりあえず食ってみなはれ」
+$k
+
+
+優
+「あ、ああ…」
+$k
+
+// SAKURAKO_A702NO
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000117
+桜子
+「早く食べてみなさい。
+$nw,1700
+
+#ir
+#ip,c1,(fi),SAKURAKO_A702.png,(psi),SAKURAKO_An02EG.png,(x),c,(s),80%
+#ig
+
+　ほらぁ、あ～ん」
+$k
+
+&empty
+今恥ずかしい事してるとか思ってないのかな、こいつ。
+俺すごい素に戻っちゃったよ？　恥ずいんですけど。
+$k
+
+// 	Fade( NORMAL, 0 );
+
+優
+「あ゛――」
+$k
+
+// 	Fade( 0, 0 );
+// 	Shake( NORMAL, SHAKE_DOWN, 10, NORMAL * 2 );
+
+#ir,(dr),1000
+#ip,ov,(fi),sysc_black.jpg
+#ie,c1
+#ig
+
+&empty
+ひょいっ、と桜子が俺の口に一つ放り込む。
+$k
+
+&empty
+最後にちょっとだけ不思議に思っていた
+作ったうちの半分。
+ソースを掛けなかった分のたこ焼き。
+$k
+
+// 	Fade( FAST );
+
+#ir,(dr),500
+#ie,ov
+#ig
+
+優
+「！！！」
+#mlarge
+$k
+
+// KINO_0901MJ2
+#ir
+#ip,c3,(fi),KINO_A901MJ2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060020
+紀乃
+「…どないや？」
+$k
+
+#ir
+#ie,c3
+#ig
+
+優
+「はふ、ほふ…」
+$k
+
+優
+「はんひゃ、ほひゃあぁー！？」
+$k
+
+&empty
+なんじゃ、こりゃー！？
+$k
+
+// SAKURAKO_A701AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AZ.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000118
+桜子
+「っふふん」
+$k
+
+優
+「んぐ。
+　なんだこれ、これがたこ焼きか？」
+$k
+
+// KINO_0901NO2
+#ir
+#ip,c3,(fi),KINO_A901NO2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060021
+紀乃
+「今食うたんが一応ベーシックな味やな」
+$k
+
+優
+「美味い…」
+$k
+
+優
+「たこ焼きってこんな美味かったっけ？」
+$k
+
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+外はサクっと、しかし中はフワフワぷりぷり。
+$k
+
+&empty
+細かく刻んだ紅しょうがも、刺激と香りで
+より生地の旨さを引き立てていて…、
+$k
+
+&empty
+生地そのものからも、
+優しいだしの味がしっかりと伝わってくる。
+$k
+
+&empty
+中央のタコも、とても好い塩梅の歯ごたえ。
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　　　　　あんばい
+
+$k
+
+// SAKURAKO_A701NS
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01NS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02000119
+桜子
+「にまにま」
+$k
+
+// KINO_0901EG3
+#ir
+#ip,c3,(fi),KINO_A901EG3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,02060022
+紀乃
+「次はソースの食わしたれ」
+$k
+
+// SAKURAKO_A701EG
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01EG.png,(x),c,(s),80%
+#ie,c3
+#ig
+
+#sp,vo,02000120
+桜子
+「ほい、あ～～ん」
+$k
+
+// 	Fade( NORMAL, 0 );
+
+優
+「あ、あ゛～～」
+$k
+
+// 	Fade( 0, 0 );
+
+#ir,(dr),500,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),20
+#ig
+
+#sp,vo,02000121
+桜子
+「ほいっと」
+$k
+
+// 	Shake( NORMAL, SHAKE_DOWN, 10, NORMAL * 2 );
+
+#ir,(dr),1000
+#ip,ov,(fi),sysc_black.jpg
+#ie,c1
+#ig
+
+&empty
+ぱく、はふは、もひょもひょ、もご。
+$k
+
+&empty
+んぐ、んぐ。
+$k
+
+#sp,vo,02060023
+紀乃
+「どないな？」
+$k
+
+// 	Fade( NORMAL );
+
+#ir,(dr),1000
+#ie,ov
+#ig
+
+優
+「…美味いです。
+　とってもおいしいです」
+$k
+
+&empty
+さらっと塗ってあったソースが丁度良い
+味の格上げをしてやがる。
+$k
+
+&empty
+つーかソース無くても
+無茶苦茶旨く感じるのはなぜだ？
+作りたてだからか？
+$k
+
+&empty
+昔から客つきがいいのも頷ける。
+…あれ？
+$k
+
+&empty
+俺昔もここのたこ焼き食ったことあったけど…。
+$k
+
+#ir
+#ip,c3,(fi),KINO_A901BS2.png,(x),c,(s),60%
+#ig
+
+// KINO_0901BS2
+#sp,vo,02060024
+紀乃
+「わてが作ったんとは、また味がちゃうやろ？」
+$k
+
+&empty
+思わず、ずっと婆さんの方を見ていた。
+$k
+
+優
+「そういえば俺、桜子が焼いたやつ
+　食ったのって初めて、かも？」
+$k
+
+&empty
+婆さんの方を向いたまま
+桜子の方を見る気がしなかった。
+$k
+
+&empty
+なんかしてやられた気分というか、
+振り向いたら絶対…。
+$k
+
+#ir
+#ie,c3
+#ig
+
+#sp,vo,02000122
+桜子
+「ゆーう」
+$k
+
+優
+「くっ」
+$k
+
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01NS.png,(x),c,(s),80%
+#ig
+
+&empty
+ほら、凄い見下したような顔をしてやがるからな。
+物凄く偉そう。
+$k
+
+// SAKURAKO_A701AZ
+#ir
+#ip,c1,(fi),SAKURAKO_A701.png,(psi),SAKURAKO_An01AZ.png,(x),c,(s),80%
+#ig
+
+#sp,vo,02000123
+桜子
+「味見した所で今度は優が作るのよ。
+　自分の朝ご飯になるんだから
+　気合入れて作りなさいよ？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+#show
+
+&empty
+…………
+$k
+
+&empty
+……
+$k
+
+#hide
+
+// 	SV( BG_SJ_KYUKEISHITSU01A );
+
+#sp,bgm,BGM_KEIKAI
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_KYUKEISHITSU01A.jpg,(s),100%
+#ig
+
+#show
+
+優
+「ああーあ。食った食った」
+$k
+
+&empty
+ただいま午前八時半。
+練習の為焼いては食い、焼いては食いを繰り返して
+朝食の時間は終了した。
+$k
+
+&empty
+全然駄目だった。
+桜子は元より婆さんにも遠く及ばない出来でしか
+俺には焼けなかった。
+$k
+
+&empty
+……まあ当然か。
+$k
+
+&empty
+引っくり返すのはなんとか形だけは習得したものの、
+焼き加減だけはどうしても分からない。
+$k
+
+&empty
+イメージ力が足りないのか。
+$k
+
+//	SM( CHAR_ETC,			-1,					"",				"きゅ、きゅっきゅ。きゅっ。" );
+#hide
+
+// 	SWP( "S_Pen02" );
+// 	SS( CENTER, KINO_0901BS );
+
+#sp,se,S_Pen02
+
+#wait,3000
+
+#ss,se
+
+#ir
+#ip,c1,(fi),KINO_A901BS.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KINO_0901BS
+
+#sp,vo,02060025
+紀乃
+「よっしゃ、こんなもんかいな」
+$k
+
+優
+「なにしてんだ婆さん？」
+$k
+
+// KINO_0901KD2
+#ir
+#ip,c1,(fi),KINO_A901KD2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,02060026
+紀乃
+「ほれ。今日は午前中だけ、
+　あんさんがたこ焼き職人やで」
+$k
+
+優
+「まて、いきなりそれはどうなんだよ？」
+$k
+
+優
+「…ってなんだ？
+　今日正午まで限定、新人特訓割引特価。
+　新人たこ焼き、半額ー？」
+$k
+
+#ir
+#ip,c1,(fi),KINO_A901BS2.png,(x),c,(s),60%
+#ig
+
+&empty
+婆さんがマジックで紙に書いたでかいお品書き。
+というかチラシ？　広告？
+$k
+
+// 	CS_( CENTER, LEFT, NORMAL );
+
+// 	SS_( LEFT, KINO_0901BS2 );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( RIGHT, SAKURAKO_A703NO, MOVE_RIGHT, NORMAL );
+
+// SAKURAKO_A703NO
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A703.png,(psi),SAKURAKO_An03NO.png,(x),r3,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r2,(al),100%
+#ip,c1,(x),l
+#ig
+
+#sp,vo,02000124
+桜子
+「どれ。
+　当店の新人が焼くたこ焼きに限りこの値段。
+　味も見た目もそれなりなのはご容赦下さい…ねぇ？」
+$k
+
+// SAKURAKO_A703NO2
+#ir
+#ip,c3,(fi),SAKURAKO_A703.png,(psi),SAKURAKO_An03NO2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,02000125
+桜子
+「ま、大丈夫か…
+　うち、お婆ちゃんの道楽経営だしね」
+$k
+
+// KINO_0901KD
+#ir
+#ip,c1,(fi),KINO_A901KD.png,(x),l,(s),60%
+#ig
+
+#sp,vo,02060027
+紀乃
+「これ表に貼っとくさかい、
+　客来たらよろしゅう頼んまっさ。
+　わてはこれから建築士さんとこ行かなあかんさかい」
+$k
+
+優
+「あんたら、店の味を守ろう、とか、
+　そういう気概は無いんかい！」
+$k
+
+&empty
+午前九時から正午までの三時間の間、
+俺は店番兼焼き職人という事らしい。
+$k
+
+&empty
+いざとなったら桜子もいるし問題ないんだろうけど。
+でも、こんな簡単に素人に任せるのはどうかと思うよ。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_GAIKAN01C );
+
+// 	SS( CENTER, KINO_0401EG2 );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_GAIKAN01C.jpg,(s),100%
+#ip,c1,(fi),KINO_A401EG2.png,(x),c,(s),60%
+#ig
+
+#show
+
+// KINO_0401EG2
+#sp,vo,02060028
+紀乃
+「ほな行ってくるさかいな、
+　あとよろしゅう頼んますわ」
+$k
+
+// 立ち絵移動消える。パラメータは適宜。
+#ir,(ef),move,(dr),1000
+#ip,c1,(x),l0,(al),0
+#ig
+
+優
+「へーい…」
+$k
+
+// SAKURAKO_A701AK2
+
+#sp,vo,02000126
+桜子
+「はい、ほなさいならー」
+$k
+
+優
+「………」
+$k
+
+// 	SS_( CENTER, SAKURAKO_0703FK2, MOVE_RIGHT, NORMAL );
+
+#ir,(ef),off
+#ip,c3,(fi),SAKURAKO_A703.png,(psi),SAKURAKO_An03FK2.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),1000
+#ip,c3,(x),c,(al),100
+#ig
+
+// SAKURAKO_0703FK2
+#sp,vo,02000127
+桜子
+「………」
+$k
+
+#sp,se,S_Nuno02
+
+// SAKURAKO_0301TR4
+#ir
+#ip,c3,(fi),SAKURAKO_A301.png,(psi),SAKURAKO_An01TR4.png,(x),c,(s),60%
+#ig
+
+// 会釈。パラメータは適宜。
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,c3,(y+),20
+#ig
+
+#sp,vo,02000128
+桜子
+「よし、行ったか…」
+$k
+
+#next,02common01-2_02

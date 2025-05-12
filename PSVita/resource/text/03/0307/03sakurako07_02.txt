@@ -1,0 +1,838 @@
+﻿// 既読フラグ
+#read_flag,275
+
+// MII_A403NO
+#sp,vo,03030056
+みい
+「いえいえ、お兄様はごゆるりと」
+$k
+
+&empty
+みいちゃん、俺をここに置いてかないでー！
+$k
+
+優
+「い、いや、たまには俺が……」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c3
+#ig
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),0,(qy),1
+#ig,(se),Ma_Nuno01
+
+// 	WaitSE( -1 );
+
+&empty
+………。
+$k
+
+&empty
+あれ。誰かに服の裾を掴まれてる…。
+$k
+
+// 	SS( CENTER, MII_A403NO );
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),c,(s),80%
+#ig
+
+// MII_0403NO
+#sp,vo,03030057
+みい
+「では、お兄様」
+$k
+
+#sp,se,S_Walk12o
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l0,(al),0%
+#ig
+
+// 	WaitSE( -1 );
+
+#wait,500
+
+#sp,se,S_Dish03
+
+// 	WaitSE( -1 );
+
+優
+「…あ」
+#meffect,flow,5
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SFO( 0 );
+
+// 	SV( BG_TD_IMA01C );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01C.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#sp,se,S_Dish04
+
+// 	SS( CENTER, SAKURAKO_A402NO, MOVE_STOP, NORMAL );
+
+#show
+
+// SAKURAKO_A402NO
+
+#sp,vo,03000288
+桜子
+「優さあ、みいの事どう思う？」
+$k
+
+優
+「みいちゃん？
+　えっとー、まあ嫌いじゃあないけど？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+なんだ今度は桜子側からみいちゃんの質問？
+$k
+
+&empty
+なんか両者の間で攻防でも繰り広げられてる？
+$k
+
+&empty
+あ、もしかして…、
+前言ってたクリスマスプレゼントの件か？
+$k
+
+// 	SS( CENTER, SAKURAKO_A402NR );
+
+// SAKURAKO_A402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000289
+桜子
+「あんたさー、ダンボールの中に入って
+　一晩とか過ごせる？」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),0
+#ig
+
+優
+「……はっ！？」
+$k
+
+// SAKURAKO_A402IK3
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02IK3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000290
+桜子
+「そーゆー覚悟ある？」
+$k
+
+優
+「お前は一体何を考えてるんだ！？
+　俺に何をさせる気なんだ。
+　一体どんなサプライズを計画してるんだ！？」
+$k
+
+&empty
+一晩箱詰め待機して、クラッカーでも鳴らせと？
+$k
+
+// SAKURAKO_A402AK
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000291
+桜子
+「あーごめん。
+　やっぱりそういうのは違うと思うのよね。
+$nw,6000
+
+　うん、違うよね」
+$k
+
+&empty
+言っている意味がさっぱり分からん。
+$k
+
+優
+「桜子、お前ほんと、どうかしたのか？」
+$k
+
+// SAKURAKO_A402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000292
+桜子
+「なにがよ？」
+$k
+
+優
+「いや、別に。なんでもない」
+$k
+
+// SAKURAKO_A403NO3
+#ir
+#ip,c1,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03NO3.png,(x),c,(s),80%
+#ig
+
+#sp,vo,03000293
+桜子
+「そう？」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_SJ_YU03A );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_SJ_YU03A.jpg,(s),100%
+#ig
+
+#sp,se,S_Dash01i
+
+#ir,(ef),off
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02MJ.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#wait,1000
+
+#sp,se,S_Door03o
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+// 	WaitSE( -1 );
+// 	WaitSE( -1 );
+
+// 	SS( CENTER, MII_0402MJ, MOVE_LEFT, NORMAL );
+
+#sp,bgm,BGM_COMICAL2
+
+#show
+
+優
+「？　……あ、みいちゃん。
+　もう晩飯？」
+$k
+
+// MII_0402IK
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030058
+みい
+「お兄様は姉上に一体なにをしたんですかっ！？」
+$k
+
+優
+「え……っと。
+　俺、何もした覚えはないけど、
+　……どうしたのみいちゃん？」
+$k
+
+&empty
+また？
+$k
+
+// MII_0401AS2
+#ir,(dr),0
+#ip,c1,(fi),MII_A401.png,(psi),MII_An01AS2.png,(x),c,(s),60%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,03030059
+みい
+「カレーが肉じゃがになってしまいましたよっ！？」
+$k
+
+// MII_0402IK
+#ir
+#ip,c1,(fi),MII_A402.png,(psi),MII_An02IK.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03030060
+みい
+「いえ、私は姉上の肉じゃがも
+　大好きですけどねっ！？」
+$k
+
+優
+「えー……」
+#meffect,flow,5
+$k
+
+優
+「そ、そうかい。それはよかったねえ………？」
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+&empty
+なんだ？　……やっぱり俺、桜子になんかした？
+$k
+
+&empty
+むしろ何も出来ないくらいなのに。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+// 	SV( BG_TD_IMA03F );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ig
+
+// 	SS_( CENTER, KANAME_0402NO, MOVE_RIGHT );
+
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),r0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+// きらりアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\kirari.png,(x),*490,(y),*175,(s),50%,(al),0%
+#ig
+
+#ir,(ef),move,(dr),500,(lt),reverse,(lc),1
+#ip,op1,(s),100%,(al),100%
+#ig,(se),K_Kyupin01
+
+// KANAME_0402NO
+#sp,vo,03020040
+要
+「３姉妹の長女にして会社のホープ、参上！」
+$k
+
+// MII_0403NO
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03030061
+みい
+「いらっしゃいませお姉様。
+$nw,2230
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NO2.png,(x),l2,(s),60%
+#ig
+
+　……今日は肉じゃがですよー？」
+$k
+
+
+// SAKURAKO_0402KM4
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,03000294
+桜子
+「あ、お姉…
+$nw,1490
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO2.png,(x),r2,(s),60%
+#ig
+
+　お帰り。最近よく来るわねー？」
+
+$k
+
+// KANAME_0402EG2
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG2.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03020041
+要
+「だって今日はカレーの日なんだもーん！」
+$k
+
+// YUKIHA_0401KM
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KM.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03050021
+雪華
+「要お姉ちゃん、今日は肉じゃがだよ？」
+$k
+
+// KANAME_0401OD
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD.png,(x),c,(s),60%
+#ig
+
+#sp,vo,03020042
+要
+「……えっ？　…………なんで？」
+#meffect,flow,5
+$k
+
+// MII_0403AD3
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03AD3.png,(x),l2,(s),60%
+#ig
+
+#sp,vo,03030062
+みい
+「人の話はちゃんと聞いてください」
+$k
+
+優
+「……はは」
+#meffect,flow,5
+$k
+
+// KANAME_0401KM2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),c,(s),60%
+#ig
+
+// 慌て汗アイコン。レイヤーはキャラ４。位置と縮尺は適宜。描画時は非同期処理になる。
+#ir,(sync),NO
+#ip,c4,(fi),image\icon\awatease.png,(x),320,(y),10,(s),100%,(ckc),2,(cki),500,(clc),no_limit
+#ig
+
+#sp,vo,03020043
+要
+「あ、あれれーっ？
+　今日はカレーって言ってなかったっけーっ！？
+$nw,4190
+
+#ir,(ef),off
+#ie,c4
+#ig
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK4.png,(x),c,(s),60%
+#ig
+
+　ねー、桜子ちゃん？」
+$k
+
+// 	CS_( CENTER, RIGHT );
+// 	SS_( LEFT, SAKURAKO_0401NO, MOVE_LEFT, NORMAL );
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),l3,(al),0%
+#ip,c1,(x),l
+#ip,c2,(x),r
+#ig
+
+#ir
+#ip,c2,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),r,(s),60%
+#ig
+
+// はてなアイコン。位置、レイヤー番号は適宜。
+#ir,(ef),off
+#ip,op2,(fi),image\icon\hatena.png,(x),720,(y),20,(ag),-10d
+#ig
+
+#ir,(ef),move,(dr),2000,(lt),reverse,(lc),no_limit
+#ip,op2,(ag),-45d,(rx+),30,(ry+),100
+#ig
+
+// SAKURAKO_0401NO
+#sp,vo,03000295
+桜子
+「…そうだっけ？」
+$k
+
+#ils
+
+#ir,(ef),off
+#ie,op2
+#ig
+
+// KANAME_0402SI
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02SI.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03020044
+要
+「ほらほらー、お昼頃にメールで、
+　今日はカレーにするぞー、って桜子ちゃんが…」
+$k
+
+// SAKURAKO_0402AS
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000296
+桜子
+「そ、そっか。そうだったよね？
+$nw,3100
+
+#ir
+#ip,c2,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM3.png,(x),r,(s),60%
+#ig
+
+　ごめん、すっかり忘れてた」
+$k
+
+// KANAME_0403GN2
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GN2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03020045
+要
+「うわーん、カレー食べる気満々だったのに
+　肉じゃがになってたなんてー」
+$k
+
+// SAKURAKO_0402KM3
+#sp,vo,03000297
+桜子
+「……ごめんごめん、今作り直すわ」
+$k
+
+// KANAME_0401OD3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03020046
+要
+「って、わわっごめん！
+$nw,2200
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),l,(s),60%
+#ig
+
+　………っあれ？　…怒られない？」
+$k
+
+// SAKURAKO_0403KM
+#ir
+#ip,c2,(fi),SAKURAKO_A403.png,(psi),SAKURAKO_An03KM.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03000298
+桜子
+「ごめんねっ、すぐ出来るからさ…」
+$k
+
+#sp,se,S_Walk12o
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),r2,(al),0%
+#ig
+
+// KANAME_0401OD2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03020047
+要
+「あ、いや、別にそこまでしなくても。
+　肉じゃがも好きだし…」
+$k
+
+#sp,vo,03000299
+桜子
+「ちょっとだけ待っててね？」
+$k
+
+#sp,se,S_Cook03
+
+// 	WaitSE( -1 );
+
+&empty
+桜子は台所に行って鍋を火にかけはじめる。
+本当に肉じゃがをカレーにするつもりらしい。
+$k
+
+// 	SS_( LEFT, KANAME_0401KM2 );
+// 立ち絵移動。パラメータは適宜。
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),l,(s),60%
+#ig
+
+// 	SS( RIGHT, MII_0403KM2 );
+
+// KANAME_0401KM2
+#sp,vo,03020048
+要
+「あれえ？　桜子ちゃーん？　おーい」
+$k
+
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),r,(s),60%
+#ig
+
+// MII_0403KM3
+
+#sp,vo,03030063
+みい
+「お姉様、何て事を…」
+$k
+
+// KANAME_0401OD3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01OD3.png,(x),l,(s),60%
+#ig
+
+// びっくりアイコン。レイヤー番号と位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\bikkuri.png,(x),320,(y),30
+#ig
+
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),2
+#ip,op1,(al),0%
+#ig
+
+#sp,vo,03020049
+要
+「あれっ？　私のせいっ！？」
+$k
+
+// MII_0403KM
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03KM.png,(x),r,(s),60%
+#ig
+
+#sp,vo,03030064
+みい
+「さあ、どうでしょうねえ…」
+$k
+
+// KANAME_0401KM2
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01KM2.png,(x),l,(s),60%
+#ig
+
+#sp,vo,03020050
+要
+「………あれ、大丈夫かなぁ桜子ちゃん」
+#meffect,flow,5
+$k
+
+優
+「…うーん」
+#meffect,flow,5
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c2,c3
+#ig
+
+&empty
+たしかに以前要さんが言っていたように、
+桜子はちょっと変かもしれない。
+$k
+
+&empty
+心当たりといえば…
+$k
+
+&empty
+みいちゃんへのプレゼントか。
+$k
+
+&empty
+そこまで深く悩む程なのか…。
+$k
+
+#hide
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	RFO( RULE_LEFTRIGHT );
+// 	SV( BG_TD_IMA03G );
+// 	SS_( RIGHT, KANAME_A403GM );
+
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03G.jpg,(s),100%
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GM.png,(x),r,(s),80%
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO4.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, SAKURAKO_A402NO4 );
+// 	RFI( RULE_LEFTRIGHT );
+
+#show
+
+// SAKURAKO_A402NO4
+
+#sp,vo,03000300
+桜子
+「どう？」
+$k
+
+// KANAME_A403GM
+#sp,vo,03020051
+要
+「あ、うん、おいしいねー？　カレーだねー？
+$nw,4490
+
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03GM3.png,(x),r,(s),80%
+#ig
+
+　うん…醤油風味もなかなかいけるかも」
+$k
+
+// SAKURAKO_A402NO3
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NO3.png,(x),l,(s),80%
+#ig
+
+#sp,vo,03000301
+桜子
+「そう？　よかったー
+$nw,1990
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02EG.png,(x),l,(s),80%
+#ig
+
+　……残さず食べてね？」
+$k
+
+// KANAME_A403AS
+#ir,(dr),0
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03AS.png,(x),r,(s),80%
+#ig
+
+// ぴょん。パラメータは適宜。
+#ir,(ef),move,(dr),200,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+#sp,vo,03020052
+要
+「も、もちろんっ！」
+$k
+
+#ir
+#ip,c2,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01AS.png,(x),l,(s),80%
+#ip,c1,(fi),MII_A403.png,(psi),MII_An03KM3.png,(x),r,(s),80%
+#ie,c3
+#ig
+
+// 	SS( RIGHT, MII_A403KM3 );
+
+// YUKIHA_A401AS
+#sp,vo,03050022
+雪華
+「肉じゃがもカレーになるものなんだねぇ」
+$k
+
+優
+「そ、そうだなあ、…糸こんにゃく入ってるけど」
+$k
+
+// MII_A403KM3
+
+#sp,vo,03030065
+みい
+「代わりにじゃがいもが消えてしまいましたね」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402AK );
+
+// SAKURAKO_A402AK
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ie,c1,c2
+#ig
+
+#sp,vo,03000302
+桜子
+「だから、ごめんって言ってるじゃない。
+$nw,2820
+
+#ir
+#ip,c3,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+　いいのよ？　別に食べなくっても！」
+$k
+
+#ir,(ef),quake,(qx),0,(qy),2
+#ig,(se),S_Binta02
+
+// 	WaitSE( -1 );
+
+優
+「あだっ！
+$nw,1000
+
+　……いや俺、糸こん大好きだし？」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402NR, MOVE_STOP, NORMAL );
+
+&empty
+でこピンされた。
+$k
+
+#next,03sakurako07_03

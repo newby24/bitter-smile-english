@@ -1,0 +1,851 @@
+﻿// 既読フラグ
+#read_flag,351
+
+// セーブタイトル
+#flag,save_title,要　第３話,0,0
+
+// 要好感度＋１。
+#flag,per,4,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+// 	SV( BG_GK_ROKA01C );
+
+#sp,bgm,BGM_KEIKAI
+
+#sp,env,S_Gaya03#,(vl),3
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_ROKA01C.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第３話　コスチュームテニスプレイヤー
+$k
+#note,erase
+
+// 	SS( CENTER, KANAME_0401GB, MOVE_LEFT );
+
+// KANAME_0401GB
+#ir,(ef),off
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01GB.png,(x),l0,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),c,(al),100%
+#ig
+
+#show
+
+#sp,vo,06020104
+要
+「ふぅ…食べた食べたぁー」
+$k
+
+優
+「…本当ですね」
+$k
+
+#ss,env
+
+&empty
+上機嫌で、イカ焼きを頬張っていたのが、つい数分前。
+$k
+
+&empty
+学園祭に遊びに来た要さんと合流してから…。
+$k
+
+&empty
+フランクフルト、わたがし、焼きそば、唐揚げ、
+焼きとうもろこし、じゃがバター…以下略。
+$k
+
+&empty
+合間には演劇や手相占い、お化け屋敷、
+ネイルアートやボディペイントと称した落書き屋など、
+色んなところをきゃっきゃと冷やかした。
+$k
+
+// KANAME_0402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020105
+要
+「堪能したー。
+$nw,2370
+
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01GB4.png,(x),c,(s),60%
+#ig
+
+// ためいきアイコン。レイヤーと位置は適宜。
+#ir,(ef),off
+#ip,op1,(fi),image\icon\tameiki.png,(x),300,(y),200,(al),0%
+#ig
+
+#ir,(ef),move,(dr),2000
+#ip,op1,(x+),-30,(y+),30,(al),100%
+#ia,op1,al,(dr),1000,(lt),reverse,(lc),1
+#ig
+
+　爺、余は満足じゃ」
+$k
+
+優
+「誰が爺ですか上様」
+$k
+
+&empty
+要さんって、楽しいときに
+楽しい顔ができる人なんだなー。
+$k
+
+&empty
+一緒にいるだけで、こっちまで楽しくなってくる。
+$k
+
+優
+「次はどちらへ？」
+$k
+
+// KANAME_0401TR
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01TR.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020106
+要
+「えへー、実はそろそろお腹いっぱいで」
+$k
+
+優
+「そりゃそうでしょう。
+　…じゃどっかで休憩しますか？」
+$k
+
+// KANAME_0402EG
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020107
+要
+「異議なーし」
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+//	SFO( 0, SLOW );
+// 	DelStandAll();
+
+//	SM( CHAR_ETC,			-1,					"",				"………" );
+
+// 	SV( BG_GK_TENNIS01A );
+// 	SS( CENTER, KANAME_0401IK );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_GK_TENNIS01A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01IK.png,(x),c,(s),60%
+#ig
+
+#show
+
+#ir,(dr),200,(ef),move,(lt),reverse,(lc),1
+#ip,c1,(y+),-10
+#ig
+
+// KANAME_0401IK
+#sp,vo,06020108
+要
+「テニスで勝負よ！」
+$k
+
+// 	SET_ACTION_PYON( CENTER );
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「なぜっ！？」
+#mlarge
+$k
+
+#sp,bgm,BGM_COMICAL2
+
+&empty
+急展開だった。
+$k
+
+&empty
+いや、休憩場所を求めつつ、
+人混みを嫌った結果、
+こんなグラウンドの外れまで来てしまったのだけど。
+$k
+
+&empty
+ちなみにこの辺は学園祭の公開範囲じゃないので、
+人の気配は皆無だった。
+$k
+
+優
+「そもそもここ、なんで入れたんです？」
+$k
+
+// KANAME_0401NO3
+#ir
+#ip,c1,(fi),KANAME_A401.png,(psi),KANAME_An01NO3.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020109
+要
+「開いてたよ？」
+$k
+
+優
+「こらテニス部」
+$k
+
+&empty
+コートの開放条件を知らないから、
+テニス部に責任はないかもしれないけど。
+$k
+
+優
+「休憩するんじゃなかったんですか？
+　それが何故テニス？」
+$k
+
+// KANAME_0403NS
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03NS.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020110
+要
+「楽しそうでしょ」
+$k
+
+&empty
+ただの思いつきらしい。
+$k
+
+優
+「けど、道具がないんじゃ…」
+$k
+
+#sp,vo,06070000
+？？？
+#mstyle,(co),めぐみ
+「おっ待ったせぇ～」
+$k
+
+優
+「…この余計な声は」
+$k
+
+// 	CS_( CENTER, LEFT );
+// 	SS( RIGHT , MEGUMI_0201EG6 , MOVE_RIGHT );
+
+// MEGUMI_0201EG6
+#ir,(ef),off
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG6.png,(x),r2,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c3,(x),r,(al),100%
+#ip,c1,(x),l
+#ig
+
+#sp,vo,06070001
+めぐみ
+「はぁ～い」
+$k
+
+&empty
+見計らったようなタイミングで、
+ラケットとボールを抱えためぐみが現れた。
+$k
+
+// KANAME_0403NO
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06020111
+要
+「ありがとー、めぐみちゃん」
+$k
+
+優
+「いや、何やってんだよ、こんなとこで」
+$k
+
+// MEGUMI_0201BS2
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070002
+めぐみ
+「この試合は、女子テニス部の提供で、
+　お送りいたしま～す♪」
+$k
+
+優
+「女子テ…？　おまえが？」
+#meffect,flow,5
+$k
+
+// MEGUMI_0201BS
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070003
+めぐみ
+「桜子とのダブルスは、
+　黄金の助っ人コンビって呼ばれてるわ」
+$k
+
+優
+「何やってたんだおまえら…」
+#meffect,flow,5
+$k
+
+&empty
+『女子』の部分は、
+今さらつっこんでも喜ぶだけなのでスルーする。
+$k
+
+// KANAME_0402BS
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06020112
+要
+「それでめぐみちゃんにメールで協力要請したの」
+$k
+
+優
+「こんな勝手なことしていいのか？
+　関係者以外立ち入り禁止～とかあるだろ」
+$k
+
+// MEGUMI_0201EG5
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070004
+めぐみ
+「それくらい融通きくってば」
+$k
+
+// KANAME_0403BS
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06020113
+要
+「誠心誠意謝れば、きっと許してもらえるって」
+$k
+
+優
+「謝らなきゃいけないようなことするの、
+　やめときましょうよぅ…」
+$k
+
+&empty
+自分は学園生じゃないからって…。
+$k
+
+// MEGUMI_0201NO
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01NO.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070006
+めぐみ
+「いざとなったら、
+　ゆとりを言い訳に」
+$k
+
+優
+「それ免罪符になってないから」
+$k
+
+&empty
+…ん？
+$k
+
+&empty
+と、もうひとつ必要なものに気づく。
+$k
+
+優
+「要さん、その格好でやるんですか？」
+$k
+
+// MEGUMI_0201OD2
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01OD2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070007
+めぐみ
+「そっか…汗とか砂で汚れちゃうわよね」
+$k
+
+&empty
+ちなみに俺は制服だけど、汚れるのは構わない。
+元の持ち主、ここにいるし。
+$k
+
+&empty
+…怖いのは、雪華ちゃんの反応だけど。
+$k
+
+// KANAME_0402NO
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06020114
+要
+「それなら、すでに手配済み」
+$k
+
+優
+「手配って…」
+$k
+
+//	CS_( LEFT, CENTER );
+//	SS( LEFT , MII_0801BS , MOVE_LEFT );
+// MII_A201BS
+
+#ir
+#ie,c1,c3
+#ig
+
+#sp,vo,06030005
+？？？
+#mstyle,(co),みい
+「着替えお待たせしました」
+$k
+
+//	SS(LEFTLEFTTOP, MII_A201BS, MOVE_LEFT);
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「嫌な予感と同時に来た！」
+#mlarge
+$k
+
+&empty
+…仕組まれていたように人が増える。
+$k
+
+&empty
+つか、この視界の開けた場所で、
+いつ背後に回り込んだんだこの娘は…。
+$k
+// 	SS( CENTER, MII_A201NO, MOVE_LEFT);
+
+// MII_A201NO
+#ir,(ef),off
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),l0,(s),80%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),c,(al),100%
+#ig
+
+#sp,vo,06030006
+みい
+「裏口があるのですよ」
+$k
+
+優
+「いや、心の声につっこまないで」
+$k
+
+// MII_A201BS
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06030007
+みい
+「読唇術です」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「そもそも唇動かしてないし！」
+#mlarge
+$k
+
+&empty
+動かしてないはず…。
+$k
+
+// MII_A201BS
+#sp,vo,06030008
+みい
+「では忍法ということで」
+$k
+
+優
+「ということで」
+$k
+
+// 	SS_(CENTER, KANAME_0402BS);
+
+#ir
+#ip,c1,(fi),KANAME_A402.png,(psi),KANAME_An02BS.png,(x),c,(s),60%
+#ip,c2,(s),60%,(x),l3
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01OD2.png,(x),r2,(s),60%
+#ig
+
+// 	SS(RIGHTRIGHT, MEGUMI_0201OD2);
+
+// KANAME_0402BS
+#sp,vo,06020115
+要
+「ありがとね、みいちゃん」
+$k
+
+#sp,se,S_Nuno05
+
+#ir,(dr),1000,(ef),move,(lt),reverse,(lc),1
+#ip,c2,(x),l2
+#ig
+
+// MII_0201BS
+#sp,vo,06030009
+みい
+「どうぞ、要お姉様。
+　こちらの袋の中です」
+$k
+
+// 	CS(LEFTLEFT, LEFT);
+// 	CS(LEFT, LEFTLEFT);
+
+優
+「ホントに着替え持ってきたんだ？」
+$k
+
+// MII_0201NO
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),l3,(s),60%
+#ig
+
+#sp,vo,06030010
+みい
+「ええ、馬鹿には見えない服です」
+$k
+
+優
+「…それ、まずみいちゃんが着てみてくれる？」
+$k
+
+// MII_0201AM2
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01AM2.png,(x),l3,(s),60%
+#ig
+
+#sp,vo,06030011
+みい
+「お兄様ってば白昼堂々セクハラ発言。
+$nw,4470
+
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01TR2.png,(x),l3,(s),60%
+#ig
+
+　立派な殿方の顔つきになってきましたね」
+$k
+
+優
+「どっちがセクハ…
+$nw,1000
+
+　もういいや」
+$k
+
+// MEGUMI_0201BS3
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01BS3.png,(x),r2,(s),60%
+#ig
+
+#sp,vo,06070008
+めぐみ
+「要さん、部室使ってください」
+$k
+
+// KANAME_0403EG
+#ir
+#ip,c1,(fi),KANAME_A403.png,(psi),KANAME_An03EG.png,(x),c,(s),60%
+#ig
+
+#sp,vo,06020116
+要
+「じゃあ着替えてくるわね～」
+$k
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l0,(al),0%
+#ig
+
+&empty
+いそいそと部室に向かう要さん。
+$k
+
+優
+「つか、本当にやるんだ…」
+$k
+
+// 	CS_(RIGHTRIGHT, RIGHT);
+// 	CS(LEFTLEFT, LEFT);
+
+#ir,(dr),1000,(ef),move
+#ip,c2,(x),l
+#ip,c3,(x),r
+#ig
+
+// MII_0201BS
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030012
+みい
+「ちなみに着替えの支給希望のメールは、
+　私だけでなく、姉上にも届いたそうです」
+$k
+
+優
+「…この後、桜子に続いて、
+　有河や宮津橋まで増えるんじゃないだろうな」
+$k
+
+// MII_0201NO
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030013
+みい
+「いえ、少なくとも姉上は来ないでしょう」
+$k
+
+// MII_0201KY2
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01KY2.png,(x),l,(s),60%
+#ig
+
+// MII_0202KB3
+#sp,vo,06030014
+みい
+「メールを確認された姉上は、
+　『ＹＥＳ』も『ＮＯ』もなく、
+$nw,3980
+
+#ir
+#ip,c2,(fi),MII_A202.png,(psi),MII_An02KB3.png,(x),l,(s),60%
+#ig
+
+　『優…はっ倒す』
+$nw,2280
+
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+#madd,と繰り返す病気に罹患されまして」
+
+//#mfuri,りかん
+
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),2
+#ig
+
+優
+「メールの本文確認させて！？」
+#mlarge
+$k
+
+&empty
+事実がねじ曲げられている恐れが。
+$k
+
+// MII_0202NO
+#ir
+#ip,c2,(fi),MII_A202.png,(psi),MII_An02NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030015
+みい
+「ご希望でしたら、
+　勇樹お姉様と知世翔さんと雪華さんにも
+　転送しておきましょうか」
+$k
+
+優
+「一番増えちゃいけない人が増えてる！」
+$k
+
+&empty
+…この先、もう何が起こっても、
+要さんに釈明してもらうことにしよう。
+$k
+
+// MII_0203EG
+#ir
+#ip,c2,(fi),MII_A203.png,(psi),MII_An03EG.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030016
+みい
+「ただ、着替えはもう私が用意しましたので。
+　これはいざという時の脅迫材料として、
+　ストックさせていただきましょう…
+$nw,9910
+
+#ir
+#ip,c2,(fi),MII_A203.png,(psi),MII_An03EG2.png,(x),l,(s),60%
+#ig
+
+#madd,これで４９２個」
+
+$k
+
+優
+「…ああ、空が綺麗だなあ」
+$k
+
+&empty
+聞こえない。何も聞こえない。
+$k
+
+// MEGUMI_0201EG6
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01EG6.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070009
+めぐみ
+「ごめんね～、みいちゃん。
+　せっかくの学園祭の最中だったのに」
+$k
+
+// MII_0201NO
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030017
+みい
+「いえ、こちらの方が滑稽そうでしたし」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// MII_0201BS
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01BS.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030018
+みい
+「ＫＹする要お姉さまのためですから」
+$k
+
+優
+「…みいちゃんも空気を読んでよ」
+
+#mfuri,　　　　　　　　　　　　　　　　　　　　Ｋ　　Ｙ
+
+$k
+
+// MII_0201NO
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030019
+みい
+「私は計算ですのでご安心ください」
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),2,(qy),0
+#ig
+
+優
+「余計悪いって！」
+#mlarge
+$k
+
+&empty
+正しくは敬愛だと思う。
+$k
+
+// MEGUMI_0201KT4
+#ir
+#ip,c3,(fi),MEGUMI_A201.png,(psi),MEGUMI_An01KT4.png,(x),r,(s),60%
+#ig
+
+#sp,vo,06070010
+めぐみ
+「そういえば、着替えは何持ってきたの？」
+$k
+
+// MII_0201KY
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01KY.png,(x),l,(s),60%
+#ig
+
+#sp,vo,06030020
+みい
+「ああ、それは…」
+$k
+
+#sp,vo,06020117
+要
+「おっ待たせぇ～」
+$k
+
+#next,06kaname03_01

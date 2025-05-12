@@ -1,0 +1,544 @@
+﻿// 既読フラグ
+#read_flag,213
+
+// YUKIHA_A401KT
+#ir
+#ip,c3,(fi),YUKIHA_A401.png,(psi),YUKIHA_An01KT.png,(x),l,(s),80%
+#ig
+
+#sp,vo,04050015
+雪華
+「でも、ごはんとたこ焼きは
+　一緒に食べるんだっけ？」
+$k
+
+// MII_A403KT
+#ir
+#ip,c4,(fi),MII_A403.png,(psi),MII_An03KT.png,(x),r,(s),80%
+#ig
+
+#sp,vo,04030051
+みい
+「それも個人個人の趣味ですねえ」
+$k
+
+優
+「本気で楽しみにしてたのに……」
+$k
+
+// 	RFO( RULE_DOWNUP, SLOW );
+// 特殊な画面変更。暫定的に。
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+&empty
+思わずこたつに突っ伏してしまう。
+$k
+
+&empty
+は、恥ずかしいっ。
+$k
+
+&empty
+何度、担がれたら気が済むんだ、俺。
+$k
+
+#sp,vo,04030052
+みい
+「よしよし、お兄様。
+　みいが慰めてさしあげましょうね」
+$k
+
+#sp,se,S_Pon02,(lp),1
+
+&empty
+いきなりみいちゃんに頭を抱え込まれる。
+$k
+
+// 	Shake( 0, SHAKE_RANDOM, 4, 10 );
+
+#sp,se,S_Pon02,(lp),1
+
+優
+「むぐ、むぐぐ～っっ！」
+$k
+
+// 	Shake( 0, SHAKE_RANDOM|SHAKE_SCREEN, 4, 10 );
+
+&empty
+気持ちいいとか以前に、息苦しい。
+窒息するっ！
+$k
+
+// 	SNLP( 0, "T_Hit01" );
+
+// 	Shake( 0, SHAKE_RANDOM, 4, 10 );
+
+#sp,se,T_Hit01,(lp),1
+
+優
+「ん～っ、んん～っ…！」
+$k
+
+// 	SEStop( 0 );
+// 	Shake( 1, SHAKE_RANDOM, 4, 10 );
+
+#sp,vo,04000081
+桜子
+「みいー、優がタップしてるわよ」
+$k
+
+#sp,vo,04030053
+みい
+「あら、これはいけませんね」
+$k
+
+#ir
+#ip,bg,(fi),BG_TD_IMA03F.jpg,(s),100%
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01NO.png,(x),l,(s),80%
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03NS.png,(x),r,(s),80%
+#ig
+
+優
+「ぷはっ……」
+$k
+
+// 	SS_( LEFT, SAKURAKO_A401NO );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS_( RIGHT, MII_A403NS );
+// 立ち絵移動。パラメータは適宜。
+
+// 	RFI( RULE_RYUUSEN2, FAST );
+// 特殊な画面変更。暫定的に。
+
+&empty
+やっと解放された。
+$k
+
+// MII_A403EG
+#ir
+#ip,c3,(fi),MII_A403.png,(psi),MII_An03EG.png,(x),r,(s),80%
+#ig
+
+#sp,vo,04030054
+みい
+「慰められました？」
+$k
+
+優
+「天国が見えたよ……」
+$k
+
+&empty
+地獄だったかもしれない。
+$k
+
+// SAKURAKO_A402KM4
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02KM4.png,(x),l,(s),80%
+#ig
+
+#sp,vo,04000082
+桜子
+「はあ…それにしても遅いわね。
+　年明けちゃうじゃない」
+$k
+
+&empty
+桜子はさっきからそわそわと玄関の方を
+気にしているみたいだった。
+$k
+
+&empty
+なんだ？　なにかあるのか？
+$k
+
+#sp,se,W_InterHon01
+
+// 	SS_( LEFT, SAKURAKO_0401TR4, MOVE_DOWN, NORMAL );
+
+#ir
+#ip,c1,(fi),SAKURAKO_A401.png,(psi),SAKURAKO_An01TR4.png,(x),l,(s),80%
+#ig
+
+// SAKURAKO_A401TR4
+#sp,vo,04000083
+桜子
+「あ、きたきた。優、一緒に来て」
+$k
+
+//	MoveStand( LEFTLEFT, 50, 0, 0 );
+優
+「へ？」
+$k
+
+// 	SS( CENTER, SAKURAKO_A402NR );
+
+// SAKURAKO_A402NR
+#ir
+#ip,c1,(fi),SAKURAKO_A402.png,(psi),SAKURAKO_An02NR.png,(x),l,(s),80%
+#ig
+
+#sp,vo,04000084
+桜子
+「いいから早く」
+$k
+
+#ir
+#ip,bg,(fi),black.jpg
+#ig
+
+優
+「ちょ、だから、お前、襟首ひっつかむのは
+　やめろっ！　苦しいっ……」
+$k
+
+// 	SS( CENTERTOP, SAKURAKO_A401TR4 );
+// 	Scroll( 500, 800, 0 );
+// 	ShakeStand( CENTERTOP, SLOW, SHAKE_UP, 4, 20 );
+// 	MoveStand( CENTERTOP, 200, 400, 0 );
+
+// 	RFO( RULE_LEFTRIGHT, SLOW );
+
+// 	FadeStand( CENTERTOP, 50, FADE_ALPHA, 0 );*/
+
+// 	RFO( RULE_LEFTRIGHT | RULE_MIRROR, SLOW );
+
+&empty
+はー……窒息するかと思った、本日二度目。
+$k
+
+#hide
+
+// 	SV( BG_TD_GENKANMAE03B );
+
+//	SS( LEFT, SAKURAKO_0401TR4 );
+// 	RFI( RULE_LEFTRIGHT, SLOW );
+// 	SS( CENTER, MEGUMI_0401EG );
+
+// MEGUMI_0401EG
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_GENKANMAE03B.jpg,(s),100%
+#ip,c3,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01EG.png,(x),c,(s),60%
+#ig
+
+#show
+
+#sp,vo,04070077
+めぐみ
+「やっほー！
+　あけましておめでとう！
+　……にはまだ早いかなっ」
+$k
+
+&empty
+玄関に行くと、そこにはめぐみが立っていた。
+$k
+
+// SAKURAKO_0401EG
+
+#sp,vo,04000085
+桜子
+「あははっ、ちょっとだけね。
+　年越し蕎麦、もうすぐ出来るわよ」
+$k
+
+優
+「めぐみ？
+　なんでこんな時間に…」
+$k
+
+// 	CS_( CENTER, CENTERRIGHT );
+// 	SS_( CENTERLEFT, ISAKI_0402MU, MOVE_RIGHT, NORMAL );
+
+#ir,(ef),off
+#ip,c1,(fi),ISAKIn_A402.png,(psi),ISAKIn_An02MU.png,(x),c,(s),60%,(al),0%
+#ig
+
+#ir,(dr),1000,(ef),move
+#ip,c1,(x),l,(al),100%
+#ip,c3,(x),r
+#ig
+
+// ISAKI_0402MU
+#sp,vo,04010268
+勇樹
+「出前だ」
+$k
+
+&empty
+めぐみの後ろから
+宮津橋が進み出てきた。
+$k
+
+優
+「お前も来たのか」
+$k
+
+// ISAKI_0401NO
+#ir
+#ip,c1,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010269
+勇樹
+「だから、出前だと言っているだろう」
+$k
+
+&empty
+確かに、宮津橋はクレープが入っていると
+思われる、大きな箱を抱えていた。
+$k
+
+// 	SS( CENTER, SAKURAKO_0401TR4 );
+
+// SAKURAKO_0401TR4
+#ir
+#ip,c3,(fi),SAKURAKOn_A401.png,(psi),SAKURAKOn_An01TR4.png,(x),c,(s),60%
+#ie,c1
+#ig
+
+#sp,vo,04000086
+桜子
+「ま、いいからあがりなさいよ」
+$k
+
+&empty
+なんで、桜子はやけににやにやして……って。
+$k
+
+&empty
+あ。
+$k
+
+&empty
+そういう事か。
+$k
+
+// 	SS_( CENTERLEFT, ISAKI_0401NO );
+// 立ち絵移動。パラメータは適宜。
+
+// 	SS( CENTERRIGHT, MEGUMI_0401NO );
+
+// MEGUMI_0401NO
+#ir
+#ip,c1,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01NO.png,(x),r,(s),60%
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),l,(s),60%
+#ie,c3
+#ig
+
+#sp,vo,04070078
+めぐみ
+「じゃあ、お邪魔しまーす」
+$k
+
+// 	MoveStand( RIGHT, 50, -100, 0 );
+
+// ISAKI_0401IK
+
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010270
+勇樹
+「ちょっと待て、なぜあがり込む？
+　出前じゃなかったのか」
+$k
+
+// 	MoveStand( RIGHTRIGHTTOP, 30, 0, 0 );
+
+// MEGUMI_0401KT5
+#ir
+#ip,c1,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01KT5.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070079
+めぐみ
+「うん、出前だよ～」
+$k
+
+// SAKURAKO_0401AZ
+
+#sp,vo,04000087
+桜子
+「そ、うちが頼んだのよ。
+　そのクレープ１５人前」
+$k
+
+&empty
+なんか、今、集まってる人数より多くないか。
+まあ、甘い物は別腹の集団だから大丈夫か。
+$k
+
+// ISAKI_0402MU
+#ir
+#ip,c2,(fi),ISAKIn_A402.png,(psi),ISAKIn_An02MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010271
+勇樹
+「……置いたら帰る」
+$k
+
+優
+「そう言わずにあがっていけよ」
+$k
+
+// MEGUMI_0401TR2
+#ir
+#ip,c1,(fi),MEGUMIn_A401.png,(psi),MEGUMIn_An01TR2.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04070080
+めぐみ
+「そうそう、出前が終わったら、
+　バイトもおしまいって、お父さんも
+　言ってたでしょ？」
+$k
+
+// 	SS( CENTER, ISAKI_0401NO, MOVE_STOP, NORMAL );
+
+// ISAKI_0401NO
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NO.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010272
+勇樹
+「…………」
+$k
+
+&empty
+ちらっと宮津橋が俺の方を見てきた。
+$k
+
+優
+「貸せよ、それ。
+　俺が部屋までは運ぶからさ」
+$k
+
+// ISAKI_0401MU
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01MU.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010273
+勇樹
+「いい。仕事なんだから、私が運ぶ」
+$k
+
+優
+「もう仕事はおわりだってよ」
+$k
+
+#sp,se,S_Catch01
+
+&empty
+強引に箱を奪う。
+宮津橋はそれ以上、何も言わなかった。
+$k
+
+// 	SS_( CENTERRIGHT, SAKURAKO_0403NO2, MOVE_RIGHT );
+
+#ir
+#ip,c3,(fi),SAKURAKOn_A403.png,(psi),SAKURAKOn_An03NO2.png,(x),r,(s),60%
+#ie,c1
+#ig
+
+// SAKURAKO_0403NO2
+#sp,vo,04000088
+桜子
+「ほら、あがって、あがって」
+$k
+
+&empty
+空いた宮津橋の手を、桜子が引っ張る。
+$k
+
+// ISAKI_0402KM
+#ir
+#ip,c2,(fi),ISAKIn_A402.png,(psi),ISAKIn_An02KM.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010274
+勇樹
+「離せ」
+$k
+
+// SAKURAKO_0403NO2
+#sp,vo,04000089
+桜子
+「あんたの分も用意してるんだから、
+　たこ焼きとクレープとお蕎麦。
+　ムダにさせないでよ」
+$k
+
+// ISAKI_0401IK
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01IK.png,(x),l,(s),60%
+#ig
+
+#sp,vo,04010275
+勇樹
+「そんなに食えるか、バカ」
+$k
+
+// ISAKI_0401NS
+#ir
+#ip,c2,(fi),ISAKIn_A401.png,(psi),ISAKIn_An01NS.png,(x),l,(s),60%
+#ig
+
+&empty
+だけど、宮津橋は靴を脱ぎながら、ふっと
+その顔に笑みを浮かべた。
+$k
+
+#sp,vo,04010276
+勇樹
+「まあ、蕎麦だけなら食べていってもいい」
+$k
+
+// SAKURAKO_0402NO3
+#ir
+#ip,c3,(fi),SAKURAKOn_A402.png,(psi),SAKURAKOn_An02NO3.png,(x),r,(s),60%
+#ig
+
+#sp,vo,04000090
+桜子
+「じゃ、早くあがりなさいよ。
+　のびちゃうんだから」
+$k
+
+&empty
+桜子のやつ、
+わざわざ宮津橋を呼んでくれたのかな。
+$k
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	CFO();
+
+// 	SV( BG_TD_IMA03E );
+
+#sp,bgm,BGM_KEIKAI
+
+// 	CFI();
+// 特殊な画面変更。暫定的に。
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA03E.jpg,(s),100%
+#ig
+
+#next,04isaki10_02

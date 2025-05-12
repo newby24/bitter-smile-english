@@ -1,0 +1,708 @@
+﻿// 既読フラグ
+#read_flag,354
+
+// セーブタイトル
+#flag,save_title,要　第５話,0,0
+
+// 要好感度＋１。
+#flag,per,4,+,1
+
+// イベント選択でボタンを押した後、間を取る。
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+
+#sp,bgm,BGM_KEIKAI
+
+//	SFP(0, "S_Dish01#", SLOW, 50);
+// 	SV( BG_TD_IMA01A );
+
+// 	SS(CENTER, KANAME_A903EG);
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ig
+
+// エピソードタイトルの表示
+#note,要　第５話　噛み合ってない
+$k
+#note,erase
+
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03EG.png,(x),c,(s),80%
+#ig
+
+#show
+
+// KANAME_A903EG
+#sp,vo,06020131
+要
+「みいちゃん、おかわりいいかな」
+$k
+
+// MII_A201NO
+
+#sp,vo,06030031
+みい
+「ええ」
+$k
+
+// SAKURAKO_0202NR
+
+#sp,vo,06000006
+桜子
+「…朝からよく入るわね」
+$k
+
+// KANAME_A903EG
+#sp,vo,06020132
+要
+「だって、しやわせーなくらい、
+　ご飯がおいしいんだもん」
+$k
+
+// YUKIHA_A201NO
+
+#sp,vo,06050004
+雪華
+「食欲の秋だねぇ」
+$k
+
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01GB4.png,(x),c,(s),100%,(y),c
+#ip,bg,(s),120%,(x+),-10%,(y+),-10%
+#ig
+
+&empty
+ちらっ
+$k
+
+#ir,(dr),500
+#ip,c1,(s),80%,(x),c
+#ip,bg,(s),100%,(x),c,(y),def
+#ig
+
+// 	SV( BG_TD_IMA01A );
+// 	Zoom(FASTEST, 200, 200, 300, 400+50);
+
+// 	SS(CENTER, KANAME_A901NO2);
+// 	SV( BG_TD_IMA01A );
+
+// 	Zoom(FASTEST, 100, 100, 300, 400);
+
+// 	SS(CENTER, KANAME_A901GB4);
+
+
+// KANAME_A901GB4
+#sp,vo,06020133
+要
+「んーっ。これだけおいしいと、
+　朝ご飯のために早起きしちゃうかもっ」
+$k
+
+// KINO_A401IK5
+
+#sp,vo,06060005
+紀乃
+「たまたま早よ起きて、うちに寄っただけやろが」
+$k
+
+// MII_A201BS
+
+#sp,vo,06030032
+みい
+「どうぞ、お姉様」
+$k
+
+// KANAME_A901NO2
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01NO2.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020134
+要
+「ありがとみいちゃん」
+$k
+
+// KANAME_A903NS
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020135
+要
+「よーしベルトの封印を解いちゃおうかしら！」
+$k
+
+// 	SS(CENTER, KANAME_A903NS);
+// YUKIHA_A201OD
+
+#sp,vo,06050005
+雪華
+「あ、朝ご飯で？」
+$k
+
+// SAKURAKO_0202AK
+
+#sp,vo,06000007
+桜子
+「テンションたっかぁ…」
+$k
+
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02BS.png,(x),c,(s),100%,(y),c
+#ip,bg,(s),120%,(x+),-10%,(y+),-10%
+#ig
+
+&empty
+ちらっ
+$k
+
+// 	SV( BG_TD_IMA01A );
+// 	Zoom(FASTEST, 200, 200, 300, 400+50);
+
+// 	SS(CENTER, KANAME_A902BS);
+
+// KANAME_A901KT
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01KT.png,(x),c,(s),100%,(y),c
+#ig
+
+#sp,vo,06020136
+要
+「ん？」
+$k
+
+// KANAME_A901KT
+#sp,vo,06020137
+要
+「優くん」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// KANAME_A901IK
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01IK.png,(x),c,(s),100%,(y),c
+#ig
+
+#sp,vo,06020138
+要
+「おーい優くん。
+$nw,1760
+
+　優くんってばー」
+
+$k
+
+#ir,(ef),quake,(qx),1,(qy),0
+#ip,c1,(s),80%,(x),c
+#ip,bg,(s),100%,(x),c,(y),def
+#ig
+
+//	SFO(0, SLOWER);
+優
+「え…？
+　あ、はい…、はい？」
+$k
+
+// 	SV( BG_TD_IMA01A );
+// 	Zoom(FASTEST, 100, 100, 300, 400);
+
+//	ZoomStand(CENTER, SLOW|SPEED_DOWN, 130, 130);
+
+// KANAME_A902BS
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020139
+要
+「あごのとこ、ご飯つぶついてる」
+$k
+
+優
+「い？　あっ…」
+#meffect,flow,5
+$k
+
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02EG.png,(x),c,(s),80%
+#ig
+
+&empty
+自分で確認するより早く、
+要さんに指先ですくい取られた。
+$k
+
+&empty
+あご先をなぞるような要さんの指に、
+一瞬、どきっとする。
+$k
+
+//	ZoomStand(CENTER, SLOW|SPEED_DOWN, 100, 100);
+// KANAME_A901IK
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020140
+要
+「ご飯の最中にぼーっとしてるからよ」
+$k
+
+優
+「ど、どうもです…」
+#meffect,flow,5
+$k
+
+// KANAME_A902BS
+#ir
+#ip,c1,(fi),KANAME_A902.png,(psi),KANAME_An02BS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020141
+要
+「もう、どこ見てるんだか」
+$k
+
+&empty
+と、要さんが胸を隠すそぶりを…。
+$k
+
+&empty
+きっ、気付かれてた！？
+$k
+
+優
+「えっ、あ、それはそういう意味じゃなくて…！」
+$k
+
+// KANAME_A903NS
+#ir
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NS.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020142
+要
+「ふふっ…本気にしちゃって。
+　真に受けちゃって、かーわいいの」
+$k
+
+優
+「う…」
+#meffect,flow,5
+$k
+
+&empty
+なんだ、当てずっぽうにからかわれただけか…
+$k
+
+// 	SS_(CENTERBOTTOM, SAKURAKO_A202KB, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c1,(fi),YUKIHA_A201.png,(psi),YUKIHA_An01SN3.png,(x),r3,(s),80%
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KB.png,(x),c,(s),80%
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01SN3.png,(x),l3,(s),80%
+#ig
+
+// 	SS(RIGHTRIGHT, YUKIHA_A201IK2, MOVE_STOP, NORMAL);
+
+//	SM( CHAR_SAKURAKO,		SAKURAKO_A202KB,	"桜子",			"@v06000008「…（じーっ）」" );
+//	SM( CHAR_MII,			MII_A201SN3,		"みい",			"@v06030033「…（じとーっ）」" );
+//	SM( CHAR_YUKIHA,		YUKIHA_A201MJ,		"雪華",			"@v06050006「…（じとーっ）」" );
+
+#sp,vo,06000008
+桜子みい雪華
+「じーっ……」
+#meffect,flow,5
+$k
+
+// 揺れ。パラメータは適宜。
+#ir,(ef),quake,(qx),1,(qy),1
+#ig
+
+優
+「ひいっ！？」
+#mlarge
+$k
+
+&empty
+視線が怖い！？
+$k
+
+// SAKURAKO_A202NR
+#ir
+#ip,c3,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NR.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06000009
+桜子
+「真に受けてたってことは、
+　思い当たることをしてたんじゃないの～？」
+$k
+
+// MII_A201NI2
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01NI2.png,(x),l3,(s),80%
+#ig
+
+#sp,vo,06030034
+みい
+「ずっと生返事でしたしね」
+$k
+
+// YUKIHA_A201KB3
+#ir
+#ip,c1,(fi),YUKIHA_A201.png,(psi),YUKIHA_An01KB3.png,(x),r3,(s),80%
+#ig
+
+#sp,vo,06050007
+雪華
+「ご飯のときはご飯に集中してよ。
+　そういうの、社会に出てからも出るんだから」
+$k
+
+// 	SS( CENTER, KINO_A401AK );
+
+// KINO_A401AK
+#ir
+#ip,c1,(fi),KINO_A401AK.png,(x),c,(s),80%
+#ie,c2,c3
+#ig
+
+#sp,vo,06060006
+紀乃
+「気ぃつけんと親のしつけを疑われるよってな」
+$k
+
+&empty
+そこまで言う…。
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1
+#ig
+
+優
+「ごめんなさい…気をつけます」
+$k
+
+&empty
+下手に反論しない方がよさそうなので、
+全面的に謝っておく。
+$k
+
+//	DS(-1, MOVE_STOP, NORMAL);
+
+&empty
+実際、要さんを見ていたのには違いないし。
+$k
+
+&empty
+いや、それには他の連中が考えるのとは別の、
+ちゃんとした理由があるんだけど。
+$k
+
+// 	DelStandAll();
+
+#hide
+
+#ss,bgm
+
+#ir,(dr),1000
+#ip,bg,(fi),black.jpg
+#ig
+
+#wait,1000
+
+// 	SV( BG_TD_IMA01A );
+// 	SS(CENTER, KANAME_A901GB );
+
+#ir,(dr),1000
+#ip,bg,(fi),BG_TD_IMA01A.jpg,(s),100%
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01GB.png,(x),c,(s),80%
+#ig
+
+#show
+
+// KANAME_A901GB
+#sp,vo,06020143
+要
+「……
+$nw,1090
+
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01GB4.png,(x),c,(s),80%
+#ig
+
+　んー、おいしぃー」
+$k
+
+#sp,bgm,BGM_KANAME
+
+#ir
+#ip,c1,(s),100%,(x),c,(y),c
+#ip,bg,(s),120%,(x+),-10%,(y+),-10%
+#ig
+
+&empty
+ちらっ、と。
+$k
+
+// 	SV( BG_TD_IMA01A );
+// 	Zoom(FASTEST, 200, 200, 300, 400+50);
+
+// 	SS(CENTER, KANAME_A901PU4);
+
+&empty
+相変わらず大きくて柔らかそうな…
+$nw,1000
+
+って、変に影響されて意識するんじゃない。
+$k
+
+
+&empty
+そうじゃなくて、要さん…。
+シャツのボタンを掛け違えている。
+$k
+
+&empty
+スーツの下に隠れてわかりづらいけど、
+シャツのボタンが途中からずれて、
+段が、がたがたになっていた。
+$k
+
+優
+「あの、要さ…」
+$k
+
+// 	SV( BG_TD_IMA01A );
+// 	Zoom(FASTEST, 100, 100, 300, 400);
+
+// KANAME_A903NO
+#ir,(ef),quake,(qx),2,(qy),2
+#ip,c1,(fi),KANAME_A903.png,(psi),KANAME_An03NO.png,(x),c,(s),80%
+#ip,bg,(s),100%,(x),c,(y),def
+#ig
+
+#sp,vo,06020144
+要
+「ひらめいた！
+$nw,1540
+
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01GB4.png,(x),c,(s),80%
+#ig
+
+　わたしこれから朝ご飯のために早起きする。
+$nw,4180
+
+　で、それを足がかりに、しっかり者に変わるの！」
+
+$k
+
+// 	SS_(CENTERBOTTOM, SAKURAKO_A202AK, MOVE_STOP, NORMAL);
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02AK.png,(x),c,(s),80%
+#ig
+
+// 	SS(RIGHTRIGHT, KINO_A401AK, MOVE_STOP, NORMAL);
+
+// SAKURAKO_A202AK
+#sp,vo,06000010
+桜子
+「それは無理」
+$k
+
+// KINO_A401AK
+#ir
+#ip,c3,(fi),KINO_A401AK.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06060007
+紀乃
+「無理やな」
+$k
+
+// MII_A201AK
+#ir
+#ip,c2,(fi),MII_A201.png,(psi),MII_An01AK.png,(x),l3,(s),80%
+#ig
+
+#sp,vo,06030035
+みい
+「おへそのお茶が沸騰してしまいますね」
+$k
+
+// KANAME_A903SN
+
+#sp,vo,06020145
+要
+「ちょっ、なによーみんなしてぇー」
+$k
+
+// SAKURAKO_A202NO
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+// SAKURAKO_A202KM4
+#sp,vo,06000011
+桜子
+「お姉のそういうの、
+　３ヶ月にいっぺん聞いてるし。
+$nw,3250
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02KM4.png,(x),c,(s),80%
+#ig
+
+　あ～そういう季節なんだ～
+$nw,1510
+
+#ir
+#ip,c1,(fi),SAKURAKO_A202.png,(psi),SAKURAKO_An02NO.png,(x),c,(s),80%
+#ig
+
+#madd,みたいな」
+
+$k
+
+// KANAME_A901IK2
+
+#sp,vo,06020146
+要
+「今度のわたしは本気なの！」
+$k
+
+// KINO_A401AK2
+#ir
+#ip,c3,(fi),KINO_A401AK2.png,(x),r2,(s),80%
+#ig
+
+#sp,vo,06060008
+紀乃
+「今のもセットやしなぁ？」
+$k
+
+// KANAME_A901OD5
+
+#sp,vo,06020147
+要
+「違うの、今度こそ、
+　ほんとにほんとなんだってばぁー」
+$k
+
+// MII_A201AK
+#sp,vo,06030036
+みい
+「以下略」
+$k
+
+優
+「えっと…」
+#meffect,flow,5
+$k
+
+// 	SS( CENTER, KANAME_A901IK );
+
+// KANAME_A901IK
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01IK.png,(x),c,(s),80%
+#ie,c2,c3
+#ig
+
+#sp,vo,06020148
+要
+「いーい？　意識改革ってね、
+　こういう小さなことから始まると思うの。
+　まずは変えようという強い意思、そして行動よ」
+$k
+
+// SAKURAKO_A202NR
+
+#sp,vo,06000012
+桜子
+「意志ないでしょ、
+　早起き偶然でしょ」
+$k
+
+// KANAME_A901GB4
+#ir
+#ip,c1,(fi),KANAME_A901.png,(psi),KANAME_An01GB4.png,(x),c,(s),80%
+#ig
+
+#sp,vo,06020149
+要
+「きっと天啓だったのね」
+$k
+
+// MII_A201KB
+
+#sp,vo,06030037
+みい
+「きっかけから神頼みですか」
+$k
+
+// 	SS_( RIGHT, YUKIHA_A201BS );
+
+#ir
+#ip,c1,(fi),YUKIHA_A201.png,(psi),YUKIHA_An01BS.png,(x),r,(s),80%
+#ip,c3,(fi),KINO_A401IK5.png,(x),l,(s),80%
+#ig
+
+// 	SS( LEFT, KINO_A401IK5 );
+
+// YUKIHA_A201BS
+#sp,vo,06050008
+雪華
+「で、でも、思うって大事だよね。
+　プラスになるなら、いいんじゃないかな」
+$k
+
+// KINO_A401IK5
+
+#sp,vo,06060009
+紀乃
+「要…あんた、こんな小さい子にまで
+　気ぃ遣わせよって」
+$k
+
+// KANAME_A903SN
+
+#sp,vo,06020150
+要
+「おかしいってば！
+　どうしてみんな生まれ変わる
+　わたしの旅立ちを祝ってくれないのー！？」
+$k
+
+優
+「………」
+#meffect,flow,5
+$k
+
+// 立ち絵消える。パラメータは適宜。
+#ir
+#ie,c1,c3
+#ig
+
+&empty
+いかん…
+本格的に言いそびれた。
+$k
+
+
+#next,06kaname04_01
